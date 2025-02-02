@@ -1,0 +1,1009 @@
+# Russian translation of ctools (all releases)
+# Copyright (c) 2013 by the Russian translation team
+# Generated from files:
+#  ctools/page_manager/plugins/tasks/comment_reply.inc: n/a
+#  ctools/page_manager/plugins/tasks/page.admin.inc: n/a
+#  page.admin.inc,v 1.18.2.11 2010/07/21 17:37:04 merlinofchaos
+#  page.admin.inc,v 1.18.2.13 2010/08/30 22:07:52 merlinofchaos
+#  ctools/page_manager/plugins/tasks/term_view.inc: n/a
+#  term_view.inc,v 1.5.2.1 2010/06/22 14:48:38 merlinofchaos
+#  ctools/page_manager/plugins/tasks/node_edit.inc: n/a
+#  node_edit.inc,v 1.3 2009/08/04 21:43:06 merlinofchaos
+#  ctools/page_manager/plugins/tasks/blog.inc: n/a
+#  blog.inc,v 1.1.2.2 2010/01/29 21:21:31 merlinofchaos
+#  ctools/page_manager/plugins/tasks/node_view.inc: n/a
+#  node_view.inc,v 1.4 2009/08/04 21:43:06 merlinofchaos
+#  ctools/page_manager/plugins/tasks/page.inc: n/a
+#  page.inc,v 1.17.2.3 2010/01/29 23:06:59 merlinofchaos
+#  page.inc,v 1.17.2.4 2010/08/30 22:07:52 merlinofchaos
+#  ctools/page_manager/plugins/tasks/user_view.inc: n/a
+#  user_view.inc,v 1.3.2.3 2010/07/05 20:20:50 merlinofchaos
+#  ctools/page_manager/plugins/tasks/blog_user.inc: n/a
+#  blog_user.inc,v 1.1.2.2 2009/10/13 18:12:20 merlinofchaos
+#  ctools/page_manager/plugins/tasks/contact_site.inc: n/a
+#  contact_site.inc,v 1.1.2.2 2010/01/29 21:21:31 merlinofchaos
+#  ctools/page_manager/plugins/tasks/contact_user.inc: n/a
+#  contact_user.inc,v 1.1.2.3 2009/12/18 02:34:54 merlinofchaos
+#  ctools/page_manager/plugins/tasks/poll.inc: n/a
+#  poll.inc,v 1.1.2.3 2010/01/29 21:21:31 merlinofchaos
+#  ctools/page_manager/plugins/tasks/search.inc: n/a
+#  search.inc,v 1.1.2.3 2010/07/16 00:40:13 merlinofchaos
+#  ctools/page_manager/plugins/tasks/user_edit.inc: n/a
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: ctools (all releases)\n"
+"POT-Creation-Date: 2013-05-29 14:25+0400\n"
+"PO-Revision-Date: 2011-07-03 02:37+0400\n"
+"Language-Team: Russian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=((((n%10)==1)&&((n%100)!=11))?(0):(((((n%10)>=2)&&((n%10)<=4))&&(((n%100)<10)||((n%100)>=20)))?(1):2));\n"
+
+#: page_manager/plugins/tasks/comment_reply.inc:65
+msgid "The comment you are replying to does not exist."
+msgstr ""
+"Комментарий, на который вы пытаетесь "
+"ответить, больше не существует."
+
+#: page_manager/plugins/tasks/page.admin.inc:219,219,216,216,215,219,215,219,219,219,216,219,215,219,215
+msgid "Menu settings"
+msgstr "Параметры меню"
+
+#: page_manager/plugins/tasks/page.admin.inc:468,468,218,468,218,455,215,215,455,214,454,218,214,454,218,468,218,468,218,468,215,455,218,468,214,454,218,468,214,454
+msgid "Access control"
+msgstr "Контроль доступа"
+
+#: page_manager/plugins/tasks/page.admin.inc:740,743,740,732,737,736,736,740,740,740,737,740,736,740,736
+msgid "Normal menu item"
+msgstr "Обычный пункт меню"
+
+#: page_manager/plugins/tasks/page.admin.inc:914,907,899,904,903,907,903,907,907,907,904,907,903,907,903
+msgid "Change"
+msgstr "Изменить"
+
+#: page_manager/plugins/tasks/term_view.inc:152,163,162,153,153,162,152,162,163,167,167,167,153,167,152,167,152,213
+msgid "Depth"
+msgstr "Глубина"
+
+#: page_manager/plugins/tasks/page.admin.inc:947,940,929,934,933,940,933,940,940,940,934,940,933,940,933
+msgid "Argument"
+msgstr "Аргумент"
+
+#: page_manager/plugins/tasks/page.admin.inc:212,298,216,298,216,295,213,213,295,294,216,298,212,294,216,298,216,298,216,298,213,295,216,298,212,294,216,298,212,294
+msgid "Basic settings"
+msgstr "Основные настройки"
+
+#: page_manager/plugins/tasks/node_edit.inc:128,128,129,129,128,128,129,129,129,129,129,128,129,128
+msgid "Create @name"
+msgstr "Создать @name"
+
+#: page_manager/plugins/tasks/blog.inc:17,16,17,16,17,16,18,17,17,18,16,17,16,17,16,17,18,16,17,16,17,16,17,16,17
+msgid "All blogs"
+msgstr "Общий блог"
+
+#: page_manager/plugins/tasks/node_view.inc:23,21,23,21,24,22,22,24,21,23,21,23,21,23,21,23,22,24,21,23,21,23,21,23,21,23
+msgid "Node template"
+msgstr "Шаблон материала"
+
+#: page_manager/plugins/tasks/page.admin.inc:1283,1414,1287,1410,1283,1379,1261,1266,1384,1265,1383,1410,1265,1383,1283,1410,1283,1410,1282,1409,1283,1410,1266,1384,1282,1409,1265,1383,1282,1409,1265,1383
+msgid "Page name"
+msgstr "Название страницы"
+
+#: page_manager/plugins/tasks/page.inc:149,149,150,150,149,149,150,150,150,150,150,149,150,149
+msgid "Basic"
+msgstr "Базовый"
+
+#: page_manager/plugins/tasks/page.admin.inc:741,738,730,735,734,738,734,738,738,738,735,738,734,738,734
+msgid "Parent menu item"
+msgstr "Родительский пункт меню"
+
+#: page_manager/plugins/tasks/page.admin.inc:518,518,504,504,503,518,503,518,518,518,504,518,503,518,503
+msgid "Path is required."
+msgstr "Путь потребовался."
+
+#: page_manager/plugins/tasks/page.admin.inc:689,689,669,674,673,689,673,689,689,689,674,689,673,689,673
+msgid "Normal menu entry"
+msgstr "Обычный пункт меню"
+
+#: page_manager/plugins/tasks/page.admin.inc:740,743,690,740,690,732,670,675,737,674,736,690,674,736,690,740,690,740,690,740,675,737,690,740,674,736,690,740,674,736
+msgid "Menu tab"
+msgstr "Вкладка"
+
+#: page_manager/plugins/tasks/page.admin.inc:691,691,671,676,675,691,675,691,691,691,676,691,675,691,675
+msgid "Default menu tab"
+msgstr "Вкладка по умолчанию"
+
+#: page_manager/plugins/tasks/page.admin.inc:701,701,680,685,684,701,684,701,701,701,685,701,684,701,684
+msgid "If set to normal or tab, enter the text to use for the menu item."
+msgstr ""
+"Если выбран обычный пункт, или "
+"вкладка, то укажите текст, "
+"используемый для этого пункта."
+
+#: page_manager/plugins/tasks/page.admin.inc:743,732,737,736,736,737,736,736
+msgid "Already exists"
+msgstr "Уже существует"
+
+#: page_manager/plugins/tasks/page.admin.inc:749,753,749,742,747,746,746,749,749,749,747,749,746,749,746
+msgid "If creating a parent menu item, enter the title of the item."
+msgstr ""
+"Создавая пункт родительского меню, "
+"вводите заголовок пункта."
+
+#: page_manager/plugins/tasks/page.admin.inc:778,772,767,772,771,772,771,772,772,772,772,771,772,771
+msgid "Tab weight"
+msgstr "Вес вкладки"
+
+#: page_manager/plugins/tasks/page.admin.inc:782,776,771,776,775,776,775,776,776,776,776,775,776,775
+msgid ""
+"If the parent menu item is a tab, enter the weight of the tab. The "
+"lower the number, the more to the left it will be."
+msgstr ""
+"Если родительским пунктом является "
+"вкладка, введите вес для этой. Чем "
+"меньше значение, тем выше/раньше она "
+"будет в списке."
+
+#: page_manager/plugins/tasks/page.admin.inc:690,695,694,694,695,694,694
+msgid ""
+"Warning: Changing this item's menu will not work reliably in Drupal "
+"6.4 or earlier. Please upgrade your copy of Drupal at !url."
+msgstr ""
+"Предупреждение: Изменение этого "
+"пункта меню не будет работать "
+"правильно на Drupal 6.4 или более ранних. "
+"Пожалуйста, обновите вашу копию Drupal по "
+"адресу !url."
+
+#: page_manager/plugins/tasks/page.admin.inc:765,715,760,714,754,704,709,759,708,758,714,760,708,758,714,760,714,760,714,760,709,759,714,760,708,758,714,760,708,758
+msgid "Insert item into an available menu."
+msgstr "Добавить пункт в указанное меню."
+
+#: page_manager/plugins/tasks/page.admin.inc:733,731,722,727,726,731,726,731,731,731,727,731,726,731,726
+msgid "The lower the weight the higher/further left it will appear."
+msgstr ""
+"Чем меньше значение, тем выше/раньше "
+"он отобразится в списке."
+
+#: page_manager/plugins/tasks/page.admin.inc:726,724,715,720,719,724,719,724,724,724,720,724,719,724,719
+msgid "Menu selection requires the activation of menu module."
+msgstr ""
+"Для выбора меню требуется включение "
+"модуля меню."
+
+#: page_manager/plugins/tasks/node_view.inc:117,117,118,118,117,117,118,121,126,126,126,118,120,120,126,120,126,120
+msgid "Node being viewed"
+msgstr ""
+
+#: page_manager/plugins/tasks/page.inc:21,21,22,22,21,21,21,21,22,21,21,21,21
+msgid "Custom pages"
+msgstr ""
+
+#: page_manager/plugins/tasks/page.admin.inc:1408,392,1404,392,1386,389,389,1391,388,1390,392,1404,388,1390,392,1404,392,1404,1403,392,1404,389,1391,392,1403,388,1390,392,1403,388,1390
+msgid ""
+"The name of this page. This will appear in the administrative "
+"interface to easily identify it."
+msgstr ""
+"Содержательное название страницы. Оно "
+"будет отображаться в интерфейсе "
+"управления."
+
+#: page_manager/plugins/tasks/page.admin.inc:582,582,563,568,567,582,567,582,582,582,568,582,567,582,567
+msgid "Duplicated argument %arg"
+msgstr ""
+
+#: page_manager/plugins/tasks/page.admin.inc:587,587,568,573,572,587,572,587,587,587,573,587,572,587,572
+msgid "Invalid arg <em>%</em>. All arguments must be named with keywords."
+msgstr ""
+
+#: page_manager/plugins/tasks/page.admin.inc:742,745,742,734,739,738,738,742,742,742,739,742,738,742,738
+msgid ""
+"When providing a menu item as a default tab, Drupal needs to know what "
+"the parent menu item of that tab will be. Sometimes the parent will "
+"already exist, but other times you will need to have one created. The "
+"path of a parent item will always be the same path with the last part "
+"left off. i.e, if the path to this view is <em>foo/bar/baz</em>, the "
+"parent path would be <em>foo/bar</em>."
+msgstr ""
+"Если страница выступает в меню в "
+"качестве вкладки по умолчанию, "
+"системе Drupal необходимо знать, какой "
+"пункт меню для этого будет "
+"родительским. Иногда родительский "
+"пункт уже существует, но в остальных "
+"случаях вам необходимо "
+"самостоятельно создать его. В "
+"качестве пути родительского пункта "
+"всегда будет путь страницы без "
+"последнее его части. То есть, если "
+"адрес данной страницы - <em>foo/bar/baz</em>, то "
+"адрес родительского пункта - <em>foo/bar</em>."
+
+#: page_manager/plugins/tasks/page.admin.inc:746,750,746,739,744,743,743,746,746,746,744,746,743,746,743
+msgid "Parent item title"
+msgstr "Название родительского пункта"
+
+#: page_manager/plugins/tasks/page.admin.inc:756,761,756,750,755,754,754,756,756,756,755,756,754,756,754
+msgid "Parent item menu"
+msgstr "Меню родительского пункта"
+
+#: page_manager/plugins/tasks/page.admin.inc:883,890,883,875,880,879,879,883,883,883,880,883,879,883,879
+msgid "No context assigned"
+msgstr ""
+
+#: page_manager/plugins/tasks/page.admin.inc:948,941,930,935,934,941,934,941,941,941,935,941,934,941,934
+msgid "Position in path"
+msgstr ""
+
+#: page_manager/plugins/tasks/page.admin.inc:949,942,931,936,935,942,935,942,942,942,936,942,935,942,935
+msgid "Context assigned"
+msgstr ""
+
+#: page_manager/plugins/tasks/page.admin.inc:961,968,961,950,955,954,954,961,961,961,955,961,954,961,954
+msgid "The path %path has no arguments to configure."
+msgstr ""
+
+#: page_manager/plugins/tasks/page.admin.inc:1002,995,984,989,988,995,988,995,995,995,989,995,988,995,988
+msgid "Invalid keyword."
+msgstr "Неверное ключевое слово"
+
+#: page_manager/plugins/tasks/page.admin.inc:1014,1007,996,1001,1000,1007,1000,1007,1007,1007,1001,1007,1000,1007,1000
+msgid "Change context type"
+msgstr ""
+
+#: page_manager/plugins/tasks/page.admin.inc:1023,1015,217,1016,1008,217,1005,997,214,214,1002,1010,213,1001,1009,217,1008,1016,213,1001,1009,217,1008,1016,217,1008,1016,217,1008,1016,214,1002,1010,217,1008,1016,213,1001,1009,217,1008,1016,213,1001,1009
+msgid "Argument settings"
+msgstr ""
+
+#: page_manager/plugins/tasks/page.admin.inc:1019,1012,1001,1006,1005,1012,1005,1012,1012,1012,1006,1012,1005,1012,1005
+msgid "Change argument"
+msgstr ""
+
+#: page_manager/plugins/tasks/page.admin.inc:1126,1130,1126,1107,1112,1111,1111,1126,1126,1125,1126,1112,1125,1111,1125,1111
+msgid "No context selected"
+msgstr ""
+
+#: page_manager/plugins/tasks/page.admin.inc:1215,1211,1190,1195,1194,1211,1194,1211,1211,1210,1211,1195,1210,1194,1210,1194
+msgid "Error: missing argument."
+msgstr ""
+
+#: page_manager/plugins/tasks/page.admin.inc:1228,1224,1203,1208,1207,1224,1207,1224,1224,1223,1224,1208,1223,1207,1223,1207
+msgid "Context identifier"
+msgstr ""
+
+#: page_manager/plugins/tasks/page.admin.inc:1229,1225,1204,1209,1208,1225,1208,1225,1225,1224,1225,1209,1224,1208,1224,1208
+msgid ""
+"This is the title of the context used to identify it later in the "
+"administrative process. This will never be shown to a user."
+msgstr ""
+
+#: page_manager/plugins/tasks/page.admin.inc:1231,1235,1231,1210,1215,1214,1214,1231,1231,1230,1231,1215,1230,1214,1230,1214
+msgid "Error: missing or invalid argument plugin %argument."
+msgstr ""
+
+#: page_manager/plugins/tasks/page.admin.inc:1280,1284,1280,1258,1263,1262,1262,1280,1280,1279,1280,1263,1279,1262,1279,1262
+msgid "Import page"
+msgstr "Импортировать страницу"
+
+#: page_manager/plugins/tasks/page.admin.inc:1305,1301,1279,1284,1283,1301,1283,1301,1301,1300,1301,1284,1300,1283,1300,1283
+msgid "Paste page code here"
+msgstr "Введите код страницы в это поле"
+
+#: page_manager/plugins/tasks/page.admin.inc:1492,1488,1509,1463,1462,1488,1462,1488,1488,1487,1488,1463,1487,1462,1487,1462
+msgid ""
+"Reverting the page will delete the page that is in the database, "
+"reverting it to the original default page. Any changes you have made "
+"will be lost and cannot be recovered."
+msgstr ""
+
+#: page_manager/plugins/tasks/page.admin.inc:1516,1520,1516,1535,1489,1488,1488,1516,1516,1515,1516,1489,1515,1488,1515,1488
+msgid "The page has been deleted."
+msgstr ""
+
+#: page_manager/plugins/tasks/page.inc:22,22,23,23,22,22,22,22,23,22,22,22,22
+msgid ""
+"Administrator created pages that have a URL path, access control and "
+"entries in the Drupal menu system."
+msgstr ""
+
+#: page_manager/plugins/tasks/node_edit.inc:142,142,143,143,142,142,143,143,143,143,143,142,143,142
+msgid "Node being edited"
+msgstr ""
+
+#: page_manager/plugins/tasks/page.admin.inc:403,403,396,396,395,403,395,403,403,403,396,403,395,403,395
+msgid ""
+"The machine readable name of this page. It must be unique, and it must "
+"contain only alphanumeric characters and underscores. Once created, "
+"you will not be able to change this value!"
+msgstr ""
+"Понятное компьютеру название этой "
+"страницы. Оно должно быть уникальным. "
+"В названии могут использоваться "
+"только символы английского алфавита и "
+"знаки подчёркивания. После создания "
+"страницы изменить компьютерное "
+"название будет нельзя!"
+
+#: page_manager/plugins/tasks/page.admin.inc:510,510,496,496,495,510,495,510,510,510,496,510,495,510,495
+msgid "That path is used by another page: @page"
+msgstr ""
+
+#: page_manager/plugins/tasks/page.admin.inc:503,503,503,489,489,488,488,503,503,503,489,503,488,503,488
+msgid "Page name must be alphanumeric or underscores only."
+msgstr ""
+
+#: page_manager/plugins/tasks/page.admin.inc:1419,1415,1380,1385,1384,1415,1384,1415,1415,1414,1415,1385,1414,1384,1414,1384
+msgid ""
+"Enter the name to the new page It must be unique and contain only "
+"alphanumeric characters and underscores."
+msgstr ""
+"Введите название новой страницы. Оно "
+"должно быть уникальным, а также может "
+"содержать только символы английского "
+"алфавита и знак подчёркивания."
+
+#: page_manager/plugins/tasks/term_view.inc:144,154,154,145,145,154,144,154,155,159,159,159,145,159,144,159,144,205
+msgid "Term(s) being viewed"
+msgstr "Текущий термин(ы)"
+
+#: page_manager/plugins/tasks/term_view.inc:154,144,154,154,145,145,144,154,155,159,159,159,145,159,144,159,144,205
+msgid "Term being viewed"
+msgstr ""
+
+#: page_manager/plugins/tasks/term_view.inc:218,208,219,218,209,209,208,218,219,223,223,223,209,223,208,223,208,269
+msgid "Single term"
+msgstr "Только один термин"
+
+#: page_manager/plugins/tasks/term_view.inc:218,208,219,218,209,209,208,218,219,223,223,223,209,223,208,223,208,269
+msgid "Multiple terms"
+msgstr "Несколько терминов"
+
+#: page_manager/plugins/tasks/term_view.inc:209,220,219,210,210,219,209,219,220,224,224,224,210,224,209,224,209,270
+msgid ""
+"By default, Drupal allows multiple terms as an argument by separating "
+"them with commas or plus signs. If you set this to single, that "
+"feature will be disabled."
+msgstr ""
+"По умолчанию Drupal позволяет "
+"использовать несколько терминов в "
+"качестве аргументов, разделённых "
+"запятыми или знаками \"+\". При выборе "
+"варианта \"Только один термин\" эта "
+"возможность станет недоступна."
+
+#: page_manager/plugins/tasks/page.admin.inc:423,423,416,416,415,423,415,423,423,423,416,423,415,423,415
+msgid ""
+"The URL path to get to this page. You may create named placeholders "
+"for variable parts of the path by using %name for required elements "
+"and !name for optional elements. For example: \"node/%node/foo\", "
+"\"forum/%forum\" or \"dashboard/!input\". These named placeholders can "
+"be turned into contexts on the arguments form."
+msgstr ""
+"Адрес, по которому будет "
+"располагаться данная страница. Вы "
+"можете использовать "
+"шаблоны-заменители для изменяющихся "
+"частей адреса. Для этого введите %name "
+"вместо обязательных частей, либо !name - "
+"вместо возможных. Например: \"node/%node/foo\", "
+"\"forum/%forum\" или \"dashboard/!input\". В форме "
+"редактирования аргументов эти "
+"шаблоны-заменители могут быть "
+"преобразованы в контексты."
+
+#: page_manager/plugins/tasks/page.admin.inc:536,536,522,522,521,536,521,536,536,536,522,536,521,536,521
+msgid "You cannot have a dynamic path element after an optional path element."
+msgstr ""
+
+#: page_manager/plugins/tasks/page.admin.inc:550,550,531,536,535,550,535,550,550,550,536,550,535,550,535
+msgid "You cannot have a static path element after an optional path element."
+msgstr ""
+
+#: page_manager/plugins/tasks/term_view.inc:207,218,217,208,208,217,207,217,218,222,222,222,208,222,207,222,207,268,207,218,217,208,208,217,207,217,218,222,222,222,208,222,207,222,207,268
+msgid "Allow multiple terms on taxonomy/term/%term"
+msgstr ""
+"Возможность нескольких терминов в "
+"качестве аргументов для taxonomy/term/%term"
+
+#: page_manager/plugins/tasks/page.admin.inc:299,299,296,296,295,299,295,299,299,299,296,299,295,299,295
+msgid "A meaningless second page"
+msgstr ""
+
+#: page_manager/plugins/tasks/page.admin.inc:469,469,469,456,456,455,455,469,469,469,456,469,455,469,455
+msgid "Visible menu item"
+msgstr "Отображаемый пункт меню"
+
+#: page_manager/plugins/tasks/page.admin.inc:498,498,498,484,484,483,483,498,498,498,484,498,483,498,483
+msgid "That name is used by another page: @page"
+msgstr ""
+
+#: page_manager/plugins/tasks/page.admin.inc:1288,1284,1262,1267,1266,1284,1266,1284,1284,1283,1284,1267,1283,1266,1283,1266
+msgid ""
+"Enter the name to use for this page if it is different from the source "
+"page. Leave blank to use the original name of the page."
+msgstr ""
+"Если хотите изменить название "
+"исходной страницы, введите его в это "
+"поле. Чтобы использовать оригинальное "
+"название, оставьте поле пустым."
+
+#: page_manager/plugins/tasks/page.admin.inc:1294,1290,1268,1273,1272,1290,1272,1290,1290,1289,1290,1273,1289,1272,1289,1272
+msgid ""
+"Enter the path to use for this page if it is different from the source "
+"page. Leave blank to use the original path of the page."
+msgstr ""
+"Если хотите изменить внутренний путь "
+"Drupal, по которому будет располагаться "
+"страница, введите его в это поле. Чтобы "
+"использовать оригинальный путь, "
+"оставьте поле пустым."
+
+#: page_manager/plugins/tasks/page.admin.inc:1295,1299,1295,1273,1278,1277,1277,1295,1295,1294,1295,1278,1294,1277,1294,1277
+msgid "Allow overwrite of an existing page"
+msgstr "Заменить существующую страницу"
+
+#: page_manager/plugins/tasks/page.admin.inc:1296,1300,1296,1274,1279,1278,1278,1296,1296,1295,1296,1279,1295,1278,1295,1278
+msgid ""
+"If the name you selected already exists in the database, this page "
+"will be allowed to overwrite the existing page."
+msgstr ""
+"Если страница с таким названием уже "
+"существует, импортируемая страница её "
+"заменит."
+
+#: page_manager/plugins/tasks/page.admin.inc:1327,1323,1301,1306,1305,1323,1305,1323,1323,1322,1323,1306,1322,1305,1322,1305
+msgid "No handler found."
+msgstr ""
+
+#: page_manager/plugins/tasks/page.admin.inc:1329,1325,1303,1308,1307,1325,1307,1325,1325,1324,1325,1308,1324,1307,1324,1307
+msgid "Unable to get a page from the import. Errors reported: @errors"
+msgstr ""
+
+#: page_manager/plugins/tasks/page.admin.inc:1340,1336,1314,1319,1318,1336,1318,1336,1336,1335,1336,1319,1335,1318,1335,1318
+msgid ""
+"That page name is in use and locked by another user. You must <a "
+"href=\"!break\">break the lock</a> on that page before proceeding, or "
+"choose a different name."
+msgstr ""
+
+#: page_manager/plugins/tasks/page.admin.inc:1426,1422,1394,1399,1398,1422,1398,1422,1422,1421,1422,1399,1421,1398,1421,1398
+msgid ""
+"The URL path to get to this page. You may create named placeholders "
+"for variable parts of the path by using %name for required elements "
+"and !name for optional elements. For example: \"node/%node/foo\", "
+"\"forum/%forum\" or \"dashboard/!input\". These named placeholders can "
+"be turned into contexts on the arguments form. You cannot use the same "
+"path as the original page."
+msgstr ""
+"Адрес URL, по которому расположена эта "
+"страница. Вместо изменяющихся частей "
+"адреса вы можете ввести "
+"шаблоны-заменители: вида %name для "
+"обязательных частей и !name - для "
+"возможных.<br />\r\n"
+"Например: \"node/%node/foo\", \"forum/%forum\" или "
+"\"dashboard/!input\" (без кавычек). Эти "
+"шаблоны-заменители можно будет "
+"преобразовать в контексты в форме "
+"аргументов. Вы не можете использовать "
+"тот же адрес, что и у основной "
+"страницы."
+
+#: page_manager/plugins/tasks/page.admin.inc:1432,1428,1400,1405,1404,1428,1404,1428,1428,1427,1428,1405,1427,1404,1427,1404
+msgid "Clone variants"
+msgstr "Клонировать варианты"
+
+#: page_manager/plugins/tasks/page.admin.inc:1433,1429,1401,1406,1405,1429,1405,1429,1429,1428,1429,1406,1428,1405,1428,1405
+msgid ""
+"If checked all variants associated with the page will be cloned as "
+"well. If not checked the page will be cloned without variants."
+msgstr ""
+"Если выбрано, все принадлежащие этой "
+"странице варианты также будут "
+"склонированы. Если нет - страница "
+"будет склонирована без вариантов."
+
+#: page_manager/plugins/tasks/page.admin.inc:1495,1491,1512,1466,1465,1491,1465,1491,1491,1490,1491,1466,1490,1465,1490,1465
+msgid ""
+"Are you sure you want to delete this page? Deleting a page cannot be "
+"undone."
+msgstr ""
+"Вы уверены, что хотите удалить эту "
+"страницу? Восстановить её не удастся."
+
+#: page_manager/plugins/tasks/page.inc:158,158,158,159,159,158,159,159,159,159,159,158,159,158
+msgid "Set up contexts for the arguments on this page."
+msgstr ""
+
+#: page_manager/plugins/tasks/page.inc:165,165,166,166,165,165,166,166,166,166,166,165,166,165
+msgid "Control what users can access this page."
+msgstr ""
+
+#: page_manager/plugins/tasks/page.inc:172,172,173,173,172,172,173,173,173,173,173,172,173,172
+msgid "Provide this page a visible menu or a menu tab."
+msgstr ""
+
+#: page_manager/plugins/tasks/page.inc:178,178,179,179,178,178,179,179,179,179,179,178,179,178
+msgid "Make a copy of this page"
+msgstr "Создать копию этой страницы"
+
+#: page_manager/plugins/tasks/page.inc:183,183,184,184,183,183,184,184,184,184,184,183,184,183
+msgid ""
+"Export this page as code that can be imported or embedded into a "
+"module."
+msgstr ""
+"Экспорт этой страницы в виде кода для "
+"последующего импорта или внедрения в "
+"модуль."
+
+#: page_manager/plugins/tasks/page.inc:189,189,190,190,189,189,190,190,190,190,190,189,190,189
+msgid "Remove all changes to this page and revert to the version in code."
+msgstr ""
+
+#: page_manager/plugins/tasks/page.inc:196,196,197,197,196,196,197,197,197,197,197,196,197,196
+msgid "Remove this page from your system completely."
+msgstr ""
+"Окончательно удалить эту страницу из "
+"системы."
+
+#: page_manager/plugins/tasks/user_view.inc:15,12,11,15,14,15,14,13,12,12,13,14,11,12,14,15,14,15,14,15,13,14,15,11,12,14,15,11,12
+msgid "User profile template"
+msgstr "Шаблон профиля пользователя"
+
+#: page_manager/plugins/tasks/page.admin.inc:415,415,408,408,407,415,407,415,415,415,408,415,407,415,407
+msgid ""
+"A description of what this page is, does or is for, for administrative "
+"use."
+msgstr ""
+"Описание того, что собой представляет "
+"данная страница, для чего "
+"предназначена, какие задачи "
+"осуществляет. Заполнить "
+"рекомендуется из соображений "
+"удобства управления страницами."
+
+#: page_manager/plugins/tasks/node_edit.inc:13,12,13,12,14,13,13,14,12,13,12,13,12,13,12,13,14,12,13,12,13,12,13,12,13
+msgid "Node add/edit form"
+msgstr ""
+"Форма создания/редактирования "
+"материала"
+
+#: page_manager/plugins/tasks/node_edit.inc:14,14,14,15,15,14,14,14,15,14,14,14,14
+msgid ""
+"When enabled, this overrides the default Drupal behavior for adding or "
+"edit nodes at <em>node/%node/edit</em> and "
+"<em>node/add/%node_type</em>. If you add variants, you may use "
+"selection criteria such as node type or language or user access to "
+"provide different edit forms for nodes. If no variant is selected, the "
+"default Drupal node edit will be used."
+msgstr ""
+
+#: page_manager/plugins/tasks/node_view.inc:24,24,25,25,24,24,24,24,25,24,24,24,24
+msgid ""
+"When enabled, this overrides the default Drupal behavior for "
+"displaying nodes at <em>node/%node</em>. If you add variants, you may "
+"use selection criteria such as node type or language or user access to "
+"provide different views of nodes. If no variant is selected, the "
+"default Drupal node view will be used. This page only affects nodes "
+"viewed as pages, it will not affect nodes viewed in lists or at other "
+"locations. Also please note that if you are using pathauto, aliases "
+"may make a node to be somewhere else, but as far as Drupal is "
+"concerned, they are still at node/%node."
+msgstr ""
+
+#: page_manager/plugins/tasks/page.admin.inc:569,569,550,555,554,569,554,569,569,569,555,569,554,569,554
+msgid ""
+"That path is currently assigned to be an alias for @alias. This system "
+"cannot override existing aliases."
+msgstr ""
+
+#: page_manager/plugins/tasks/page.inc:166,166,167,167,166,166,167,167,167,167,167,166,167,166
+msgid ""
+"Access rules are used to test if the page is accessible and any menu "
+"items associated with it are visible."
+msgstr ""
+"С помощью правил доступа вы можете "
+"указать, при каких условиях страница "
+"будет доступна, а ассоциированные с "
+"ней пункты меню отобразятся."
+
+#: page_manager/plugins/tasks/page.inc:633,633,644,644,643,633,643,632,642,632,642,633,633,644,633,642,633,642
+msgid "Accessible only if @conditions."
+msgstr "Доступно, только если @conditions."
+
+#: page_manager/plugins/tasks/page.inc:648,648,659,659,658,648,658,647,657,647,657,648,648,659,648,657,648,657
+msgid "No menu entry."
+msgstr ""
+
+#: page_manager/plugins/tasks/page.inc:649,649,660,660,659,649,659,648,658,648,658,649,649,660,649,658,649,658
+msgid "Normal menu entry."
+msgstr "Нормальный элемент меню."
+
+#: page_manager/plugins/tasks/page.inc:650,650,661,661,660,650,660,649,659,649,659,650,650,661,650,659,650,659
+msgid "Menu tab."
+msgstr ""
+
+#: page_manager/plugins/tasks/page.inc:651,651,662,662,661,651,661,650,660,650,660,651,651,662,651,660,651,660
+msgid "Default menu tab."
+msgstr ""
+
+#: page_manager/plugins/tasks/page.inc:658,658,668,668,667,658,667,657,666,657,666,658,658,668,658,666,658,666
+msgid "Title: %title."
+msgstr "Заголовок %title."
+
+#: page_manager/plugins/tasks/page.inc:661,661,671,671,670,661,670,660,669,660,669,661,661,671,661,669,661,669
+msgid "Parent title: %title."
+msgstr ""
+
+#: page_manager/plugins/tasks/page.inc:666,666,676,676,675,666,675,665,674,665,674,666,666,676,666,674,666,674
+msgid "Menu block: %title."
+msgstr ""
+
+#: page_manager/plugins/tasks/term_view.inc:23,22,23,22,23,22,24,23,23,24,22,23,22,23,22,23,24,22,23,22,23,22,23,22,23
+msgid "Taxonomy term template"
+msgstr "Шаблон термина таксономии"
+
+#: page_manager/plugins/tasks/term_view.inc:24,24,24,25,25,24,24,24,25,24,24,24,24
+msgid ""
+"When enabled, this overrides the default Drupal behavior for "
+"displaying taxonomy terms at <em>taxonomy/term/%term</em>. If you add "
+"variants, you may use selection criteria such as vocabulary or user "
+"access to provide different displays of the taxonomy term and "
+"associated nodes. If no variant is selected, the default Drupal "
+"taxonomy term display will be used. This page only affects items "
+"actually displayed ad taxonomy/term/%term. Some taxonomy terms, such "
+"as forums, have their displays moved elsewhere. Also please note that "
+"if you are using pathauto, aliases may make a taxonomy terms appear "
+"somewhere else, but as far as Drupal is concerned, they are still at "
+"taxonomy/term/%term."
+msgstr ""
+"Если эта страница включена, она "
+"изменяет стандартное отображение "
+"терминов таксономии в Drupal, перекрывая "
+"собой адреса вида <em>taxonomy/term/%term</em>. Вы "
+"можете сделать несколько различных "
+"шаблонов отображения, которые будут "
+"выбираться в зависимости от "
+"выполнения определённых критерев. "
+"Например, для разных словарей или в "
+"зависимости от наличия некоторых прав "
+"доступа у пользователя могут быть "
+"показаны страницы с разной "
+"структурой. Для этого достаточно "
+"создать несколько <strong>Вариантов</strong>, "
+"определив для каждого из них свои "
+"<strong>Правила выбора</strong>. Если ни один "
+"из вариантов не будет подходить по "
+"условиям к определённому термину, для "
+"него отобразится стандартная "
+"страница таксономии.<br />\r\n"
+"Необходимо понимать, что данная "
+"Страница-панель перекрывает лишь те "
+"страницы терминов, которые "
+"действительно расположены в системе "
+"по адресу taxonomy/term/%term. У некоторых "
+"терминов таксономии, например "
+"разделов форума, свои собственные "
+"адреса. Также, пользуясь синонимами "
+"модуля pathauto, вы можете выводить данную "
+"Страницу-панель по другим адресам. "
+"Поскольку на самом деле в системе Drupal "
+"её адресом по-прежнему будет "
+"taxonomy/term/%term, она корректно обработает "
+"термин, открытый по адресу-синониму, и "
+"выведет соответствующий Вариант (либо "
+"стандартную страницу таксономии)."
+
+#: page_manager/plugins/tasks/user_view.inc:13,16,16,14,14,16,13,16,16,16,14,16,13,16,13
+msgid ""
+"When enabled, this overrides the default Drupal behavior for "
+"displaying user profiles at <em>user/%user</em>. If you add variants, "
+"you may use selection criteria such as roles or user access to provide "
+"different views of user profiles. If no variant is selected, the "
+"default Drupal user view will be used. Please note that if you are "
+"using pathauto, aliases may make a node to be somewhere else, but as "
+"far as Drupal is concerned, they are still at user/%user."
+msgstr ""
+
+#: page_manager/plugins/tasks/page.admin.inc:445,445,438,438,437,445,437,445,445,445,438,445,437,445,437
+msgid "Make this your site home page."
+msgstr "Сделать главной страницей сайта"
+
+#: page_manager/plugins/tasks/page.admin.inc:574,574,555,560,559,574,559,574,574,574,560,574,559,574,559
+msgid ""
+"You cannot make this page your site home page if it uses % "
+"placeholders."
+msgstr ""
+
+#: page_manager/plugins/tasks/page.inc:610,600,600,611,611,600,610,599,609,599,609,600,600,611,600,609,600,609
+msgid "This is your site home page."
+msgstr "Это главная страница вашего сайта."
+
+#: page_manager/plugins/tasks/page.inc:613,603,603,614,614,603,613,602,612,602,612,603,603,614,603,612,603,612
+msgid "This page is set to become your site home page."
+msgstr ""
+"Эта страница выбрана в качестве "
+"главной (домашней) для вашего сайта."
+
+#: page_manager/plugins/tasks/term_view.inc:261,272,283,262,262,283,261,283,284,288,288,288,262,288,261,288,261,334
+msgid "Multiple terms may be used, separated by , or +."
+msgstr ""
+"Могут быть переданы несколько "
+"терминов, разделённые запятой или "
+"знаком +."
+
+#: page_manager/plugins/tasks/term_view.inc:286,264,275,286,265,265,264,286,287,291,291,291,265,291,264,291,264,337
+msgid "Only a single term may be used."
+msgstr ""
+
+#: page_manager/plugins/tasks/term_view.inc:290,268,279,290,269,269,268,290,291,295,295,295,269,295,268,295,268,341
+msgid "%term"
+msgstr ""
+
+#: page_manager/plugins/tasks/term_view.inc:274,285,296,275,275,296,274,296,297,301,301,301,275,301,274,301,274,347
+msgid "Breadcrumb trail will contain taxonomy term hierarchy"
+msgstr ""
+"В навигационную цепочку будет "
+"включена восходящая иерархия термина "
+"таксономии"
+
+#: page_manager/plugins/tasks/term_view.inc:277,288,299,278,278,299,277,299,300,304,304,304,278,304,277,304,277,350
+msgid "Breadcrumb trail will not contain taxonomy term hiearchy."
+msgstr ""
+
+#: page_manager/plugins/tasks/page.admin.inc:1524,1520,1539,1493,1492,1520,1492,1520,1520,1519,1520,1493,1519,1492,1519,1492
+msgid "The page has been reverted."
+msgstr ""
+
+#: page_manager/plugins/tasks/page.inc:38,38,39,39,38,38,39,39,39,39,39,38,39,38
+msgid "Create a new page"
+msgstr "Создать новую страницу"
+
+#: page_manager/plugins/tasks/node_edit.inc:54,54,54,55,55,54,55,55,55,55,55,54,55,54
+msgid ""
+"Page manager module is unable to enable node/%node/edit because some "
+"other module already has overridden with %callback."
+msgstr ""
+
+#: page_manager/plugins/tasks/node_edit.inc:64,64,64,65,65,64,65,65,65,65,65,64,65,64
+msgid ""
+"Page manager module is unable to override @path because some other "
+"module already has overridden with %callback. Node edit will be "
+"enabled but that edit path will not be overridden."
+msgstr ""
+
+#: page_manager/plugins/tasks/node_view.inc:65,65,66,66,65,65,66,66,66,66,66,65,66,65
+msgid ""
+"Page manager module is unable to enable node/%node because some other "
+"module already has overridden with %callback."
+msgstr ""
+
+#: page_manager/plugins/tasks/term_view.inc:84,85,85,84,85,84,84
+msgid ""
+"Page manager module is unable to enable taxonomy/term/%term because "
+"some other module already has overridden with %callback."
+msgstr ""
+
+#: page_manager/plugins/tasks/user_view.inc:58,55,58,58,56,56,55,58,59,59,59,56,59,55,59,55
+msgid ""
+"Page manager module is unable to enable user/%user because some other "
+"module already has overridden with %callback."
+msgstr ""
+
+#: page_manager/plugins/tasks/page.admin.inc:812,819,812,806,811,810,810,812,812,812,811,812,810,812,810
+msgid ""
+"Paths with non optional placeholders cannot be used as normal menu "
+"items unless the selected argument handler provides a default argument "
+"to use for the menu item."
+msgstr ""
+
+#: page_manager/plugins/tasks/blog.inc:18,18,18,19,19,18,18,18,19,18,18,18,18
+msgid ""
+"When enabled, this overrides the default Drupal behavior for the all "
+"blogs at <em>/blog</em>. If no variant is selected, the default Drupal "
+"most recent blog posts will be shown."
+msgstr ""
+
+#: page_manager/plugins/tasks/blog.inc:55,55,56,56,55,55,56,56,56,56,56,55,56,55
+msgid ""
+"Page manager module is unable to enable blog because some other module "
+"already has overridden with %callback."
+msgstr ""
+
+#: page_manager/plugins/tasks/blog_user.inc:16,15,16,15,17,16,16,17,15,16,15,16,15,16,15,16,17,15,16,15,16,15,16,15,16
+msgid "User blog"
+msgstr "Блог пользователя"
+
+#: page_manager/plugins/tasks/blog_user.inc:17,17,18,18,17,17,17,17,18,17,17,17,17
+msgid ""
+"When enabled, this overrides the default Drupal behavior for "
+"displaying user blogs at <em>blog/%user</em>. If no variant is "
+"selected, the default Drupal user blog will be used."
+msgstr ""
+
+#: page_manager/plugins/tasks/blog_user.inc:58,58,59,59,58,58,59,59,59,59,59,58,59,58
+msgid ""
+"Page manager module is unable to enable blog/%user because some other "
+"module already has overridden with %callback."
+msgstr ""
+
+#: page_manager/plugins/tasks/contact_site.inc:17,16,17,16,18,17,17,18,16,17,16,17,16,17,16,17,18,16,17,16,17,16,17,16,17
+msgid "Site contact page"
+msgstr ""
+
+#: page_manager/plugins/tasks/contact_site.inc:55,59,59,56,56,59,55,59,60,60,60,56,60,55,60,55
+msgid ""
+"Page manager module is unable to enable contact because some other "
+"module already has overridden with %callback."
+msgstr ""
+
+#: page_manager/plugins/tasks/contact_user.inc:15,14,15,14,16,15,15,16,14,15,14,15,14,15,14,15,16,14,15,14,15,14,15,14,15
+msgid "User contact"
+msgstr "Контакт пользователя"
+
+#: page_manager/plugins/tasks/contact_user.inc:16,16,16,17,17,16,16,16,17,16,16,16,16
+msgid ""
+"When enabled, this overrides the default Drupal behavior for "
+"displaying the user contact form at <em>user/%user/contact</em>. If no "
+"variant is selected, the default Drupal user contact form will be "
+"used."
+msgstr ""
+
+#: page_manager/plugins/tasks/contact_user.inc:61,57,61,61,58,58,57,61,62,62,62,58,62,57,62,57
+msgid ""
+"Page manager module is unable to enable user/%user/contact because "
+"some other module already has overridden with %callback."
+msgstr ""
+
+#: page_manager/plugins/tasks/page.admin.inc:531,531,517,517,516,531,516,531,531,531,517,531,516,531,516
+msgid ""
+"You cannot have an unnamed placeholder (% or ! by itself). Please name "
+"your placeholder by adding a short piece of descriptive text to the % "
+"or !, such as %user or %node."
+msgstr ""
+
+#: page_manager/plugins/tasks/poll.inc:17,16,17,16,17,16,18,17,17,18,16,17,16,17,16,17,18,16,17,16,17,16,17,16,17
+msgid "All polls"
+msgstr ""
+
+#: page_manager/plugins/tasks/poll.inc:18,18,18,19,19,18,18,18,19,18,18,18,18
+msgid ""
+"When enabled, this overrides the default Drupal behavior for the polls "
+"at <em>/poll</em>. If no variant is selected, the default Drupal most "
+"recent polls will be shown."
+msgstr ""
+
+#: page_manager/plugins/tasks/poll.inc:55,55,55,56,56,55,56,56,56,56,56,55,56,55
+msgid ""
+"Page manager module is unable to enable poll because some other module "
+"already has overridden with %callback."
+msgstr ""
+
+#: page_manager/plugins/tasks/search.inc:140,139,141,141,140,141,140,140
+msgid ""
+"Page manager module is unable to enable search/@name/%menu_tail "
+"because some other module already has overridden with %callback."
+msgstr ""
+
+#: page_manager/plugins/tasks/search.inc:280,282,218,281,281,218,280,218,219,222,222,222,281,222,280,222,280
+msgid "Search @type"
+msgstr ""
+
+#: page_manager/plugins/tasks/page.admin.inc:446,446,439,439,438,446,438,446,446,446,439,446,438,446,438,446,446,439,439,438,446,438,446,446,446,439,446,438,446,438
+msgid ""
+"To set this panel as your home page you must create a unique path name "
+"with no % placeholders in the path. The site home page is currently "
+"set to %homepage on the !siteinfo configuration form."
+msgstr ""
+"Чтобы сделать эту страницу стартовой "
+"(главной) на сайте, поставьте данный "
+"флажок. В этом случае необходимо "
+"задать странице уникальный адрес безо "
+"всяких % шаблонов-заменителей в пути. В "
+"данный момент адресом главной "
+"страницы назначен %homepage. Изменить его "
+"можно в разделе !siteinfo."
+
+#: page_manager/plugins/tasks/page.admin.inc:457,457,444,444,443,457,443,457,457,457,444,457,443,457,443
+msgid ""
+"This page is currently set to be your site home page. This can be "
+"modified on the !siteinfo configuration form."
+msgstr ""
+"В данный момент эта страница является "
+"главной (домашней) на вашем сайте. Это "
+"можно изменить в разделе !siteinfo."
+
+#: page_manager/plugins/tasks/term_view.inc:188
+msgid "There is currently no content classified with this term."
+msgstr ""
+"На данный момент нет содержимого, "
+"классифицированного этим термином."
+
+#: page_manager/plugins/tasks/page.admin.inc:561,561,542,547,546,561,546,561,561,561,547,561,546,561,546
+msgid ""
+"That path is already in use. This system cannot override existing "
+"paths."
+msgstr ""
+
+#: page_manager/plugins/tasks/page.admin.inc:540,540,526,525,540,525,540,540,540,526,540,525,540,525
+msgid "The first element in a path may not be dynamic."
+msgstr ""
+
+#: page_manager/plugins/tasks/page.admin.inc:451,451,451,451,451,451,451,451
+msgid "Use this page in an admin overlay."
+msgstr ""
+
+#: page_manager/plugins/tasks/page.admin.inc:452,452,452,452,452,452,452,452
+msgid ""
+"Admin overlays are used in many places in Drupal 7 and administrative "
+"custom pages should probably utilize this feature."
+msgstr ""
+
+#: page_manager/plugins/tasks/page.admin.inc:457,446,457,446,446,457,446,457,446,457,446,457,446,457,446,457
+msgid "Site Information"
+msgstr "Информация о сайте"
+
+#: page_manager/plugins/tasks/term_view.inc:93,93,93,93,94,94,94,94,94
+msgid "an unknown callback"
+msgstr ""
+
+#: page_manager/plugins/tasks/term_view.inc:96,96,96,96,97,97,97,97,97
+msgid ""
+"Page manager module is unable to enable taxonomy/term/%taxonomy_term "
+"because some other module already has overridden with %callback."
+msgstr ""
+
+#: page_manager/plugins/tasks/search.inc:90,90,90,91,91,91,91,91
+msgid ""
+"Page manager module is unable to enable @path because some other "
+"module already has overridden with %callback."
+msgstr ""
+
+#: page_manager/plugins/tasks/term_view.inc:219,219,219,220,224,224,224,224,224,270
+msgid "This feature does not currently work and is disabled."
+msgstr ""
+
+#: page_manager/plugins/tasks/user_edit.inc:14,14,14,14,14
+msgid "User Edit Template"
+msgstr ""
+
+#: page_manager/plugins/tasks/user_edit.inc:15,15,15,15,15
+msgid "User edit template"
+msgstr ""
+
+#: page_manager/plugins/tasks/user_edit.inc:16,16,16,16,16
+msgid ""
+"When enabled, this overrides the default Drupal behavior for "
+"displaying user edit form at <em>user/%user/edit</em>."
+msgstr ""
+
+#: page_manager/plugins/tasks/user_edit.inc:59,60,60,60,60,60,71
+msgid ""
+"Page manager module is unable to enable user/%user/edit because some "
+"other module already has overridden with %callback."
+msgstr ""
+
+#: page_manager/plugins/tasks/user_edit.inc:128,129,132,132,132,132,132,145
+msgid "User being edited"
+msgstr ""
+
+#: page_manager/plugins/tasks/comment_reply.inc:15,16
+msgid "Comment Reply page"
+msgstr ""
+
+#: page_manager/plugins/tasks/comment_reply.inc:97
+msgid "Node being commented on"
+msgstr ""
+
+#: page_manager/plugins/tasks/comment_reply.inc:104
+msgid "Comment being replied to"
+msgstr ""
+
+#: page_manager/plugins/tasks/comment_reply.inc:140
+msgid ""
+"Page manager module is unable to enable comment/reply/%node because "
+"some other module already has overridden with %callback."
+msgstr ""
+

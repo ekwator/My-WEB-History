@@ -1,0 +1,96 @@
+<?php
+
+
+require_once (drupal_get_path('module', 'take_control') . '/includes/security.inc');
+require_once (drupal_get_path('module', 'take_control') . '/includes/common.inc');
+require_once (drupal_get_path('module', 'take_control') . '/includes/filesystem.inc');
+
+/**
+ * Implementation of hook_perm().
+ */
+function take_control_fb_perm() {
+  return array('administer file browser', 'access file browser');
+}
+
+/**
+ * Implementation of hook_menu().
+ */
+function take_control_fb_menu() {
+  $items = array();
+
+  take_control_admin_menu_build_first_item($items, array(
+      'title' => 'File Browser',
+      'description' => 'File Browser add-on module administration.',
+      'page callback' => 'drupal_get_form',
+      'page arguments' => array(
+          'take_control_fb_settings_form',
+          NULL),
+      'access arguments' => array(
+          'administer file browser'),
+      'file' => 'take_control_fb.admin.inc',
+      'type' => MENU_LOCAL_TASK), 'fb');
+
+  take_control_menu_build_first_item($items, array(
+      'title' => 'File Browser',
+      'description' => 'Complete File system management for your Drupal installation.',
+      'page callback' => 'drupal_get_form',
+      'page arguments' => array(
+          'take_control_fb_form',
+          NULL),
+      'access arguments' => array('access file browser')), 'fb');
+
+  $items['admin/build/take_control/fb/getfiles'] = array(
+      'type' => MENU_CALLBACK,
+      'page callback' => 'take_control_fb_getfiles',
+      'access arguments' => array('access file browser'),
+      'file' => 'get-files.php');
+
+  return $items;
+}
+
+function take_control_fb_ext_path() {
+  $extdir = variable_get('take_control_fb_extjs_ver', NULL);
+  if (is_null($extdir)) {
+    $dirs = take_control_extjs_dirs();
+    $extdir = $dirs[0];
+  }
+  return ('sites/all/libraries/extjs/' . $extdir);
+}
+
+function take_control_fb_ext_client_path() {
+  return take_control_client_path(take_control_fb_ext_path());
+}
+
+/**
+ * take control admin configuration form.
+ */
+function take_control_fb_form() {
+  $form = array();
+
+  $appDir = take_control_app_dir();
+  $extpath = take_control_fb_ext_client_path();
+  
+  $validationString = take_control_random_string(20);
+  
+  drupal_add_js(array(
+      'take_control_fb' => array(
+          //          'pubKey' => variable_get('take_control_public_key', ''),
+          'dataUrl' => base_path() . 'admin/build/take_control/fb/getfiles',
+          'appUrl' => take_control_app_url(),
+          'appDir' => $appDir,
+          'extPath' => $extpath,
+          'zipMimes' => take_control_zip_mimes(),
+          'dirSeparator' => DIRECTORY_SEPARATOR,
+          'validationString' => $validationString,
+          'validationToken' => drupal_get_token($validationString),
+          'curUserId' => fileowner(file_directory_path()))), 'setting');
+
+  //Need to render FileBrowser in an iFrame to prevent css conflict with Drupal code.
+  $fbpath = take_control_client_path(drupal_get_path('module', 'take_control_fb') . '/fb.html?extpath=' . $extpath);
+  $form['take_control_fb_container'] = array(
+      '#type' => 'markup',
+      '#value' => '<iframe frameborder="0" width="100%" height="500px" src="' . $fbpath . '"></iframe>');
+
+  return ($form);
+}
+

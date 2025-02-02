@@ -1,0 +1,12 @@
+name = advupload_nodeinfo
+description = Module to add node information on upload page stage for multinode upload
+package = Advanced Upload
+dependencies[] = advupload
+core = 6.x
+
+; Information added by drupal.org packaging script on 2011-07-30
+version = "6.x-2.6"
+core = "6.x"
+project = "advupload"
+datestamp = "1312057315"
+

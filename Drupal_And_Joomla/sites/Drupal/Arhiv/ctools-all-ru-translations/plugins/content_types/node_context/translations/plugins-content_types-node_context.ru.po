@@ -1,0 +1,379 @@
+# Russian translation of ctools (all releases)
+# Copyright (c) 2013 by the Russian translation team
+# Generated from files:
+#  ctools/plugins/content_types/node_context/node_comments.inc: n/a
+#  node_comments.inc,v 1.2.2.5 2010/07/23 17:47:12 merlinofchaos
+#  node_comments.inc,v 1.2.2.7 2010/10/29 20:13:15 merlinofchaos
+#  ctools/plugins/content_types/node_context/node_book_nav.inc: n/a
+#  node_book_nav.inc,v 1.1.2.1 2010/01/29 20:18:25 merlinofchaos
+#  ctools/plugins/content_types/node_context/node_author.inc: n/a
+#  node_author.inc,v 1.1.2.1 2010/01/29 20:18:25 merlinofchaos
+#  ctools/plugins/content_types/node_context/node_content.inc: n/a
+#  ctools/plugins/content_types/node_context/node_links.inc: n/a
+#  node_links.inc,v 1.2.2.1 2010/01/29 20:18:25 merlinofchaos
+#  ctools/plugins/content_types/node_context/node_body.inc: n/a
+#  node_body.inc,v 1.2.2.2 2010/07/24 18:01:11 merlinofchaos
+#  ctools/plugins/content_types/node_context/node_created.inc: n/a
+#  node_created.inc,v 1.1.2.1 2010/01/29 20:18:25 merlinofchaos
+#  ctools/plugins/content_types/node_context/node_title.inc: n/a
+#  node_title.inc,v 1.2.2.1 2010/01/29 20:18:25 merlinofchaos
+#  ctools/plugins/content_types/node_context/node_type_desc.inc: n/a
+#  node_type_desc.inc,v 1.1.2.1 2010/01/29 20:18:25 merlinofchaos
+#  ctools/plugins/content_types/node_context/node_attachments.inc: n/a
+#  node_attachments.inc,v 1.1.2.1 2010/01/29 20:18:25 merlinofchaos
+#  ctools/plugins/content_types/node_context/node_comment_form.inc: n/a
+#  node_comment_form.inc,v 1.1.2.3 2010/07/23 22:56:22 merlinofchaos
+#  node_content.inc,v 1.4.2.3 2010/07/26 17:34:20 merlinofchaos
+#  ctools/plugins/content_types/node_context/node_terms.inc: n/a
+#  node_terms.inc,v 1.1.2.1 2010/05/19 18:12:33 sdboyer
+#  ctools/plugins/content_types/node_context/node_updated.inc: n/a
+#  node_updated.inc,v 1.1.2.2 2010/05/28 00:38:52 sdboyer
+#  ctools/plugins/content_types/node_context/node_book_children.inc: n/a
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: ctools (all releases)\n"
+"POT-Creation-Date: 2013-05-29 14:25+0400\n"
+"PO-Revision-Date: 2010-11-23 18:35+0300\n"
+"Language-Team: Russian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=((((n%10)==1)&&((n%100)!=11))?(0):(((((n%10)>=2)&&((n%10)<=4))&&(((n%100)<10)||((n%100)>=20)))?(1):2));\n"
+
+#: plugins/content_types/node_context/node_comments.inc:45,45,45,47,56,55,55,45,45,45,56,45,55,45,55
+msgid "Mode"
+msgstr "Режим"
+
+#: plugins/content_types/node_context/node_book_nav.inc:23,10,23,10,24,11,11,24,10,23,10,23,10,23,10,23,11,24,10,23,10,23,10,23,10,23
+msgid "Book navigation"
+msgstr "Навигация по подшивке"
+
+#: plugins/content_types/node_context/node_comments.inc:28,28,28,30,31,30,30,28,28,28,31,28,30,28,30
+msgid "Comments"
+msgstr "Комментарии"
+
+#: plugins/content_types/node_context/node_author.inc:34,34,34,34,33,34,33,34,34,34,34,33,34,33
+msgid "Author"
+msgstr "Автор"
+
+#: plugins/content_types/node_context/node_comments.inc:51,51,51,60,69,68,68,51,51,51,69,51,68,51,68
+msgid "!a comments per page"
+msgstr "!a комментариев на страницу"
+
+#: plugins/content_types/node_context/node_content.inc:87,87,87,87,87,87,87,87
+msgid "Read more"
+msgstr "Подробнее"
+
+#: plugins/content_types/node_context/node_links.inc:9,9,9,10,10,9,9,9,10,9,9,9,9
+msgid "Node links"
+msgstr "Ссылки материала"
+
+#: plugins/content_types/node_context/node_body.inc:9,9,9,10,10,9,9,9,10,9,9,9,9
+msgid "Node body"
+msgstr "Тело сообщения"
+
+#: plugins/content_types/node_context/node_created.inc:33,33,33,34,34,33,33,33,34,33,33,33,33
+msgid "Created date"
+msgstr "Дата создания"
+
+#: plugins/content_types/node_context/node_title.inc:50,50,51,51,50,50,50,50,51,50,50,50,50,97
+msgid "Link to node"
+msgstr ""
+
+#: plugins/content_types/node_context/node_comments.inc:54,54,54,63,72,71,71,54,54,54,72,54,71,54,71
+msgid "Pager"
+msgstr "Навигатор"
+
+#: plugins/content_types/node_context/node_type_desc.inc:9,32,9,32,9,33,10,10,33,32,9,32,9,32,9,32,10,33,9,32,9,32,9,32,9,32
+msgid "Node type description"
+msgstr "Описание типа материала"
+
+#: plugins/content_types/node_context/node_attachments.inc:21,9,21,9,22,10,10,22,9,21,9,21,9,21,9,21,10,22,9,21,9,21,9,21,9,21
+msgid "Attached files"
+msgstr "Прикрепленные файлы"
+
+#: plugins/content_types/node_context/node_attachments.inc:29,29,30,30,29,29,29,29,30,29,29,29,29
+msgid "Attached files go here."
+msgstr ""
+
+#: plugins/content_types/node_context/node_attachments.inc:11,11,12,12,11,11,11,11,12,11,11,11,11
+msgid "A list of files attached to the node."
+msgstr ""
+
+#: plugins/content_types/node_context/node_attachments.inc:37,37,38,38,37,37,37,37,38,37,37,37,37
+msgid "\"@s\" attachments"
+msgstr ""
+
+#: plugins/content_types/node_context/node_book_nav.inc:29,29,30,30,29,29,29,29,30,29,29,29,29
+msgid "Book navigation goes here."
+msgstr ""
+
+#: plugins/content_types/node_context/node_book_nav.inc:37,37,38,38,37,37,37,37,38,37,37,37,37
+msgid "\"@s\" book navigation"
+msgstr ""
+
+#: plugins/content_types/node_context/node_comment_form.inc:28,28,29,29,28,28,28,28,29,28,28,28,28
+msgid "Comment form here."
+msgstr ""
+
+#: plugins/content_types/node_context/node_comment_form.inc:10,10,10,11,11,10,10,10,11,10,10,10,10
+msgid "Comment form"
+msgstr "Форма комментариев"
+
+#: plugins/content_types/node_context/node_comment_form.inc:12,12,12,13,13,12,12,12,13,12,12,12,12
+msgid "A form to add a new comment."
+msgstr ""
+"Форма для добавления новых "
+"комментариев"
+
+#: plugins/content_types/node_context/node_comments.inc:10,10,11,11,10,10,10,10,11,10,10,10,10
+msgid "Node comments"
+msgstr "Комментарии к материалу"
+
+#: plugins/content_types/node_context/node_comments.inc:30,32,30,30,32,33,32,30,30,30,33,30,32,30,32
+msgid "Node comments go here."
+msgstr ""
+
+#: plugins/content_types/node_context/node_comments.inc:12,12,13,13,12,12,12,12,13,12,12,12,12
+msgid "The comments of the referenced node."
+msgstr ""
+
+#: plugins/content_types/node_context/node_comments.inc:54,63,62,62,63,62,62
+msgid "Sort"
+msgstr "Сортировка"
+
+#: plugins/content_types/node_context/node_comments.inc:70,70,70,78,87,86,86,70,70,70,87,70,86,70,86
+msgid "\"@s\" comments"
+msgstr ""
+
+#: plugins/content_types/node_context/node_content.inc:9,9,10,10,9,9,9,9,10,9,9,9,9
+msgid "Node content"
+msgstr "Содержимое материала"
+
+#: plugins/content_types/node_context/node_content.inc:11,11,12,12,11,11,11,11,12,11,11,11,11
+msgid "The content of the referenced node."
+msgstr ""
+
+#: plugins/content_types/node_context/node_content.inc:42,42,42,44,44,43,43,42,42,42,44,42,43,42,43
+msgid "Node content goes here."
+msgstr ""
+
+#: plugins/content_types/node_context/node_content.inc:166,164,165,166,165,165,164,166,167,166,166,165,166,164,166,164
+msgid "No extras"
+msgstr ""
+
+#: plugins/content_types/node_context/node_content.inc:167,165,166,167,166,166,165,167,168,167,167,166,167,165,167,165
+msgid ""
+"Check here to disable additions that modules might make to the node, "
+"such as file attachments and CCK fields; this should just display the "
+"basic teaser or body."
+msgstr ""
+
+#: plugins/content_types/node_context/node_content.inc:202,218,201,202,219,219,218,202,203,202,202,219,202,218,202,218
+msgid "\"@s\" content"
+msgstr ""
+
+#: plugins/content_types/node_context/node_type_desc.inc:33,33,34,34,33,33,33,33,34,33,33,33,33
+msgid "Node type description goes here."
+msgstr ""
+
+#: plugins/content_types/node_context/node_type_desc.inc:11,11,12,12,11,11,11,11,12,11,11,11,11
+msgid "Node type description."
+msgstr "Описание типа материала."
+
+#: plugins/content_types/node_context/node_type_desc.inc:41,41,42,42,41,41,41,41,42,41,41,41,41
+msgid "\"@s\" type description"
+msgstr ""
+
+#: plugins/content_types/node_context/node_terms.inc:150,136,150,137,137,136,146,136,146,156,156,156,137,156,136,156,136
+msgid "Unordered list"
+msgstr "Маркированный список"
+
+#: plugins/content_types/node_context/node_book_nav.inc:12,12,13,13,12,12,12,12,13,12,12,12,12
+msgid "The navigation menu the book the node belongs to."
+msgstr ""
+
+#: plugins/content_types/node_context/node_links.inc:11,11,12,12,11,11,11,11,12,11,11,11,11
+msgid "Node links of the referenced node."
+msgstr ""
+
+#: plugins/content_types/node_context/node_links.inc:40,40,40,41,41,40,40,40,41,40,40,40,40
+msgid "Node links go here."
+msgstr ""
+
+#: plugins/content_types/node_context/node_links.inc:83,83,82,82,83,82,82
+msgid "Teaser mode"
+msgstr ""
+
+#: plugins/content_types/node_context/node_links.inc:85,86,86,85,86,85,85
+msgid "Check here to show links in teaser mode."
+msgstr ""
+
+#: plugins/content_types/node_context/node_links.inc:92,93,93,92,93,92,92
+msgid ""
+"Whatever is placed here will appear in $node->panel_identifier to help "
+"theme node links displayed on the panel"
+msgstr ""
+
+#: plugins/content_types/node_context/node_links.inc:103,103,103,107,107,106,106,103,103,103,107,103,106,103,106
+msgid "\"@s\" links"
+msgstr ""
+
+#: plugins/content_types/node_context/node_author.inc:11,11,12,12,11,11,11,11,12,11,11,11,11
+msgid "The author of the referenced node."
+msgstr ""
+
+#: plugins/content_types/node_context/node_author.inc:48,48,48,48,47,48,47,48,48,48,48,47,48,47
+msgid "Link to author profile"
+msgstr ""
+
+#: plugins/content_types/node_context/node_author.inc:50,51,51,51,51,51,50,51,51,51,51,50,51,50
+msgid "Check here to link to the node author profile."
+msgstr ""
+
+#: plugins/content_types/node_context/node_author.inc:68,70,70,69,69,70,68,70,70,70,69,70,68,70,68
+msgid "\"@s\" author"
+msgstr "\"@s\" автор"
+
+#: plugins/content_types/node_context/node_body.inc:11,11,12,12,11,11,11,11,12,11,11,11,11
+msgid "The body of the referenced node."
+msgstr ""
+
+#: plugins/content_types/node_context/node_body.inc:39,39,59,59,58,39,58,39,39,39,59,39,58,39,58
+msgid "\"@s\" body"
+msgstr ""
+
+#: plugins/content_types/node_context/node_created.inc:9,9,10,10,9,9,9,9,10,9,9,9,9
+msgid "Node created date"
+msgstr "Дата создания материала"
+
+#: plugins/content_types/node_context/node_created.inc:11,11,12,12,11,11,11,11,12,11,11,11,11
+msgid "The date the referenced node was created."
+msgstr ""
+
+#: plugins/content_types/node_context/node_created.inc:73,73,74,74,73,73,73,73,74,73,73,73,73
+msgid "\"@s\" created date"
+msgstr ""
+
+#: plugins/content_types/node_context/node_title.inc:11,11,11,12,12,11,11,11,12,11,11,11,11
+msgid "The title of the referenced node."
+msgstr ""
+
+#: plugins/content_types/node_context/node_title.inc:72,72,72,72,72,71,71,72,72,72,72,71,72,71,119
+msgid "\"@s\" title"
+msgstr ""
+
+#: plugins/content_types/node_context/node_updated.inc:9,9,10,10,9,9,9,9,10,9,9,9,9
+msgid "Node last updated date"
+msgstr "Дата последнего обновления материала"
+
+#: plugins/content_types/node_context/node_updated.inc:11,11,12,12,11,11,11,11,12,11,11,11,11
+msgid "The date the referenced node was last updated."
+msgstr ""
+
+#: plugins/content_types/node_context/node_updated.inc:33,33,34,34,33,33,33,33,34,33,33,33,33
+msgid "Last updated date"
+msgstr "Последнее обновление даты"
+
+#: plugins/content_types/node_context/node_updated.inc:73,73,74,74,73,73,74,74,74,74,74,73,74,73
+msgid "\"@s\" last updated date"
+msgstr ""
+
+#: plugins/content_types/node_context/node_content.inc:152,153,153,152,153,152,152
+msgid "Treat this as the primary node page"
+msgstr ""
+
+#: plugins/content_types/node_context/node_content.inc:153,154,154,153,154,153,153
+msgid "This can affect title rendering and breadcrumbs from some node types."
+msgstr ""
+
+#: plugins/content_types/node_context/node_book_children.inc:10,23,10,23,10,23,10,10,23,23,10,23,10,23,10,23,10,23,10,23,10,23,10,23
+msgid "Book children"
+msgstr ""
+
+#: plugins/content_types/node_context/node_book_children.inc:12,12,12,12,12,12,12,12,12,12,12,12
+msgid "The children menu the book the node belongs to."
+msgstr ""
+
+#: plugins/content_types/node_context/node_book_children.inc:29,29,29,29,29,29,29,29,29,29,29,29
+msgid "Book children menu goes here."
+msgstr ""
+
+#: plugins/content_types/node_context/node_book_children.inc:37,37,37,37,37,37,37,37,37,37,37,37
+msgid "\"@s\" book children"
+msgstr ""
+
+#: plugins/content_types/node_context/node_terms.inc:9,9,9,10,10,9,9,9,10,9,9,9,9
+msgid "Node terms"
+msgstr "Термины материала"
+
+#: plugins/content_types/node_context/node_terms.inc:11,11,11,12,12,11,11,11,12,11,11,11,11
+msgid "Taxonomy terms of the referenced node."
+msgstr ""
+
+#: plugins/content_types/node_context/node_terms.inc:131,117,131,118,118,117,127,117,127,137,137,137,118,137,117,137,117
+msgid "- All vocabularies -"
+msgstr ""
+
+#: plugins/content_types/node_context/node_terms.inc:140,126,140,127,127,126,136,126,136,146,146,146,127,146,126,146,126
+msgid ""
+"Optionally restrict the terms to a specific vocabulary, or allow terms "
+"from all vocabularies."
+msgstr ""
+
+#: plugins/content_types/node_context/node_terms.inc:147,133,147,134,134,133,143,133,143,153,153,153,134,153,133,153,133
+msgid "Term formatting"
+msgstr ""
+
+#: plugins/content_types/node_context/node_terms.inc:149,135,149,136,136,135,145,135,145,155,155,155,136,155,135,155,135
+msgid "Taxonomy links (uses theme('links'))"
+msgstr ""
+
+#: plugins/content_types/node_context/node_terms.inc:151,137,151,138,138,137,147,137,147,157,157,157,138,157,137,157,137
+msgid "Inline, delimited"
+msgstr ""
+
+#: plugins/content_types/node_context/node_terms.inc:159,145,159,146,146,145,155,145,155,165,165,165,146,165,145,165,145
+msgid "Link to terms"
+msgstr ""
+
+#: plugins/content_types/node_context/node_terms.inc:162,148,148,162,149,149,158,148,158,168,168,168,149,168,148,168,148
+msgid "Check here to make the terms link to the term paths."
+msgstr ""
+
+#: plugins/content_types/node_context/node_terms.inc:170,157,157,170,158,158,166,157,166,176,176,176,158,176,157,176,157
+msgid "Term delimiter"
+msgstr ""
+
+#: plugins/content_types/node_context/node_terms.inc:196,183,184,196,184,184,192,183,192,202,202,202,184,202,183,202,183
+msgid "\"@s\" terms from @vocabulary"
+msgstr ""
+
+#: plugins/content_types/node_context/node_comment_form.inc:61,55,61,61,56,56,55,61,61,61,56,61,55,61,55
+msgid "Shows links to register or login."
+msgstr ""
+
+#: plugins/content_types/node_context/node_comment_form.inc:62,56,62,62,57,57,56,62,62,62,57,62,56,62,56
+msgid ""
+"If anonymous comments are not allowed, this will display the register "
+"and login links."
+msgstr ""
+
+#: plugins/content_types/node_context/node_comments.inc:48,47,47,48,47,47
+msgid "HTML anchor"
+msgstr ""
+
+#: plugins/content_types/node_context/node_comments.inc:49,48,48,49,48,48
+msgid ""
+"If checked, an HTML anchor is added to allow linking within the same "
+"page. For example, http://example.com/node/2345#comment will take you "
+"to the comment area of the page."
+msgstr ""
+
+#: plugins/content_types/node_context/node_links.inc:89,89,89,89,89,89,89,89
+msgid ""
+"Whatever is placed here will appear in @identifier, to help theme node "
+"links displayed on the panel"
+msgstr ""
+

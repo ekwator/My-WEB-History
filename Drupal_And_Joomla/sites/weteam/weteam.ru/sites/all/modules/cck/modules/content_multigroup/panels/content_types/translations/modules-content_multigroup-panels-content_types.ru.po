@@ -1,0 +1,41 @@
+# Russian translation of cck (all releases)
+# Copyright (c) 2012 by the Russian translation team
+# Generated from file: cck/modules/content_multigroup/panels/content_types/content_multigroup.inc: n/a
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: cck (all releases)\n"
+"POT-Creation-Date: 2012-08-17 04:30-0400\n"
+"PO-Revision-Date: 2011-05-21 16:08-0400\n"
+"Language-Team: Russian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=((((n%10)==1)&&((n%100)!=11))?(0):(((((n%10)>=2)&&((n%10)<=4))&&(((n%100)<10)||((n%100)>=20)))?(1):2));\n"
+
+#: modules/content_multigroup/panels/content_types/content_multigroup.inc:105
+msgid "Multigroup label"
+msgstr ""
+
+#: modules/content_multigroup/panels/content_types/content_multigroup.inc:119
+msgid "Multigroup format"
+msgstr ""
+
+#: modules/content_multigroup/panels/content_types/content_multigroup.inc:136
+msgid "Subgroup format"
+msgstr "Формат подгруппы"
+
+#: modules/content_multigroup/panels/content_types/content_multigroup.inc:139
+msgid ""
+"This option allows you to configure the format of the subgroups in the "
+"multigroup."
+msgstr ""
+
+#: modules/content_multigroup/panels/content_types/content_multigroup.inc:169
+msgid "\"@s\" multigroup: @group in @type"
+msgstr "\"@s\" мультигруппа: @group in @type"
+
+#: modules/content_multigroup/panels/content_types/content_multigroup.inc:41
+msgid "Multigroup: @group in @type"
+msgstr ""
+

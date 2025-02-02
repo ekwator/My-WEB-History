@@ -1,0 +1,1087 @@
+<?xml version="1.0" encoding="utf-8"?>
+<euroauto-export>
+  <request>
+    <creation-time>2012-10-31 08:48:12 GMT+0400</creation-time>
+    <status>
+      <code>0</code>
+      <message>ok</message>
+    </status>
+    <get>fulltextmodels</get>
+    <query>капот Audi</query>
+    <page>0</page>
+    <used>1</used>
+    <pageItems>30</pageItems>
+  </request>
+  <models>
+    <model>
+      <orig_grup>4018</orig_grup>
+      <model_id>14</model_id>
+      <part_name>Амортизатор капота</part_name>
+      <firm_model>Audi 80/90 [B3] 1986-1991</firm_model>
+    </model>
+    <model>
+      <orig_grup>4018</orig_grup>
+      <model_id>17</model_id>
+      <part_name>Амортизатор капота</part_name>
+      <firm_model>Audi 100/200 [44] 1983-1991</firm_model>
+    </model>
+    <model>
+      <orig_grup>4018</orig_grup>
+      <model_id>18</model_id>
+      <part_name>Амортизатор капота</part_name>
+      <firm_model>Audi 100 [C4] 1991-1994</firm_model>
+    </model>
+    <model>
+      <orig_grup>4018</orig_grup>
+      <model_id>20</model_id>
+      <part_name>Амортизатор капота</part_name>
+      <firm_model>Audi A3 [8L1] 1996-2003</firm_model>
+    </model>
+    <model>
+      <orig_grup>4018</orig_grup>
+      <model_id>21</model_id>
+      <part_name>Амортизатор капота</part_name>
+      <firm_model>Audi A4 [B5] 1994-2000</firm_model>
+    </model>
+    <model>
+      <orig_grup>4018</orig_grup>
+      <model_id>22</model_id>
+      <part_name>Амортизатор капота</part_name>
+      <firm_model>Audi A6 [C4] 1994-1997</firm_model>
+    </model>
+    <model>
+      <orig_grup>4018</orig_grup>
+      <model_id>23</model_id>
+      <part_name>Амортизатор капота</part_name>
+      <firm_model>Audi A8 1994-1998</firm_model>
+    </model>
+    <model>
+      <orig_grup>4018</orig_grup>
+      <model_id>25</model_id>
+      <part_name>Амортизатор капота</part_name>
+      <firm_model>Audi TT(8N3) 1998-2006</firm_model>
+    </model>
+    <model>
+      <orig_grup>4018</orig_grup>
+      <model_id>26</model_id>
+      <part_name>Амортизатор капота</part_name>
+      <firm_model>Audi V8 1988-1994</firm_model>
+    </model>
+    <model>
+      <orig_grup>4018</orig_grup>
+      <model_id>133</model_id>
+      <part_name>Амортизатор капота</part_name>
+      <firm_model>Audi A6 [C6,4F] 2005-2011</firm_model>
+    </model>
+    <model>
+      <orig_grup>4018</orig_grup>
+      <model_id>276</model_id>
+      <part_name>Амортизатор капота</part_name>
+      <firm_model>Audi Allroad quattro 2000-2005</firm_model>
+    </model>
+    <model>
+      <orig_grup>4018</orig_grup>
+      <model_id>288</model_id>
+      <part_name>Амортизатор капота</part_name>
+      <firm_model>Audi A4 [B6] 2000-2004</firm_model>
+    </model>
+    <model>
+      <orig_grup>4018</orig_grup>
+      <model_id>291</model_id>
+      <part_name>Амортизатор капота</part_name>
+      <firm_model>Audi 80/90 [B4] 1991-1994</firm_model>
+    </model>
+    <model>
+      <orig_grup>4018</orig_grup>
+      <model_id>292</model_id>
+      <part_name>Амортизатор капота</part_name>
+      <firm_model>Audi A6 [C5] 1997-2004</firm_model>
+    </model>
+    <model>
+      <orig_grup>4018</orig_grup>
+      <model_id>293</model_id>
+      <part_name>Амортизатор капота</part_name>
+      <firm_model>Audi A8 1998-2003</firm_model>
+    </model>
+    <model>
+      <orig_grup>4018</orig_grup>
+      <model_id>360</model_id>
+      <part_name>Амортизатор капота</part_name>
+      <firm_model>Audi A3 [8PA] 2004&gt;</firm_model>
+    </model>
+    <model>
+      <orig_grup>4018</orig_grup>
+      <model_id>471</model_id>
+      <part_name>Амортизатор капота</part_name>
+      <firm_model>Audi A8 [D3,4E] 2004-2010</firm_model>
+    </model>
+    <model>
+      <orig_grup>4018</orig_grup>
+      <model_id>700</model_id>
+      <part_name>Амортизатор капота</part_name>
+      <firm_model>AUDI Q7 2005&gt;</firm_model>
+    </model>
+    <model>
+      <orig_grup>4018</orig_grup>
+      <model_id>947</model_id>
+      <part_name>Амортизатор капота</part_name>
+      <firm_model>Audi A4 [B7] 2005-2007</firm_model>
+    </model>
+    <model>
+      <orig_grup>4018</orig_grup>
+      <model_id>1075</model_id>
+      <part_name>Амортизатор капота</part_name>
+      <firm_model>Audi Q5 2008&gt;</firm_model>
+    </model>
+    <model>
+      <orig_grup>4018</orig_grup>
+      <model_id>1123</model_id>
+      <part_name>Амортизатор капота</part_name>
+      <firm_model>Audi Allroad quattro 2005&gt;</firm_model>
+    </model>
+    <model>
+      <orig_grup>4286</orig_grup>
+      <model_id>14</model_id>
+      <part_name>Держатель капота</part_name>
+      <firm_model>Audi 80/90 [B3] 1986-1991</firm_model>
+    </model>
+    <model>
+      <orig_grup>4238</orig_grup>
+      <model_id>12</model_id>
+      <part_name>Замок капота</part_name>
+      <firm_model>Audi 50 &gt;1978</firm_model>
+    </model>
+    <model>
+      <orig_grup>4238</orig_grup>
+      <model_id>14</model_id>
+      <part_name>Замок капота</part_name>
+      <firm_model>Audi 80/90 [B3] 1986-1991</firm_model>
+    </model>
+    <model>
+      <orig_grup>4238</orig_grup>
+      <model_id>18</model_id>
+      <part_name>Замок капота</part_name>
+      <firm_model>Audi 100 [C4] 1991-1994</firm_model>
+    </model>
+    <model>
+      <orig_grup>4238</orig_grup>
+      <model_id>20</model_id>
+      <part_name>Замок капота</part_name>
+      <firm_model>Audi A3 [8L1] 1996-2003</firm_model>
+    </model>
+    <model>
+      <orig_grup>4238</orig_grup>
+      <model_id>21</model_id>
+      <part_name>Замок капота</part_name>
+      <firm_model>Audi A4 [B5] 1994-2000</firm_model>
+    </model>
+    <model>
+      <orig_grup>4238</orig_grup>
+      <model_id>22</model_id>
+      <part_name>Замок капота</part_name>
+      <firm_model>Audi A6 [C4] 1994-1997</firm_model>
+    </model>
+    <model>
+      <orig_grup>4238</orig_grup>
+      <model_id>23</model_id>
+      <part_name>Замок капота</part_name>
+      <firm_model>Audi A8 1994-1998</firm_model>
+    </model>
+    <model>
+      <orig_grup>4238</orig_grup>
+      <model_id>25</model_id>
+      <part_name>Замок капота</part_name>
+      <firm_model>Audi TT(8N3) 1998-2006</firm_model>
+    </model>
+    <model>
+      <orig_grup>4238</orig_grup>
+      <model_id>133</model_id>
+      <part_name>Замок капота</part_name>
+      <firm_model>Audi A6 [C6,4F] 2005-2011</firm_model>
+    </model>
+    <model>
+      <orig_grup>4238</orig_grup>
+      <model_id>276</model_id>
+      <part_name>Замок капота</part_name>
+      <firm_model>Audi Allroad quattro 2000-2005</firm_model>
+    </model>
+    <model>
+      <orig_grup>4238</orig_grup>
+      <model_id>288</model_id>
+      <part_name>Замок капота</part_name>
+      <firm_model>Audi A4 [B6] 2000-2004</firm_model>
+    </model>
+    <model>
+      <orig_grup>4238</orig_grup>
+      <model_id>291</model_id>
+      <part_name>Замок капота</part_name>
+      <firm_model>Audi 80/90 [B4] 1991-1994</firm_model>
+    </model>
+    <model>
+      <orig_grup>4238</orig_grup>
+      <model_id>292</model_id>
+      <part_name>Замок капота</part_name>
+      <firm_model>Audi A6 [C5] 1997-2004</firm_model>
+    </model>
+    <model>
+      <orig_grup>4238</orig_grup>
+      <model_id>293</model_id>
+      <part_name>Замок капота</part_name>
+      <firm_model>Audi A8 1998-2003</firm_model>
+    </model>
+    <model>
+      <orig_grup>4238</orig_grup>
+      <model_id>471</model_id>
+      <part_name>Замок капота</part_name>
+      <firm_model>Audi A8 [D3,4E] 2004-2010</firm_model>
+    </model>
+    <model>
+      <orig_grup>4238</orig_grup>
+      <model_id>700</model_id>
+      <part_name>Замок капота</part_name>
+      <firm_model>AUDI Q7 2005&gt;</firm_model>
+    </model>
+    <model>
+      <orig_grup>4238</orig_grup>
+      <model_id>1085</model_id>
+      <part_name>Замок капота</part_name>
+      <firm_model>Audi A4 [B8] 2007&gt;</firm_model>
+    </model>
+    <model>
+      <orig_grup>4238</orig_grup>
+      <model_id>1097</model_id>
+      <part_name>Замок капота</part_name>
+      <firm_model>Audi TT(8J3) 2006&gt;</firm_model>
+    </model>
+    <model>
+      <orig_grup>4238</orig_grup>
+      <model_id>1123</model_id>
+      <part_name>Замок капота</part_name>
+      <firm_model>Audi Allroad quattro 2005&gt;</firm_model>
+    </model>
+    <model>
+      <orig_grup>4238</orig_grup>
+      <model_id>1201</model_id>
+      <part_name>Замок капота</part_name>
+      <firm_model>Audi R 8 2009&gt;</firm_model>
+    </model>
+    <model>
+      <orig_grup>4238</orig_grup>
+      <model_id>1356</model_id>
+      <part_name>Замок капота</part_name>
+      <firm_model>Audi A5/S5 Cabrio 2010&gt;</firm_model>
+    </model>
+    <model>
+      <orig_grup>4004</orig_grup>
+      <model_id>14</model_id>
+      <part_name>Капот</part_name>
+      <firm_model>Audi 80/90 [B3] 1986-1991</firm_model>
+    </model>
+    <model>
+      <orig_grup>4004</orig_grup>
+      <model_id>17</model_id>
+      <part_name>Капот</part_name>
+      <firm_model>Audi 100/200 [44] 1983-1991</firm_model>
+    </model>
+    <model>
+      <orig_grup>4004</orig_grup>
+      <model_id>18</model_id>
+      <part_name>Капот</part_name>
+      <firm_model>Audi 100 [C4] 1991-1994</firm_model>
+    </model>
+    <model>
+      <orig_grup>4004</orig_grup>
+      <model_id>20</model_id>
+      <part_name>Капот</part_name>
+      <firm_model>Audi A3 [8L1] 1996-2003</firm_model>
+    </model>
+    <model>
+      <orig_grup>4004</orig_grup>
+      <model_id>21</model_id>
+      <part_name>Капот</part_name>
+      <firm_model>Audi A4 [B5] 1994-2000</firm_model>
+    </model>
+    <model>
+      <orig_grup>4004</orig_grup>
+      <model_id>22</model_id>
+      <part_name>Капот</part_name>
+      <firm_model>Audi A6 [C4] 1994-1997</firm_model>
+    </model>
+    <model>
+      <orig_grup>4004</orig_grup>
+      <model_id>23</model_id>
+      <part_name>Капот</part_name>
+      <firm_model>Audi A8 1994-1998</firm_model>
+    </model>
+    <model>
+      <orig_grup>4004</orig_grup>
+      <model_id>133</model_id>
+      <part_name>Капот</part_name>
+      <firm_model>Audi A6 [C6,4F] 2005-2011</firm_model>
+    </model>
+    <model>
+      <orig_grup>4004</orig_grup>
+      <model_id>276</model_id>
+      <part_name>Капот</part_name>
+      <firm_model>Audi Allroad quattro 2000-2005</firm_model>
+    </model>
+    <model>
+      <orig_grup>4004</orig_grup>
+      <model_id>288</model_id>
+      <part_name>Капот</part_name>
+      <firm_model>Audi A4 [B6] 2000-2004</firm_model>
+    </model>
+    <model>
+      <orig_grup>4004</orig_grup>
+      <model_id>291</model_id>
+      <part_name>Капот</part_name>
+      <firm_model>Audi 80/90 [B4] 1991-1994</firm_model>
+    </model>
+    <model>
+      <orig_grup>4004</orig_grup>
+      <model_id>292</model_id>
+      <part_name>Капот</part_name>
+      <firm_model>Audi A6 [C5] 1997-2004</firm_model>
+    </model>
+    <model>
+      <orig_grup>4004</orig_grup>
+      <model_id>293</model_id>
+      <part_name>Капот</part_name>
+      <firm_model>Audi A8 1998-2003</firm_model>
+    </model>
+    <model>
+      <orig_grup>4004</orig_grup>
+      <model_id>360</model_id>
+      <part_name>Капот</part_name>
+      <firm_model>Audi A3 [8PA] 2004&gt;</firm_model>
+    </model>
+    <model>
+      <orig_grup>4004</orig_grup>
+      <model_id>471</model_id>
+      <part_name>Капот</part_name>
+      <firm_model>Audi A8 [D3,4E] 2004-2010</firm_model>
+    </model>
+    <model>
+      <orig_grup>4004</orig_grup>
+      <model_id>700</model_id>
+      <part_name>Капот</part_name>
+      <firm_model>AUDI Q7 2005&gt;</firm_model>
+    </model>
+    <model>
+      <orig_grup>4004</orig_grup>
+      <model_id>919</model_id>
+      <part_name>Капот</part_name>
+      <firm_model>Audi A3 [8P1] 2003&gt;</firm_model>
+    </model>
+    <model>
+      <orig_grup>4004</orig_grup>
+      <model_id>947</model_id>
+      <part_name>Капот</part_name>
+      <firm_model>Audi A4 [B7] 2005-2007</firm_model>
+    </model>
+    <model>
+      <orig_grup>4004</orig_grup>
+      <model_id>1074</model_id>
+      <part_name>Капот</part_name>
+      <firm_model>Audi A5/S5 Coupe/Sportback 2008&gt;</firm_model>
+    </model>
+    <model>
+      <orig_grup>4004</orig_grup>
+      <model_id>1075</model_id>
+      <part_name>Капот</part_name>
+      <firm_model>Audi Q5 2008&gt;</firm_model>
+    </model>
+    <model>
+      <orig_grup>4004</orig_grup>
+      <model_id>1085</model_id>
+      <part_name>Капот</part_name>
+      <firm_model>Audi A4 [B8] 2007&gt;</firm_model>
+    </model>
+    <model>
+      <orig_grup>4004</orig_grup>
+      <model_id>1097</model_id>
+      <part_name>Капот</part_name>
+      <firm_model>Audi TT(8J3) 2006&gt;</firm_model>
+    </model>
+    <model>
+      <orig_grup>4004</orig_grup>
+      <model_id>1123</model_id>
+      <part_name>Капот</part_name>
+      <firm_model>Audi Allroad quattro 2005&gt;</firm_model>
+    </model>
+    <model>
+      <orig_grup>4004</orig_grup>
+      <model_id>1219</model_id>
+      <part_name>Капот</part_name>
+      <firm_model>Audi A1 2010&gt;</firm_model>
+    </model>
+    <model>
+      <orig_grup>4004</orig_grup>
+      <model_id>1270</model_id>
+      <part_name>Капот</part_name>
+      <firm_model>Audi A7 2011&gt;</firm_model>
+    </model>
+    <model>
+      <orig_grup>4004</orig_grup>
+      <model_id>1310</model_id>
+      <part_name>Капот</part_name>
+      <firm_model>Audi A8 [4H] 2011&gt;</firm_model>
+    </model>
+    <model>
+      <orig_grup>4004</orig_grup>
+      <model_id>1356</model_id>
+      <part_name>Капот</part_name>
+      <firm_model>Audi A5/S5 Cabrio 2010&gt;</firm_model>
+    </model>
+    <model>
+      <orig_grup>4313</orig_grup>
+      <model_id>133</model_id>
+      <part_name>Кожух замка капота</part_name>
+      <firm_model>Audi A6 [C6,4F] 2005-2011</firm_model>
+    </model>
+    <model>
+      <orig_grup>4313</orig_grup>
+      <model_id>292</model_id>
+      <part_name>Кожух замка капота</part_name>
+      <firm_model>Audi A6 [C5] 1997-2004</firm_model>
+    </model>
+    <model>
+      <orig_grup>4313</orig_grup>
+      <model_id>700</model_id>
+      <part_name>Кожух замка капота</part_name>
+      <firm_model>AUDI Q7 2005&gt;</firm_model>
+    </model>
+    <model>
+      <orig_grup>4313</orig_grup>
+      <model_id>1075</model_id>
+      <part_name>Кожух замка капота</part_name>
+      <firm_model>Audi Q5 2008&gt;</firm_model>
+    </model>
+    <model>
+      <orig_grup>4313</orig_grup>
+      <model_id>1085</model_id>
+      <part_name>Кожух замка капота</part_name>
+      <firm_model>Audi A4 [B8] 2007&gt;</firm_model>
+    </model>
+    <model>
+      <orig_grup>4313</orig_grup>
+      <model_id>1097</model_id>
+      <part_name>Кожух замка капота</part_name>
+      <firm_model>Audi TT(8J3) 2006&gt;</firm_model>
+    </model>
+    <model>
+      <orig_grup>4313</orig_grup>
+      <model_id>1123</model_id>
+      <part_name>Кожух замка капота</part_name>
+      <firm_model>Audi Allroad quattro 2005&gt;</firm_model>
+    </model>
+    <model>
+      <orig_grup>4313</orig_grup>
+      <model_id>1356</model_id>
+      <part_name>Кожух замка капота</part_name>
+      <firm_model>Audi A5/S5 Cabrio 2010&gt;</firm_model>
+    </model>
+    <model>
+      <orig_grup>4340</orig_grup>
+      <model_id>18</model_id>
+      <part_name>Кронштейн замка капота</part_name>
+      <firm_model>Audi 100 [C4] 1991-1994</firm_model>
+    </model>
+    <model>
+      <orig_grup>4096</orig_grup>
+      <model_id>18</model_id>
+      <part_name>Крючок капота</part_name>
+      <firm_model>Audi 100 [C4] 1991-1994</firm_model>
+    </model>
+    <model>
+      <orig_grup>4096</orig_grup>
+      <model_id>21</model_id>
+      <part_name>Крючок капота</part_name>
+      <firm_model>Audi A4 [B5] 1994-2000</firm_model>
+    </model>
+    <model>
+      <orig_grup>4096</orig_grup>
+      <model_id>292</model_id>
+      <part_name>Крючок капота</part_name>
+      <firm_model>Audi A6 [C5] 1997-2004</firm_model>
+    </model>
+    <model>
+      <orig_grup>4096</orig_grup>
+      <model_id>360</model_id>
+      <part_name>Крючок капота</part_name>
+      <firm_model>Audi A3 [8PA] 2004&gt;</firm_model>
+    </model>
+    <model>
+      <orig_grup>4096</orig_grup>
+      <model_id>471</model_id>
+      <part_name>Крючок капота</part_name>
+      <firm_model>Audi A8 [D3,4E] 2004-2010</firm_model>
+    </model>
+    <model>
+      <orig_grup>4240</orig_grup>
+      <model_id>14</model_id>
+      <part_name>Направляющая капота</part_name>
+      <firm_model>Audi 80/90 [B3] 1986-1991</firm_model>
+    </model>
+    <model>
+      <orig_grup>4240</orig_grup>
+      <model_id>18</model_id>
+      <part_name>Направляющая капота</part_name>
+      <firm_model>Audi 100 [C4] 1991-1994</firm_model>
+    </model>
+    <model>
+      <orig_grup>4240</orig_grup>
+      <model_id>22</model_id>
+      <part_name>Направляющая капота</part_name>
+      <firm_model>Audi A6 [C4] 1994-1997</firm_model>
+    </model>
+    <model>
+      <orig_grup>3136</orig_grup>
+      <model_id>19</model_id>
+      <part_name>Отбойник капота</part_name>
+      <firm_model>Audi A2 [8Z0] 2000-2005</firm_model>
+    </model>
+    <model>
+      <orig_grup>3136</orig_grup>
+      <model_id>25</model_id>
+      <part_name>Отбойник капота</part_name>
+      <firm_model>Audi TT(8N3) 1998-2006</firm_model>
+    </model>
+    <model>
+      <orig_grup>3136</orig_grup>
+      <model_id>133</model_id>
+      <part_name>Отбойник капота</part_name>
+      <firm_model>Audi A6 [C6,4F] 2005-2011</firm_model>
+    </model>
+    <model>
+      <orig_grup>3136</orig_grup>
+      <model_id>276</model_id>
+      <part_name>Отбойник капота</part_name>
+      <firm_model>Audi Allroad quattro 2000-2005</firm_model>
+    </model>
+    <model>
+      <orig_grup>3136</orig_grup>
+      <model_id>292</model_id>
+      <part_name>Отбойник капота</part_name>
+      <firm_model>Audi A6 [C5] 1997-2004</firm_model>
+    </model>
+    <model>
+      <orig_grup>3136</orig_grup>
+      <model_id>700</model_id>
+      <part_name>Отбойник капота</part_name>
+      <firm_model>AUDI Q7 2005&gt;</firm_model>
+    </model>
+    <model>
+      <orig_grup>3136</orig_grup>
+      <model_id>1097</model_id>
+      <part_name>Отбойник капота</part_name>
+      <firm_model>Audi TT(8J3) 2006&gt;</firm_model>
+    </model>
+    <model>
+      <orig_grup>3136</orig_grup>
+      <model_id>1123</model_id>
+      <part_name>Отбойник капота</part_name>
+      <firm_model>Audi Allroad quattro 2005&gt;</firm_model>
+    </model>
+    <model>
+      <orig_grup>4166</orig_grup>
+      <model_id>14</model_id>
+      <part_name>Петля капота левая</part_name>
+      <firm_model>Audi 80/90 [B3] 1986-1991</firm_model>
+    </model>
+    <model>
+      <orig_grup>4166</orig_grup>
+      <model_id>17</model_id>
+      <part_name>Петля капота левая</part_name>
+      <firm_model>Audi 100/200 [44] 1983-1991</firm_model>
+    </model>
+    <model>
+      <orig_grup>4166</orig_grup>
+      <model_id>18</model_id>
+      <part_name>Петля капота левая</part_name>
+      <firm_model>Audi 100 [C4] 1991-1994</firm_model>
+    </model>
+    <model>
+      <orig_grup>4166</orig_grup>
+      <model_id>20</model_id>
+      <part_name>Петля капота левая</part_name>
+      <firm_model>Audi A3 [8L1] 1996-2003</firm_model>
+    </model>
+    <model>
+      <orig_grup>4166</orig_grup>
+      <model_id>21</model_id>
+      <part_name>Петля капота левая</part_name>
+      <firm_model>Audi A4 [B5] 1994-2000</firm_model>
+    </model>
+    <model>
+      <orig_grup>4166</orig_grup>
+      <model_id>22</model_id>
+      <part_name>Петля капота левая</part_name>
+      <firm_model>Audi A6 [C4] 1994-1997</firm_model>
+    </model>
+    <model>
+      <orig_grup>4166</orig_grup>
+      <model_id>23</model_id>
+      <part_name>Петля капота левая</part_name>
+      <firm_model>Audi A8 1994-1998</firm_model>
+    </model>
+    <model>
+      <orig_grup>4166</orig_grup>
+      <model_id>25</model_id>
+      <part_name>Петля капота левая</part_name>
+      <firm_model>Audi TT(8N3) 1998-2006</firm_model>
+    </model>
+    <model>
+      <orig_grup>4166</orig_grup>
+      <model_id>133</model_id>
+      <part_name>Петля капота левая</part_name>
+      <firm_model>Audi A6 [C6,4F] 2005-2011</firm_model>
+    </model>
+    <model>
+      <orig_grup>4166</orig_grup>
+      <model_id>276</model_id>
+      <part_name>Петля капота левая</part_name>
+      <firm_model>Audi Allroad quattro 2000-2005</firm_model>
+    </model>
+    <model>
+      <orig_grup>4166</orig_grup>
+      <model_id>288</model_id>
+      <part_name>Петля капота левая</part_name>
+      <firm_model>Audi A4 [B6] 2000-2004</firm_model>
+    </model>
+    <model>
+      <orig_grup>4166</orig_grup>
+      <model_id>291</model_id>
+      <part_name>Петля капота левая</part_name>
+      <firm_model>Audi 80/90 [B4] 1991-1994</firm_model>
+    </model>
+    <model>
+      <orig_grup>4166</orig_grup>
+      <model_id>292</model_id>
+      <part_name>Петля капота левая</part_name>
+      <firm_model>Audi A6 [C5] 1997-2004</firm_model>
+    </model>
+    <model>
+      <orig_grup>4166</orig_grup>
+      <model_id>293</model_id>
+      <part_name>Петля капота левая</part_name>
+      <firm_model>Audi A8 1998-2003</firm_model>
+    </model>
+    <model>
+      <orig_grup>4166</orig_grup>
+      <model_id>360</model_id>
+      <part_name>Петля капота левая</part_name>
+      <firm_model>Audi A3 [8PA] 2004&gt;</firm_model>
+    </model>
+    <model>
+      <orig_grup>4166</orig_grup>
+      <model_id>471</model_id>
+      <part_name>Петля капота левая</part_name>
+      <firm_model>Audi A8 [D3,4E] 2004-2010</firm_model>
+    </model>
+    <model>
+      <orig_grup>4166</orig_grup>
+      <model_id>700</model_id>
+      <part_name>Петля капота левая</part_name>
+      <firm_model>AUDI Q7 2005&gt;</firm_model>
+    </model>
+    <model>
+      <orig_grup>4166</orig_grup>
+      <model_id>919</model_id>
+      <part_name>Петля капота левая</part_name>
+      <firm_model>Audi A3 [8P1] 2003&gt;</firm_model>
+    </model>
+    <model>
+      <orig_grup>4166</orig_grup>
+      <model_id>947</model_id>
+      <part_name>Петля капота левая</part_name>
+      <firm_model>Audi A4 [B7] 2005-2007</firm_model>
+    </model>
+    <model>
+      <orig_grup>4166</orig_grup>
+      <model_id>1074</model_id>
+      <part_name>Петля капота левая</part_name>
+      <firm_model>Audi A5/S5 Coupe/Sportback 2008&gt;</firm_model>
+    </model>
+    <model>
+      <orig_grup>4166</orig_grup>
+      <model_id>1075</model_id>
+      <part_name>Петля капота левая</part_name>
+      <firm_model>Audi Q5 2008&gt;</firm_model>
+    </model>
+    <model>
+      <orig_grup>4166</orig_grup>
+      <model_id>1356</model_id>
+      <part_name>Петля капота левая</part_name>
+      <firm_model>Audi A5/S5 Cabrio 2010&gt;</firm_model>
+    </model>
+    <model>
+      <orig_grup>4327</orig_grup>
+      <model_id>14</model_id>
+      <part_name>Петля капота правая</part_name>
+      <firm_model>Audi 80/90 [B3] 1986-1991</firm_model>
+    </model>
+    <model>
+      <orig_grup>4327</orig_grup>
+      <model_id>18</model_id>
+      <part_name>Петля капота правая</part_name>
+      <firm_model>Audi 100 [C4] 1991-1994</firm_model>
+    </model>
+    <model>
+      <orig_grup>4327</orig_grup>
+      <model_id>20</model_id>
+      <part_name>Петля капота правая</part_name>
+      <firm_model>Audi A3 [8L1] 1996-2003</firm_model>
+    </model>
+    <model>
+      <orig_grup>4327</orig_grup>
+      <model_id>21</model_id>
+      <part_name>Петля капота правая</part_name>
+      <firm_model>Audi A4 [B5] 1994-2000</firm_model>
+    </model>
+    <model>
+      <orig_grup>4327</orig_grup>
+      <model_id>22</model_id>
+      <part_name>Петля капота правая</part_name>
+      <firm_model>Audi A6 [C4] 1994-1997</firm_model>
+    </model>
+    <model>
+      <orig_grup>4327</orig_grup>
+      <model_id>23</model_id>
+      <part_name>Петля капота правая</part_name>
+      <firm_model>Audi A8 1994-1998</firm_model>
+    </model>
+    <model>
+      <orig_grup>4327</orig_grup>
+      <model_id>25</model_id>
+      <part_name>Петля капота правая</part_name>
+      <firm_model>Audi TT(8N3) 1998-2006</firm_model>
+    </model>
+    <model>
+      <orig_grup>4327</orig_grup>
+      <model_id>133</model_id>
+      <part_name>Петля капота правая</part_name>
+      <firm_model>Audi A6 [C6,4F] 2005-2011</firm_model>
+    </model>
+    <model>
+      <orig_grup>4327</orig_grup>
+      <model_id>276</model_id>
+      <part_name>Петля капота правая</part_name>
+      <firm_model>Audi Allroad quattro 2000-2005</firm_model>
+    </model>
+    <model>
+      <orig_grup>4327</orig_grup>
+      <model_id>288</model_id>
+      <part_name>Петля капота правая</part_name>
+      <firm_model>Audi A4 [B6] 2000-2004</firm_model>
+    </model>
+    <model>
+      <orig_grup>4327</orig_grup>
+      <model_id>291</model_id>
+      <part_name>Петля капота правая</part_name>
+      <firm_model>Audi 80/90 [B4] 1991-1994</firm_model>
+    </model>
+    <model>
+      <orig_grup>4327</orig_grup>
+      <model_id>292</model_id>
+      <part_name>Петля капота правая</part_name>
+      <firm_model>Audi A6 [C5] 1997-2004</firm_model>
+    </model>
+    <model>
+      <orig_grup>4327</orig_grup>
+      <model_id>293</model_id>
+      <part_name>Петля капота правая</part_name>
+      <firm_model>Audi A8 1998-2003</firm_model>
+    </model>
+    <model>
+      <orig_grup>4327</orig_grup>
+      <model_id>360</model_id>
+      <part_name>Петля капота правая</part_name>
+      <firm_model>Audi A3 [8PA] 2004&gt;</firm_model>
+    </model>
+    <model>
+      <orig_grup>4327</orig_grup>
+      <model_id>471</model_id>
+      <part_name>Петля капота правая</part_name>
+      <firm_model>Audi A8 [D3,4E] 2004-2010</firm_model>
+    </model>
+    <model>
+      <orig_grup>4327</orig_grup>
+      <model_id>700</model_id>
+      <part_name>Петля капота правая</part_name>
+      <firm_model>AUDI Q7 2005&gt;</firm_model>
+    </model>
+    <model>
+      <orig_grup>4327</orig_grup>
+      <model_id>919</model_id>
+      <part_name>Петля капота правая</part_name>
+      <firm_model>Audi A3 [8P1] 2003&gt;</firm_model>
+    </model>
+    <model>
+      <orig_grup>4327</orig_grup>
+      <model_id>947</model_id>
+      <part_name>Петля капота правая</part_name>
+      <firm_model>Audi A4 [B7] 2005-2007</firm_model>
+    </model>
+    <model>
+      <orig_grup>4327</orig_grup>
+      <model_id>1074</model_id>
+      <part_name>Петля капота правая</part_name>
+      <firm_model>Audi A5/S5 Coupe/Sportback 2008&gt;</firm_model>
+    </model>
+    <model>
+      <orig_grup>4327</orig_grup>
+      <model_id>1075</model_id>
+      <part_name>Петля капота правая</part_name>
+      <firm_model>Audi Q5 2008&gt;</firm_model>
+    </model>
+    <model>
+      <orig_grup>4327</orig_grup>
+      <model_id>1123</model_id>
+      <part_name>Петля капота правая</part_name>
+      <firm_model>Audi Allroad quattro 2005&gt;</firm_model>
+    </model>
+    <model>
+      <orig_grup>4327</orig_grup>
+      <model_id>1356</model_id>
+      <part_name>Петля капота правая</part_name>
+      <firm_model>Audi A5/S5 Cabrio 2010&gt;</firm_model>
+    </model>
+    <model>
+      <orig_grup>3131</orig_grup>
+      <model_id>14</model_id>
+      <part_name>Ручка открывания капота</part_name>
+      <firm_model>Audi 80/90 [B3] 1986-1991</firm_model>
+    </model>
+    <model>
+      <orig_grup>3131</orig_grup>
+      <model_id>17</model_id>
+      <part_name>Ручка открывания капота</part_name>
+      <firm_model>Audi 100/200 [44] 1983-1991</firm_model>
+    </model>
+    <model>
+      <orig_grup>3131</orig_grup>
+      <model_id>18</model_id>
+      <part_name>Ручка открывания капота</part_name>
+      <firm_model>Audi 100 [C4] 1991-1994</firm_model>
+    </model>
+    <model>
+      <orig_grup>3131</orig_grup>
+      <model_id>20</model_id>
+      <part_name>Ручка открывания капота</part_name>
+      <firm_model>Audi A3 [8L1] 1996-2003</firm_model>
+    </model>
+    <model>
+      <orig_grup>3131</orig_grup>
+      <model_id>21</model_id>
+      <part_name>Ручка открывания капота</part_name>
+      <firm_model>Audi A4 [B5] 1994-2000</firm_model>
+    </model>
+    <model>
+      <orig_grup>3131</orig_grup>
+      <model_id>22</model_id>
+      <part_name>Ручка открывания капота</part_name>
+      <firm_model>Audi A6 [C4] 1994-1997</firm_model>
+    </model>
+    <model>
+      <orig_grup>3131</orig_grup>
+      <model_id>23</model_id>
+      <part_name>Ручка открывания капота</part_name>
+      <firm_model>Audi A8 1994-1998</firm_model>
+    </model>
+    <model>
+      <orig_grup>3131</orig_grup>
+      <model_id>25</model_id>
+      <part_name>Ручка открывания капота</part_name>
+      <firm_model>Audi TT(8N3) 1998-2006</firm_model>
+    </model>
+    <model>
+      <orig_grup>3131</orig_grup>
+      <model_id>276</model_id>
+      <part_name>Ручка открывания капота</part_name>
+      <firm_model>Audi Allroad quattro 2000-2005</firm_model>
+    </model>
+    <model>
+      <orig_grup>3131</orig_grup>
+      <model_id>291</model_id>
+      <part_name>Ручка открывания капота</part_name>
+      <firm_model>Audi 80/90 [B4] 1991-1994</firm_model>
+    </model>
+    <model>
+      <orig_grup>3131</orig_grup>
+      <model_id>292</model_id>
+      <part_name>Ручка открывания капота</part_name>
+      <firm_model>Audi A6 [C5] 1997-2004</firm_model>
+    </model>
+    <model>
+      <orig_grup>3131</orig_grup>
+      <model_id>293</model_id>
+      <part_name>Ручка открывания капота</part_name>
+      <firm_model>Audi A8 1998-2003</firm_model>
+    </model>
+    <model>
+      <orig_grup>3131</orig_grup>
+      <model_id>700</model_id>
+      <part_name>Ручка открывания капота</part_name>
+      <firm_model>AUDI Q7 2005&gt;</firm_model>
+    </model>
+    <model>
+      <orig_grup>3131</orig_grup>
+      <model_id>919</model_id>
+      <part_name>Ручка открывания капота</part_name>
+      <firm_model>Audi A3 [8P1] 2003&gt;</firm_model>
+    </model>
+    <model>
+      <orig_grup>3081</orig_grup>
+      <model_id>14</model_id>
+      <part_name>Трос открывания капота</part_name>
+      <firm_model>Audi 80/90 [B3] 1986-1991</firm_model>
+    </model>
+    <model>
+      <orig_grup>3081</orig_grup>
+      <model_id>16</model_id>
+      <part_name>Трос открывания капота</part_name>
+      <firm_model>Audi 100/200 [43] &gt;1983</firm_model>
+    </model>
+    <model>
+      <orig_grup>3081</orig_grup>
+      <model_id>17</model_id>
+      <part_name>Трос открывания капота</part_name>
+      <firm_model>Audi 100/200 [44] 1983-1991</firm_model>
+    </model>
+    <model>
+      <orig_grup>3081</orig_grup>
+      <model_id>18</model_id>
+      <part_name>Трос открывания капота</part_name>
+      <firm_model>Audi 100 [C4] 1991-1994</firm_model>
+    </model>
+    <model>
+      <orig_grup>3081</orig_grup>
+      <model_id>20</model_id>
+      <part_name>Трос открывания капота</part_name>
+      <firm_model>Audi A3 [8L1] 1996-2003</firm_model>
+    </model>
+    <model>
+      <orig_grup>3081</orig_grup>
+      <model_id>22</model_id>
+      <part_name>Трос открывания капота</part_name>
+      <firm_model>Audi A6 [C4] 1994-1997</firm_model>
+    </model>
+    <model>
+      <orig_grup>3081</orig_grup>
+      <model_id>23</model_id>
+      <part_name>Трос открывания капота</part_name>
+      <firm_model>Audi A8 1994-1998</firm_model>
+    </model>
+    <model>
+      <orig_grup>3081</orig_grup>
+      <model_id>133</model_id>
+      <part_name>Трос открывания капота</part_name>
+      <firm_model>Audi A6 [C6,4F] 2005-2011</firm_model>
+    </model>
+    <model>
+      <orig_grup>3081</orig_grup>
+      <model_id>276</model_id>
+      <part_name>Трос открывания капота</part_name>
+      <firm_model>Audi Allroad quattro 2000-2005</firm_model>
+    </model>
+    <model>
+      <orig_grup>3081</orig_grup>
+      <model_id>288</model_id>
+      <part_name>Трос открывания капота</part_name>
+      <firm_model>Audi A4 [B6] 2000-2004</firm_model>
+    </model>
+    <model>
+      <orig_grup>3081</orig_grup>
+      <model_id>291</model_id>
+      <part_name>Трос открывания капота</part_name>
+      <firm_model>Audi 80/90 [B4] 1991-1994</firm_model>
+    </model>
+    <model>
+      <orig_grup>3081</orig_grup>
+      <model_id>700</model_id>
+      <part_name>Трос открывания капота</part_name>
+      <firm_model>AUDI Q7 2005&gt;</firm_model>
+    </model>
+    <model>
+      <orig_grup>3081</orig_grup>
+      <model_id>919</model_id>
+      <part_name>Трос открывания капота</part_name>
+      <firm_model>Audi A3 [8P1] 2003&gt;</firm_model>
+    </model>
+    <model>
+      <orig_grup>3081</orig_grup>
+      <model_id>1356</model_id>
+      <part_name>Трос открывания капота</part_name>
+      <firm_model>Audi A5/S5 Cabrio 2010&gt;</firm_model>
+    </model>
+    <model>
+      <orig_grup>2024</orig_grup>
+      <model_id>18</model_id>
+      <part_name>Шумоизоляция капота</part_name>
+      <firm_model>Audi 100 [C4] 1991-1994</firm_model>
+    </model>
+    <model>
+      <orig_grup>2024</orig_grup>
+      <model_id>22</model_id>
+      <part_name>Шумоизоляция капота</part_name>
+      <firm_model>Audi A6 [C4] 1994-1997</firm_model>
+    </model>
+    <model>
+      <orig_grup>2024</orig_grup>
+      <model_id>23</model_id>
+      <part_name>Шумоизоляция капота</part_name>
+      <firm_model>Audi A8 1994-1998</firm_model>
+    </model>
+    <model>
+      <orig_grup>2024</orig_grup>
+      <model_id>133</model_id>
+      <part_name>Шумоизоляция капота</part_name>
+      <firm_model>Audi A6 [C6,4F] 2005-2011</firm_model>
+    </model>
+    <model>
+      <orig_grup>2024</orig_grup>
+      <model_id>276</model_id>
+      <part_name>Шумоизоляция капота</part_name>
+      <firm_model>Audi Allroad quattro 2000-2005</firm_model>
+    </model>
+    <model>
+      <orig_grup>2024</orig_grup>
+      <model_id>288</model_id>
+      <part_name>Шумоизоляция капота</part_name>
+      <firm_model>Audi A4 [B6] 2000-2004</firm_model>
+    </model>
+    <model>
+      <orig_grup>2024</orig_grup>
+      <model_id>292</model_id>
+      <part_name>Шумоизоляция капота</part_name>
+      <firm_model>Audi A6 [C5] 1997-2004</firm_model>
+    </model>
+    <model>
+      <orig_grup>2024</orig_grup>
+      <model_id>293</model_id>
+      <part_name>Шумоизоляция капота</part_name>
+      <firm_model>Audi A8 1998-2003</firm_model>
+    </model>
+    <model>
+      <orig_grup>2024</orig_grup>
+      <model_id>471</model_id>
+      <part_name>Шумоизоляция капота</part_name>
+      <firm_model>Audi A8 [D3,4E] 2004-2010</firm_model>
+    </model>
+    <model>
+      <orig_grup>2024</orig_grup>
+      <model_id>700</model_id>
+      <part_name>Шумоизоляция капота</part_name>
+      <firm_model>AUDI Q7 2005&gt;</firm_model>
+    </model>
+  </models>
+  <pagination>
+    <next>0</next>
+    <prev>0</prev>
+    <current>0</current>
+    <total-pages>0</total-pages>
+    <total-items>177</total-items>
+    <items-on-page>30</items-on-page>
+  </pagination>
+</euroauto-export>

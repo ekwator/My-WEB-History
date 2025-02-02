@@ -1,0 +1,56 @@
+# Russian translation of ctools (all releases)
+# Copyright (c) 2013 by the Russian translation team
+# Generated from files:
+#  ctools/plugins/content_types/node/node.inc: n/a
+#  node.inc,v 1.6.2.6 2010/07/26 17:34:20 merlinofchaos
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: ctools (all releases)\n"
+"POT-Creation-Date: 2013-05-29 14:25+0400\n"
+"PO-Revision-Date: 2010-04-25 13:39+0400\n"
+"Language-Team: Russian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=((((n%10)==1)&&((n%100)!=11))?(0):(((((n%10)>=2)&&((n%10)<=4))&&(((n%100)<10)||((n%100)>=20)))?(1):2));\n"
+
+#: plugins/content_types/node/node.inc:201,211,227,227,226,211,226,211,211,211,227,211,226,211,226
+msgid "Invalid node"
+msgstr "Неверный материал"
+
+#: plugins/content_types/node/node.inc:25,25,25,26,26,25,25,25,26,25,25,25,25
+msgid "Add a node from your site as content."
+msgstr ""
+
+#: plugins/content_types/node/node.inc:133,120,130,134,134,130,133,130,130,130,134,130,133,130,133
+msgid ""
+"To use a NID from the URL, you may use %0, %1, ..., %N to get URL "
+"arguments. Or use @0, @1, @2, ..., @N to use arguments passed into the "
+"panel."
+msgstr ""
+
+#: plugins/content_types/node/node.inc:244,219,229,245,245,229,244,229,229,229,245,229,244,229,244
+msgid "Node loaded from @var"
+msgstr ""
+
+#: plugins/content_types/node/node.inc:257,232,242,258,258,242,257,242,242,242,258,242,257,242,257
+msgid "Deleted/missing node @nid"
+msgstr ""
+
+#: plugins/content_types/node/node.inc:23,23,23,24,24,23,23,23,24,23,23,23,23
+msgid "Existing node"
+msgstr "Существующий материал"
+
+#: plugins/content_types/node/node.inc:238,253,228,238,254,254,253,238,238,238,254,238,253,238,253
+msgid "Unpublished node @nid"
+msgstr ""
+
+#: plugins/content_types/node/node.inc:124,111,121,125,125,121,124,121,121,121,125,121,124,121,124
+msgid "Link the node title to the node"
+msgstr ""
+
+#: plugins/content_types/node/node.inc:125,112,122,126,126,122,125,122,122,122,126,122,125,122,125
+msgid "Check this box if you would like your pane title to link to the node."
+msgstr ""
+

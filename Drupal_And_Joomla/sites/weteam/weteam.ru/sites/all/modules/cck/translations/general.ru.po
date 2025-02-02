@@ -1,0 +1,1394 @@
+# Russian translation of cck (all releases)
+# Copyright (c) 2012 by the Russian translation team
+# Generated from files:
+#  cck/content.module: n/a
+#  cck/modules/content_multigroup/content_multigroup.node_form.inc: n/a
+#  cck/examples/example_field.php: n/a
+#  cck/includes/content.admin.inc: n/a
+#  cck/modules/number/number.module: n/a
+#  cck/modules/text/text.module: n/a
+#  cck/includes/content.rules.inc: n/a
+#  content_admin.inc,v 1.28.2.49 2008/12/04 13:49:07 yched
+#  number.module,v 1.34.2.30 2009/03/26 23:56:34 yched
+#  text.module,v 1.41.2.23 2008/09/17 16:25:20 yched
+#  cck/content_admin.inc: n/a
+#  cck/number.module: n/a
+#  cck/text.module: n/a
+#  cck/examples/simple_field.php: n/a
+#  cck/modules/userreference/userreference.module: n/a
+#  field.php,v 1.7.2.10 2008/02/25 19:59:11 yched
+#  userreference.module,v 1.30.2.33 2008/11/05 19:38:03 yched
+#  cck/field.php: n/a
+#  cck/userreference.module: n/a
+#  cck/theme/content-admin-field-overview-form.tpl.php: n/a
+#  cck/modules/content_copy/content_copy.module: n/a
+#  content_copy.module,v 1.1.2.17 2008/11/05 19:38:03 yched
+#  cck/content_copy.module: n/a
+#  cck/modules/content_copy/content_copy_export_form.tpl.php: n/a
+#  cck/modules/nodereference/nodereference.module: n/a
+#  nodereference.module,v 1.39.2.46 2010/06/17 13:14:42 yched
+#  cck/nodereference.module: n/a
+#  cck/modules/fieldgroup/fieldgroup.module: n/a
+#  fieldgroup.module,v 1.1.4.37 2010/06/09 01:06:29 karens
+#  cck/fieldgroup.module: n/a
+#  cck/includes/panels/content_types/content_field.inc: n/a
+#  cck/modules/content_multigroup/panels/content_types/content_multigroup.inc: n/a
+#  cck/modules/fieldgroup/panels/content_types/content_fieldgroup.inc: n/a
+#  content_panels.inc,v 1.1.2.16 2008/10/17 00:02:58 yched
+#  cck/content_panels.inc: n/a
+#  cck/modules/content_multigroup/content_multigroup.admin.inc: n/a
+#  cck/content.info: n/a
+#  cck/includes/views/content.views.inc: n/a
+#  content.info,v 1.2.2.3 2007/06/18 23:06:32 dww
+#  content.module,v 1.90.2.60 2010/06/09 01:06:29 karens
+#  cck/includes/views/handlers/content_handler_relationship.inc: n/a
+#  cck/includes/views/handlers/content_handler_sort.inc: n/a
+#  cck/includes/views/handlers/content_handler_field.inc: n/a
+#  cck/theme/content-admin-display-overview-form.tpl.php: n/a
+#  cck/modules/nodereference/nodereference.rules.inc: n/a
+#  cck/modules/userreference/userreference.rules.inc: n/a
+#  cck/modules/content_migrate/includes/content_migrate.admin.inc: n/a
+#  cck/modules/content_migrate/includes/content_migrate.drush.inc: n/a
+#  cck/includes/content.crud.inc: n/a
+#  content_crud.inc,v 1.4.2.15 2008/10/07 11:56:48 karens
+#  cck/content_crud.inc: n/a
+#  cck/modules/content_copy/content_copy.info: n/a
+#  cck/modules/content_permissions/content_permissions.info: n/a
+#  cck/modules/fieldgroup/fieldgroup.info: n/a
+#  cck/modules/nodereference/nodereference.info: n/a
+#  cck/modules/number/number.info: n/a
+#  cck/modules/optionwidgets/optionwidgets.info: n/a
+#  cck/modules/text/text.info: n/a
+#  cck/modules/userreference/userreference.info: n/a
+#  cck/modules/content_multigroup/content_multigroup.info: n/a
+#  content_copy.info,v 1.1.2.5 2007/06/18 23:06:32 dww
+#  fieldgroup.info,v 1.1.2.3 2007/06/18 23:06:32 dww
+#  nodereference.info,v 1.2.2.3 2007/06/18 23:06:32 dww
+#  number.info,v 1.2.2.3 2007/06/18 23:06:32 dww
+#  optionwidgets.info,v 1.2.2.3 2007/06/18 23:06:32 dww
+#  text.info,v 1.2.2.3 2007/06/18 23:06:32 dww
+#  userreference.info,v 1.2.2.3 2007/06/18 23:06:32 dww
+#  cck/content_copy.info: n/a
+#  cck/fieldgroup.info: n/a
+#  cck/nodereference.info: n/a
+#  cck/number.info: n/a
+#  cck/optionwidgets.info: n/a
+#  cck/text.info: n/a
+#  cck/userreference.info: n/a
+#  cck/cck.info: n/a
+#  cck/modules/content_migrate/content_migrate.info: n/a
+#  cck/modules/optionwidgets/optionwidgets.module: n/a
+#  optionwidgets.module,v 1.10.2.13 2008/09/03 13:45:05 yched
+#  cck/optionwidgets.module: n/a
+#  cck/includes/content.views.inc: n/a
+#  cck/includes/content.token.inc: n/a
+#  cck/modules/userreference/userreference.token.inc: n/a
+#  cck/modules/nodereference/panels/relationships/node_from_noderef.inc: n/a
+#  cck/modules/userreference/panels/relationships/user_from_userref.inc: n/a
+#  cck/includes/views/handlers/content_handler_field_multiple.inc: n/a
+#  content_views.inc,v 1.2.2.22 2008/11/05 19:38:03 yched
+#  cck/content_views.inc: n/a
+#  cck/theme/theme.inc: n/a
+#  cck/includes/content.node_form.inc: n/a
+#  cck/modules/nodereference/nodereference.token.inc: n/a
+#  cck/modules/number/number.token.inc: n/a
+#  cck/modules/text/text.token.inc: n/a
+#  cck/cck.module: n/a
+#  cck/modules/content_multigroup/views/content_multigroup.views.inc: n/a
+#  cck/modules/content_migrate/modules/content_migrate.number.inc: n/a
+#  cck/modules/content_migrate/modules/content_migrate.text.inc: n/a
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: cck (all releases)\n"
+"POT-Creation-Date: 2012-08-17 04:30-0400\n"
+"PO-Revision-Date: 2012-03-26 10:26-0400\n"
+"Language-Team: Russian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=((((n%10)==1)&&((n%100)!=11))?(0):(((((n%10)>=2)&&((n%10)<=4))&&(((n%100)<10)||((n%100)>=20)))?(1):2));\n"
+
+#: content.module:467,501,492,494,503; modules/content_multigroup/content_multigroup.node_form.inc:874,887,888
+msgid "This field is required."
+msgstr "Обязательное поле"
+
+#: examples/example_field.php:187; includes/content.admin.inc:752,1130,1143,1116,1129,1115,1128; modules/number/number.module:142,130,139,131,140,135,144; modules/text/text.module:101,92,93,102,97,106; includes/content.rules.inc:98,99; content_admin.inc:846,859,845,858; number.module:72,81,71,80; text.module:56,65,55,64
+msgid "Code"
+msgstr "Код"
+
+#: examples/example_field.php:382; examples/simple_field.php:326; modules/text/text.module:193,195,196,200; modules/userreference/userreference.module:145,231,232,236; field.php:242,241; text.module:200,199; userreference.module:98,97
+msgid "Default"
+msgstr "По умолчанию"
+
+#: includes/content.admin.inc:162,15,16; theme/content-admin-field-overview-form.tpl.php:13,14; content_admin.inc:212,216,211,215
+msgid "Operations"
+msgstr "Действия"
+
+#: modules/content_copy/content_copy.module:243,45,316,317,46; content_copy.module:50,49
+msgid "Import"
+msgstr "Импорт"
+
+#: modules/content_copy/content_copy.module:153,37,187,188,38; modules/content_copy/content_copy_export_form.tpl.php:8,9; content_copy.module:41,40
+msgid "Export"
+msgstr "Экспорт"
+
+#: modules/nodereference/nodereference.module:107; nodereference.module:67,66
+msgid "View"
+msgstr "Просмотр"
+
+#: modules/fieldgroup/fieldgroup.module:288,324,338,285,284,288,324,338,285,284; modules/nodereference/nodereference.module:526,526; modules/userreference/userreference.module:427,427
+msgid "none"
+msgstr "нет"
+
+#: modules/fieldgroup/fieldgroup.module:151,154,155; includes/content.admin.inc:15,16; fieldgroup.module:118,117
+msgid "Description"
+msgstr "Описание"
+
+#: content_admin.inc:371,370; content_copy.module:167,275,166,274; fieldgroup.module:334,333
+msgid "Submit"
+msgstr "Отправить"
+
+#: includes/content.admin.inc:162; theme/content-admin-field-overview-form.tpl.php:10,11; content_admin.inc:212,216,211,215
+msgid "Weight"
+msgstr "Вес"
+
+#: includes/panels/content_types/content_field.inc:144,145; modules/content_multigroup/panels/content_types/content_multigroup.inc:100; modules/fieldgroup/panels/content_types/content_fieldgroup.inc:106,107; content_panels.inc:50,49
+msgid "Block title"
+msgstr "Заголовок блока"
+
+#: includes/content.admin.inc:615,927,913,912; modules/fieldgroup/fieldgroup.module:231,206,205; content_admin.inc:697,696; fieldgroup.module:215,214
+msgid "Cancel"
+msgstr "Отменить"
+
+#: includes/content.admin.inc:770,1157,1143,1142; modules/content_multigroup/content_multigroup.admin.inc:445; content_admin.inc:873,872
+msgid "Required"
+msgstr "Обязательный"
+
+#: modules/fieldgroup/fieldgroup.module:230,205,204; fieldgroup.module:214,213
+msgid "This action cannot be undone."
+msgstr "Это действие нельзя будет отменить.."
+
+#: modules/userreference/userreference.module:254; userreference.module:156,155
+msgid "Yes"
+msgstr "Да"
+
+#: modules/userreference/userreference.module:254; userreference.module:156,155
+msgid "No"
+msgstr "Нет"
+
+#: includes/content.admin.inc:162,15,16; modules/content_copy/content_copy_export_form.tpl.php:10,11; theme/content-admin-field-overview-form.tpl.php:11,12; content_admin.inc:212,216,521,211,215,520
+msgid "Name"
+msgstr "Имя"
+
+#: includes/content.admin.inc:162,15,16; modules/content_copy/content_copy_export_form.tpl.php:11,12; theme/content-admin-field-overview-form.tpl.php:12,13; content_admin.inc:212,216,376,211,215,375
+msgid "Type"
+msgstr "Тип"
+
+#: content.info:0,0,0; includes/content.rules.inc:18,211,19,212; includes/views/content.views.inc:180,261,314,181,262,315
+msgid "Content"
+msgstr "Содержимое"
+
+#: includes/content.admin.inc:776,1168,1154,1153; modules/content_multigroup/content_multigroup.admin.inc:14
+msgid "Unlimited"
+msgstr "Не ограничено"
+
+#: modules/userreference/userreference.module:78; userreference.module:49,48
+msgid "Active"
+msgstr "Активный"
+
+#: content.module:169,133,132; includes/content.admin.inc:449; content_admin.inc:492,491
+msgid "Add field"
+msgstr "Добавить поле"
+
+#: includes/content.admin.inc:495,865,851,850; includes/content.rules.inc:65,66
+msgid "Continue"
+msgstr "Продолжить"
+
+#: includes/content.admin.inc:701,1065,1051,1050; modules/fieldgroup/fieldgroup.module:138,141,142; content_admin.inc:774,773; fieldgroup.module:105,104
+msgid "Help text"
+msgstr "Справочный текст"
+
+#: modules/content_copy/content_copy.module:85,102,103; content_copy.module:99,98
+msgid "Types"
+msgstr "Типы"
+
+#: modules/userreference/userreference.module:78; userreference.module:49,48
+msgid "Blocked"
+msgstr "Заблокировано"
+
+#: includes/views/handlers/content_handler_relationship.inc:39,40; includes/views/handlers/content_handler_sort.inc:40,41
+msgid "All"
+msgstr "Все"
+
+#: modules/content_copy/content_copy.module:114; content_copy.module:128,127
+msgid "Groups"
+msgstr "Группы"
+
+#: includes/content.admin.inc:98,114,615,177,205,927,203,913,176,202,912; modules/fieldgroup/fieldgroup.module:231,206,205; content.module:511,513; modules/content_multigroup/content_multigroup.node_form.inc:891,904,905; content_admin.inc:697,696; fieldgroup.module:215,214
+msgid "Remove"
+msgstr "Удалить"
+
+#: modules/nodereference/nodereference.module:478,479,483; modules/userreference/userreference.module:358,359,363
+msgid "Contains"
+msgstr "Содержит"
+
+#: includes/content.admin.inc:151,352,377,705,366,691,365,690; modules/fieldgroup/fieldgroup.module:105,358,174,525,360,173,359; fieldgroup.module:72,71
+msgid "Save"
+msgstr "Сохранить"
+
+#: modules/fieldgroup/fieldgroup.module:98; theme/content-admin-field-overview-form.tpl.php:53,54; fieldgroup.module:65,64
+msgid "Add"
+msgstr "Добавить"
+
+#: modules/nodereference/nodereference.module:95,100,101,105; modules/userreference/userreference.module:96,97,101; nodereference.module:51,50
+msgid "Existing Views"
+msgstr "Существующие представления"
+
+#: modules/nodereference/nodereference.module:97,98,102; modules/userreference/userreference.module:93,94,98; nodereference.module:56,55
+msgid "Default Views"
+msgstr "Представления по умолчанию"
+
+#: includes/content.admin.inc:162,363,687,260,304,337,836,1017,252,296,326,822,1003,251,295,325,821,1002; modules/fieldgroup/fieldgroup.module:116,113,114; includes/views/handlers/content_handler_field.inc:57,58; modules/content_copy/content_copy_export_form.tpl.php:9,10; theme/content-admin-display-overview-form.tpl.php:12,13; theme/content-admin-field-overview-form.tpl.php:9,10; content_admin.inc:212,216,376,760,211,215,375,759; content_panels.inc:47,46; fieldgroup.module:83,512,82,511
+msgid "Label"
+msgstr "Метка"
+
+#: content.module:115,78,79,80,93,92; modules/content_copy/content_copy.module:124; content_copy.module:138,137
+msgid "Fields"
+msgstr "Поля"
+
+#: includes/content.admin.inc:363; includes/content.rules.inc:52,275,53,276; modules/nodereference/nodereference.rules.inc:44,45; modules/userreference/userreference.rules.inc:46,47; theme/content-admin-display-overview-form.tpl.php:10,11; content_admin.inc:376,375; modules/content_migrate/includes/content_migrate.admin.inc:88; modules/content_migrate/includes/content_migrate.drush.inc:71
+msgid "Field"
+msgstr "Поле"
+
+#: content.module:474,508,499,501,510; modules/content_multigroup/content_multigroup.node_form.inc:889,902,903
+msgid "Order"
+msgstr "Положение"
+
+#: content.module:1574,1971,1922,1924,1989; modules/nodereference/nodereference.module:208,307,308,312; content_admin.inc:451,450; nodereference.module:148,147
+msgid "Teaser"
+msgstr "Краткое содержание"
+
+#: examples/example_field.php:169; examples/simple_field.php:166; modules/text/text.module:77,67,68,72; field.php:112,111; text.module:37,36
+msgid ""
+"The maximum length of the field in characters. Leave blank for an "
+"unlimited size."
+msgstr ""
+"Максимальная длина поля в символах. "
+"Оставьте поле пустым для "
+"неограниченной длины."
+
+#: examples/example_field.php:277; modules/number/number.module:217; modules/text/text.module:149; field.php:220,219; number.module:155,154; text.module:177,176
+msgid "Illegal value for %name."
+msgstr "Неправильное значение для %name."
+
+#: examples/example_field.php:550; examples/simple_field.php:429; modules/text/text.module:313,324,325,329; field.php:358,357; text.module:272,271
+msgid "Rows"
+msgstr "Строки"
+
+#: examples/example_field.php:559; examples/simple_field.php:437; modules/text/text.module:322; field.php:366,365; text.module:280,279
+msgid "\"Rows\" must be a positive integer."
+msgstr ""
+"\"Колонок\"должно быть положительным "
+"числом."
+
+#: includes/content.admin.inc:14,486,72,843,1029,73,829,1015,828,1014; content_admin.inc:15,529,14,528; modules/content_migrate/includes/content_migrate.admin.inc:88; modules/content_migrate/includes/content_migrate.drush.inc:71
+msgid "Field type"
+msgstr "Тип поля"
+
+#: includes/content.admin.inc:14,72,73; content_admin.inc:15,14
+msgid "Used in"
+msgstr "Используется в"
+
+#: includes/content.admin.inc:410,729,715,714; content_admin.inc:411,410
+msgid "Your settings have been saved."
+msgstr "Ваши настройки были сохранены."
+
+#: includes/content.admin.inc:271,296,311,319,612,639,659,667,601,628,648,656,600,627,647,655; modules/content_multigroup/content_multigroup.admin.inc:315; content_admin.inc:421,426,420,425; fieldgroup.module:479,487,478,486
+msgid "<Hidden>"
+msgstr "<Скрыто>"
+
+#: includes/content.admin.inc:269,310,610,658,599,647,598,646; includes/panels/content_types/content_field.inc:145,146; modules/content_multigroup/content_multigroup.admin.inc:314; modules/content_multigroup/panels/content_types/content_multigroup.inc:101; modules/fieldgroup/panels/content_types/content_fieldgroup.inc:107,108; content_admin.inc:424,423; content_panels.inc:51,50; fieldgroup.module:478,477
+msgid "Above"
+msgstr "Выше"
+
+#: includes/content.admin.inc:270,611,600,599; includes/panels/content_types/content_field.inc:146,147; content_admin.inc:425,424; content_panels.inc:52,51
+msgid "Inline"
+msgstr "В линию"
+
+#: includes/content.admin.inc:440; content_admin.inc:483,482
+msgid "Add existing field"
+msgstr "Добавить существующее поле"
+
+#: includes/content.admin.inc:474; content_admin.inc:518,517
+msgid "Create new field"
+msgstr "Создать новое поле"
+
+#: includes/content.admin.inc:503; content_admin.inc:549,548
+msgid ""
+"No field modules are enabled. You need to <a "
+"href=\"!modules_url\">enable one</a>, such as text.module, before you "
+"can add new fields."
+msgstr ""
+"Модули полей не включены. Вам нужно <a "
+"href=\"!modules_url\">установить хоть один</a>, "
+"например text.module, перед тем, как вы "
+"сможете добавлять новые поля."
+
+#: includes/content.admin.inc:537,1349,1335,1334; content_admin.inc:605,604
+msgid "Added field %label."
+msgstr "Добавлено поле %label."
+
+#: includes/content.admin.inc:560; content_admin.inc:617,616
+msgid "The field name %field_name already exists."
+msgstr "Поле с именем %field_name уже существует."
+
+#: includes/content.admin.inc:581; content_admin.inc:672,671
+msgid "Created field %label."
+msgstr "Создано поле %label."
+
+#: includes/content.admin.inc:611,924,910,909; content_admin.inc:694,693
+msgid "Are you sure you want to remove the field %field?"
+msgstr ""
+"Вы действительно хотите удалить поле "
+"%field?"
+
+#: includes/content.admin.inc:614,926,912,911; content_admin.inc:696,695
+msgid ""
+"If you have any content left in this field, it will be lost. This "
+"action cannot be undone."
+msgstr ""
+"Имеющееся содержание этого поля будет "
+"утрачено. Это действие нельзя "
+"отменить."
+
+#: includes/content.admin.inc:633,954,940,939; content_admin.inc:715,714
+msgid "Removed field %field from %type."
+msgstr "Поле %field удалено из %type."
+
+#: includes/content.admin.inc:664,1050,1036,1035; content_admin.inc:739,738
+msgid ""
+"These settings apply only to the %field field as it appears in the "
+"%type content type."
+msgstr ""
+"Эти настройки относятся только к полю "
+"%field, каким оно появляется в типе "
+"содержимого %type."
+
+#: includes/content.admin.inc:680; content_admin.inc:753,752
+msgid "Widget"
+msgstr "Виджет"
+
+#: includes/content.admin.inc:712,1094,1080,1079; content_admin.inc:803,802
+msgid "Default value"
+msgstr "Значение по умолчанию"
+
+#: includes/content.admin.inc:766,1153,1139,1138; content_admin.inc:869,868
+msgid ""
+"These settings apply to the %field field in every content type in "
+"which it appears."
+msgstr ""
+"Эти настройки относятся к полю %field в "
+"каждом типе содержимого, в котором оно "
+"появляется."
+
+#: includes/content.admin.inc:793,1184,1170,1169; modules/content_copy/content_copy.module:247,248; content_admin.inc:889,888
+msgid "Save field settings"
+msgstr "Сохранить настройки поля"
+
+#: includes/content.admin.inc:920,1325,1311,1310; content_admin.inc:1004,1003
+msgid "The default value is invalid."
+msgstr "Значение по умолчанию не верное."
+
+#: includes/content.crud.inc:561,645,646; content_crud.inc:165,164
+msgid ""
+"Content fields table %old_name has been renamed to %new_name and field "
+"instances have been updated."
+msgstr ""
+"Поля таблицы %old_name переименованы в  "
+"%new_name и значения полей обновлены."
+
+#: includes/content.crud.inc:591,689,690; content_crud.inc:192,191
+msgid "The content fields table %name has been deleted."
+msgstr "Поля таблицы %name удалены."
+
+#: modules/content_copy/content_copy.module:79; content_copy.module:90,89
+msgid ""
+"This form will process a content type and one or more fields from that "
+"type and export the settings. The export created by this process can "
+"be copied and pasted as an import into the current or any other "
+"database. The import will add the fields to into an existing content "
+"type or create a new content type that includes the selected fields."
+msgstr ""
+"Эта форма обрабатывает тип "
+"содержимого и одно или более поле "
+"этого типа и экспортирует настройки. "
+"Созданные данные экспорта можно "
+"скопировать и вставить в текущую или "
+"любую другую базу данных. Импорт "
+"добавляет поля в существующий тип "
+"содержимого или создает новый тип "
+"содержимого, который включает "
+"выбранные поля."
+
+#: modules/content_copy/content_copy.module:89,105,106; content_copy.module:103,102
+msgid "Select the content type to export."
+msgstr ""
+"Выберите тип содержимого для "
+"экспорта."
+
+#: modules/content_copy/content_copy.module:118; content_copy.module:132,131
+msgid "Select the group definitions to export from %type."
+msgstr ""
+"Выберите определения групп для "
+"экспорта из %type."
+
+#: modules/content_copy/content_copy.module:128; content_copy.module:142,141
+msgid "Select the field definitions to export from %type."
+msgstr ""
+"Выберите определения полей для "
+"экспорта из %type."
+
+#: modules/content_copy/content_copy.module:138,171,172; content_copy.module:152,151
+msgid "Export data"
+msgstr "Экспортировать данные"
+
+#: modules/content_copy/content_copy.module:143,176,177; content_copy.module:157,156
+msgid ""
+"Copy the export text and paste it into another content type using the "
+"import function."
+msgstr ""
+"Копировать экспортируемый текст и "
+"вставить его в другой тип содержимого "
+"используя функцию импорта."
+
+#: modules/content_copy/content_copy.module:226,299,300; content_copy.module:258,257
+msgid ""
+"This form will import field definitions exported from another content "
+"type or another database.<br/>Note that fields cannot be duplicated "
+"within the same content type, so imported fields will be added only if "
+"they do not already exist in the selected type."
+msgstr ""
+"Эта форма позволяет импортировать "
+"определения полей из другого типа "
+"содержимого или другой базы данных. <br "
+"/>Обратите внимание, что не должно быть "
+"одинаковых полей в одном и том же типе "
+"содержимого, поскольку инпортируемые "
+"поля добавляются только, если такие не "
+"существуют в выбранном типе "
+"содержимого."
+
+#: modules/content_copy/content_copy.module:229,302,303; content_copy.module:261,260
+msgid "<Create>"
+msgstr "<Создать>"
+
+#: modules/content_copy/content_copy.module:231,304,305; content_copy.module:263,262
+msgid "Content type"
+msgstr "Тип содержимого"
+
+#: modules/content_copy/content_copy.module:237,310,311; content_copy.module:269,268
+msgid "Import data"
+msgstr "Импорт данных"
+
+#: modules/content_copy/content_copy.module:239,312,313; content_copy.module:271,270
+msgid "Paste the text created by a content export into this field."
+msgstr ""
+"Вставить в это поле текст, созданный с "
+"помощью экспорта."
+
+#: modules/content_copy/content_copy.module:269,350,351; content_copy.module:307,306
+msgid "The import data is not valid import text."
+msgstr ""
+"Импортируемые данные содержат "
+"неправильный текст для импорта."
+
+#: modules/content_copy/content_copy.module:317,399,400; content_copy.module:352,351
+msgid ""
+"The following modules must be enabled for this import to work: "
+"%modules."
+msgstr ""
+"Следующие модули должны быть "
+"включены, чтобы работал импорт: %modules."
+
+#: modules/content_copy/content_copy.module:325,407,408; content_copy.module:360,359
+msgid "The content type %type already exists in this database."
+msgstr ""
+"Тип содержимого %type уже есть в базе "
+"данных."
+
+#: modules/content_copy/content_copy.module:332,414,415; content_copy.module:367,366
+msgid "Exiting. No import performed."
+msgstr "Выход. Импорт не произведен."
+
+#: modules/content_copy/content_copy.module:384,466,467; content_copy.module:420,419
+msgid ""
+"The imported field %field_label (%field_name) was not added to %type "
+"because that field already exists in %type."
+msgstr ""
+"Импортируемое поле %field_label (%field_name) не "
+"было добавлено в %type, поскольку оно уже "
+"существует в  %type."
+
+#: modules/fieldgroup/fieldgroup.module:36,43,44,51,45,52; fieldgroup.module:28,36,27,35
+msgid "Edit group"
+msgstr "Изменить группу"
+
+#: modules/fieldgroup/fieldgroup.module:128,131,132; fieldgroup.module:95,94
+msgid "Style"
+msgstr "Стиль"
+
+#: modules/fieldgroup/fieldgroup.module:131,134,135; fieldgroup.module:98,97
+msgid "always open"
+msgstr "всегда раскрыто"
+
+#: modules/fieldgroup/fieldgroup.module:132,135,136; fieldgroup.module:99,98
+msgid "collapsible"
+msgstr "сворачиваемое"
+
+#: modules/fieldgroup/fieldgroup.module:133,136,137; fieldgroup.module:100,99
+msgid "collapsed"
+msgstr "свернут"
+
+#: modules/fieldgroup/fieldgroup.module:141,144,145; fieldgroup.module:108,107
+msgid "Instructions to present to the user on the editing form."
+msgstr ""
+"Инструкции для пользователя, "
+"показываемые в форме редактирования."
+
+#: modules/fieldgroup/fieldgroup.module:147,150,151; fieldgroup.module:114,113
+msgid "These settings apply to the group on node display."
+msgstr ""
+"Эти настройки применяются к группе "
+"при показе материала."
+
+#: modules/fieldgroup/fieldgroup.module:154,157,158; fieldgroup.module:121,120
+msgid "A description of the group."
+msgstr "Описание группы."
+
+#: modules/fieldgroup/fieldgroup.module:189; fieldgroup.module:143,142
+msgid "The group name %name already exists."
+msgstr "Имя группы %name уже существует."
+
+#: modules/fieldgroup/fieldgroup.module:193; fieldgroup.module:147,146
+msgid "The group name %name is invalid."
+msgstr "Имя группы %name неверное."
+
+#: modules/fieldgroup/fieldgroup.module:228,203,202; fieldgroup.module:212,211
+msgid "Are you sure you want to remove the group %label?"
+msgstr ""
+"Вы уверены, что хотите отменить "
+"удаление группы %label?"
+
+#: modules/fieldgroup/fieldgroup.module:342; fieldgroup.module:319,318
+msgid "Display in group"
+msgstr "Показывать в группе"
+
+#: modules/fieldgroup/fieldgroup.module:345; fieldgroup.module:322,321
+msgid ""
+"Select a group, in which the field will be displayed on the editing "
+"form."
+msgstr ""
+"Выберите группу, в которой будет "
+"отображено поле при редактировании "
+"материала."
+
+#: includes/content.admin.inc:314,662,651,650; fieldgroup.module:482,481
+msgid "no styling"
+msgstr "без стиля"
+
+#: includes/content.admin.inc:315,663,652,651; fieldgroup.module:483,482
+msgid "simple"
+msgstr "простой"
+
+#: includes/content.admin.inc:316,664,653,652; fieldgroup.module:484,483
+msgid "fieldset"
+msgstr "набор полей"
+
+#: includes/content.admin.inc:317,665,654,653; fieldgroup.module:485,484
+msgid "fieldset - collapsible"
+msgstr "сворачиваемый набор полей"
+
+#: includes/content.admin.inc:318,666,655,654; fieldgroup.module:486,485
+msgid "fieldset - collapsed"
+msgstr "набор полей - свернутый"
+
+#: modules/nodereference/nodereference.module:86,85,90,86,85,90; nodereference.module:42,41,42,41
+msgid "Content types that can be referenced"
+msgstr ""
+"Типы содержимого, на которые можно "
+"ссылаться"
+
+#: modules/nodereference/nodereference.module:101,107,108,112; nodereference.module:61,60
+msgid "Advanced - Nodes that can be referenced (View)"
+msgstr ""
+"Дополнительно - Материалы, на которые "
+"можно ссылаться (Представление)"
+
+#: modules/nodereference/nodereference.module:110; nodereference.module:70,69
+msgid ""
+"Choose the \"Views module\" view that selects the nodes that can be "
+"referenced.<br>Note :<ul><li>This will discard the \"Content types\" "
+"settings above. Use the view's \"filters\" section "
+"instead.</li><li>Use the view's \"fields\" section to display "
+"additional informations about candidate nodes on node creation/edition "
+"form.</li><li>Use the view's \"sort criteria\" section to determine "
+"the order in which candidate nodes will be displayed.</li></ul>"
+msgstr ""
+"Выберите представление модуля Views, с "
+"материалами, на которые можно "
+"ссылаться.<br>Обратите "
+"внимание:<ul><li>Это отменит  настройки "
+"\"Типы содержимого\" выше. Вместо этого "
+"используйте раздел представления "
+"\"фильтры\".</li><li>Используйте раздел "
+"\"поля\" для показа дополнительной "
+"информации о материалах в форме "
+"создания/изменения "
+"материала.</li><li>Используйте раздел "
+"\"критерии сортировки\" для "
+"определения порядка, в котором будут "
+"показаны материалы.</li></ul>"
+
+#: modules/nodereference/nodereference.module:114,122,123,127; modules/userreference/userreference.module:118,119,123; nodereference.module:74,73
+msgid "View arguments"
+msgstr "Аргументы представления"
+
+#: modules/nodereference/nodereference.module:117,125,126,130; modules/userreference/userreference.module:121,122,126; nodereference.module:77,76
+msgid "Provide a comma separated list of arguments to pass to the view."
+msgstr ""
+"Укажите разделенные запятой список "
+"аргументов для представления."
+
+#: modules/nodereference/nodereference.module:168; nodereference.module:122,121
+msgid "%name : This post can't be referenced."
+msgstr "%name: На этот материал нельзя ссылаться."
+
+#: nodereference.module:245,244; userreference.module:186,185
+msgid "<none>"
+msgstr "<ничего>"
+
+#: modules/number/number.module:80,66,67,71; number.module:38,37
+msgid "Maximum"
+msgstr "Максимум"
+
+#: modules/number/number.module:108,95,96,100; number.module:43,42
+msgid "Prefix"
+msgstr "Префикс"
+
+#: modules/number/number.module:111,98,99,103; number.module:46,45
+msgid ""
+"Define a string that should be prefixed to the value, like $ or €. "
+"Leave blank for none. Separate singular and plural values with a pipe "
+"(pound|pounds)."
+msgstr ""
+"Определите строку, которая будет идти "
+"перед значением, как $ или €. Оставьте "
+"пустым, если не нужно. Разделяйте "
+"единственное и можественное число "
+"символом потока '|' (метр|метров)."
+
+#: modules/number/number.module:115,102,103,107; number.module:50,49
+msgid "Suffix"
+msgstr "Суффикс"
+
+#: examples/example_field.php:173; modules/number/number.module:128,115,116,120; modules/text/text.module:87,77,78,82; number.module:57,56; text.module:41,40
+msgid "Allowed values list"
+msgstr "Список допустимых значений"
+
+#: examples/example_field.php:177; modules/number/number.module:132; modules/text/text.module:91
+msgid ""
+"The possible values this field can contain. Enter one value per line, "
+"in the format key|label. The key is the value that will be stored in "
+"the database and it must match the field storage type, %type. The "
+"label is optional and the key will be used as the label if no label is "
+"specified."
+msgstr ""
+"Значения, которые может принимать "
+"поле. Введите по одному значению на "
+"строку в виде key|label. key это значение, "
+"которое записывается в базу данных и "
+"должно быть типа %type. label - "
+"необязательное поле, если его не "
+"будет, используется значение key."
+
+#: number.module:75,74; text.module:59,58
+msgid ""
+"Advanced Usage Only: PHP code that returns a keyed array of allowed "
+"values. Should not include &lt;?php ?&gt; delimiters. If this field is "
+"filled out, the array returned by this code will override the allowed "
+"values list above."
+msgstr ""
+"Только для специалистов: PHP-код, "
+"выдающий массив (keyed array) допустимых "
+"значений.  Не должен содержать  "
+"разделители &lt;?php ?&gt;. Если в это поле "
+"введён код, то выдаваемый им массив "
+"заменит вышеуказанный список "
+"допустимых значений."
+
+#: modules/number/number.module:151,198,199,203; number.module:91,90
+msgid "\"Minimum\" must be a number."
+msgstr "\"Минимум\" должен быть числом."
+
+#: modules/number/number.module:154,205,206,210; number.module:94,93
+msgid "\"Maximum\" must be a number."
+msgstr "\"Максимум\" должен быть числом."
+
+#: modules/number/number.module:211; number.module:149,148
+msgid "The value of %name may be no smaller than %min."
+msgstr ""
+"Значение %name должно быть не меньше, чем "
+"%min."
+
+#: modules/number/number.module:214; number.module:152,151
+msgid "The value of %name may be no larger than %max."
+msgstr ""
+"Значение %name должно быть не больше, чем "
+"%min."
+
+#: examples/example_field.php:157; modules/text/text.module:65,54,55,59; text.module:25,24
+msgid "Filtered text (user selects input format)"
+msgstr ""
+"Фильтрованный текст (пользователь "
+"выбирает формат входа)"
+
+#: examples/example_field.php:160; modules/text/text.module:68,57,58,62; text.module:28,27
+msgid "Text processing"
+msgstr "Обработка текста"
+
+#: examples/example_field.php:166; examples/simple_field.php:163; modules/text/text.module:74,63,64,68; field.php:109,108; text.module:34,33
+msgid "Maximum length"
+msgstr "Максимальная длина"
+
+#: examples/example_field.php:286; examples/simple_field.php:230; modules/text/text.module:158; text.module:186,185
+msgid "%label is longer than %max characters."
+msgstr "%label не длиннее %max знаков."
+
+#: content.info:0,0,0; modules/content_copy/content_copy.info:0; modules/content_permissions/content_permissions.info:0; modules/fieldgroup/fieldgroup.info:0; modules/nodereference/nodereference.info:0; modules/number/number.info:0; modules/optionwidgets/optionwidgets.info:0; modules/text/text.info:0; modules/userreference/userreference.info:0; modules/content_multigroup/content_multigroup.info:0; content_copy.info:0,0; fieldgroup.info:0,0; nodereference.info:0,0; number.info:0,0; optionwidgets.info:0,0; text.info:0,0; userreference.info:0,0; cck.info:0; modules/content_migrate/content_migrate.info:0
+msgid "CCK"
+msgstr "CCK"
+
+#: modules/content_copy/content_copy.info:0; content_copy.info:0,0
+msgid "Enables ability to import/export field definitions."
+msgstr ""
+"Включает возможность "
+"импорта/экспорта определений полей."
+
+#: modules/fieldgroup/fieldgroup.info:0; fieldgroup.info:0,0
+msgid "Create field groups for CCK fields."
+msgstr "Создать группу из полей CCK."
+
+#: modules/nodereference/nodereference.info:0; nodereference.info:0,0
+msgid "Defines a field type for referencing one node from another."
+msgstr ""
+"Определяет тип поля для связи одного "
+"материала с другим."
+
+#: modules/number/number.info:0; number.info:0,0
+msgid "Defines numeric field types."
+msgstr "Определяет числовые поля."
+
+#: modules/optionwidgets/optionwidgets.info:0; optionwidgets.info:0,0
+msgid ""
+"Defines selection, check box and radio button widgets for text and "
+"numeric fields."
+msgstr ""
+"Определяет виджеты (интерфейс) "
+"выпадающего списка, списка выбора, "
+"флажков и радио-кнопок для текстовых и "
+"числовых полей."
+
+#: modules/text/text.info:0; text.info:0,0
+msgid "Defines simple text field types."
+msgstr ""
+"Определяет типы полей для простого "
+"текста."
+
+#: modules/userreference/userreference.info:0; userreference.info:0,0
+msgid "Defines a field type for referencing a user from a node."
+msgstr ""
+"Определяет тип поля для ссылок на "
+"пользователя из документа."
+
+#: modules/nodereference/nodereference.module:296,403,404,408; modules/optionwidgets/optionwidgets.module:61,79,80; modules/userreference/userreference.module:197,283,284,288; optionwidgets.module:34,33
+msgid "Select list"
+msgstr "Выпадающий список"
+
+#: examples/example_field.php:475; examples/simple_field.php:399; modules/number/number.module:331,356,357,361; modules/text/text.module:253,255,256,260
+msgid "Text field"
+msgstr "Текстовая строка"
+
+#: includes/content.views.inc:293; includes/views/handlers/content_handler_field.inc:84,85
+msgid "Format"
+msgstr "Формат"
+
+#: includes/content.token.inc:132,163,164; modules/userreference/userreference.token.inc:15
+msgid "Referenced user ID"
+msgstr "ID связанного пользователя"
+
+#: includes/content.token.inc:133,164,165; modules/userreference/userreference.token.inc:16
+msgid "Referenced user name"
+msgstr "Имя связанного пользователя"
+
+#: modules/nodereference/nodereference.module:484,485,489; modules/text/text.module:315,316,320; modules/userreference/userreference.module:364,365,369
+msgid "Size of textfield"
+msgstr "Размер поля"
+
+#: content.module:556,563,615,622,595,602,597,604,617,624; includes/content.crud.inc:561,591,645,689,646,690
+msgid "content"
+msgstr "содержимое"
+
+#: modules/content_multigroup/panels/content_types/content_multigroup.inc:144; modules/fieldgroup/panels/content_types/content_fieldgroup.inc:133,134
+msgid "Empty text"
+msgstr ""
+"Пустой текст (выводится при пустом "
+"представлении)"
+
+#: modules/optionwidgets/optionwidgets.module:356,424,425; optionwidgets.module:204,203
+msgid "N/A"
+msgstr "н/д"
+
+#: examples/example_field.php:106; examples/simple_field.php:114; modules/text/text.module:48,40,41,45; modules/text/text.info:0; text.module:14,13; text.info:0,0
+msgid "Text"
+msgstr "Текст"
+
+#: content_admin.inc:212,211; fieldgroup.module:512,511
+msgid "Group"
+msgstr "Группа"
+
+#: modules/number/number.module:40,34,35,39; field.php:36,35; number.module:14,13
+msgid "Integer"
+msgstr "Целое число"
+
+#: includes/panels/content_types/content_field.inc:33,53,34,54; modules/content_multigroup/panels/content_types/content_multigroup.inc:39,46; modules/fieldgroup/panels/content_types/content_fieldgroup.inc:39,46,40,47; modules/nodereference/panels/relationships/node_from_noderef.inc:16,17; modules/userreference/panels/relationships/user_from_userref.inc:16,17; content_panels.inc:37,36; fieldgroup.module:615,614; nodereference.module:558,557; userreference.module:453,452
+msgid "Node"
+msgstr "Материал"
+
+#: modules/number/number.info:0; number.info:0,0
+msgid "Number"
+msgstr "Число"
+
+#: nodereference.module:216,215; userreference.module:135,134
+msgid "Select List"
+msgstr "Список выбора"
+
+#: includes/content.admin.inc:14,477,72,828,1023,73,814,1009,813,1008; content_admin.inc:15,14
+msgid "Field name"
+msgstr "Название поля"
+
+#: includes/content.views.inc:366; includes/views/handlers/content_handler_field_multiple.inc:67,68; content_views.inc:74,73
+msgid "Group multiple values"
+msgstr "Группировать множественные значения"
+
+#: content.module:40,34,33; theme/theme.inc:109,111,110
+msgid ""
+"Configure how this content type's fields and field labels should be "
+"displayed when it's viewed in teaser and full-page mode."
+msgstr ""
+"Настройте, каким образом поля данного "
+"типа содержимого и метки полей "
+"отображаются при просмотре в анонсах "
+"и полных страницах."
+
+#: modules/fieldgroup/fieldgroup.module:28; fieldgroup.module:18,17
+msgid "Add group"
+msgstr "Добавить группу"
+
+#: modules/number/number.module:75,60,61,65; number.module:33,32
+msgid "Minimum"
+msgstr "Минимум"
+
+#: examples/example_field.php:157,387; examples/simple_field.php:331; modules/text/text.module:65,198,54,200,55,201,59,205; modules/userreference/userreference.module:150,236,237,241; field.php:246,245; text.module:25,204,24,203; userreference.module:102,101
+msgid "Plain text"
+msgstr "Простой текст"
+
+#: modules/userreference/userreference.module:70,76,77,81; userreference.module:41,40
+msgid "User roles that can be referenced"
+msgstr ""
+"Роли пользователей, которые могут "
+"ссылаться"
+
+#: modules/content_copy/content_copy.info:0; content_copy.info:0,0
+msgid "Content Copy"
+msgstr "Копия содержимого"
+
+#: modules/fieldgroup/fieldgroup.info:0; fieldgroup.module:644,643; fieldgroup.info:0,0
+msgid "Fieldgroup"
+msgstr "Группа полей"
+
+#: modules/nodereference/nodereference.info:0; nodereference.module:29,28; nodereference.info:0,0
+msgid "Node Reference"
+msgstr "Связь материала"
+
+#: modules/optionwidgets/optionwidgets.info:0; optionwidgets.info:0,0
+msgid "Option Widgets"
+msgstr "Виджеты настроек"
+
+#: modules/userreference/userreference.info:0; userreference.module:28,27; userreference.info:0,0
+msgid "User Reference"
+msgstr "Ссылка на пользователя"
+
+#: modules/number/number.module:122,109,110,114; modules/text/text.module:81,71,72,76
+msgid "Allowed values"
+msgstr "Допустимые значения"
+
+#: includes/views/handlers/content_handler_relationship.inc:47,48; includes/views/handlers/content_handler_sort.inc:48,49
+msgid "Delta"
+msgstr "Дельта"
+
+#: includes/content.admin.inc:650,694,639,682,638,681; theme/content-admin-display-overview-form.tpl.php:16,17
+msgid "Exclude"
+msgstr "Исключить"
+
+#: examples/example_field.php:181; includes/content.admin.inc:734,1115,1101,1100; modules/number/number.module:136,123,124,128; modules/text/text.module:95,85,86,90; content_admin.inc:825,824; number.module:65,64; text.module:49,48
+msgid "PHP code"
+msgstr "PHP-код"
+
+#: includes/panels/content_types/content_field.inc:13,14; content_panels.inc:19,33,18,32
+msgid "Content field"
+msgstr "Поле материала"
+
+#: modules/content_multigroup/content_multigroup.admin.inc:318; modules/content_multigroup/panels/content_types/content_multigroup.inc:112,126; modules/fieldgroup/panels/content_types/content_fieldgroup.inc:118,119
+msgid "Simple"
+msgstr "Простой"
+
+#: field.php:320,319; number.module:265,264; text.module:257,256
+msgid "Text Field"
+msgstr "Текстовое поле"
+
+#: content_panels.inc:38,37; fieldgroup.module:616,615
+msgid "Node context"
+msgstr "Контекст материала"
+
+#: content.module:43; theme/theme.inc:112,114,113
+msgid ""
+"Configure how this content type's fields should be displayed when it's "
+"rendered in the following contexts."
+msgstr ""
+"Настроить как поля этого типа "
+"материалов должны показываться, когда "
+"отображаются в следующих контекстах:"
+
+#: content.module:504; includes/content.node_form.inc:243,224,223
+msgid "Add another item"
+msgstr "Добавить ещё"
+
+#: content.module:1575,1975,1926,1928,1993; modules/nodereference/nodereference.module:203,302,303,307; nodereference.module:144,143
+msgid "Full node"
+msgstr "Материал полностью"
+
+#: modules/content_copy/content_copy.module:232,305,306; content_copy.module:264,263
+msgid ""
+"Select the content type to import these fields into.<br/>Select "
+"&lt;Create&gt; to create a new content type to contain the fields."
+msgstr ""
+"Укажите тип материала, куда будете "
+"импортировать поля.<br />Выберите "
+"&lt;Создать&gt; чтобы создать новый тип "
+"материала для импортируемых полей"
+
+#: modules/fieldgroup/fieldgroup.module:239,217,214,213; fieldgroup.module:223,222
+msgid "The group %group_name has been removed."
+msgstr "Группа полей %group_name была удалена."
+
+#: modules/userreference/userreference.module:76,82,83,87; userreference.module:47,46
+msgid "User status that can be referenced"
+msgstr ""
+"Статус пользователей, на который "
+"можно ссылаться"
+
+#: modules/userreference/userreference.module:256,378,379,383; userreference.module:158,157
+msgid ""
+"If selected, a reverse link back to the referencing node will "
+"displayed on the referenced user record."
+msgstr ""
+"Если выбрано, обратная ссылка на "
+"материал будет показана в записи "
+"пользователя."
+
+#: modules/number/number.module:48,39,40,44; field.php:37,36; number.module:15,14
+msgid "Decimal"
+msgstr "Десятичное число"
+
+#: examples/example_field.php:392; modules/text/text.module:203,205,206,210; field.php:250,249; text.module:208,207
+msgid "Trimmed"
+msgstr "Урезанный"
+
+#: modules/content_multigroup/panels/content_types/content_multigroup.inc:145; modules/fieldgroup/panels/content_types/content_fieldgroup.inc:134,135; fieldgroup.module:653,652
+msgid ""
+"Text to display if group has no data. Note that title will not display "
+"unless overridden."
+msgstr ""
+"Текст для отображения, если группа не "
+"содержит данных. Учтите, что заголовок "
+"не будет отображаться пока Вы его не "
+"переопределите."
+
+#: modules/nodereference/nodereference.module:193,292,293,297; nodereference.module:136,135
+msgid "Title (link)"
+msgstr "Заголовок (ссылка)"
+
+#: modules/nodereference/nodereference.module:198,297,298,302; nodereference.module:140,139
+msgid "Title (no link)"
+msgstr "Заголовок (текст)"
+
+#: nodereference.module:220,219; userreference.module:139,138
+msgid "Autocomplete Text Field"
+msgstr "Автозаполняющееся Текстовое Поле"
+
+#: modules/number/number.module:252,273,274,278; number.module:180,179
+msgid "unformatted"
+msgstr "без форматирования"
+
+#: modules/optionwidgets/optionwidgets.module:69,87,88; modules/nodereference/nodereference.module:411,412,416; modules/userreference/userreference.module:291,292,296; optionwidgets.module:38,37
+msgid "Check boxes/radio buttons"
+msgstr "Флажки/Радио-кнопки"
+
+#: modules/optionwidgets/optionwidgets.module:77,95,96; optionwidgets.module:42,41
+msgid "Single on/off checkbox"
+msgstr "Выключатель да/нет"
+
+#: modules/content_copy/content_copy.module:504,588,589; content_copy.module:622,621
+msgid ""
+"An error occurred when exporting the 'display settings' data for the "
+"field %field_name.<br/>The db error is: '%db_err'."
+msgstr ""
+"В процессе экспорта информации о "
+"настройках отображения для поля "
+"%field_name произошла ошибка.<br/>Ошибка БД: "
+"'%db_err'."
+
+#: modules/nodereference/nodereference.module:477,478,482; modules/userreference/userreference.module:357,358,362
+msgid "Starts with"
+msgstr "Начинается с"
+
+#: includes/content.admin.inc:916; content_admin.inc:1001,1000
+msgid "The default value PHP code created @value which is invalid."
+msgstr ""
+"Значение по умолчанию для кода PHP "
+"создано @value, которое неверно."
+
+#: modules/nodereference/panels/relationships/node_from_noderef.inc:13,14; nodereference.module:555,554
+msgid "Node from reference"
+msgstr ""
+"Материал, находящийся по адресу "
+"ссылки"
+
+#: modules/nodereference/panels/relationships/node_from_noderef.inc:15,16; nodereference.module:557,556
+msgid ""
+"Adds a node from a node reference in a node context; if multiple nodes "
+"are referenced, this will get the first referenced node only."
+msgstr ""
+"Добавляет материал, на который "
+"указывает ссылка, в контекст "
+"материала; если ссылка указывает на "
+"несколько материалов, то добавлен "
+"будет только первый материал."
+
+#: modules/userreference/panels/relationships/user_from_userref.inc:13,14; userreference.module:450,449
+msgid "User from reference"
+msgstr ""
+"Пользователь, на которого указывает "
+"ссылка"
+
+#: modules/userreference/panels/relationships/user_from_userref.inc:15,16; userreference.module:452,451
+msgid ""
+"Adds a user from a user reference in a node context; if multiple users "
+"are referenced, this will get the first referenced user only."
+msgstr ""
+"Добавляет пользователя, на которого "
+"указывает ссылка, в контекст "
+"материала; если ссылка указывает на "
+"нескольких пользователей, добавлен "
+"будет только первый пользователь."
+
+#: modules/nodereference/panels/relationships/node_from_noderef.inc:66,67; nodereference.module:592,591
+msgid "Node reference field"
+msgstr "Поле ссылки на материал"
+
+#: modules/userreference/panels/relationships/user_from_userref.inc:55,56; userreference.module:487,486
+msgid "User reference field"
+msgstr "Поле ссылки на пользователя"
+
+#: examples/example_field.php:190; modules/number/number.module:145,133,134,138; modules/text/text.module:104,95,96,100
+msgid ""
+"Advanced usage only: PHP code that returns a keyed array of allowed "
+"values. Should not include &lt;?php ?&gt; delimiters. If this field is "
+"filled out, the array returned by this code will override the allowed "
+"values list above."
+msgstr ""
+"Только для специалистов: PHP-код, "
+"возвращающий массив допустимых "
+"значений. Не должен содержать  "
+"разделители &lt;?php ?&gt;. Если в это поле "
+"введён код, то возвращаемый им массив "
+"заменит вышеуказанный список "
+"допустимых значений."
+
+#: includes/content.token.inc:59,83,84; modules/nodereference/nodereference.token.inc:15
+msgid "Referenced node ID"
+msgstr ""
+"ID материала, на который можно "
+"ссылаться"
+
+#: includes/content.token.inc:60,84,85; modules/nodereference/nodereference.token.inc:16
+msgid "Referenced node title"
+msgstr ""
+"Заголовок материала, на который можно "
+"ссылаться"
+
+#: includes/content.token.inc:85,116,117; modules/number/number.token.inc:15
+msgid "Raw number value"
+msgstr "Необработанное числовое значение"
+
+#: includes/content.token.inc:86,117,118; modules/number/number.token.inc:16
+msgid "Formatted number value"
+msgstr "Форматированное числовое значение"
+
+#: includes/content.token.inc:109,140,141; modules/text/text.token.inc:15
+msgid "Raw, unfiltered text"
+msgstr "Прямой, необработанный текст."
+
+#: includes/content.token.inc:110,141,142; modules/text/text.token.inc:16
+msgid "Formatted and filtered text"
+msgstr "Форматированный и обработанный текст"
+
+#: includes/content.token.inc:134,165,166; modules/userreference/userreference.token.inc:17
+msgid "Formatted HTML link to referenced user"
+msgstr ""
+"Форматированная HTML ссылка на "
+"связанного пользователя"
+
+#: modules/nodereference/nodereference.module:304,419,420,424; modules/userreference/userreference.module:205,299,300,304
+msgid "Autocomplete text field"
+msgstr "Автодополняемое текстовое поле"
+
+#: modules/fieldgroup/panels/content_types/content_fieldgroup.inc:13,14; fieldgroup.module:555,611,554,610
+msgid "Content fieldgroup"
+msgstr "Группы полей материала"
+
+#: includes/content.admin.inc:1144,1130,1129; modules/number/number.module:140,141,145; modules/text/text.module:102,103,107; content_admin.inc:860,859; number.module:82,81; text.module:66,65
+msgid "&lt;none&gt;"
+msgstr "&lt;ничего&gt;"
+
+#: includes/content.admin.inc:1145,1131,1130; modules/number/number.module:141,142,146; modules/text/text.module:103,104,108; content_admin.inc:861,860; number.module:83,82; text.module:67,66
+msgid "You're not allowed to input PHP code."
+msgstr "У вас нет прав для ввода PHP кода."
+
+#: includes/content.admin.inc:1145,1131,1130; content_admin.inc:861,860
+msgid ""
+"This PHP code was set by an administrator and will override any value "
+"specified above."
+msgstr ""
+"Этот PHP код был установлен "
+"администратором и будет "
+"переопределять все значения, "
+"указанные выше."
+
+#: modules/number/number.module:141,142,146; modules/text/text.module:103,104,108; number.module:83,82; text.module:67,66
+msgid ""
+"This PHP code was set by an administrator and will override the "
+"allowed values list above."
+msgstr ""
+"Данный PHP код был установлен "
+"администратором и переопределит "
+"список допустимых значений ниже."
+
+#: includes/content.admin.inc:1068,1054,1053; content_admin.inc:777,776
+msgid ""
+"Instructions to present to the user below this field on the editing "
+"form.<br />Allowed HTML tags: @tags"
+msgstr ""
+"Инструкция, которая будет расположена "
+"ниже поля. <br />Допустимы следующие HTML "
+"тэги: @tags"
+
+#: includes/content.admin.inc:1124,1278,1110,1264,1109,1263; includes/content.rules.inc:92,93
+msgid "'@column' => value for @column"
+msgstr "'@column' => значение для @column"
+
+#: modules/number/number.module:238,239,243; modules/text/text.module:156,157,161
+msgid "%name: illegal value."
+msgstr "%name: некорректное значение."
+
+#: includes/content.admin.inc:1126,1280,1112,1266,1111,1265; includes/content.rules.inc:94,95; cck.module:110
+msgid ""
+"return array(\n"
+"  0 => array(@columns),\n"
+"  // You'll usually want to stop here. Provide more values\n"
+"  // if you want your 'default value' to be multi-valued:\n"
+"  1 => array(@columns),\n"
+"  2 => ...\n"
+");"
+msgstr ""
+"return array(\n"
+"  0 => array(@columns),\n"
+"  // В большинстве случаев вам нужно "
+"остановиться здесь. Введите "
+"дополнительные значения,\n"
+"  // если хотите, чтобы 'значение по "
+"умолчанию' было многозначным:\n"
+"  1 => array(@columns),\n"
+"  2 => ...\n"
+");"
+
+#: includes/content.token.inc:86,87; modules/nodereference/nodereference.token.inc:18
+msgid "Formatted html link to the referenced node."
+msgstr ""
+"Форматированная ссылка html на "
+"материал, на который можно ссылаться."
+
+#: includes/content.token.inc:87,88; modules/nodereference/nodereference.token.inc:19
+msgid "Relative path alias to the referenced node."
+msgstr ""
+"Относительный синоним адреса "
+"связанного материала."
+
+#: includes/content.token.inc:88,89; modules/nodereference/nodereference.token.inc:20
+msgid "Absolute path alias to the referenced node."
+msgstr "Абсолютный URL связанного материала."
+
+#: includes/content.token.inc:166,167; modules/userreference/userreference.token.inc:18
+msgid "Relative path alias to the referenced user."
+msgstr ""
+"Синоним относительного пути к "
+"связанному пользователю"
+
+#: includes/content.token.inc:167,168; modules/userreference/userreference.token.inc:19
+msgid "Absolute path alias to the referenced user."
+msgstr ""
+"Синоним абсолютного пути к связанному "
+"пользователю."
+
+#: modules/number/number.module:119,120,124; modules/text/text.module:81,82,86; number.module:61,60; text.module:45,44
+msgid ""
+"The possible values this field can contain. Enter one value per line, "
+"in the format key|label. The key is the value that will be stored in "
+"the database, and it must match the field storage type (%type). The "
+"label is optional, and the key will be used as the label if no label "
+"is specified.<br />Allowed HTML tags: @tags"
+msgstr ""
+"Значения, которые может принимать "
+"поле. Введите по одному значению на "
+"строку в виде key|label. Key - это значение, "
+"которое записывается в базу данных, "
+"должно соответствовать типу %type. Label - "
+"необязательное поле, если оно не "
+"указано, используется значение key.<br "
+"/>Допустимые HTML теги: @tags"
+
+#: modules/content_migrate/includes/content_migrate.admin.inc:201; modules/content_migrate/includes/content_migrate.drush.inc:132
+msgid "Processed @current out of @total."
+msgstr "Обработано @current из @total."
+
+#: modules/content_copy/content_copy.module:324,325; content_copy.module:283,282
+msgid "A file has been pre-loaded for import."
+msgstr "Файл был загружен для импорта."
+
+#: includes/content.token.inc:85,86; modules/nodereference/nodereference.token.inc:17
+msgid "Referenced node unfiltered title. WARNING - raw user input."
+msgstr ""
+"Необработанный заголовок материала, "
+"на который можно ссылаться. "
+"ПРЕДУПРЕЖДЕНИЕ: прямой ввод "
+"пользователя."
+
+#: modules/content_multigroup/content_multigroup.admin.inc:319; modules/content_multigroup/panels/content_types/content_multigroup.inc:113,127; modules/fieldgroup/panels/content_types/content_fieldgroup.inc:119,120
+msgid "Fieldset"
+msgstr "Группа полей"
+
+#: modules/content_multigroup/content_multigroup.admin.inc:322; modules/content_multigroup/panels/content_types/content_multigroup.inc:130
+msgid "Horizontal line"
+msgstr "Горизонтальная группа"
+
+#: modules/nodereference/nodereference.module:474,475,479; modules/userreference/userreference.module:354,355,359
+msgid "Autocomplete matching"
+msgstr "Автозавершение совпадений"
+
+#: modules/number/number.module:181,182,186; modules/text/text.module:132,133,137
+msgid "@label (!name) - Allowed values"
+msgstr "@label (!name) - Допустимые значения"
+
+#: modules/nodereference/nodereference.module:218,219,223; modules/userreference/userreference.module:194,195,199
+msgid "%name: invalid input."
+msgstr "%name: не верный ввод."
+
+#: modules/content_multigroup/content_multigroup.admin.inc:323; modules/content_multigroup/panels/content_types/content_multigroup.inc:131
+msgid "Table - Single column"
+msgstr "Таблица - один столбец"
+
+#: modules/content_multigroup/content_multigroup.admin.inc:324; modules/content_multigroup/panels/content_types/content_multigroup.inc:132
+msgid "Table - Multiple columns"
+msgstr "Таблица - множественные столбцы"
+
+#: modules/content_multigroup/panels/content_types/content_multigroup.inc:45; modules/fieldgroup/panels/content_types/content_fieldgroup.inc:45,46
+msgid "All fields from this field group on the referenced node."
+msgstr ""
+"Все поля этой группы полей на "
+"связанном материале."
+
+#: modules/content_multigroup/panels/content_types/content_multigroup.inc:13; modules/content_multigroup/views/content_multigroup.views.inc:61
+msgid "Content multigroup"
+msgstr "Многогрупповое содержимое"
+
+#: modules/content_multigroup/panels/content_types/content_multigroup.inc:108; modules/fieldgroup/panels/content_types/content_fieldgroup.inc:114,115
+msgid ""
+"Configure how the field group label is going to be displayed. This "
+"option takes no effect when \"Override title\" option is enabled, the "
+"specified block title is displayed instead."
+msgstr ""
+"Обозначьте, как будет показана метка "
+"группы полей. Эта опция не действует, "
+"если включено \"Заголовок отвергнут\",  "
+"указанный заголовок блока "
+"показывается вместо него."
+
+#: modules/content_multigroup/panels/content_types/content_multigroup.inc:114; modules/fieldgroup/panels/content_types/content_fieldgroup.inc:120,121
+msgid "Fieldset - Collapsible"
+msgstr "Группа полей - Сворачиваемый"
+
+#: modules/content_multigroup/panels/content_types/content_multigroup.inc:115; modules/fieldgroup/panels/content_types/content_fieldgroup.inc:121,122
+msgid "Fieldset - Collapsed"
+msgstr "Группа полей - Свернуто"
+
+#: modules/content_multigroup/panels/content_types/content_multigroup.inc:122; modules/fieldgroup/panels/content_types/content_fieldgroup.inc:128,129
+msgid "This option allows you to configure the field group format."
+msgstr ""
+"Эта опция позволяет настроить формат "
+"группы полей."
+
+#: modules/content_multigroup/content_multigroup.admin.inc:320; modules/content_multigroup/panels/content_types/content_multigroup.inc:128
+msgid "Fieldset - collapsible"
+msgstr "Fieldset - collapsible"
+
+#: modules/content_multigroup/content_multigroup.admin.inc:321; modules/content_multigroup/panels/content_types/content_multigroup.inc:129
+msgid "Fieldset - collapsed"
+msgstr "Набор полей - свёрнут"
+
+#: modules/content_migrate/includes/content_migrate.admin.inc:196; modules/content_migrate/includes/content_migrate.drush.inc:127
+msgid "Migrating data"
+msgstr "Миграция данных"
+
+#: modules/content_migrate/includes/content_migrate.admin.inc:88; modules/content_migrate/includes/content_migrate.drush.inc:71
+msgid "Content type(s)"
+msgstr "Тип(ы) материала"
+
+#: modules/content_migrate/includes/content_migrate.admin.inc:200; modules/content_migrate/includes/content_migrate.drush.inc:131
+msgid "Fields migration is starting."
+msgstr "Начало миграции полей."
+
+#: modules/content_migrate/includes/content_migrate.admin.inc:202; modules/content_migrate/includes/content_migrate.drush.inc:133
+msgid "Field migration has encountered an error."
+msgstr "При миграции полей произошла ошибка."
+
+#: modules/content_migrate/includes/content_migrate.admin.inc:88; modules/content_migrate/includes/content_migrate.drush.inc:71
+msgid "Other information"
+msgstr "Другая информация"
+
+#: modules/content_migrate/modules/content_migrate.number.inc:50; modules/content_migrate/modules/content_migrate.text.inc:41
+msgid ""
+"Changed field type: The '@field' field uses a '@widget' widget. The "
+"field type will be changed from '@type' to 'list_boolean'."
+msgstr ""
+

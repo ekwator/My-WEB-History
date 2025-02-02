@@ -1,0 +1,415 @@
+# Russian translation of calendar (all releases)
+# Copyright (c) 2012 by the Russian translation team
+# Generated from files:
+#  calendar/includes/calendar.views_template.inc: n/a
+#  calendar_plugin_display_page.inc,v 1.1.2.25 2011/01/03 02:39:05 karens
+#  calendar/includes/calendar_plugin_display_page.inc: n/a
+#  calendar.views.inc,v 1.1.2.11 2010/11/29 11:41:58 karens
+#  calendar/includes/calendar.views.inc: n/a
+#  calendar/includes/calendar_plugin_style.inc: n/a
+#  calendar_plugin_display_block.inc,v 1.1.2.12 2010/12/28 15:35:50 karens
+#  calendar/includes/calendar_plugin_display_block.inc: n/a
+#  calendar_plugin_style.inc,v 1.1.2.18 2011/01/03 02:39:05 karens
+#  calendar_plugin_display_attachment.inc,v 1.1.2.22 2011/01/03 02:39:05 karens
+#  calendar/includes/calendar_plugin_display_attachment.inc: n/a
+#  calendar_view_plugin_style.inc,v 1.1.2.21 2010/12/28 15:35:50 karens
+#  calendar/includes/calendar_view_plugin_style.inc: n/a
+#  calendar/includes/calendar_plugin_row.inc: n/a
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: calendar (all releases)\n"
+"POT-Creation-Date: 2012-08-17 04:41-0400\n"
+"PO-Revision-Date: 2011-09-11 09:28-0400\n"
+"Language-Team: Russian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=((((n%10)==1)&&((n%100)!=11))?(0):(((((n%10)>=2)&&((n%10)<=4))&&(((n%100)<10)||((n%100)>=20)))?(1):2));\n"
+
+#: includes/calendar.views_template.inc:813,813
+msgid "Block"
+msgstr "Блок"
+
+#: includes/calendar.views_template.inc:804,804
+msgid "Reset"
+msgstr "Сбросить"
+
+#: includes/calendar.views_template.inc:809,809
+msgid "All"
+msgstr "Все"
+
+#: includes/calendar.views_template.inc:803,803
+msgid "Apply"
+msgstr "Применить"
+
+#: includes/calendar_plugin_display_page.inc:100,105,110,117,99,104,109,116
+msgid "Edit"
+msgstr "Редактировать"
+
+#: includes/calendar_plugin_display_page.inc:248,247
+msgid "Group"
+msgstr "Группа"
+
+#: includes/calendar_plugin_display_page.inc:170,169
+msgid "Content Type"
+msgstr "Тип контента"
+
+#: includes/calendar_plugin_display_page.inc:210,209
+msgid "Vocabularies"
+msgstr "Словари"
+
+#: includes/calendar_plugin_display_page.inc:221,220
+msgid "Taxonomy Terms"
+msgstr "Термин словаря"
+
+#: includes/calendar.views_template.inc:805,805
+msgid "Sort by"
+msgstr "Сортировать по"
+
+#: includes/calendar.views.inc:185,184
+msgid "Calendar navigation"
+msgstr "Навигация Calendar"
+
+#: includes/calendar.views.inc:141,154,140,153
+msgid "Calendar block"
+msgstr "Блок Calendar"
+
+#: includes/calendar.views.inc:119,132,118,131
+msgid "Calendar page"
+msgstr "Страница Calendar"
+
+#: includes/calendar.views.inc:186,185
+msgid "Creates back/next navigation and calendar links."
+msgstr ""
+"Создаём навигацию вперёд/назад и "
+"календарные ссылки."
+
+#: includes/calendar_plugin_style.inc:53,53
+msgid "Calendar type"
+msgstr ""
+
+#: includes/calendar.views.inc:201,200
+msgid "Displays Views results in a calendar."
+msgstr "Отображает результаты Views в календаре."
+
+#: includes/calendar.views_template.inc:815,815
+msgid "Upcoming"
+msgstr "Предстоящее"
+
+#: includes/calendar.views_template.inc:807,807
+msgid "Desc"
+msgstr "Убыв."
+
+#: includes/calendar.views.inc:120,119
+msgid ""
+"Calendar page. Attach Calendar period attachments to this page, set to "
+"show the year, month, day, and week views."
+msgstr ""
+
+#: includes/calendar.views.inc:142,141
+msgid ""
+"Calendar page. Attach a Calendar period attachment to this block, set "
+"to show the year, month, day, or week view."
+msgstr ""
+
+#: includes/calendar.views.inc:160,159
+msgid ""
+"An attachment for a Year, Month, Day, or Week calendar display, using "
+"any style you choose. Attach to a Calendar page and/or a Calendar "
+"block."
+msgstr ""
+
+#: includes/calendar.views.inc:170,169
+msgid "Calendar page year, month, week, or day view"
+msgstr ""
+
+#: includes/calendar_plugin_display_block.inc:26,25
+msgid ""
+"The Calendar period display '@display_title' will not work without a "
+"Date argument."
+msgstr ""
+"Дисплей периода календаря '@display_title' не "
+"будет работать без Date-аргумента."
+
+#: includes/calendar_plugin_display_page.inc:30,29
+msgid ""
+"The Calendar display '@display_title' will not work without a Date "
+"argument."
+msgstr ""
+"Дисплей календаря '@display_title' не будет "
+"работать без Date-аргумента."
+
+#: includes/calendar_plugin_style.inc:78,77
+msgid "The @style style requires a Date argument."
+msgstr "Стилю @style требуется Date-аргумент."
+
+#: includes/calendar_plugin_display_page.inc:124,146,123,145
+msgid "Date changer"
+msgstr ""
+
+#: includes/calendar_plugin_display_page.inc:151,150
+msgid "Display a popup calendar date selector?"
+msgstr ""
+
+#: includes/calendar_plugin_display_attachment.inc:97,95
+msgid "A Calendar period display will not work without a Date argument."
+msgstr ""
+"Дисплей периода календаря не будет "
+"работать без Date-аргумента."
+
+#: includes/calendar_plugin_display_page.inc:99,98
+msgid "Legend Content Types"
+msgstr ""
+
+#: includes/calendar_plugin_display_page.inc:104,103
+msgid "Legend Vocabularies"
+msgstr ""
+
+#: includes/calendar_plugin_display_page.inc:109,108
+msgid "Legend Terms"
+msgstr ""
+
+#: includes/calendar_plugin_display_page.inc:168,167
+msgid "Content Type Legend Colors"
+msgstr ""
+
+#: includes/calendar_plugin_display_page.inc:216,215
+msgid "Taxonomy Legend Colors"
+msgstr ""
+
+#: includes/calendar_view_plugin_style.inc:119,134
+msgid ""
+"Optionally group items into columns by a field value, for instance "
+"select the content type to show items for each content type in their "
+"own column, or use a location field to organize items into columns by "
+"location."
+msgstr ""
+
+#: includes/calendar_view_plugin_style.inc:76,91
+msgid "No items"
+msgstr "Без элементов"
+
+#: includes/calendar_plugin_style.inc:117,116
+msgid ""
+"The date argument date fields must be added to this query. You can "
+"exclude them if you do not want them displayed in the calendar."
+msgstr ""
+"Поля с данными Date-аргумента должны "
+"быть добавлены в запрос. Вы можете "
+"исключить их из показа, если не хотите, "
+"чтобы они отображались в календаре."
+
+#: includes/calendar.views_template.inc:800,800
+msgid "Master"
+msgstr "Мастер"
+
+#: includes/calendar_plugin_style.inc:88,88
+msgid ""
+"Maximum number of items to show in calendar cells, used to keep the "
+"calendar from expanding to a huge size when there are lots of items in "
+"one day."
+msgstr ""
+
+#: includes/calendar_plugin_display_page.inc:116,115
+msgid "Legend Groups"
+msgstr ""
+
+#: includes/calendar_plugin_display_page.inc:170,169
+msgid ""
+"Set a hex color value (like #ffffff) to use in the calendar legend for "
+"each content type. Types with empty values will have no stripe in the "
+"calendar and will not be added to the legend."
+msgstr ""
+
+#: includes/calendar_plugin_display_page.inc:210,209
+msgid ""
+"Select vocabularies to use for setting calendar legend colors by "
+"taxonomy term. This works best for vocabularies with only a limited "
+"number of possible terms."
+msgstr ""
+
+#: includes/calendar_plugin_display_page.inc:219,218
+msgid "Please select Legend vocabularies first!"
+msgstr ""
+
+#: includes/calendar_plugin_display_page.inc:221,220
+msgid ""
+"Set a hex color value (like #ffffff) to use in the calendar legend for "
+"each taxonomy term. Terms with empty values will have no stripe in the "
+"calendar and will not be added to the legend."
+msgstr ""
+
+#: includes/calendar_plugin_display_page.inc:246,245
+msgid "Group Legend Colors"
+msgstr ""
+
+#: includes/calendar_plugin_display_page.inc:248,247
+msgid ""
+"Set a hex color value (like #ffffff) to use in the calendar legend for "
+"each group. Groups with empty values will have no stripe in the "
+"calendar and will not be added to the legend."
+msgstr ""
+
+#: includes/calendar_view_plugin_style.inc:135,150
+msgid "Display overlapping items"
+msgstr ""
+
+#: includes/calendar_view_plugin_style.inc:136,151
+msgid "Select whether calendar items are displayed as overlapping items."
+msgstr ""
+
+#: includes/calendar.views_template.inc:806,806
+msgid "Asc"
+msgstr "Возр."
+
+#: includes/calendar_plugin_row.inc:139,139
+msgid "Term field"
+msgstr ""
+
+#: includes/calendar.views.inc:26,26
+msgid "Present view results as a Calendar."
+msgstr ""
+
+#: includes/calendar.views.inc:53,53
+msgid "Displays each selected node as a Calendar item."
+msgstr ""
+
+#: includes/calendar_plugin_row.inc:65,65
+msgid ""
+"The calendar row plugin will format view results as calendar items. "
+"Make sure this display has a 'Calendar' format and uses a 'Date' "
+"contextual filter, or this plugin will not work correctly."
+msgstr ""
+
+#: includes/calendar_plugin_row.inc:75,75
+msgid "Legend Colors"
+msgstr ""
+
+#: includes/calendar_plugin_row.inc:95,95
+msgid "Stripes"
+msgstr ""
+
+#: includes/calendar_plugin_row.inc:96,96
+msgid "Add stripes to calendar items."
+msgstr ""
+
+#: includes/calendar_plugin_style.inc:60,60
+msgid "Display as mini calendar"
+msgstr ""
+
+#: includes/calendar_plugin_style.inc:64,64
+msgid ""
+"Display the mini style calendar, with no item details. Suitable for a "
+"calendar displayed in a block."
+msgstr ""
+
+#: includes/calendar_plugin_style.inc:158,158
+msgid "Custom groupby times cannot be empty."
+msgstr ""
+
+#: includes/calendar.views_template.inc:816,816
+msgid "Upcoming events block"
+msgstr ""
+
+#: includes/calendar_plugin_row.inc:76,76
+msgid ""
+"Set a hex color value (like #ffffff) to use in the calendar legend for "
+"each content type. Items with empty values will have no stripe in the "
+"calendar and will not be added to the legend."
+msgstr ""
+
+#: includes/calendar_plugin_row.inc:82,82
+msgid "Based on Content Type"
+msgstr ""
+
+#: includes/calendar_plugin_row.inc:85,85
+msgid "Based on Taxonomy"
+msgstr ""
+
+#: includes/calendar_plugin_row.inc:88,88
+msgid "Based on Organic Group"
+msgstr ""
+
+#: includes/calendar_plugin_style.inc:133,133
+msgid ""
+"Optionally group items into columns by a field value, for instance "
+"select the content type to show items for each content type in their "
+"own column, or use a location field to organize items into columns by "
+"location. NOTE! This is incompatible with the overlapping style "
+"option."
+msgstr ""
+
+#: includes/calendar_plugin_style.inc:164,164
+msgid ""
+"You cannot use overlapping items and also try to group by a field "
+"value."
+msgstr ""
+
+#: includes/calendar_plugin_style.inc:86,86
+msgid "1 item"
+msgstr ""
+
+#: includes/calendar_plugin_style.inc:118,118
+msgid "Display overlapping items, with scrolling"
+msgstr ""
+
+#: includes/calendar_plugin_style.inc:118,118
+msgid "Display overlapping items, no scrolling"
+msgstr ""
+
+#: includes/calendar_plugin_style.inc:119,119
+msgid ""
+"Select whether calendar items are displayed as overlapping items. Use "
+"scrolling to shrink the window and focus on the selected items, or "
+"omit scrolling to display the whole day. This only works if hour or "
+"half hour time grouping is chosen!"
+msgstr ""
+
+#: includes/calendar_plugin_style.inc:161,161
+msgid "Overlapping items only work with hour or half hour groupby times."
+msgstr ""
+
+#: includes/calendar_plugin_row.inc:142,142
+msgid ""
+"Select the taxonomy term field to use when setting stripe colors. This "
+"works best for vocabularies with only a limited number of possible "
+"terms."
+msgstr ""
+
+#: includes/calendar_plugin_row.inc:148,148
+msgid ""
+"You must add a term field to this view to use taxonomy stripe values. "
+"This works best for vocabularies with only a limited number of "
+"possible terms."
+msgstr ""
+
+#: includes/calendar.views.inc:52,52
+msgid "Calendar Items (DEPRECATED, switch to Calendar Entities)"
+msgstr ""
+
+#: includes/calendar.views.inc:63,63
+msgid "Calendar Entities"
+msgstr ""
+
+#: includes/calendar.views.inc:64,64
+msgid "Displays each selected entity as a Calendar item."
+msgstr ""
+
+#: includes/calendar.views_template.inc:56,77,56,77
+msgid ""
+"A calendar view of the '@field_name' field in the '@base_table' base "
+"table."
+msgstr ""
+
+#: includes/calendar_plugin_style.inc:146,146
+msgid "Fields to hide in Multi-day rows"
+msgstr ""
+
+#: includes/calendar_plugin_style.inc:150,150
+msgid ""
+"Choose fields to hide when displayed in multi-day rows. Usually you "
+"only want to see the title or Colorbox selector in multi-day rows and "
+"would hide all other fields."
+msgstr ""
+

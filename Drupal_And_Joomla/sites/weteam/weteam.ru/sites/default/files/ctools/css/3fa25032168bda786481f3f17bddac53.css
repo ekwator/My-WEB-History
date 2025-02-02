@@ -1,0 +1,166 @@
+.panels-flexible-region {
+  padding: 0;
+}
+
+.panels-flexible-region-inside {
+  padding-right: 0.1em;
+  padding-left: 0.1em;
+}
+
+.panels-flexible-region-inside-first {
+  padding-left: 0;
+}
+
+.panels-flexible-region-inside-last {
+  padding-right: 0;
+}
+
+.panels-flexible-column {
+  padding: 0;
+}
+
+.panels-flexible-column-inside {
+  padding-right: 0.1em;
+  padding-left: 0.1em;
+}
+
+.panels-flexible-column-inside-first {
+  padding-left: 0;
+}
+
+.panels-flexible-column-inside-last {
+  padding-right: 0;
+}
+
+.panels-flexible-row {
+  padding: 0 0 0.1px 0;
+  margin: 0;
+}
+
+.panels-flexible-row-last {
+  padding-bottom: 0;
+}
+
+.panels-flexible-column-4-main {
+  float: left;
+  width: 100.0000%;
+}
+
+.panels-flexible-4-inside {
+  padding-right: 0px;
+}
+
+.panels-flexible-4 {
+  width: 1000px;
+}
+
+.panels-flexible-region-4-events {
+  float: left;
+  width: 350px;
+}
+
+.panels-flexible-region-4-user_hit {
+  float: left;
+  width: 152px;
+}
+
+.panels-flexible-region-4-events_ {
+  float: left;
+  width: 350px;
+}
+
+.panels-flexible-region-4-date_new {
+  float: left;
+  width: 100.0000%;
+}
+
+.panels-flexible-row-4-2-middle {
+  margin-right: 852px;
+}
+
+.panels-flexible-row-4-2-inside {
+  padding-right: 0px;
+}
+
+.panels-flexible-column-4-5 {
+  float: left;
+  width: 800px;
+}
+
+.panels-flexible-column-4-4 {
+  float: left;
+  width: 100.0000%;
+}
+
+.panels-flexible-row-4-3-middle {
+  margin-right: 800px;
+}
+
+.panels-flexible-row-4-3-inside {
+  padding-right: 0px;
+}
+
+.panels-flexible-region-4-realname {
+  float: left;
+  width: 100.0000%;
+}
+
+.panels-flexible-row-4-6-inside {
+  padding-right: 0px;
+}
+
+.panels-flexible-region-4-exit {
+  float: left;
+  width: 100.0000%;
+}
+
+.panels-flexible-row-4-7-inside {
+  padding-right: 0px;
+}
+
+.panels-flexible-region-4-navigation {
+  float: left;
+  width: 100.0000%;
+}
+
+.panels-flexible-row-4-8-inside {
+  padding-right: 0px;
+}
+
+.panels-flexible-region-4-main_ {
+  float: left;
+  width: 100.0000%;
+}
+
+.panels-flexible-row-4-9-inside {
+  padding-right: 0px;
+}
+
+.panels-flexible-region-4-guest {
+  float: left;
+  width: 200px;
+}
+
+.panels-flexible-region-4-message {
+  float: left;
+  width: 200px;
+}
+
+.panels-flexible-region-4-about {
+  float: left;
+  width: 200px;
+}
+
+.panels-flexible-region-4-forum {
+  float: left;
+  width: 100.0000%;
+}
+
+.panels-flexible-row-4-10-middle {
+  margin-right: 600px;
+}
+
+.panels-flexible-row-4-10-inside {
+  padding-right: 0px;
+}
+

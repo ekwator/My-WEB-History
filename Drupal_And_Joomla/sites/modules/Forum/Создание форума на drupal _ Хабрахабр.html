@@ -1,0 +1,3087 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ru"><head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		<title>Создание форума на drupal / Хабрахабр</title>
+		<meta name="description" content="Недавно мне захотелось сделать форум на drupal. Нет, не так просто, нужна пара уточнений.
+1) Проект уже существовал на движке drupal, являлся чем-то вроде сервиса вопросов-ответов, хотя отвечал...">		
+		<meta name="keywords" content="drupal, форум, новые сообщения, модули">
+		
+		
+	<meta property="fb:app_id" content="437464306275519"> 
+<meta property="og:type" content="article"> 
+<meta property="og:url" content="http://habrahabr.ru/post/100720/"> 
+<meta property="og:title" content="Создание форума на drupal"> 
+
+	
+	<meta property="og:image" content="http://habrahabr.ru/i/habralogo.jpg">
+
+<meta property="og:description" content="Недавно мне захотелось сделать форум на drupal. Нет, не так просто, нужна пара уточнений. 1) Проект уже существовал на движке drupal, являлся чем-то вроде..."> 
+
+
+		
+		
+			<link href="%D0%A1%D0%BE%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5%20%D1%84%D0%BE%D1%80%D1%83%D0%BC%D0%B0%20%D0%BD%D0%B0%20drupal%20_%20%D0%A5%D0%B0%D0%B1%D1%80%D0%B0%D1%85%D0%B0%D0%B1%D1%80_files/all.css" rel="stylesheet" media="all">
+		
+
+		<link rel="stylesheet" href="%D0%A1%D0%BE%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5%20%D1%84%D0%BE%D1%80%D1%83%D0%BC%D0%B0%20%D0%BD%D0%B0%20drupal%20_%20%D0%A5%D0%B0%D0%B1%D1%80%D0%B0%D1%85%D0%B0%D0%B1%D1%80_files/habr.css">
+		<!--[if IE 7]><link rel="stylesheet" href="/styles/fontello/css/habr-ie7.css?r=1348133103"><![endif]-->
+    
+		
+  <link href="%D0%A1%D0%BE%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5%20%D1%84%D0%BE%D1%80%D1%83%D0%BC%D0%B0%20%D0%BD%D0%B0%20drupal%20_%20%D0%A5%D0%B0%D0%B1%D1%80%D0%B0%D1%85%D0%B0%D0%B1%D1%80_files/posts.css" rel="stylesheet" media="all">
+  <link href="%D0%A1%D0%BE%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5%20%D1%84%D0%BE%D1%80%D1%83%D0%BC%D0%B0%20%D0%BD%D0%B0%20drupal%20_%20%D0%A5%D0%B0%D0%B1%D1%80%D0%B0%D1%85%D0%B0%D0%B1%D1%80_files/comments.css" rel="stylesheet" media="all">
+  <link href="%D0%A1%D0%BE%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5%20%D1%84%D0%BE%D1%80%D1%83%D0%BC%D0%B0%20%D0%BD%D0%B0%20drupal%20_%20%D0%A5%D0%B0%D0%B1%D1%80%D0%B0%D1%85%D0%B0%D0%B1%D1%80_files/forms.css" rel="stylesheet" media="all">
+  <link href="%D0%A1%D0%BE%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5%20%D1%84%D0%BE%D1%80%D1%83%D0%BC%D0%B0%20%D0%BD%D0%B0%20drupal%20_%20%D0%A5%D0%B0%D0%B1%D1%80%D0%B0%D1%85%D0%B0%D0%B1%D1%80_files/highlight.css" rel="stylesheet" media="all">
+  <link href="%D0%A1%D0%BE%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5%20%D1%84%D0%BE%D1%80%D1%83%D0%BC%D0%B0%20%D0%BD%D0%B0%20drupal%20_%20%D0%A5%D0%B0%D0%B1%D1%80%D0%B0%D1%85%D0%B0%D0%B1%D1%80_files/all_002.css" rel="stylesheet" media="all">
+  
+
+
+	
+
+		
+		
+			<script type="text/javascript" src="%D0%A1%D0%BE%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5%20%D1%84%D0%BE%D1%80%D1%83%D0%BC%D0%B0%20%D0%BD%D0%B0%20drupal%20_%20%D0%A5%D0%B0%D0%B1%D1%80%D0%B0%D1%85%D0%B0%D0%B1%D1%80_files/all.js"></script>
+		
+		
+		
+		
+		
+
+	
+	
+	
+	
+		
+  <script type="text/javascript" src="%D0%A1%D0%BE%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5%20%D1%84%D0%BE%D1%80%D1%83%D0%BC%D0%B0%20%D0%BD%D0%B0%20drupal%20_%20%D0%A5%D0%B0%D0%B1%D1%80%D0%B0%D1%85%D0%B0%D0%B1%D1%80_files/jquery_002.js"></script>
+  <script type="text/javascript" src="%D0%A1%D0%BE%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5%20%D1%84%D0%BE%D1%80%D1%83%D0%BC%D0%B0%20%D0%BD%D0%B0%20drupal%20_%20%D0%A5%D0%B0%D0%B1%D1%80%D0%B0%D1%85%D0%B0%D0%B1%D1%80_files/jquery.js"></script>
+  <script type="text/javascript" src="%D0%A1%D0%BE%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5%20%D1%84%D0%BE%D1%80%D1%83%D0%BC%D0%B0%20%D0%BD%D0%B0%20drupal%20_%20%D0%A5%D0%B0%D0%B1%D1%80%D0%B0%D1%85%D0%B0%D0%B1%D1%80_files/wysiwyg.js"></script>
+  <script type="text/javascript" src="%D0%A1%D0%BE%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5%20%D1%84%D0%BE%D1%80%D1%83%D0%BC%D0%B0%20%D0%BD%D0%B0%20drupal%20_%20%D0%A5%D0%B0%D0%B1%D1%80%D0%B0%D1%85%D0%B0%D0%B1%D1%80_files/highlight.js"></script>
+  <script type="text/javascript" src="%D0%A1%D0%BE%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5%20%D1%84%D0%BE%D1%80%D1%83%D0%BC%D0%B0%20%D0%BD%D0%B0%20drupal%20_%20%D0%A5%D0%B0%D0%B1%D1%80%D0%B0%D1%85%D0%B0%D0%B1%D1%80_files/posts.js"></script>
+  <script type="text/javascript" src="%D0%A1%D0%BE%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5%20%D1%84%D0%BE%D1%80%D1%83%D0%BC%D0%B0%20%D0%BD%D0%B0%20drupal%20_%20%D0%A5%D0%B0%D0%B1%D1%80%D0%B0%D1%85%D0%B0%D0%B1%D1%80_files/comments.js"></script>
+  <script type="text/javascript" src="%D0%A1%D0%BE%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5%20%D1%84%D0%BE%D1%80%D1%83%D0%BC%D0%B0%20%D0%BD%D0%B0%20drupal%20_%20%D0%A5%D0%B0%D0%B1%D1%80%D0%B0%D1%85%D0%B0%D0%B1%D1%80_files/all_002.js"></script>
+
+		
+		<script type="text/javascript" src="%D0%A1%D0%BE%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5%20%D1%84%D0%BE%D1%80%D1%83%D0%BC%D0%B0%20%D0%BD%D0%B0%20drupal%20_%20%D0%A5%D0%B0%D0%B1%D1%80%D0%B0%D1%85%D0%B0%D0%B1%D1%80_files/adriver.js"></script>
+		
+		
+		
+		<link title="Хабрахабр / Комментарии к публикации «Создание форума на drupal»" type="application/rss+xml" rel="alternate" href="http://habrahabr.ru/rss/post/100720/">
+				
+		
+			<script type="text/javascript">
+			var _gaq = window._gaq || [];
+			window.onerror = function(msg, url, line) {
+			    //var preventErrorAlert = true;
+			    //_gaq.push(['_trackEvent', 'JS Error', msg, navigator.userAgent + ' -> ' + url + " : " + line]);
+			    //return preventErrorAlert;
+			};
+			
+			jQuery.error = function (message) {
+			    _gaq.push(['_trackEvent', 'jQuery Error', message, navigator.userAgent]);
+			}
+			</script>
+		
+		
+		
+			 
+	<script src="%D0%A1%D0%BE%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5%20%D1%84%D0%BE%D1%80%D1%83%D0%BC%D0%B0%20%D0%BD%D0%B0%20drupal%20_%20%D0%A5%D0%B0%D0%B1%D1%80%D0%B0%D1%85%D0%B0%D0%B1%D1%80_files/ga.js" async="true"></script><script src="%D0%A1%D0%BE%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5%20%D1%84%D0%BE%D1%80%D1%83%D0%BC%D0%B0%20%D0%BD%D0%B0%20drupal%20_%20%D0%A5%D0%B0%D0%B1%D1%80%D0%B0%D1%85%D0%B0%D0%B1%D1%80_files/all_003.js" async="" id="facebook-jssdk"></script><style type="text/css">.fb_hidden{position:absolute;top:-10000px;z-index:10001}
+.fb_invisible{display:none}
+.fb_reset{background:none;border-spacing:0;border:0;color:#000;cursor:auto;direction:ltr;font-family:"lucida grande", tahoma, verdana, arial, sans-serif;font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:1;margin:0;overflow:visible;padding:0;text-align:left;text-decoration:none;text-indent:0;text-shadow:none;text-transform:none;visibility:visible;white-space:normal;word-spacing:normal}
+.fb_link img{border:none}
+.fb_dialog{background:rgba(82, 82, 82, .7);position:absolute;top:-10000px;z-index:10001}
+.fb_dialog_advanced{padding:10px;-moz-border-radius:8px;-webkit-border-radius:8px;border-radius:8px}
+.fb_dialog_content{background:#fff;color:#333}
+.fb_dialog_close_icon{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/yA/x/IE9JII6Z1Ys.png) no-repeat scroll 0 0 transparent;_background-image:url(http://static.ak.fbcdn.net/rsrc.php/v2/y6/x/s816eWC-2sl.gif);cursor:pointer;display:block;height:15px;position:absolute;right:18px;top:17px;width:15px;top:8px\9;right:7px\9}
+.fb_dialog_mobile .fb_dialog_close_icon{top:5px;left:5px;right:auto}
+.fb_dialog_padding{background-color:transparent;position:absolute;width:1px;z-index:-1}
+.fb_dialog_close_icon:hover{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/yA/x/IE9JII6Z1Ys.png) no-repeat scroll 0 -15px transparent;_background-image:url(http://static.ak.fbcdn.net/rsrc.php/v2/y6/x/s816eWC-2sl.gif)}
+.fb_dialog_close_icon:active{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/yA/x/IE9JII6Z1Ys.png) no-repeat scroll 0 -30px transparent;_background-image:url(http://static.ak.fbcdn.net/rsrc.php/v2/y6/x/s816eWC-2sl.gif)}
+.fb_dialog_loader{background-color:#f2f2f2;border:1px solid #606060;font-size:24px;padding:20px}
+.fb_dialog_top_left,
+.fb_dialog_top_right,
+.fb_dialog_bottom_left,
+.fb_dialog_bottom_right{height:10px;width:10px;overflow:hidden;position:absolute}
+.fb_dialog_top_left{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/yR/x/8YeTNIlTZjm.png) no-repeat 0 0;left:-10px;top:-10px}
+.fb_dialog_top_right{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/yR/x/8YeTNIlTZjm.png) no-repeat 0 -10px;right:-10px;top:-10px}
+.fb_dialog_bottom_left{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/yR/x/8YeTNIlTZjm.png) no-repeat 0 -20px;bottom:-10px;left:-10px}
+.fb_dialog_bottom_right{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/yR/x/8YeTNIlTZjm.png) no-repeat 0 -30px;right:-10px;bottom:-10px}
+.fb_dialog_vert_left,
+.fb_dialog_vert_right,
+.fb_dialog_horiz_top,
+.fb_dialog_horiz_bottom{position:absolute;background:#525252;filter:alpha(opacity=70);opacity:.7}
+.fb_dialog_vert_left,
+.fb_dialog_vert_right{width:10px;height:100%}
+.fb_dialog_vert_left{margin-left:-10px}
+.fb_dialog_vert_right{right:0;margin-right:-10px}
+.fb_dialog_horiz_top,
+.fb_dialog_horiz_bottom{width:100%;height:10px}
+.fb_dialog_horiz_top{margin-top:-10px}
+.fb_dialog_horiz_bottom{bottom:0;margin-bottom:-10px}
+.fb_dialog_iframe{line-height:0}
+.fb_dialog_content .dialog_title{background:#6d84b4;border:1px solid #3b5998;color:#fff;font-size:14px;font-weight:bold;margin:0}
+.fb_dialog_content .dialog_title > span{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/yD/x/Cou7n-nqK52.gif)
+no-repeat 5px 50%;float:left;padding:5px 0 7px 26px}
+body.fb_hidden{-webkit-transform:none;height:100%;margin:0;left:-10000px;overflow:visible;position:absolute;top:-10000px;width:100%
+}
+.fb_dialog.fb_dialog_mobile.loading{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/yc/x/3rhSv5V8j3o.gif)
+white no-repeat 50% 50%;min-height:100%;min-width:100%;overflow:hidden;position:absolute;top:0;z-index:10001}
+.fb_dialog.fb_dialog_mobile.loading.centered{max-height:590px;min-height:590px;max-width:500px;min-width:500px}
+#fb-root #fb_dialog_ipad_overlay{background:rgba(0, 0, 0, .45);position:absolute;left:0;top:0;width:100%;min-height:100%;z-index:10000}
+#fb-root #fb_dialog_ipad_overlay.hidden{display:none}
+.fb_dialog.fb_dialog_mobile.loading iframe{visibility:hidden}
+.fb_dialog_content .dialog_header{-webkit-box-shadow:white 0 1px 1px -1px inset;background:-webkit-gradient(linear, 0 0, 0 100%, from(#738ABA), to(#2C4987));border-bottom:1px solid;border-color:#1d4088;color:#fff;font:14px Helvetica, sans-serif;font-weight:bold;text-overflow:ellipsis;text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0;vertical-align:middle;white-space:nowrap}
+.fb_dialog_content .dialog_header table{-webkit-font-smoothing:subpixel-antialiased;height:43px;width:100%
+}
+.fb_dialog_content .dialog_header td.header_left{font-size:12px;padding-left:5px;vertical-align:middle;width:60px
+}
+.fb_dialog_content .dialog_header td.header_right{font-size:12px;padding-right:5px;vertical-align:middle;width:60px
+}
+.fb_dialog_content .touchable_button{background:-webkit-gradient(linear, 0 0, 0 100%, from(#4966A6),
+color-stop(0.5, #355492), to(#2A4887));border:1px solid #29447e;-webkit-background-clip:padding-box;-webkit-border-radius:3px;-webkit-box-shadow:rgba(0, 0, 0, .117188) 0 1px 1px inset,
+rgba(255, 255, 255, .167969) 0 1px 0;display:inline-block;margin-top:3px;max-width:85px;line-height:18px;padding:4px 12px;position:relative}
+.fb_dialog_content .dialog_header .touchable_button input{border:none;background:none;color:#fff;font:12px Helvetica, sans-serif;font-weight:bold;margin:2px -12px;padding:2px 6px 3px 6px;text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0}
+.fb_dialog_content .dialog_header .header_center{color:#fff;font-size:16px;font-weight:bold;line-height:18px;text-align:center;vertical-align:middle}
+.fb_dialog_content .dialog_content{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/yJ/x/jKEcVPZFk-2.gif) no-repeat 50% 50%;border:1px solid #555;border-bottom:0;border-top:0;height:150px}
+.fb_dialog_content .dialog_footer{background:#f2f2f2;border:1px solid #555;border-top-color:#ccc;height:40px}
+#fb_dialog_loader_close{float:left}
+.fb_dialog.fb_dialog_mobile .fb_dialog_close_button{text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0}
+.fb_dialog.fb_dialog_mobile .fb_dialog_close_icon{visibility:hidden}
+.fb_iframe_widget{position:relative;display:-moz-inline-block;display:inline-block}
+.fb_iframe_widget iframe{position:absolute}
+.fb_iframe_widget_lift{z-index:1}
+.fb_iframe_widget span{position:relative;display:inline-block;vertical-align:text-bottom;text-align:justify}
+.fb_hide_iframes iframe{position:relative;left:-10000px}
+.fb_iframe_widget_loader{position:relative;display:inline-block}
+.fb_iframe_widget_fluid{display:inline}
+.fb_iframe_widget_loader iframe{min-height:32px;z-index:2;zoom:1}
+.fb_iframe_widget_loader .FB_Loader{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/yJ/x/jKEcVPZFk-2.gif) no-repeat;height:32px;width:32px;margin-left:-16px;position:absolute;left:50%;z-index:4}
+.fb_button_simple,
+.fb_button_simple_rtl{background-image:url(http://static.ak.fbcdn.net/rsrc.php/v2/yH/x/eIpbnVKI9lR.png);background-repeat:no-repeat;cursor:pointer;outline:none;text-decoration:none}
+.fb_button_simple_rtl{background-position:right 0}
+.fb_button_simple .fb_button_text{margin:0 0 0 20px;padding-bottom:1px}
+.fb_button_simple_rtl .fb_button_text{margin:0 10px 0 0}
+a.fb_button_simple:hover .fb_button_text,
+a.fb_button_simple_rtl:hover .fb_button_text,
+.fb_button_simple:hover .fb_button_text,
+.fb_button_simple_rtl:hover .fb_button_text{text-decoration:underline}
+.fb_button,
+.fb_button_rtl{background:#29447e url(http://static.ak.fbcdn.net/rsrc.php/v2/yl/x/FGFbc80dUKj.png);background-repeat:no-repeat;cursor:pointer;display:inline-block;padding:0 0 0 1px;text-decoration:none;outline:none}
+.fb_button .fb_button_text,
+.fb_button_rtl .fb_button_text{background:#5f78ab url(http://static.ak.fbcdn.net/rsrc.php/v2/yl/x/FGFbc80dUKj.png);border-top:solid 1px #879ac0;border-bottom:solid 1px #1a356e;color:#fff;display:block;font-family:"lucida grande",tahoma,verdana,arial,sans-serif;font-weight:bold;padding:2px 6px 3px 6px;margin:1px 1px 0 21px;text-shadow:none}
+a.fb_button,
+a.fb_button_rtl,
+.fb_button,
+.fb_button_rtl{text-decoration:none}
+a.fb_button:active .fb_button_text,
+a.fb_button_rtl:active .fb_button_text,
+.fb_button:active .fb_button_text,
+.fb_button_rtl:active .fb_button_text{border-bottom:solid 1px #29447e;border-top:solid 1px #45619d;background:#4f6aa3;text-shadow:none}
+.fb_button_xlarge,
+.fb_button_xlarge_rtl{background-position:left -60px;font-size:24px;line-height:30px}
+.fb_button_xlarge .fb_button_text{padding:3px 8px 3px 12px;margin-left:38px}
+a.fb_button_xlarge:active{background-position:left -99px}
+.fb_button_xlarge_rtl{background-position:right -268px}
+.fb_button_xlarge_rtl .fb_button_text{padding:3px 8px 3px 12px;margin-right:39px}
+a.fb_button_xlarge_rtl:active{background-position:right -307px}
+.fb_button_large,
+.fb_button_large_rtl{background-position:left -138px;font-size:13px;line-height:16px}
+.fb_button_large .fb_button_text{margin-left:24px;padding:2px 6px 4px 6px}
+a.fb_button_large:active{background-position:left -163px}
+.fb_button_large_rtl{background-position:right -346px}
+.fb_button_large_rtl .fb_button_text{margin-right:25px}
+a.fb_button_large_rtl:active{background-position:right -371px}
+.fb_button_medium,
+.fb_button_medium_rtl{background-position:left -188px;font-size:11px;line-height:14px}
+a.fb_button_medium:active{background-position:left -210px}
+.fb_button_medium_rtl{background-position:right -396px}
+.fb_button_text_rtl,
+.fb_button_medium_rtl .fb_button_text{padding:2px 6px 3px 6px;margin-right:22px}
+a.fb_button_medium_rtl:active{background-position:right -418px}
+.fb_button_small,
+.fb_button_small_rtl{background-position:left -232px;font-size:10px;line-height:10px}
+.fb_button_small .fb_button_text{padding:2px 6px 3px;margin-left:17px}
+a.fb_button_small:active,
+.fb_button_small:active{background-position:left -250px}
+.fb_button_small_rtl{background-position:right -440px}
+.fb_button_small_rtl .fb_button_text{padding:2px 6px;margin-right:18px}
+a.fb_button_small_rtl:active{background-position:right -458px}
+.fb_share_count_wrapper{position:relative;float:left}
+.fb_share_count{background:#b0b9ec none repeat scroll 0 0;color:#333;font-family:"lucida grande", tahoma, verdana, arial, sans-serif;text-align:center}
+.fb_share_count_inner{background:#e8ebf2;display:block}
+.fb_share_count_right{margin-left:-1px;display:inline-block}
+.fb_share_count_right .fb_share_count_inner{border-top:solid 1px #e8ebf2;border-bottom:solid 1px #b0b9ec;margin:1px 1px 0 1px;font-size:10px;line-height:10px;padding:2px 6px 3px;font-weight:bold}
+.fb_share_count_top{display:block;letter-spacing:-1px;line-height:34px;margin-bottom:7px;font-size:22px;border:solid 1px #b0b9ec}
+.fb_share_count_nub_top{border:none;display:block;position:absolute;left:7px;top:35px;margin:0;padding:0;width:6px;height:7px;background-repeat:no-repeat;background-image:url(http://static.ak.fbcdn.net/rsrc.php/v2/yP/x/bSOHtKbCGYI.png)}
+.fb_share_count_nub_right{border:none;display:inline-block;padding:0;width:5px;height:10px;background-repeat:no-repeat;background-image:url(http://static.ak.fbcdn.net/rsrc.php/v2/yL/x/i_oIVTKMYsL.png);vertical-align:top;background-position:right 5px;z-index:10;left:2px;margin:0 2px 0 0;position:relative}
+.fb_share_no_count{display:none}
+.fb_share_size_Small .fb_share_count_right .fb_share_count_inner{font-size:10px}
+.fb_share_size_Medium .fb_share_count_right .fb_share_count_inner{font-size:11px;padding:2px 6px 3px;letter-spacing:-1px;line-height:14px}
+.fb_share_size_Large .fb_share_count_right .fb_share_count_inner{font-size:13px;line-height:16px;padding:2px 6px 4px;font-weight:normal;letter-spacing:-1px}
+.fb_share_count_hidden .fb_share_count_nub_top,
+.fb_share_count_hidden .fb_share_count_top,
+.fb_share_count_hidden .fb_share_count_nub_right,
+.fb_share_count_hidden .fb_share_count_right{visibility:hidden}
+.fb_connect_bar_container div,
+.fb_connect_bar_container span,
+.fb_connect_bar_container a,
+.fb_connect_bar_container img,
+.fb_connect_bar_container strong{background:none;border-spacing:0;border:0;direction:ltr;font-style:normal;font-variant:normal;letter-spacing:normal;line-height:1;margin:0;overflow:visible;padding:0;text-align:left;text-decoration:none;text-indent:0;text-shadow:none;text-transform:none;visibility:visible;white-space:normal;word-spacing:normal;vertical-align:baseline}
+.fb_connect_bar_container{position:fixed;left:0 !important;right:0 !important;height:42px !important;padding:0 25px !important;margin:0 !important;vertical-align:middle !important;border-bottom:1px solid #333 !important;background:#3b5998 !important;z-index:99999999 !important;overflow:hidden !important}
+.fb_connect_bar_container_ie6{position:absolute;top:expression(document.compatMode=="CSS1Compat"? document.documentElement.scrollTop+"px":body.scrollTop+"px")}
+.fb_connect_bar{position:relative;margin:auto;height:100%;width:100%;padding:6px 0 0 0 !important;background:none;color:#fff !important;font-family:"lucida grande", tahoma, verdana, arial, sans-serif !important;font-size:13px !important;font-style:normal !important;font-variant:normal !important;font-weight:normal !important;letter-spacing:normal !important;line-height:1 !important;text-decoration:none !important;text-indent:0 !important;text-shadow:none !important;text-transform:none !important;white-space:normal !important;word-spacing:normal !important}
+.fb_connect_bar a:hover{color:#fff}
+.fb_connect_bar .fb_profile img{height:30px;width:30px;vertical-align:middle;margin:0 6px 5px 0}
+.fb_connect_bar div a,
+.fb_connect_bar span,
+.fb_connect_bar span a{color:#bac6da;font-size:11px;text-decoration:none}
+.fb_connect_bar .fb_buttons{float:right;margin-top:7px}
+.fb_edge_widget_with_comment{position:relative;*z-index:1000}
+.fb_edge_widget_with_comment span.fb_edge_comment_widget{position:absolute}
+.fb_edge_widget_with_comment span.fb_send_button_form_widget{z-index:1}
+.fb_edge_widget_with_comment span.fb_send_button_form_widget .FB_Loader{left:0;top:1px;margin-top:6px;margin-left:0;background-position:50% 50%;background-color:#fff;height:150px;width:394px;border:1px #666 solid;border-bottom:2px solid #283e6c;z-index:1}
+.fb_edge_widget_with_comment span.fb_send_button_form_widget.dark .FB_Loader{background-color:#000;border-bottom:2px solid #ccc}
+.fb_edge_widget_with_comment span.fb_send_button_form_widget.siderender
+.FB_Loader{margin-top:0}
+.fbpluginrecommendationsbarleft,
+.fbpluginrecommendationsbarright{position:fixed !important;bottom:0;z-index:999}
+/* @noflip */
+.fbpluginrecommendationsbarleft{left:10px}
+/* @noflip */
+.fbpluginrecommendationsbarright{right:10px}
+</style></head>
+
+	<body>
+	  
+
+
+
+
+
+
+	<div title="" id="topline"><div style="position: relative; width: 100%; height: 90px;"><embed type="application/x-shockwave-flash" quality="best" wmode="opaque" play="true" loop="true" menu="false" allowscriptaccess="always" src="%D0%A1%D0%BE%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5%20%D1%84%D0%BE%D1%80%D1%83%D0%BC%D0%B0%20%D0%BD%D0%B0%20drupal%20_%20%D0%A5%D0%B0%D0%B1%D1%80%D0%B0%D1%85%D0%B0%D0%B1%D1%80_files/hantim_flash_b100x90.swf" flashvars="link1=//ad.adriver.ru/cgi-bin/click.cgi%3Fsid%3D176776%26ad%3D299620%26bid%3D1607189%26bt%3D52%26bn%3D1%26pz%3D0%26ref%3Dhttp%3A%252f%252fhabrahabr.ru%252fpost%252f100720%252f%26custom%3D1%253Ddrupal%26rleurl%3D&amp;ar_ph=topline&amp;target=_blank&amp;ar_comppath=http%3A//masterh4.adriver.ru/images/0001607/0001607189/0/&amp;ar_pass=&amp;ar_bid=1607189&amp;ar_bt=52&amp;ar_ad=299620&amp;ar_nid=0&amp;ar_rnd=5513549&amp;ar_ntype=0&amp;ar_sliceid=0&amp;ar_sid=176776" height="100%" width="100%"></div></div>
+	<script type="text/javascript">
+	(function(){
+		var custom = {};
+		
+			custom[1]	= 'drupal';
+		
+		new adriver("topline", {sid:176776, bt:52, bn:1, custom: custom});
+	})();
+	</script>
+
+
+
+
+		<div id="layout">	    
+		  <div id="header">
+  <div class="userpanel silver">
+    
+    
+      <a href="http://habrahabr.ru/login/" class="login">войти</a> <a href="http://habrahabr.ru/register/">зарегистрироваться</a>
+    
+  </div>
+  <a class="logo" href="http://habrahabr.ru/" title="На главную страницу"></a>
+  <div class="search">
+    <form id="search_form" name="search" method="get" action="/search/">
+      <input value="" type="submit">
+      <input autocomplete="off" name="q" x-webkit-speech="" speech="" type="text">
+    </form>
+  </div>
+
+
+	<div class="main_menu">
+		<a href="http://habrahabr.ru/posts/top/" class="active">посты</a><a href="http://habrahabr.ru/qa/">q&amp;a</a><a href="http://habrahabr.ru/events/coming/">события</a><a href="http://habrahabr.ru/hubs/">хабы</a><a href="http://habrahabr.ru/companies/">компании</a>
+		<div class="banner_special">
+
+	 
+
+	 
+
+	
+	
+		<!--  AdRiver code START. Type:135x35 Site: habrahabr PZ: 0 BN: 0 -->
+		<script language="javascript" type="text/javascript"><!--
+		var RndNum4NoCash = Math.round(Math.random() * 1000000000);
+		var ar_Tail='unknown'; if (document.referrer) ar_Tail = escape(document.referrer);
+		document.write(
+		'<iframe src="http://ad.adriver.ru/cgi-bin/erle.cgi?'
+		+ 'sid=176776&target=top&w=135&h=35&bt=25&pz=0&rnd=' + RndNum4NoCash + '&tail256=' + ar_Tail
+		+ '" frameborder=0 vspace=0 hspace=0 width=135 height=35 marginwidth=0'
+		+ ' marginheight=0 scrolling=no></iframe>');
+		//--></script><iframe src="%D0%A1%D0%BE%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5%20%D1%84%D0%BE%D1%80%D1%83%D0%BC%D0%B0%20%D0%BD%D0%B0%20drupal%20_%20%D0%A5%D0%B0%D0%B1%D1%80%D0%B0%D1%85%D0%B0%D0%B1%D1%80_files/erle.html" vspace="0" hspace="0" marginwidth="0" marginheight="0" frameborder="0" height="35" scrolling="no" width="135"></iframe>
+		<noscript>
+		<a href="http://ad.adriver.ru/cgi-bin/click.cgi?sid=176776&bt=25&pz=0&rnd=795668059" target=_top>
+		<img src="http://ad.adriver.ru/cgi-bin/rle.cgi?sid=176776&bt=25&pz=0&rnd=795668059" alt="-AdRiver-" border=0 width=135 height=35></a>
+		</noscript>
+
+		<!--  AdRiver code END  -->
+	
+	
+
+</div>
+		
+	</div>
+
+
+</div>
+
+
+	
+		  
+	  
+		  
+
+
+	
+  <div class="content_left">
+
+	
+
+
+
+
+
+
+
+
+
+
+	
+  <div class="post shortcuts_item" id="post_100720">
+    <h1 class="title">
+      
+	    
+
+	      
+      
+        <span class="post_title">Создание форума на drupal</span>
+      
+      
+      
+			
+      
+  	</h1>
+  	
+  	
+<div class="hubs">
+	
+		<a href="http://habrahabr.ru/hub/drupal/" class="hub " title="Вы не подписаны на этот хаб">Drupal</a><span class="profiled_hub" title="Профильный хаб">*</span>
+	
+</div>
+
+  	
+  	<div class="content html_format">
+  	Недавно мне захотелось сделать форум на drupal. Нет, не так просто, нужна пара уточнений.<br>
+1) Проект уже существовал на движке drupal, являлся чем-то вроде сервиса вопросов-ответов, хотя отвечал один я.<br>
+2) Когда набралось тем 50, мне захотелось переделать все это в стиле форума, сохранив вопросы и ответы<br>
+3) Ну и, естественно, хотелось, чтобы все это было красиво, а форум был удобный.<br>
+<br>
+У друпала есть встроенный модуль форум, однако он недостаточно удобен. 
+Установка же модуля advanced_forum тоже все не решила — у меня осталась 
+большая проблема: хотелось стандартной для phpbb форумов кнопки «новые 
+сообщения» — по умолчанию drupal такой возможность не представлял.<br>
+<br>
+Чтобы решить эти проблемы, пришлось повозиться с кодом. В процессе я 
+нашел баг в текущем релизе модуля drupal advanced_forum. Она, как 
+выяснилось позже, исправлен в alpha-версии, однако она у меня не пошла —
+ возникли какие-то другие конфликты.<br>
+<br>
+Так или иначе, этот пост посвящен настройке удобного форума на drupal. Решение описанной выше проблемы будет предложено.<br>
+<br>
+<a name="habracut"></a><br>
+<br>
+Итак, начнем (вспоминаю вот этот пост <a href="http://habrahabr.ru/blogs/drupal/19005/">habrahabr.ru/blogs/drupal/19005/</a>,
+ который сподвигнул меня на изучение друпала, и надеюсь, что у меня 
+получится не сильно хуже). Начнем с простого, шаманство оставим на 
+потом.<br>
+<br>
+1) Включаем модуль forum, cкачиваем и включаем модуль <a href="http://drupal.org/project/advanced_forum.">drupal.org/project/advanced_forum.</a>
+ Должен появиться тип материала forum. По адресу admin/content/forum (я 
+здесь и далее буду опускать url сайта) заводим форумы, их описания. По 
+адресу admin/user/permissions даем всем права на пользование форумом.<br>
+<br>
+2) Выбираем стиль для advanced_forum по адресу 
+admin/settings/advanced-forum. Я использовал blue_lagoon_stacked. 
+Цветовая гамма исправляется путем редактирования файла 
+modules/advanced_forum/styles/blue_lagoon_stacked/advanced_forum.css, 
+все достаточно тривиально.<br>
+<br>
+3) Скачиваем и включаем модуль <a href="http://drupal.org/project/forum_access">drupal.org/project/forum_access</a>, он позволит создать форумных модераторов. Не забываем дать права на все форумы для всех пользователей в <br>
+<br>
+4) Смайлики, скачиваем и устанавливаем <a href="http://drupal.org/project/smileys">drupal.org/project/smileys</a><br>
+<br>
+5) Цитирование. Потребуется модуль <a href="http://drupal.org/project/quote">drupal.org/project/quote</a><br>
+<br>
+6) Чтобы намертво запретить комментарии комментариев и получить классическую линейную форумную логику ответов, берем <a href="http://drupal.org/project/flatcomments">drupal.org/project/flatcomments</a> Этот модуль, кстати, позволит и имеющиеся комментарии сплюснуть.<br>
+<br>
+7) Для подписки на темы возьмем <a href="http://drupal.org/project/subscriptions">drupal.org/project/subscriptions</a> Можно, кстати, по умолчанию настроить, чтобы пользователь по-умолчанию был подписан на ежедневные оповещения о новых темах.<br>
+<br>
+<hr><br>
+<br>
+8) Переходим к обещанному шаманству. Начинаем с исправления бага в 
+версии advanced_forum 6.x-1.1. При отметке всех сообщений прочитанными 
+он правит дату посещения пользователя у тех нод, у которых либо дата 
+последнего комментария больше, либо дата создания. Но дело в том, что 
+это не совсем верный подход — нода могла быть изменена, дата создания 
+может быть меньше, а дата изменения — больше. Поэтому берем файл 
+modules/advanced_forum/advanced_forum.module и правим в двух местах 
+WHERE (n.created &gt; %d на WHERE (n.changed &gt; %d<br>
+<br>
+9) Далее создаем view, показывающее непрочитанные сообщения. Для этого скачиваем и включаем <a href="http://drupal.org/project/views">drupal.org/project/views</a>
+ (если вы еще жто не сделали), новый view типа материал/node, фильтр на 
+тип материала=forum и has new content. Поля: материал — заголовок, 
+материал — последний комментатор, материал — дата последнего коментария.
+ Первые два поля сделать ссылками. В заголовке делаем ссылку на 
+/forum/markasread — пометить все прочитанными<br>
+<br>
+10) Продолжение шаманства — встраиваем ссылку на непрочитанные сообщения
+ (допустим, этот view мы разместили по адресу new_posts) в ссылки 
+форума. Для этого в modules/advanced_forum/styles/naked/advf-forums.tpl в
+ самом конце перед div class=«forum-top-links» пишем<br>
+ &lt;? php $links[«new_posts»]=array(«title»=&gt;«Список обновленных тем»,«href»=&gt;«адрес сайта/new_posts»);?&gt;<br>
+<br>
+Радуемся результату. Вопросы? Пишите! 
+  	
+  	<div class="clear"></div> 	
+  	</div>
+    
+<ul class="tags">
+	<li><a href="http://habrahabr.ru/search/?q=%5Bdrupal%5D&amp;target_type=posts" rel="tag">drupal</a></li><li>, <a href="http://habrahabr.ru/search/?q=%5B%D1%84%D0%BE%D1%80%D1%83%D0%BC%5D&amp;target_type=posts" rel="tag">форум</a></li><li>, <a href="http://habrahabr.ru/search/?q=%5B%D0%BD%D0%BE%D0%B2%D1%8B%D0%B5%20%D1%81%D0%BE%D0%BE%D0%B1%D1%89%D0%B5%D0%BD%D0%B8%D1%8F%5D&amp;target_type=posts" rel="tag">новые сообщения</a></li><li>, <a href="http://habrahabr.ru/search/?q=%5B%D0%BC%D0%BE%D0%B4%D1%83%D0%BB%D0%B8%5D&amp;target_type=posts" rel="tag">модули</a></li>
+</ul>
+
+    <div class="infopanel" id="infopanel_post_100720">
+	
+        
+	
+	<div class="voting   ">
+
+		
+		
+		<span class="plus" title="Голосовать могут только зарегистрированные пользователи."></span>
+		<span class="minus" title="Голосовать могут только зарегистрированные пользователи."></span>
+		
+
+		<div class="mark positive ">
+			
+			<span class="score" title="Всего 30: ↑21 и ↓9">+12</span>
+			
+			
+		</div>
+
+	</div>
+	
+	
+
+
+
+	<div class="published"> 1 августа 2010 в 23:35</div>
+
+	<div class="favorite">
+		
+		
+		<a class="guest" href="#" onclick="return false;" title="Только зарегистрированные пользователи могут добавлять посты в избранное"></a>
+		
+	</div>
+
+	<div class="favs_count" title="Количество пользователей, добавивших пост в избранное">45</div>
+
+	
+		
+		
+		<div class="twitter">
+			<a href="http://twitter.com/intent/tweet?text=%D0%A1%D0%BE%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5+%D1%84%D0%BE%D1%80%D1%83%D0%BC%D0%B0+%D0%BD%D0%B0+drupal+%23habr+http://habr.ru/p/100720/" title="Опубликовать ссылку в Twitter" target="_blank"></a>
+		</div>
+		<div class="vkontakte">
+			<a href="http://vkontakte.ru/share.php?url=http://habr.ru/p/100720/" title="Опубликовать ссылку во ВКонтакте" onclick="window.open(this.href, 'Опубликовать ссылку во Вконтакте', 'width=800,height=300'); return false"></a>
+		</div>
+		<div class="facebook">
+			<a href="https://www.facebook.com/sharer/sharer.php?u=http://habr.ru/p/100720/" title="Опубликовать ссылку в Facebook" onclick="window.open(this.href, 'Опубликовать ссылку в Facebook', 'width=640,height=436,toolbar=0,status=0'); return false"></a>
+		</div>
+		<div class="googleplus">
+			<a href="https://plus.google.com/share?url=http://habr.ru/p/100720/" title="Опубликовать ссылку в Google Plus" onclick="window.open(this.href, 'Опубликовать ссылку в Google Plus', 'width=800,height=300'); return false"></a>
+		</div>
+		
+	
+
+	
+
+	
+
+	
+	
+
+	
+	
+	<div class="author">
+
+		<a title="Автор текста" href="http://habrahabr.ru/users/Sander80/">Sander80</a>
+		<span class="rating" title="рейтинг пользователя">19,0</span>
+		
+	</div>
+	
+	
+
+	
+
+	
+	
+
+	
+
+</div>
+<div class="clear"></div>
+
+
+	
+
+    
+    <script type="text/javascript" src="%D0%A1%D0%BE%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5%20%D1%84%D0%BE%D1%80%D1%83%D0%BC%D0%B0%20%D0%BD%D0%B0%20drupal%20_%20%D0%A5%D0%B0%D0%B1%D1%80%D0%B0%D1%85%D0%B0%D0%B1%D1%80_files/a"></script>
+	</div>
+
+	
+
+	
+
+
+<div class="similar_posts">
+	<div class="title">
+		<a href="#show_all" class="show_all_similar_posts dotted" onclick="$('.similar_posts .items .item.hidden').toggle();return false;">Похожие посты</a>
+		
+	</div>
+	
+	<div class="items">
+		
+		<div class="item ">
+			<div class="date">23.08.2012</div>
+			<div class="title"><a href="http://habrahabr.ru/post/150084/">Новые технологии 2012 года</a></div>
+		</div>
+		
+		<div class="item ">
+			<div class="date">15.08.2012</div>
+			<div class="title"><a href="http://habrahabr.ru/post/149590/">Почему не Drupal?</a></div>
+		</div>
+		
+		<div class="item ">
+			<div class="date">12.08.2012</div>
+			<div class="title"><a href="http://habrahabr.ru/post/149466/">VAR-SOM-AM33 — новые процессорные модули от Варисайт</a></div>
+		</div>
+		
+		<div class="item ">
+			<div class="date">09.08.2012</div>
+			<div class="title"><a href="http://habrahabr.ru/post/149315/">GitHub внедрил новую систему уведомлений, которая лучше предыдущей, но&nbsp;внедрил&nbsp;он&nbsp;её нехорошо</a></div>
+		</div>
+		
+		<div class="item hidden">
+			<div class="date">27.03.2012</div>
+			<div class="title"><a href="http://habrahabr.ru/post/140758/">Drupal и мультиязычность, как программно добавить переключатель языков</a></div>
+		</div>
+		
+		<div class="item hidden">
+			<div class="date">12.03.2012</div>
+			<div class="title"><a href="http://habrahabr.ru/post/139790/">Python, Модули, SWIG, Windows</a></div>
+		</div>
+		
+		<div class="item hidden">
+			<div class="date">30.12.2011</div>
+			<div class="title"><a href="http://habrahabr.ru/post/135551/">C Новым годом!</a></div>
+		</div>
+		
+		<div class="item hidden">
+			<div class="date">14.12.2011</div>
+			<div class="title"><a href="http://habrahabr.ru/post/134587/">OpenStreetMap
+ News №11: полмиллиона участников, новые стили карт на официальном 
+сайте, переводим на русский название городов мира, конференция в 
+Подмосковье, журнал об открытых данных</a></div>
+		</div>
+		
+		<div class="item hidden">
+			<div class="date">01.12.2011</div>
+			<div class="title"><a href="http://habrahabr.ru/post/133795/">Drupal Apps — будущее где то рядом</a></div>
+		</div>
+		
+		<div class="item hidden">
+			<div class="date">14.10.2011</div>
+			<div class="title"><a href="http://habrahabr.ru/post/130396/">Пишем модуль для Ejabberd</a></div>
+		</div>
+		
+		<div class="item hidden">
+			<div class="date">11.09.2011</div>
+			<div class="title"><a href="http://habrahabr.ru/post/128208/">Кризис Drupal</a></div>
+		</div>
+		
+		<div class="item hidden">
+			<div class="date">02.09.2011</div>
+			<div class="title"><a href="http://habrahabr.ru/post/127579/">Расширение Orchard CMS: упаковка и публикация модулей</a></div>
+		</div>
+		
+	</div>
+	
+</div>
+
+
+	
+<div class="comments_list " id="comments">
+
+  <h2 class="title ">комментарии (<span id="comments_count">36</span>)
+  
+
+  </h2>
+
+   
+    
+<div class="comment_item" id="comment_3116611">
+	
+	<span class="parent_id" data-parent_id="0"></span>
+	
+	
+	
+		<div class="info  " rel="3116611">
+			<div class="folding-dot-holder"><div class="folding-dot"></div></div>
+			
+			<div id="voting_3116611" class="voting   ">
+										
+				
+					<span class="minus" title="Голосовать могут только зарегистрированные пользователи"></span>
+					<span class="plus" title="Голосовать могут только зарегистрированные пользователи"></span>
+				
+				<div class="mark positive ">
+						<span class="score" title="Всего 1: ↑1 и ↓0">+1</span> 
+				</div>	 
+			</div>
+			
+			<a href="http://habrahabr.ru/users/refrasher/" class="avatar"><img src="%D0%A1%D0%BE%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5%20%D1%84%D0%BE%D1%80%D1%83%D0%BC%D0%B0%20%D0%BD%D0%B0%20drupal%20_%20%D0%A5%D0%B0%D0%B1%D1%80%D0%B0%D1%85%D0%B0%D0%B1%D1%80_files/stub-user-small.gif" alt=""></a>
+			<a href="http://habrahabr.ru/users/refrasher/" class="username">refrasher</a>
+			<time datetime="2010-08-01T23:41:40+04:00"> 1 августа 2010 в 23:41</time>
+			<a href="#comment_3116611" class="link_to_comment">#</a>
+			
+			
+			<span class="to_chidren"></span>
+			<div class="clear"></div>
+		</div>
+		<div class="message html_format ">
+			Ссылочку не дадите где все это можно посмотреть?<br>
+ 
+		</div>
+		<div class="reply">
+			
+		</div>
+	
+	<div class="reply_comments" id="reply_comments_3116611">
+	 
+		
+<div class="comment_item" id="comment_3116614">
+	
+	<span class="parent_id" data-parent_id="3116611"></span>
+	
+	
+	
+		<div class="info  " rel="3116614">
+			<div class="folding-dot-holder"><div class="folding-dot"></div></div>
+			
+			<div id="voting_3116614" class="voting   ">
+										
+				
+					<span class="minus" title="Голосовать могут только зарегистрированные пользователи"></span>
+					<span class="plus" title="Голосовать могут только зарегистрированные пользователи"></span>
+				
+				<div class="mark positive ">
+						<span class="score" title="Всего 1: ↑1 и ↓0">+1</span> 
+				</div>	 
+			</div>
+			
+			<a href="http://habrahabr.ru/users/Sander80/" class="avatar"><img src="%D0%A1%D0%BE%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5%20%D1%84%D0%BE%D1%80%D1%83%D0%BC%D0%B0%20%D0%BD%D0%B0%20drupal%20_%20%D0%A5%D0%B0%D0%B1%D1%80%D0%B0%D1%85%D0%B0%D0%B1%D1%80_files/small_20512.jpg" alt=""></a>
+			<a href="http://habrahabr.ru/users/Sander80/" class="username">Sander80</a>
+			<time datetime="2010-08-01T23:42:34+04:00"> 1 августа 2010 в 23:42</time>
+			<a href="#comment_3116614" class="link_to_comment">#</a>
+			
+			
+				<div class="show_tree" data-id="3116614" data-parent_id="3116611" title="Показать ветку комментариев">↵</div>
+				
+				<a href="#comment_3116611" data-id="3116614" data-parent_id="3116611" class="to_parent">↑</a>
+			
+			<span class="to_chidren"></span>
+			<div class="clear"></div>
+		</div>
+		<div class="message html_format ">
+			кину в личку. не хочу уронить сайт хабраэффектом 
+		</div>
+		<div class="reply">
+			
+		</div>
+	
+	<div class="reply_comments" id="reply_comments_3116614">
+	
+	</div>
+</div>
+
+	 
+		
+<div class="comment_item" id="comment_3128034">
+	
+	<span class="parent_id" data-parent_id="3116611"></span>
+	
+	
+	
+		<div class="info  " rel="3128034">
+			<div class="folding-dot-holder"><div class="folding-dot"></div></div>
+			
+			<div id="voting_3128034" class="voting   ">
+										
+				
+					<span class="minus" title="Голосовать могут только зарегистрированные пользователи"></span>
+					<span class="plus" title="Голосовать могут только зарегистрированные пользователи"></span>
+				
+				<div class="mark  ">
+						<span class="score" title="Всего 0: ↑0 и ↓0">0</span> 
+				</div>	 
+			</div>
+			
+			<a href="http://habrahabr.ru/users/Sander80/" class="avatar"><img src="%D0%A1%D0%BE%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5%20%D1%84%D0%BE%D1%80%D1%83%D0%BC%D0%B0%20%D0%BD%D0%B0%20drupal%20_%20%D0%A5%D0%B0%D0%B1%D1%80%D0%B0%D1%85%D0%B0%D0%B1%D1%80_files/small_20512.jpg" alt=""></a>
+			<a href="http://habrahabr.ru/users/Sander80/" class="username">Sander80</a>
+			<time datetime="2010-08-05T10:24:04+04:00"> 5 августа 2010 в 10:24</time>
+			<a href="#comment_3128034" class="link_to_comment">#</a>
+			
+			
+				<div class="show_tree" data-id="3128034" data-parent_id="3116611" title="Показать ветку комментариев">↵</div>
+				
+				<a href="#comment_3116611" data-id="3128034" data-parent_id="3116611" class="to_parent">↑</a>
+			
+			<span class="to_chidren"></span>
+			<div class="clear"></div>
+		</div>
+		<div class="message html_format ">
+			Хабраэффект уже не грозит, а, поскольку, люди продолжают спрашивать 
+адрес в личке (и даже через ЖЖ(!), хотя он у меня в контактах не 
+обозначен), на будущее оставляю ссылку тут.<br>
+<a href="http://help.sander.su/">help.sander.su/</a><br>
+ 
+		</div>
+		<div class="reply">
+			
+		</div>
+	
+	<div class="reply_comments" id="reply_comments_3128034">
+	
+	</div>
+</div>
+
+	
+	</div>
+</div>
+
+   
+    
+<div class="comment_item" id="comment_3116616">
+	
+	<span class="parent_id" data-parent_id="0"></span>
+	
+	
+	
+		<div class="info  " rel="3116616">
+			<div class="folding-dot-holder"><div class="folding-dot"></div></div>
+			
+			<div id="voting_3116616" class="voting   ">
+										
+				
+					<span class="minus" title="Голосовать могут только зарегистрированные пользователи"></span>
+					<span class="plus" title="Голосовать могут только зарегистрированные пользователи"></span>
+				
+				<div class="mark  negative">
+						<span class="score" title="Всего 12: ↑3 и ↓9">–6</span> 
+				</div>	 
+			</div>
+			
+			<a href="http://habrahabr.ru/users/Anatole/" class="avatar"><img src="%D0%A1%D0%BE%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5%20%D1%84%D0%BE%D1%80%D1%83%D0%BC%D0%B0%20%D0%BD%D0%B0%20drupal%20_%20%D0%A5%D0%B0%D0%B1%D1%80%D0%B0%D1%85%D0%B0%D0%B1%D1%80_files/stub-user-small.gif" alt=""></a>
+			<a href="http://habrahabr.ru/users/Anatole/" class="username">Anatole</a>
+			<time datetime="2010-08-01T23:44:29+04:00"> 1 августа 2010 в 23:44</time>
+			<a href="#comment_3116616" class="link_to_comment">#</a>
+			
+			
+			<span class="to_chidren"></span>
+			<div class="clear"></div>
+		</div>
+		<div class="message html_format bad bad5">
+			 — настоящий форум должен быть на vbulletin или ipboard :) поэтому 
+лучше сделать связку между ними и drupalом (кстати, по-моему, уже есть) 
+		</div>
+		<div class="reply">
+			
+		</div>
+	
+	<div class="reply_comments" id="reply_comments_3116616">
+	 
+		
+<div class="comment_item" id="comment_3116651">
+	
+	<span class="parent_id" data-parent_id="3116616"></span>
+	
+	
+	
+		<div class="info  " rel="3116651">
+			<div class="folding-dot-holder"><div class="folding-dot"></div></div>
+			
+			<div id="voting_3116651" class="voting   ">
+										
+				
+					<span class="minus" title="Голосовать могут только зарегистрированные пользователи"></span>
+					<span class="plus" title="Голосовать могут только зарегистрированные пользователи"></span>
+				
+				<div class="mark positive ">
+						<span class="score" title="Всего 3: ↑3 и ↓0">+3</span> 
+				</div>	 
+			</div>
+			
+			<a href="http://habrahabr.ru/users/mmib/" class="avatar"><img src="%D0%A1%D0%BE%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5%20%D1%84%D0%BE%D1%80%D1%83%D0%BC%D0%B0%20%D0%BD%D0%B0%20drupal%20_%20%D0%A5%D0%B0%D0%B1%D1%80%D0%B0%D1%85%D0%B0%D0%B1%D1%80_files/small_20951.jpg" alt=""></a>
+			<a href="http://habrahabr.ru/users/mmib/" class="username">mmib</a>
+			<time datetime="2010-08-02T00:04:11+04:00"> 2 августа 2010 в 00:04</time>
+			<a href="#comment_3116651" class="link_to_comment">#</a>
+			
+			
+				<div class="show_tree" data-id="3116651" data-parent_id="3116616" title="Показать ветку комментариев">↵</div>
+				
+				<a href="#comment_3116616" data-id="3116651" data-parent_id="3116616" class="to_parent">↑</a>
+			
+			<span class="to_chidren"></span>
+			<div class="clear"></div>
+		</div>
+		<div class="message html_format ">
+			а чем phpbb для «настоящего форума» плох? 
+		</div>
+		<div class="reply">
+			
+		</div>
+	
+	<div class="reply_comments" id="reply_comments_3116651">
+	
+	</div>
+</div>
+
+	 
+		
+<div class="comment_item" id="comment_3116673">
+	
+	<span class="parent_id" data-parent_id="3116616"></span>
+	
+	
+	
+		<div class="info  " rel="3116673">
+			<div class="folding-dot-holder"><div class="folding-dot"></div></div>
+			
+			<div id="voting_3116673" class="voting   ">
+										
+				
+					<span class="minus" title="Голосовать могут только зарегистрированные пользователи"></span>
+					<span class="plus" title="Голосовать могут только зарегистрированные пользователи"></span>
+				
+				<div class="mark  negative">
+						<span class="score" title="Всего 1: ↑0 и ↓1">–1</span> 
+				</div>	 
+			</div>
+			
+			<a href="http://habrahabr.ru/users/Sander80/" class="avatar"><img src="%D0%A1%D0%BE%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5%20%D1%84%D0%BE%D1%80%D1%83%D0%BC%D0%B0%20%D0%BD%D0%B0%20drupal%20_%20%D0%A5%D0%B0%D0%B1%D1%80%D0%B0%D1%85%D0%B0%D0%B1%D1%80_files/small_20512.jpg" alt=""></a>
+			<a href="http://habrahabr.ru/users/Sander80/" class="username">Sander80</a>
+			<time datetime="2010-08-02T00:15:51+04:00"> 2 августа 2010 в 00:15</time>
+			<a href="#comment_3116673" class="link_to_comment">#</a>
+			
+			
+				<div class="show_tree" data-id="3116673" data-parent_id="3116616" title="Показать ветку комментариев">↵</div>
+				
+				<a href="#comment_3116616" data-id="3116673" data-parent_id="3116616" class="to_parent">↑</a>
+			
+			<span class="to_chidren"></span>
+			<div class="clear"></div>
+		</div>
+		<div class="message html_format bad bad1">
+			да drupal — это такой конструктор, который со всем можно соединить. 
+правда, иногда приходится не только кликать мышкой, но и «напильником 
+поработать» 
+		</div>
+		<div class="reply">
+			
+		</div>
+	
+	<div class="reply_comments" id="reply_comments_3116673">
+	
+	</div>
+</div>
+
+	 
+		
+<div class="comment_item" id="comment_3707494">
+	
+	<span class="parent_id" data-parent_id="3116616"></span>
+	
+	
+	
+		<div class="info  " rel="3707494">
+			<div class="folding-dot-holder"><div class="folding-dot"></div></div>
+			
+			<div id="voting_3707494" class="voting   ">
+										
+				
+					<span class="minus" title="Голосовать могут только зарегистрированные пользователи"></span>
+					<span class="plus" title="Голосовать могут только зарегистрированные пользователи"></span>
+				
+				<div class="mark  ">
+						<span class="score" title="Всего 0: ↑0 и ↓0">0</span> 
+				</div>	 
+			</div>
+			
+			<a href="http://habrahabr.ru/users/KAFLAN/" class="avatar"><img src="%D0%A1%D0%BE%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5%20%D1%84%D0%BE%D1%80%D1%83%D0%BC%D0%B0%20%D0%BD%D0%B0%20drupal%20_%20%D0%A5%D0%B0%D0%B1%D1%80%D0%B0%D1%85%D0%B0%D0%B1%D1%80_files/small_4747.jpg" alt=""></a>
+			<a href="http://habrahabr.ru/users/KAFLAN/" class="username">KAFLAN</a>
+			<time datetime="2011-03-02T21:13:05+03:00"> 2 марта 2011 в 21:13</time>
+			<a href="#comment_3707494" class="link_to_comment">#</a>
+			
+			
+				<div class="show_tree" data-id="3707494" data-parent_id="3116616" title="Показать ветку комментариев">↵</div>
+				
+				<a href="#comment_3116616" data-id="3707494" data-parent_id="3116616" class="to_parent">↑</a>
+			
+			<span class="to_chidren"></span>
+			<div class="clear"></div>
+		</div>
+		<div class="message html_format ">
+			по моему там и простейшего punbb (или его различных веток, позволяющих <a href="http://0pk.ru/">создать форум</a> налету) будет вполне достаточно. 
+		</div>
+		<div class="reply">
+			
+		</div>
+	
+	<div class="reply_comments" id="reply_comments_3707494">
+	
+	</div>
+</div>
+
+	
+	</div>
+</div>
+
+   
+    
+<div class="comment_item" id="comment_3116935">
+	
+	<span class="parent_id" data-parent_id="0"></span>
+	
+	
+	
+		<div class="info  " rel="3116935">
+			<div class="folding-dot-holder"><div class="folding-dot"></div></div>
+			
+			<div id="voting_3116935" class="voting   ">
+										
+				
+					<span class="minus" title="Голосовать могут только зарегистрированные пользователи"></span>
+					<span class="plus" title="Голосовать могут только зарегистрированные пользователи"></span>
+				
+				<div class="mark  ">
+						<span class="score" title="Всего 0: ↑0 и ↓0">0</span> 
+				</div>	 
+			</div>
+			
+			<a href="http://habrahabr.ru/users/Habrachelovek/" class="avatar"><img src="%D0%A1%D0%BE%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5%20%D1%84%D0%BE%D1%80%D1%83%D0%BC%D0%B0%20%D0%BD%D0%B0%20drupal%20_%20%D0%A5%D0%B0%D0%B1%D1%80%D0%B0%D1%85%D0%B0%D0%B1%D1%80_files/stub-user-small.gif" alt=""></a>
+			<a href="http://habrahabr.ru/users/Habrachelovek/" class="username">Habrachelovek</a>
+			<time datetime="2010-08-02T02:46:19+04:00"> 2 августа 2010 в 02:46</time>
+			<a href="#comment_3116935" class="link_to_comment">#</a>
+			
+			
+			<span class="to_chidren"></span>
+			<div class="clear"></div>
+		</div>
+		<div class="message html_format ">
+			Где готовый результат посмотреть? 
+		</div>
+		<div class="reply">
+			
+		</div>
+	
+	<div class="reply_comments" id="reply_comments_3116935">
+	 
+		
+<div class="comment_item" id="comment_3117156">
+	
+	<span class="parent_id" data-parent_id="3116935"></span>
+	
+	
+	
+		<div class="info  " rel="3117156">
+			<div class="folding-dot-holder"><div class="folding-dot"></div></div>
+			
+			<div id="voting_3117156" class="voting   ">
+										
+				
+					<span class="minus" title="Голосовать могут только зарегистрированные пользователи"></span>
+					<span class="plus" title="Голосовать могут только зарегистрированные пользователи"></span>
+				
+				<div class="mark  ">
+						<span class="score" title="Всего 0: ↑0 и ↓0">0</span> 
+				</div>	 
+			</div>
+			
+			<a href="http://habrahabr.ru/users/Sander80/" class="avatar"><img src="%D0%A1%D0%BE%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5%20%D1%84%D0%BE%D1%80%D1%83%D0%BC%D0%B0%20%D0%BD%D0%B0%20drupal%20_%20%D0%A5%D0%B0%D0%B1%D1%80%D0%B0%D1%85%D0%B0%D0%B1%D1%80_files/small_20512.jpg" alt=""></a>
+			<a href="http://habrahabr.ru/users/Sander80/" class="username">Sander80</a>
+			<time datetime="2010-08-02T08:04:08+04:00"> 2 августа 2010 в 08:04</time>
+			<a href="#comment_3117156" class="link_to_comment">#</a>
+			
+			
+				<div class="show_tree" data-id="3117156" data-parent_id="3116935" title="Показать ветку комментариев">↵</div>
+				
+				<a href="#comment_3116935" data-id="3117156" data-parent_id="3116935" class="to_parent">↑</a>
+			
+			<span class="to_chidren"></span>
+			<div class="clear"></div>
+		</div>
+		<div class="message html_format ">
+			отправил в личку 
+		</div>
+		<div class="reply">
+			
+		</div>
+	
+	<div class="reply_comments" id="reply_comments_3117156">
+	
+	</div>
+</div>
+
+	
+	</div>
+</div>
+
+   
+    
+<div class="comment_item" id="comment_3117031">
+	
+	<span class="parent_id" data-parent_id="0"></span>
+	
+	
+	
+		<div class="info  " rel="3117031">
+			<div class="folding-dot-holder"><div class="folding-dot"></div></div>
+			
+			<div id="voting_3117031" class="voting   ">
+										
+				
+					<span class="minus" title="Голосовать могут только зарегистрированные пользователи"></span>
+					<span class="plus" title="Голосовать могут только зарегистрированные пользователи"></span>
+				
+				<div class="mark positive ">
+						<span class="score" title="Всего 4: ↑3 и ↓1">+2</span> 
+				</div>	 
+			</div>
+			
+			<a href="http://habrahabr.ru/users/brmn/" class="avatar"><img src="%D0%A1%D0%BE%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5%20%D1%84%D0%BE%D1%80%D1%83%D0%BC%D0%B0%20%D0%BD%D0%B0%20drupal%20_%20%D0%A5%D0%B0%D0%B1%D1%80%D0%B0%D1%85%D0%B0%D0%B1%D1%80_files/small_10867.jpg" alt=""></a>
+			<a href="http://habrahabr.ru/users/brmn/" class="username">brmn</a>
+			<time datetime="2010-08-02T04:42:22+04:00"> 2 августа 2010 в 04:42</time>
+			<a href="#comment_3117031" class="link_to_comment">#</a>
+			
+			
+			<span class="to_chidren"></span>
+			<div class="clear"></div>
+		</div>
+		<div class="message html_format ">
+			И кто же Вас научил в модулях ковыряться, а?<br>
+В частности в tpl файле.<br>
+Его с легкостью можно вынести в папку темы (sites/all/themes/[my_theme]/forums/...tpl.php) и спокойно там править.<br>
+Этим вы обезопасите себя и свой код при апгрейде модуля до очередной версии. 
+		</div>
+		<div class="reply">
+			
+		</div>
+	
+	<div class="reply_comments" id="reply_comments_3117031">
+	 
+		
+<div class="comment_item" id="comment_3117178">
+	
+	<span class="parent_id" data-parent_id="3117031"></span>
+	
+	
+	
+		<div class="info  " rel="3117178">
+			<div class="folding-dot-holder"><div class="folding-dot"></div></div>
+			
+			<div id="voting_3117178" class="voting   ">
+										
+				
+					<span class="minus" title="Голосовать могут только зарегистрированные пользователи"></span>
+					<span class="plus" title="Голосовать могут только зарегистрированные пользователи"></span>
+				
+				<div class="mark  negative">
+						<span class="score" title="Всего 2: ↑0 и ↓2">–2</span> 
+				</div>	 
+			</div>
+			
+			<a href="http://habrahabr.ru/users/Sander80/" class="avatar"><img src="%D0%A1%D0%BE%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5%20%D1%84%D0%BE%D1%80%D1%83%D0%BC%D0%B0%20%D0%BD%D0%B0%20drupal%20_%20%D0%A5%D0%B0%D0%B1%D1%80%D0%B0%D1%85%D0%B0%D0%B1%D1%80_files/small_20512.jpg" alt=""></a>
+			<a href="http://habrahabr.ru/users/Sander80/" class="username">Sander80</a>
+			<time datetime="2010-08-02T08:23:17+04:00"> 2 августа 2010 в 08:23</time>
+			<a href="#comment_3117178" class="link_to_comment">#</a>
+			
+			
+				<div class="show_tree" data-id="3117178" data-parent_id="3117031" title="Показать ветку комментариев">↵</div>
+				
+				<a href="#comment_3117031" data-id="3117178" data-parent_id="3117031" class="to_parent">↑</a>
+			
+			<span class="to_chidren"></span>
+			<div class="clear"></div>
+		</div>
+		<div class="message html_format bad bad2">
+			а что делать-то, если в модуле бага.<br>
+а, кстати, информацию о том, что появилась тема [my_theme] тоже придется куда-то в код модуля вносить. 
+		</div>
+		<div class="reply">
+			
+		</div>
+	
+	<div class="reply_comments" id="reply_comments_3117178">
+	
+	</div>
+</div>
+
+	
+	</div>
+</div>
+
+   
+    
+<div class="comment_item" id="comment_3117182">
+	
+	<span class="parent_id" data-parent_id="0"></span>
+	
+	
+	
+		<div class="info  " rel="3117182">
+			<div class="folding-dot-holder"><div class="folding-dot"></div></div>
+			
+			<div id="voting_3117182" class="voting   ">
+										
+				
+					<span class="minus" title="Голосовать могут только зарегистрированные пользователи"></span>
+					<span class="plus" title="Голосовать могут только зарегистрированные пользователи"></span>
+				
+				<div class="mark  negative">
+						<span class="score" title="Всего 1: ↑0 и ↓1">–1</span> 
+				</div>	 
+			</div>
+			
+			<a href="http://habrahabr.ru/users/brmn/" class="avatar"><img src="%D0%A1%D0%BE%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5%20%D1%84%D0%BE%D1%80%D1%83%D0%BC%D0%B0%20%D0%BD%D0%B0%20drupal%20_%20%D0%A5%D0%B0%D0%B1%D1%80%D0%B0%D1%85%D0%B0%D0%B1%D1%80_files/small_10867.jpg" alt=""></a>
+			<a href="http://habrahabr.ru/users/brmn/" class="username">brmn</a>
+			<time datetime="2010-08-02T08:25:26+04:00"> 2 августа 2010 в 08:25</time>
+			<a href="#comment_3117182" class="link_to_comment">#</a>
+			
+			
+			<span class="to_chidren"></span>
+			<div class="clear"></div>
+		</div>
+		<div class="message html_format bad bad1">
+			«а, кстати, информацию о том, что появилась тема [my_theme] тоже придется куда-то в код модуля вносить.»<br>
+это еще зачем? 
+		</div>
+		<div class="reply">
+			
+		</div>
+	
+	<div class="reply_comments" id="reply_comments_3117182">
+	 
+		
+<div class="comment_item" id="comment_3117212">
+	
+	<span class="parent_id" data-parent_id="3117182"></span>
+	
+	
+	
+		<div class="info  " rel="3117212">
+			<div class="folding-dot-holder"><div class="folding-dot"></div></div>
+			
+			<div id="voting_3117212" class="voting   ">
+										
+				
+					<span class="minus" title="Голосовать могут только зарегистрированные пользователи"></span>
+					<span class="plus" title="Голосовать могут только зарегистрированные пользователи"></span>
+				
+				<div class="mark  ">
+						<span class="score" title="Всего 0: ↑0 и ↓0">0</span> 
+				</div>	 
+			</div>
+			
+			<a href="http://habrahabr.ru/users/Sander80/" class="avatar"><img src="%D0%A1%D0%BE%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5%20%D1%84%D0%BE%D1%80%D1%83%D0%BC%D0%B0%20%D0%BD%D0%B0%20drupal%20_%20%D0%A5%D0%B0%D0%B1%D1%80%D0%B0%D1%85%D0%B0%D0%B1%D1%80_files/small_20512.jpg" alt=""></a>
+			<a href="http://habrahabr.ru/users/Sander80/" class="username">Sander80</a>
+			<time datetime="2010-08-02T09:04:18+04:00"> 2 августа 2010 в 09:04</time>
+			<a href="#comment_3117212" class="link_to_comment">#</a>
+			
+			
+				<div class="show_tree" data-id="3117212" data-parent_id="3117182" title="Показать ветку комментариев">↵</div>
+				
+				<a href="#comment_3117182" data-id="3117212" data-parent_id="3117182" class="to_parent">↑</a>
+			
+			<span class="to_chidren"></span>
+			<div class="clear"></div>
+		</div>
+		<div class="message html_format ">
+			function advanced_forum_advforum_styles() {<br>
+ $items = array();<br>
+ $items['naked'] = array(<br>
+ 'directory' =&gt; 'styles/naked',<br>
+ );<br>
+<br>
+$items['naked_stacked'] = array(<br>
+ 'directory' =&gt; 'styles/naked_stacked',<br>
+ );<br>
+<br>
+$items['blue_lagoon'] = array(<br>
+ 'directory' =&gt; 'styles/blue_lagoon',<br>
+ );<br>
+<br>
+$items['blue_lagoon_stacked'] = array(<br>
+ 'directory' =&gt; 'styles/blue_lagoon_stacked',<br>
+ );<br>
+<br>
+$items['boxy'] = array(<br>
+ 'directory' =&gt; 'styles/boxy',<br>
+ );<br>
+<br>
+$items['boxy_stacked'] = array(<br>
+ 'directory' =&gt; 'styles/boxy_stacked',<br>
+ );<br>
+<br>
+$items['flatgrey'] = array(<br>
+ 'directory' =&gt; 'styles/flatgrey',<br>
+ );<br>
+<br>
+return $items;<br>
+}<br>
+<br>
+просто так добавить тему без правки нельзя 
+		</div>
+		<div class="reply">
+			
+		</div>
+	
+	<div class="reply_comments" id="reply_comments_3117212">
+	 
+		
+<div class="comment_item" id="comment_3117291">
+	
+	<span class="parent_id" data-parent_id="3117212"></span>
+	
+	
+	
+		<div class="info  " rel="3117291">
+			<div class="folding-dot-holder"><div class="folding-dot"></div></div>
+			
+			<div id="voting_3117291" class="voting   ">
+										
+				
+					<span class="minus" title="Голосовать могут только зарегистрированные пользователи"></span>
+					<span class="plus" title="Голосовать могут только зарегистрированные пользователи"></span>
+				
+				<div class="mark positive ">
+						<span class="score" title="Всего 1: ↑1 и ↓0">+1</span> 
+				</div>	 
+			</div>
+			
+			<a href="http://habrahabr.ru/users/brmn/" class="avatar"><img src="%D0%A1%D0%BE%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5%20%D1%84%D0%BE%D1%80%D1%83%D0%BC%D0%B0%20%D0%BD%D0%B0%20drupal%20_%20%D0%A5%D0%B0%D0%B1%D1%80%D0%B0%D1%85%D0%B0%D0%B1%D1%80_files/small_10867.jpg" alt=""></a>
+			<a href="http://habrahabr.ru/users/brmn/" class="username">brmn</a>
+			<time datetime="2010-08-02T09:51:26+04:00"> 2 августа 2010 в 09:51</time>
+			<a href="#comment_3117291" class="link_to_comment">#</a>
+			
+			
+				<div class="show_tree" data-id="3117291" data-parent_id="3117212" title="Показать ветку комментариев">↵</div>
+				
+				<a href="#comment_3117212" data-id="3117291" data-parent_id="3117212" class="to_parent">↑</a>
+			
+			<span class="to_chidren"></span>
+			<div class="clear"></div>
+		</div>
+		<div class="message html_format ">
+			1. Вы немного путаете понятие темы друпала и стиля форума.<br>
+2. Для того, чтобы добавить свой стиль к форуму, можно просто 
+скопировать существующий в свою папку, а в hook_form_alter к параметру 
+$form['advanced_forum_general']['advanced_forum_style'] добавить 
+кастомные данные нашего стиля.<br>
+Возможно есть и другой способ добавить свой стиль, но я с этим форумом не работал и всего пять минут код смотрел. 
+		</div>
+		<div class="reply">
+			
+		</div>
+	
+	<div class="reply_comments" id="reply_comments_3117291">
+	 
+		
+<div class="comment_item" id="comment_3117341">
+	
+	<span class="parent_id" data-parent_id="3117291"></span>
+	
+	
+	
+		<div class="info  " rel="3117341">
+			<div class="folding-dot-holder"><div class="folding-dot"></div></div>
+			
+			<div id="voting_3117341" class="voting   ">
+										
+				
+					<span class="minus" title="Голосовать могут только зарегистрированные пользователи"></span>
+					<span class="plus" title="Голосовать могут только зарегистрированные пользователи"></span>
+				
+				<div class="mark  negative">
+						<span class="score" title="Всего 1: ↑0 и ↓1">–1</span> 
+				</div>	 
+			</div>
+			
+			<a href="http://habrahabr.ru/users/Sander80/" class="avatar"><img src="%D0%A1%D0%BE%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5%20%D1%84%D0%BE%D1%80%D1%83%D0%BC%D0%B0%20%D0%BD%D0%B0%20drupal%20_%20%D0%A5%D0%B0%D0%B1%D1%80%D0%B0%D1%85%D0%B0%D0%B1%D1%80_files/small_20512.jpg" alt=""></a>
+			<a href="http://habrahabr.ru/users/Sander80/" class="username">Sander80</a>
+			<time datetime="2010-08-02T10:08:42+04:00"> 2 августа 2010 в 10:08</time>
+			<a href="#comment_3117341" class="link_to_comment">#</a>
+			
+			
+				<div class="show_tree" data-id="3117341" data-parent_id="3117291" title="Показать ветку комментариев">↵</div>
+				
+				<a href="#comment_3117291" data-id="3117341" data-parent_id="3117291" class="to_parent">↑</a>
+			
+			<span class="to_chidren"></span>
+			<div class="clear"></div>
+		</div>
+		<div class="message html_format bad bad1">
+			1. Наверное, просто нечетко выразился. Разумеется, это разные вещи. 
+Кстати, стиль форума пришлось специально подгонять по цветовой гамме к 
+основной теме<br>
+2. Но разве это не правка кода? Тогда я правда не понимаю, чем одна правка лучше другой. 
+		</div>
+		<div class="reply">
+			
+		</div>
+	
+	<div class="reply_comments" id="reply_comments_3117341">
+	 
+		
+<div class="comment_item" id="comment_3117349">
+	
+	<span class="parent_id" data-parent_id="3117341"></span>
+	
+	
+	
+		<div class="info  " rel="3117349">
+			<div class="folding-dot-holder"><div class="folding-dot"></div></div>
+			
+			<div id="voting_3117349" class="voting   ">
+										
+				
+					<span class="minus" title="Голосовать могут только зарегистрированные пользователи"></span>
+					<span class="plus" title="Голосовать могут только зарегистрированные пользователи"></span>
+				
+				<div class="mark positive ">
+						<span class="score" title="Всего 2: ↑2 и ↓0">+2</span> 
+				</div>	 
+			</div>
+			
+			<a href="http://habrahabr.ru/users/brmn/" class="avatar"><img src="%D0%A1%D0%BE%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5%20%D1%84%D0%BE%D1%80%D1%83%D0%BC%D0%B0%20%D0%BD%D0%B0%20drupal%20_%20%D0%A5%D0%B0%D0%B1%D1%80%D0%B0%D1%85%D0%B0%D0%B1%D1%80_files/small_10867.jpg" alt=""></a>
+			<a href="http://habrahabr.ru/users/brmn/" class="username">brmn</a>
+			<time datetime="2010-08-02T10:10:41+04:00"> 2 августа 2010 в 10:10</time>
+			<a href="#comment_3117349" class="link_to_comment">#</a>
+			
+			
+				<div class="show_tree" data-id="3117349" data-parent_id="3117341" title="Показать ветку комментариев">↵</div>
+				
+				<a href="#comment_3117341" data-id="3117349" data-parent_id="3117341" class="to_parent">↑</a>
+			
+			<span class="to_chidren"></span>
+			<div class="clear"></div>
+		</div>
+		<div class="message html_format ">
+			отличается тем, что вы не трогаете чужой код, а делаете все в своем модуле. 
+		</div>
+		<div class="reply">
+			
+		</div>
+	
+	<div class="reply_comments" id="reply_comments_3117349">
+	 
+		
+<div class="comment_item" id="comment_3117357">
+	
+	<span class="parent_id" data-parent_id="3117349"></span>
+	
+	
+	
+		<div class="info  " rel="3117357">
+			<div class="folding-dot-holder"><div class="folding-dot"></div></div>
+			
+			<div id="voting_3117357" class="voting   ">
+										
+				
+					<span class="minus" title="Голосовать могут только зарегистрированные пользователи"></span>
+					<span class="plus" title="Голосовать могут только зарегистрированные пользователи"></span>
+				
+				<div class="mark  negative">
+						<span class="score" title="Всего 1: ↑0 и ↓1">–1</span> 
+				</div>	 
+			</div>
+			
+			<a href="http://habrahabr.ru/users/Sander80/" class="avatar"><img src="%D0%A1%D0%BE%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5%20%D1%84%D0%BE%D1%80%D1%83%D0%BC%D0%B0%20%D0%BD%D0%B0%20drupal%20_%20%D0%A5%D0%B0%D0%B1%D1%80%D0%B0%D1%85%D0%B0%D0%B1%D1%80_files/small_20512.jpg" alt=""></a>
+			<a href="http://habrahabr.ru/users/Sander80/" class="username">Sander80</a>
+			<time datetime="2010-08-02T10:13:51+04:00"> 2 августа 2010 в 10:13</time>
+			<a href="#comment_3117357" class="link_to_comment">#</a>
+			
+			
+				<div class="show_tree" data-id="3117357" data-parent_id="3117349" title="Показать ветку комментариев">↵</div>
+				
+				<a href="#comment_3117349" data-id="3117357" data-parent_id="3117349" class="to_parent">↑</a>
+			
+			<span class="to_chidren"></span>
+			<div class="clear"></div>
+		</div>
+		<div class="message html_format bad bad1">
+			ок, сдаюсь.<br>
+просто не дорос еще до написания своих модулей.<br>
+а раз уж залез в advanced_forum багу править, так уж и доделал прямо там 
+		</div>
+		<div class="reply">
+			
+		</div>
+	
+	<div class="reply_comments" id="reply_comments_3117357">
+	 
+		
+<div class="comment_item" id="comment_3119796">
+	
+	<span class="parent_id" data-parent_id="3117357"></span>
+	
+	
+	
+		<div class="info  " rel="3119796">
+			<div class="folding-dot-holder"><div class="folding-dot"></div></div>
+			
+			<div id="voting_3119796" class="voting   ">
+										
+				
+					<span class="minus" title="Голосовать могут только зарегистрированные пользователи"></span>
+					<span class="plus" title="Голосовать могут только зарегистрированные пользователи"></span>
+				
+				<div class="mark  ">
+						<span class="score" title="Всего 0: ↑0 и ↓0">0</span> 
+				</div>	 
+			</div>
+			
+			<a href="http://habrahabr.ru/users/pvasili/" class="avatar"><img src="%D0%A1%D0%BE%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5%20%D1%84%D0%BE%D1%80%D1%83%D0%BC%D0%B0%20%D0%BD%D0%B0%20drupal%20_%20%D0%A5%D0%B0%D0%B1%D1%80%D0%B0%D1%85%D0%B0%D0%B1%D1%80_files/small_6846.jpg" alt=""></a>
+			<a href="http://habrahabr.ru/users/pvasili/" class="username">pvasili</a>
+			<time datetime="2010-08-02T21:57:35+04:00"> 2 августа 2010 в 21:57</time>
+			<a href="#comment_3119796" class="link_to_comment">#</a>
+			
+			
+				<div class="show_tree" data-id="3119796" data-parent_id="3117357" title="Показать ветку комментариев">↵</div>
+				
+				<a href="#comment_3117357" data-id="3119796" data-parent_id="3117357" class="to_parent">↑</a>
+			
+			<span class="to_chidren"></span>
+			<div class="clear"></div>
+		</div>
+		<div class="message html_format ">
+			Во первых:<br>
+Нашли ошибку — сообщите на d.org оба разработчика её исправят (если ошибка действительно присутствует и важная).<br>
+<br>
+Во вторых:<br>
+Вы наверное недавно с Drupal, отсюда и незнание некоторых «тонкостей»…<br>
+ Тему для форума (как и почти все и везде) можно элементарно сделать свою, за основу взять любую из существующих. <br>
+ Скопируйте в /sites/all/modules/advanced_forum/styles/моя_тема 
+существующую и поправьте моя_тема.info файл. Дальше делатйте со своим 
+шаблоном что хотите.<br>
+<br>
+И в третьих: не пачьте модули и ядро (пожалейте котят). В Drupal очень и
+ очень редко это нужно делать, все можно переопределить и без этого. 
+		</div>
+		<div class="reply">
+			
+		</div>
+	
+	<div class="reply_comments" id="reply_comments_3119796">
+	 
+		
+<div class="comment_item" id="comment_3121012">
+	
+	<span class="parent_id" data-parent_id="3119796"></span>
+	
+	
+	
+		<div class="info  " rel="3121012">
+			<div class="folding-dot-holder"><div class="folding-dot"></div></div>
+			
+			<div id="voting_3121012" class="voting   ">
+										
+				
+					<span class="minus" title="Голосовать могут только зарегистрированные пользователи"></span>
+					<span class="plus" title="Голосовать могут только зарегистрированные пользователи"></span>
+				
+				<div class="mark  ">
+						<span class="score" title="Всего 0: ↑0 и ↓0">0</span> 
+				</div>	 
+			</div>
+			
+			<a href="http://habrahabr.ru/users/Sander80/" class="avatar"><img src="%D0%A1%D0%BE%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5%20%D1%84%D0%BE%D1%80%D1%83%D0%BC%D0%B0%20%D0%BD%D0%B0%20drupal%20_%20%D0%A5%D0%B0%D0%B1%D1%80%D0%B0%D1%85%D0%B0%D0%B1%D1%80_files/small_20512.jpg" alt=""></a>
+			<a href="http://habrahabr.ru/users/Sander80/" class="username">Sander80</a>
+			<time datetime="2010-08-03T12:12:23+04:00"> 3 августа 2010 в 12:12</time>
+			<a href="#comment_3121012" class="link_to_comment">#</a>
+			
+			
+				<div class="show_tree" data-id="3121012" data-parent_id="3119796" title="Показать ветку комментариев">↵</div>
+				
+				<a href="#comment_3119796" data-id="3121012" data-parent_id="3119796" class="to_parent">↑</a>
+			
+			<span class="to_chidren"></span>
+			<div class="clear"></div>
+		</div>
+		<div class="message html_format ">
+			я же говорю, ошибка исправлена в alpha-релизе <br>
+так что сообщать смысла нет.<br>
+но.<br>
+я хочу резальтат сейчас.<br>
+а alpha-релиз с чем-то конфликтует 
+		</div>
+		<div class="reply">
+			
+		</div>
+	
+	<div class="reply_comments" id="reply_comments_3121012">
+	
+	</div>
+</div>
+
+	
+	</div>
+</div>
+
+	
+	</div>
+</div>
+
+	
+	</div>
+</div>
+
+	
+	</div>
+</div>
+
+	
+	</div>
+</div>
+
+	
+	</div>
+</div>
+
+	
+	</div>
+</div>
+
+   
+    
+<div class="comment_item" id="comment_3121194">
+	
+	<span class="parent_id" data-parent_id="0"></span>
+	
+	
+	
+		<div class="info  " rel="3121194">
+			<div class="folding-dot-holder"><div class="folding-dot"></div></div>
+			
+			<div id="voting_3121194" class="voting   ">
+										
+				
+					<span class="minus" title="Голосовать могут только зарегистрированные пользователи"></span>
+					<span class="plus" title="Голосовать могут только зарегистрированные пользователи"></span>
+				
+				<div class="mark  ">
+						<span class="score" title="Всего 0: ↑0 и ↓0">0</span> 
+				</div>	 
+			</div>
+			
+			<a href="http://habrahabr.ru/users/mikhailian/" class="avatar"><img src="%D0%A1%D0%BE%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5%20%D1%84%D0%BE%D1%80%D1%83%D0%BC%D0%B0%20%D0%BD%D0%B0%20drupal%20_%20%D0%A5%D0%B0%D0%B1%D1%80%D0%B0%D1%85%D0%B0%D0%B1%D1%80_files/small_16141.jpg" alt=""></a>
+			<a href="http://habrahabr.ru/users/mikhailian/" class="username">mikhailian</a>
+			<time datetime="2010-08-03T12:49:09+04:00"> 3 августа 2010 в 12:49</time>
+			<a href="#comment_3121194" class="link_to_comment">#</a>
+			
+			
+			<span class="to_chidren"></span>
+			<div class="clear"></div>
+		</div>
+		<div class="message html_format ">
+			Кнопка «новые сообщения» в Друпале будет выглядеть ссылкой в 
+пользовательском меню, находится по адресу /tracker и появляется при 
+включении стандартного модуля tracker.<br>
+<br>
+Допилить «новые сообщения» до необходимой функциональности можно, 
+используя модуль Views. В нём есть пример реализации модуля tracker на 
+Views, достаточно лишь этот пример скопировать и изменить. 
+		</div>
+		<div class="reply">
+			
+		</div>
+	
+	<div class="reply_comments" id="reply_comments_3121194">
+	 
+		
+<div class="comment_item" id="comment_3121234">
+	
+	<span class="parent_id" data-parent_id="3121194"></span>
+	
+	
+	
+		<div class="info  " rel="3121234">
+			<div class="folding-dot-holder"><div class="folding-dot"></div></div>
+			
+			<div id="voting_3121234" class="voting   ">
+										
+				
+					<span class="minus" title="Голосовать могут только зарегистрированные пользователи"></span>
+					<span class="plus" title="Голосовать могут только зарегистрированные пользователи"></span>
+				
+				<div class="mark  ">
+						<span class="score" title="Всего 0: ↑0 и ↓0">0</span> 
+				</div>	 
+			</div>
+			
+			<a href="http://habrahabr.ru/users/Sander80/" class="avatar"><img src="%D0%A1%D0%BE%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5%20%D1%84%D0%BE%D1%80%D1%83%D0%BC%D0%B0%20%D0%BD%D0%B0%20drupal%20_%20%D0%A5%D0%B0%D0%B1%D1%80%D0%B0%D1%85%D0%B0%D0%B1%D1%80_files/small_20512.jpg" alt=""></a>
+			<a href="http://habrahabr.ru/users/Sander80/" class="username">Sander80</a>
+			<time datetime="2010-08-03T12:57:58+04:00"> 3 августа 2010 в 12:57</time>
+			<a href="#comment_3121234" class="link_to_comment">#</a>
+			
+			
+				<div class="show_tree" data-id="3121234" data-parent_id="3121194" title="Показать ветку комментариев">↵</div>
+				
+				<a href="#comment_3121194" data-id="3121234" data-parent_id="3121194" class="to_parent">↑</a>
+			
+			<span class="to_chidren"></span>
+			<div class="clear"></div>
+		</div>
+		<div class="message html_format ">
+			/tracker действительно выдает последние темы.<br>
+Но для приближения к классическим форумам нужны не «последние темы», а «непрочитанные сообщения».<br>
+Стандартный модуль такой функциональности не предоставляет.<br>
+Что касается views, то, как я и сказал в теме, без исправления бага в 
+advanced_forum нажатие «отметить все прочитанными» не будет приводить к 
+очистке этого списка. 
+		</div>
+		<div class="reply">
+			
+		</div>
+	
+	<div class="reply_comments" id="reply_comments_3121234">
+	
+	</div>
+</div>
+
+	
+	</div>
+</div>
+
+   
+    
+<div class="comment_item" id="comment_3121520">
+	
+	<span class="parent_id" data-parent_id="0"></span>
+	
+	
+	
+		<div class="info  " rel="3121520">
+			<div class="folding-dot-holder"><div class="folding-dot"></div></div>
+			
+			<div id="voting_3121520" class="voting   ">
+										
+				
+					<span class="minus" title="Голосовать могут только зарегистрированные пользователи"></span>
+					<span class="plus" title="Голосовать могут только зарегистрированные пользователи"></span>
+				
+				<div class="mark  ">
+						<span class="score" title="Всего 0: ↑0 и ↓0">0</span> 
+				</div>	 
+			</div>
+			
+			<a href="http://habrahabr.ru/users/negodnik/" class="avatar"><img src="%D0%A1%D0%BE%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5%20%D1%84%D0%BE%D1%80%D1%83%D0%BC%D0%B0%20%D0%BD%D0%B0%20drupal%20_%20%D0%A5%D0%B0%D0%B1%D1%80%D0%B0%D1%85%D0%B0%D0%B1%D1%80_files/small_21317.jpg" alt=""></a>
+			<a href="http://habrahabr.ru/users/negodnik/" class="username">negodnik</a>
+			<time datetime="2010-08-03T13:50:42+04:00"> 3 августа 2010 в 13:50</time>
+			<a href="#comment_3121520" class="link_to_comment">#</a>
+			
+			
+			<span class="to_chidren"></span>
+			<div class="clear"></div>
+		</div>
+		<div class="message html_format ">
+			Здесь всё расписано побольше <a href="http://drupal.org/node/227121">drupal.org/node/227121</a> 
+		</div>
+		<div class="reply">
+			
+		</div>
+	
+	<div class="reply_comments" id="reply_comments_3121520">
+	 
+		
+<div class="comment_item" id="comment_3121535">
+	
+	<span class="parent_id" data-parent_id="3121520"></span>
+	
+	
+	
+		<div class="info  " rel="3121535">
+			<div class="folding-dot-holder"><div class="folding-dot"></div></div>
+			
+			<div id="voting_3121535" class="voting   ">
+										
+				
+					<span class="minus" title="Голосовать могут только зарегистрированные пользователи"></span>
+					<span class="plus" title="Голосовать могут только зарегистрированные пользователи"></span>
+				
+				<div class="mark  ">
+						<span class="score" title="Всего 0: ↑0 и ↓0">0</span> 
+				</div>	 
+			</div>
+			
+			<a href="http://habrahabr.ru/users/Sander80/" class="avatar"><img src="%D0%A1%D0%BE%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5%20%D1%84%D0%BE%D1%80%D1%83%D0%BC%D0%B0%20%D0%BD%D0%B0%20drupal%20_%20%D0%A5%D0%B0%D0%B1%D1%80%D0%B0%D1%85%D0%B0%D0%B1%D1%80_files/small_20512.jpg" alt=""></a>
+			<a href="http://habrahabr.ru/users/Sander80/" class="username">Sander80</a>
+			<time datetime="2010-08-03T13:53:54+04:00"> 3 августа 2010 в 13:53</time>
+			<a href="#comment_3121535" class="link_to_comment">#</a>
+			
+			
+				<div class="show_tree" data-id="3121535" data-parent_id="3121520" title="Показать ветку комментариев">↵</div>
+				
+				<a href="#comment_3121520" data-id="3121535" data-parent_id="3121520" class="to_parent">↑</a>
+			
+			<span class="to_chidren"></span>
+			<div class="clear"></div>
+		</div>
+		<div class="message html_format ">
+			это список модулей, улучшающих форум. согласен, он может оказаться полезным! 
+		</div>
+		<div class="reply">
+			
+		</div>
+	
+	<div class="reply_comments" id="reply_comments_3121535">
+	 
+		
+<div class="comment_item" id="comment_3121593">
+	
+	<span class="parent_id" data-parent_id="3121535"></span>
+	
+	
+	
+		<div class="info  " rel="3121593">
+			<div class="folding-dot-holder"><div class="folding-dot"></div></div>
+			
+			<div id="voting_3121593" class="voting   ">
+										
+				
+					<span class="minus" title="Голосовать могут только зарегистрированные пользователи"></span>
+					<span class="plus" title="Голосовать могут только зарегистрированные пользователи"></span>
+				
+				<div class="mark  ">
+						<span class="score" title="Всего 0: ↑0 и ↓0">0</span> 
+				</div>	 
+			</div>
+			
+			<a href="http://habrahabr.ru/users/negodnik/" class="avatar"><img src="%D0%A1%D0%BE%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5%20%D1%84%D0%BE%D1%80%D1%83%D0%BC%D0%B0%20%D0%BD%D0%B0%20drupal%20_%20%D0%A5%D0%B0%D0%B1%D1%80%D0%B0%D1%85%D0%B0%D0%B1%D1%80_files/small_21317.jpg" alt=""></a>
+			<a href="http://habrahabr.ru/users/negodnik/" class="username">negodnik</a>
+			<time datetime="2010-08-03T14:04:56+04:00"> 3 августа 2010 в 14:04</time>
+			<a href="#comment_3121593" class="link_to_comment">#</a>
+			
+			
+				<div class="show_tree" data-id="3121593" data-parent_id="3121535" title="Показать ветку комментариев">↵</div>
+				
+				<a href="#comment_3121535" data-id="3121593" data-parent_id="3121535" class="to_parent">↑</a>
+			
+			<span class="to_chidren"></span>
+			<div class="clear"></div>
+		</div>
+		<div class="message html_format ">
+			Это собственно документация к модулю, который вам показался неполноценным.<br>
+Зачем переливать из пустого в порожнее? 
+		</div>
+		<div class="reply">
+			
+		</div>
+	
+	<div class="reply_comments" id="reply_comments_3121593">
+	
+	</div>
+</div>
+
+	
+	</div>
+</div>
+
+	 
+		
+<div class="comment_item" id="comment_3121545">
+	
+	<span class="parent_id" data-parent_id="3121520"></span>
+	
+	
+	
+		<div class="info  " rel="3121545">
+			<div class="folding-dot-holder"><div class="folding-dot"></div></div>
+			
+			<div id="voting_3121545" class="voting   ">
+										
+				
+					<span class="minus" title="Голосовать могут только зарегистрированные пользователи"></span>
+					<span class="plus" title="Голосовать могут только зарегистрированные пользователи"></span>
+				
+				<div class="mark  ">
+						<span class="score" title="Всего 0: ↑0 и ↓0">0</span> 
+				</div>	 
+			</div>
+			
+			<a href="http://habrahabr.ru/users/negodnik/" class="avatar"><img src="%D0%A1%D0%BE%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5%20%D1%84%D0%BE%D1%80%D1%83%D0%BC%D0%B0%20%D0%BD%D0%B0%20drupal%20_%20%D0%A5%D0%B0%D0%B1%D1%80%D0%B0%D1%85%D0%B0%D0%B1%D1%80_files/small_21317.jpg" alt=""></a>
+			<a href="http://habrahabr.ru/users/negodnik/" class="username">negodnik</a>
+			<time datetime="2010-08-03T13:55:46+04:00"> 3 августа 2010 в 13:55</time>
+			<a href="#comment_3121545" class="link_to_comment">#</a>
+			
+			
+				<div class="show_tree" data-id="3121545" data-parent_id="3121520" title="Показать ветку комментариев">↵</div>
+				
+				<a href="#comment_3121520" data-id="3121545" data-parent_id="3121520" class="to_parent">↑</a>
+			
+			<span class="to_chidren"></span>
+			<div class="clear"></div>
+		</div>
+		<div class="message html_format ">
+			Ну и остальные доки к модулю.<br>
+<br>
+MOAR <a href="http://drupal.org/node/227108">drupal.org/node/227108</a> 
+		</div>
+		<div class="reply">
+			
+		</div>
+	
+	<div class="reply_comments" id="reply_comments_3121545">
+	
+	</div>
+</div>
+
+	
+	</div>
+</div>
+
+   
+    
+<div class="comment_item" id="comment_3122186">
+	
+	<span class="parent_id" data-parent_id="0"></span>
+	
+	
+	
+		<div class="info  " rel="3122186">
+			<div class="folding-dot-holder"><div class="folding-dot"></div></div>
+			
+			<div id="voting_3122186" class="voting   ">
+										
+				
+					<span class="minus" title="Голосовать могут только зарегистрированные пользователи"></span>
+					<span class="plus" title="Голосовать могут только зарегистрированные пользователи"></span>
+				
+				<div class="mark  ">
+						<span class="score" title="Всего 0: ↑0 и ↓0">0</span> 
+				</div>	 
+			</div>
+			
+			<a href="http://habrahabr.ru/users/shtrlz/" class="avatar"><img src="%D0%A1%D0%BE%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5%20%D1%84%D0%BE%D1%80%D1%83%D0%BC%D0%B0%20%D0%BD%D0%B0%20drupal%20_%20%D0%A5%D0%B0%D0%B1%D1%80%D0%B0%D1%85%D0%B0%D0%B1%D1%80_files/small_9909.jpg" alt=""></a>
+			<a href="http://habrahabr.ru/users/shtrlz/" class="username">shtrlz</a>
+			<time datetime="2010-08-03T15:54:38+04:00"> 3 августа 2010 в 15:54</time>
+			<a href="#comment_3122186" class="link_to_comment">#</a>
+			
+			
+			<span class="to_chidren"></span>
+			<div class="clear"></div>
+		</div>
+		<div class="message html_format ">
+			отличный пост. а кто нибудь придумал как бороться с флудерами. типа 
+бан на 2 недели, а затем чтоб он автоматом снимался? вручную их как-то 
+контролировать неалё.  
+		</div>
+		<div class="reply">
+			
+		</div>
+	
+	<div class="reply_comments" id="reply_comments_3122186">
+	 
+		
+<div class="comment_item" id="comment_3122300">
+	
+	<span class="parent_id" data-parent_id="3122186"></span>
+	
+	
+	
+		<div class="info  " rel="3122300">
+			<div class="folding-dot-holder"><div class="folding-dot"></div></div>
+			
+			<div id="voting_3122300" class="voting   ">
+										
+				
+					<span class="minus" title="Голосовать могут только зарегистрированные пользователи"></span>
+					<span class="plus" title="Голосовать могут только зарегистрированные пользователи"></span>
+				
+				<div class="mark positive ">
+						<span class="score" title="Всего 1: ↑1 и ↓0">+1</span> 
+				</div>	 
+			</div>
+			
+			<a href="http://habrahabr.ru/users/Sander80/" class="avatar"><img src="%D0%A1%D0%BE%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5%20%D1%84%D0%BE%D1%80%D1%83%D0%BC%D0%B0%20%D0%BD%D0%B0%20drupal%20_%20%D0%A5%D0%B0%D0%B1%D1%80%D0%B0%D1%85%D0%B0%D0%B1%D1%80_files/small_20512.jpg" alt=""></a>
+			<a href="http://habrahabr.ru/users/Sander80/" class="username">Sander80</a>
+			<time datetime="2010-08-03T16:21:59+04:00"> 3 августа 2010 в 16:21</time>
+			<a href="#comment_3122300" class="link_to_comment">#</a>
+			
+			
+				<div class="show_tree" data-id="3122300" data-parent_id="3122186" title="Показать ветку комментариев">↵</div>
+				
+				<a href="#comment_3122186" data-id="3122300" data-parent_id="3122186" class="to_parent">↑</a>
+			
+			<span class="to_chidren"></span>
+			<div class="clear"></div>
+		</div>
+		<div class="message html_format ">
+			У меня форум маленький, такого делать не приходилось. <br>
+Но решение в голову пришло:<br>
+<br>
+1) Включаем модуль userpoints<br>
+2) Создаем тип очков с названием типа «порядочность» (можно как-нибудь обыграть в зависимости от тематики)<br>
+3) При регистрации пользователь получает, скажем, 10 таких очков<br>
+4) Роль «нормальный пользователь» настраивается на автоматическое получение при, скажем, 5 очках<br>
+5) У зарегистрированного пользователя снимаем право постить, нормальному — даем<br>
+6) Наказание заключается в наложении отрицательного количества этих очков с периодом автоматического сгорания<br>
+<br>
+Тогда как только количество этих очков падает ниже 5, роль у пользователя убегает.<br>
+Время проходит, отрицательные очки сгорают, роль возвращается.<br>
+<br>
+Сейчас пишу без ссылок, у меня плохой интернет до утра четверга. Пишите в личку, если потребуются детали.<br>
+ 
+		</div>
+		<div class="reply">
+			
+		</div>
+	
+	<div class="reply_comments" id="reply_comments_3122300">
+	 
+		
+<div class="comment_item" id="comment_3122758">
+	
+	<span class="parent_id" data-parent_id="3122300"></span>
+	
+	
+	
+		<div class="info  " rel="3122758">
+			<div class="folding-dot-holder"><div class="folding-dot"></div></div>
+			
+			<div id="voting_3122758" class="voting   ">
+										
+				
+					<span class="minus" title="Голосовать могут только зарегистрированные пользователи"></span>
+					<span class="plus" title="Голосовать могут только зарегистрированные пользователи"></span>
+				
+				<div class="mark  ">
+						<span class="score" title="Всего 0: ↑0 и ↓0">0</span> 
+				</div>	 
+			</div>
+			
+			<a href="http://habrahabr.ru/users/shtrlz/" class="avatar"><img src="%D0%A1%D0%BE%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5%20%D1%84%D0%BE%D1%80%D1%83%D0%BC%D0%B0%20%D0%BD%D0%B0%20drupal%20_%20%D0%A5%D0%B0%D0%B1%D1%80%D0%B0%D1%85%D0%B0%D0%B1%D1%80_files/small_9909.jpg" alt=""></a>
+			<a href="http://habrahabr.ru/users/shtrlz/" class="username">shtrlz</a>
+			<time datetime="2010-08-03T18:43:25+04:00"> 3 августа 2010 в 18:43</time>
+			<a href="#comment_3122758" class="link_to_comment">#</a>
+			
+			
+				<div class="show_tree" data-id="3122758" data-parent_id="3122300" title="Показать ветку комментариев">↵</div>
+				
+				<a href="#comment_3122300" data-id="3122758" data-parent_id="3122300" class="to_parent">↑</a>
+			
+			<span class="to_chidren"></span>
+			<div class="clear"></div>
+		</div>
+		<div class="message html_format ">
+			большая спасиба. идея понятна. поиграюсь на досуге. 
+		</div>
+		<div class="reply">
+			
+		</div>
+	
+	<div class="reply_comments" id="reply_comments_3122758">
+	
+	</div>
+</div>
+
+	
+	</div>
+</div>
+
+	 
+		
+<div class="comment_item" id="comment_3130124">
+	
+	<span class="parent_id" data-parent_id="3122186"></span>
+	
+	
+	
+		<div class="info  " rel="3130124">
+			<div class="folding-dot-holder"><div class="folding-dot"></div></div>
+			
+			<div id="voting_3130124" class="voting   ">
+										
+				
+					<span class="minus" title="Голосовать могут только зарегистрированные пользователи"></span>
+					<span class="plus" title="Голосовать могут только зарегистрированные пользователи"></span>
+				
+				<div class="mark  ">
+						<span class="score" title="Всего 0: ↑0 и ↓0">0</span> 
+				</div>	 
+			</div>
+			
+			<a href="http://habrahabr.ru/users/Yust_os/" class="avatar"><img src="%D0%A1%D0%BE%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5%20%D1%84%D0%BE%D1%80%D1%83%D0%BC%D0%B0%20%D0%BD%D0%B0%20drupal%20_%20%D0%A5%D0%B0%D0%B1%D1%80%D0%B0%D1%85%D0%B0%D0%B1%D1%80_files/stub-user-small.gif" alt=""></a>
+			<a href="http://habrahabr.ru/users/Yust_os/" class="username">Yust_os</a>
+			<time datetime="2010-08-05T18:58:40+04:00"> 5 августа 2010 в 18:58</time>
+			<a href="#comment_3130124" class="link_to_comment">#</a>
+			
+			
+				<div class="show_tree" data-id="3130124" data-parent_id="3122186" title="Показать ветку комментариев">↵</div>
+				
+				<a href="#comment_3122186" data-id="3130124" data-parent_id="3122186" class="to_parent">↑</a>
+			
+			<span class="to_chidren"></span>
+			<div class="clear"></div>
+		</div>
+		<div class="message html_format ">
+			сделайте триггер на вход пользователя, а в нем проверяйте дату бана 
+		</div>
+		<div class="reply">
+			
+		</div>
+	
+	<div class="reply_comments" id="reply_comments_3130124">
+	 
+		
+<div class="comment_item" id="comment_3130195">
+	
+	<span class="parent_id" data-parent_id="3130124"></span>
+	
+	
+	
+		<div class="info  " rel="3130195">
+			<div class="folding-dot-holder"><div class="folding-dot"></div></div>
+			
+			<div id="voting_3130195" class="voting   ">
+										
+				
+					<span class="minus" title="Голосовать могут только зарегистрированные пользователи"></span>
+					<span class="plus" title="Голосовать могут только зарегистрированные пользователи"></span>
+				
+				<div class="mark  ">
+						<span class="score" title="Всего 0: ↑0 и ↓0">0</span> 
+				</div>	 
+			</div>
+			
+			<a href="http://habrahabr.ru/users/shtrlz/" class="avatar"><img src="%D0%A1%D0%BE%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5%20%D1%84%D0%BE%D1%80%D1%83%D0%BC%D0%B0%20%D0%BD%D0%B0%20drupal%20_%20%D0%A5%D0%B0%D0%B1%D1%80%D0%B0%D1%85%D0%B0%D0%B1%D1%80_files/small_9909.jpg" alt=""></a>
+			<a href="http://habrahabr.ru/users/shtrlz/" class="username">shtrlz</a>
+			<time datetime="2010-08-05T19:23:56+04:00"> 5 августа 2010 в 19:23</time>
+			<a href="#comment_3130195" class="link_to_comment">#</a>
+			
+			
+				<div class="show_tree" data-id="3130195" data-parent_id="3130124" title="Показать ветку комментариев">↵</div>
+				
+				<a href="#comment_3130124" data-id="3130195" data-parent_id="3130124" class="to_parent">↑</a>
+			
+			<span class="to_chidren"></span>
+			<div class="clear"></div>
+		</div>
+		<div class="message html_format ">
+			это как-то сложнее. я еще не силен в напильниках. но идея тоже понятна. спасибо 
+		</div>
+		<div class="reply">
+			
+		</div>
+	
+	<div class="reply_comments" id="reply_comments_3130195">
+	
+	</div>
+</div>
+
+	 
+		
+<div class="comment_item" id="comment_3130465">
+	
+	<span class="parent_id" data-parent_id="3130124"></span>
+	
+	
+	
+		<div class="info  " rel="3130465">
+			<div class="folding-dot-holder"><div class="folding-dot"></div></div>
+			
+			<div id="voting_3130465" class="voting   ">
+										
+				
+					<span class="minus" title="Голосовать могут только зарегистрированные пользователи"></span>
+					<span class="plus" title="Голосовать могут только зарегистрированные пользователи"></span>
+				
+				<div class="mark  ">
+						<span class="score" title="Всего 0: ↑0 и ↓0">0</span> 
+				</div>	 
+			</div>
+			
+			<a href="http://habrahabr.ru/users/Yust_os/" class="avatar"><img src="%D0%A1%D0%BE%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5%20%D1%84%D0%BE%D1%80%D1%83%D0%BC%D0%B0%20%D0%BD%D0%B0%20drupal%20_%20%D0%A5%D0%B0%D0%B1%D1%80%D0%B0%D1%85%D0%B0%D0%B1%D1%80_files/stub-user-small.gif" alt=""></a>
+			<a href="http://habrahabr.ru/users/Yust_os/" class="username">Yust_os</a>
+			<time datetime="2010-08-05T21:19:05+04:00"> 5 августа 2010 в 21:19</time>
+			<a href="#comment_3130465" class="link_to_comment">#</a>
+			
+			
+				<div class="show_tree" data-id="3130465" data-parent_id="3130124" title="Показать ветку комментариев">↵</div>
+				
+				<a href="#comment_3130124" data-id="3130465" data-parent_id="3130124" class="to_parent">↑</a>
+			
+			<span class="to_chidren"></span>
+			<div class="clear"></div>
+		</div>
+		<div class="message html_format ">
+			Вообще-то поспешил, привязывать нужно на cron, чтобы периодически проверялось 
+		</div>
+		<div class="reply">
+			
+		</div>
+	
+	<div class="reply_comments" id="reply_comments_3130465">
+	
+	</div>
+</div>
+
+	
+	</div>
+</div>
+
+	
+	</div>
+</div>
+
+   
+    
+<div class="comment_item" id="comment_3125247">
+	
+	<span class="parent_id" data-parent_id="0"></span>
+	
+	
+	
+		<div class="info  " rel="3125247">
+			<div class="folding-dot-holder"><div class="folding-dot"></div></div>
+			
+			<div id="voting_3125247" class="voting   ">
+										
+				
+					<span class="minus" title="Голосовать могут только зарегистрированные пользователи"></span>
+					<span class="plus" title="Голосовать могут только зарегистрированные пользователи"></span>
+				
+				<div class="mark  ">
+						<span class="score" title="Всего 0: ↑0 и ↓0">0</span> 
+				</div>	 
+			</div>
+			
+			<a href="http://habrahabr.ru/users/ChemAli/" class="avatar"><img src="%D0%A1%D0%BE%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5%20%D1%84%D0%BE%D1%80%D1%83%D0%BC%D0%B0%20%D0%BD%D0%B0%20drupal%20_%20%D0%A5%D0%B0%D0%B1%D1%80%D0%B0%D1%85%D0%B0%D0%B1%D1%80_files/stub-user-small.gif" alt=""></a>
+			<a href="http://habrahabr.ru/users/ChemAli/" class="username">ChemAli</a>
+			<time datetime="2010-08-04T15:19:11+04:00"> 4 августа 2010 в 15:19</time>
+			<a href="#comment_3125247" class="link_to_comment">#</a>
+			
+			
+			<span class="to_chidren"></span>
+			<div class="clear"></div>
+		</div>
+		<div class="message html_format ">
+			Я для новых сообщений писал свой модуль. Кажется, на друпал.ру где-то есть. 
+		</div>
+		<div class="reply">
+			
+		</div>
+	
+	<div class="reply_comments" id="reply_comments_3125247">
+	 
+		
+<div class="comment_item" id="comment_3128026">
+	
+	<span class="parent_id" data-parent_id="3125247"></span>
+	
+	
+	
+		<div class="info  " rel="3128026">
+			<div class="folding-dot-holder"><div class="folding-dot"></div></div>
+			
+			<div id="voting_3128026" class="voting   ">
+										
+				
+					<span class="minus" title="Голосовать могут только зарегистрированные пользователи"></span>
+					<span class="plus" title="Голосовать могут только зарегистрированные пользователи"></span>
+				
+				<div class="mark  ">
+						<span class="score" title="Всего 0: ↑0 и ↓0">0</span> 
+				</div>	 
+			</div>
+			
+			<a href="http://habrahabr.ru/users/Sander80/" class="avatar"><img src="%D0%A1%D0%BE%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5%20%D1%84%D0%BE%D1%80%D1%83%D0%BC%D0%B0%20%D0%BD%D0%B0%20drupal%20_%20%D0%A5%D0%B0%D0%B1%D1%80%D0%B0%D1%85%D0%B0%D0%B1%D1%80_files/small_20512.jpg" alt=""></a>
+			<a href="http://habrahabr.ru/users/Sander80/" class="username">Sander80</a>
+			<time datetime="2010-08-05T10:22:13+04:00"> 5 августа 2010 в 10:22</time>
+			<a href="#comment_3128026" class="link_to_comment">#</a>
+			
+			
+				<div class="show_tree" data-id="3128026" data-parent_id="3125247" title="Показать ветку комментариев">↵</div>
+				
+				<a href="#comment_3125247" data-id="3128026" data-parent_id="3125247" class="to_parent">↑</a>
+			
+			<span class="to_chidren"></span>
+			<div class="clear"></div>
+		</div>
+		<div class="message html_format ">
+			ой, а можно ссылочку?<br>
+я, на самом деле, долго искал модуль, прежде чем стал возиться сам, но ничего найти не смог 
+		</div>
+		<div class="reply">
+			
+		</div>
+	
+	<div class="reply_comments" id="reply_comments_3128026">
+	
+	</div>
+</div>
+
+	
+	</div>
+</div>
+
+   
+    
+<div class="comment_item" id="comment_3153888">
+	
+	<span class="parent_id" data-parent_id="0"></span>
+	
+	
+	
+		<div class="info  " rel="3153888">
+			<div class="folding-dot-holder"><div class="folding-dot"></div></div>
+			
+			<div id="voting_3153888" class="voting   ">
+										
+				
+					<span class="minus" title="Голосовать могут только зарегистрированные пользователи"></span>
+					<span class="plus" title="Голосовать могут только зарегистрированные пользователи"></span>
+				
+				<div class="mark  ">
+						<span class="score" title="Всего 0: ↑0 и ↓0">0</span> 
+				</div>	 
+			</div>
+			
+			<a href="http://habrahabr.ru/users/Cranberry/" class="avatar"><img src="%D0%A1%D0%BE%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5%20%D1%84%D0%BE%D1%80%D1%83%D0%BC%D0%B0%20%D0%BD%D0%B0%20drupal%20_%20%D0%A5%D0%B0%D0%B1%D1%80%D0%B0%D1%85%D0%B0%D0%B1%D1%80_files/stub-user-small.gif" alt=""></a>
+			<a href="http://habrahabr.ru/users/Cranberry/" class="username">Cranberry</a>
+			<time datetime="2010-08-13T20:24:17+04:00">13 августа 2010 в 20:24</time>
+			<a href="#comment_3153888" class="link_to_comment">#</a>
+			
+			
+			<span class="to_chidren"></span>
+			<div class="clear"></div>
+		</div>
+		<div class="message html_format ">
+			Скажите пожалуйста, если не секрет, вы в одиночку создавали данный сайт? Сколько времени у вас ушло на это?<br>
+Заранее благодарю. 
+		</div>
+		<div class="reply">
+			
+		</div>
+	
+	<div class="reply_comments" id="reply_comments_3153888">
+	 
+		
+<div class="comment_item" id="comment_3154218">
+	
+	<span class="parent_id" data-parent_id="3153888"></span>
+	
+	
+	
+		<div class="info  " rel="3154218">
+			<div class="folding-dot-holder"><div class="folding-dot"></div></div>
+			
+			<div id="voting_3154218" class="voting   ">
+										
+				
+					<span class="minus" title="Голосовать могут только зарегистрированные пользователи"></span>
+					<span class="plus" title="Голосовать могут только зарегистрированные пользователи"></span>
+				
+				<div class="mark  ">
+						<span class="score" title="Всего 0: ↑0 и ↓0">0</span> 
+				</div>	 
+			</div>
+			
+			<a href="http://habrahabr.ru/users/Sander80/" class="avatar"><img src="%D0%A1%D0%BE%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5%20%D1%84%D0%BE%D1%80%D1%83%D0%BC%D0%B0%20%D0%BD%D0%B0%20drupal%20_%20%D0%A5%D0%B0%D0%B1%D1%80%D0%B0%D1%85%D0%B0%D0%B1%D1%80_files/small_20512.jpg" alt=""></a>
+			<a href="http://habrahabr.ru/users/Sander80/" class="username">Sander80</a>
+			<time datetime="2010-08-13T22:50:01+04:00">13 августа 2010 в 22:50</time>
+			<a href="#comment_3154218" class="link_to_comment">#</a>
+			
+			
+				<div class="show_tree" data-id="3154218" data-parent_id="3153888" title="Показать ветку комментариев">↵</div>
+				
+				<a href="#comment_3153888" data-id="3154218" data-parent_id="3153888" class="to_parent">↑</a>
+			
+			<span class="to_chidren"></span>
+			<div class="clear"></div>
+		</div>
+		<div class="message html_format ">
+			Да, в одиночку. <br>
+Зависит от понятия, которое вы вкладываете в слово «создавали».<br>
+Если речь о том, сколько времени занимает настроить движок и все модули…
+ ну тогда мне пришлось повозиться, поскольку я ничего о Drupal не знал, 
+но сейчас такое за несколько часов точно накидаю. Могу советы давать, 
+если что. В принципе, даже думал подробную инструкцию написать.<br>
+Ну а контент, привлечение посетителей, раскрутка — это такой процесс непрерывный. 
+		</div>
+		<div class="reply">
+			
+		</div>
+	
+	<div class="reply_comments" id="reply_comments_3154218">
+	 
+		
+<div class="comment_item" id="comment_3154305">
+	
+	<span class="parent_id" data-parent_id="3154218"></span>
+	
+	
+	
+		<div class="info  " rel="3154305">
+			<div class="folding-dot-holder"><div class="folding-dot"></div></div>
+			
+			<div id="voting_3154305" class="voting   ">
+										
+				
+					<span class="minus" title="Голосовать могут только зарегистрированные пользователи"></span>
+					<span class="plus" title="Голосовать могут только зарегистрированные пользователи"></span>
+				
+				<div class="mark  ">
+						<span class="score" title="Всего 0: ↑0 и ↓0">0</span> 
+				</div>	 
+			</div>
+			
+			<a href="http://habrahabr.ru/users/Cranberry/" class="avatar"><img src="%D0%A1%D0%BE%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5%20%D1%84%D0%BE%D1%80%D1%83%D0%BC%D0%B0%20%D0%BD%D0%B0%20drupal%20_%20%D0%A5%D0%B0%D0%B1%D1%80%D0%B0%D1%85%D0%B0%D0%B1%D1%80_files/stub-user-small.gif" alt=""></a>
+			<a href="http://habrahabr.ru/users/Cranberry/" class="username">Cranberry</a>
+			<time datetime="2010-08-13T23:30:36+04:00">13 августа 2010 в 23:30</time>
+			<a href="#comment_3154305" class="link_to_comment">#</a>
+			
+			
+				<div class="show_tree" data-id="3154305" data-parent_id="3154218" title="Показать ветку комментариев">↵</div>
+				
+				<a href="#comment_3154218" data-id="3154305" data-parent_id="3154218" class="to_parent">↑</a>
+			
+			<span class="to_chidren"></span>
+			<div class="clear"></div>
+		</div>
+		<div class="message html_format ">
+			Спасибо за ответ, я достаточно давно использую Drupal для создания 
+сайтов, мне просто был интересен опыт коллег по цеху. Я вот какой проект
+ не выполню, так после каждого кажется — «вот теперь я все знаю, всех 
+собак съел, в следующий раз будет проще». Однако, к сожалению, все 
+совсем не так и без исключения в каждом проекте встречается масса 
+подводных камней, время на разработку ну никак не уменьшается, хотя 
+вроде вот опыт уже есть…<br>
+Про контент и SEO все понятно, песня вечная. 
+		</div>
+		<div class="reply">
+			
+		</div>
+	
+	<div class="reply_comments" id="reply_comments_3154305">
+	
+	</div>
+</div>
+
+	
+	</div>
+</div>
+
+	
+	</div>
+</div>
+
+  
+</div>
+
+	
+	
+		
+			<p class="for_users_only_msg">Только зарегистрированные пользователи могут оставлять комментарии. <a href="http://habrahabr.ru/login/">Войдите</a>, пожалуйста.</p>
+		
+		
+	
+
+
+
+	
+<form action="/json/favorites/" method="post" id="edit_tags_form" class="hidden">
+  <input name="action" value="add" type="hidden">
+  <input name="ti" value="0" type="hidden">
+  <input name="tt" value="0" type="hidden">
+  <label>Пометьте топик понятными вам метками, если хотите</label>
+  <input style="" autocomplete="off" name="tags_string" class="tags_string" type="text">
+  <div class="description">Метки лучше разделять запятой. Например: <i>общение, социальные сети, myspace.com, подростки, мердок</i></div>
+  <input value="Сохранить" class="submit" type="submit"> или <a href="#" class="close" onclick="return close_edit_tags()">закрыть</a>
+</form>
+    
+
+
+  </div>
+  <div class="sidebar_right">
+	
+		
+
+
+
+
+	<div class="banner_240x400">
+
+		<script type="text/javascript">
+			(function(){
+				var custom = [];
+			/* custom params */
+			
+				custom[1]	= 'drupal';
+			
+				
+
+			/* end of custom params */
+				custom.getStd = function(){for(var i=0,j,s=[];i<this.length;i++){if(this[i])s.push((!j?(j=1,i+'='):'')+escape(this[i]));else j=0}return s.length?'&custom='+s.join(';'):''};
+
+				var RndNum4NoCash = Math.round(Math.random() * 1000000000),
+					ar_Tail = escape(document.referrer || 'unknown');
+				document.write('<iframe src="http://ad.adriver.ru/cgi-bin/erle.cgi?'
+					+ 'sid=176776&target=top&bt=22&pz=0&rnd=' + RndNum4NoCash + '&tail256=' + ar_Tail + custom.getStd()
+					+ '" frameborder=0 vspace=0 hspace=0 width=240 height=400 marginwidth=0'
+					+ ' marginheight=0 scrolling=no></iframe>');
+			})();
+		</script><iframe src="%D0%A1%D0%BE%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5%20%D1%84%D0%BE%D1%80%D1%83%D0%BC%D0%B0%20%D0%BD%D0%B0%20drupal%20_%20%D0%A5%D0%B0%D0%B1%D1%80%D0%B0%D1%85%D0%B0%D0%B1%D1%80_files/erle_002.html" vspace="0" hspace="0" marginwidth="0" marginheight="0" frameborder="0" height="400" scrolling="no" width="240"></iframe>
+
+	</div>
+
+
+
+
+
+		
+	<div id="facebook_reader_wrapper">
+		<div style="display: block;" id="facebook_reader" class="block narrow">           <div class="connect">             <div class="button"><div class="fb-login-button fb_iframe_widget" data-show-faces="false" data-width="200" data-max-rows="1" data-scope="publish_actions"><span style="height: 22px; width: 73px;"><iframe src="%D0%A1%D0%BE%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5%20%D1%84%D0%BE%D1%80%D1%83%D0%BC%D0%B0%20%D0%BD%D0%B0%20drupal%20_%20%D0%A5%D0%B0%D0%B1%D1%80%D0%B0%D1%85%D0%B0%D0%B1%D1%80_files/login_button.html" class="fb_ltr" style="border: medium none; overflow: hidden; height: 22px; width: 73px;" name="f2132ab5e6ebcde" id="f1ad0a21b83dffc" scrolling="no"></iframe></span></div></div>             <div class="text">Делитесь прочитанными статьями с вашими друзьями в Facebook <a href="https://www.facebook.com/about/timeline/apps"><img class="help-tip tip_top" title="Что это?" src="%D0%A1%D0%BE%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5%20%D1%84%D0%BE%D1%80%D1%83%D0%BC%D0%B0%20%D0%BD%D0%B0%20drupal%20_%20%D0%A5%D0%B0%D0%B1%D1%80%D0%B0%D1%85%D0%B0%D0%B1%D1%80_files/bg_cicle_help.png"></a></div>             <div class="loading_text">Загрузка...</div>           </div>         </div>
+	</div>
+
+		
+
+<div class="block daily_best_posts">
+  <div class="title">Лучшее <sup>за 24 часа</sup> ↓ </div>
+  <div class="posts_list">
+    
+      <div class="post_item">
+        
+				
+				
+				
+				
+				
+
+        <a href="http://habrahabr.ru/post/151799/" class="post_name">ОАО КМЗ возобновило выпуск фотообъективов</a>
+      </div>
+    
+      <div class="post_item">
+        
+				
+				
+				
+				
+				
+
+        <a href="http://habrahabr.ru/post/151821/" class="post_name">Миллион партиклов. Часть 1</a>
+      </div>
+    
+      <div class="post_item">
+        
+				
+				
+				
+				
+				
+
+        <a href="http://habrahabr.ru/post/151795/" class="post_name">Отдаем файлы эффективно с помощью PHP</a>
+      </div>
+    
+      <div class="post_item">
+        
+				
+				
+				
+				
+				
+
+        <a href="http://habrahabr.ru/post/151840/" class="post_name">Лазер на шариках от подшипника</a>
+      </div>
+    
+      <div class="post_item">
+        
+				
+				
+				
+				
+				
+
+        <a href="http://habrahabr.ru/post/151863/" class="post_name">Собираем компьютерный стеллаж</a>
+      </div>
+    
+      <div class="post_item">
+        
+				
+				
+				
+				
+				
+
+        <a href="http://habrahabr.ru/post/151811/" class="post_name">Иллюзия эффективной разработки: проектирование</a>
+      </div>
+    
+      <div class="post_item">
+        
+				
+				
+				
+				
+				
+
+        <a href="http://habrahabr.ru/post/151827/" class="post_name">Может ли обычный текст поглючить IE?</a>
+      </div>
+    
+      <div class="post_item">
+        
+				
+				
+				
+				
+				
+
+        <a href="http://habrahabr.ru/post/151819/" class="post_name">Решение японских кроссвордов на Haskell</a>
+      </div>
+    
+      <div class="post_item">
+        
+				
+				
+				
+				
+				
+
+        <a href="http://habrahabr.ru/post/151862/" class="post_name">Комикс Xkcd на 13 гигапикселов</a>
+      </div>
+    
+      <div class="post_item">
+        
+				
+				
+				
+				
+				
+
+        <a href="http://habrahabr.ru/post/151857/" class="post_name">Если бы я был Google, я бы выпустил Карты для iOS 6 через полгода</a>
+      </div>
+    
+  </div>
+  <div class="all">« <a href="http://habrahabr.ru/top/">все лучшие</a></div>
+</div>
+
+		
+
+
+<div class="block live_broadcast_activity">
+  <div class="title">Прямой эфир ↓ </div>
+  <div class="posts_list">
+
+    <div class="post_item">
+      <a href="http://habrahabr.ru/users/horror_x/" class="user_name">horror_x</a> →
+      <a href="http://habrahabr.ru/post/151867/#comment_5154624" class="post_name">Появился новый сервис поиска обоев на рабочий стол</a>&nbsp;<span class="count">25</span>
+    </div>
+
+    <div class="post_item">
+      <a href="http://habrahabr.ru/users/TolTol/" class="user_name">TolTol</a> →
+      <a href="http://habrahabr.ru/post/151857/#comment_5154623" class="post_name">Если бы я был Google, я бы выпустил Карты для iOS 6 через полгода</a>&nbsp;<span class="count">118</span>
+    </div>
+
+    <div class="post_item">
+      <a href="http://habrahabr.ru/users/Lieman/" class="user_name">Lieman</a> →
+      <a href="http://habrahabr.ru/post/151873/#comment_5154622" class="post_name">Samsung продолжает рекламную кампанию Galaxy SIII</a>&nbsp;<span class="count">3</span>
+    </div>
+
+    <div class="post_item">
+      <a href="http://habrahabr.ru/users/twr/" class="user_name">twr</a> →
+      <a href="http://habrahabr.ru/post/151814/#comment_5154619" class="post_name">Практические советы для эффективного инспектирования кода</a>&nbsp;<span class="count">6</span>
+    </div>
+
+    <div class="post_item">
+      <a href="http://habrahabr.ru/users/ENESDi/" class="user_name">ENESDi</a> →
+      <a href="http://habrahabr.ru/post/151799/#comment_5154617" class="post_name">ОАО КМЗ возобновило выпуск фотообъективов</a>&nbsp;<span class="count">141</span>
+    </div>
+
+    <div class="post_item">
+      <a href="http://habrahabr.ru/users/renton/" class="user_name">renton</a> →
+      <a href="http://habrahabr.ru/post/151793/#comment_5154616" class="post_name">Почему Россия – страна четвертого мира в социальных сетях</a>&nbsp;<span class="count">82</span>
+    </div>
+
+    <div class="post_item">
+      <a href="http://habrahabr.ru/users/nuboi/" class="user_name">nuboi</a> →
+      <a href="http://habrahabr.ru/post/151872/#comment_5154614" class="post_name">Участники Pwn2Own взломали Galaxy SIII и iPhone 4S</a>&nbsp;<span class="count">1</span>
+    </div>
+
+    <div class="post_item">
+      <a href="http://habrahabr.ru/users/beliakov/" class="user_name">beliakov</a> →
+      <a href="http://habrahabr.ru/post/150555/#comment_5154613" class="post_name">Формула Е: анонсирована серия гонок с участием электромобилей</a>&nbsp;<span class="count">43</span>
+    </div>
+
+    <div class="post_item">
+      <a href="http://habrahabr.ru/users/theslim/" class="user_name">theslim</a> →
+      <a href="http://habrahabr.ru/post/151806/#comment_5154612" class="post_name">Сколько игр стали делать?</a>&nbsp;<span class="count">26</span>
+    </div>
+
+    <div class="post_item">
+      <a href="http://habrahabr.ru/users/Shafeev/" class="user_name">Shafeev</a> →
+      <a href="http://habrahabr.ru/post/151863/#comment_5154611" class="post_name">Собираем компьютерный стеллаж</a>&nbsp;<span class="count">26</span>
+    </div>
+
+  </div>
+  
+</div>
+
+
+
+  
+		
+
+	
+
+
+   
+		
+
+<div class="block best_company">
+
+		<div class="title">Компания дня <img src="%D0%A1%D0%BE%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5%20%D1%84%D0%BE%D1%80%D1%83%D0%BC%D0%B0%20%D0%BD%D0%B0%20drupal%20_%20%D0%A5%D0%B0%D0%B1%D1%80%D0%B0%D1%85%D0%B0%D0%B1%D1%80_files/bg_cicle_help.png" class="help-tip"></div>
+
+		<div class="company_info">
+			<div class="name">
+			 <img class="favicon" src="%D0%A1%D0%BE%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5%20%D1%84%D0%BE%D1%80%D1%83%D0%BC%D0%B0%20%D0%BD%D0%B0%20drupal%20_%20%D0%A5%D0%B0%D0%B1%D1%80%D0%B0%D1%85%D0%B0%D0%B1%D1%80_files/favicon_218.ico" alt="IBM" height="16" width="16">
+			 <div class="company_name"><a href="http://habrahabr.ru/company/ibm/" class="title">IBM</a></div>
+			</div>
+
+			<p>Последний пост:
+				<a href="http://habrahabr.ru/company/ibm/blog/151594/">Первые подробности о процессоре Power7+</a>
+			</p>
+
+			<div class="buttons">
+  			<div id="fans_count">1323 подписчика</div>
+  			
+			</div>
+		</div>
+
+	</div>
+
+
+		
+	
+
+
+
+
+<div class="block qa_activity">
+  <div class="title">Q&amp;A ↓ </div>
+  <div class="posts_list">
+
+    <div class="post_item">
+      <a href="http://habrahabr.ru/users/Urvin/" class="user_name">Urvin</a> →
+      <a href="http://habrahabr.ru/qa/24133/#comment_116843" class="post_name">JQuery + Ajax + table</a>&nbsp;<span class="count">3</span>
+    </div>
+
+    <div class="post_item">
+      <a href="http://habrahabr.ru/users/cepera_ang/" class="user_name">cepera_ang</a> →
+      <a href="http://habrahabr.ru/qa/24126/#answer_98728" class="post_name">Покупка сервера заграницей</a>&nbsp;<span class="count">2</span>
+    </div>
+
+    <div class="post_item">
+      <a href="http://habrahabr.ru/users/Talyutin/" class="user_name">Talyutin</a> →
+      <a href="http://habrahabr.ru/qa/24134/#answer_98727" class="post_name">Подскажите сервис истории (скриншотов, например) веб-сайтов</a>&nbsp;<span class="count">1</span>
+    </div>
+
+    <div class="post_item">
+      <a href="http://habrahabr.ru/users/sergeypid/" class="user_name">sergeypid</a> →
+      <a href="http://habrahabr.ru/qa/24113/#answer_98726" class="post_name">Найти закономерность между числами</a>&nbsp;<span class="count">12</span>
+    </div>
+
+    <div class="post_item">
+      <a href="http://habrahabr.ru/users/Tenkoff/" class="user_name">Tenkoff</a> →
+      <a href="http://habrahabr.ru/qa/24117/#comment_116842" class="post_name">git log --stat — работает неожиданно долго, как починить?</a>&nbsp;<span class="count">2</span>
+    </div>
+
+    <div class="post_item">
+      <a href="http://habrahabr.ru/users/blare/" class="user_name">blare</a> →
+      <a href="http://habrahabr.ru/qa/24129/#comment_116838" class="post_name">Доступ js к iframe другого домена, можно ли?</a>&nbsp;<span class="count">2</span>
+    </div>
+
+    <div class="post_item">
+      <a href="http://habrahabr.ru/users/Ernillew/" class="user_name">Ernillew</a> →
+      <a href="http://habrahabr.ru/qa/24123/#comment_116832" class="post_name">Ironport: как заблокировать домен верхнего уровня?</a>&nbsp;<span class="count">2</span>
+    </div>
+
+    <div class="post_item">
+      <a href="http://habrahabr.ru/users/voodoo113/" class="user_name">voodoo113</a> →
+      <a href="http://habrahabr.ru/qa/24132/#answer_98725" class="post_name">SIM без IMSI</a>&nbsp;<span class="count">1</span>
+    </div>
+
+    <div class="post_item">
+      <a href="http://habrahabr.ru/users/Krovosos/" class="user_name">Krovosos</a> →
+      <a href="http://habrahabr.ru/qa/24095/#comment_116830" class="post_name">Как определить, что один шлюз отвалился от интернета и перейти на другой программно (Windows)?</a>&nbsp;<span class="count">4</span>
+    </div>
+
+    <div class="post_item">
+      <a href="http://habrahabr.ru/users/stalker_by/" class="user_name">stalker_by</a> →
+      <a href="http://habrahabr.ru/qa/24009/#answer_98723" class="post_name">Android developer console не работает?</a>&nbsp;<span class="count">2</span>
+    </div>
+
+  </div>
+  <div class="all">« <a href="http://habrahabr.ru/qa/">все вопросы</a></div>
+  
+</div>
+
+
+		
+
+<div class="block new_vacanies">
+  <div class="title">О, работа! ↓ </div>
+  <div class="vacancies">
+		
+		<div class="job_item">
+			<a href="http://hantim.ru/jobs/10631-veduschiy-razrabotchik-net">Ведущий разработчик .Net</a>
+		</div>
+		
+		<div class="job_item">
+			<a href="http://hantim.ru/jobs/10644-razrabotchik-s">Разработчик С++</a>
+		</div>
+		
+		<div class="job_item">
+			<a href="http://hantim.ru/jobs/10643-programmist-php-1s-bitriks-mozhno-udalenno">Программист PHP (1С-Битрикс), можно удаленно</a>
+		</div>
+		
+		<div class="job_item">
+			<a href="http://hantim.ru/jobs/10637-web-razrabotchik-php-javascript-mysql">Web-разработчик (PHP, Javascript, MySQL)</a>
+		</div>
+		
+		<div class="job_item">
+			<a href="http://hantim.ru/jobs/10495-php-programmist">PHP программист</a>
+		</div>
+		
+		<div class="job_item">
+			<a href="http://hantim.ru/jobs/10534-razrabotchik-sistemy-protsessinga">Разработчик системы процессинга</a>
+		</div>
+		
+		<div class="job_item">
+			<a href="http://hantim.ru/jobs/9800-opytnyy-php-razrabotchik">Опытный PHP-разработчик</a>
+		</div>
+		
+		<div class="job_item">
+			<a href="http://hantim.ru/jobs/10608-c-sokrovische-s-wpf-i-c-znaniyami">C# Сокровище (с WPF и C++ знаниями)</a>
+		</div>
+		
+		<div class="job_item">
+			<a href="http://hantim.ru/jobs/10607-programmist-s">Программист С++</a>
+		</div>
+		
+		<div class="job_item">
+			<a href="http://hantim.ru/jobs/10604-veduschiy-python-razrabotchik">Ведущий Python разработчик</a>
+		</div>
+		
+		<div class="job_item">
+			<a href="http://hantim.ru/jobs/8508-php-razrabotchik">PHP-разработчик</a>
+		</div>
+		
+		<div class="job_item">
+			<a href="http://hantim.ru/jobs/10571-perl-programmist-udalenka">Perl программист. (Удаленка)</a>
+		</div>
+		
+		<div class="job_item">
+			<a href="http://hantim.ru/jobs/10584-veduschiy-php-razrabotchik">Ведущий PHP-разработчик</a>
+		</div>
+		
+		<div class="job_item">
+			<a href="http://hantim.ru/jobs/10580-javascript-razrabotchik">JavaScript-разработчик</a>
+		</div>
+		
+		<div class="job_item">
+			<a href="http://hantim.ru/jobs/10579-php-razrabotchik">PHP разработчик</a>
+		</div>
+		
+		<div class="job_item">
+			<a href="http://hantim.ru/jobs/10575-programmist-razrabotchik-web-lamp">Программист-разработчик Web (LAMP)</a>
+		</div>
+		
+		<div class="job_item">
+			<a href="http://hantim.ru/jobs/10570-php-programmist">PHP-программист</a>
+		</div>
+		
+		<div class="job_item">
+			<a href="http://hantim.ru/jobs/8766-razrabotchik-ruby-on-rails">Разработчик Ruby on Rails</a>
+		</div>
+		
+		<div class="job_item">
+			<a href="http://hantim.ru/jobs/10567-starshiy-php-razrabotchik">Старший PHP-разработчик</a>
+		</div>
+		
+		<div class="job_item">
+			<a href="http://hantim.ru/jobs/9062-senior-php-developer">Senior PHP developer</a>
+		</div>
+		
+  </div>
+  <div class="all">« <a href="http://hantim.ru/">все вакансии</a></div>
+
+	</div>
+
+		
+		
+
+		
+
+
+<div class="block similar_events">
+	<div class="title">Ближайшие события</div>
+		<div class="events_items">
+			
+				<div class="event_item">
+					
+						<div class="date">
+						<div class="dayname dayname_5"></div>
+						<div class="day">21</div>
+						<div class="month">сен</div>
+						</div>
+					
+					<div class="title">
+						<a href="http://habrahabr.ru/events/896/">Zabbix Conference 2012 : Последние тенденции и решения в области мониторинга ИТ инфраструктуры</a>
+					</div>
+				</div>
+			
+				<div class="event_item">
+					
+						<div class="date">
+						<div class="dayname dayname_6"></div>
+						<div class="day">22</div>
+						<div class="month">сен</div>
+						</div>
+					
+					<div class="title">
+						<a href="http://habrahabr.ru/events/926/">Конференция для специалистов в сфере разработки игр Get IT!</a>
+					</div>
+				</div>
+			
+				<div class="event_item">
+					
+						<div class="date">
+						<div class="dayname dayname_6"></div>
+						<div class="day">22</div>
+						<div class="month">сен</div>
+						</div>
+					
+					<div class="title">
+						<a href="http://habrahabr.ru/events/953/">Встреча юзер-группы GetDev: Обзор новой платформы ASP.NET MVC 4</a>
+					</div>
+				</div>
+			
+				<div class="event_item">
+					
+						<div class="date">
+						<div class="dayname dayname_6"></div>
+						<div class="day">22</div>
+						<div class="month">сен</div>
+						</div>
+					
+					<div class="title">
+						<a href="http://habrahabr.ru/events/998/">Нарисуй свой мир @ Dnipro mapping party!</a>
+					</div>
+				</div>
+			
+				<div class="event_item">
+					
+						<div class="date">
+						<div class="dayname dayname_0"></div>
+						<div class="day">23</div>
+						<div class="month">сен</div>
+						</div>
+					
+					<div class="title">
+						<a href="http://habrahabr.ru/events/919/">Тренинг «Практика разработки требований к ПО»</a>
+					</div>
+				</div>
+			
+		</div>
+	<div class="all">« <a href="http://habrahabr.ru/events/">все события</a></div>
+</div>
+
+
+		
+	
+  </div>
+  <div class="clear"></div>
+
+			
+	
+	
+	<div class="rotated_posts">
+		
+			<div class="rotated_post ">
+				<a href="http://habrahabr.ru/post/147843/" class="grey">Как распознать кракозябры?</a>
+			</div>
+		
+			<div class="rotated_post ">
+				<a href="http://habrahabr.ru/post/144043/" class="grey">Ремонтируем монитор содой!</a>
+			</div>
+		
+			<div class="rotated_post last">
+				<a href="http://habrahabr.ru/post/143682/" class="grey">Тесла-пушка</a>
+			</div>
+		
+	</div>
+	
+
+		  <div id="footer">
+      
+			
+			<dl>
+				<dd><a href="http://habrahabr.ru/login/">Войти</a></dd>
+				<dd><a href="http://habrahabr.ru/register/">Регистрация</a></dd>
+			</dl>
+			
+			<dl>
+				<dt>Разделы</dt>
+
+				<dd><a href="http://habrahabr.ru/qa/">Q&amp;A</a></dd>
+				<dd><a href="http://habrahabr.ru/hubs/">Хабы</a></dd>
+				<dd><a href="http://habrahabr.ru/events/">События</a></dd>
+				<dd><a href="http://habrahabr.ru/companies/">Компании</a></dd>
+				<dd><a href="http://habrahabr.ru/job/">Работа</a></dd>
+				<dd><a href="http://habrahabr.ru/users/">Пользователи</a></dd>
+			</dl>
+			<dl>
+				<dt>Посты</dt>
+				
+				<dd><a href="http://habrahabr.ru/posts/top/">Лучшие</a></dd>
+				<dd><a href="http://habrahabr.ru/posts/collective/">Тематические</a></dd>
+				<dd><a href="http://habrahabr.ru/posts/corporative/">Корпоративные</a></dd>
+				<dd><a href="http://habrahabr.ru/sandbox/">Песочница</a></dd>
+			</dl>
+			<dl>
+				<dt>Инфо</dt>
+				<dd><a href="http://habrahabr.ru/info/about/">О сайте</a></dd>
+				<dd><a href="http://habrahabr.ru/info/help/rules/">Правила</a></dd>
+				<dd><a href="http://habrahabr.ru/info/help/">Помощь</a></dd>
+				<dd><a href="http://habrahabr.ru/info/agreement/">Соглашение</a></dd>
+				<dd><a href="http://habrahabr.ru/info/stats/">Статистика</a></dd>
+			</dl>
+			<dl>
+				<dt>Услуги</dt>
+				<dd><a href="http://habrahabr.ru/info/advertising/">Реклама</a></dd>
+				<dd><a href="http://habrahabr.ru/info/advertising/corporate/">Корпоративные пакеты</a></dd>
+				<dd><a href="http://habrahabr.ru/info/advertising/workshops/">Семинары</a></dd>
+			</dl>
+      <div class="copyright">
+    		<a class="footer_logo" href="http://thematicmedia.ru/">Тематические Медиа</a>
+    		<div class="about">
+    			© 2006–2012<br>
+    			«<a href="http://www.thematicmedia.ru/">Тематические Медиа</a>»
+			<br><br>
+			<a href="http://habrahabr.ru/feedback/">Служба поддержки</a><br><br>
+			<a href="http://m.habrahabr.ru/">Мобильная версия</a>
+		</div>
+      </div>
+
+</div>
+		</div>
+	 	
+		
+    
+		
+		
+    <script type="text/javascript">
+      $(document).ready(function(){
+        // test gggg
+        // настройки всплывающих уведомлений
+        $.jGrowl.defaults.closerTemplate = '<div>Закрыть все уведомления</div>';         
+        
+        // настройки тултипов
+        $(".help-tip").tipTip({maxWidth: "300px", edgeOffset: 10});  
+        
+      });
+      // global vars
+      var g_base_url = 'habrahabr.ru';
+      var g_show_xpanel = false;
+      var g_base_fullurl = 'http://habrahabr.ru/';
+      var g_is_guest = false;
+       
+    </script>
+		
+    <script type="text/javascript" src="%D0%A1%D0%BE%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5%20%D1%84%D0%BE%D1%80%D1%83%D0%BC%D0%B0%20%D0%BD%D0%B0%20drupal%20_%20%D0%A5%D0%B0%D0%B1%D1%80%D0%B0%D1%85%D0%B0%D0%B1%D1%80_files/shortcuts.js"></script>
+		<script type="text/javascript" src="%D0%A1%D0%BE%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5%20%D1%84%D0%BE%D1%80%D1%83%D0%BC%D0%B0%20%D0%BD%D0%B0%20drupal%20_%20%D0%A5%D0%B0%D0%B1%D1%80%D0%B0%D1%85%D0%B0%D0%B1%D1%80_files/to_top.js"></script>
+		<link href="%D0%A1%D0%BE%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5%20%D1%84%D0%BE%D1%80%D1%83%D0%BC%D0%B0%20%D0%BD%D0%B0%20drupal%20_%20%D0%A5%D0%B0%D0%B1%D1%80%D0%B0%D1%85%D0%B0%D0%B1%D1%80_files/_to_top.css" rel="stylesheet" media="all">
+
+		
+			<link href="%D0%A1%D0%BE%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5%20%D1%84%D0%BE%D1%80%D1%83%D0%BC%D0%B0%20%D0%BD%D0%B0%20drupal%20_%20%D0%A5%D0%B0%D0%B1%D1%80%D0%B0%D1%85%D0%B0%D0%B1%D1%80_files/facebook_reader.css" rel="stylesheet" type="text/css">
+			<script src="%D0%A1%D0%BE%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5%20%D1%84%D0%BE%D1%80%D1%83%D0%BC%D0%B0%20%D0%BD%D0%B0%20drupal%20_%20%D0%A5%D0%B0%D0%B1%D1%80%D0%B0%D1%85%D0%B0%D0%B1%D1%80_files/facebook_reader.js" type="text/javascript"></script>
+			<script type="text/javascript">
+				$(document).ready(function(){
+					new FacebookReader(
+						$('#facebook_reader'),
+						'437464306275519'
+					);
+				});
+			</script>
+		
+		
+		<script type="text/javascript" src="%D0%A1%D0%BE%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5%20%D1%84%D0%BE%D1%80%D1%83%D0%BC%D0%B0%20%D0%BD%D0%B0%20drupal%20_%20%D0%A5%D0%B0%D0%B1%D1%80%D0%B0%D1%85%D0%B0%D0%B1%D1%80_files/float_block.js"></script>
+		
+		
+
+		<!-- <script type="text/javascript" src="/javascripts/1348133103/_parts/float_block.js"></script> //-->
+		
+			
+<script type="text/javascript">
+	/*<![CDATA[*/
+	var ga = document.createElement('script');
+		ga.setAttribute('async', 'true');
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	/* ]]>*/
+</script>
+
+<script type="text/javascript">
+	var _gaq = _gaq || [];
+	_gaq.push(
+	    ['_setAccount', 'UA-726094-1'],
+	    ['_setDomainName', '.habrahabr.ru'],
+	    ["_addOrganic", "mail.ru", "q"],
+	    ["_addOrganic","rambler.ru", "words"],
+	    ["_addOrganic","nigma.ru", "s"],
+	    ["_addOrganic","blogs.yandex.ru", "text"],
+	    ["_addOrganic","webalta.ru", "q"],
+	    ["_addOrganic","aport.ru", "r"],
+	    ["_addOrganic","akavita.by", "z"],
+	    ["_addOrganic","meta.ua", "q"],
+	    ["_addOrganic","bigmir.net", "q"],
+	    ["_addOrganic","tut.by", "query"],
+	    ["_addOrganic","all.by", "query"],
+	    ["_addOrganic","i.ua", "q"],
+	    ["_addOrganic","online.ua", "q"],
+	    ["_addOrganic","a.ua", "s"],
+	    ["_addOrganic","ukr.net", "search_query"],
+	    ["_addOrganic","search.com.ua", "q"],
+	    ["_addOrganic","search.ua", "query"],
+	    ["_addOrganic","poisk.ru", "text"],
+	    ["_addOrganic","km.ru", "sq"],
+	    ["_addOrganic","liveinternet.ru", "ask"],
+	    ["_addOrganic","gogo.ru", "q"],
+	    ["_addOrganic","gde.ru", "keywords"],
+	    ["_addOrganic","quintura.ru", "request"],
+	    ['_trackPageview']
+	);
+	document.documentElement.firstChild.appendChild(ga);
+</script>	
+		
+		
+		
+	
+
+<div id="AutocompleteContainter_23bf1" style="position: absolute; z-index: 9999; top: 141px; left: 712px;"><div class="autocomplete-w1"><div class="autocomplete" id="Autocomplete_23bf1" style="display: none; width: 300px; max-height: 400px;"></div></div></div><div id="AutocompleteContainter_46200" style="position: absolute; z-index: 9999; top: 0px; left: 0px;"><div class="autocomplete-w1"><div class="autocomplete" id="Autocomplete_46200" style="display: none; width: 300px; max-height: 400px;"></div></div></div><div id="tiptip_holder" style="max-width:300px;"><div id="tiptip_arrow"><div id="tiptip_arrow_inner"></div></div><div id="tiptip_content"></div></div><div class="to_top mini"><div class="to_top_panel" title="Наверх"><div class="to_top_button"><span class="arrow">↑</span> <span class="label">наверх</span></div>  </div></div><iframe style="width: 10px; height: 10px; position: absolute; top: -10000px; left: -10000px;" src="%D0%A1%D0%BE%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5%20%D1%84%D0%BE%D1%80%D1%83%D0%BC%D0%B0%20%D0%BD%D0%B0%20drupal%20_%20%D0%A5%D0%B0%D0%B1%D1%80%D0%B0%D1%85%D0%B0%D0%B1%D1%80_files/0.html"></iframe><div class=" fb_reset" id="fb-root"><div style="position: absolute; top: -10000px; height: 0px; width: 0px;"><div><iframe src="%D0%A1%D0%BE%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5%20%D1%84%D0%BE%D1%80%D1%83%D0%BC%D0%B0%20%D0%BD%D0%B0%20drupal%20_%20%D0%A5%D0%B0%D0%B1%D1%80%D0%B0%D1%85%D0%B0%D0%B1%D1%80_files/xd_arbiter.html" name="fb_xdm_frame_http" id="fb_xdm_frame_http"></iframe><iframe src="%D0%A1%D0%BE%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5%20%D1%84%D0%BE%D1%80%D1%83%D0%BC%D0%B0%20%D0%BD%D0%B0%20drupal%20_%20%D0%A5%D0%B0%D0%B1%D1%80%D0%B0%D1%85%D0%B0%D0%B1%D1%80_files/xd_arbiter_002.html" name="fb_xdm_frame_https" id="fb_xdm_frame_https"></iframe></div><div></div></div></div></body></html>

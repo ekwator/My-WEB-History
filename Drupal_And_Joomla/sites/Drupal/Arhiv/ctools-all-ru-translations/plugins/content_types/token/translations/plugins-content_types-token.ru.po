@@ -1,0 +1,37 @@
+# Russian translation of ctools (all releases)
+# Copyright (c) 2013 by the Russian translation team
+# Generated from file: ctools/plugins/content_types/token/token.inc: n/a
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: ctools (all releases)\n"
+"POT-Creation-Date: 2013-05-29 14:25+0400\n"
+"PO-Revision-Date: 2010-08-12 01:50+0400\n"
+"Language-Team: Russian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=((((n%10)==1)&&((n%100)!=11))?(0):(((((n%10)>=2)&&((n%10)<=4))&&(((n%100)<10)||((n%100)>=20)))?(1):2));\n"
+
+#: plugins/content_types/token/token.inc:12,12,12,12,12,12,12
+msgid "Tokens"
+msgstr "Маркеры"
+
+#: plugins/content_types/token/token.inc:44,44,44,44,44,44,44
+msgid "@entity (tokens)"
+msgstr ""
+
+#: plugins/content_types/token/token.inc:95,95,95,95,95,95,95
+msgid "Sanitize"
+msgstr ""
+
+#: plugins/content_types/token/token.inc:96,96,96,96,96,96,96
+msgid ""
+"When enabled that output of the token will be stripped from dangerous "
+"HTML."
+msgstr ""
+
+#: plugins/content_types/token/token.inc:114,114,114,114,114,114,114
+msgid "\"@s\" @name"
+msgstr ""
+

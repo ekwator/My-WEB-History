@@ -1,0 +1,220 @@
+# Russian translation of ctools (all releases)
+# Copyright (c) 2013 by the Russian translation team
+# Generated from files:
+#  ctools/plugins/arguments/nid.inc: n/a
+#  nid.inc,v 1.8.2.3 2010/01/29 20:18:25 merlinofchaos
+#  ctools/plugins/arguments/term.inc: n/a
+#  term.inc,v 1.6.2.4 2010/07/05 19:22:35 merlinofchaos
+#  ctools/plugins/arguments/node_add.inc: n/a
+#  node_add.inc,v 1.3.2.3 2010/01/29 20:18:25 merlinofchaos
+#  node_add.inc,v 1.3.2.4 2010/10/15 22:56:47 merlinofchaos
+#  ctools/plugins/arguments/node_edit.inc: n/a
+#  node_edit.inc,v 1.5.2.3 2010/01/29 20:18:25 merlinofchaos
+#  ctools/plugins/arguments/uid.inc: n/a
+#  uid.inc,v 1.9.2.2 2010/01/29 20:18:25 merlinofchaos
+#  ctools/plugins/arguments/vid.inc: n/a
+#  vid.inc,v 1.4.2.3 2010/01/29 20:18:25 merlinofchaos
+#  ctools/plugins/arguments/string.inc: n/a
+#  string.inc,v 1.3.2.3 2010/01/29 20:18:25 merlinofchaos
+#  ctools/plugins/arguments/terms.inc: n/a
+#  terms.inc,v 1.3.2.3 2010/01/29 20:18:25 merlinofchaos
+#  ctools/plugins/arguments/user_name.inc: n/a
+#  user_name.inc,v 1.1.2.2 2010/01/29 20:18:25 merlinofchaos
+#  ctools/plugins/arguments/rid.inc: n/a
+#  rid.inc,v 1.1.2.1 2010/10/15 21:12:58 merlinofchaos
+#  ctools/plugins/arguments/entity_id.inc: n/a
+#  ctools/plugins/arguments/user_edit.inc: n/a
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: ctools (all releases)\n"
+"POT-Creation-Date: 2013-05-29 14:25+0400\n"
+"PO-Revision-Date: 2010-07-28 16:53+0400\n"
+"Language-Team: Russian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=((((n%10)==1)&&((n%100)!=11))?(0):(((((n%10)>=2)&&((n%10)<=4))&&(((n%100)<10)||((n%100)>=20)))?(1):2));\n"
+
+#: plugins/arguments/nid.inc:14,14,15,15,14,14,14,14,15,14,14,14,14
+msgid "Node: ID"
+msgstr "Материал: ID"
+
+#: plugins/arguments/term.inc:86,81,82,86,82,82,81,86,90,90,90,82,90,81,90,81
+msgid "Argument type"
+msgstr "Тип аргумента"
+
+#: plugins/arguments/nid.inc:16,16,17,17,16,16,16,16,17,16,16,16,16
+msgid "Creates a node context from a node ID argument."
+msgstr ""
+
+#: plugins/arguments/node_add.inc:17,17,18,18,17,17,17,17,18,17,17,17,17
+msgid "Creates a node add form context from a node type argument."
+msgstr ""
+
+#: plugins/arguments/node_edit.inc:17,17,18,18,17,17,17,17,18,17,17,17,17
+msgid "Creates a node edit form context from a node ID argument."
+msgstr ""
+
+#: plugins/arguments/term.inc:17,17,17,18,18,17,17,17,18,17,17,17,17
+msgid ""
+"Creates a single taxonomy term from a taxonomy ID or taxonomy term "
+"name."
+msgstr ""
+
+#: plugins/arguments/uid.inc:17,17,17,18,18,17,17,17,18,17,17,17,17
+msgid "Creates a user context from a user ID argument."
+msgstr ""
+
+#: plugins/arguments/vid.inc:17,17,17,18,18,17,17,17,18,17,17,17,17
+msgid "Creates a vocabulary context from a vocabulary ID argument."
+msgstr ""
+
+#: plugins/arguments/uid.inc:14,14,14,15,15,14,14,14,15,14,14,14,14
+msgid "User: ID"
+msgstr "Пользователь: ID"
+
+#: plugins/arguments/string.inc:16,16,17,17,16,16,16,16,17,16,16,16,16
+msgid ""
+"A string is a minimal context that simply holds a string that can be "
+"used for some other purpose."
+msgstr ""
+
+#: plugins/arguments/terms.inc:17,17,17,18,18,17,17,17,18,17,17,17,17
+msgid ""
+"Creates a group of taxonomy terms from a list of tids separated by a "
+"comma or a plus sign. In general the first term of the list will be "
+"used for panes."
+msgstr ""
+
+#: plugins/arguments/string.inc:21,21,22,22,21,21,21,21,22,21,21,21,21
+msgid "Enter a value for this argument"
+msgstr "Введите значение этого аргумента."
+
+#: plugins/arguments/term.inc:119,121,125,120,120,125,119,125,135,135,135,120,135,119,135,119
+msgid "Enter a taxonomy term ID."
+msgstr ""
+
+#: plugins/arguments/term.inc:124,126,130,125,125,130,124,130,140,140,140,125,140,124,140,124
+msgid "Enter a taxonomy term name."
+msgstr ""
+
+#: plugins/arguments/uid.inc:21,21,21,22,22,21,21,21,22,21,21,21,21
+msgid "Enter the user ID of a user for this argument"
+msgstr ""
+
+#: plugins/arguments/vid.inc:21,21,21,22,22,21,21,21,22,21,21,21,21
+msgid "Enter the vocabulary ID for this argument"
+msgstr ""
+
+#: plugins/arguments/terms.inc:23,23,23,24,24,23,23,23,24,23,23,23,23
+msgid "Enter a term ID or a list of term IDs separated by a + or a ,"
+msgstr ""
+"Введите ID одного термина, либо ID "
+"нескольких терминов, разделённых "
+"запятыми или знаком \"+\"."
+
+#: plugins/arguments/term.inc:103,104,108,104,104,108,103,108,112,112,112,104,112,103,112,103
+msgid "Inject hierarchy into breadcrumb trail"
+msgstr ""
+"Внедряет иерархию в навигационную "
+"линейку"
+
+#: plugins/arguments/node_add.inc:14,14,15,15,14,14,14,14,15,14,14,14,14
+msgid "Node add form: node type"
+msgstr ""
+
+#: plugins/arguments/node_edit.inc:14,14,15,15,14,14,14,14,15,14,14,14,14
+msgid "Node edit form: node ID"
+msgstr ""
+
+#: plugins/arguments/term.inc:14,14,14,15,15,14,14,14,15,14,14,14,14
+msgid "Taxonomy term: ID"
+msgstr ""
+
+#: plugins/arguments/terms.inc:14,14,14,15,15,14,14,14,15,14,14,14,14
+msgid "Taxonomy term (multiple): ID"
+msgstr ""
+
+#: plugins/arguments/user_name.inc:14,14,14,15,15,14,14,14,15,14,14,14,14
+msgid "User: name"
+msgstr "Пользователь: имя"
+
+#: plugins/arguments/user_name.inc:17,17,17,18,18,17,17,17,18,17,17,17,17
+msgid "Creates a user context from a user name."
+msgstr ""
+
+#: plugins/arguments/user_name.inc:21,21,21,22,22,21,21,21,22,21,21,21,21
+msgid "Enter the username of a user for this argument"
+msgstr ""
+
+#: plugins/arguments/vid.inc:14,14,14,15,15,14,14,14,15,14,14,14,14
+msgid "Vocabulary: ID"
+msgstr "Словарь: ID"
+
+#: plugins/arguments/string.inc:46,46,47,47,46,46,46,46,47,46,46,46,46
+msgid "Get all arguments after this one"
+msgstr ""
+
+#: plugins/arguments/string.inc:49,49,50,50,49,49,49,49,50,49,49,49,49
+msgid ""
+"If checked, this string will include all arguments. For example, if "
+"the path is \"path/%\" and the user visits \"path/foo/bar\", if this "
+"is not checked the string will be \"foo\". If it is checked the string "
+"will be \"foo/bar\"."
+msgstr ""
+
+#: plugins/arguments/term.inc:100,95,96,100,96,96,95,100,104,104,104,96,104,95,104,95
+msgid "Limit to these vocabularies"
+msgstr ""
+
+#: plugins/arguments/term.inc:104,99,100,104,100,100,99,104,108,108,108,100,108,99,108,99
+msgid ""
+"If no vocabularies are checked, terms from all vocabularies will be "
+"accepted."
+msgstr ""
+
+#: plugins/arguments/rid.inc:14,14,15,14,14,14,14,15,14,14,14,14
+msgid "Revision: ID"
+msgstr ""
+
+#: plugins/arguments/rid.inc:16,16,17,16,16,16,16,17,16,16,16,16
+msgid "Creates a node context from a revision ID argument."
+msgstr ""
+
+#: plugins/arguments/rid.inc:20,20,21,20,20,20,20,21,20,20,20,20
+msgid "Enter the revision ID of a node for this argument"
+msgstr ""
+
+#: plugins/arguments/entity_id.inc:14,14,14,14,14,14,14,14
+msgid "Entity: ID"
+msgstr ""
+
+#: plugins/arguments/entity_id.inc:15,15,15,15,15,15,15,15
+msgid "Creates an entity context from an entity ID argument."
+msgstr ""
+
+#: plugins/arguments/entity_id.inc:30,31,31,31,31,31,31,31
+msgid "@entity: ID"
+msgstr ""
+
+#: plugins/arguments/entity_id.inc:33,32,33,33,33,33,33,33
+msgid "Creates @entity context from an ID argument."
+msgstr ""
+
+#: plugins/arguments/term.inc:119,119,119,119,119
+msgid "Transform dashes in URL to spaces in term name filter values"
+msgstr ""
+
+#: plugins/arguments/user_edit.inc:14,14,14,14,14
+msgid "User edit form: User ID"
+msgstr ""
+
+#: plugins/arguments/user_edit.inc:17,17,17,17,17
+msgid "Creates a user edit form context from a user ID argument."
+msgstr ""
+
+#: plugins/arguments/user_edit.inc:21,21,21,21,21
+msgid "Enter the user ID for this argument."
+msgstr ""
+

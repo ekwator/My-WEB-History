@@ -1,0 +1,41 @@
+<?php
+// $Id: live_translation.install,v 1.4 2009/06/07 03:33:33 brmassa Exp $
+/**
+ * @author Bruno Massa
+ * @file
+ *  Live Translation (un)install functions
+ */
+
+function live_translation_uninstall() {
+  // Delete global variables
+  variable_del('live_translation_servers');
+  variable_del('live_translation_import_status');
+  variable_del('live_translation_import_time');
+  variable_del('live_translation_update_time');
+  variable_del('live_translation_update_untranslated');
+}
+
+/**
+ * Implementation of hook_requirements().
+ */
+function live_translation_requirements($phase) {
+  if ($phase == 'runtime') {
+    module_load_include('inc', 'live_translation');
+    $requirements['live_translation']['title']        = t('Translation updates');
+    switch (_live_translation_status(TRUE)) {
+      case LIVE_TRANSLATION_STATUS_OUTDATE:
+        $requirements['live_translation']['value']        = t('New translations available');
+        $requirements['live_translation']['severity']     = REQUIREMENT_ERROR;
+        $requirements['live_translation']['description']  = t('There are new strings translated on the translation servers. Go to !translation_status_page.', array('!translation_status_page' => l('translation status page', 'admin/reports/live-translation')));
+        break;
+      case LIVE_TRANSLATION_STATUS_UNKNOWN:
+        $requirements['live_translation']['value']        = t('No update data available');
+        $requirements['live_translation']['severity']     = REQUIREMENT_WARNING;
+        $requirements['live_translation']['description']  = t('There is a long time you do not check the translation status with the server. Configure cron or !check_it_now.', array('!check_it_now' => l('check it now', 'admin/reports/live-translation/update')));
+        break;
+      default:
+        $requirements['live_translation']['value']        = t('Up to date');
+    }
+    return $requirements;
+  }
+}

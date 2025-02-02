@@ -1,0 +1,56 @@
+<?php
+/**
+ * @file
+ * Node gallery hierarchy install file. 
+ */
+
+/**
+ * Implements hook_schema_alter()
+ *
+ * @return unknown
+ */
+function node_gallery_hierarchy_schema_alter(&$schema) {
+  $schema['node_gallery_galleries']['fields']['parent'] = array(
+    'type' => 'int',
+    'not null' => TRUE,
+    'unsigned' => TRUE,
+    'description' => t('Node Gallery Gallery Parent ID.'),
+    'default' => 0,
+  );
+  $schema['node_gallery_galleries']['fields']['weight'] = array(
+    'type' => 'int',
+    'not null' => TRUE,
+    'default' => 0,
+    'size' => 'tiny',
+    'description' => 'The weight of this term in relation to other terms.',
+  );
+  $schema['node_gallery_galleries']['indexes']['parent'] = array('parent');
+}
+
+/*
+ * Implements hook_uninstall
+*/
+function node_gallery_hierarchy_uninstall() {
+  $ret = array();
+  $table = 'node_gallery_galleries';
+  db_drop_field($ret, $table, 'parent');
+  db_drop_field($ret, $table, 'weight');
+  return $ret;
+}
+
+/*
+ * Implements hook_install
+*/
+function node_gallery_hierarchy_install() {
+  $ret = array();
+  $table = 'node_gallery_galleries';  
+  $schema = array();
+  node_gallery_hierarchy_schema_alter($schema);
+  db_add_field($ret, $table, 'parent', $schema[$table]['fields']['parent']);
+  db_add_field($ret, $table, 'weight', $schema[$table]['fields']['weight']);
+  db_add_index($ret, $table, 'parent', array('parent'));  
+  // set module weight in system table
+  $weight = db_result(db_query("SELECT weight FROM {system} WHERE name = 'node_gallery' AND type = 'module'"));
+  db_query("UPDATE {system} SET weight = %d WHERE name = 'node_gallery_hierarchy' AND type = 'module'", $weight + 1);
+  return $ret;
+}

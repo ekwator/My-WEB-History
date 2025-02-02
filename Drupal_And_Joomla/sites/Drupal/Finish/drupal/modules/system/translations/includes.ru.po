@@ -1,0 +1,2267 @@
+# Russian translation of drupal (6.26)
+# Copyright (c) 2012 by the Russian translation team
+# Generated from files:
+#  drupal-6.26/includes/common.inc: n/a
+#  drupal-6.26/includes/database.pgsql.inc: n/a
+#  drupal-6.26/includes/file.inc: n/a
+#  drupal-6.26/includes/form.inc: n/a
+#  drupal-6.26/includes/image.inc: n/a
+#  drupal-6.26/includes/image.gd.inc: n/a
+#  drupal-6.26/includes/locale.inc: n/a
+#  drupal-6.26/includes/menu.inc: n/a
+#  drupal-6.26/includes/pager.inc: n/a
+#  drupal-6.26/includes/theme.inc: n/a
+#  drupal-6.26/includes/unicode.inc: n/a
+#  drupal-6.26/includes/xmlrpcs.inc: n/a
+#  drupal-6.26/includes/actions.inc: n/a
+#  drupal-6.26/includes/mail.inc: n/a
+#  drupal-6.26/includes/tablesort.inc: n/a
+#  drupal-6.26/includes/xmlrpc.inc: n/a
+#  drupal-6.26/includes/batch.inc: n/a
+#  drupal-6.26/includes/module.inc: n/a
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: drupal (6.26)\n"
+"POT-Creation-Date: 2012-08-14 02:56-0400\n"
+"PO-Revision-Date: 2011-07-02 13:25-0400\n"
+"Language-Team: Russian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=((((n%10)==1)&&((n%100)!=11))?(0):(((((n%10)>=2)&&((n%10)<=4))&&(((n%100)<10)||((n%100)>=20)))?(1):2));\n"
+
+#: includes/common.inc:392
+msgid "Page not found"
+msgstr "Страница не найдена"
+
+#: includes/common.inc:422
+msgid "Access denied"
+msgstr "Доступ запрещен"
+
+#: includes/common.inc:423
+msgid "You are not authorized to access this page."
+msgstr "У вас нет доступа к этой странице."
+
+#: includes/common.inc:697
+msgid "%message in %file on line %line."
+msgstr "%message в файле %file в строке %line."
+
+#: includes/common.inc:1287
+msgid "KB"
+msgstr "КБ"
+
+#: includes/common.inc:1292
+msgid "@size @suffix"
+msgstr "@size @suffix"
+
+#: includes/common.inc:1324
+msgid "0 sec"
+msgstr "0 сек"
+
+#: includes/common.inc:2768
+msgid "Cron has been running for more than an hour and is most likely stuck."
+msgstr ""
+"Время выполнения регулярных процедур "
+"превысило час, скорее всего это "
+"зависание."
+
+#: includes/common.inc:2775
+msgid "Attempting to re-run cron while it is already running."
+msgstr ""
+"Попытка перезапуска выполнения "
+"регулярных процедур (cron) в то время, "
+"как они уже выполняются."
+
+#: includes/common.inc:2790
+msgid "Cron run completed."
+msgstr ""
+"Выполнение регулярных процедур (cron) "
+"окончено."
+
+#: includes/common.inc:2806
+msgid "Cron run exceeded the time limit and was aborted."
+msgstr ""
+"Выполнение регулярных процедур (cron) "
+"превысило отведенное время и было "
+"прервано."
+
+#: includes/common.inc:1283
+msgid "1 byte"
+msgid_plural "@count bytes"
+msgstr[0] "@count байт"
+msgstr[1] "@count байта"
+msgstr[2] "@count[2] байт"
+
+#: includes/common.inc:0
+msgid "1 year"
+msgid_plural "@count years"
+msgstr[0] "@count год"
+msgstr[1] "@count года"
+msgstr[2] "@count[2] лет"
+
+#: includes/common.inc:0
+msgid "1 week"
+msgid_plural "@count weeks"
+msgstr[0] "@count неделя"
+msgstr[1] "@count недели"
+msgstr[2] "@count[2] недель"
+
+#: includes/common.inc:0
+msgid "1 day"
+msgid_plural "@count days"
+msgstr[0] "@count день"
+msgstr[1] "@count дня"
+msgstr[2] "@count[2] дней"
+
+#: includes/common.inc:0
+msgid "1 hour"
+msgid_plural "@count hours"
+msgstr[0] "@count час"
+msgstr[1] "@count часа"
+msgstr[2] "@count[2] часов"
+
+#: includes/common.inc:0
+msgid "1 min"
+msgid_plural "@count min"
+msgstr[0] "@count мин."
+msgstr[1] "@count мин."
+msgstr[2] "@count[2] мин."
+
+#: includes/common.inc:0
+msgid "1 sec"
+msgid_plural "@count sec"
+msgstr[0] "@count сек."
+msgstr[1] "@count сек."
+msgstr[2] "@count[2] сек."
+
+#: includes/database.pgsql.inc:28
+msgid ""
+"Your PostgreSQL Server is too old. Drupal requires at least PostgreSQL "
+"%version."
+msgstr ""
+"Ваш сервер PostgreSQL устарел. Drupal требует "
+"как минимум PostgreSQL %version."
+
+#: includes/database.pgsql.inc:419
+msgid ""
+"Your PostgreSQL database is set up with the wrong character encoding "
+"(%encoding). It is possible it will not work as expected. It is "
+"advised to recreate it with UTF-8/Unicode encoding. More information "
+"can be found in the <a href=\"@url\">PostgreSQL documentation</a>."
+msgstr ""
+"Для вашей базы данных PostgreSQL "
+"установлена неправильная кодировка "
+"(%encoding). Скорее всего, все будет "
+"работать не так, как ожидается, "
+"поэтому рекомендуется конвертировать "
+"базу данных, используя кодировку "
+"UTF-8/Unicode. Дополнительную информацию "
+"можно найти в <a href=\"@url\">документации "
+"по PostgreSQL</a>."
+
+#: includes/file.inc:128
+msgid ""
+"The permissions of directory %directory have been changed to make it "
+"writable."
+msgstr ""
+"Права доступа для каталога %directory "
+"изменены, чтобы разрешить запись в "
+"него."
+
+#: includes/file.inc:131
+msgid "The directory %directory is not writable"
+msgstr "Каталог %directory закрыт для записи."
+
+#: includes/file.inc:132
+msgid ""
+"The directory %directory is not writable, because it does not have the "
+"correct permissions set."
+msgstr ""
+"Каталог %directory закрыт для записи, "
+"поскольку не имеет корректно "
+"установленных прав доступа."
+
+#: includes/file.inc:145,146
+msgid ""
+"Security warning: Couldn't write .htaccess file. Please create a "
+".htaccess file in your %directory directory which contains the "
+"following lines: <code>!htaccess</code>"
+msgstr ""
+"Предупреждение безопасности: "
+"Невозможно записать файл .htaccess. "
+"Создайте этот файл вручную в каталоге "
+"%directory и внесите в него следующие "
+"строки:\r\n"
+"<code>!htaccess</code>"
+
+#: includes/file.inc:559
+msgid ""
+"The file %file could not be saved, because the upload did not "
+"complete."
+msgstr ""
+"Файл %file не удается сохранить, "
+"поскольку закачка не была завершена."
+
+#: includes/file.inc:564
+msgid "The file %file could not be saved. An unknown error has occurred."
+msgstr ""
+"Файл %file не удается сохранить. "
+"Возникла неизвестная ошибка."
+
+#: includes/file.inc:630
+msgid "File upload error. Could not move uploaded file."
+msgstr ""
+"Ошибка закачки файла. Невозможно "
+"переместить закачанный файл."
+
+#: includes/file.inc:243
+msgid ""
+"The selected file %file could not be uploaded, because the destination "
+"%directory is not properly configured."
+msgstr ""
+"Выбранный файл %file не удается "
+"закачать, поскольку каталог "
+"назначения %directory неверно "
+"сконфигурирован."
+
+#: includes/file.inc:244
+msgid ""
+"The selected file %file could not be uploaded, because the destination "
+"%directory could not be found, or because its permissions do not allow "
+"the file to be written."
+msgstr ""
+"Выбранный файл %file не удается "
+"закачать, поскольку запрещена запись "
+"в каталог %directory, либо он вовсе не "
+"существует."
+
+#: includes/file.inc:259
+msgid ""
+"The selected file %file could not be copied, because no file by that "
+"name exists. Please check that you supplied the correct filename."
+msgstr ""
+"Выбранный файл %file не удается "
+"скопировать, поскольку не найден файл "
+"с таким именем. Проверьте "
+"правильность указанного имени файла."
+
+#: includes/file.inc:272,323
+msgid ""
+"The selected file %file could not be copied, because a file by that "
+"name already exists in the destination."
+msgstr ""
+"Выбранный файл %file не удается "
+"скопировать, поскольку файл с таким "
+"именем уже существует в месте "
+"назначения."
+
+#: includes/file.inc:277
+msgid "The selected file %file could not be copied."
+msgstr ""
+"Выбранный файл %file не может быть "
+"скопирован."
+
+#: includes/file.inc:364
+msgid "The removal of the original file %file has failed."
+msgstr ""
+"При удалении оригинального файла %file "
+"произошла ошибка."
+
+#: includes/file.inc:818
+msgid "The file could not be created."
+msgstr "Невозможно создать файл."
+
+#: includes/form.inc:696
+msgid "!name field is required."
+msgstr "Поле !name обязательно для заполнения."
+
+#: includes/form.inc:701
+msgid ""
+"!name cannot be longer than %max characters but is currently %length "
+"characters long."
+msgstr ""
+"!name не может быть более %max знаков, "
+"сейчас его длина %length знаков."
+
+#: includes/form.inc:716
+msgid "Illegal choice %choice in !name element."
+msgstr "Неверный выбор %choice в элементе !name."
+
+#: includes/form.inc:1622
+msgid "Confirm password"
+msgstr "Повторите пароль"
+
+#: includes/form.inc:1645
+msgid "The specified passwords do not match."
+msgstr "Указанные пароли не совпадают."
+
+#: includes/form.inc:1649
+msgid "Password field is required."
+msgstr "Поле пароля нужно заполнить."
+
+#: includes/form.inc:1730
+msgid "The specified date is invalid."
+msgstr "Указанная дата неверна."
+
+#: includes/form.inc:2217
+msgid "This field is required."
+msgstr "Обязательное поле"
+
+#: includes/form.inc:2222,2225
+msgid "!title: !required"
+msgstr "!title: !required"
+
+#: includes/image.inc:94
+msgid ""
+"The selected image handling toolkit %toolkit can not correctly process "
+"%function."
+msgstr ""
+"Выбранный механизм работы с "
+"изображениями '%toolkit' не может "
+"правильно обработать '%function'."
+
+#: includes/image.gd.inc:32
+msgid "JPEG quality"
+msgstr "Качество JPEG"
+
+#: includes/image.gd.inc:33
+msgid ""
+"Define the image quality for JPEG manipulations. Ranges from 0 to 100. "
+"Higher values mean better image quality but bigger files."
+msgstr ""
+"Определяет качество обработки JPEG "
+"изображений. Значения от 0 до 100. Более "
+"высокое значение означает лучшее "
+"качество изображения, но и больший "
+"размер файла."
+
+#: includes/image.gd.inc:37
+msgid "%"
+msgstr "%"
+
+#: includes/locale.inc:92
+msgid "Code"
+msgstr "Код"
+
+#: includes/locale.inc:92
+msgid "English name"
+msgstr "Название по-английски"
+
+#: includes/locale.inc:124
+msgid "Configuration saved."
+msgstr "Настройки сохранены."
+
+#: includes/locale.inc:163,729
+msgid "Language name"
+msgstr "Название языка"
+
+#: includes/locale.inc:178
+msgid "Custom language"
+msgstr "Другой язык"
+
+#: includes/locale.inc:231,241
+msgid "Language code"
+msgstr "Код языка"
+
+#: includes/locale.inc:251
+msgid "Language name in English"
+msgstr "Наименование языка по английски"
+
+#: includes/locale.inc:185
+msgid "Add custom language"
+msgstr "Добавить язык"
+
+#: includes/locale.inc:293
+msgid "The language %language (%code) already exists."
+msgstr "Язык %language (%code) уже существует."
+
+#: includes/locale.inc:300
+msgid "Invalid language code."
+msgstr "Неверно задан код языка."
+
+#: includes/locale.inc:619
+msgid "Already added languages"
+msgstr "Уже добавленные языки"
+
+#: includes/locale.inc:620
+msgid "Languages not yet added"
+msgstr "Ещё не добавленные языки"
+
+#: includes/locale.inc:627
+msgid "Import translation"
+msgstr "Импортировать перевод"
+
+#: includes/locale.inc:630
+msgid "Language file"
+msgstr "Файл с переводом"
+
+#: includes/locale.inc:635
+msgid "Import into"
+msgstr "Импортировать в язык"
+
+#: includes/locale.inc:647
+msgid "Mode"
+msgstr "Режим"
+
+#: includes/locale.inc:650
+msgid "Strings in the uploaded file replace existing ones, new ones are added"
+msgstr ""
+"Строки из загружаемого файла заменят "
+"существующие, новые строки будут "
+"добавлены"
+
+#: includes/locale.inc:651
+msgid "Existing strings are kept, only new strings are added"
+msgstr ""
+"Существующие строки останутся "
+"неизменными, только новые будут "
+"добавлены"
+
+#: includes/locale.inc:679,680
+msgid "The translation import of %filename failed."
+msgstr ""
+"Импорт перевода из %filename завершился "
+"неудачей."
+
+#: includes/locale.inc:725
+msgid "Export translation"
+msgstr "Экспортировать перевод"
+
+#: includes/locale.inc:748
+msgid "Export template"
+msgstr "Экспортировать шаблон"
+
+#: includes/locale.inc:569
+msgid "Leave blank to show all strings. The search is case sensitive."
+msgstr ""
+"Чтобы найти все строки, оставьте поле "
+"пустым. Поиск чувствителен к регистру."
+
+#: includes/locale.inc:577
+msgid "English (provided by Drupal)"
+msgstr "Английский (по умолчанию)"
+
+#: includes/locale.inc:580
+msgid "Search in"
+msgstr "Поиск в"
+
+#: includes/locale.inc:582
+msgid "Only translated strings"
+msgstr "Только переведенные строки"
+
+#: includes/locale.inc:582
+msgid "Only untranslated strings"
+msgstr "Только непереведенные строки"
+
+#: includes/locale.inc:792
+msgid "String not found."
+msgstr "Строка не найдена."
+
+#: includes/locale.inc:800
+msgid "Original text"
+msgstr "Исходный текст"
+
+#: includes/locale.inc:842
+msgid "Save translations"
+msgstr "Сохранить переводы"
+
+#: includes/locale.inc:905
+msgid "The string has been saved."
+msgstr "Строка сохранена."
+
+#: includes/locale.inc:952
+msgid "The string has been removed."
+msgstr "Строка удалена."
+
+#: includes/locale.inc:1046
+msgid "The language selected for import is not supported."
+msgstr ""
+"Язык, выбранный для импорта, не "
+"поддерживается."
+
+#: includes/locale.inc:1061
+msgid ""
+"The translation file %filename appears to have a missing or malformed "
+"header."
+msgstr ""
+"Файл перевода %filename не имеет заголовка "
+"или его заголовок поврежден."
+
+#: includes/locale.inc:1462
+msgid ""
+"The translation file %filename contains an error: the plural formula "
+"could not be parsed."
+msgstr ""
+"Файл перевода %filename содержит ошибку: "
+"невозможно обработать формулу "
+"множественных чисел."
+
+#: includes/locale.inc:1904
+msgid "Exported %locale translation file: %filename."
+msgstr ""
+"Экспортирован файл перевода для %locale: "
+"%filename."
+
+#: includes/locale.inc:1908
+msgid "Exported translation file: %filename."
+msgstr "Перевод экспортирован в файл: %filename."
+
+#: includes/locale.inc:2058
+msgid "String"
+msgstr "Строка"
+
+#: includes/locale.inc:1099
+msgid ""
+"The translation import failed, because the file %filename could not be "
+"read."
+msgstr ""
+"Импорт перевода не сделан, поскольку "
+"невозможно прочитать файл %filename."
+
+#: includes/locale.inc:1128
+msgid ""
+"The translation file %filename contains an error: \"msgstr\" was "
+"expected but not found on line %line."
+msgstr ""
+"Файл перевода %filename содержит ошибку: "
+"ожидаемое \"msgstr\" не найдено на строке "
+"%line."
+
+#: includes/locale.inc:1134
+msgid ""
+"The translation file %filename contains an error: \"msgid_plural\" was "
+"expected but not found on line %line."
+msgstr ""
+"Файл перевода %filename содержит ошибку: "
+"ожидаемое \"msgid_plural\" не найдено в "
+"строке %line."
+
+#: includes/locale.inc:1140,1158,1170,1178,1192,1201
+msgid "The translation file %filename contains a syntax error on line %line."
+msgstr ""
+"Файл перевода %filename содержит "
+"синтаксическую ошибку в строке %line."
+
+#: includes/locale.inc:1152
+msgid ""
+"The translation file %filename contains an error: \"msgid\" is "
+"unexpected on line %line."
+msgstr ""
+"Файл перевода %filename содержит ошибку: "
+"не ожидаемое \"msgid\" в строке %line."
+
+#: includes/locale.inc:1166
+msgid ""
+"The translation file %filename contains an error: \"msgstr[]\" is "
+"unexpected on line %line."
+msgstr ""
+"Файл перевода %filename содержит ошибку: "
+"не ожидаемое \"msgstr[]\" в строке %line."
+
+#: includes/locale.inc:1186
+msgid ""
+"The translation file %filename contains an error: \"msgstr\" is "
+"unexpected on line %line."
+msgstr ""
+"Файл перевода %filename содержит ошибку: "
+"не ожидаемое \"msgstr\" в строке %line."
+
+#: includes/locale.inc:1214
+msgid ""
+"The translation file %filename contains an error: there is an "
+"unexpected string on line %line."
+msgstr ""
+"Файл перевода %filename содержит ошибку: "
+"не ожидаемый текст в строке %line."
+
+#: includes/locale.inc:1225
+msgid "The translation file %filename ended unexpectedly at line %line."
+msgstr ""
+"Файл перевода %filename неожиданно "
+"завершился на строке %line."
+
+#: includes/menu.inc:2500
+msgid "Operating in off-line mode."
+msgstr "Работа в режиме off-line."
+
+#: includes/pager.inc:145,401
+msgid "‹ previous"
+msgstr "‹ предыдущая"
+
+#: includes/pager.inc:146,402
+msgid "next ›"
+msgstr "следующая ›"
+
+#: includes/pager.inc:147,403
+msgid "last »"
+msgstr "последняя »"
+
+#: includes/pager.inc:144,400
+msgid "« first"
+msgstr "« первая"
+
+#: includes/pager.inc:400
+msgid "Go to first page"
+msgstr "На первую страницу"
+
+#: includes/pager.inc:403
+msgid "Go to last page"
+msgstr "На последнюю страницу"
+
+#: includes/pager.inc:410
+msgid "Go to page @number"
+msgstr "На страницу номер @number"
+
+#: includes/theme.inc:1472,1475
+msgid "sort icon"
+msgstr "сортировать по иконкам"
+
+#: includes/theme.inc:1472
+msgid "sort ascending"
+msgstr "сортировать по возрастанию"
+
+#: includes/theme.inc:1475
+msgid "sort descending"
+msgstr "сортировать по убыванию"
+
+#: includes/theme.inc:1513
+msgid "updated"
+msgstr "обновлено"
+
+#: includes/theme.inc:1585
+msgid "[<a href=\"@link\">more help...</a>]"
+msgstr "[<a href=\"@link\">подробности...</a>]"
+
+#: includes/theme.inc:1598
+msgid "XML feed"
+msgstr "XML лента"
+
+#: includes/theme.inc:1612
+msgid "Syndicate content"
+msgstr "RSS-материал"
+
+#: includes/theme.inc:1706
+msgid "not verified"
+msgstr "не проверено"
+
+#: includes/unicode.inc:183
+msgid ""
+"Unsupported encoding %s. Please install iconv, GNU recode or mbstring "
+"for PHP."
+msgstr ""
+"Неподдерживаемая кодировка %s. "
+"Установите iconv, GNU recode или mbstring для PHP."
+
+#: includes/unicode.inc:47
+msgid ""
+"The PCRE library in your PHP installation is outdated. This will cause "
+"problems when handling Unicode text. If you are running PHP 4.3.3 or "
+"higher, make sure you are using the PCRE library supplied by PHP. "
+"Please refer to the <a href=\"@url\">PHP PCRE documentation</a> for "
+"more information."
+msgstr ""
+"Библиотека PCRE в вашей сборке PHP "
+"устарела. Это может вызвать проблемы "
+"при обработке строк Unicode. Если вы "
+"используете версию PHP 4.3.3 или выше, "
+"убедитесь, что используется "
+"библиотека PCRE, поддерживаемая PHP. "
+"Подробнее читайте <a "
+"href=\"@url\">документацию PHP PCRE</a>."
+
+#: includes/unicode.inc:52
+msgid ""
+"Operations on Unicode strings are emulated on a best-effort basis. "
+"Install the <a href=\"@url\">PHP mbstring extension</a> for improved "
+"Unicode support."
+msgstr ""
+"Действия над строками Unicode будут "
+"эмулироваться. Установите <a "
+"href=\"@url\">расширение PHP mbstring</a> для "
+"улучшенной поддержки Unicode."
+
+#: includes/unicode.inc:57
+msgid ""
+"Multibyte string function overloading in PHP is active and must be "
+"disabled. Check the php.ini <em>mbstring.func_overload</em> setting. "
+"Please refer to the <a href=\"@url\">PHP mbstring documentation</a> "
+"for more information."
+msgstr ""
+"Включена перегрузка (overloading) "
+"мультибайтовых строк в PHP, но ее нужно "
+"отключить. Проверьте настройку "
+"<em>mbstring.func_overload</em> в php.ini. Подробности "
+"вы сможете найти в <a "
+"href=\"@url\">документации по PHP mbstring</a>."
+
+#: includes/unicode.inc:60
+msgid ""
+"Multibyte string input conversion in PHP is active and must be "
+"disabled. Check the php.ini <em>mbstring.encoding_translation</em> "
+"setting. Please refer to the <a href=\"@url\">PHP mbstring "
+"documentation</a> for more information."
+msgstr ""
+"Конвертация ввода мультибайтовых "
+"строк в PHP включена, но должна быть "
+"отключена. Проверьте настройку "
+"<em>mbstring.encoding_translation</em> в php.ini.  "
+"Подробности вы сможете найти в <a "
+"href=\"@url\">документации по PHP mbstring</a>."
+
+#: includes/unicode.inc:63
+msgid ""
+"Multibyte string input conversion in PHP is active and must be "
+"disabled. Check the php.ini <em>mbstring.http_input</em> setting. "
+"Please refer to the <a href=\"@url\">PHP mbstring documentation</a> "
+"for more information."
+msgstr ""
+"Конвертация ввода мультибайтовых "
+"строк в PHP включена, но должна быть "
+"отключена. Проверьте настройку "
+"<em>mbstring.http_input</em> в php.ini.  Подробности вы "
+"сможете найти в <a href=\"@url\">документации "
+"по PHP mbstring</a>."
+
+#: includes/unicode.inc:66
+msgid ""
+"Multibyte string output conversion in PHP is active and must be "
+"disabled. Check the php.ini <em>mbstring.http_output</em> setting. "
+"Please refer to the <a href=\"@url\">PHP mbstring documentation</a> "
+"for more information."
+msgstr ""
+"Конвертация вывода мультибайтовых "
+"строк в PHP сейчас включена, но должна "
+"быть отключена. Проверьте настройку "
+"<em>mbstring.http_output</em> в php.ini. Подробности вы "
+"сможете найти в <a href=\"@url\">документации "
+"по PHP mbstring</a>."
+
+#: includes/unicode.inc:83
+msgid "Standard PHP"
+msgstr "Версия PHP"
+
+#: includes/unicode.inc:84
+msgid "PHP Mbstring Extension"
+msgstr "PHP расширение Mbstring"
+
+#: includes/unicode.inc:95
+msgid "Unicode library"
+msgstr "Библиотека Unicode"
+
+#: includes/xmlrpcs.inc:64
+msgid "Server error. Invalid XML-RPC. Request must be a methodCall."
+msgstr ""
+"Ошибка на сервере. Неверен XML-RPC. Запрос "
+"должен быть вызовом метода (methodCall)."
+
+#: includes/xmlrpcs.inc:165
+msgid "Server error. Wrong number of method parameters."
+msgstr ""
+"Ошибка на сервере. Ошибочное число "
+"параметров метода."
+
+#: includes/xmlrpcs.inc:202
+msgid "Server error. Invalid method parameters."
+msgstr ""
+"Ошибка на сервере. Неверные параметры "
+"метода."
+
+#: includes/xmlrpcs.inc:221
+msgid "Invalid syntax for system.multicall."
+msgstr "Неверный синтаксис вызова system.multicall."
+
+#: includes/xmlrpcs.inc:227
+msgid "Recursive calls to system.multicall are forbidden."
+msgstr ""
+"Рекурсивное обращение к system.multical "
+"запрещен."
+
+#: includes/locale.inc:416
+msgid "Are you sure you want to delete the language %name?"
+msgstr ""
+"Вы действительно желаете удалить язык "
+"%name?"
+
+#: includes/locale.inc:435,436
+msgid "The language %locale has been removed."
+msgstr "Язык %locale удален."
+
+#: includes/locale.inc:436,680,873,1015,1072,1904,1908,2244,2247,2251,2254,2257
+msgid "locale"
+msgstr "язык"
+
+#: includes/common.inc:3737
+msgid "notice"
+msgstr "замечание"
+
+#: includes/file.inc:631
+msgid "file"
+msgstr "файл"
+
+#: includes/locale.inc:2367
+msgid "Fiji"
+msgstr "Фиджи"
+
+#: includes/locale.inc:2428
+msgid "Nauru"
+msgstr "Науру"
+
+#: includes/locale.inc:2481
+msgid "Tonga"
+msgstr "Тонга"
+
+#: includes/locale.inc:2436
+msgid "Navajo"
+msgstr "Навахо"
+
+#: includes/locale.inc:2359
+msgid "English"
+msgstr "Английский"
+
+#: includes/locale.inc:2361
+msgid "Spanish"
+msgstr "Испанский"
+
+#: includes/common.inc:2768,2775,2790,2806
+msgid "cron"
+msgstr "cron"
+
+#: includes/locale.inc:462
+msgid "None."
+msgstr "Нет."
+
+#: includes/actions.inc:65
+msgid ""
+"Stack overflow: too many calls to actions_do(). Aborting to prevent "
+"infinite recursion."
+msgstr ""
+"Стек переполнен: слишком много "
+"обращений к функции actions_do(). Прервано "
+"для предупреждения бесконечной "
+"рекурсии."
+
+#: includes/actions.inc:311
+msgid "Action '%action' added."
+msgstr "Действие '%action' добавлено."
+
+#: includes/actions.inc:333
+msgid "Removed orphaned action '%action' from database."
+msgstr ""
+"Потерянное действие '%action' удалено из "
+"базы данных."
+
+#: includes/actions.inc:368
+msgid "Action %action saved."
+msgstr "Действие %action сохранено."
+
+#: includes/actions.inc:376
+msgid "Action %action created."
+msgstr "Действие %action создано."
+
+#: includes/actions.inc:339
+msgid "One orphaned action (%orphans) exists in the actions table. !link"
+msgid_plural "@count orphaned actions (%orphans) exist in the actions table. !link"
+msgstr[0] ""
+"@count осиротевшее действие  (%orphans) "
+"доступно в таблице действий. !link"
+msgstr[1] ""
+"@count осиротевших действий  (%orphans) "
+"доступно в таблице действий. !link"
+msgstr[2] ""
+"@count[2] осиротевших действий  (%orphans) "
+"доступно в таблице действий. !link"
+
+#: includes/common.inc:3738
+msgid "info"
+msgstr "информация"
+
+#: includes/common.inc:3739
+msgid "debug"
+msgstr "отладка"
+
+#: includes/file.inc:426
+msgid "For security reasons, your upload has been renamed to %filename."
+msgstr ""
+"Ваш файл был переименован в %filename из "
+"соображений безопасности."
+
+#: includes/file.inc:554
+msgid ""
+"The file %file could not be saved, because it exceeds %maxsize, the "
+"maximum allowed size for uploads."
+msgstr ""
+"Выбранный файл %name не может быть "
+"сохранён, поскольку его размер "
+"превышает максимально допустимый "
+"%maxsize."
+
+#: includes/file.inc:660
+msgid ""
+"Its name exceeds the 255 characters limit. Please rename the file and "
+"try again."
+msgstr ""
+"Его имя превышает ограничение в 255 "
+"символов. Переименуйте файл и "
+"попробуйте снова."
+
+#: includes/file.inc:688
+msgid "Only files with the following extensions are allowed: %files-allowed."
+msgstr ""
+"Прикреплять можно только файлы с "
+"расширениями: %files-allowed."
+
+#: includes/file.inc:717
+msgid "The file is %filesize exceeding the maximum file size of %maxsize."
+msgstr ""
+"Размер файла %filesize превышает "
+"максимальный размер файла %maxsize."
+
+#: includes/file.inc:722
+msgid "The file is %filesize which would exceed your disk quota of %quota."
+msgstr ""
+"Файл %filesize, что превысит квоту вашего "
+"диска в %quota."
+
+#: includes/file.inc:741
+msgid "Only JPEG, PNG and GIF images are allowed."
+msgstr ""
+"Разрешены только JPEG, PNG и GIF "
+"изображения."
+
+#: includes/file.inc:776
+msgid ""
+"The image was resized to fit within the maximum allowed dimensions of "
+"%dimensions pixels."
+msgstr ""
+"Размеры изображения были изменены для "
+"того, чтобы оно соответствовала "
+"максимально допустимому разрешению "
+"%dimensions пикселов."
+
+#: includes/file.inc:784
+msgid "The image is too large; the maximum dimensions are %dimensions pixels."
+msgstr ""
+"Изображение слишком велико, "
+"максимальное разрешение %dimensions  "
+"пикселов."
+
+#: includes/file.inc:793
+msgid "The image is too small; the minimum dimensions are %dimensions pixels."
+msgstr ""
+"Изображение слишком мало, минимальное "
+"разрешение %dimensions  пикселов."
+
+#: includes/file.inc:631
+msgid ""
+"Upload error. Could not move uploaded file %file to destination "
+"%destination."
+msgstr ""
+"Ошибка закачки. Невозможно "
+"переместить загруженный файл %file в "
+"место назначения %destination."
+
+#: includes/form.inc:2469
+msgid "Initializing."
+msgstr "Инициализация."
+
+#: includes/form.inc:2470
+msgid "Remaining @remaining of @total."
+msgstr "Осталось @remaining из @total."
+
+#: includes/form.inc:2471
+msgid "An error has occurred."
+msgstr "Произошла ошибка."
+
+#: includes/form.inc:2544
+msgid "Please continue to <a href=\"@error_url\">the error page</a>"
+msgstr ""
+"Пожалуйста, откройте <a href=\"@error_url\">the "
+"error page</a>"
+
+#: includes/image.gd.inc:27
+msgid "The GD toolkit is installed and working properly."
+msgstr ""
+"Встроенная графическая библиотека GD2 "
+"установлена и работает правильно."
+
+#: includes/image.gd.inc:44
+msgid ""
+"The GD image toolkit requires that the GD module for PHP be installed "
+"and configured properly. For more information see <a "
+"href=\"@url\">PHP's image documentation</a>."
+msgstr ""
+"Для GD image toolkit требуется, чтобы GD module "
+"для PHP был установлен и правильно "
+"настроен. См. <a href=\"@url\">документацию "
+"PHP</a>."
+
+#: includes/locale.inc:92
+msgid "Native name"
+msgstr "Родное имя"
+
+#: includes/locale.inc:92,277
+msgid "Direction"
+msgstr "Направление"
+
+#: includes/locale.inc:159
+msgid "Predefined language"
+msgstr "Встроенный язык"
+
+#: includes/locale.inc:205
+msgid "Save language"
+msgstr "Сохранить язык"
+
+#: includes/locale.inc:258
+msgid "Native language name"
+msgstr "Родное название языка"
+
+#: includes/locale.inc:262
+msgid "Name of the language in the language being added."
+msgstr "Название языка на добавляемом языке."
+
+#: includes/locale.inc:265
+msgid "Path prefix"
+msgstr "Префикс пути"
+
+#: includes/locale.inc:271
+msgid "Language domain"
+msgstr "Языковой домен"
+
+#: includes/locale.inc:50,281
+msgid "Left to right"
+msgstr "Слева направо"
+
+#: includes/locale.inc:50,281
+msgid "Right to left"
+msgstr "Справа налево"
+
+#: includes/locale.inc:317,323
+msgid ""
+"The language %language has been created and can now be used. More "
+"information is available on the <a href=\"@locale-help\">help "
+"screen</a>."
+msgstr ""
+"Язык %language был создан и доступен для "
+"использования. Подробную информацию "
+"смотрите на <a href=\"@locale-help\">странице "
+"помощи</a>."
+
+#: includes/locale.inc:352
+msgid "Domain and path prefix values should not be set at the same time."
+msgstr ""
+"Значения домена и префикса пути не "
+"должны быть установлены одновременно."
+
+#: includes/locale.inc:355
+msgid "The domain (%domain) is already tied to a language (%language)."
+msgstr "Домен (%domain) уже связан с языком (%language)."
+
+#: includes/locale.inc:358
+msgid "Only the default language can have both the domain and prefix empty."
+msgstr ""
+"Только для языка по умолчанию домен и "
+"префикс могут быть пустыми."
+
+#: includes/locale.inc:361
+msgid "The prefix (%prefix) is already tied to a language (%language)."
+msgstr ""
+"Префикс (%prefix) уже используется для "
+"языка (%language)."
+
+#: includes/locale.inc:399
+msgid "The English language cannot be deleted."
+msgstr "Английский язык не может быть удалён."
+
+#: includes/locale.inc:404
+msgid "The default language cannot be deleted."
+msgstr ""
+"Язык по умолчанию не может быть "
+"удалён."
+
+#: includes/locale.inc:416
+msgid ""
+"Deleting a language will remove all interface translations associated "
+"with it, and posts in this language will be set to be language "
+"neutral. This action cannot be undone."
+msgstr ""
+"Уничтожение языка удалить все "
+"переводы интерфейса связанные с ним и "
+"все сообщения на этом языке будет "
+"помечены как нейтральные по отношению "
+"к языку. <strong> Данное действие не "
+"возможно будет отменить!</strong>"
+
+#: includes/locale.inc:459
+msgid "Language negotiation"
+msgstr "Определение языка"
+
+#: includes/locale.inc:481
+msgid "Language negotiation configuration saved."
+msgstr ""
+"Настройки определения языка "
+"сохранены."
+
+#: includes/locale.inc:514
+msgid "English (built-in)"
+msgstr "Английский (встроен)"
+
+#: includes/locale.inc:567
+msgid "String contains"
+msgstr "Строка содержит"
+
+#: includes/locale.inc:582
+msgid "Both translated and untranslated strings"
+msgstr "Переведённые и непереведённые строки"
+
+#: includes/locale.inc:586
+msgid "Limit search to"
+msgstr "Ограничить поиск"
+
+#: includes/locale.inc:588
+msgid "All text groups"
+msgstr "Все текстовые группы"
+
+#: includes/locale.inc:638
+msgid ""
+"Choose the language you want to add strings into. If you choose a "
+"language which is not yet set up, it will be added."
+msgstr ""
+"Выберите язык в который вы хотите "
+"добавить перевод. Если вы выберете "
+"язык который еще не установлен в "
+"системе, то он будет добавлен."
+
+#: includes/locale.inc:641,734,753,2058
+msgid "Text group"
+msgstr "Текстовая группа"
+
+#: includes/locale.inc:644
+msgid "Imported translations will be added to this text group."
+msgstr ""
+"Импортированные переводы будут "
+"добавлены в эту текстовую группу."
+
+#: includes/locale.inc:673
+msgid "The language %language has been created."
+msgstr "Язык %language был создан"
+
+#: includes/locale.inc:684
+msgid "File to import not found."
+msgstr "Не найден файл для импорта."
+
+#: includes/locale.inc:1071
+msgid ""
+"The translation was successfully imported. There are %number newly "
+"created translated strings, %update strings were updated and %delete "
+"strings were removed."
+msgstr ""
+"Перевод полностью импортирован. Всего "
+"было новых переведённых строк: %number, "
+"было обновлено строк: %update и удалено "
+"строк: %delete."
+
+#: includes/locale.inc:2084
+msgid "No strings found for your search."
+msgstr "По вашему запросу ничего не найдено."
+
+#: includes/locale.inc:2602
+msgid "Importing interface translations"
+msgstr "Импорт переводов интерфейса."
+
+#: includes/locale.inc:2603
+msgid "Starting import"
+msgstr "Начало импорта"
+
+#: includes/locale.inc:2604
+msgid "Error importing interface translations"
+msgstr "Ошибка импорта переводов интерфейса."
+
+#: includes/locale.inc:1015
+msgid "The %language language (%code) has been created."
+msgstr "Язык %language (%code) создан."
+
+#: includes/locale.inc:1072
+msgid ""
+"Imported %file into %locale: %number new strings added, %update "
+"updated and %delete removed."
+msgstr ""
+"Импорт файла %file в %locale: новых строк - "
+"%number, обновлено строк - %update и удалено "
+"строк - %delete."
+
+#: includes/locale.inc:2244
+msgid "Updated JavaScript translation file for the language %language."
+msgstr ""
+"Обновлен файл перевода JavaScript  для "
+"языка %language."
+
+#: includes/locale.inc:2251
+msgid "Created JavaScript translation file for the language %language."
+msgstr ""
+"Создан файл перевода JavaScript  для языка "
+"%language."
+
+#: includes/locale.inc:2257
+msgid ""
+"An error occurred during creation of the JavaScript translation file "
+"for the language %language."
+msgstr ""
+"Произошла ошибка во время создания "
+"файла перевода JavaScript для языка %language."
+
+#: includes/locale.inc:2642
+msgid "One translation file imported for the newly installed modules."
+msgid_plural "@count translation files imported for the newly installed modules."
+msgstr[0] ""
+"Для только что установленных модулей "
+"импортирован @count файл перевода."
+msgstr[1] ""
+"Для только что установленных модулей "
+"импортировано @count файла перевода."
+msgstr[2] ""
+"Для только что установленных модулей "
+"импортировано @count файлов перевода."
+
+#: includes/locale.inc:2652
+msgid "One translation file imported for the enabled modules."
+msgid_plural "@count translation files imported for the enabled modules."
+msgstr[0] ""
+"Для включённых модулей импортирован "
+"файл перевода."
+msgstr[1] ""
+"Для включенных модулей импортированы "
+"@count файла перевода."
+msgstr[2] ""
+"Для включенных модулей импортированы "
+"@count[2] файлов перевода."
+
+#: includes/locale.inc:2323
+msgid "Afar"
+msgstr "Афарский"
+
+#: includes/locale.inc:2324
+msgid "Abkhazian"
+msgstr "Абхазский"
+
+#: includes/locale.inc:2325
+msgid "Avestan"
+msgstr "Авестийский"
+
+#: includes/locale.inc:2326
+msgid "Afrikaans"
+msgstr "Африкаанс"
+
+#: includes/locale.inc:2327
+msgid "Akan"
+msgstr "Акан"
+
+#: includes/locale.inc:2328
+msgid "Amharic"
+msgstr "Амхарский"
+
+#: includes/locale.inc:2329
+msgid "Arabic"
+msgstr "Арабский"
+
+#: includes/locale.inc:2330
+msgid "Assamese"
+msgstr "Ассамский"
+
+#: includes/locale.inc:2331
+msgid "Avar"
+msgstr "Аварский"
+
+#: includes/locale.inc:2332
+msgid "Aymara"
+msgstr "Аймара"
+
+#: includes/locale.inc:2333
+msgid "Azerbaijani"
+msgstr "Азербайджанский"
+
+#: includes/locale.inc:2334
+msgid "Bashkir"
+msgstr "Башкирский"
+
+#: includes/locale.inc:2335
+msgid "Belarusian"
+msgstr "Белорусский"
+
+#: includes/locale.inc:2336
+msgid "Bulgarian"
+msgstr "Болгарский"
+
+#: includes/locale.inc:2337
+msgid "Bihari"
+msgstr "Бихари"
+
+#: includes/locale.inc:2338
+msgid "Bislama"
+msgstr "Бислама"
+
+#: includes/locale.inc:2339
+msgid "Bambara"
+msgstr "Бамбара"
+
+#: includes/locale.inc:2340
+msgid "Bengali"
+msgstr "Бенгальский"
+
+#: includes/locale.inc:2341
+msgid "Tibetan"
+msgstr "Тибетский"
+
+#: includes/locale.inc:2342
+msgid "Breton"
+msgstr "Бретонский"
+
+#: includes/locale.inc:2343
+msgid "Bosnian"
+msgstr "Боснийский"
+
+#: includes/locale.inc:2344
+msgid "Catalan"
+msgstr "Каталонский"
+
+#: includes/locale.inc:2345
+msgid "Chechen"
+msgstr "Чеченский"
+
+#: includes/locale.inc:2346
+msgid "Chamorro"
+msgstr "Чаморро"
+
+#: includes/locale.inc:2347
+msgid "Corsican"
+msgstr "Корсиканский"
+
+#: includes/locale.inc:2348
+msgid "Cree"
+msgstr "Кри"
+
+#: includes/locale.inc:2349
+msgid "Czech"
+msgstr "Чешский"
+
+#: includes/locale.inc:2350
+msgid "Old Slavonic"
+msgstr "Старославянский"
+
+#: includes/locale.inc:2351
+msgid "Chuvash"
+msgstr "Чувашский"
+
+#: includes/locale.inc:2352
+msgid "Welsh"
+msgstr "Валлийский"
+
+#: includes/locale.inc:2353
+msgid "Danish"
+msgstr "Датский"
+
+#: includes/locale.inc:2354
+msgid "German"
+msgstr "Немецкий"
+
+#: includes/locale.inc:2355
+msgid "Maldivian"
+msgstr "Мальдивский"
+
+#: includes/locale.inc:2356
+msgid "Bhutani"
+msgstr "Белуджский"
+
+#: includes/locale.inc:2357
+msgid "Ewe"
+msgstr "Эве"
+
+#: includes/locale.inc:2358
+msgid "Greek"
+msgstr "Греческий"
+
+#: includes/locale.inc:2360
+msgid "Esperanto"
+msgstr "Эсперанто"
+
+#: includes/locale.inc:2362
+msgid "Estonian"
+msgstr "Эстонский"
+
+#: includes/locale.inc:2363
+msgid "Basque"
+msgstr "Баскский"
+
+#: includes/locale.inc:2364
+msgid "Persian"
+msgstr "Персидский"
+
+#: includes/locale.inc:2365
+msgid "Fulah"
+msgstr "Фула"
+
+#: includes/locale.inc:2366
+msgid "Finnish"
+msgstr "Финский"
+
+#: includes/locale.inc:2368
+msgid "Faeroese"
+msgstr "Фарерский"
+
+#: includes/locale.inc:2369
+msgid "French"
+msgstr "Французский"
+
+#: includes/locale.inc:2370
+msgid "Frisian"
+msgstr "Фризский"
+
+#: includes/locale.inc:2371
+msgid "Irish"
+msgstr "Ирландский"
+
+#: includes/locale.inc:2372
+msgid "Scots Gaelic"
+msgstr "Гаэльский"
+
+#: includes/locale.inc:2373
+msgid "Galician"
+msgstr "Галисийский"
+
+#: includes/locale.inc:2374
+msgid "Guarani"
+msgstr "Гуарани"
+
+#: includes/locale.inc:2375
+msgid "Gujarati"
+msgstr "Гуджаратский"
+
+#: includes/locale.inc:2376
+msgid "Manx"
+msgstr "Мэнский"
+
+#: includes/locale.inc:2377
+msgid "Hausa"
+msgstr "Хауса"
+
+#: includes/locale.inc:2378
+msgid "Hebrew"
+msgstr "Иврит"
+
+#: includes/locale.inc:2379
+msgid "Hindi"
+msgstr "Хинди"
+
+#: includes/locale.inc:2380
+msgid "Hiri Motu"
+msgstr "Хири-моту"
+
+#: includes/locale.inc:2381
+msgid "Croatian"
+msgstr "Хорватский"
+
+#: includes/locale.inc:2382
+msgid "Hungarian"
+msgstr "Венгерский"
+
+#: includes/locale.inc:2383
+msgid "Armenian"
+msgstr "Армянский"
+
+#: includes/locale.inc:2384
+msgid "Herero"
+msgstr "Гереро"
+
+#: includes/locale.inc:2385
+msgid "Interlingua"
+msgstr "Интерлингва"
+
+#: includes/locale.inc:2386
+msgid "Indonesian"
+msgstr "Индонезийский"
+
+#: includes/locale.inc:2387
+msgid "Interlingue"
+msgstr "Интерлингве"
+
+#: includes/locale.inc:2388
+msgid "Igbo"
+msgstr "Игбо"
+
+#: includes/locale.inc:2389
+msgid "Inupiak"
+msgstr "Инупиак"
+
+#: includes/locale.inc:2390
+msgid "Icelandic"
+msgstr "Исландский"
+
+#: includes/locale.inc:2391
+msgid "Italian"
+msgstr "Итальянский"
+
+#: includes/locale.inc:2392
+msgid "Inuktitut"
+msgstr "Инуктитут"
+
+#: includes/locale.inc:2393
+msgid "Japanese"
+msgstr "Японский"
+
+#: includes/locale.inc:2394
+msgid "Javanese"
+msgstr "Яванский"
+
+#: includes/locale.inc:2395
+msgid "Georgian"
+msgstr "Грузинский"
+
+#: includes/locale.inc:2396
+msgid "Kongo"
+msgstr "Конголезский"
+
+#: includes/locale.inc:2397
+msgid "Kikuyu"
+msgstr "Кикуйю"
+
+#: includes/locale.inc:2398
+msgid "Kwanyama"
+msgstr "Кваньяма"
+
+#: includes/locale.inc:2399
+msgid "Kazakh"
+msgstr "Казахский"
+
+#: includes/locale.inc:2400
+msgid "Greenlandic"
+msgstr "Гренландский"
+
+#: includes/locale.inc:2401
+msgid "Cambodian"
+msgstr "Камбоджийский"
+
+#: includes/locale.inc:2402
+msgid "Kannada"
+msgstr "Каннада"
+
+#: includes/locale.inc:2403
+msgid "Korean"
+msgstr "Корейский"
+
+#: includes/locale.inc:2404
+msgid "Kanuri"
+msgstr "Канури"
+
+#: includes/locale.inc:2405
+msgid "Kashmiri"
+msgstr "Кашмирский"
+
+#: includes/locale.inc:2406
+msgid "Kurdish"
+msgstr "Курдский"
+
+#: includes/locale.inc:2407
+msgid "Komi"
+msgstr "Коми"
+
+#: includes/locale.inc:2408
+msgid "Cornish"
+msgstr "Корнский"
+
+#: includes/locale.inc:2409
+msgid "Kirghiz"
+msgstr "Kirghiz"
+
+#: includes/locale.inc:2410
+msgid "Latin"
+msgstr "Латинский"
+
+#: includes/locale.inc:2411
+msgid "Luxembourgish"
+msgstr "Люксембургский"
+
+#: includes/locale.inc:2412
+msgid "Luganda"
+msgstr "Луганда"
+
+#: includes/locale.inc:2413
+msgid "Lingala"
+msgstr "Лингала"
+
+#: includes/locale.inc:2414
+msgid "Laothian"
+msgstr "Лаосский"
+
+#: includes/locale.inc:2415
+msgid "Lithuanian"
+msgstr "Литовский"
+
+#: includes/locale.inc:2416
+msgid "Latvian"
+msgstr "Латвийский"
+
+#: includes/locale.inc:2417
+msgid "Malagasy"
+msgstr "Малагасийский"
+
+#: includes/locale.inc:2418
+msgid "Marshallese"
+msgstr "Маршалльский"
+
+#: includes/locale.inc:2419
+msgid "Maori"
+msgstr "Maori"
+
+#: includes/locale.inc:2420
+msgid "Macedonian"
+msgstr "Македонский"
+
+#: includes/locale.inc:2421
+msgid "Malayalam"
+msgstr "Малаялам"
+
+#: includes/locale.inc:2422
+msgid "Mongolian"
+msgstr "Монгольский"
+
+#: includes/locale.inc:2423
+msgid "Moldavian"
+msgstr "Молдавский"
+
+#: includes/locale.inc:2424
+msgid "Marathi"
+msgstr "Маратхи"
+
+#: includes/locale.inc:2425
+msgid "Malay"
+msgstr "Малайский"
+
+#: includes/locale.inc:2426
+msgid "Maltese"
+msgstr "Мальтийский"
+
+#: includes/locale.inc:2427
+msgid "Burmese"
+msgstr "Бирманский"
+
+#: includes/locale.inc:2429
+msgid "North Ndebele"
+msgstr "Ндебеле (северный)"
+
+#: includes/locale.inc:2430
+msgid "Nepali"
+msgstr "Непальский"
+
+#: includes/locale.inc:2431
+msgid "Ndonga"
+msgstr "Ндонга"
+
+#: includes/locale.inc:2432
+msgid "Dutch"
+msgstr "Голландский"
+
+#: includes/locale.inc:2433
+msgid "Norwegian Bokmål"
+msgstr "Norwegian Bokmål"
+
+#: includes/locale.inc:2434
+msgid "Norwegian Nynorsk"
+msgstr "Норвежский Нюнорск"
+
+#: includes/locale.inc:2435
+msgid "South Ndebele"
+msgstr "Ндебеле (южный)"
+
+#: includes/locale.inc:2437
+msgid "Chichewa"
+msgstr "Чева"
+
+#: includes/locale.inc:2438
+msgid "Occitan"
+msgstr "Окситанский"
+
+#: includes/locale.inc:2439
+msgid "Oromo"
+msgstr "Оромо"
+
+#: includes/locale.inc:2440
+msgid "Oriya"
+msgstr "Ория"
+
+#: includes/locale.inc:2441
+msgid "Ossetian"
+msgstr "Осетинский"
+
+#: includes/locale.inc:2442
+msgid "Punjabi"
+msgstr "Панджаби"
+
+#: includes/locale.inc:2443
+msgid "Pali"
+msgstr "Пали"
+
+#: includes/locale.inc:2444
+msgid "Polish"
+msgstr "Польский"
+
+#: includes/locale.inc:2445
+msgid "Pashto"
+msgstr "Пушту"
+
+#: includes/locale.inc:2446
+msgid "Portuguese, Portugal"
+msgstr "Portuguese, Portugal"
+
+#: includes/locale.inc:2447
+msgid "Portuguese, Brazil"
+msgstr "Portuguese, Brazil"
+
+#: includes/locale.inc:2448
+msgid "Quechua"
+msgstr "Кечуа"
+
+#: includes/locale.inc:2449
+msgid "Rhaeto-Romance"
+msgstr "Романшский"
+
+#: includes/locale.inc:2450
+msgid "Kirundi"
+msgstr "Кирунди"
+
+#: includes/locale.inc:2451
+msgid "Romanian"
+msgstr "Румынский"
+
+#: includes/locale.inc:2452
+msgid "Russian"
+msgstr "Русский"
+
+#: includes/locale.inc:2453
+msgid "Kinyarwanda"
+msgstr "Киньяруанда"
+
+#: includes/locale.inc:2454
+msgid "Sanskrit"
+msgstr "Санскрит"
+
+#: includes/locale.inc:2455
+msgid "Sardinian"
+msgstr "Сардинский"
+
+#: includes/locale.inc:2456
+msgid "Sindhi"
+msgstr "Синдхи"
+
+#: includes/locale.inc:2457
+msgid "Northern Sami"
+msgstr "Северносаамский"
+
+#: includes/locale.inc:2458
+msgid "Sango"
+msgstr "Санго"
+
+#: includes/locale.inc:2459
+msgid "Serbo-Croatian"
+msgstr "Сербо-хорватский"
+
+#: includes/locale.inc:2461
+msgid "Slovak"
+msgstr "Словацкий"
+
+#: includes/locale.inc:2462
+msgid "Slovenian"
+msgstr "Словенский"
+
+#: includes/locale.inc:2463
+msgid "Samoan"
+msgstr "Самоанский"
+
+#: includes/locale.inc:2464
+msgid "Shona"
+msgstr "Шона"
+
+#: includes/locale.inc:2465
+msgid "Somali"
+msgstr "Сомалийский"
+
+#: includes/locale.inc:2466
+msgid "Albanian"
+msgstr "Албанский"
+
+#: includes/locale.inc:2467
+msgid "Serbian"
+msgstr "Сербский"
+
+#: includes/locale.inc:2468
+msgid "Siswati"
+msgstr "Сисвати"
+
+#: includes/locale.inc:2469
+msgid "Sesotho"
+msgstr "Сесото"
+
+#: includes/locale.inc:2470
+msgid "Sudanese"
+msgstr "Суданский"
+
+#: includes/locale.inc:2471
+msgid "Swedish"
+msgstr "Шведский"
+
+#: includes/locale.inc:2472
+msgid "Swahili"
+msgstr "Суахили"
+
+#: includes/locale.inc:2473
+msgid "Tamil"
+msgstr "Тамильский"
+
+#: includes/locale.inc:2474
+msgid "Telugu"
+msgstr "Телугу"
+
+#: includes/locale.inc:2475
+msgid "Tajik"
+msgstr "Таджикский"
+
+#: includes/locale.inc:2476
+msgid "Thai"
+msgstr "Таиский"
+
+#: includes/locale.inc:2477
+msgid "Tigrinya"
+msgstr "Тигринья"
+
+#: includes/locale.inc:2478
+msgid "Turkmen"
+msgstr "Туркменский"
+
+#: includes/locale.inc:2479
+msgid "Tagalog"
+msgstr "Тагальский"
+
+#: includes/locale.inc:2480
+msgid "Setswana"
+msgstr "Сетсвана"
+
+#: includes/locale.inc:2482
+msgid "Turkish"
+msgstr "Турецкий"
+
+#: includes/locale.inc:2483
+msgid "Tsonga"
+msgstr "Тсонга"
+
+#: includes/locale.inc:2484
+msgid "Tatar"
+msgstr "Татарский"
+
+#: includes/locale.inc:2485
+msgid "Twi"
+msgstr "Тви"
+
+#: includes/locale.inc:2486
+msgid "Tahitian"
+msgstr "Таитянский"
+
+#: includes/locale.inc:2487
+msgid "Uighur"
+msgstr "Уйгурский"
+
+#: includes/locale.inc:2488
+msgid "Ukrainian"
+msgstr "Украинский"
+
+#: includes/locale.inc:2489
+msgid "Urdu"
+msgstr "Урду"
+
+#: includes/locale.inc:2490
+msgid "Uzbek"
+msgstr "Узбекский"
+
+#: includes/locale.inc:2491
+msgid "Venda"
+msgstr "Венда"
+
+#: includes/locale.inc:2492
+msgid "Vietnamese"
+msgstr "Вьетнамский"
+
+#: includes/locale.inc:2493
+msgid "Wolof"
+msgstr "Волоф"
+
+#: includes/locale.inc:2494
+msgid "Xhosa"
+msgstr "Кхоса"
+
+#: includes/locale.inc:2495
+msgid "Yiddish"
+msgstr "Идиш"
+
+#: includes/locale.inc:2496
+msgid "Yoruba"
+msgstr "Йоруба"
+
+#: includes/locale.inc:2497
+msgid "Zhuang"
+msgstr "Чжуанский"
+
+#: includes/locale.inc:2498
+msgid "Chinese, Simplified"
+msgstr "Китайский (упрощённый)"
+
+#: includes/locale.inc:2499
+msgid "Chinese, Traditional"
+msgstr "Китайский (традиционный)"
+
+#: includes/locale.inc:2500
+msgid "Zulu"
+msgstr "Зулусский"
+
+#: includes/mail.inc:133
+msgid "Error sending e-mail (from %from to %to)."
+msgstr "Ошибка отправки e-mail (от %from к %to)."
+
+#: includes/unicode.inc:150
+msgid "Could not convert XML encoding %s to UTF-8."
+msgstr ""
+"Не удалось конвертировать кодировку "
+"XML %s в UTF-8."
+
+#: includes/common.inc:393
+msgid "The requested page could not be found."
+msgstr "Запрашиваемая страница не найдена."
+
+#: includes/theme.inc:1626
+msgid "<a href=\"@link\" title=\"@title\">more</a>"
+msgstr "<a href=\"@link\" title=\"@title\">подробнее</a>"
+
+#: includes/common.inc:365
+msgid "Site off-line"
+msgstr "Сайт на техобслуживании"
+
+#: includes/database.pgsql.inc:22
+msgid "PostgreSQL database"
+msgstr "База данных PostgreSQL"
+
+#: includes/file.inc:114
+msgid "The directory %directory has been created."
+msgstr "Каталог %directory был создан."
+
+#: includes/tablesort.inc:70
+msgid "sort by @s"
+msgstr "сортировать по @s"
+
+#: includes/xmlrpc.inc:451
+msgid "Parse error. Not well formed"
+msgstr ""
+"Ошибка разбора. Сформировано "
+"неправильно"
+
+#: includes/xmlrpcs.inc:61
+msgid "Parse error. Request not well formed."
+msgstr ""
+"Ошибка разбора. Запрос сформирован "
+"неправильно"
+
+#: includes/actions.inc:337
+msgid "Remove orphaned actions"
+msgstr "Удалить потерянные действия"
+
+#: includes/batch.inc:99
+msgid "HTTP POST is required."
+msgstr "Требуется HTTP POST."
+
+#: includes/image.gd.inc:17
+msgid "GD2 image manipulation toolkit"
+msgstr "GD2 для обработки изображений"
+
+#: includes/locale.inc:2254
+msgid ""
+"Removed JavaScript translation file for the language %language, "
+"because no translations currently exist for that language."
+msgstr ""
+"Удален файл перевода JavaScript для языка "
+"%language, так как для данного языка пока "
+"нет переводов."
+
+#: includes/file.inc:615
+msgid "The selected file %name could not be uploaded."
+msgstr ""
+"Указанный файл %name не может быть "
+"загружен."
+
+#: includes/locale.inc:166
+msgid ""
+"Select the desired language and click the <em>Add language</em> "
+"button. (Use the <em>Custom language</em> options if your desired "
+"language does not appear in this list.)"
+msgstr ""
+"Выберите желаемый язык и нажмите "
+"кнопку <em>Добавить язык</em>. "
+"(Используйте опцию "
+"<em>Пользовательский язык</em>, если "
+"желаемый язык не присутствует в "
+"списке.)"
+
+#: includes/locale.inc:247
+msgid ""
+"<a href=\"@rfc4646\">RFC 4646</a> compliant language identifier. "
+"Language codes typically use a country code, and optionally, a script "
+"or regional variant name. <em>Examples: \"en\", \"en-US\" and "
+"\"zh-Hant\".</em>"
+msgstr ""
+"<a href=\"@rfc4646\">RFC 4646</a> совместимый "
+"идентификатор языка. Коды языка "
+"обычно используют код страны и "
+"необязательный текст или вариант "
+"регионального названия. <em>Примеры: "
+"\"en\", \"en-US\" и \"zh-Hant\".</em>"
+
+#: includes/locale.inc:255
+msgid ""
+"Name of the language in English. Will be available for translation in "
+"all languages."
+msgstr ""
+"Название языка по-английски. Будет "
+"доступно для перевода во всех языках."
+
+#: includes/locale.inc:268
+msgid ""
+"Language code or other custom string for pattern matching within the "
+"path. With language negotiation set to <em>Path prefix only</em> or "
+"<em>Path prefix with language fallback</em>, this site is presented in "
+"this language when the Path prefix value matches an element in the "
+"path. For the default language, this value may be left blank. "
+"<strong>Modifying this value will break existing URLs and should be "
+"used with caution in a production environment.</strong> <em>Example: "
+"Specifying \"deutsch\" as the path prefix for German results in URLs "
+"in the form \"www.example.com/deutsch/node\".</em>"
+msgstr ""
+"Код языка или другая строка внутри "
+"пути. С определением языка "
+"установленным в <em>Префикс пути</em> или "
+"<em>Префикс пути с определением "
+"языка</em>, сайт будет показан в этом "
+"языке, если Префикс пути совпадёт с "
+"частью пути. Для языка по умолчанию "
+"можно не указывать. <strong>Изменение "
+"этого значения нарушит текущие ссылки "
+"и должно использоваться с большой "
+"осторожностью на рабочих сайтах.</strong> "
+"<em>Пример: Указав \"russian\" как префикс "
+"пути для Русского приведет ссылки к "
+"виду \"www.example.com/russian/node\".</em>"
+
+#: includes/locale.inc:274
+msgid ""
+"Language-specific URL, with protocol. With language negotiation set to "
+"<em>Domain name only</em>, the site is presented in this language when "
+"the URL accessing the site references this domain. For the default "
+"language, this value may be left blank. <strong>This value must "
+"include a protocol as part of the string.</strong> <em>Example: "
+"Specifying \"http://example.de\" or \"http://de.example.com\" as "
+"language domains for German results in URLs in the forms "
+"\"http://example.de/node\" and \"http://de.example.com/node\", "
+"respectively.</em>"
+msgstr ""
+"Ссылка, зависящая от языка, с "
+"протоколом. При определении языка, "
+"установленным в <em>Доменное имя</em>, "
+"сайт будет представлен в этом языке "
+"при доступе на него с использованием "
+"данного домена. Для языка по умолчанию "
+"это значение можно не указывать. "
+"<strong>Это значение должно включать "
+"протокол как часть строки.</strong> "
+"<em>Например: указание «http://example.de» или "
+"«http://de.example.com» в качестве домена для "
+"немецкого языка будет генерировать "
+"ссылки «http://example.de/node» и "
+"«http://de.example.com/node», соответственно.</em>"
+
+#: includes/locale.inc:279
+msgid "Direction that text in this language is presented."
+msgstr ""
+"Направление текста, если присутствует "
+"в этом языке."
+
+#: includes/locale.inc:463
+msgid "Path prefix only."
+msgstr "Префикс пути."
+
+#: includes/locale.inc:464
+msgid "Path prefix with language fallback."
+msgstr "Префикс пути с определением языка."
+
+#: includes/locale.inc:465
+msgid "Domain name only."
+msgstr "Доменное имя."
+
+#: includes/locale.inc:467
+msgid ""
+"Select the mechanism used to determine your site's presentation "
+"language. <strong>Modifying this setting may break all incoming URLs "
+"and should be used with caution in a production environment.</strong>"
+msgstr ""
+"Выберите механизм, который будет "
+"использоваться для определения языка, "
+"на котором будет отображаться ваш "
+"сайт. <strong>Изменение данной настройки "
+"может нарушить все входящие связи (URL) "
+"и следует его использовать с большой "
+"осторожностью на эксплуатирующихся "
+"сайтах.</strong>"
+
+#: includes/locale.inc:632
+msgid "A Gettext Portable Object (<em>.po</em>) file."
+msgstr "Файл Gettext Portable Object (<em>.po</em>)."
+
+#: includes/locale.inc:731
+msgid ""
+"Select the language to export in Gettext Portable Object "
+"(<em>.po</em>) format."
+msgstr ""
+"Выберите язык для экспорта в файл "
+"формата gettext Portable Object (.po)."
+
+#: includes/locale.inc:750
+msgid ""
+"Generate a Gettext Portable Object Template (<em>.pot</em>) file with "
+"all strings from the Drupal locale database."
+msgstr ""
+"Будет создан файл gettext Portable Object (.pot), "
+"включающий все интерфейсные "
+"сообщения из базы данных переводов "
+"сайта."
+
+#: includes/module.inc:214
+msgid ""
+"%module is part of a circular dependency. This is not supported and "
+"you will not be able to switch it on."
+msgstr ""
+"%module является частью круговой "
+"зависимости. И не поддерживается  вы "
+"не можете его включить."
+
+#: includes/image.gd.inc:56
+msgid "JPEG quality must be a number between 0 and 100."
+msgstr ""
+"Качество JPEG, значение должно быть "
+"между 0 и 100."
+
+#: includes/xmlrpcs.inc:154,293
+msgid "Server error. Requested method @methodname not specified."
+msgstr ""
+"Ошибка сервера. Запрошенный метод "
+"@methodname не определён."
+
+#: includes/xmlrpcs.inc:208
+msgid "Server error. Requested function @method does not exist."
+msgstr ""
+"Ошибка сервера. Запрошенная функция "
+"@method не существует."
+
+#: includes/xmlrpcs.inc:296
+msgid "Server error. Requested method @methodname signature not specified."
+msgstr ""
+"Ошибка сервера. Подпись запрошенного "
+"метода @methodname не определена."
+
+#: includes/menu.inc:2360
+msgid "Menu router rebuild failed - some paths may not work correctly."
+msgstr ""
+"Перестройка меню не удалося - "
+"некоторые пути могут работать "
+"неправильно."
+
+#: includes/locale.inc:940
+msgid "Are you sure you want to delete the string \"%source\"?"
+msgstr ""
+"Вы уверены, что хотите удалить строку "
+"\"%source\"?"
+
+#: includes/locale.inc:940
+msgid ""
+"Deleting the string will remove all translations of this string in all "
+"languages. This action cannot be undone."
+msgstr ""
+"Удаление этой строки удалит все "
+"переводы этой строки во всех языках. "
+"Это действие не может быть отменено."
+
+#: includes/locale.inc:872
+msgid "The submitted string contains disallowed HTML: %string"
+msgstr ""
+"Отправляемая строка содержит "
+"запрещенный HTML: %string"
+
+#: includes/locale.inc:873
+msgid ""
+"Attempted submission of a translation string with disallowed HTML: "
+"%string"
+msgstr ""
+"Попытка отправки строк перевода с "
+"запрещённым HTML: %string"
+
+#: includes/locale.inc:1074
+msgid ""
+"One translation string was skipped because it contains disallowed "
+"HTML."
+msgid_plural ""
+"@count translation strings were skipped because they contain "
+"disallowed HTML."
+msgstr[0] ""
+"Переведенная строка пропущена, т.к. "
+"содержит недопустимый HTML."
+msgstr[1] ""
+"@count переведённые строки пропущены, "
+"т.к. содержат недопустимый HTML."
+msgstr[2] ""
+"@count[2] переведённых строк пропущены, "
+"т.к. содержат недопустимый HTML."
+
+#: includes/mail.inc:134
+msgid ""
+"Unable to send e-mail. Please contact the site administrator if the "
+"problem persists."
+msgstr ""
+"Не удается отправить почту. "
+"Пожалуйста, свяжитесь с "
+"администратором сайта, если эта "
+"проблема сохраняется."
+
+#: includes/locale.inc:2460
+msgid "Sinhala"
+msgstr "Сингальский"
+
+#: includes/locale.inc:2247
+msgid "JavaScript translation file %file.js was lost."
+msgstr "JavaScript файл перевода %file.js был утрачен."
+
+#: includes/locale.inc:342
+msgid ""
+"The characters &lt;, &gt;, \" and ' are not allowed in the language "
+"code field."
+msgstr ""
+"Символы &lt;, &gt;, \" и ' недопустимы в поле "
+"имени языка."
+
+#: includes/locale.inc:345
+msgid ""
+"The characters &lt;, &gt;, \" and ' are not allowed in the language "
+"name in English field."
+msgstr ""
+"Символы &lt;, &gt;, \" и ' недопустимы в поле "
+"имени языка в Английском поле."
+
+#: includes/locale.inc:348
+msgid ""
+"The characters &lt;, &gt;, \" and ' are not allowed in the native "
+"language name field."
+msgstr ""
+"Символы &lt;, &gt;, \" и ' недопустимы в поле "
+"родного имени языка."
+

@@ -1,0 +1,21 @@
+# Russian translation of views (all releases)
+# Copyright (c) 2013 by the Russian translation team
+# Generated from file: views/modules/aggregator/views_handler_field_aggregator_category.inc: n/a
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: views (all releases)\n"
+"POT-Creation-Date: 2013-05-29 14:21+0400\n"
+"PO-Revision-Date: 2010-07-13 23:59+0400\n"
+"Language-Team: Russian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=((((n%10)==1)&&((n%100)!=11))?(0):(((((n%10)>=2)&&((n%10)<=4))&&(((n%100)<10)||((n%100)>=20)))?(1):2));\n"
+
+#: modules/aggregator/views_handler_field_aggregator_category.inc:29,28,29,34,34,34,30,28,30,34
+msgid "Link this field to its aggregator category page"
+msgstr ""
+"Сделать это поле ссылкой на страницу "
+"его категорий агрегатора"
+

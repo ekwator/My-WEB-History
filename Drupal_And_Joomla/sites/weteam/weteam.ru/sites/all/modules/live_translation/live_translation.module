@@ -1,0 +1,72 @@
+<?php
+// $Id: live_translation.module,v 1.7 2009/06/07 03:33:33 brmassa Exp $
+/**
+ * @author Bruno Massa
+ * @file
+ *  Live Translation module's main file.
+ *
+ *  Only hooks and fundamental functions are placed here.
+ */
+
+// Interval between translation updates: 3 days
+DEFINE('LIVE_TRANSLATION_LIMIT', 60*60*24*2);
+
+// Translation status
+DEFINE('LIVE_TRANSLATION_STATUS_UNKNOWN', 0);
+DEFINE('LIVE_TRANSLATION_STATUS_OUTDATE', 1);
+DEFINE('LIVE_TRANSLATION_STATUS_OK',      2);
+DEFINE('LIVE_TRANSLATION_STATUS_PROJECT', 3);
+DEFINE('LIVE_TRANSLATION_STATUS_VERSION', 4);
+
+// Translation server URL (defined by Live Translation - Server module)
+DEFINE('LIVE_TRANSLATION_SERVER_URL', 'admin/live-translation/export');
+
+/**
+ * Implementation of hook_cron().
+ */
+function live_translation_cron() {
+  module_load_include('update.inc', 'live_translation');
+  if (_live_translation_status(TRUE) <= LIVE_TRANSLATION_STATUS_OUTDATE) {
+    _live_translation_update(TRUE);
+  }
+}
+
+/**
+ * Implementation of hook_menu().
+ */
+function live_translation_menu() {
+  $items['admin/reports/live-translation'] = array(
+    'access arguments'  => array('update translations'),
+    'description'       => 'Get a status report about available translations for your installed modules and theme',
+    'file'              => 'live_translation.admin.inc',
+    'page callback'     => '_live_translation_report',
+    'title'             => 'Available translations',
+  );
+  $items['admin/settings/live-translation'] = array(
+    'access arguments'  => array('update translations'),
+    'description'       => 'Set the translation server URLs',
+    'file'              => 'live_translation.admin.inc',
+    'page callback'     => 'drupal_get_form',
+    'page arguments'    => array('_live_translation_settings'),
+    'title'             => 'Live Translation',
+  );
+  return $items;
+}
+
+/**
+ * Implementation of hook_perm().
+ */
+function live_translation_perm() {
+  return array('update translations');
+}
+
+/**
+ * Implementation of hook_theme().
+ */
+function live_translation_theme() {
+  return array(
+    'live_translation_report' => array(
+      'arguments' => array('data' => NULL),
+    ),
+  );
+}

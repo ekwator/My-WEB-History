@@ -1,0 +1,449 @@
+<?php
+/**
+ * @file
+ * 
+ * Node Gallery Hierarchy. Adds hierarchical nesting to Node Galleries.
+ * 
+ * Still a development version because of the following _huge_ TODOs:
+ * 
+ * @todo: Access rights for galleries, db_rewrite_sql and caching where possible!
+ *        These will be huge changes in the include file, where all the tree
+ *        parsing is implemented. Probably no backwards compatability after change!
+ * 
+ * @todo: Make everything relationship aware! Need seperate instances of everything.
+ *        e.g. fix multiple navigation blocks on one page.
+ * 
+ * @todo: Check for loops / Validity of submitted data.
+ * 
+ * @todo: Override the Cover handler of Node Gallery for nested galleries,
+ *        so you can use empty galleries as categories!
+ * 
+ * 
+ */
+module_load_include('inc', 'node_gallery', 'node_gallery');
+module_load_include('inc', 'node_gallery_hierarchy', 'node_gallery_hierarchy');
+
+function node_gallery_hierarchy_menu() {
+  $items = array();
+  $items['admin/content/node_gallery_hierarchy'] = array(
+    'title' => 'Node Gallery Hierarchy',
+    'description' => 'Structure your Node Galleries hierarchically.',
+    'page callback' => 'drupal_get_form',
+    'page arguments' => array('node_gallery_hierarchy_structure_form'),
+    'access arguments' => array('structure'),
+    'access callback' => 'node_gallery_hierarchy_user_access',
+    'type' => MENU_NORMAL_ITEM,
+  );
+  return $items;
+}
+
+function node_gallery_hierarchy_user_access($op) {
+  if (user_access('administer nodes') || user_access(NODE_GALLERY_PERM_ADMIN_GALLERY)) {
+    // admins can do everything
+    return TRUE;
+  }
+  $gallery_types = node_gallery_get_types('gallery');
+  foreach ($gallery_types as $gallery_type) {
+    if (user_access('edit any ' . $gallery_type . ' content') || user_access('edit own ' . $gallery_type . ' content')) {
+      return TRUE;
+    }
+  }
+  return FALSE;
+}
+
+function node_gallery_hierarchy_structure_form(&$form_state) {
+  global $user;
+  drupal_set_title('Manage your Node Gallery structure');
+  $form = array(
+    '#cache' => FALSE,
+    '#description' => t('Manage your gallery hierarchy.'),
+    '#tree' => TRUE,
+    '#parent_fields' => TRUE,
+  );
+  $types = (array)node_gallery_get_types('gallery');
+  $options = array();
+  foreach ($types as $type) {
+    $options[$type] = check_plain($type);
+  }
+  $gallery_type = 'node_gallery_gallery';
+  if (!empty($form_state['post']['gallery-type']) && in_array($form_state['post']['gallery-type'], $types)) {
+    $gallery_type = $form_state['post']['gallery-type'];
+  }
+  $form['gallery-type'] = array(
+    '#type' => 'select',
+    '#title' => t('The gallery type to show'),
+    '#default_value' => $gallery_type,
+    '#options' => $options,
+    '#weight' => -1,
+  );
+  // admins get an additional filter by user.
+  $filter_uid = 'all';
+  if (user_access('administer nodes') || user_access(NODE_GALLERY_PERM_ADMIN_GALLERY)) {
+    $options = array(
+      'all' => t('All'),
+    );
+    $sql = 'SELECT u.uid, u.name FROM {users} u WHERE u.status = 1 ORDER BY u.name ASC';
+    $result = db_query($sql);
+    while ($u = db_fetch_object($result)) {
+      $options[$u->uid] = $u->name;
+    }
+    if (!empty($form_state['post']['gallery-author']) && array_key_exists($form_state['post']['gallery-author'], $options)) {
+      $filter_uid = $form_state['post']['gallery-author'];
+    }
+    $form['gallery-author'] = array(
+      '#type' => 'select',
+      '#title' => t('Filter by author'),
+      '#default_value' => $filter_uid,
+      '#options' => $options,
+      '#weight' => 0,
+    );
+  }
+  $form['filter-button'] = array(
+    '#type' => 'button',
+    '#value' => t('Filter'),
+  );
+  $gallery_tree = node_gallery_hierarchy_get_gallery_tree($gallery_type);
+  if (empty($gallery_tree)) {
+    $form['galleries'] = array(
+      '#value' => t('There are no galleries yet.'),
+    );
+    return $form;
+  }
+  $gallery_list = node_gallery_hierarchy_get_flatlist($gallery_tree);
+  // determine which galleries the user can edit (he needs view permissions as
+  // well, because the list is built using db_rewrite_sql.
+  $permission_any = FALSE;
+  $permission_own = FALSE;
+  if (user_access('edit any ' . $gallery_type . ' content')) {
+    $permission_any = TRUE;
+  } elseif (user_access('edit own ' . $gallery_type . ' content')) {
+    $permission_own = TRUE;
+  }
+  if ($permission_own == FALSE && $permission_any == FALSE) {
+    $form['galleries'] = array(
+      '#value' => t('You do not have the permissions required to manage the gallery hierarchy.'),
+    );
+    return $form;
+  }
+  foreach ($gallery_list as $key => $gallery) {
+    if ($filter_uid != 'all') {
+      if ($gallery['uid'] != $filter_uid) {
+        continue;
+      }
+    }
+    if (!$permission_any) {
+      if ($gallery['uid'] != $user->uid) {
+        continue;
+      }
+    }
+    $key = 'gid:' . $key;
+    $form[$key]['#gallery'] = $gallery;
+    $form[$key]['title'] = array('#value' => check_plain($gallery['title']));
+    $form[$key]['gid'] = array(
+      '#type' => 'hidden',
+      '#value' => $gallery['gid']
+    );
+    $form[$key]['parent'] = array(
+      '#type' => 'hidden',
+      '#default_value' => $gallery['parent'],
+    );
+    $form[$key]['depth'] = array(
+      '#type' => 'hidden',
+      '#default_value' => $gallery['depth'],
+    );
+  }
+  $form['submit'] = array(
+    '#type' => 'submit',
+    '#value' => t('Save'),
+  );
+  return $form;
+}
+
+function node_gallery_hierarchy_structure_form_submit($form, &$form_state) {
+  // Get the $_POST order.
+  $order = array_flip(array_keys($form['#post'])); 
+  // Update our original form with the new order.
+  $form_state['values'] = array_merge($order, $form_state['values']);
+  $weight = 0;
+  $level_weights = array();
+  $changed_galleries = array();
+  foreach ($form_state['values'] as $key => $values) {
+    if (isset($form[$key]['#gallery'])) {
+      $gallery = $form[$key]['#gallery'];
+      // Use straight up numbering per depth level as weight
+      if ($values['parent'] == 0) {
+        // Root gallery, continue global counting
+        $gallery['weight'] = $weight;
+      }
+      elseif ($values['parent'] > 0) {
+        // Child gallery, use per-level (parent) counting
+        $level_weights[$values['parent']] = isset($level_weights[$values['parent']]) ? $level_weights[$values['parent']] + 1 : 0;
+        $gallery['weight'] = $level_weights[$values['parent']];
+      }
+      // Update any changed parents.
+      $gallery['parent'] = $values['parent'];
+      $changed_galleries[$gallery['gid']] = $gallery;
+      $weight++;
+    }
+  }
+  if (count($changed_galleries) > 0) {
+    cache_clear_all('*', 'cache_views_data', TRUE);
+    foreach ($changed_galleries as $changed_gallery) {
+      drupal_write_record('node_gallery_galleries', $changed_gallery, 'gid');
+    }    
+  }
+}
+
+/*
+ * Implements hook_form_alter()
+ */
+function node_gallery_hierarchy_form_alter(&$form, $form_state, $form_id) {
+  global $user;
+  if (in_array($form['type']['#value'], (array)node_gallery_get_types('gallery'))) {
+    // if displaying a gallery edit form, display a select box allowing choice of parent gallery
+    $default = 0;
+    $prune = array();
+    if (isset($form['#node']->nid)) {
+      $default = $form['#node']->parent;
+      $prune = array($form['#node']->nid);
+    }
+    $galleries = array(0 => t('No parent'));
+    $galleries += node_gallery_hierarchy_get_gallery_list($form['type']['#value'], $user, $prune);
+    $form['node_gallery_hierarchy'] = array(
+      '#type' => 'fieldset',
+      '#title' => t('Parent gallery'),
+      '#weight' => -1,
+      '#collapsible' => TRUE,
+      '#collapsed' => TRUE,
+    );
+    $form['node_gallery_hierarchy']['parent'] = array(
+        '#type' => 'select',
+        '#title' => t("Parent gallery"),
+        '#options' => $galleries,
+        '#default_value' => $default,
+        '#description' => t("Choose an existing gallery under which the new gallery will appear."),
+        '#weight' => -1,
+    );
+  }
+}
+
+/**
+ * Implements hook_nodeapi().
+ */
+function node_gallery_hierarchy_nodeapi(&$node, $op, $a3 = NULL, $a4 = NULL) {
+  global $user;
+  switch ($op) {
+    case 'load':
+      if (in_array($node->type, (array)node_gallery_get_types('gallery'))) {
+        $p = db_fetch_array(db_query("SELECT parent FROM {node_gallery_galleries} WHERE gid = %d", $node->nid));
+        $node->parent = $p['parent'];
+      }
+      break;
+    case 'insert':
+      if (in_array($node->type, (array)node_gallery_get_types('gallery'))) {
+        cache_clear_all('*', 'cache_views_data', TRUE);
+      }
+      break;
+    case 'update':
+      if (in_array($node->type, (array)node_gallery_get_types('gallery'))) {
+        cache_clear_all('*', 'cache_views_data', TRUE);
+      }
+      break;
+    case 'view':
+      if (in_array($node->type, (array)node_gallery_get_types('gallery'))) {
+        if ($a3 == FALSE && $a4 == TRUE) {
+          // this is a page view, show the subgalleries.
+          $gallery_trail = node_gallery_hierarchy_get_trail($node->nid, $node->type);
+          $breadcrumb = drupal_get_breadcrumb();
+          foreach ($gallery_trail as $parent_gallery) {
+            $breadcrumb[] = l(t($parent_gallery['title']), 'node/' . $parent_gallery['gid']);
+          }
+          drupal_set_breadcrumb($breadcrumb);
+          drupal_add_css(drupal_get_path('module', 'node_gallery_hierarchy') . '/node_gallery_hierarchy.css');          
+          $subtree = node_gallery_hierarchy_get_subgalleries($node->type, $node->nid);
+          if (!empty($subtree->children)) {
+            $cck_weight = content_extra_field_weight($node->type, 'subgalleries');
+            $weight = is_numeric($cck_weight) ? $cck_weight : -3;
+            $output = _node_gallery_views_embed_view('node_gallery_hierarchy_views', 'covers', 'all', 'all', $node->nid);
+            $node->content['subgalleries'] = array('#value' => $output, '#weight' => $weight);
+          }
+        }
+      }
+      break;
+    case 'delete':
+      if (in_array($node->type, (array)node_gallery_get_types('gallery'))) {
+        node_gallery_hierarchy_delete_gallery($node);
+        cache_clear_all('*', 'cache_views_data', TRUE);
+      }
+      break;
+  }
+}
+
+/**
+ * Implementation of cck's hook_content_extra_fields()
+ *
+ * Allows subgallery view to be arranged via content type fields.
+ *
+ * @param String $type_name Content type name
+ * @return Array of "extras".
+ */
+function node_gallery_hierarchy_content_extra_fields($type_name) {
+  $extras = array();
+  if (in_array($type_name, (array)node_gallery_get_types('gallery'))) {
+    $extras['subgalleries'] = array(
+      'label' => t('Subgalleries View'),
+      'description' => t('The Node_Gallery_Hierarchy view used to display subgalleries.'),
+      'weight' => -3,
+    );
+  }
+  return $extras;
+}
+
+function node_gallery_hierarchy_views_api() {
+  return array(
+    'api' => 2.0,
+    'path' => drupal_get_path('module', 'node_gallery_hierarchy') . '/views',
+  );
+}
+
+function node_gallery_hierarchy_views_pre_build(&$view) {  
+  if (!empty($view->tag) && stristr($view->tag, 'node_gallery_galleries')) {
+    $view->add_item($view->current_display, 'argument', 'node_gallery_galleries', 'parent', _node_gallery_hierarchy_parent_views_argument_options());
+  }
+}
+
+/*
+ * Implements hook_views_data_alter()
+ */
+function node_gallery_hierarchy_views_data_alter(&$data) {
+  $data['node_gallery_galleries']['parent'] = array(
+    'title' => t("Parent Gallery"),
+    'help' => t("The Id of the galleries parent."),
+    'field' => array(
+      'handler' => 'views_handler_field_node',
+      'click sortable' => TRUE,
+    ),
+    'relationship' => array(
+      'label' => t('Parent Gallery'),
+      'base' => 'node_gallery_galleries',
+      'base field' => 'gid',
+    ),
+    'argument' => array(
+      'handler' => 'views_handler_argument_node_nid',
+      'name field' => 'title', // the field to display in the summary.
+      'numeric' => TRUE,
+      'validate type' => 'nid',
+    ),
+    'filter' => array(
+      'handler' => 'views_handler_filter_numeric',
+    ),
+    'sort' => array(
+      'handler' => 'views_handler_sort',
+    ),
+  );
+  $data['node_gallery_galleries']['weight'] = array(
+    'title' => t('Gallery weight'),
+    'help' => t('The weight assigned to the gallery. Used for sorting subgalleries.'),
+    'field' => array(
+      'handler' => 'views_handler_field',
+    ),
+    'sort' => array(
+      'handler' => 'views_handler_sort',
+    ),
+  );
+}
+
+function node_gallery_hierarchy_form_node_gallery_manage_images_form_alter(&$form, &$form_state) {
+  $gallery = $form['#gallery'];
+  $relationship = node_gallery_get_relationship($gallery->type);
+  if ($relationship['settings']['manage_images_show_gallery_list']) {
+    $hierarchical_list = node_gallery_hierarchy_get_gallery_list($gallery->type);
+    foreach (element_children($form['images']) as $image_nid) {
+      $form['images'][$image_nid]['gid']['#options'] = $hierarchical_list;
+    }
+  }
+}
+
+/**
+ * Implements hook_block to provide a hierarchy navigator block.
+ */
+function node_gallery_hierarchy_block($op = 'list', $delta = 'hierarchy', $edit = array()) {  
+  switch ($op) {
+    case 'list':
+      $blocks = array();
+      $relationships = (array)node_gallery_get_relationship();
+      //dpr($relationships);
+      foreach ($relationships as $relationship) {
+        $blocks[$relationship['rid']] = array(
+          'info' => t('Gallery Hierarchy: !gallery_type', array('!gallery_type' => $relationship['gallery_type'])),
+          'cache' => BLOCK_CACHE_PER_ROLE | BLOCK_CACHE_PER_PAGE,
+        );
+      }
+      return $blocks;
+
+    case 'view':
+      $relationship = NULL;
+      $relationships = (array)node_gallery_get_relationship();      
+      foreach ($relationships as $rel) {
+        if ($rel['rid'] == $delta) {
+          $relationship = $rel;
+        }
+      }
+      if (!$relationship) {
+        return NULL;
+      }
+      $gid = NULL;
+      if (arg(0) == "node" && is_numeric(arg(1))) {
+        // check if the user is currently in the gallery, so we render the
+        // menu in the correct state.
+        $node = node_load(arg(1));
+        if ($node->type == $relationship['image_type']) {
+          $gid = $node->gid;
+        } elseif ($node->type == $relationship['gallery_type']) {
+          $gid = $node->nid;
+        }
+      }
+      $gallery_tree = node_gallery_hierarchy_get_gallery_tree($relationship['gallery_type']);
+      if (empty($gallery_tree)) {
+        return NULL;
+      }
+      $gallery_list = node_gallery_hierarchy_get_flatlist($gallery_tree);
+      drupal_add_js(drupal_get_path('module', 'node_gallery_hierarchy') .'/js/ng_hierarchy.js');
+      drupal_add_css(drupal_get_path('module', 'node_gallery_hierarchy') . '/node_gallery_hierarchy.css');
+      $block['subject'] = t('Image galleries');
+      $block['content'] = theme('node_gallery_hierarchy_hiearchy_block', $gallery_list, $gid);
+      return $block;
+  }
+}
+
+
+/**
+ * Registers the theme functions.
+ */
+function node_gallery_hierarchy_theme() {
+  $path = drupal_get_path('module', 'node_gallery_hierarchy') ."/theme";
+  $file = 'theme.inc';
+  $themes = array(
+    'node_gallery_hierarchy_structure_form' => array(
+      'arguments' => array('form' => NULL),
+      'path' => $path,
+      'file' => $file,
+    ),
+    'node_gallery_hierarchy_hiearchy_block' => array(
+      'arguments' => array('gallery_list' => NULL, 'gid' => NULL),
+      'template' => 'node-gallery-hierarchy-hiearchy-block',
+      'path' => $path,
+    ),
+    'views_view_list__node_gallery_hierarchy_views__covers' => array(
+      'arguments' => array('view' => NULL, 'options' => NULL, 'rows' => NULL, 'title' => NULL),
+      'template' => 'views-view-list--node-gallery-hierarchy-views--covers',
+      'original hook' => 'views_view_list',
+      'path' => $path,
+      'preprocess functions' => array(
+        'template_preprocess',
+        'template_preprocess_views_view_list',
+      ),
+    ),
+  );
+  return $themes;
+}

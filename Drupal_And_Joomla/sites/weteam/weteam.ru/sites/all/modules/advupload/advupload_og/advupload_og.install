@@ -1,0 +1,11 @@
+<?php
+// $Id$
+/**
+ * @file
+ * Here are some functions to make correct install/uninstall of module
+ */
+
+function advupload_og_install() {
+}
+function advupload_og_uninstall() {
+}

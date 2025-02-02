@@ -1,0 +1,1144 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--[if lt IE 7 ]><html xmlns="http://www.w3.org/1999/xhtml" class="ie6 ie67 ie no-js" lang="ru"><![endif]-->
+<!--[if IE 7 ]>   <html xmlns="http://www.w3.org/1999/xhtml" class="ie7 ie67 ie no-js" lang="ru"><![endif]-->
+<!--[if IE 8 ]>   <html xmlns="http://www.w3.org/1999/xhtml" class="ie8 ie no-js" lang="ru"><![endif]-->
+<!--[if IE 9 ]>   <html xmlns="http://www.w3.org/1999/xhtml" class="ie9 ie no-js" lang="ru"><![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+<html xmlns="http://www.w3.org/1999/xhtml" class=" js js  no-ipad no-iphone no-ipod no-appleios positionfixed" lang="ru"><!--<![endif]--><head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>Lightbox для картинок внутри текста (IMCE + Lightbox) в Drupal | ViJu</title>
+
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="keywords" content="Drupal developers, Drupal, Drupal 6">
+<meta name="description" content="При оформлении статьей очень частно возникает необходимость вставки картинок внутри текста, например с выравниванием по левой или по правой стороне, часто с подписями к этим картинкам, как это реализовать в Drupal с WYSIWYG редактором TinyMCE я писала в прошлый раз - TinyMCE template плагин в Drupal  А теперь к этим картинкам добавим эффект Lightbo">
+<link rel="shortcut icon" href="http://viju.tvercity.net/sites/default/themes/viju/favicon.ico" type="image/x-icon">
+  <link type="text/css" rel="stylesheet" media="all" href="lightbox-%D0%B4%D0%BB%D1%8F-%D0%BA%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%BE%D0%BA-%D0%B2%D0%BD%D1%83%D1%82%D1%80%D0%B8-%D1%82%D0%B5%D0%BA%D1%81%D1%82%D0%B0-imce-lightbox-%D0%B2-drupal_files/codefilter.css">
+<link type="text/css" rel="stylesheet" media="all" href="lightbox-%D0%B4%D0%BB%D1%8F-%D0%BA%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%BE%D0%BA-%D0%B2%D0%BD%D1%83%D1%82%D1%80%D0%B8-%D1%82%D0%B5%D0%BA%D1%81%D1%82%D0%B0-imce-lightbox-%D0%B2-drupal_files/css_70573f8e7928ae69730da46ec841c1fa.css">
+<link type="text/css" rel="stylesheet" media="only screen and (min-width: 120px) and (max-width: 900px)" href="lightbox-%D0%B4%D0%BB%D1%8F-%D0%BA%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%BE%D0%BA-%D0%B2%D0%BD%D1%83%D1%82%D1%80%D0%B8-%D1%82%D0%B5%D0%BA%D1%81%D1%82%D0%B0-imce-lightbox-%D0%B2-drupal_files/css_62213bf4433f903ae8183ca3c6e7f123.css">
+<link type="text/css" rel="stylesheet" media="only screen and (min-width: 120px) and (max-width: 540px)" href="lightbox-%D0%B4%D0%BB%D1%8F-%D0%BA%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%BE%D0%BA-%D0%B2%D0%BD%D1%83%D1%82%D1%80%D0%B8-%D1%82%D0%B5%D0%BA%D1%81%D1%82%D0%B0-imce-lightbox-%D0%B2-drupal_files/css_f16c34a563f648874f5dcea0ed25eb98.css">
+<link type="text/css" rel="stylesheet" media="only screen and (min-width: 1300px)" href="lightbox-%D0%B4%D0%BB%D1%8F-%D0%BA%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%BE%D0%BA-%D0%B2%D0%BD%D1%83%D1%82%D1%80%D0%B8-%D1%82%D0%B5%D0%BA%D1%81%D1%82%D0%B0-imce-lightbox-%D0%B2-drupal_files/css_78910c6c429fac220d6bfa4054f1d41b.css">
+<!--[if lt IE 7]>
+<style type="text/css" media="all">
+@import "/sites/default/themes/viju/core/iehacks.pack.css";
+@import "/sites/default/themes/viju/css/patches/patch_my_layout.css";
+@import "/sites/default/themes/viju/css/patches/patch_drupal.css";
+</style>
+<![endif]-->
+  <script src="lightbox-%D0%B4%D0%BB%D1%8F-%D0%BA%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%BE%D0%BA-%D0%B2%D0%BD%D1%83%D1%82%D1%80%D0%B8-%D1%82%D0%B5%D0%BA%D1%81%D1%82%D0%B0-imce-lightbox-%D0%B2-drupal_files/ga.js" async="" type="text/javascript"></script><script type="text/javascript" src="lightbox-%D0%B4%D0%BB%D1%8F-%D0%BA%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%BE%D0%BA-%D0%B2%D0%BD%D1%83%D1%82%D1%80%D0%B8-%D1%82%D0%B5%D0%BA%D1%81%D1%82%D0%B0-imce-lightbox-%D0%B2-drupal_files/js_74573e7c264d63546bf28d2a49598606.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, { "basePath": "/", "googleanalytics": { "trackOutgoing": 1, "trackMailto": 1, "trackDownload": 1, "trackDownloadExtensions": "7z|aac|arc|arj|asf|asx|avi|bin|csv|doc|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls|xml|z|zip" }, "lightbox2": { "rtl": "0", "file_path": "/(\\w\\w/)files", "default_image": "/sites/all/modules/lightbox2/images/brokenimage.jpg", "border_size": 10, "font_color": "000", "box_color": "fff", "top_position": "", "overlay_opacity": "0.8", "overlay_color": "000", "disable_close_click": 1, "resize_sequence": 0, "resize_speed": 400, "fade_in_speed": 400, "slide_down_speed": 600, "use_alt_layout": 0, "disable_resize": 0, "disable_zoom": 0, "force_show_nav": 0, "show_caption": true, "loop_items": 0, "node_link_text": "", "node_link_target": 0, "image_count": "!current / !total", "video_count": "!current / !total", "page_count": "!current / !total", "lite_press_x_close": "press \x3ca href=\"#\" onclick=\"hideLightbox(); return FALSE;\"\x3e\x3ckbd\x3ex\x3c/kbd\x3e\x3c/a\x3e to close", "download_link_text": "", "enable_login": false, "enable_contact": false, "keys_close": "c x 27", "keys_previous": "p 37", "keys_next": "n 39", "keys_zoom": "z", "keys_play_pause": "32", "display_image_size": "original", "image_node_sizes": "()", "trigger_lightbox_classes": "img.inline", "trigger_lightbox_group_classes": "", "trigger_slideshow_classes": "", "trigger_lightframe_classes": "", "trigger_lightframe_group_classes": "", "custom_class_handler": "lightbox", "custom_trigger_classes": "img.lb,img.lb1", "disable_for_gallery_lists": 1, "disable_for_acidfree_gallery_lists": true, "enable_acidfree_videos": true, "slideshow_interval": 5000, "slideshow_automatic_start": true, "slideshow_automatic_exit": true, "show_play_pause": true, "pause_on_next_click": false, "pause_on_previous_click": true, "loop_slides": false, "iframe_width": 600, "iframe_height": 400, "iframe_border": 1, "enable_video": 0 }, "cron": { "basePath": "/ru/poormanscron", "runNext": 1346153612 } });
+//--><!]]>
+</script>
+  
+  <script type="text/javascript" src="lightbox-%D0%B4%D0%BB%D1%8F-%D0%BA%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%BE%D0%BA-%D0%B2%D0%BD%D1%83%D1%82%D1%80%D0%B8-%D1%82%D0%B5%D0%BA%D1%81%D1%82%D0%B0-imce-lightbox-%D0%B2-drupal_files/modernizr.js"></script>
+</head>
+
+<body class="not-front not-logged-in page-node node-type-blog two-sidebars i18n-ru lightbox-processed cron-check-processed">
+
+<div id="page_margins">
+    <div id="page">
+
+    <div id="header" class="clearfix">
+      <div id="topnav">
+        <a class="skip" href="#navigation" title="Skip to the navigation">Skip to the navigation</a><span class="hideme">.</span>
+        <a class="skip" href="#content" title="Skip to the content">Skip to the content</a><span class="hideme">.</span>
+      </div>
+            
+    </div>
+
+    <div id="nav-bar" class="clearfix">
+      <div class="breadcrumb"><a href="http://viju.tvercity.net/ru">Главная</a> » <a href="http://viju.tvercity.net/ru/blog">Блоги</a> » <a href="http://viju.tvercity.net/ru/weblog/julia">Julia's blog</a></div> 
+            	<div class="region">
+      		<div class="block block-locale" id="block-locale-0">  
+    <div class="content"><ul><li class="en first"><a href="http://viju.tvercity.net/en/node/571" class="language-link">English</a></li>
+<li class="ru last active"><a href="http://viju.tvercity.net/ru/weblog/lightbox-%D0%B4%D0%BB%D1%8F-%D0%BA%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%BE%D0%BA-%D0%B2%D0%BD%D1%83%D1%82%D1%80%D0%B8-%D1%82%D0%B5%D0%BA%D1%81%D1%82%D0%B0-imce-lightbox-%D0%B2-drupal" class="language-link active">Русский</a></li>
+</ul></div>
+</div>      	</div>
+           
+    </div>
+
+    <div id="main">
+
+      
+            <!-- begin: #col1 - first float column -->
+      <div id="col1">
+        <div id="col1_content" class="clearfix">
+          <div id="col1_inside" class="floatbox">
+            <div class="block block-block" id="block-block-3">  
+    <div class="content"><p><img src="lightbox-%D0%B4%D0%BB%D1%8F-%D0%BA%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%BE%D0%BA-%D0%B2%D0%BD%D1%83%D1%82%D1%80%D0%B8-%D1%82%D0%B5%D0%BA%D1%81%D1%82%D0%B0-imce-lightbox-%D0%B2-drupal_files/f029.jpg" alt="just photo" height="480" width="149"></p>
+</div>
+</div>          </div>
+        </div>
+      </div>
+      <!-- end: #col1 -->
+      
+            <!-- begin: #col2 second float column -->
+      <div id="col2">
+        <div id="col2_content" class="clearfix">
+          <div id="col2_inside" class="floatbox">
+          
+            <h1 id="site-name"><a href="http://viju.tvercity.net/" title="Главная">ViJu</a></h1>            
+            <div id="nav">
+               <a id="navigation" name="navigation"></a>
+                                   <div id="nav_main" class="nav">
+                        <ul class="links primary-links"><li class="menu-2194 first"><a href="http://viju.tvercity.net/ru/julia/drupalblog" title="">Our Drupal blog</a></li>
+<li class="menu-2199"><a href="http://viju.tvercity.net/ru/julia/blog" title="">Julia's blog</a></li>
+<li class="menu-64"><a href="http://viju.tvercity.net/ru/weblog" title="">Vitaliy's blog</a></li>
+<li class="menu-647 last"><a href="http://viju.tvercity.net/ru/service" title="">Услуги</a></li>
+</ul>                    </div>
+                                          </div>
+            <div id="extras">
+                                <form action="/ru/weblog/lightbox-%D0%B4%D0%BB%D1%8F-%D0%BA%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%BE%D0%BA-%D0%B2%D0%BD%D1%83%D1%82%D1%80%D0%B8-%D1%82%D0%B5%D0%BA%D1%81%D1%82%D0%B0-imce-lightbox-%D0%B2-drupal" accept-charset="UTF-8" method="post" id="search-theme-form">
+<div><div id="search" class="container-inline">
+  <div class="form-item" id="edit-search-theme-form-1-wrapper">
+ <label for="edit-search-theme-form-1">Search this site: </label>
+ <input maxlength="128" name="search_theme_form" id="edit-search-theme-form-1" size="15" title="Введите слова для поиска." class="form-text" type="text">
+</div>
+<input name="op" id="edit-submit-1" value="Поиск" class="form-submit" type="submit">
+<input name="form_build_id" id="form-3d48a9c26e87884b7cd41f10df60f31a" value="form-3d48a9c26e87884b7cd41f10df60f31a" type="hidden">
+<input name="form_id" id="edit-search-theme-form" value="search_theme_form" type="hidden">
+</div>
+
+</div></form>
+                
+                <div class="block block-tagadelic" id="block-tagadelic-136">  
+    <div class="content"><a href="http://viju.tvercity.net/ru/tags/170" class="tagadelic level1" rel="tag">cell</a> 
+<a href="http://viju.tvercity.net/ru/tags/299" class="tagadelic level1" rel="tag">cinema</a> 
+<a href="http://viju.tvercity.net/ru/tags/293" class="tagadelic level1" rel="tag">CSS</a> 
+<a href="http://viju.tvercity.net/ru/tags/280" class="tagadelic level2" rel="tag">desktop</a> 
+<a href="http://viju.tvercity.net/ru/tags/159" class="tagadelic level2" rel="tag">docbook</a> 
+<a href="http://viju.tvercity.net/ru/tags/180" class="tagadelic level6" rel="tag">Drupal</a> 
+<a href="http://viju.tvercity.net/ru/tags/326" class="tagadelic level4" rel="tag">Drupal 6</a> 
+<a href="http://viju.tvercity.net/ru/tags/176" class="tagadelic level3" rel="tag">Education</a> 
+<a href="http://viju.tvercity.net/ru/tags/270" class="tagadelic level3" rel="tag">future</a> 
+<a href="http://viju.tvercity.net/ru/tags/275" class="tagadelic level4" rel="tag">gadget</a> 
+<a href="http://viju.tvercity.net/ru/tags/213" class="tagadelic level3" rel="tag">google</a> 
+<a href="http://viju.tvercity.net/ru/tags/174" class="tagadelic level2" rel="tag">http raw</a> 
+<a href="http://viju.tvercity.net/ru/tags/276" class="tagadelic level2" rel="tag">IE</a> 
+<a href="http://viju.tvercity.net/ru/tags/169" class="tagadelic level2" rel="tag">java</a> 
+<a href="http://viju.tvercity.net/ru/tags/212" class="tagadelic level2" rel="tag">linux</a> 
+<a href="http://viju.tvercity.net/ru/tags/283" class="tagadelic level1" rel="tag">mobile</a> 
+<a href="http://viju.tvercity.net/ru/tags/166" class="tagadelic level4" rel="tag">MS</a> 
+<a href="http://viju.tvercity.net/ru/tags/168" class="tagadelic level5" rel="tag">open source</a> 
+<a href="http://viju.tvercity.net/ru/tags/223" class="tagadelic level4" rel="tag">photo &amp; video</a> 
+<a href="http://viju.tvercity.net/ru/tags/175" class="tagadelic level2" rel="tag">php</a> 
+<a href="http://viju.tvercity.net/ru/tags/138" class="tagadelic level1" rel="tag">Rebol</a> 
+<a href="http://viju.tvercity.net/ru/tags/177" class="tagadelic level2" rel="tag">ruby</a> 
+<a href="http://viju.tvercity.net/ru/tags/171" class="tagadelic level2" rel="tag">services</a> 
+<a href="http://viju.tvercity.net/ru/tags/277" class="tagadelic level3" rel="tag">shop'опоголизм</a> 
+<a href="http://viju.tvercity.net/ru/tags/314" class="tagadelic level3" rel="tag">snippet</a> 
+<a href="http://viju.tvercity.net/ru/tags/282" class="tagadelic level1" rel="tag">spam</a> 
+<a href="http://viju.tvercity.net/ru/tags/181" class="tagadelic level2" rel="tag">svg</a> 
+<a href="http://viju.tvercity.net/ru/tags/327" class="tagadelic level2" rel="tag">theme</a> 
+<a href="http://viju.tvercity.net/ru/tags/328" class="tagadelic level2" rel="tag">Theme by pieces</a> 
+<a href="http://viju.tvercity.net/ru/tags/182" class="tagadelic level4" rel="tag">troubleshooting</a> 
+<a href="http://viju.tvercity.net/ru/tags/194" class="tagadelic level5" rel="tag">useful</a> 
+<a href="http://viju.tvercity.net/ru/tags/178" class="tagadelic level5" rel="tag">web</a> 
+<a href="http://viju.tvercity.net/ru/tags/298" class="tagadelic level2" rel="tag">XHTML/CSS</a> 
+<a href="http://viju.tvercity.net/ru/tags/137" class="tagadelic level3" rel="tag">XML</a> 
+<a href="http://viju.tvercity.net/ru/tags/253" class="tagadelic level1" rel="tag">xslt &amp; xsl-fo</a> 
+<a href="http://viju.tvercity.net/ru/tags/193" class="tagadelic level3" rel="tag">yandex</a> 
+<a href="http://viju.tvercity.net/ru/tags/164" class="tagadelic level2" rel="tag">Альтернативы</a> 
+<a href="http://viju.tvercity.net/ru/tags/349" class="tagadelic level1" rel="tag">Сборник</a> 
+<a href="http://viju.tvercity.net/ru/tags/266" class="tagadelic level2" rel="tag">Эх яблочко</a> 
+<a href="http://viju.tvercity.net/ru/tags/172" class="tagadelic level5" rel="tag">а у нас</a> 
+<a href="http://viju.tvercity.net/ru/tags/252" class="tagadelic level3" rel="tag">браузеры</a> 
+<a href="http://viju.tvercity.net/ru/tags/330" class="tagadelic level1" rel="tag">вёрстка</a> 
+<a href="http://viju.tvercity.net/ru/tags/335" class="tagadelic level1" rel="tag">деградация</a> 
+<a href="http://viju.tvercity.net/ru/tags/341" class="tagadelic level1" rel="tag">интернет-магазин</a> 
+<a href="http://viju.tvercity.net/ru/tags/278" class="tagadelic level1" rel="tag">кино</a> 
+<a href="http://viju.tvercity.net/ru/tags/344" class="tagadelic level1" rel="tag">отдых</a> 
+<a href="http://viju.tvercity.net/ru/tags/269" class="tagadelic level4" rel="tag">поток сознания</a> 
+<a href="http://viju.tvercity.net/ru/tags/188" class="tagadelic level1" rel="tag">почитать</a> 
+<a href="http://viju.tvercity.net/ru/tags/340" class="tagadelic level2" rel="tag">развивающие игрушки</a> 
+<a href="http://viju.tvercity.net/ru/tags/267" class="tagadelic level1" rel="tag">цитата</a> 
+<div class="more-link"><a href="http://viju.tvercity.net/ru/tagadelic/chunk/136">другие тэги</a></div></div>
+</div><div class="block block-block" id="block-block-1">  
+    <div class="content"><h6 class="rss_pic">
+<a href="http://viju.tvercity.net/rss.xml">блог</a><br>
+</h6>
+<h6 class="rss_pic">
+<a href="http://viju.tvercity.net/crss/">комментарии</a><br>
+</h6>
+<h6 class="rss_pic">
+<a href="http://viju.tvercity.net/rss/articles" title="новые статьи в формате RSS">статьи</a><br>
+</h6>
+<p><a href="http://lenta.yandex.ru/settings.xml?name=feed&amp;url=http://viju.tvercity.net/rss.xml"><img src="lightbox-%D0%B4%D0%BB%D1%8F-%D0%BA%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%BE%D0%BA-%D0%B2%D0%BD%D1%83%D1%82%D1%80%D0%B8-%D1%82%D0%B5%D0%BA%D1%81%D1%82%D0%B0-imce-lightbox-%D0%B2-drupal_files/addfeed.gif" alt="Читать сообщения в Яндекс.Ленте" border="0"></a><br>
+<br><br></p>
+</div>
+</div><div class="block block-block" id="block-block-11">  
+    <div class="content"><div style="background: url('/r/i/mail.png') no-repeat left; padding-left: 21px;"><a href="http://viju.tvercity.net/contact">связаться с нами</a></div>
+</div>
+</div>            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div id="col3">
+        <div id="col3_content" class="clearfix"> <a id="content" name="content"></a> <!-- skip anchor: content -->
+          <div id="col3_inside" class="floatbox">
+                      
+            <h1 class="title">Lightbox для картинок внутри текста (IMCE + Lightbox) в Drupal</h1>                                                <div class="type-blog node">
+     
+  <div class="description clearfix">
+    <div class="field field-type-filefield field-field-postimage">
+    <div class="field-items">
+            <div class="field-item odd">
+                    <a href="http://viju.tvercity.net/files/image-resize-filter.png" rel="lightbox[field_postimage][Настройки Image Resize фильтра]" class="imagefield imagefield-lightbox2 imagefield-lightbox2-postimage imagefield-field_postimage imagecache imagecache-field_postimage imagecache-postimage imagecache-field_postimage-postimage lightbox-processed"><img src="lightbox-%D0%B4%D0%BB%D1%8F-%D0%BA%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%BE%D0%BA-%D0%B2%D0%BD%D1%83%D1%82%D1%80%D0%B8-%D1%82%D0%B5%D0%BA%D1%81%D1%82%D0%B0-imce-lightbox-%D0%B2-drupal_files/image-resize-filter.png" alt="Настройки Image Resize фильтра" title="" height="78" width="200"></a>        </div>
+        </div>
+</div>
+<p>При оформлении статьей очень частно возникает необходимость вставки картинок внутри текста,<br>
+например с выравниванием по левой или по правой стороне, часто с подписями к этим картинкам,<br>
+как это реализовать в Drupal с WYSIWYG редактором TinyMCE я писала в прошлый раз -<br>
+<a href="http://viju.tvercity.net/ru/weblog/tinymce-template-%D0%BF%D0%BB%D0%B0%D0%B3%D0%B8%D0%BD-%D0%B2-drupal">TinyMCE template плагин в Drupal</a></p>
+<p>А теперь к этим картинкам добавим эффект Lightbox - увеличение картинки при клике на ней.<br>
+В самом модуле <a href="http://drupal.org/project/lightbox2">Lightbox </a>
+ уже есть фильтр, который автоматически добавит javascript для картинок с
+ определенным классом (если этот фильтр отдельно включить).</p>
+<p>Но вручную писать и ссылку на большую картинку, и делать thumbnail не удобно.<br>
+К счастью, есть модуль <a href="http://drupal.org/project/image_resize_filter">image_resize_filter</a> (кстати, разработанный известной компанией <a href="http://www.lullabot.com/">Lullabot</a>).</p>
+<p>Этот модуль, как ясно из названия, сам за вас изменит размер картинки.<br>
+Работает он как фильтр, вы с помощью IMCE или даже просто в Bueditore<br>
+вставляете в текст большую картику (не thumbnail), но указываете в атрибутах width и height<br>
+размеры thumbnailа, а фильтр сделает все остальное - уменьшит картинку и добавит нужную ссылку для Lightbox.</p>
+<h3>Lightbox модуль</h3>
+<p>Для начала посмотрим как вставлять картинку с эффектом Lightbox,<br>
+установив только модуль Lightbox2.</p>
+<p><strong>вариант #1</strong><br>
+Для этого нужно img поместить внутри ссылки на картинку оригинального размера<br>
+и добавить аттрибут <em>rel="lightbox"</em>:</p>
+<div class="codeblock"><code>&lt;a href="images/image-1.jpg" rel="lightbox" title="my caption"&gt;image #1&lt;/a&gt;<br>&lt;a href="images/image-1.jpg" rel="lightbox[][my caption]"&gt;image #1&lt;/a&gt;</code></div>
+<p>Чтобы сгруппировать картинки, т.е. чтобы можно было пролистывать их внутри lightbox стрелочками влево и вправо:</p>
+<div class="codeblock"><code>&lt;a href="images/image-1.jpg" rel="lightbox[roadtrip]"&gt;image #1&lt;/a&gt;<br>&lt;a href="images/image-2.jpg" rel="lightbox[roadtrip][caption 2]"&gt;image #2&lt;/a&gt;<br>&lt;a href="images/image-3.jpg" rel="lightbox[roadtrip][caption 3]"&gt;image #3&lt;/a&gt;</code></div>
+<p>(подробнее, в том числе как группировать картинки см. <a href="http://drupal.org/node/356124" title="http://drupal.org/node/356124">http://drupal.org/node/356124</a>)</p>
+<p>Чтобы это работало lighbox скрипт должен быть включен на всех страницах -<br>
+см. в настройках модуля (<em>/admin/settings/lightbox2</em>) в блоке Page specific lightbox2 settings.</p>
+<p><strong>вариант #2</strong><br>
+Другой вариант заключается в том, что можно не добавлять атрибут rel и не мучаться с прописыванием правильных групп,<br>
+а добавить аттрибут <em>class</em> в тег <em>img</em>:</p>
+<div class="codeblock"><code>&lt;a href="images/image-1.jpg" 
+rel="lightbox" title="my caption"&gt;&lt;img 
+src="images/image-1-small.jpg" class="lb"/&gt;&lt;/a&gt;</code></div>
+<p>Чтобы это работало в настройках модуля (<em>/admin/settings/lightbox2/automatic</em>) нужно прописать этот класс:</p>
+<p><img src="lightbox-%D0%B4%D0%BB%D1%8F-%D0%BA%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%BE%D0%BA-%D0%B2%D0%BD%D1%83%D1%82%D1%80%D0%B8-%D1%82%D0%B5%D0%BA%D1%81%D1%82%D0%B0-imce-lightbox-%D0%B2-drupal_files/lightbox.png" height="277" width="359"></p>
+<h3>Lightbox + Image resize filter</h3>
+<p>В обоих случаях, описанных выше, нужно<br>
+иметь две картинки - большую и маленькую,<br>
+вручную добавлять ссылку к картинке,<br>
+указывать атрибут (либо rel, либо class)</p>
+<p>При использовании модуля Image resize filter<br>
+достаточно вставить картинку и указать размеры превьюшки в атрибутах width и height:</p>
+<div class="codeblock"><code>&lt;img src="images/image-1.jpg" width="320" height="240"&gt;</code></div>
+<p>здесь <i>/files/image-1.jpg</i> - это большая картинка.</p>
+<p>И если Image resize фильтр включен в настройках формата ввода,<br>
+а также в настройках самого фильтра указано, что нужно добавить тег rel=lightbox<br>
+то при просмотре страницы html будет выглядет вот так:</p>
+<div class="codeblock"><code>&lt;a rel="lightbox" 
+href="/files/image-1.jpg" class="lightbox-processed"&gt;&lt;img 
+height="240" width="320" 
+src="/files/resize/image-1-320x240.JPG"&gt;&lt;/a&gt;</code></div>
+<h3>Модули</h3>
+<p>Модули, которые понадобятся -<br>
+<a href="http://drupal.org/project/wysiwyg" title="http://drupal.org/project/wysiwyg">http://drupal.org/project/wysiwyg</a><br>
+<a href="http://drupal.org/project/imce" title="http://drupal.org/project/imce">http://drupal.org/project/imce</a></p>
+<p><a href="http://drupal.org/project/lightbox2" title="http://drupal.org/project/lightbox2">http://drupal.org/project/lightbox2</a></p>
+<p><a href="http://drupal.org/project/image_resize_filter" title="http://drupal.org/project/image_resize_filter">http://drupal.org/project/image_resize_filter</a></p>
+<p>P.S. Спасибо Андрею, за комментарии</p>
+<h3>Итак, порядок действий</h3>
+<p>(Screenshots by <em>givchik</em>)</p>
+<ul>
+<li>установка IMCE</li>
+<li>установка визуального редактора поддерживающего интеграцию с IMCE</li>
+<li>настройка оной</li>
+<li>установка Lightbox</li>
+<li>установка Image resize filter и настройка - в форматах ввода:
+<ul>
+<li>Управление -&gt;</li>
+<li>Форматы ввода -&gt;</li>
+<li>настроить -&gt;</li>
+<li>Правка -&gt;</li>
+<li>пункт "Фильтры" -&gt;</li>
+<li>чек бокс "Image resize filter",</li>
+<li>сохраняемся</li>
+</ul>
+</li>
+<li>в формате "Filtered HTML" обязательно добавить тег img:
+<ul>
+<li>Управление -&gt; </li>
+<li>Форматы ввода -&gt; </li>
+<li>настроить -&gt; </li>
+<li>Настройка -&gt; </li>
+<li>пункт "HTML filter",</li>
+<li>сохраняемся</li>
+</ul>
+</li>
+<li>"Image resize filter" должен обрабатываться раньше "HTML filter":
+<ul>
+<li>Управление -&gt; </li>
+<li>Форматы ввода -&gt; </li>
+<li>настроить -&gt; </li>
+<li>Порядок,</li>
+<li>сохраняемся</li>
+</ul>
+<p><a class="lightbox-processed" href="http://viju.tvercity.net/files/15.112.png" rel="lightbox[roadtrip]"><img src="lightbox-%D0%B4%D0%BB%D1%8F-%D0%BA%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%BE%D0%BA-%D0%B2%D0%BD%D1%83%D1%82%D1%80%D0%B8-%D1%82%D0%B5%D0%BA%D1%81%D1%82%D0%B0-imce-lightbox-%D0%B2-drupal_files/15.png" alt="Скриншот" height="217" width="500"></a>
+</p></li>
+<li>, а также в настройках самого фильтра указать, что нужно добавить тег rel=lightbox:
+<ul>
+<li>Управление -&gt;</li>
+<li>Форматы ввода -&gt;</li>
+<li>настроить -&gt;</li>
+<li>Настройка -&gt;</li>
+<li>пункт "Image resize settings" -&gt;</li>
+<li>чек бокс "Link to the original:" -&gt;</li>
+<li>give it the class: lb, and/or a rel attribute: lightbox,</li>
+<li>сохраняемся.</li>
+</ul>
+<p><a class="lightbox-processed" href="http://viju.tvercity.net/files/15.111.png" rel="lightbox[roadtrip]"><img src="lightbox-%D0%B4%D0%BB%D1%8F-%D0%BA%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%BE%D0%BA-%D0%B2%D0%BD%D1%83%D1%82%D1%80%D0%B8-%D1%82%D0%B5%D0%BA%D1%81%D1%82%D0%B0-imce-lightbox-%D0%B2-drupal_files/15_002.png" alt="" height="224" width="500"></a><br>
+<strong>Чтобы картинки листались внутри lighbox, укажите атрибут не lightbox, а lightbox[roadtrip]</strong></p>
+</li>
+<li>и все, получаем готовый результат.)</li>
+</ul>
+<div class="field field-type-nodereference field-field-seealso">
+      <div class="field-label">Похожие заметки:&nbsp;</div>
+    <div class="field-items">
+            <div class="field-item odd">
+                    <a href="http://viju.tvercity.net/ru/weblog/tinymce-template-%D0%BF%D0%BB%D0%B0%D0%B3%D0%B8%D0%BD-%D0%B2-drupal">TinyMCE template плагин в Drupal</a>        </div>
+        </div>
+</div>
+ 
+  </div>
+    <div class="tags">тэги: <ul class="links tags"><li class="taxonomy_term_338 first"><a href="http://viju.tvercity.net/ru/structure/aboutdrupal" rel="tag" title="">About Drupal</a></li>
+<li class="taxonomy_term_180"><a href="http://viju.tvercity.net/ru/tags/180" rel="tag" title="">Drupal</a></li>
+<li class="taxonomy_term_326 last"><a href="http://viju.tvercity.net/ru/tags/326" rel="tag" title="">Drupal 6</a></li>
+</ul></div>
+</div>
+<div id="comments">
+  <a id="comment-1295"></a>
+<div class="comment">
+    <!--<h3 class="title"><a href="/ru/weblog/lightbox-%D0%B4%D0%BB%D1%8F-%D0%BA%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%BE%D0%BA-%D0%B2%D0%BD%D1%83%D1%82%D1%80%D0%B8-%D1%82%D0%B5%D0%BA%D1%81%D1%82%D0%B0-imce-lightbox-%D0%B2-drupal#comment-1295" class="active">1. Можно элементарный пример</a></h3>-->
+  <div class="submitted">Grey (Не проверено), 22/04/2010</div>
+  <div class="content"><p>1. Можно элементарный пример кода, который 
+показывал бы как нужно вставлять картинку только с Lightbox а какой код 
+будет с Lightbox+image_resize_filter</p>
+<p>2. Какой код нужно вставить при Lightbox что бы можно было пролистать слайд шоу нескольких картинок стрелочками справа и слева.</p>
+</div>
+  <!-- BEGIN: links -->
+  <div class="links"><ul class="links"><li class="comment_reply first last"><a href="http://viju.tvercity.net/ru/comment/reply/571/1295">Ответить</a></li>
+</ul></div>
+  <!-- END: links -->
+</div>
+<div class="indented"><a id="comment-1296"></a>
+<div class="comment">
+    <!--<h3 class="title"><a href="/ru/weblog/lightbox-%D0%B4%D0%BB%D1%8F-%D0%BA%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%BE%D0%BA-%D0%B2%D0%BD%D1%83%D1%82%D1%80%D0%B8-%D1%82%D0%B5%D0%BA%D1%81%D1%82%D0%B0-imce-lightbox-%D0%B2-drupal#comment-1296" class="active">дописала в пост</a></h3>-->
+  <div class="submitted">Julia, 22/04/2010</div>
+  <div class="content"><p>дописала в пост</p>
+</div>
+  <!-- BEGIN: links -->
+  <div class="links"><ul class="links"><li class="comment_reply first last"><a href="http://viju.tvercity.net/ru/comment/reply/571/1296">Ответить</a></li>
+</ul></div>
+  <!-- END: links -->
+</div>
+</div><a id="comment-1300"></a>
+<div class="comment">
+    <!--<h3 class="title"><a href="/ru/weblog/lightbox-%D0%B4%D0%BB%D1%8F-%D0%BA%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%BE%D0%BA-%D0%B2%D0%BD%D1%83%D1%82%D1%80%D0%B8-%D1%82%D0%B5%D0%BA%D1%81%D1%82%D0%B0-imce-lightbox-%D0%B2-drupal#comment-1300" class="active">Здравствуйте! Такой вопрос.
+У</a></h3>-->
+  <div class="submitted"><a href="http://bel-okna.ru/" rel="nofollow">Дмитрий Зоркий</a> (Не проверено), 12/05/2010</div>
+  <div class="content"><p>Здравствуйте! Такой вопрос.<br>
+У меня есть несколько картинок (красиво открываются через затемнение - 
+все как надо) НО! У меня в этим же скриптом открываются схемы проезда. И
+ выходит вот что. Просматривая основную галерею, листая картинки, мы в 
+этой же галерее видим и схемы проезда (хотя они должны открываться 
+отдельно и не отображаться в основной галерее картинок).<br>
+Как можно исправить?</p>
+</div>
+  <!-- BEGIN: links -->
+  <div class="links"><ul class="links"><li class="comment_reply first last"><a href="http://viju.tvercity.net/ru/comment/reply/571/1300">Ответить</a></li>
+</ul></div>
+  <!-- END: links -->
+</div>
+<a id="comment-1328"></a>
+<div class="comment">
+    <!--<h3 class="title"><a href="/ru/weblog/lightbox-%D0%B4%D0%BB%D1%8F-%D0%BA%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%BE%D0%BA-%D0%B2%D0%BD%D1%83%D1%82%D1%80%D0%B8-%D1%82%D0%B5%D0%BA%D1%81%D1%82%D0%B0-imce-lightbox-%D0%B2-drupal#comment-1328" class="active">по скольку я не разработчик,</a></h3>-->
+  <div class="submitted">givchik (Не проверено), 12/11/2010</div>
+  <div class="content"><p>по скольку я не разработчик, а с друпалом знаком не давно... Хочу уточнить, создает ли данный способ галерею как на Вашем сайте?<br>
+Если я правильно понял, делает она следующее:</p>
+<ul>
+<li>визуальный редактор (любой который интегрируется с <a href="http://content-management-systems.info/drupal/project/imce" title="Сетегном">IMCE</a> через <a href="http://content-management-systems.info/drupal/project/wysiwyg" title="Сетегном">Wysiwyg</a> или через свой модуль как <a href="http://content-management-systems.info/drupal/project/ckeditor" title="Сетегном">CKEditor</a>)позволяет вставить в текст в нужном месте изображение ранее загруженное через <a href="http://content-management-systems.info/drupal/project/imce" title="Сетегном">IMCE</a></li>
+<li><a href="http://content-management-systems.info/drupal/project/imce" title="Сетегном">IMCE</a> выполняет ресайз на лету (вставка оригинала с указаными параметрами или изначально созданого при загрузке на сервер)</li>
+<li>а прикрученный <a href="http://viju.tvercity.net/drupal/project/lightbox2" title="Lightbox2 — эффекты при выводе изображений">Lightbox2</a> позволяет создать эффекты: затемнения, увеличения до оригинала, перелистывания</li>
+<li>и насколько я понял показывает в <a href="http://viju.tvercity.net/drupal/project/lightbox2" title="Lightbox2 — эффекты при выводе изображений">Lightbox2</a> все изображения на странице. К примеру в этой статье одна картинка, а если перейти на <a href="http://viju.tvercity.net/ru/taxonomy/term/180/all" title="Ваш сайт">страничку с кратким содержанием нескольких статей</a> то показываются все эти изображения. Но при входе в статью <a href="http://viju.tvercity.net/ru/weblog/menubased-configuration">Drupal 6. Меню ориентированный сайт</a> показываются только ее картинки.</li>
+</ul>
+<p>Если все правильно, то это то что мне нужно! Способов применения у такого решения тьма:</p>
+<ul>
+<li>вставка изображений с красивыми эффектами в текст</li>
+<li>создание галерей с описанием картинок (особенно удобно для 
+фотографа, каждая картинка вставлена в текст, последовательно, с 
+какой-то историей) и все это с Lightbox-ом</li>
+<li>создание галерей пользователя из материала "Блог" без установки доп 
+модулей что сильно облегчает движок, придавая скорости (ведь и модули с 
+ограничениями на загрузки, голосования для картинок - не нужны, 
+достаточно голосования для нод и лимитов самого <a href="http://content-management-systems.info/drupal/project/imce" title="Сетегном">IMCE</a>)</li>
+<li>создание галереи сайта, админом</li>
+<li>создание галереи темы, админом или модером имеющим доступ к каталогу (<a title="IMCE">и все без дополнительных модулей</a> и без занимания лишнего места на сайте дополнительными картинками</li>
+</ul>
+<p>И собственно возникает вопрос, к вам, как специалистам: чем радикально отличается ето решение от <a href="http://habrahabr.ru/blogs/personal/77263/" title="Хабрахабр">Легкий способ публикации картинок в FCKeditor + IMCE + Lightbox2</a><br>
+Если же, где-то, в силу своей неопытности, нехватки знаний, ошибся прошу поправить и подсказать способ реализации.<br>
+Уточню еще раз что мне нужно:</p>
+<ul>
+<li>загрузка юзером на сайт изображения (возможности IMCE устраивают более чем)</li>
+<li>вставка их в текст  и форматирование через визуальный редактор (свзка IMCE + редактор устраивают более чем)</li>
+<li>вывод в статье "превюшки" клик по которой выводит ее в Lightbox с всеми изображениями страницы (возможность перелистывания)</li>
+<li>кнопочка зума, как у вас в Lightbox</li>
+<li>и просто суперово если есть способ вставки каруселей</li>
+</ul>
+<p>Спасибо вам огомное!)</p>
+</div>
+  <!-- BEGIN: links -->
+  <div class="links"><ul class="links"><li class="comment_reply first last"><a href="http://viju.tvercity.net/ru/comment/reply/571/1328">Ответить</a></li>
+</ul></div>
+  <!-- END: links -->
+</div>
+<div class="indented"><a id="comment-1329"></a>
+<div class="comment">
+    <!--<h3 class="title"><a href="/ru/weblog/lightbox-%D0%B4%D0%BB%D1%8F-%D0%BA%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%BE%D0%BA-%D0%B2%D0%BD%D1%83%D1%82%D1%80%D0%B8-%D1%82%D0%B5%D0%BA%D1%81%D1%82%D0%B0-imce-lightbox-%D0%B2-drupal#comment-1329" class="active">Да, вам полностью подходит</a></h3>-->
+  <div class="submitted">Julia, 12/11/2010</div>
+  <div class="content"><p>Да, вам полностью подходит описанный мною способ,</p>
+<p>что же касается ссылки с хабра - Легкий способ публикации картинок в FCKeditor + IMCE + Lightbox2,<br>
+то там решение совсем не легче и не гибче, к тому же и не очень 
+правильное с точки зрения принципов друпала (если уж что-то добавлять в 
+код, то не в page.tpl.php, а в template.php или еще правильнее - делать 
+это через свой модуль).</p>
+<p>Что касается каруселей - это тоже можно, если действительно нужно, опишите задачу подробнее и я напишу как лучше это сделать.</p>
+<p>PS: спасибо за такой подробный комментарий :)</p>
+</div>
+  <!-- BEGIN: links -->
+  <div class="links"><ul class="links"><li class="comment_reply first last"><a href="http://viju.tvercity.net/ru/comment/reply/571/1329">Ответить</a></li>
+</ul></div>
+  <!-- END: links -->
+</div>
+</div><a id="comment-1330"></a>
+<div class="comment">
+    <!--<h3 class="title"><a href="/ru/weblog/lightbox-%D0%B4%D0%BB%D1%8F-%D0%BA%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%BE%D0%BA-%D0%B2%D0%BD%D1%83%D1%82%D1%80%D0%B8-%D1%82%D0%B5%D0%BA%D1%81%D1%82%D0%B0-imce-lightbox-%D0%B2-drupal#comment-1330" class="active">Как рад читать ваш</a></h3>-->
+  <div class="submitted">givchik (Не проверено), 12/11/2010</div>
+  <div class="content"><p>Как рад читать ваш ответ.)<br>
+Насколько понял, полностью скрытый от глаз, простого пользователя, процесс - IMCE + Lightbox + Image resize filter.<br>
+Так мы получим процедуру следующего характера:</p>
+<ul>
+<li>пользователь заходит через свой аккаунт в IMCE</li>
+<li>загружает картинки (можно без миниатюр)</li>
+<li>потом идет создавать статью (статью, сообщение на форуме, блог)</li>
+<li>нажимает на вставка изображения -&gt; сервер -&gt; выбирает изображение</li>
+<li>указывает параметры "превьюшки" и вставляет в текст</li>
+<li>выравнивает: по краям или по центру</li>
+<li>сохраняет</li>
+</ul>
+<p>в результате при просмотре мы видим:</p>
+<ul>
+<li>изображения в теле статьи, разбросанные в разных местах</li>
+<li>нажимаем на одно из них -&gt; открывается Lightbox с этой картинкой и есть стрелочки взад, вперед</li>
+</ul>
+<p>Мне же нужно для этого сделать:</p>
+<ul>
+<li>установка IMCE</li>
+<li>установка визуального редактора поддерживающего интеграцию с IMCE</li>
+<li>настройка оной</li>
+<li>установка Lightbox и указание класса lb</li>
+<li>установка Image resize filter и настройка где-то в нем: в форматах 
+ввода, а также в настройках самого фильтра указать, что нужно добавить 
+тег rel=lightbox</li>
+</ul>
+<p>и все, получаем готовый результат.)</p>
+</div>
+  <!-- BEGIN: links -->
+  <div class="links"><ul class="links"><li class="comment_reply first last"><a href="http://viju.tvercity.net/ru/comment/reply/571/1330">Ответить</a></li>
+</ul></div>
+  <!-- END: links -->
+</div>
+<div class="indented"><a id="comment-1331"></a>
+<div class="comment">
+    <!--<h3 class="title"><a href="/ru/weblog/lightbox-%D0%B4%D0%BB%D1%8F-%D0%BA%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%BE%D0%BA-%D0%B2%D0%BD%D1%83%D1%82%D1%80%D0%B8-%D1%82%D0%B5%D0%BA%D1%81%D1%82%D0%B0-imce-lightbox-%D0%B2-drupal#comment-1331" class="active">Да, выглядит все так,
+если в</a></h3>-->
+  <div class="submitted">Julia, 12/11/2010</div>
+  <div class="content"><p>Да, выглядит все так,</p>
+<p>если в процессе окажется, что что-то упустили, вы же допишите сюда, правда? :)<br>
+буду благадарна</p>
+</div>
+  <!-- BEGIN: links -->
+  <div class="links"><ul class="links"><li class="comment_reply first last"><a href="http://viju.tvercity.net/ru/comment/reply/571/1331">Ответить</a></li>
+</ul></div>
+  <!-- END: links -->
+</div>
+<a id="comment-1455"></a>
+<div class="comment">
+    <!--<h3 class="title"><a href="/ru/weblog/lightbox-%D0%B4%D0%BB%D1%8F-%D0%BA%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%BE%D0%BA-%D0%B2%D0%BD%D1%83%D1%82%D1%80%D0%B8-%D1%82%D0%B5%D0%BA%D1%81%D1%82%D0%B0-imce-lightbox-%D0%B2-drupal#comment-1455" class="active">Все сделал в таком порядке.</a></h3>-->
+  <div class="submitted">Гость (Не проверено), 25/08/2011</div>
+  <div class="content"><p>Все сделал в таком порядке. Добавляю картинку, а lightbox не пашет и class="lb" не прикрутился.<br>
+В чем может быть проблема?</p>
+</div>
+  <!-- BEGIN: links -->
+  <div class="links"><ul class="links"><li class="comment_reply first last"><a href="http://viju.tvercity.net/ru/comment/reply/571/1455">Ответить</a></li>
+</ul></div>
+  <!-- END: links -->
+</div>
+</div><a id="comment-1332"></a>
+<div class="comment">
+    <!--<h3 class="title"><a href="/ru/weblog/lightbox-%D0%B4%D0%BB%D1%8F-%D0%BA%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%BE%D0%BA-%D0%B2%D0%BD%D1%83%D1%82%D1%80%D0%B8-%D1%82%D0%B5%D0%BA%D1%81%D1%82%D0%B0-imce-lightbox-%D0%B2-drupal#comment-1332" class="active">приятен мне ваш блог,</a></h3>-->
+  <div class="submitted">givchik (Не проверено), 12/11/2010</div>
+  <div class="content"><p>приятен мне ваш блог, однозначно добавляю в закладки, и уже смотрю статью <a href="http://viju.tvercity.net/ru/articles/drupal-tuning" title="Ваш сайт">Рубаночком по друпальчику</a><br>
+Также мне очень интересно спросить про карусель, ведь вы так вежливо предложили....</p>
+<ul>
+<li>интересно создать перед статьей и в конце карусельку, с картинками 
+которые в нее были вставлены способом описным постом выше (визуальный 
+редактор + IMCE + Lightbox + Image resize filter).</li>
+<li>и вставка карусели в сам Lightbox помимо стрелочек</li>
+</ul>
+<p>условий для карусели не много:</p>
+<ul>
+<li>настройка количества миниатюр</li>
+<li>настройка прокрутки миниатюр, зависящая от их количества (как в <a href="http://content-management-systems.info/drupal/project/galleria" title="Сетегном">Galleria</a>)</li>
+</ul>
+<p>в визуальном редакторе или при загрузке картинки в статью, вместе с параметрами изображения(если хотеть то хотеть по максимуму)</p>
+<ul>
+<li>настройка показа/отмены показа каруселей в теле статьи</li>
+<li>настройка вывода карусели: только вверху, только внизу, оба варианта</li>
+</ul>
+<p>жду вашего ответа с нетерпением.)</p>
+</div>
+  <!-- BEGIN: links -->
+  <div class="links"><ul class="links"><li class="comment_reply first last"><a href="http://viju.tvercity.net/ru/comment/reply/571/1332">Ответить</a></li>
+</ul></div>
+  <!-- END: links -->
+</div>
+<div class="indented"><a id="comment-1333"></a>
+<div class="comment">
+    <!--<h3 class="title"><a href="/ru/weblog/lightbox-%D0%B4%D0%BB%D1%8F-%D0%BA%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%BE%D0%BA-%D0%B2%D0%BD%D1%83%D1%82%D1%80%D0%B8-%D1%82%D0%B5%D0%BA%D1%81%D1%82%D0%B0-imce-lightbox-%D0%B2-drupal#comment-1333" class="active">Рубаночком... это уже очень</a></h3>-->
+  <div class="submitted">Julia, 12/11/2010</div>
+  <div class="content"><p>Рубаночком... это уже очень очень старая статья...</p>
+<p>По поводу карусели.<br>
+Вопрос - зачем для карусели использовать картинки включенные в текст через визуальный редактор?<br>
+Ведь в этом случае картинки будут дублироваться - картинки в тексте и картинки внизу в карусели.</p>
+<p>На мой взгляд здесь более логично и удобнее использовать CCK поле для
+ этих картинок, и к тому же это будет гораздо проще в реализации.</p>
+</div>
+  <!-- BEGIN: links -->
+  <div class="links"><ul class="links"><li class="comment_reply first last"><a href="http://viju.tvercity.net/ru/comment/reply/571/1333">Ответить</a></li>
+</ul></div>
+  <!-- END: links -->
+</div>
+</div><a id="comment-1335"></a>
+<div class="comment">
+    <!--<h3 class="title"><a href="/ru/weblog/lightbox-%D0%B4%D0%BB%D1%8F-%D0%BA%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%BE%D0%BA-%D0%B2%D0%BD%D1%83%D1%82%D1%80%D0%B8-%D1%82%D0%B5%D0%BA%D1%81%D1%82%D0%B0-imce-lightbox-%D0%B2-drupal#comment-1335" class="active">в галереях как Gallerix или</a></h3>-->
+  <div class="submitted">givchik (Не проверено), 12/11/2010</div>
+  <div class="content"><p>в галереях как <a href="http://content-management-systems.info/drupal/project/gallerix">Gallerix</a> или <a href="http://content-management-systems.info/drupal/project/galleria">Galleria</a>:</p>
+<ul>
+<li>большая картинка</li>
+<li>под ней карусель</li>
+<li>в <a href="http://content-management-systems.info/drupal/project/galleria">Galleria</a> и благодаря вашей работе в <a href="http://viju.tvercity.net/ru/weblog/gallerix-galereya-dlya-drupal-0#comment-1334" title=" галерея для Drupal">Gallerix</a> при клике по большому изображению появляется Lightbox</li>
+</ul>
+<p>вот что нужно мне:</p>
+<ul>
+<li>отрезаем карусель</li>
+<li>выводим ее в начале и в конце статьи</li>
+<li>большое изображение это и есть картинки вставленные в статью, только
+ в отличии от галерей - больших картинок не одна и не в оном месте, а 
+много и где хочет пользователь</li>
+<li>кликаем по стрелочкам карусели прокручивается лента с картинками</li>
+<li>кликаем по картинке в карусели - всплывает Lightbox</li>
+<li>читаем статью, кликаем по картинке - всплывает Lightbox</li>
+</ul>
+<p>Вроде все.)</p>
+</div>
+  <!-- BEGIN: links -->
+  <div class="links"><ul class="links"><li class="comment_reply first last"><a href="http://viju.tvercity.net/ru/comment/reply/571/1335">Ответить</a></li>
+</ul></div>
+  <!-- END: links -->
+</div>
+<a id="comment-1336"></a>
+<div class="comment">
+    <!--<h3 class="title"><a href="/ru/weblog/lightbox-%D0%B4%D0%BB%D1%8F-%D0%BA%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%BE%D0%BA-%D0%B2%D0%BD%D1%83%D1%82%D1%80%D0%B8-%D1%82%D0%B5%D0%BA%D1%81%D1%82%D0%B0-imce-lightbox-%D0%B2-drupal#comment-1336" class="active">OK, поняла - значит картинки</a></h3>-->
+  <div class="submitted">Julia, 12/11/2010</div>
+  <div class="content"><p>OK, поняла - значит картинки в карусели должны быть теже самые, что находятся внутри текста.</p>
+<p>Так как в друпал сообществе все меняется очень быстро - то у нас уже 
+есть новый еще более удобный способ добавления картинок в текст, чем 
+использование IMCE в визуальном редакторе:</p>
+<p>Картинки добавляем <strong>через CCK поля</strong> с использованием модуля <a href="http://drupal.org/project/insert">FileField Insert</a>.</p>
+<p>Демонстрация использования Image Resize Filter + FileField Insert - <a href="http://mustardseedmedia.com/podcast/episode29" title="http://mustardseedmedia.com/podcast/episode29">http://mustardseedmedia.com/podcast/episode29</a>.</p>
+<p>Дальше осталось сделать из этих картинок в CCK полях карусель.<br>
+Есть как минимум два варианта:</p>
+<p>1. Сделать карусель "в ручную" - через темизацию, но в этом случае все настройки в коде.</p>
+<p>2. Сделать карусель через view - все настройки доступны на странице 
+редактирования view, тип вывода (карусель или просто список) всегда 
+можно поменять, lightbox цепляется там же</p>
+</div>
+  <!-- BEGIN: links -->
+  <div class="links"><ul class="links"><li class="comment_reply first last"><a href="http://viju.tvercity.net/ru/comment/reply/571/1336">Ответить</a></li>
+</ul></div>
+  <!-- END: links -->
+</div>
+<a id="comment-1337"></a>
+<div class="comment">
+    <!--<h3 class="title"><a href="/ru/weblog/lightbox-%D0%B4%D0%BB%D1%8F-%D0%BA%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%BE%D0%BA-%D0%B2%D0%BD%D1%83%D1%82%D1%80%D0%B8-%D1%82%D0%B5%D0%BA%D1%81%D1%82%D0%B0-imce-lightbox-%D0%B2-drupal#comment-1337" class="active">спасибо, приятно видеть такое</a></h3>-->
+  <div class="submitted">givchik (Не проверено), 12/11/2010</div>
+  <div class="content"><p>спасибо, приятно видеть такое внимание.<br>
+Интересно было б увидеть демо работы такой связки. Ведь не только для дизайна, а и для юзера в первую очередь.<br>
+Ставить IMCE только ради возможности управление файлами для пользователя
+ в удобном интерфейсе, не интересно. А следить за этим вместо них.....<br>
+Для полного счастья на том же уровне начинаем маркеры у <a href="http://content-management-systems.info/drupal/project/uploadpath" title="Маски папок">Upload path</a>:</p>
+<ul>
+<li>и все папки</li>
+<li>и все файлы,</li>
+</ul>
+<p>юзера, лежат в одном месте, а процесс автоматизирован.<br>
+А при этом создаем с помощью этого галерею и изображения на сайте. Просто песня. Отпадает потреность в:</p>
+<ul>
+<li>гостивой книге,</li>
+<li>фотоальбоме,</li>
+<li>голосовании для него,</li>
+<li>правах для него, </li>
+<li>и дополнительный вид материала,</li>
+</ul>
+<p>Можно поставить только модуль для приватности статей, и все!) Собственно помогает и на блоках сэкономить.<br>
+Для пользователя это супер основная масса функций реализуется через одно
+ и то же... К примеру.. Пользователь прикрепил файл, в котором была 
+ошибка. Что ему делать в такой ситуации?</p>
+<ul>
+<li>Вспоминать какая статья,</li>
+<li>открыть ее удалить файл,</li>
+<li>открыть опять,</li>
+<li>прикрепить новый.</li>
+</ul>
+<p>А если так:</p>
+<ul>
+<li>открыть файлы</li>
+<li>заменить старый новым</li>
+</ul>
+<p>Всем хорошо ведь даже у админа работы меньше, ведь все лежит в одном 
+месте и пользователи делают это все сами. В joomla нужно было сильно 
+извернутся чтоб с сменой изображения (которое при такой конфигурации 
+просто можно подменить) подчистить все папки с маленькими, большими.....<br>
+По этому склоняюсь в сторону "визуальный редактор + IMCE + Lightbox + 
+Image resize filter" чем "визуальный редактор + IMCE + Lightbox + Image 
+resize filter + FileField Insert"<br>
+Немало важен и факт развития Drupal. Иногда многое кардинально меняется и
+ чем меньше, сторонних, модулей хранящих информацию тем лутше. 
+Значительно проще ситуация с такими вещами как ноды (они уже не куда не 
+денутся) и файлами, а способ обработки всегда найдется. Собственно 
+связка "визуальный редактор + IMCE + Lightbox + Image resize filter" 
+только обрабатывает файлы и их вывод в нодах, а инфа находится в ядре.)<br>
+Буду рад найти с вами еще много общих тем....<br>
+Протестирую отпишусь...)))</p>
+</div>
+  <!-- BEGIN: links -->
+  <div class="links"><ul class="links"><li class="comment_reply first last"><a href="http://viju.tvercity.net/ru/comment/reply/571/1337">Ответить</a></li>
+</ul></div>
+  <!-- END: links -->
+</div>
+<a id="comment-1338"></a>
+<div class="comment">
+    <!--<h3 class="title"><a href="/ru/weblog/lightbox-%D0%B4%D0%BB%D1%8F-%D0%BA%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%BE%D0%BA-%D0%B2%D0%BD%D1%83%D1%82%D1%80%D0%B8-%D1%82%D0%B5%D0%BA%D1%81%D1%82%D0%B0-imce-lightbox-%D0%B2-drupal#comment-1338" class="active">интересный сайт и особенно</a></h3>-->
+  <div class="submitted">givchik (Не проверено), 12/11/2010</div>
+  <div class="content"><p>интересный сайт и особенно <a href="http://www.razgonka.ru/rai#comment-1367" title="Веб-программирование, 7 ступенек в рай ">тема</a> по вопросам программирования, сборки, и развития сайтов.<br>
+Забыл вставить в предыдущий пост.)</p>
+</div>
+  <!-- BEGIN: links -->
+  <div class="links"><ul class="links"><li class="comment_reply first last"><a href="http://viju.tvercity.net/ru/comment/reply/571/1338">Ответить</a></li>
+</ul></div>
+  <!-- END: links -->
+</div>
+<a id="comment-1339"></a>
+<div class="comment">
+    <!--<h3 class="title"><a href="/ru/weblog/lightbox-%D0%B4%D0%BB%D1%8F-%D0%BA%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%BE%D0%BA-%D0%B2%D0%BD%D1%83%D1%82%D1%80%D0%B8-%D1%82%D0%B5%D0%BA%D1%81%D1%82%D0%B0-imce-lightbox-%D0%B2-drupal#comment-1339" class="active">ну что вот и пришло время</a></h3>-->
+  <div class="submitted">givchik (Не проверено), 15/11/2010</div>
+  <div class="content"><p>ну что вот и пришло время отписаться о своем опыте использования этой связки....</p>
+<ul>
+<li>установка IMCE</li>
+<li>установка визуального редактора поддерживающего интеграцию с IMCE</li>
+<li>настройка оной</li>
+<li>установка Lightbox и указание класса lb по адресу admin/settings/lightbox2/automatic, пункт "Custom class images"</li>
+<li>установка Image resize filter и настройка - в форматах ввода:
+<ul>
+<li>Управление -&gt; </li>
+<li>Форматы ввода -&gt; </li>
+<li>настроить -&gt; </li>
+<li>Правка -&gt; </li>
+<li>пункт "Фильтры" -&gt; </li>
+<li>чек бокс "Image resize filter", </li>
+<li>сохраняемся</li>
+</ul>
+<p>, а также в настройках самого фильтра указать, что нужно добавить тег rel=lightbox:
+</p><ul>
+<li>Управление -&gt; </li>
+<li>Форматы ввода -&gt; </li>
+<li>настроить -&gt; </li>
+<li>Настройка -&gt; </li>
+<li>пункт "Image resize settings" -&gt; </li>
+<li>чек бокс "Link to the original:" -&gt; </li>
+<li>give it the class: lb, and/or a rel attribute: lightbox, </li>
+<li>сохраняемся.</li>
+</ul>
+</li>
+</ul>
+<p>и все, получаем готовый результат.)<br>
+Но у меня возникла проблема - есть все кроме стрелочек: вперед, назад.<br>
+Где что отредактировать или какие действия пропустил?)<br>
+Так же имеется дополнительное действие которое изменений не вызвыло но по инструкции вроде говорят надо:</p>
+<ul>
+<li>Управление -&gt; </li>
+<li>Форматы ввода -&gt; </li>
+<li>настроить -&gt; </li>
+<li>Настройка -&gt; </li>
+<li>Image resize settings -&gt; </li>
+<li>чек бокс "Locally", "On remote servers (note: this copies all remote
+ images locally)" включение отключение ничего не дало, но в инструкции 
+говорят надо,</li>
+<li>сохраняемся</li>
+</ul>
+<p>Все манипуляции заняли около минуты.</p>
+</div>
+  <!-- BEGIN: links -->
+  <div class="links"><ul class="links"><li class="comment_reply first last"><a href="http://viju.tvercity.net/ru/comment/reply/571/1339">Ответить</a></li>
+</ul></div>
+  <!-- END: links -->
+</div>
+<a id="comment-1341"></a>
+<div class="comment">
+    <!--<h3 class="title"><a href="/ru/weblog/lightbox-%D0%B4%D0%BB%D1%8F-%D0%BA%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%BE%D0%BA-%D0%B2%D0%BD%D1%83%D1%82%D1%80%D0%B8-%D1%82%D0%B5%D0%BA%D1%81%D1%82%D0%B0-imce-lightbox-%D0%B2-drupal#comment-1341" class="active">прошу прощения за глупость</a></h3>-->
+  <div class="submitted">givchik (Не проверено), 15/11/2010</div>
+  <div class="content"><p>прошу прощения за глупость выше..<br>
+в настройках есть пара оговорок:</p>
+<ul>
+<li>в формате "Filtered HTML" обязательно добавить тег img:
+<ul>
+<li>Управление -&gt; </li>
+<li>Форматы ввода -&gt; </li>
+<li>настроить -&gt; </li>
+<li>Настройка -&gt; </li>
+<li>пункт "HTML filter",</li>
+<li>сохраняемся</li>
+</ul>
+</li>
+<li>"Image resize filter" должен обрабатываться раньше "HTML filter":
+<ul>
+<li>Управление -&gt; </li>
+<li>Форматы ввода -&gt; </li>
+<li>настроить -&gt; </li>
+<li>Порядок,</li>
+<li>сохраняемся</li>
+</ul>
+</li>
+</ul>
+</div>
+  <!-- BEGIN: links -->
+  <div class="links"><ul class="links"><li class="comment_reply first last"><a href="http://viju.tvercity.net/ru/comment/reply/571/1341">Ответить</a></li>
+</ul></div>
+  <!-- END: links -->
+</div>
+<a id="comment-1342"></a>
+<div class="comment">
+    <!--<h3 class="title"><a href="/ru/weblog/lightbox-%D0%B4%D0%BB%D1%8F-%D0%BA%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%BE%D0%BA-%D0%B2%D0%BD%D1%83%D1%82%D1%80%D0%B8-%D1%82%D0%B5%D0%BA%D1%81%D1%82%D0%B0-imce-lightbox-%D0%B2-drupal#comment-1342" class="active">будем искать решение, так как</a></h3>-->
+  <div class="submitted">givchik (Не проверено), 15/11/2010</div>
+  <div class="content"><p>будем искать решение, так как варианты закончились...., а стрелочки в Lightbox не появились....<br>
+?)</p>
+</div>
+  <!-- BEGIN: links -->
+  <div class="links"><ul class="links"><li class="comment_reply first last"><a href="http://viju.tvercity.net/ru/comment/reply/571/1342">Ответить</a></li>
+</ul></div>
+  <!-- END: links -->
+</div>
+<div class="indented"><a id="comment-1344"></a>
+<div class="comment">
+    <!--<h3 class="title"><a href="/ru/weblog/lightbox-%D0%B4%D0%BB%D1%8F-%D0%BA%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%BE%D0%BA-%D0%B2%D0%BD%D1%83%D1%82%D1%80%D0%B8-%D1%82%D0%B5%D0%BA%D1%81%D1%82%D0%B0-imce-lightbox-%D0%B2-drupal#comment-1344" class="active">Посмотрите, что у вас</a></h3>-->
+  <div class="submitted">Julia, 15/11/2010</div>
+  <div class="content"><p>Посмотрите, что у вас выставлено <strong>в настройках Lightbox</strong> - /admin/settings/lightbox2/automatic,<br>
+там, где прописывается класс - группа Custom class images,<br>
+поле Automatic handler for custom class images.</p>
+<p>Должно быть Lighbox grouped.</p>
+</div>
+  <!-- BEGIN: links -->
+  <div class="links"><ul class="links"><li class="comment_reply first last"><a href="http://viju.tvercity.net/ru/comment/reply/571/1344">Ответить</a></li>
+</ul></div>
+  <!-- END: links -->
+</div>
+<div class="indented"><a id="comment-1345"></a>
+<div class="comment">
+    <!--<h3 class="title"><a href="/ru/weblog/lightbox-%D0%B4%D0%BB%D1%8F-%D0%BA%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%BE%D0%BA-%D0%B2%D0%BD%D1%83%D1%82%D1%80%D0%B8-%D1%82%D0%B5%D0%BA%D1%81%D1%82%D0%B0-imce-lightbox-%D0%B2-drupal#comment-1345" class="active">пробовал - результат всегда</a></h3>-->
+  <div class="submitted">givchik (Не проверено), 16/11/2010</div>
+  <div class="content"><p>пробовал - результат всегда одинаковый....<br>
+Кеш отключен.</p>
+</div>
+  <!-- BEGIN: links -->
+  <div class="links"><ul class="links"><li class="comment_reply first last"><a href="http://viju.tvercity.net/ru/comment/reply/571/1345">Ответить</a></li>
+</ul></div>
+  <!-- END: links -->
+</div>
+<div class="indented"><a id="comment-1346"></a>
+<div class="comment">
+    <!--<h3 class="title"><a href="/ru/weblog/lightbox-%D0%B4%D0%BB%D1%8F-%D0%BA%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%BE%D0%BA-%D0%B2%D0%BD%D1%83%D1%82%D1%80%D0%B8-%D1%82%D0%B5%D0%BA%D1%81%D1%82%D0%B0-imce-lightbox-%D0%B2-drupal#comment-1346" class="active">Чтобы картинки листались</a></h3>-->
+  <div class="submitted">Julia, 16/11/2010</div>
+  <div class="content"><p>Чтобы картинки листались внутри lighbox, укажите атрибут не lightbox, а lightbox[roadtrip] в настройках фильтра.</p>
+<p>Результат с Вашими скриншотами см. выше :)</p>
+<p>Да и кстати....<br>
+В связи с вопросом про стрелочки пришлось-таки включить модуль 
+image_resize_filter на viju :) (пост был написан по настройках на другом
+ сайте) и вспомнить подробнее, что же там надо включать. Так вот одно 
+замечание, по тому плану, который у вас получился:</p>
+<p>- при использование image_resize_filter не обязательно включать 
+automatic image handler в lightbox (я про него писала в варианте без 
+фильтра)</p>
+<p>- и соответственно в настройках фильтра класс lb тоже указывать не нужно</p>
+<p>так как фильтр автоматически добавит ссылку с атрибутом rel, а этого для lightbox уже достаточно.</p>
+</div>
+  <!-- BEGIN: links -->
+  <div class="links"><ul class="links"><li class="comment_reply first last"><a href="http://viju.tvercity.net/ru/comment/reply/571/1346">Ответить</a></li>
+</ul></div>
+  <!-- END: links -->
+</div>
+<div class="indented"><a id="comment-1348"></a>
+<div class="comment">
+    <!--<h3 class="title"><a href="/ru/weblog/lightbox-%D0%B4%D0%BB%D1%8F-%D0%BA%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%BE%D0%BA-%D0%B2%D0%BD%D1%83%D1%82%D1%80%D0%B8-%D1%82%D0%B5%D0%BA%D1%81%D1%82%D0%B0-imce-lightbox-%D0%B2-drupal#comment-1348" class="active">Все работает.....
+причем</a></h3>-->
+  <div class="submitted">givchik (Не проверено), 16/11/2010</div>
+  <div class="content"><p>Все работает.....<br>
+причем просто превосходно.<br>
+Лучшей и более легкой, а главное многозадачной галереи не найти. За что спасибо Julia!)</p>
+</div>
+  <!-- BEGIN: links -->
+  <div class="links"><ul class="links"><li class="comment_reply first last"><a href="http://viju.tvercity.net/ru/comment/reply/571/1348">Ответить</a></li>
+</ul></div>
+  <!-- END: links -->
+</div>
+</div></div></div></div><a id="comment-1343"></a>
+<div class="comment">
+    <!--<h3 class="title"><a href="/ru/weblog/lightbox-%D0%B4%D0%BB%D1%8F-%D0%BA%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%BE%D0%BA-%D0%B2%D0%BD%D1%83%D1%82%D1%80%D0%B8-%D1%82%D0%B5%D0%BA%D1%81%D1%82%D0%B0-imce-lightbox-%D0%B2-drupal#comment-1343" class="active">для тех кто только начинает</a></h3>-->
+  <div class="submitted">givchik (Не проверено), 15/11/2010</div>
+  <div class="content"><p>для тех кто только начинает знакомится с Drupal с модулями: <a href="http://content-management-systems.info/drupal/project/lightbox2" title="Сетегном">Lightbox2</a> и <a href="http://content-management-systems.info/drupal/project/imce" title="Сетегном">IMCE</a>, можно ближе познакомится, причем на русском...</p>
+</div>
+  <!-- BEGIN: links -->
+  <div class="links"><ul class="links"><li class="comment_reply first last"><a href="http://viju.tvercity.net/ru/comment/reply/571/1343">Ответить</a></li>
+</ul></div>
+  <!-- END: links -->
+</div>
+<a id="comment-1349"></a>
+<div class="comment">
+    <!--<h3 class="title"><a href="/ru/weblog/lightbox-%D0%B4%D0%BB%D1%8F-%D0%BA%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%BE%D0%BA-%D0%B2%D0%BD%D1%83%D1%82%D1%80%D0%B8-%D1%82%D0%B5%D0%BA%D1%81%D1%82%D0%B0-imce-lightbox-%D0%B2-drupal#comment-1349" class="active">Интересное</a></h3>-->
+  <div class="submitted">givchik (Не проверено), 17/11/2010</div>
+  <div class="content"><p>Интересное наблюдение...<br>
+часто в своих сообщениях я говорил о возможности дать пользователю способ очень комфортно управлять своими файлами...<br>
+собственно способ:</p>
+<ul>
+<li>к всему что мы установили ранее добавляем <a href="http://content-management-systems.info/drupal/project/uploadpath" title="Сетегном">Upload path</a> и <a href="http://content-management-systems.info/drupal/project/transliteration" title="Сетегном">Transliteration</a></li>
+<li>Настраиваем Upload path:
+<ul>
+<li>Управление -&gt; </li>
+<li>File upload paths -&gt; </li>
+<li>"Default pattern for the file path prefix" указываем к примеру - "[author-uid]/[type]/[nid]"</li>
+</ul>
+</li>
+<li>Настраиваем IMCE:
+<ul>
+<li>Управление -&gt; </li>
+<li>IMCE -&gt; </li>
+<li>Правка профиля  -&gt; </li>
+<li>пункт "Directory path" отмечаем - "%uid"</li>
+</ul>
+</li>
+</ul>
+<p>Получаем в результате:</p>
+<ul>
+<li>файловый каталог (настраивается:
+<ul>
+<li>Управление -&gt; </li>
+<li>Файловая система)</li>
+</ul>
+</li>
+<li>католог по номерам юзеров</li>
+<li>каталог типов материалов</li>
+<li>каталог материалов по номерам статьи  </li>
+</ul>
+<p>Для дополнительного удовольствия можете попробовать добавить верхний 
+уровень - "users". Чтоб все юзеры лежали рядом... Не забывайте - "чем 
+глубже путь тем сложнее работа"<br>
+Что делает Transliteration понятно, но есть одно но:<br>
+Upload path умеет сам переименовывать файлы, по маске типа - "годмесяцденьвремя":</p>
+<ul>
+<li>Управление -&gt; </li>
+<li>File upload paths -&gt; </li>
+<li>пункт "Miscellaneous" - снимаем галочку</li>
+</ul>
+<p>В результате у нас файл лежит точно там где нужно и с тем именем что нам нужно.<br>
+Тем кто, захочет сказать, что я набрал много модулей... Отвечу что емкие здесь:</p>
+<ul>
+<li>визуальный редактор</li>
+<li>IMCE</li>
+</ul>
+<p>А все остальное мелочь и главное что это избавляет нас от модулей:</p>
+<ul>
+<li>прав на файлы</li>
+<li>прав на каталоги</li>
+<li>галереи</li>
+<li>ограничений на количество файлов в статье</li>
+<li>голосований для галерей</li>
+<li>.....</li>
+</ul>
+<p>Также меня радует тот факт что при переезде на новый Drupal мне нужно
+ будет найти только инструменты обработки, так ка хранится это все в 
+ядре... Что тоже облегчает жизнь!)</p>
+</div>
+  <!-- BEGIN: links -->
+  <div class="links"><ul class="links"><li class="comment_reply first last"><a href="http://viju.tvercity.net/ru/comment/reply/571/1349">Ответить</a></li>
+</ul></div>
+  <!-- END: links -->
+</div>
+<div class="indented"><a id="comment-1350"></a>
+<div class="comment">
+    <!--<h3 class="title"><a href="/ru/weblog/lightbox-%D0%B4%D0%BB%D1%8F-%D0%BA%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%BE%D0%BA-%D0%B2%D0%BD%D1%83%D1%82%D1%80%D0%B8-%D1%82%D0%B5%D0%BA%D1%81%D1%82%D0%B0-imce-lightbox-%D0%B2-drupal#comment-1350" class="active">Спасибо за полезное</a></h3>-->
+  <div class="submitted">Julia, 17/11/2010</div>
+  <div class="content"><p>Спасибо за полезное добавление )<br>
+весьма актуально и полезно</p>
+</div>
+  <!-- BEGIN: links -->
+  <div class="links"><ul class="links"><li class="comment_reply first last"><a href="http://viju.tvercity.net/ru/comment/reply/571/1350">Ответить</a></li>
+</ul></div>
+  <!-- END: links -->
+</div>
+<a id="comment-1351"></a>
+<div class="comment">
+    <!--<h3 class="title"><a href="/ru/weblog/lightbox-%D0%B4%D0%BB%D1%8F-%D0%BA%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%BE%D0%BA-%D0%B2%D0%BD%D1%83%D1%82%D1%80%D0%B8-%D1%82%D0%B5%D0%BA%D1%81%D1%82%D0%B0-imce-lightbox-%D0%B2-drupal#comment-1351" class="active">И еще одно дополнение - еще</a></h3>-->
+  <div class="submitted">Julia, 17/11/2010</div>
+  <div class="content"><p>И еще одно дополнение - еще один модуль <a href="http://drupal.org/project/filefield_sources">filefield sources</a>.</p>
+<p>Это для тех случаев, когда картинки нужны именно как поля ноды (например для views)<br>
+но при этом хочется использовать IMCE и каталогизацию.<br>
+Модуль filefield sources позволяет выбирать картинку для поля с помощью IMCE (ну и не только).</p>
+</div>
+  <!-- BEGIN: links -->
+  <div class="links"><ul class="links"><li class="comment_reply first last"><a href="http://viju.tvercity.net/ru/comment/reply/571/1351">Ответить</a></li>
+</ul></div>
+  <!-- END: links -->
+</div>
+</div><a id="comment-1357"></a>
+<div class="comment">
+    <!--<h3 class="title"><a href="/ru/weblog/lightbox-%D0%B4%D0%BB%D1%8F-%D0%BA%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%BE%D0%BA-%D0%B2%D0%BD%D1%83%D1%82%D1%80%D0%B8-%D1%82%D0%B5%D0%BA%D1%81%D1%82%D0%B0-imce-lightbox-%D0%B2-drupal#comment-1357" class="active">настал счастливый</a></h3>-->
+  <div class="submitted"><a href="http://www.4-k.biz/" rel="nofollow">givchik</a> (Не проверено), 14/12/2010</div>
+  <div class="content"><p>настал счастливый момент...<br>
+пусть на почти готовом (проходит финальные тесты), но уже не пустом сайте <a href="http://human.4-k.biz/node/13" title="Ни один луч солнца не пропадает зря,....">есть галерея</a>.)<br>
+За этот прекрасный функционал огромное <a href="http://www.4-k.biz/node/3" title="Добро пожаловать на сайт Карта Знаний">спасибо этому дому</a> и его хозяевам.</p>
+</div>
+  <!-- BEGIN: links -->
+  <div class="links"><ul class="links"><li class="comment_reply first last"><a href="http://viju.tvercity.net/ru/comment/reply/571/1357">Ответить</a></li>
+</ul></div>
+  <!-- END: links -->
+</div>
+<a id="comment-1375"></a>
+<div class="comment">
+    <!--<h3 class="title"><a href="/ru/weblog/lightbox-%D0%B4%D0%BB%D1%8F-%D0%BA%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%BE%D0%BA-%D0%B2%D0%BD%D1%83%D1%82%D1%80%D0%B8-%D1%82%D0%B5%D0%BA%D1%81%D1%82%D0%B0-imce-lightbox-%D0%B2-drupal#comment-1375" class="active">Интересно как реализовать</a></h3>-->
+  <div class="submitted"><a href="http://www.4-k.biz/" rel="nofollow">givchik</a> (Не проверено), 29/01/2011</div>
+  <div class="content"><p>Интересно как реализовать єтот функционал на Drupal 7?</p>
+<ul>
+<li><a href="http://content-management-systems.info/drupal/project/transliteration" title="Drupal {community plumbing}">Transliteration</a> - 7.x-3.0-alpha1</li>
+<li><a href="http://content-management-systems.info/drupal/project/uploadpath" title="Drupal {community plumbing}">Upload path</a> - 6.x-1.0</li>
+<li><a href="http://content-management-systems.info/drupal/project/ckeditor" title="Drupal {community plumbing}">CKEditor</a> (редактор которым я пользуюсь) - 7.x-1.0</li>
+<li><a href="http://content-management-systems.info/drupal/project/lightbox2" title="Drupal {community plumbing}">Lightbox2</a> - 6.x-1.11</li>
+<li><a href="http://drupal.org/project/image_resize_filter" title="Image Resize Filter | drupal.org">Image Resize Filter</a> - 7.x-1.12</li>
+<li><a href="http://content-management-systems.info/drupal/project/imce" title="Drupal {community plumbing}">IMCE</a> - 7.x-1.1</li>
+</ul>
+<p>От меня в подгонке модулей к Drupal 7 толку мало, разве что как тестер...)))<br>
+Но при релизе говорили что в 7-ке реализована: "Обработка изображений 
+теперь встроена в ядро и можно использовать стили для генерации 
+изображений. К различным файлам может быть настроен как открытый, так и 
+закрытый доступ.". я пока к семерке только пристреливаюсь и конечно 
+отпишусь, но мне будет очень интересно услышать мнение Juli</p>
+</div>
+  <!-- BEGIN: links -->
+  <div class="links"><ul class="links"><li class="comment_reply first last"><a href="http://viju.tvercity.net/ru/comment/reply/571/1375">Ответить</a></li>
+</ul></div>
+  <!-- END: links -->
+</div>
+<a id="comment-1380"></a>
+<div class="comment">
+    <!--<h3 class="title"><a href="/ru/weblog/lightbox-%D0%B4%D0%BB%D1%8F-%D0%BA%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%BE%D0%BA-%D0%B2%D0%BD%D1%83%D1%82%D1%80%D0%B8-%D1%82%D0%B5%D0%BA%D1%81%D1%82%D0%B0-imce-lightbox-%D0%B2-drupal#comment-1380" class="active">Спасибо. Отличная статья.
+У</a></h3>-->
+  <div class="submitted">Максим (Не проверено), 16/02/2011</div>
+  <div class="content"><p>Спасибо. Отличная статья.<br>
+У меня вопрос - по умолчанию я установил rel attribute: lightbox, Но на 
+некоторых страницах (фотоальбом) хочу сделать группирование с 
+возможностью листать картинки.<br>
+Подскажите, пожалуйста, как мне сие реализовать.<br>
+Методом слепого тыка (вставил в img атрибут rel="lightbox[roadtrip]") не помогло :(</p>
+</div>
+  <!-- BEGIN: links -->
+  <div class="links"><ul class="links"><li class="comment_reply first last"><a href="http://viju.tvercity.net/ru/comment/reply/571/1380">Ответить</a></li>
+</ul></div>
+  <!-- END: links -->
+</div>
+<a id="comment-1402"></a>
+<div class="comment">
+    <!--<h3 class="title"><a href="/ru/weblog/lightbox-%D0%B4%D0%BB%D1%8F-%D0%BA%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%BE%D0%BA-%D0%B2%D0%BD%D1%83%D1%82%D1%80%D0%B8-%D1%82%D0%B5%D0%BA%D1%81%D1%82%D0%B0-imce-lightbox-%D0%B2-drupal#comment-1402" class="active">Спасибо, действительно хорошо</a></h3>-->
+  <div class="submitted">CJ (Не проверено), 19/04/2011</div>
+  <div class="content"><p>Спасибо, действительно хорошо написано. Жаль даже, что сначала разобрался сам, а потом уже нашел этот текст :)</p>
+<p>Вот какой вопрос по поводу описанной связки. Делаю сайт для знакомых,
+ хотел им предложить механизм Image Resize Filter, т.к. более 
+просто-наглядно. Однако им нужно, чтобы подпись для оригинала картинки, 
+к-й открывается в Lightbox, могла задаваться независимо от подписи для 
+миниатюры (которая выводится с помощью Image Caption Filter). На 
+действующем сайте первая подпись берется из поля TITLE тега ссылки, а 
+вторая ("миниатюрная") - из поля TITLE тега картинки. Соответственно, 
+FCKeditor "допилен", и вставлены поля TITLE и REL для ссылки. Хочу 
+поставить им CKeditor. И вот получается, что их все устраивает в Image 
+Resize Filter, и установлено-работает нормально, и никаких изменений в 
+код вносить не нужно, но (увы) настаивают, чтобы подписи можно было 
+задавать независимо. А указать TITLE для ссылки, генерируемой "на лету" 
+Image Resize Filter, не получится.</p>
+<p>Может, у Вас есть какая-нибудь светлая идея? Был бы очень благодарен.</p>
+</div>
+  <!-- BEGIN: links -->
+  <div class="links"><ul class="links"><li class="comment_reply first last"><a href="http://viju.tvercity.net/ru/comment/reply/571/1402">Ответить</a></li>
+</ul></div>
+  <!-- END: links -->
+</div>
+<a id="comment-1476"></a>
+<div class="comment">
+    <!--<h3 class="title"><a href="/ru/weblog/lightbox-%D0%B4%D0%BB%D1%8F-%D0%BA%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%BE%D0%BA-%D0%B2%D0%BD%D1%83%D1%82%D1%80%D0%B8-%D1%82%D0%B5%D0%BA%D1%81%D1%82%D0%B0-imce-lightbox-%D0%B2-drupal#comment-1476" class="active">Спасибо огромное, очень</a></h3>-->
+  <div class="submitted">Олег (Не проверено), 29/11/2011</div>
+  <div class="content"><p>Спасибо огромное, очень хорошее описание =)</p>
+</div>
+  <!-- BEGIN: links -->
+  <div class="links"><ul class="links"><li class="comment_reply first last"><a href="http://viju.tvercity.net/ru/comment/reply/571/1476">Ответить</a></li>
+</ul></div>
+  <!-- END: links -->
+</div>
+<a id="comment-1497"></a>
+<div class="comment">
+    <!--<h3 class="title"><a href="/ru/weblog/lightbox-%D0%B4%D0%BB%D1%8F-%D0%BA%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%BE%D0%BA-%D0%B2%D0%BD%D1%83%D1%82%D1%80%D0%B8-%D1%82%D0%B5%D0%BA%D1%81%D1%82%D0%B0-imce-lightbox-%D0%B2-drupal#comment-1497" class="active">Доброго времени суток!)
+Всем</a></h3>-->
+  <div class="submitted"><a href="http://www.4-k.biz/" rel="nofollow">givchik</a> (Не проверено), 11/04/2012</div>
+  <div class="content"><p>Доброго времени суток!)<br>
+Всем кто хотел проверить, но еще не доходили руки спешу сообщить:<br>
+Данное решение, уже стабильно, работает на  Drupal 7. Причем в этой 
+реинкарнации IMCE умеет сам создавать папки пользователей. Что сильно 
+упрощает работу с настройкой модулей.)</p>
+</div>
+  <!-- BEGIN: links -->
+  <div class="links"><ul class="links"><li class="comment_reply first last"><a href="http://viju.tvercity.net/ru/comment/reply/571/1497">Ответить</a></li>
+</ul></div>
+  <!-- END: links -->
+</div>
+<a id="comment-1500"></a>
+<div class="comment">
+    <!--<h3 class="title"><a href="/ru/weblog/lightbox-%D0%B4%D0%BB%D1%8F-%D0%BA%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%BE%D0%BA-%D0%B2%D0%BD%D1%83%D1%82%D1%80%D0%B8-%D1%82%D0%B5%D0%BA%D1%81%D1%82%D0%B0-imce-lightbox-%D0%B2-drupal#comment-1500" class="active">Внесу свою лепту... Если</a></h3>-->
+  <div class="submitted">Max (Не проверено), 30/05/2012</div>
+  <div class="content"><p>Внесу свою лепту... Если домен кириллический то в настройках .<br>
+"Common settings" (в IMCE) надо снимать галку Absolute URLs - не 
+понимает  файл ресайз русских названий в путях... по крайней мере в 6 
+версии по этому не работает связка IMCE и image_resize_filter. Вроде не 
+ошибся в ключевых словах - мож кому поможет, пока догнал что к чему  - 
+пришлось понервничать.</p>
+</div>
+  <!-- BEGIN: links -->
+  <div class="links"><ul class="links"><li class="comment_reply first last"><a href="http://viju.tvercity.net/ru/comment/reply/571/1500">Ответить</a></li>
+</ul></div>
+  <!-- END: links -->
+</div>
+<a id="comment-1511"></a>
+<div class="comment">
+    <!--<h3 class="title"><a href="/ru/weblog/lightbox-%D0%B4%D0%BB%D1%8F-%D0%BA%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%BE%D0%BA-%D0%B2%D0%BD%D1%83%D1%82%D1%80%D0%B8-%D1%82%D0%B5%D0%BA%D1%81%D1%82%D0%B0-imce-lightbox-%D0%B2-drupal#comment-1511" class="active">Вот как бы связать LightBox2</a></h3>-->
+  <div class="submitted"><a href="http://music-fantasy.ru/" rel="nofollow">Ольга</a> (Не проверено), 21/07/2012</div>
+  <div class="content"><p>Вот как бы связать LightBox2 с Link Image 
+Formatter, или интегрировать в TinyMCE. Загружать картинки на сайт 
+проблематично, и даже не из-за хостера, а потому что со временем я не в 
+состоянии буду скачивать бэкап из-за прогрессивно растущего размера...<br>
+А самым идеальным было бы конечно заставить работать загрузку картинок 
+на  Flickr. Две недели просидела с ошибкой "Директория загрузки 
+flickr:// для поля файла field_illustration не может быть создано или 
+недоступно. Поэтому недавно загруженные файлы не могут быть сохранены в 
+этой директории, и загрузка отменена".<br>
+Может сможете что-то посоветовать...<br>
+Drupal 7.14...</p>
+</div>
+  <!-- BEGIN: links -->
+  <div class="links"><ul class="links"><li class="comment_reply first last"><a href="http://viju.tvercity.net/ru/comment/reply/571/1511">Ответить</a></li>
+</ul></div>
+  <!-- END: links -->
+</div>
+<div class="box">
+    <h2 class="title">Отправить новый комментарий</h2>
+    <div class="content"><form action="/ru/comment/reply/571" accept-charset="UTF-8" method="post" id="comment-form">
+<div><div class="form-item" id="edit-name-wrapper">
+ <label for="edit-name">Ваше имя: <span class="form-required" title="Это поле необходимо заполнить.">*</span></label>
+ <input maxlength="60" name="name" id="edit-name" size="30" value="Гость" class="form-text required" type="text">
+</div>
+<div class="form-item" id="edit-mail-wrapper">
+ <label for="edit-mail">Адрес e-mail: <span class="form-required" title="Это поле необходимо заполнить.">*</span></label>
+ <input maxlength="64" name="mail" id="edit-mail" size="30" class="form-text required" type="text">
+ <div class="description">Содержимое этого поля хранится скрыто и не будет показываться публично.</div>
+</div>
+<div class="form-item" id="edit-homepage-wrapper">
+ <label for="edit-homepage">Домашняя страница: </label>
+ <input maxlength="255" name="homepage" id="edit-homepage" size="30" class="form-text" type="text">
+</div>
+<div class="form-item" id="edit-comment-wrapper">
+ <label for="edit-comment">Комментарий: <span class="form-required" title="Это поле необходимо заполнить.">*</span></label>
+ <textarea cols="60" rows="15" name="comment" id="edit-comment" class="form-textarea required"></textarea>
+</div>
+<div class="wysiwyg wysiwyg-format-1 wysiwyg-editor-none wysiwyg-field-edit-comment wysiwyg-status-1 wysiwyg-toggle-1 wysiwyg-resizable-1"><ul class="tips"><li>Адреса страниц и электронной почты автоматически преобразовываются в ссылки.</li><li>Allowed
+ HTML tags: &lt;a&gt; &lt;em&gt; &lt;strong&gt; &lt;cite&gt; 
+&lt;code&gt; &lt;ul&gt; &lt;ol&gt; &lt;li&gt; &lt;dl&gt; &lt;dt&gt; 
+&lt;dd&gt; &lt;img&gt;</li><li>Автоматический перевод строки.</li><li>Вы можете публиковать код, размещая его в &lt;code&gt;...&lt;/code&gt; (generic) или в &lt;?php ... ?&gt; (раскрашенный PHP).</li></ul></div><p><a href="http://viju.tvercity.net/ru/filter/tips">Дополнительная информация о настройках форматирования</a></p><input name="form_build_id" id="form-3927d799cec7d0f0c07b1e97206dcd1c" value="form-3927d799cec7d0f0c07b1e97206dcd1c" type="hidden">
+<input name="form_id" id="edit-comment-form" value="comment_form" type="hidden">
+<div class="clear-block"><div class="form-item" id="edit-notify-wrapper">
+ <label class="option" for="edit-notify"><input name="notify" id="edit-notify" value="1" class="form-checkbox" type="checkbox"> Уведомлять меня о новых комментариях</label>
+</div>
+<input name="notify_type" id="edit-notify-type" value="0" type="hidden">
+</div><input name="mollom[session_id]" id="edit-mollom-session-id" value="" class="mollom-session-id" type="hidden">
+<div style="display: none;"><div class="form-item" id="edit-mollom-homepage-wrapper">
+ <input maxlength="128" name="mollom[homepage]" id="edit-mollom-homepage" size="60" title="Homepage" autocomplete="off" class="form-text" type="text">
+</div>
+</div><input name="op" id="edit-submit" value="Сохранить" class="form-submit" type="submit">
+<input name="op" id="edit-preview" value="Предварительный просмотр" class="form-submit" type="submit">
+
+</div></form>
+</div>
+</div></div>
+                      </div>
+        </div>
+        <div id="ie_clearing">&nbsp;</div>
+      </div>
+    </div>
+    <!-- end: #main -->
+    <div class="footer-reserv">
+    </div>
+
+
+
+  </div>
+  </div>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var _gaq = _gaq || [];_gaq.push(["_setAccount", "UA-280302-1"]);_gaq.push(["_trackPageview"]);(function() {var ga = document.createElement("script");ga.type = "text/javascript";ga.async = true;ga.src = ("https:" == document.location.protocol ? "https://ssl" : "http://www") + ".google-analytics.com/ga.js";var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(ga, s);})();
+//--><!]]>
+</script>
+<!-- Yandex.Metrika counter -->
+<div style="display:none;"><script type="text/javascript">
+(function(w, c) {
+    (w[c] = w[c] || []).push(function() {
+        try {
+            w.yaCounter7568860 = new Ya.Metrika({id:7568860, enableAll: true});
+        }
+        catch(e) { }
+    });
+})(window, 'yandex_metrika_callbacks');
+</script></div>
+<script src="lightbox-%D0%B4%D0%BB%D1%8F-%D0%BA%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%BE%D0%BA-%D0%B2%D0%BD%D1%83%D1%82%D1%80%D0%B8-%D1%82%D0%B5%D0%BA%D1%81%D1%82%D0%B0-imce-lightbox-%D0%B2-drupal_files/watch.js" type="text/javascript" defer="defer"></script>
+<noscript><div><img src="//mc.yandex.ru/watch/7568860" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+  <!-- begin: #footer -->
+    <div id="footer">
+      <div class="block block-block" id="block-block-14">  
+    <div class="content"><div>Об <a href="http://viju.tvercity.net/about/" title="">этом сайте</a>,</div>
+<div>все ваши замечания и пожелания можете оставлять <a href="http://viju.tvercity.net/contact/">здесь</a></div>
+<div id="valid"><a href="http://viju.tvercity.net/articles/tableless/" title="здесь нет убогой верстки в таблицах">TABLELESS</a>, <a href="http://validator.w3.org/check/referer" title="проверить на соответствие стандарту XHTML">XHTML</a></div></div>
+</div>          </div>
+    <!-- end: #footer -->
+
+
+<div id="lightbox2-overlay" style="display: none;"></div>      <div id="lightbox" style="display: none;" class="lightbox2-orig-layout">        <div style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);" id="outerImageContainer"><div id="modalContainer" style="display: none; padding: 10px;"></div><div id="frameContainer" style="display: none; padding: 10px;"></div><div id="imageContainer" style="display: none; padding: 10px;"><img id="lightboxImage" alt=""><div id="hoverNav"><a style="padding-top: 10px;" id="prevLink" title="Previous" href="#"></a><a style="padding-top: 10px;" id="nextLink" title="Next" href="#"></a></div></div><div id="loading"><a href="#" id="loadingLink"></a></div></div>        <div style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);" id="imageDataContainer" class="clearfix">          <div id="imageData"><div id="imageDetails"><span id="caption"></span><span id="numberDisplay"></span></div><div id="bottomNav"><div id="frameHoverNav"><a style="padding-top: 10px;" id="framePrevLink" title="Previous" href="#"></a><a style="padding-top: 10px;" id="frameNextLink" title="Next" href="#"></a></div><a style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);" id="bottomNavClose" title="Close" href="#"></a><a id="bottomNavZoom" href="#"></a><a id="bottomNavZoomOut" href="#"></a><a id="lightshowPause" title="Pause Slideshow" href="#" style="display: none;"></a><a id="lightshowPlay" title="Play Slideshow" href="#" style="display: none;"></a></div></div>        </div>      </div></body></html>

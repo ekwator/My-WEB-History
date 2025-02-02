@@ -1,0 +1,38 @@
+/*!
+ * Dynamic display block module template:plain-list30l - Cascading Style Sheet 
+ * Copyright(c) 2008 - 2009 P. Blaauw All rights reserved. 
+ * Version 1.0(20-DEC-2009) 
+ */ 
+div.ddblock-cycle-plain-list30l div.container{background-color:#ffffff;width:133px;margin:0px 0 0px 0px;}
+div.ddblock-cycle-plain-list30l div.container-inner{border:0px solid #999999;height:145px;padding:0 0 0 0;}
+div.ddblock-cycle-plain-list30l div.slider{width:133px;}
+div.ddblock-cycle-plain-list30l div.slider-left{float:left;}
+div.ddblock-cycle-plain-list30l div.slider-right{float:left;}
+div.ddblock-cycle-plain-list30l div.slider-inner{height:145px;overflow:hidden;position:relative;visibility:hidden;}
+div.ddblock-cycle-plain-list30l div.slide{display:none;height:100%;left:0;position:absolute;top:0;}
+div.ddblock-cycle-plain-list30l div.slide-inner img{height:140px;margin:0!important;padding:0!important;width:140px;}
+div.ddblock-cycle-plain-list30l div.slide-text{background:transparent url(../images/transparent_bg.png) repeat scroll 0 0!important;position:absolute;}
+div.ddblock-cycle-plain-list30l div.slide-text-horizontal{height:22px;top:0;width:143px;}
+div.ddblock-cycle-plain-list30l div.slide-text-vertical{height:143px;top:0;width:22px;}
+div.ddblock-cycle-plain-list30l div.slide-text-top{top:0px;}
+div.ddblock-cycle-plain-list30l div.slide-text-right{right:0px;}
+div.ddblock-cycle-plain-list30l div.slide-text-bottom{bottom:0px;}
+div.ddblock-cycle-plain-list30l div.slide-text-left{left:0px;}
+div.ddblock-cycle-plain-list30l div.slide-text-inner{padding:0px;}
+div.ddblock-cycle-plain-list30l div.slide-title{float:top;}
+div.ddblock-cycle-plain-list30l div.slide-title-vertical{width:143px;}
+div.ddblock-cycle-plain-list30l div.slide-title-horizontal{float:top;width:143px;text-align:center;}
+div.ddblock-cycle-plain-list30l div.slide-title h2{margin:0 0 0 0;padding:0;font-size:12px;}
+div.ddblock-cycle-plain-list30l div.slide-title-inner{color:white;font-weight:bold;}
+div.ddblock-cycle-plain-list30l div.slide-body-vertical{width:143px;}
+div.ddblock-cycle-plain-list30l div.slide-body-horizontal{float:left;width:143px;}
+div.ddblock-cycle-plain-list30l div.slide-read-more{width:143px;}
+div.ddblock-cycle-plain-list30l div.slide-read-more p{margin:0;padding:0;}
+div.ddblock-cycle-plain-list30l div.slide-read-more a{background:transparent url(../images/transparent_bg.png) repeat scroll 0 0!important;border:none;bottom:0px;color:#fff;font-size:16px;font-family:times New Roman;margin:0px 0px 5px 0px;padding:0 0 0 0;position:absolute;text-decoration:none;text-align:center;width:140px;}
+div.ddblock-cycle-plain-list30l div.slide-read-more-horizontal a{left:0px;}
+div.ddblock-cycle-plain-list30l div.slide-read-more-vertical a{left:5px;}
+div.ddblock-cycle-plain-list30l div.slide-read-more a:hover{background:transparent url(../images/transparent_bg.png) repeat scroll 0 0!important;text-decoration:underline;}
+div.ddblock-cycle-plain-list30l div.slide-read-more-horizontal a:hover{left:0px;}
+div.ddblock-cycle-plain-list30l div.slide-read-more-vertical a:hover{left:5px;}
+div.ddblock-cycle-plain-list30l div.spacer-vertical{display:block;float:left;height:0px;width:0px;}
+div.ddblock-cycle-plain-list30l div.spacer-horizontal{clear:both;height:0px;}

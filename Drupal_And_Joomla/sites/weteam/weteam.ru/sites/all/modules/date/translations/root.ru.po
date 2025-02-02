@@ -1,0 +1,803 @@
+# Russian translation of date (all releases)
+# Copyright (c) 2012 by the Russian translation team
+# Generated from files:
+#  date/date_api.admin.inc: n/a
+#  date_api.admin.inc,v 1.1.2.3 2010/08/12 18:40:48 karens
+#  date/date_api.module: n/a
+#  date_api.module,v 1.64.2.5.2.121 2011/01/01 00:29:04 karens
+#  date/date_admin.inc: n/a
+#  date/date_api_elements.inc: n/a
+#  date/date.module: n/a
+#  date/date_api.install: n/a
+#  date_api.install,v 1.16.2.1.2.25 2010/08/13 10:50:52 karens
+#  date_api_elements.inc,v 1.49.2.1.2.59 2010/12/29 14:11:50 karens
+#  date/date_elements.inc: n/a
+#  date/date.tokens.inc: n/a
+#  date/date.field.inc: n/a
+#  date/date.info: n/a
+#  date/date.theme: n/a
+#  date/date.install: n/a
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: date (all releases)\n"
+"POT-Creation-Date: 2012-08-17 04:37-0400\n"
+"PO-Revision-Date: 2011-02-28 00:06-0500\n"
+"Language-Team: Russian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=((((n%10)==1)&&((n%100)!=11))?(0):(((((n%10)>=2)&&((n%10)<=4))&&(((n%100)<10)||((n%100)>=20)))?(1):2));\n"
+
+#: date_api.admin.inc:69,72,69,69
+msgid "Save configuration"
+msgstr "Сохранить настройки"
+
+#: date_api.module:67,68,67,67
+msgid "Configure"
+msgstr "Настройки"
+
+#: date_api.module:102,101
+msgid "May"
+msgstr "Май"
+
+#: date_api.module:359,358
+msgid "am"
+msgstr "утра"
+
+#: date_api.module:359,358
+msgid "pm"
+msgstr "после полудня"
+
+#: date_admin.inc:357,339,357,360,357,365
+msgid "Advanced settings"
+msgstr "Расширенные настройки"
+
+#: date_admin.inc:88,130,88,112,88,130,91,133,88,130,131
+msgid "Interval"
+msgstr "Промежуток"
+
+#: date_api_elements.inc:779,778
+msgid "am/pm"
+msgstr "до/после полудня"
+
+#: date_api.module:101,100
+msgid "January"
+msgstr "Январь"
+
+#: date_api.module:101,100
+msgid "February"
+msgstr "Февраль"
+
+#: date_api.module:101,100
+msgid "March"
+msgstr "Март"
+
+#: date_api.module:102,101
+msgid "April"
+msgstr "Апрель"
+
+#: date_api.module:102,101
+msgid "June"
+msgstr "Июнь"
+
+#: date_api.module:102,101
+msgid "July"
+msgstr "Июль"
+
+#: date_api.module:103,102
+msgid "August"
+msgstr "Август"
+
+#: date_api.module:103,102
+msgid "September"
+msgstr "Сентябрь"
+
+#: date_api.module:103,102
+msgid "October"
+msgstr "Октябрь"
+
+#: date_api.module:104,103
+msgid "November"
+msgstr "Ноябрь"
+
+#: date_api.module:104,103
+msgid "December"
+msgstr "Декабрь"
+
+#: date_admin.inc:106,106,109,106
+msgid "Display"
+msgstr "Показать"
+
+#: date.module:564,563,564,558,558
+msgid "Duration"
+msgstr "Длительность"
+
+#: date_api.admin.inc:88,91,88,88
+msgid "Date formats"
+msgstr "Форматы дат"
+
+#: date_api.module:77,78,77,77
+msgid "Date and time lookup"
+msgstr "Поиск даты и времени"
+
+#: date_admin.inc:148,130,148,151,148,156
+msgid "all"
+msgstr "все"
+
+#: date_api.admin.inc:39,246,40,250,39,246,39,246
+msgid "remove"
+msgstr "удалить"
+
+#: date_admin.inc:327,309,327,330,327,335
+msgid "1 minute"
+msgstr "1 минута"
+
+#: date_admin.inc:150,132,150,153,150,158
+msgid "latest"
+msgstr ""
+
+#: date_api.install:97,96
+msgid "The Date API module requires the !link for PHP versions less than 5.2."
+msgstr ""
+
+#: date_api.install:97,96
+msgid "Date PHP4 module"
+msgstr "Модуль  Date PHP4"
+
+#: date_api.install:249,101,100,250,249,249
+msgid "Date API requirements"
+msgstr "Требования Date API"
+
+#: date_api.module:57,58,57,57
+msgid "Formats"
+msgstr "Форматы"
+
+#: date_api_elements.inc:388,418,417,420,388,388
+msgid "The year must be a number between %min and %max."
+msgstr "Год должен быть числом между %min и %max."
+
+#: date_api_elements.inc:397,427,426,429,397,397
+msgid "The month must be a number between 1 and 12."
+msgstr "Месяц должен быть цифровым между 1 и 12."
+
+#: date_api_elements.inc:407,437,436,439,407,407
+msgid "The day must be a number between !min and !max."
+msgstr "День должен быть числом между !min и !max."
+
+#: date_api_elements.inc:414,444,443,446,414,414
+msgid "The hour must be a number between !min and !max."
+msgstr "Час должен быть числовым между !min и !max."
+
+#: date_api_elements.inc:421,451,450,453,421,421
+msgid "The minute must be a number between !min and !max."
+msgstr ""
+"Минуты должны быть числовыми между !min "
+"и !max."
+
+#: date_api_elements.inc:428,458,457,460,428,428
+msgid "The second must be a number between !min and !max."
+msgstr ""
+"Секунды должены быть числовым между "
+"!min и !max."
+
+#: date_api_elements.inc:474,473
+msgid "%field has errors."
+msgstr "%field содержит ошибки."
+
+#: date.module:340,345,340,340
+msgid "Default values"
+msgstr "Значения по умолчанию"
+
+#: date_api_elements.inc:441,471,470,473,441,441
+msgid "A valid value is required."
+msgstr "Необходимо корректное значение."
+
+#: date_api.install:145,146,145,145
+msgid "Per-user timezone name."
+msgstr ""
+"Имя временного пояса на каждого "
+"пользователя"
+
+#: date_api_elements.inc:444,476,444,444
+msgid "Field %field has errors."
+msgstr "Поле %field содержит ошибки"
+
+#: date_api.install:245,246,245,245
+msgid ""
+"The Date API module requires the <a href=\"@link\">Date PHP4 "
+"module</a> for PHP versions less than 5.2."
+msgstr ""
+"Модуль Date API требует <a href=\"@link\">модуль "
+"Date PHP4</a> для PHP версии меньше чем 5.2"
+
+#: date_api.admin.inc:47,48,47,47
+msgid "No custom formats configured. Please <a href=\"@link\">add</a> some."
+msgstr ""
+"Пользовательские форматы не "
+"настроены. Пожалуйста <a "
+"href=\"@link\">добавьте их</a>."
+
+#: date_api.admin.inc:62,64,62,62
+msgid "Format string"
+msgstr "Формат строки"
+
+#: date_api.admin.inc:64,66,64,64
+msgid ""
+"A user-defined date format. See the <a href=\"@url\">PHP manual</a> "
+"for available options. This format is currently set to display as "
+"<span>%date</span>."
+msgstr ""
+"Пользовательский формат даты. "
+"Доступные опции смотрите в описании "
+"функции <a href=\"@url\">date</a>. В данный момент "
+"этот формат отображается как "
+"<span>%date</span>"
+
+#: date_api.admin.inc:167,169,167,167
+msgid "Are you sure you want to remove the format %format?"
+msgstr ""
+"Вы уверены, что хотите удалить формат "
+"%format?"
+
+#: date_api.admin.inc:184,186,184,184
+msgid "Removed date format %format."
+msgstr "Удален формат даты %format."
+
+#: date_api.admin.inc:201,205,201,201
+msgid "Are you sure you want to remove the format type %format?"
+msgstr ""
+"Вы уверены, что хотите удалить тип "
+"формата %format?"
+
+#: date_api.admin.inc:218,222,218,218
+msgid "Removed date format type %format."
+msgstr "Удаленный формат даты %format."
+
+#: date_api.admin.inc:234,238,234,234
+msgid "!type date format"
+msgstr "!type формат"
+
+#: date_api.module:58,68,59,69,58,68,58,68
+msgid "Allow users to configure date formats"
+msgstr ""
+"Разрешить пользователям управлять "
+"форматами дат"
+
+#: date_api.module:83,84,83,83
+msgid "Custom formats"
+msgstr "Пользовательские форматы"
+
+#: date_api.module:84,85,84,84
+msgid "Allow users to configure custom date formats."
+msgstr ""
+"Разрешить пользователям управлять "
+"собственными форматами дат"
+
+#: date_api.module:92,93,92,92
+msgid "Add format"
+msgstr "Добавить формат"
+
+#: date_api.module:93,94,93,93
+msgid "Allow users to add additional date formats."
+msgstr ""
+"Позволять пользователям добавлять "
+"дополнительные форматы даты."
+
+#: date_api.module:102,103,102,102
+msgid "Delete date format"
+msgstr "Удалить формат данных"
+
+#: date_api.module:103,104,103,103
+msgid "Allow users to delete a configured date format."
+msgstr ""
+"Позволить пользователям удалять "
+"настроенный формат даты."
+
+#: date_api.module:111,112,111,111
+msgid "Delete date format type"
+msgstr "Удалить тип формата дат"
+
+#: date_api.module:112,113,112,112
+msgid "Allow users to delete a configured date format type."
+msgstr ""
+"Разрешить пользователям удалять "
+"настроенный тип формата даты."
+
+#: date_api.module:680,675,680,680
+msgid "!day-name Sunday|Monday|Tuesday|Wednesday|Thursday|Friday|Saturday"
+msgstr ""
+"!day-name "
+"Воскресенье|Понедельник|Вторник|Среда|Четверг|Пятница|Суббота"
+
+#: date_api.module:681,676,681,681
+msgid "!day-abbreviation Sun|Mon|Tue|Wed|Thu|Fri|Sat"
+msgstr "!day-abbreviation Вск|Пнд|Втр|Срд|Чтв|Птн|Сбт"
+
+#: date_api.module:682,677,682,682
+msgid "!day-abbreviation S|M|T|W|T|F|S"
+msgstr "!day-abbreviation В|П|В|С|Ч|П|С"
+
+#: date_api.module:683,678,683,683
+msgid "!day-abbreviation SU|MO|TU|WE|TH|FR|SA"
+msgstr "!day-abbreviation ВС|ПН|ВТ|СР|ЧТ|ПТ|СБ"
+
+#: date_api.module:684,679,684,684
+msgid "!ampm-abbreviation am|pm|AM|PM"
+msgstr "!ampm-abbreviation am|pm|AM|PM"
+
+#: date_api.module:685,680,685,685
+msgid "!datetime Year|Month|Day|Week|Hour|Minute|Second|All Day|All day"
+msgstr ""
+"!datetime "
+"Год|Месяц|День|Неделя|Час|Минута|Секунда|All "
+"Day|All day"
+
+#: date_api.module:686,681,686,686
+msgid "!datetime_plural Years|Months|Days|Weeks|Hours|Minutes|Seconds"
+msgstr ""
+"!datetime_plural "
+"Лет|Месяцев|Дней|Недель|Часов|МИнут|Секунд"
+
+#: date_api.module:687,682,687,687
+msgid "!date_order Every|First|Second|Third|Fourth|Fifth"
+msgstr ""
+"!date_order "
+"Каждый|Первый|Второй|Третий|Четвертый|Пятый"
+
+#: date_api.module:688,683,688,688
+msgid ""
+"!date_order |Last|Next to last|Third from last|Fourth from last|Fifth "
+"from last"
+msgstr ""
+"!date_order "
+"|Последний|Предпоследний|Третий с "
+"конца|Четвертый с конца|Пятый с конца"
+
+#: date_api.module:689,684,689,689
+msgid "!date_nav Prev|Next|Today"
+msgstr "!date_nav Пред|След|Сегодня"
+
+#: date_api.module:692,687,692,692
+msgid ""
+"!month-name "
+"|January|February|March|April|May|June|July|August|September|October|November|December"
+msgstr ""
+"!month-name "
+"|Январь|Февраль|Март|Апрель|Май|Июнь|Июль|Август|Сентябрь|Октябрь|Ноябрь|Декабрь"
+
+#: date_api.module:693,688,693,693
+msgid "!month-abbreviation |Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec"
+msgstr ""
+"!month-abbreviation "
+"|Янв|Фев|Мар|Апр|Май|Июн|Июл|Авг|Сен|Окт|Ноя|Дек"
+
+#: date_api.install:274,292,318,275,293,319,274,292,318,274,292,318
+msgid ""
+"date module cannot be updated until after Views has been updated. "
+"Please return to <a href=\"@update-php\">update.php</a> and run the "
+"remaining updates."
+msgstr ""
+
+#: date_api.install:275,293,319,276,294,320,275,293,319,275,293,319
+msgid ""
+"date.module has updates, but cannot be updated until views.module is "
+"updated first."
+msgstr ""
+"для date.module есть обновление, но он не "
+"может  быть обновлен до тех пор, пока "
+"не обновлен views.module."
+
+#: date_admin.inc:98,98,101,98
+msgid "Time ago (with \"ago\" appended)"
+msgstr "Время назад (\"назад\" будет добавлено)"
+
+#: date_api.admin.inc:135,137,135,135
+msgid "This format already exists.  Please enter a unique format string."
+msgstr ""
+"Данный формат уже существует. "
+"Пожалуйста введите уникальную строку "
+"формата даты."
+
+#: date_admin.inc:103,103,106,103
+msgid "Time span (with \"ago/hence\" appended)"
+msgstr ""
+"Временной диапазон (с добавленным "
+"\"назад/с этого момента\")"
+
+#: date_elements.inc:306,296,306,306
+msgid "Show End Date"
+msgstr ""
+
+#: date_admin.inc:328,310,328,331,328,336
+msgid "5 minute"
+msgstr ""
+
+#: date_admin.inc:330,312,330,333,330,338
+msgid "15 minute"
+msgstr ""
+
+#: date_admin.inc:51,51,51,54,51
+msgid ""
+"Identify a specific number of values to display, or leave blank to "
+"show all values."
+msgstr ""
+
+#: date_admin.inc:54,54,54,57,54
+msgid "starting from @isodate"
+msgstr ""
+
+#: date_admin.inc:65,65,65,68,65
+msgid "ending with @isodate"
+msgstr ""
+
+#: date_admin.inc:74,74,74,77,74
+msgid ""
+"Identify specific start and/or end dates in the format "
+"YYYY-MM-DDTHH:MM:SS, or leave blank for all available dates."
+msgstr ""
+
+#: date_admin.inc:147,129,147,150,147,155
+msgid "Show @count value(s) starting with @date1, ending with @date2"
+msgstr ""
+
+#: date_admin.inc:149,131,149,152,149,157
+msgid "earliest"
+msgstr ""
+
+#: date_admin.inc:27,27,27,30,27
+msgid "Display:"
+msgstr ""
+
+#: date_admin.inc:44,44,44,47,44
+msgid "Multiple values:"
+msgstr ""
+
+#: date_admin.inc:89,89,89,92,89
+msgid "How many time units should be shown in the 'time ago' string."
+msgstr ""
+
+#: date_admin.inc:167,149,167,170,167,175
+msgid "Display time ago, showing @interval units."
+msgstr ""
+
+#: date.module:565,564,565,559,559
+msgid "The duration of the time period given by the dates."
+msgstr ""
+
+#: date_admin.inc:99,99,102,99
+msgid "Time hence"
+msgstr ""
+
+#: date_admin.inc:100,100,103,100
+msgid "Time hence (with \"hence\" appended)"
+msgstr ""
+
+#: date_admin.inc:101,101,104,101
+msgid "Time span (future dates have \"-\" prepended)"
+msgstr ""
+
+#: date_admin.inc:102,102,105,102
+msgid "Time span (past dates have \"-\" prepended)"
+msgstr ""
+
+#: date_admin.inc:194,176,194,197,194,202
+msgid "Relative default value"
+msgstr ""
+
+#: date.tokens.inc:14,14,14,14
+msgid "Date field values"
+msgstr ""
+
+#: date.tokens.inc:15,15,15,15
+msgid "Tokens related to date field values."
+msgstr ""
+
+#: date.tokens.inc:22,22,22,22
+msgid "The date value."
+msgstr ""
+
+#: date_admin.inc:18,18,18,21,18
+msgid "Choose how users view dates and times:"
+msgstr ""
+
+#: date_admin.inc:22,22,22,25,22
+msgid ""
+"To add or edit options, visit <a href=\"@date-time-page\">Date and "
+"time settings</a>."
+msgstr ""
+
+#: date_admin.inc:135,117,135,138,135,139
+msgid "Display dates using the @format format"
+msgstr ""
+
+#: date_admin.inc:184,166,184,187,184,192
+msgid "Default date"
+msgstr ""
+
+#: date_admin.inc:186,208,168,190,186,208,189,211,186,208,194,216
+msgid "No default value"
+msgstr ""
+
+#: date_admin.inc:206,188,206,209,206,214
+msgid "Default end date"
+msgstr ""
+
+#: date_admin.inc:214,196,214,217,214,222
+msgid "Relative default value for end date"
+msgstr ""
+
+#: date_admin.inc:298,280,298,301,298,306
+msgid ""
+"Override the input format selected above. Define a php date format "
+"string like 'm-d-Y H:i' (see <a href=\"@link\">http://php.net/date</a> "
+"for more details)."
+msgstr ""
+
+#: date_admin.inc:425,407,425,428,425,433
+msgid ""
+"Please enter a custom date format, or choose one of the preset "
+"formats."
+msgstr ""
+
+#: date_admin.inc:468,450,468,471,468,476
+msgid ""
+"End dates are used to collect duration. E.g., allow an event to start "
+"on September 15, and end on September 16."
+msgstr ""
+
+#: date_admin.inc:471,453,471,474,471,479
+msgid "Collect an end date"
+msgstr ""
+
+#: date.field.inc:263,253,263,260,260
+msgid ""
+"Store a date in the database as a timestamp, deprecated format to "
+"support legacy data."
+msgstr ""
+
+#: date.field.inc:302,292,302,299,299,300
+msgid "Pop-up calendar"
+msgstr ""
+
+#: date_admin.inc:459,441,459,462,459,467
+msgid "Date attributes to collect"
+msgstr ""
+
+#: date_admin.inc:191,173,191,194,191,199
+msgid ""
+"Describe a time by reference to the current day, like '+90 days' (90 "
+"days from the day the field is created) or '+1 Saturday' (the next "
+"Saturday). See !strtotime for more details."
+msgstr ""
+
+#: date_admin.inc:365,347,365,368,365,373
+msgid ""
+"The location of date part labels, like 'Year', 'Month', or 'Day' . "
+"'Above' displays the label as titles above each date part. 'Within' "
+"inserts the label as the first option in the select list and in blank "
+"textfields. 'None' doesn't label any of the date parts. Theme "
+"functions like 'date_part_label_year' and 'date_part_label_month' "
+"control label text."
+msgstr ""
+
+#: date_admin.inc:487,469,487,490,487,495
+msgid "Select the timezone handling method for this date field."
+msgstr ""
+
+#: date.info:0,0,0,0
+msgid "Makes date/time fields available."
+msgstr ""
+
+#: date.field.inc:368,358,368,365,365,370
+msgid "A 'Start date' date is required for field %field #%delta."
+msgstr ""
+
+#: date.field.inc:374,364,374,371,371,376
+msgid "An 'End date' is required for field %field #%delta."
+msgstr ""
+
+#: date.tokens.inc:27,27,27,27
+msgid "The End date value."
+msgstr ""
+
+#: date_admin.inc:30,30,30,33,30
+msgid "Both Start and End dates"
+msgstr ""
+
+#: date_admin.inc:31,31,31,34,31
+msgid "Start date only"
+msgstr ""
+
+#: date_admin.inc:32,32,32,35,32
+msgid "End date only"
+msgstr ""
+
+#: date_admin.inc:139,121,139,142,139,147
+msgid "Display both Start and End dates"
+msgstr ""
+
+#: date_admin.inc:140,122,140,143,140,148
+msgid "Display Start date only"
+msgstr ""
+
+#: date_admin.inc:141,123,141,144,141,149
+msgid "Display End date only"
+msgstr ""
+
+#: date_admin.inc:251,233,251,254,251,259
+msgid "The Strtotime default value for the End Date is invalid."
+msgstr ""
+
+#: date_elements.inc:377,364,377,377
+msgid "Empty 'End date' values will use the 'Start date' values."
+msgstr ""
+
+#: date_elements.inc:393,380,393,393
+msgid "@field_name Start date value #@delta"
+msgstr ""
+
+#: date_elements.inc:395,382,395,395
+msgid "@field_name End date value #@delta"
+msgstr ""
+
+#: date_elements.inc:399,386,399,399
+msgid "@field_name Start date"
+msgstr ""
+
+#: date_elements.inc:400,387,400,400
+msgid "@field_name End date"
+msgstr ""
+
+#: date_elements.inc:494,481,494,494
+msgid ""
+"A 'Start date' date is required if an 'end date' is supplied for field "
+"%field #%delta."
+msgstr ""
+
+#: date_elements.inc:500,487,500,500
+msgid ""
+"A 'Start date' date is required if an 'End date' is supplied for field "
+"%field #%delta."
+msgstr ""
+
+#: date_elements.inc:548,535,548,548
+msgid "The End date must be greater than the Start date."
+msgstr ""
+
+#: date_elements.inc:589,576,589,589
+msgid "The Start date is invalid."
+msgstr ""
+
+#: date_elements.inc:592,579,592,592
+msgid "The End date is invalid."
+msgstr ""
+
+#: date_admin.inc:447,429,447,450,447,455
+msgid "Select the date attributes to collect and store."
+msgstr ""
+
+#: date_admin.inc:287,269,287,290,287,295
+msgid "Control the order and format of the options users see."
+msgstr ""
+
+#: date.module:346,351,346,346
+msgid "Starting and ending year"
+msgstr ""
+
+#: date_admin.inc:284,266,284,287,284,292
+msgid "Date entry options"
+msgstr ""
+
+#: date_admin.inc:324,306,324,327,324,332
+msgid "Time increments"
+msgstr ""
+
+#: date_admin.inc:329,311,329,332,329,337
+msgid "10 minute"
+msgstr ""
+
+#: date_admin.inc:331,313,331,334,331,339
+msgid "30 minute"
+msgstr ""
+
+#: date_admin.inc:369,351,369,372,369,377
+msgid ""
+"The location of date part labels, like 'Year', 'Month', or 'Day' . "
+"'Above' displays the label as titles above each date part. 'None' "
+"doesn't label any of the date parts. Theme functions like "
+"'date_part_label_year' and 'date_part_label_month' control label text."
+msgstr ""
+
+#: date.module:328,333,328,328
+msgid "More settings and values"
+msgstr ""
+
+#: date.module:334,339,334,334
+msgid "Date entry"
+msgstr ""
+
+#: date.theme:365,343,365,344,344,350
+msgid "Date part"
+msgstr ""
+
+#: date.install:143,143,143,143
+msgid ""
+"The widgets for repeating dates have changed. Please check the Display "
+"Fields page for each content type that has repeating date fields and "
+"confirm that the right widget has been selected."
+msgstr ""
+
+#: date_admin.inc:208,190,208,211,208,216
+msgid "Same as Default date"
+msgstr ""
+
+#: date.install:150,150,150,150
+msgid ""
+"The <em>All Day</em> functionality has been moved into a separate "
+"module. This new module provides the option to add an <em>All Day</em> "
+"checkbox to toggle time on and off for date fields. It also contains "
+"the theme that displays the <em>All Day</em> text on fields that have "
+"no time. For consistency with prior code, it has been automatically "
+"enabled. If you don't want the <em>All Day</em> functionality you can "
+"disable this module."
+msgstr ""
+
+#: date.install:158,158,158,158
+msgid ""
+"The <em>Date Repeat</em> integration for Date fields is being moved "
+"into a separate module. For consistency with prior code, it has been "
+"automatically enabled if the Date Repeat API module is enabled. If you "
+"don't use <em>Date Repeat</em> functionality in your fields, you can "
+"disable this module."
+msgstr ""
+
+#: date_admin.inc:572,554,572,575,572,580
+msgid "The number of cache values must be a number."
+msgstr ""
+
+#: date_admin.inc:575,557,575,578,575,583
+msgid "The number of cache values must be a number 0 or greater."
+msgstr ""
+
+#: date_admin.inc:508,490,508,511,508,516
+msgid "Cache dates"
+msgstr ""
+
+#: date_admin.inc:509,491,509,512,509,517
+msgid ""
+"Date objects can be created and cached as date fields are loaded "
+"rather than when they are displayed to improve performance."
+msgstr ""
+
+#: date_admin.inc:515,497,515,518,515,523
+msgid "Maximum dates per field"
+msgstr ""
+
+#: date_admin.inc:517,499,517,520,517,525
+msgid ""
+"If set to '0', all date values on every entity will be cached. Note "
+"that caching every date on fields that may have a large number of "
+"multiple or repeating values may create a significant performance "
+"penalty when the cache is cleared. The suggested setting for multiple "
+"value and repeating fields is no more than 4 values per field."
+msgstr ""
+
+#: date_elements.inc:368,355,368,368
+msgid "to:"
+msgstr ""
+
+#: date_admin.inc:107,107,110,107
+msgid "How to display the time ago or time hence for this field."
+msgstr ""
+
+#: date_admin.inc:142
+msgid ""
+"Display dates using the default format because the specified format "
+"(@format) is not defined"
+msgstr ""
+
+#: date.install:192
+msgid "Date text widgets have been updated to use an increment of 1."
+msgstr ""
+

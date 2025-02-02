@@ -1,0 +1,35 @@
+--- ./date_api.module_original	2009-08-13 13:57:27.000000000 +0300
++++ ./date_api.module	2010-02-28 15:37:16.893709380 +0200
+@@ -579,6 +579,7 @@
+       $untranslated = array_flip(date_week_days_untranslated());
+       break;
+     case 'month_name':
++    case 'month_genitive':
+     case 'month_abbr':
+       $untranslated = array_flip(date_month_names_untranslated());
+       break;  
+@@ -625,7 +626,10 @@
+   
+   // These start with a pipe so the January value will be in position 1 instead of position 0.
+   $replace[$langcode]['month_name'] = explode('|', trim(t('!month-name |January|February|March|April|May|June|July|August|September|October|November|December', array('!month-name' => ''), $langcode)));
++  $replace[$langcode]['month_genitive'] = explode('|', trim(t('!month-genitive |January|February|March|April|May|June|July|August|September|October|November|December', array('!month-name' => ''), $langcode)));
+//<?phpt('!month-genitive |January|February|March|April|May|June|July|August|September|October|November|December', array('!month-genitive' => '')?>
+   $replace[$langcode]['month_abbr'] = explode('|', trim(t('!month-abbreviation |Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec', array('!month-abbreviation' => ''), $langcode)));
++
++
+ }
+ 
+ /**
+@@ -680,7 +684,12 @@
+         $datestring .= date_t(date_format($date, 'l'), 'day_abbr', $langcode);
+         break;
+       case 'F':
++        if ((strpos($format, 'd') === FALSE) && (strpos($format, 'j') === FALSE)) {
+         $datestring .= date_t(date_format($date, 'F'), 'month_name', $langcode);
++        }
++        else {
++          $datestring .= date_t(date_format($date, 'F'), 'month_genitive', $langcode);
++        }
+         break;  
+       case 'M':
+         $datestring .= date_t(date_format($date, 'F'), 'month_abbr', $langcode);

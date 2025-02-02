@@ -1,0 +1,41 @@
+; $Id: sanatural.info,v 1.1.2.2 2009/08/07 22:40:26 couzinhub Exp $
+core = "6.x"
+name = fluidgrid sanatural Kit
+screenshot = ../fluidgrid/css/images/screenshot.gif
+description = Read the <a href="http://drupal.org/node/226507">online docs</a> on how to create/configure a sub-theme.
+base theme = fluidgrid
+
+stylesheets[all][] = css/style.css
+
+regions[topbar] = top bar
+regions[headerbar] = header bar
+regions[left] = left sidebar
+regions[right] = right sidebar
+regions[content_top_block] = top content block
+regions[content] = content
+regions[content_after_blocks] = after content blocks
+regions[footer] = footer
+regions[footer_block] = footer block
+features[] = name
+features[] = logo
+features[] = node_user_picture
+features[] = comment_user_picture
+features[] = search
+features[] = favicon
+features[] = primary_links
+
+settings[fluidgrid_grid]                 = 0
+settings[fluidgrid_css_reset]            = 0
+settings[fluidgrid_css_text]             = 0
+settings[fluidgrid_css_print]            = 1
+settings[fluidgrid_grid_display]         = 1
+settings[fluidgrid_width]                = NULL
+settings[fluidgrid_margin]               = NULL
+settings[fluidgrid_block_editing]        = 1
+settings[fluidgrid_rebuild_registry]     = 0
+; Information added by drupal.org packaging script on 2009-08-07
+version = "6.x-1.0-beta1"
+core = "6.x"
+project = "fluidgrid"
+datestamp = "1249685728"
+

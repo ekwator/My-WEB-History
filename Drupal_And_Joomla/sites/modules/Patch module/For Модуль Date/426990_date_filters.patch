@@ -1,0 +1,153 @@
+? 426990_date_filters.patch
+Index: includes/date_api.views.inc
+===================================================================
+RCS file: /cvs/drupal-contrib/contributions/modules/date/includes/date_api.views.inc,v
+retrieving revision 1.1.2.7
+diff -u -p -r1.1.2.7 date_api.views.inc
+--- includes/date_api.views.inc	20 Mar 2009 15:03:49 -0000	1.1.2.7
++++ includes/date_api.views.inc	20 Apr 2009 18:36:21 -0000
+@@ -129,21 +129,23 @@ function date_api_views_data() {
+     // The flexible date argument.
+     $data[$base_table]['date_argument'] = array(
+       'group' => t('Date'),
+-      'title' => t('Date'),
+-      'help' => t('Filter any Views date field by a date argument, using any common ISO date/period format (i.e. YYYY, YYYY-MM, YYYY-MM-DD, YYYY-W99, YYYY-MM-DD--P3M, P90D, etc).'),
++      'title' => t('Date (!base_table)', array('!base_table' => $base_table)),
++      'help' => t('Filter any Views !base_table date field by a date argument, using any common ISO date/period format (i.e. YYYY, YYYY-MM, YYYY-MM-DD, YYYY-W99, YYYY-MM-DD--P3M, P90D, etc).', array('!base_table' => $base_table)),
+       'argument' => array(
+         'handler' => 'date_api_argument_handler',
+         'empty name field' => t('Undated'),
++        'base' => $base_table,
+       ),
+     );  
+     // The flexible date filter.
+     $data[$base_table]['date_filter'] = array(
+       'group' => t('Date'),
+-      'title' => t('Date'),
+-      'help' => t('Filter any Views date field.'),
++      'title' => t('Date (!base_table)', array('!base_table' => $base_table)),
++      'help' => t('Filter any Views !base_table date field.', array('!base_table' => $base_table)),
+       'filter' => array(
+         'handler' => 'date_api_filter_handler',
+         'empty name field' => t('Undated'),
++        'base' => $base_table,
+       ),
+     ); 
+   }
+@@ -153,7 +155,7 @@ function date_api_views_data() {
+ /**
+  *  Identify all potential date/timestamp fields and cache the data.
+  */
+-function date_api_fields($base = 'node', $reset = FALSE) {
++function date_api_fields($base = 'node', $reset = TRUE) {
+   static $fields;
+   require_once('./'. drupal_get_path('module', 'date_api') .'/includes/date_api_fields.inc');
+   if (empty($fields[$base]) || $reset) {
+Index: includes/date_api_argument_handler.inc
+===================================================================
+RCS file: /cvs/drupal-contrib/contributions/modules/date/includes/date_api_argument_handler.inc,v
+retrieving revision 1.1.2.36
+diff -u -p -r1.1.2.36 date_api_argument_handler.inc
+--- includes/date_api_argument_handler.inc	20 Mar 2009 18:29:42 -0000	1.1.2.36
++++ includes/date_api_argument_handler.inc	20 Apr 2009 18:36:22 -0000
+@@ -74,7 +74,7 @@ class date_api_argument_handler extends 
+       '#description' => t("Set the allowable minimum and maximum year range for this argument, either a -X:+X offset from the current year, like '-3:+3' or an absolute minimum and maximum year, like '2005:2010'. When the argument is set to a date outside the range, the page will be returned as 'Page not found (404)'."),
+     );
+     
+-    $fields = date_api_fields($this->view->base_table);
++    $fields = date_api_fields($this->definition['base']);
+     $options = array();
+     foreach ($fields['name'] as $name => $field) {
+       $options[$name] = $field['label'];
+@@ -124,7 +124,7 @@ class date_api_argument_handler extends 
+   
+   // Update the summary values to show selected granularity.
+   function admin_summary() {
+-    $fields = date_api_fields($this->view->base_table);
++    $fields = date_api_fields($this->definition['base']);
+     if (!empty($this->options['date_fields'])) {
+       $output = array();
+       foreach ($this->options['date_fields'] as $field) {
+@@ -223,7 +223,7 @@ class date_api_argument_handler extends 
+   }
+ 
+   function get_query_fields() {
+-    $fields = date_api_fields($this->view->base_table);
++    $fields = date_api_fields($this->definition['base']);
+     $fields = $fields['name'];
+     $min_date = isset($this->min_date) ? $this->min_date : NULL;
+     $min_utc = isset($this->min_utc) ? $this->min_utc : NULL;
+Index: includes/date_api_filter_handler.inc
+===================================================================
+RCS file: /cvs/drupal-contrib/contributions/modules/date/includes/date_api_filter_handler.inc,v
+retrieving revision 1.1.2.33
+diff -u -p -r1.1.2.33 date_api_filter_handler.inc
+--- includes/date_api_filter_handler.inc	25 Mar 2009 15:31:42 -0000	1.1.2.33
++++ includes/date_api_filter_handler.inc	20 Apr 2009 18:36:23 -0000
+@@ -42,6 +42,14 @@ class date_api_filter_handler extends vi
+     }
+     $this->view->date_info->date_fields = array_merge($this->view->date_info->date_fields, $this->options['date_fields']);
+     $this->definition['allow empty'] = TRUE;
++    
++    // If no value has been submitted on an exposed filter it is treated as
++    // a submitted value. Send a flag to the date widget processors so they 
++    // know to set '#value' instead of '#default_value' in that case.
++    $this->force_value = FALSE;
++    if (empty($this->options['exposed']) || (isset($this->options['expose']['identifier']) && !isset($_GET[$this->options['expose']['identifier']]))) {
++      $this->force_value = TRUE;
++    }
+   }
+ 
+   // Set default values for the date filter.
+@@ -111,8 +119,8 @@ class date_api_filter_handler extends vi
+       '#default_value' => $this->options['year_range'],
+       '#description' => t("Set the allowable minimum and maximum year range for this argument, either a -X:+X offset from the current year, like '-3:+3' or an absolute minimum and maximum year, like '2005:2010'. When the argument is set to a date outside the range, the page will be returned as 'Page not found (404)'."),
+     );
+-
+-    $fields = date_api_fields($this->view->base_table);
++    
++    $fields = date_api_fields($this->definition['base']);
+     $options = array();
+     foreach ($fields['name'] as $name => $field) {
+       $options[$name] = $field['label'];
+@@ -154,13 +162,6 @@ class date_api_filter_handler extends vi
+    */
+   function value_form(&$form, &$form_state) {
+     
+-    // If no value has been submitted on an exposed filter it is treated as
+-    // a submitted value. Send a flag to the date widget processors so they 
+-    // know to set '#value' instead of '#default_value' in that case.
+-    $this->force_value = FALSE;
+-    if (isset($this->options['expose']['identifier']) && !isset($_GET[$this->options['expose']['identifier']])) {
+-      $this->force_value = TRUE;
+-    }
+     // We use different values than the parent form, so we must
+     // construct our own form element.
+     $form['value'] = array();
+@@ -345,7 +346,7 @@ class date_api_filter_handler extends vi
+     }
+     $handler = $this->date_handler;
+     
+-    $fields = date_api_fields($this->view->base_table);
++    $fields = date_api_fields($this->definition['base']);
+     if (!empty($this->options['date_fields'])) {
+       $output = array();
+       foreach ($this->options['date_fields'] as $field) {
+@@ -426,7 +427,7 @@ class date_api_filter_handler extends vi
+     // query to match what should have been the default.
+     $value_parts = !is_array($this->value[$prefix]) ? array($this->value[$prefix]) : $this->value[$prefix];
+     foreach ($value_parts as $part) {
+-      if ($this->force_value) {
++      if (!empty($this->force_value)) {
+         $this->value[$prefix] = $this->default_value($prefix);
+       }
+       else {
+@@ -506,7 +507,7 @@ class date_api_filter_handler extends vi
+   }
+   
+   function get_query_fields() {
+-    $fields = date_api_fields($this->view->base_table);
++    $fields = date_api_fields($this->definition['base']);
+     $fields = $fields['name'];
+     $this->query_fields = array();
+     foreach ((array) $this->options['date_fields'] as $delta => $name) {

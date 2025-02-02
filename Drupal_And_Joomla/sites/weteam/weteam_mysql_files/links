@@ -1,0 +1,72 @@
+
+IHC.namespace("IHC.Provider");
+IHC.Provider.Links = {
+
+
+
+
+
+    "reg": {
+        // JSON с массивом регионов для заданной страны
+        "regions": "/reg/regions"
+    },
+    "replenishment": {
+        // Float со значением суммы в WMZ
+        "convertUSD": "/replenishment/convertUSD",
+        // Счет на оплату в новом окне
+        "check": "/replenishment/check"
+    },
+    "dnsZone": {
+        "records": "/dnsZone/records",
+        "createRecord": "/dnsZone/createRecord",
+        "updateRecord": "/dnsZone/updateRecord",
+        "deleteRecord": "/dnsZone/deleteRecord",
+        "changeZoneIp": "/dnsZone/changeZoneIp"
+    },
+    "hostingOrder": {
+        // сброс статистики
+        "collectMetrics": "/hostingOrder/collectMetrics",
+        // работа с сайтами
+        "sites": "/hostingOrder/sites",
+        "addSite": "/hostingOrder/addSite",
+        "addSites": "/hostingOrder/addSites",
+        "deleteSite": "/hostingOrder/deleteSite",
+        "renameSite": "/hostingOrder/renameSite",
+        "aliases": "/hostingOrder/aliases",
+        "updateAliases": "/hostingOrder/updateAliases",
+        // работа с базами данных
+        "databases": "/hostingOrder/databases",
+        "addDatabase": "/hostingOrder/addDatabase",
+        "deleteDatabase": "/hostingOrder/deleteDatabase",
+        // работа с почтовыми ящиками
+        "mailboxes": "/hostingOrder/mailboxes",
+        "addMailBox": "/hostingOrder/addMailBox",
+        "deleteMailBox": "/hostingOrder/deleteMailBox",
+        "getMailBox": "/hostingOrder/getMailBox",
+        "updateMailBox": "/hostingOrder/updateMailBox",
+        "catchAllMailBox": "/hostingOrder/catchAllMailBox",
+        // работа с дополнительными фтп
+        "ftpaccounts": "/hostingOrder/ftpaccounts",
+        "addFtpAccount": "/hostingOrder/addFtpAccount",
+        "deleteFtpAccount": "/hostingOrder/deleteFtpAccount",
+        // работа с поддоменами
+        "subdomains": "/hostingOrder/subdomains",
+        "addSubDomain": "/hostingOrder/addSubDomain",
+        "deleteSubDomain": "/hostingOrder/deleteSubDomain",
+        // запуск по расписанию
+        "cronjobs": "/hostingOrder/cronjobs",
+        "addCronjob": "/hostingOrder/addCronjob",
+        "deleteCronjob": "/hostingOrder/deleteCronjob",
+        "updateCronjob": "/hostingOrder/updateCronjob",
+        // статистика нагрузки
+        "statistics": "/hostingOrder/statistics"
+    },
+    "extraLimits": {
+        "update": "/order/updateExtraLimit",
+        "price": "/order/getExtraLimitPrice"
+    },
+    "order": {
+        "delegate": "/order/delegate",
+        "undelegate": "/order/undelegate"
+    }
+};

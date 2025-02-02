@@ -1,0 +1,7 @@
+tinsel-6.x-1.1 (2010-Jul-26)
+  o Fixed notices
+  o #826106 by Luch: Fixed color.module integration.
+  o Fix wrong header ID in page.tpl.php.
+
+tinsel-6.x-1.0
+  o Initial release

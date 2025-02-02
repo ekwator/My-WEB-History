@@ -1,0 +1,13 @@
+name = advupload open groups support
+description = Opengroups support for advanced upload module
+package = Advanced Upload
+dependencies[] = advupload
+dependencies[] = og_access
+core = 6.x
+
+; Information added by drupal.org packaging script on 2011-07-30
+version = "6.x-2.6"
+core = "6.x"
+project = "advupload"
+datestamp = "1312057315"
+

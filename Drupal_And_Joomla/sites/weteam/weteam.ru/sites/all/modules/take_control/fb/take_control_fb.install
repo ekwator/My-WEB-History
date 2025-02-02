@@ -1,0 +1,32 @@
+<?php
+
+
+require_once (drupal_get_path('module', 'take_control') . '/includes/common.inc');
+require_once (drupal_get_path('module', 'take_control') . '/includes/security.inc');
+require_once (drupal_get_path('module', 'take_control') . '/includes/filesystem.inc');
+
+function take_control_fb_install() {
+//  take_control_fb_create_default_settings();
+}
+
+function take_control_fb_uninstall() {
+  variable_del('take_control_fb_sec_token');
+  variable_del('take_control_fb_session_duration');
+  variable_del('take_control_fb_extjs_ver');
+}
+
+///////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+function take_control_fb_create_default_settings() {
+  $sectoken = take_control_random_string(10);
+  $extvers = take_control_extjs_dirs();
+
+  variable_set('take_control_fb_sec_token', $sectoken);
+  variable_set('take_control_fb_session_duration', '30');
+  variable_set('take_control_fb_extjs_ver', $extvers[0]);
+
+  take_control_save_config_items(array(
+      'secToken' => $sectoken,
+      'sessionDuration' => '30'));
+}

@@ -1,0 +1,159 @@
+/* --------------------------------------------------------------------
+
+   FluidGrid CSS Framework
+   
+   Hubert Florin
+   couzin.hub@gmail.com
+   Copyright 2009 Hubert Florin
+      
+----------------------------------------------------------------------- 
+
+ IE6
+________________________________ */
+
+/* ---------------- 12 columns ---------------- */
+
+.container_12 .span-11 .span-1, .container_12 .span-11 .span-2, .container_12 .span-11 .span-3, .container_12 .span-11 .span-4, .container_12 .span-11 .span-5, .container_12 .span-11 .span-6, .container_12 .span-11 .span-7, .container_12 .span-11 .span-8, .container_12 .span-11 .span-9, .container_12 .span-11 .span-10 {
+  margin-right:1.8%;
+}
+.container_12 .span-10 .span-1, .container_12 .span-10 .span-2, .container_12 .span-10 .span-3, .container_12 .span-10 .span-4, .container_12 .span-10 .span-5, .container_12 .span-10 .span-6, .container_12 .span-10 .span-7, .container_12 .span-10 .span-8, .container_12 .span-10 .span-9{
+  margin-right:2.1%;
+}
+.container_12 .span-9 .span-1, .container_12 .span-9 .span-2, .container_12 .span-9 .span-3, .container_12 .span-9 .span-4, .container_12 .span-9 .span-5, .container_12 .span-9 .span-6, .container_12 .span-9 .span-7, .container_12 .span-9 .span-8{
+  margin-right:2.2%;
+}
+.container_12 .span-8 .span-1, .container_12 .span-8 .span-2, .container_12 .span-8 .span-3, .container_12 .span-8 .span-4, .container_12 .span-8 .span-5, .container_12 .span-8 .span-6, .container_12 .span-8 .span-7{
+  margin-right:2.7%;
+}
+.container_12 .span-7 .span-1, .container_12 .span-7 .span-2, .container_12 .span-7 .span-3, .container_12 .span-7 .span-4, .container_12 .span-7 .span-5, .container_12 .span-7 .span-6{
+  margin-right:2.9%;
+}
+.container_12 .span-6 .span-1, .container_12 .span-6 .span-2, .container_12 .span-6 .span-3, .container_12 .span-6 .span-4, .container_12 .span-6 .span-5{
+  margin-right:3.2%;
+}
+.container_12 .span-5 .span-1, .container_12 .span-5 .span-2, .container_12 .span-5 .span-3, .container_12 .span-5 .span-4{
+  margin-right:3.6%;
+}
+.container_12 .span-4 .span-1, .container_12 .span-4 .span-2, .container_12 .span-4 .span-3{
+  margin-right:4.5%;
+}
+.container_12 .span-3 .span-1, .container_12 .span-3 .span-2{
+  margin-right:6.2%;
+}
+.container_12 .span-2 .span-1{
+  margin-right:11%;
+}
+
+/* ---------------- 16 columns ---------------- */
+
+.container_16 .span-15 .span-1, .container_16 .span-15 .span-2, .container_16 .span-15 .span-3, .container_16 .span-15 .span-4,.container_16 .span-15 .span-5, .container_16 .span-15 .span-6, .container_16 .span-15 .span-7, .container_16 .span-15 .span-8, .container_16 .span-15 .span-9, .container_16 .span-15 .span-10,.container_16 .span-15 .span-11,.container_16 .span-15 .span-12,.container_16 .span-15 .span-13,.container_16 .span-15 .span-14 {
+  margin-right:0.8%;
+}
+.container_16 .span-14 .span-1, .container_16 .span-14 .span-2, .container_16 .span-14 .span-3, .container_16 .span-14 .span-4,.container_16 .span-14 .span-5, .container_16 .span-14 .span-6, .container_16 .span-14 .span-7, .container_16 .span-14 .span-8, .container_16 .span-14 .span-9, .container_16 .span-14 .span-10,.container_16 .span-14 .span-11,.container_16 .span-14 .span-12,.container_16 .span-14 .span-13 {
+  margin-right:0.9%;
+}
+.container_16 .span-13 .span-1, .container_16 .span-13 .span-2, .container_16 .span-13 .span-3, .container_16 .span-13 .span-4,.container_16 .span-13 .span-5, .container_16 .span-13 .span-6, .container_16 .span-13 .span-7, .container_16 .span-13 .span-8, .container_16 .span-13 .span-9, .container_16 .span-13 .span-10,.container_16 .span-13 .span-11,.container_16 .span-13 .span-12 {
+  margin-right:1%;
+}
+.container_16 .span-12 .span-1, .container_16 .span-12 .span-2, .container_16 .span-12 .span-3, .container_16 .span-12 .span-4,.container_16 .span-12 .span-5, .container_16 .span-12 .span-6, .container_16 .span-12 .span-7, .container_16 .span-12 .span-8, .container_16 .span-12 .span-9, .container_16 .span-12 .span-10,.container_16 .span-12 .span-11 {
+  margin-right:1.4%;
+}
+.container_16 .span-11 .span-1, .container_16 .span-11 .span-2, .container_16 .span-11 .span-3, .container_16 .span-11 .span-4,.container_16 .span-11 .span-5, .container_16 .span-11 .span-6, .container_16 .span-11 .span-7, .container_16 .span-11 .span-8, .container_16 .span-11 .span-9, .container_16 .span-11 .span-10 {
+  margin-right:1.6%;
+}
+.container_16 .span-10 .span-1, .container_16 .span-10 .span-2, .container_16 .span-10 .span-3, .container_16 .span-10 .span-4,.container_16 .span-10 .span-5, .container_16 .span-10 .span-6, .container_16 .span-10 .span-7, .container_16 .span-10 .span-8, .container_16 .span-10 .span-9 {
+  margin-right:2%;
+}
+.container_16 .span-9 .span-1, .container_16 .span-9 .span-2, .container_16 .span-9 .span-3, .container_16 .span-9 .span-4,.container_16 .span-9 .span-5, .container_16 .span-9 .span-6, .container_16 .span-9 .span-7, .container_16 .span-9 .span-8 {
+  margin-right:2.1%;
+}
+.container_16 .span-8 .span-1, .container_16 .span-8 .span-2, .container_16 .span-8 .span-3, .container_16 .span-8 .span-4,.container_16 .span-8 .span-5, .container_16 .span-8 .span-6, .container_16 .span-8 .span-7 {
+  margin-right:2.3%;
+}
+.container_16 .span-7 .span-1, .container_16 .span-7 .span-2, .container_16 .span-7 .span-3, .container_16 .span-7 .span-4,.container_16 .span-7 .span-5, .container_16 .span-7 .span-6 {
+  margin-right:3.1%;
+}
+.container_16 .span-6 .span-1, .container_16 .span-6 .span-2, .container_16 .span-6 .span-3, .container_16 .span-6 .span-4,.container_16 .span-6 .span-5 {
+  margin-right:3.5%;
+}
+.container_16 .span-5 .span-1, .container_16 .span-5 .span-2, .container_16 .span-5 .span-3, .container_16 .span-5 .span-4 {
+  margin-right:4.6%;
+}
+.container_16 .span-4 .span-1, .container_16 .span-4 .span-2, .container_16 .span-4 .span-3 {
+  margin-right:6%;
+}
+.container_16 .span-3 .span-1, .container_16 .span-3 .span-2 {
+  margin-right:9%;
+}
+.container_16 .span-2 .span-1 {
+  margin-right:15%;
+}
+
+/* ---------------- 24 columns ---------------- */
+
+.container_24 .span-23 .span-1,  .container_24 .span-23 .span-2, .container_24 .span-23 .span-3,  .container_24 .span-23 .span-4,.container_24 .span-23 .span-5,  .container_24 .span-23 .span-6, .container_24 .span-23 .span-7,  .container_24 .span-23 .span-8, .container_24 .span-23 .span-9,  .container_24 .span-23 .span-10,.container_24 .span-23 .span-11, .container_24 .span-23 .span-12,.container_24 .span-23 .span-13, .container_24 .span-23 .span-14,.container_24 .span-23 .span-15, .container_24 .span-23 .span-16,.container_24 .span-23 .span-17, .container_24 .span-23 .span-18,.container_24 .span-23 .span-19, .container_24 .span-23 .span-20,.container_24 .span-23 .span-21, .container_24 .span-23 .span-22 {
+  margin-right:0.3%;
+}
+.container_24 .span-22 .span-1,  .container_24 .span-22 .span-2, .container_24 .span-22 .span-3,  .container_24 .span-22 .span-4,.container_24 .span-22 .span-5,  .container_24 .span-22 .span-6, .container_24 .span-22 .span-7,  .container_24 .span-22 .span-8, .container_24 .span-22 .span-9,  .container_24 .span-22 .span-10,.container_24 .span-22 .span-11, .container_24 .span-22 .span-12,.container_24 .span-22 .span-13, .container_24 .span-22 .span-14,.container_24 .span-22 .span-15, .container_24 .span-22 .span-16,.container_24 .span-22 .span-17, .container_24 .span-22 .span-18,.container_24 .span-22 .span-19, .container_24 .span-22 .span-20,.container_24 .span-22 .span-21 {
+  margin-right:0.4%;
+}
+.container_24 .span-21 .span-1,  .container_24 .span-21 .span-2, .container_24 .span-21 .span-3,  .container_24 .span-21 .span-4,.container_24 .span-21 .span-5,  .container_24 .span-21 .span-6, .container_24 .span-21 .span-7,  .container_24 .span-21 .span-8, .container_24 .span-21 .span-9,  .container_24 .span-21 .span-10,.container_24 .span-21 .span-11, .container_24 .span-21 .span-12,.container_24 .span-21 .span-13, .container_24 .span-21 .span-14,.container_24 .span-21 .span-15, .container_24 .span-21 .span-16,.container_24 .span-21 .span-17, .container_24 .span-21 .span-18,.container_24 .span-21 .span-19, .container_24 .span-21 .span-20 {
+  margin-right:0.5%;
+}
+.container_24 .span-20 .span-1,  .container_24 .span-20 .span-2, .container_24 .span-20 .span-3,  .container_24 .span-20 .span-4,.container_24 .span-20 .span-5,  .container_24 .span-20 .span-6, .container_24 .span-20 .span-7,  .container_24 .span-20 .span-8, .container_24 .span-20 .span-9,  .container_24 .span-20 .span-10,.container_24 .span-20 .span-11, .container_24 .span-20 .span-12,.container_24 .span-20 .span-13, .container_24 .span-20 .span-14,.container_24 .span-20 .span-15, .container_24 .span-20 .span-16,.container_24 .span-20 .span-17, .container_24 .span-20 .span-18,.container_24 .span-20 .span-19 {
+  margin-right:0.6%;
+}
+.container_24 .span-19 .span-1,  .container_24 .span-19 .span-2, .container_24 .span-19 .span-3,  .container_24 .span-19 .span-4,.container_24 .span-19 .span-5,  .container_24 .span-19 .span-6, .container_24 .span-19 .span-7,  .container_24 .span-19 .span-8, .container_24 .span-19 .span-9,  .container_24 .span-19 .span-10,.container_24 .span-19 .span-11, .container_24 .span-19 .span-12,.container_24 .span-19 .span-13, .container_24 .span-19 .span-14,.container_24 .span-19 .span-15, .container_24 .span-19 .span-16,.container_24 .span-19 .span-17, .container_24 .span-19 .span-18 {
+  margin-right:0.7%;
+}
+.container_24 .span-18 .span-1,  .container_24 .span-18 .span-2, .container_24 .span-18 .span-3,  .container_24 .span-18 .span-4,.container_24 .span-18 .span-5,  .container_24 .span-18 .span-6, .container_24 .span-18 .span-7,  .container_24 .span-18 .span-8, .container_24 .span-18 .span-9,  .container_24 .span-18 .span-10,.container_24 .span-18 .span-11, .container_24 .span-18 .span-12,.container_24 .span-18 .span-13, .container_24 .span-18 .span-14,.container_24 .span-18 .span-15, .container_24 .span-18 .span-16,.container_24 .span-18 .span-17 {
+  margin-right:0.8%;
+}
+.container_24 .span-17 .span-1,  .container_24 .span-17 .span-2, .container_24 .span-17 .span-3,  .container_24 .span-17 .span-4,.container_24 .span-17 .span-5,  .container_24 .span-17 .span-6, .container_24 .span-17 .span-7,  .container_24 .span-17 .span-8, .container_24 .span-17 .span-9,  .container_24 .span-17 .span-10,.container_24 .span-17 .span-11, .container_24 .span-17 .span-12,.container_24 .span-17 .span-13, .container_24 .span-17 .span-14,.container_24 .span-17 .span-15, .container_24 .span-17 .span-16 {
+  margin-right:0.9%;
+}
+.container_24 .span-16 .span-1,  .container_24 .span-16 .span-2, .container_24 .span-16 .span-3,  .container_24 .span-16 .span-4,.container_24 .span-16 .span-5,  .container_24 .span-16 .span-6, .container_24 .span-16 .span-7,  .container_24 .span-16 .span-8, .container_24 .span-16 .span-9,  .container_24 .span-16 .span-10,.container_24 .span-16 .span-11, .container_24 .span-16 .span-12,.container_24 .span-16 .span-13, .container_24 .span-16 .span-14,.container_24 .span-16 .span-15{
+  margin-right:1.0%;
+}
+.container_24 .span-15 .span-1,.container_24 .span-15 .span-2, .container_24 .span-15 .span-3,.container_24 .span-15 .span-4,.container_24 .span-15 .span-5,.container_24 .span-15 .span-6, .container_24 .span-15 .span-7,.container_24 .span-15 .span-8, .container_24 .span-15 .span-9,.container_24 .span-15 .span-10,.container_24 .span-15 .span-11,.container_24 .span-15 .span-12,.container_24 .span-15 .span-13,.container_24 .span-15 .span-14{
+  margin-right:1.1%;
+}
+.container_24 .span-14 .span-1,.container_24 .span-14 .span-2, .container_24 .span-14 .span-3,.container_24 .span-14 .span-4,.container_24 .span-14 .span-5,.container_24 .span-14 .span-6, .container_24 .span-14 .span-7,.container_24 .span-14 .span-8, .container_24 .span-14 .span-9,.container_24 .span-14 .span-10,.container_24 .span-14 .span-11,.container_24 .span-14 .span-12,.container_24 .span-14 .span-13{
+  margin-right:1.2%;
+}
+.container_24 .span-13 .span-1,.container_24 .span-13 .span-2, .container_24 .span-13 .span-3,.container_24 .span-13 .span-4,.container_24 .span-13 .span-5,.container_24 .span-13 .span-6, .container_24 .span-13 .span-7,.container_24 .span-13 .span-8, .container_24 .span-13 .span-9,.container_24 .span-13 .span-10,.container_24 .span-13 .span-11,.container_24 .span-13 .span-12{
+  margin-right:1.5%;
+}
+.container_24 .span-12 .span-1,.container_24 .span-12 .span-2, .container_24 .span-12 .span-3,.container_24 .span-12 .span-4,.container_24 .span-12 .span-5,.container_24 .span-12 .span-6, .container_24 .span-12 .span-7,.container_24 .span-12 .span-8, .container_24 .span-12 .span-9,.container_24 .span-12 .span-10,.container_24 .span-12 .span-11{
+  margin-right:1.8%;
+}
+.container_24 .span-11 .span-1,.container_24 .span-11 .span-2, .container_24 .span-11 .span-3,.container_24 .span-11 .span-4,.container_24 .span-11 .span-5,.container_24 .span-11 .span-6, .container_24 .span-11 .span-7,.container_24 .span-11 .span-8, .container_24 .span-11 .span-9,.container_24 .span-11 .span-10 {
+  margin-right:2.0%;
+}
+.container_24 .span-10 .span-1,.container_24 .span-10 .span-2, .container_24 .span-10 .span-3,.container_24 .span-10 .span-4,.container_24 .span-10 .span-5,.container_24 .span-10 .span-6, .container_24 .span-10 .span-7,.container_24 .span-10 .span-8, .container_24 .span-10 .span-9 {
+  margin-right:2.3%;
+}
+.container_24 .span-9 .span-1,.container_24 .span-9 .span-2, .container_24 .span-9 .span-3,.container_24 .span-9 .span-4,.container_24 .span-9 .span-5,.container_24 .span-9 .span-6, .container_24 .span-9 .span-7,.container_24 .span-9 .span-8 {
+  margin-right:2.6%;
+}
+.container_24 .span-8 .span-1,.container_24 .span-8 .span-2, .container_24 .span-8 .span-3,.container_24 .span-8 .span-4,.container_24 .span-8 .span-5,.container_24 .span-8 .span-6, .container_24 .span-8 .span-7 {
+  margin-right:2.9%;
+}
+.container_24 .span-7 .span-1,.container_24 .span-7 .span-2, .container_24 .span-7 .span-3,.container_24 .span-7 .span-4,.container_24 .span-7 .span-5,.container_24 .span-7 .span-6 {
+  margin-right:3.5%;
+}
+.container_24 .span-6 .span-1,.container_24 .span-6 .span-2, .container_24 .span-6 .span-3,.container_24 .span-6 .span-4,.container_24 .span-6 .span-5 {
+  margin-right:4.1%;
+}
+.container_24 .span-5 .span-1,.container_24 .span-5 .span-2, .container_24 .span-5 .span-3,.container_24 .span-5 .span-4 {
+  margin-right:6.1%;
+}
+.container_24 .span-4 .span-1,.container_24 .span-4 .span-2, .container_24 .span-4 .span-3 {
+  margin-right:6.9%;
+}
+.container_24 .span-3 .span-1,.container_24 .span-3 .span-2 {
+  margin-right:9.5%;
+}
+.container_24 .span-2 .span-1 {
+  margin-right:15.1%;
+}

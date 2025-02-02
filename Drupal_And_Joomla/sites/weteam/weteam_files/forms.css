@@ -1,0 +1,320 @@
+/**
+ * В div.submit-holder контейнер помещаются кнопки формы
+ */
+.submit-holder {
+    text-align: right;
+    margin-bottom: 2em;
+}
+/**
+ * В div.fields-holder помещаются поля формы.
+ * Блок располагается всегда внутри формы
+ */
+form .fields-holder fieldset {
+    color: #41464a;
+    border: 1px solid #90d226;
+    padding: 1.6em 2em 1.3em 2em;
+    margin-bottom: 1em;
+    *margin-top: 1em;
+}
+form .fields-holder fieldset.noborder {
+    border: 0;
+    padding-bottom: 0;
+    padding-top: 0;
+}
+form .fields-holder fieldset.bad {
+    border: 1px solid #c43f11;
+}
+form .fields-holder fieldset h2.legend {
+    font-size: 18px;
+    margin-bottom: 1em;
+    width: 100%;
+}
+/* защитное поле; зачастую не учитывается из-за действия "схлапывающисях зазоров" */
+form .fields-holder {
+    margin-bottom: 1em;
+}
+
+
+
+form .fields-holder div.ui-datepicker {
+    font-size: 12px;
+}
+
+form .fields-holder div.bad .row-w {
+    background: url(../i/form-field-markers.png) no-repeat right 1px;
+}
+
+form .fields-holder div.good .row-w {
+    background: url(../i/form-field-markers.png) no-repeat right -249px;
+}
+
+form .fields-holder div.singleline {
+    white-space: nowrap;
+}
+
+form .fields-holder label {
+    text-align: right;
+    line-height: 1em;
+    margin-left: -45%;
+    width: 45%;
+    left: -1em;
+    top: 4px;
+    position: absolute;
+}
+
+form .fields-holder select {
+    width: 306px;
+}
+form .fields-holder input {
+    padding: 1px 2px;
+    width: 300px;
+}
+form .fields-holder textarea {
+    width: 304px;
+}
+form .fields-holder textarea.tall {
+    height: 200px;
+}
+form .fields-holder input,
+form .fields-holder textarea,
+form .fields-holder select {
+    border: 1px solid #41464a;
+}
+
+form .fields-holder input.short {
+    width: 6em;
+}
+
+form .fields-holder input.compact {
+    width: 3em;
+}
+
+form .fields-holder input.checkbox {
+    width: auto;
+    margin: 0;
+    border: 0 none;
+    vertical-align: middle;
+}
+
+form .fields-holder label.checkbox {
+    position: relative;
+    top: 0;
+    left: 0;
+    margin-left: 0;
+    width: auto;
+}
+/* fix for not ie6 */
+html > body form .fields-holder input.checkbox {
+    margin-top: 4px;
+}
+html > body form .fields-holder label.checkbox {
+    top: 4px;
+}
+
+form .fields-holder div.row {
+    margin-left: 33%;
+    padding-bottom: 0.3em;
+    position: relative;
+    zoom: 1; 
+}
+form .fields-holder div.row .row-w {
+    padding-right: 22px;
+    display: -moz-inline-stack;
+    display: inline-block;
+    zoom: 1;
+    *overflow: hidden;
+    *display: inline;
+}
+form .fields-holder div.row p {
+    font-size: 77%;
+    margin: 0.3em 0 0 0 !important;
+    /*width: 206px;*/
+}
+/* read only fields */
+form .fields-holder div.row span.readonly {
+    padding-right: 1px;
+    position: relative;
+    top: 2px;
+    font-weight: bold;
+    width: 306px;
+    display: -moz-inline-stack;
+    display: inline-block;
+    overflow: hidden;
+    zoom: 1;
+    *display: inline;
+}
+
+form .fields-holder .field-comment {
+    position: absolute;
+    left: 315px;
+    top: 0;
+    padding: 16px;
+    margin-top: -16px;
+    background: #e6f1f5;
+    z-index: 10;
+}
+form .fields-holder .field-comment-warn {
+    background: #d76415;
+    color: white;
+    left: 337px;
+}
+form .fields-holder .payment-comment {
+    top: auto;
+    bottom: -7px;
+}
+
+
+
+/**
+ * Информационный блок сверху страницы (сообщения, оошибки и т.п.)
+ */
+#form-notice {
+    border: 1px solid #00adef;
+    background: #d8e6eb url(../i/form-field-markers.png) 16px -480px no-repeat;
+    padding: 24px 24px 12px 50px;
+    margin-bottom: 1em;
+}
+
+.agreement {
+    font-size: 138.5%;
+    padding: 1em 1.444em;
+    margin-bottom: 0.722em;
+    color: #e4210f;
+    border: 1px solid #e4210f;
+}
+
+
+
+
+/**
+ * Стиль табличек
+ */
+table.list {
+    width: 100%;
+    table-layout: auto;
+}
+table.list th {
+    background: #ecf1ec;
+    border-color: #a7a7a7 #a7a7a7 #78af20 #a7a7a7;
+    border-style: none solid solid solid;
+    border-width: 0 1px 3px 1px;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    font-weight: bold;
+    text-align: left;
+}
+table.list td {
+    background: #f8f9f7;
+    border: 1px solid #a7a7a7;
+    text-align: left;
+}
+table.list tr.even td {
+    background: #ecf1ec;
+}
+table.list td div, table.list th div {
+    padding: 5px 6px;
+}
+table.list td.first, table.list th.first {
+    border-left: 0 none;
+}
+table.list td.last, table.list th.last {
+    border-right: 0 none;
+}
+table.list p {
+    margin-bottom: 0.5em !important;
+}
+table.list td td {
+    border: none;
+}
+table.list tr.head td {
+    background-color: white;
+    border-left: 0;
+    border-right: 0;
+    font-weight: bold;
+}
+table.list tr.head span {
+    font-weight: normal;
+}
+
+table.selectors {
+    margin-bottom: 20px;
+}
+table.selectors th.last,
+table.selectors td.last {
+    text-align: right;
+    width: 100px;
+    white-space: nowrap;
+}
+td .selector {
+    margin-left: 20px;
+}
+
+input[type=checkbox].mixed {
+    opacity: 0.5;
+}
+
+table.sum {
+    margin-bottom: 30px;
+}
+table.sum th {
+    border-color: #78af20 #a7a7a7 #a7a7a7 #a7a7a7;
+    border-style: solid solid none solid;
+    border-width: 3px 1px 0 1px;
+}
+table.sum th.last {
+    text-align: right;
+    width: 100px;
+}
+
+form .submit-holder p.spin {
+    padding-right: 25px;
+    line-height: 30px;
+    background: url(../i/ajax-spin.gif) no-repeat right center;
+}
+form div.submit-holder div.spin {
+    background: url(../i/ajax-spin.gif) no-repeat right center;
+    float: right;
+    height: 25px;
+    margin-right: -20px;
+    width: 17px;
+}
+div.disabler {
+    background: #ffffff;
+    height: 30px;
+    opacity: 0.5;
+    position: absolute;
+    width: 100%;
+    z-index: 100;
+}
+
+.ui-dialog {
+    font-size: 100% !important;
+}
+.ui-dialog .submit-holder {
+    margin-bottom: 0 !important;
+}
+.ui-dialog .ui-dialog-content {
+    padding-top: 1em !important;
+}
+.ui-dialog .ui-dialog-content .submit-holder {
+    overflow: hidden;
+}
+.ui-dialog .fields-holder div.row span.readonly {
+    width: auto;
+}
+
+.hide {
+    display: none;
+}
+.error {
+    color: #ff0000;
+}
+
+.submit-link {
+    background: url("../i/edit.gif") no-repeat right bottom;
+    cursor: pointer;
+    display: none;
+    height: 16px;
+    margin-left: 4px;
+    width: 16px;
+}

@@ -1,0 +1,279 @@
+# Russian translation of ctools (all releases)
+# Copyright (c) 2013 by the Russian translation team
+# Generated from files:
+#  ctools/plugins/content_types/node_form/node_form_taxonomy.inc: n/a
+#  node_form_taxonomy.inc,v 1.1.2.2 2010/04/14 21:02:12 merlinofchaos
+#  ctools/plugins/content_types/node_form/node_form_author.inc: n/a
+#  node_form_author.inc,v 1.1.2.3 2010/07/05 19:36:17 merlinofchaos
+#  ctools/plugins/content_types/node_form/node_form_publishing.inc: n/a
+#  node_form_publishing.inc,v 1.1.2.2 2010/04/14 21:02:12 merlinofchaos
+#  ctools/plugins/content_types/node_form/node_form_book.inc: n/a
+#  ctools/plugins/content_types/node_form/node_form_log.inc: n/a
+#  ctools/plugins/content_types/node_form/node_form_input_format.inc: n/a
+#  node_form_input_format.inc,v 1.1.2.2 2010/04/14 21:02:12 merlinofchaos
+#  ctools/plugins/content_types/node_form/node_form_comment.inc: n/a
+#  node_form_comment.inc,v 1.1.2.2 2010/04/14 21:02:12 merlinofchaos
+#  ctools/plugins/content_types/node_form/node_form_menu.inc: n/a
+#  node_form_menu.inc,v 1.1.2.2 2010/04/14 21:02:12 merlinofchaos
+#  ctools/plugins/content_types/node_form/node_form_attachments.inc: n/a
+#  node_form_attachments.inc,v 1.1.2.2 2010/04/14 21:02:12 merlinofchaos
+#  node_form_book.inc,v 1.1.2.2 2010/04/14 21:02:12 merlinofchaos
+#  ctools/plugins/content_types/node_form/node_form_path.inc: n/a
+#  node_form_path.inc,v 1.1.2.2 2010/04/14 21:02:12 merlinofchaos
+#  ctools/plugins/content_types/node_form/node_form_buttons.inc: n/a
+#  node_form_buttons.inc,v 1.1.2.2 2010/07/05 19:34:34 merlinofchaos
+#  node_form_log.inc,v 1.1.2.1 2010/01/29 20:18:25 merlinofchaos
+#  ctools/plugins/content_types/node_form/node_form_title.inc: n/a
+#  ctools/plugins/content_types/node_form/node_form_language.inc: n/a
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: ctools (all releases)\n"
+"POT-Creation-Date: 2013-05-29 14:25+0400\n"
+"PO-Revision-Date: 2010-11-23 18:35+0300\n"
+"Language-Team: Russian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=((((n%10)==1)&&((n%100)!=11))?(0):(((((n%10)>=2)&&((n%10)<=4))&&(((n%100)<10)||((n%100)>=20)))?(1):2));\n"
+
+#: plugins/content_types/node_form/node_form_taxonomy.inc:22,23,23,23,22,22
+msgid "Categories"
+msgstr "Категории"
+
+#: plugins/content_types/node_form/node_form_author.inc:20,20,20,21,21,20,20,20,21,20,20,20,20
+msgid "Authoring information"
+msgstr "Информация об авторе"
+
+#: plugins/content_types/node_form/node_form_publishing.inc:25,25,25,26,26,25,25,25,26,25,25,25,25
+msgid "Publishing options"
+msgstr "Параметры публикации"
+
+#: plugins/content_types/node_form/node_form_book.inc:22,22,22,22,22,22,22,22
+msgid "Book outline"
+msgstr "Оглавление подшивки"
+
+#: plugins/content_types/node_form/node_form_log.inc:19,19,19,19,19,19,19,19
+msgid "Revision information"
+msgstr "Информация о редакции"
+
+#: plugins/content_types/node_form/node_form_publishing.inc:15,15,15,16,16,15,15,15,16,15,15,15,15
+msgid "Node form publishing options"
+msgstr ""
+"Форма параметров публикации "
+"материала"
+
+#: plugins/content_types/node_form/node_form_author.inc:10,10,10,11,11,10,10,10,11,10,10,10,10
+msgid "Node form author information"
+msgstr "Форма информации об авторе материала"
+
+#: plugins/content_types/node_form/node_form_author.inc:11,11,11,12,12,11,11,11,12,11,11,11,11
+msgid "Author information on the Node form."
+msgstr ""
+"Информация об авторе в форме "
+"материала."
+
+#: plugins/content_types/node_form/node_form_input_format.inc:10,11,11,11,10,10
+msgid "Node form input format"
+msgstr "Форма выбора формата ввода материала"
+
+#: plugins/content_types/node_form/node_form_input_format.inc:11,12,12,12,11,11
+msgid "Input format for the body field on a node."
+msgstr ""
+
+#: plugins/content_types/node_form/node_form_comment.inc:11,11,11,12,12,11,11,11,12,11,11,11,11
+msgid "Node form comment settings"
+msgstr ""
+"Форма параметров комментариев "
+"материала"
+
+#: plugins/content_types/node_form/node_form_comment.inc:12,12,12,13,13,12,12,12,13,12,12,12,12
+msgid "Comment settings on the Node form."
+msgstr ""
+
+#: plugins/content_types/node_form/node_form_menu.inc:11,11,11,12,12,11,11,11,12,11,11,11,11
+msgid "Node form menu settings"
+msgstr "Форма параметров меню материала"
+
+#: plugins/content_types/node_form/node_form_attachments.inc:11,11,12,12,11,11,11,11,12,11,11,11,11
+msgid "Node form file attachments"
+msgstr ""
+
+#: plugins/content_types/node_form/node_form_attachments.inc:12,12,13,13,12,12,12,12,13,12,12,12,12
+msgid "File attachments on the Node form."
+msgstr ""
+
+#: plugins/content_types/node_form/node_form_taxonomy.inc:11,12,12,12,11,11
+msgid "Node form categories"
+msgstr "Форма категорий материала"
+
+#: plugins/content_types/node_form/node_form_taxonomy.inc:12,13,13,13,12,12
+msgid "Taxonomy categories for the node."
+msgstr ""
+
+#: plugins/content_types/node_form/node_form_book.inc:11,11,11,12,12,11,11,11,12,11,11,11,11
+msgid "Node form book options"
+msgstr ""
+
+#: plugins/content_types/node_form/node_form_book.inc:12,12,12,13,13,12,12,12,13,12,12,12,12
+msgid "Book options for the node."
+msgstr ""
+
+#: plugins/content_types/node_form/node_form_publishing.inc:42,37,42,42,38,38,37,42,42,42,38,42,37,42,37
+msgid "Publishing options."
+msgstr ""
+
+#: plugins/content_types/node_form/node_form_comment.inc:22,22,22,23,23,22,22,22,23,22,22,22,22
+msgid "Comment options"
+msgstr "Опции комментариев"
+
+#: plugins/content_types/node_form/node_form_comment.inc:38,33,38,38,34,34,33,38,38,38,34,38,33,38,33
+msgid "Comment options."
+msgstr "Опции комментариев"
+
+#: plugins/content_types/node_form/node_form_author.inc:40,33,40,40,34,34,33,40,40,40,34,40,33,40,33
+msgid "Authoring information."
+msgstr "Информация об авторе."
+
+#: plugins/content_types/node_form/node_form_menu.inc:22,22,22,23,23,22,22,22,23,22,22,22,22
+msgid "Menu options"
+msgstr "Опции меню"
+
+#: plugins/content_types/node_form/node_form_menu.inc:38,34,38,38,35,35,34,38,38,38,35,38,34,38,34
+msgid "Menu options."
+msgstr "Опции меню."
+
+#: plugins/content_types/node_form/node_form_path.inc:22,22,22,23,23,22,22,22,23,22,22,22,22
+msgid "URL path options"
+msgstr ""
+
+#: plugins/content_types/node_form/node_form_path.inc:39,34,39,39,35,35,34,39,39,39,35,39,34,39,34
+msgid "URL Path options."
+msgstr ""
+
+#: plugins/content_types/node_form/node_form_attachments.inc:22,22,22,23,23,22,22,22,23,22,22,22,22
+msgid "Attach files"
+msgstr "Вложенные файлы"
+
+#: plugins/content_types/node_form/node_form_attachments.inc:39,33,39,39,34,34,33,39,39,39,34,39,33,39,33
+msgid "Attach files."
+msgstr "Вложенные файлы."
+
+#: plugins/content_types/node_form/node_form_taxonomy.inc:33,34,34,34,33,33
+msgid "Categories."
+msgstr ""
+
+#: plugins/content_types/node_form/node_form_book.inc:22,23,23,22,23,22,22
+msgid "Book options"
+msgstr "Опции подшивки"
+
+#: plugins/content_types/node_form/node_form_book.inc:38,37,38,38,38,38,37,38,38,38,38,37,38,37
+msgid "Book options."
+msgstr ""
+
+#: plugins/content_types/node_form/node_form_input_format.inc:31,32,32,32,31,31
+msgid "Input format."
+msgstr "Формат ввода."
+
+#: plugins/content_types/node_form/node_form_buttons.inc:10,10,10,11,11,10,10,10,11,10,10,10,10
+msgid "Node form submit buttons"
+msgstr "Кнопки подтверждения формы материала"
+
+#: plugins/content_types/node_form/node_form_buttons.inc:11,11,11,12,12,11,11,11,12,11,11,11,11
+msgid "Submit buttons for the node form."
+msgstr ""
+
+#: plugins/content_types/node_form/node_form_buttons.inc:31,30,31,31,31,31,30,31,31,31,31,30,31,30
+msgid "Node form buttons."
+msgstr ""
+
+#: plugins/content_types/node_form/node_form_attachments.inc:45,39,45,45,40,40,39,45,45,45,40,45,39,45,39
+msgid "\"@s\" node form attach files"
+msgstr ""
+
+#: plugins/content_types/node_form/node_form_book.inc:44,43,44,44,44,44,43,44,44,44,44,43,44,43
+msgid "\"@s\" node form book options"
+msgstr ""
+
+#: plugins/content_types/node_form/node_form_buttons.inc:37,36,37,37,37,37,36,37,37,37,37,36,37,36
+msgid "\"@s\" node form submit buttons"
+msgstr "Кнопки подтверждения формы \"@s\""
+
+#: plugins/content_types/node_form/node_form_comment.inc:44,39,44,44,40,40,39,44,44,44,40,44,39,44,39
+msgid "\"@s\" node form comment settings"
+msgstr ""
+
+#: plugins/content_types/node_form/node_form_input_format.inc:37,38,38,38,37,37
+msgid "\"@s\" node form input format"
+msgstr ""
+
+#: plugins/content_types/node_form/node_form_log.inc:10,10,10,11,11,10,10,10,11,10,10,10,10
+msgid "Node form revision log message"
+msgstr ""
+"Форма сообщения в системный журнал о "
+"редакции материала"
+
+#: plugins/content_types/node_form/node_form_log.inc:11,11,11,12,12,11,11,11,12,11,11,11,11
+msgid "Revision log message for the node."
+msgstr ""
+
+#: plugins/content_types/node_form/node_form_log.inc:41,26,41,41,27,27,26,41,41,41,27,41,26,41,26
+msgid "\"@s\" node form revision log"
+msgstr ""
+
+#: plugins/content_types/node_form/node_form_menu.inc:12,12,12,13,13,12,12,12,13,12,12,12,12
+msgid "Menu settings on the Node form."
+msgstr ""
+
+#: plugins/content_types/node_form/node_form_menu.inc:44,40,44,44,41,41,40,44,44,44,41,44,40,44,40
+msgid "\"@s\" node form menu settings"
+msgstr ""
+
+#: plugins/content_types/node_form/node_form_path.inc:11,11,11,12,12,11,11,11,12,11,11,11,11
+msgid "Node form url path settings"
+msgstr "Форма параметров адреса материала"
+
+#: plugins/content_types/node_form/node_form_path.inc:45,40,45,45,41,41,40,45,45,45,41,45,40,45,40
+msgid "\"@s\" node form path options"
+msgstr ""
+
+#: plugins/content_types/node_form/node_form_taxonomy.inc:39,40,40,40,39,39
+msgid "\"@s\" node form select taxonomy"
+msgstr ""
+
+#: plugins/content_types/node_form/node_form_log.inc:34,34,34,34,34,34,34,34
+msgid "Revision information."
+msgstr ""
+
+#: plugins/content_types/node_form/node_form_title.inc:10,10,10,10,10,10,10
+msgid "Node form title field"
+msgstr ""
+
+#: plugins/content_types/node_form/node_form_title.inc:11,11,11,11,11,11,11
+msgid "The node title form."
+msgstr ""
+
+#: plugins/content_types/node_form/node_form_title.inc:29,29,29,29,29,29,29
+msgid "Node title form."
+msgstr ""
+
+#: plugins/content_types/node_form/node_form_title.inc:35,35,35,35,35,35,35
+msgid "\"@s\" node form title field"
+msgstr ""
+
+#: plugins/content_types/node_form/node_form_language.inc:10
+msgid "Node form languages"
+msgstr ""
+
+#: plugins/content_types/node_form/node_form_language.inc:11
+msgid "The language selection form."
+msgstr ""
+
+#: plugins/content_types/node_form/node_form_language.inc:29
+msgid "Node language form."
+msgstr ""
+
+#: plugins/content_types/node_form/node_form_language.inc:35
+msgid "\"@s\" node form language field"
+msgstr ""
+

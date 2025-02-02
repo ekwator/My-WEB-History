@@ -1,0 +1,295 @@
+# Russian translation of ctools (all releases)
+# Copyright (c) 2013 by the Russian translation team
+# Generated from files:
+#  ctools/ctools_ajax_sample/ctools_ajax_sample.module: n/a
+#  ctools_ajax_sample.module,v 1.1.2.2 2010/10/15 21:32:07 merlinofchaos
+#  ctools/ctools_ajax_sample/ctools_ajax_sample.info: n/a
+#  ctools_ajax_sample.info,v 1.1.2.1 2010/08/20 02:18:46 merlinofchaos
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: ctools (all releases)\n"
+"POT-Creation-Date: 2013-05-29 14:25+0400\n"
+"PO-Revision-Date: 2011-04-19 00:31+0400\n"
+"Language-Team: Russian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=((((n%10)==1)&&((n%100)!=11))?(0):(((((n%10)>=2)&&((n%10)<=4))&&(((n%100)<10)||((n%100)>=20)))?(1):2));\n"
+
+#: ctools_ajax_sample/ctools_ajax_sample.module:177,143,176,177,144,143,177,177,177,144,177,143,177,143
+msgid "Content"
+msgstr "Содержимое"
+
+#: ctools_ajax_sample/ctools_ajax_sample.module:266,206,43,265,43,266,207,38,37,43,206,37,266,43,266,43,266,43,207,38,266,43,206,37,266,43,206,37
+msgid "Login"
+msgstr "Вход"
+
+#: ctools_ajax_sample/ctools_ajax_sample.module:213,212,213,213,213,213,213,213
+msgid "Jump Menu"
+msgstr ""
+
+#: ctools_ajax_sample/ctools_ajax_sample.module:177,143,176,177,144,143,177,177,177,144,177,143,177,143
+msgid "Row"
+msgstr "Строка"
+
+#: ctools_ajax_sample/ctools_ajax_sample.module:223,165,36,29,222,36,29,223,166,24,31,23,30,29,36,165,23,30,223,29,36,223,29,36,223,29,36,166,24,31,223,29,36,165,23,30,223,29,36,165,23,30
+msgid "Hello World"
+msgstr "Привет мир"
+
+#: ctools_ajax_sample/ctools_ajax_sample.module:174,140,173,174,141,140,174,174,174,141,174,140,174,140
+msgid "Sample Content"
+msgstr "Пример содержания"
+
+#: ctools_ajax_sample/ctools_ajax_sample.module:169,135,168,169,136,135,169,169,169,136,169,135,169,135
+msgid "Hello world!"
+msgstr "Привет мир!"
+
+#: ctools_ajax_sample/ctools_ajax_sample.module:274,215,273,274,216,215,274,274,274,216,274,215,274,215
+msgid "your account"
+msgstr "ваш аккаунт"
+
+#: ctools_ajax_sample/ctools_ajax_sample.module:155,155,155,125,124,124,155,155,155,125,155,124,155,124
+msgid "Modal Login (default style)"
+msgstr ""
+
+#: ctools_ajax_sample/ctools_ajax_sample.module:159,155,158,155,159,155,125,128,124,127,124,127,155,159,155,159,155,159,125,128,155,159,124,127,155,159,124,127
+msgid "Login via modal"
+msgstr ""
+
+#: ctools_ajax_sample/ctools_ajax_sample.module:159,158,159,128,127,127,159,159,159,128,159,127,159,127
+msgid "Modal Login (custom style)"
+msgstr ""
+
+#: ctools_ajax_sample/ctools_ajax_sample.module:164,163,164,132,131,131,164,164,164,132,164,131,164,131
+msgid "Wizard (no modal)"
+msgstr ""
+
+#: ctools_ajax_sample/ctools_ajax_sample.module:165,164,165,133,132,132,165,165,165,133,165,132,165,132
+msgid "Wizard (default modal)"
+msgstr ""
+
+#: ctools_ajax_sample/ctools_ajax_sample.module:166,165,165,164,166,165,133,134,132,133,132,133,165,166,165,166,165,166,134,165,166,132,133,165,166,132,133
+msgid "Pick an animal"
+msgstr ""
+
+#: ctools_ajax_sample/ctools_ajax_sample.module:166,165,166,134,133,133,166,166,166,134,166,133,166,133
+msgid "Wizard (custom modal)"
+msgstr ""
+
+#: ctools_ajax_sample/ctools_ajax_sample.module:169,135,168,169,136,135,169,169,169,136,169,135,169,135
+msgid "Replace text with \"hello world\""
+msgstr ""
+
+#: ctools_ajax_sample/ctools_ajax_sample.module:185,151,184,185,152,151,185,185,185,152,185,151,185,151
+msgid "Delete this row"
+msgstr ""
+
+#: ctools_ajax_sample/ctools_ajax_sample.module:273,214,272,273,215,214,273,273,273,215,273,214,273,214
+msgid "remain here"
+msgstr ""
+
+#: ctools_ajax_sample/ctools_ajax_sample.module:274,273,215,214,273,272,274,273,215,216,214,215,273,274,273,274,273,274,216,273,274,214,215,273,274,214,215
+msgid "Go to your account"
+msgstr ""
+
+#: ctools_ajax_sample/ctools_ajax_sample.module:216,274,275,217,275,216,275,275,275,217,275,216,275,216
+msgid "Login Success"
+msgstr ""
+
+#: ctools_ajax_sample/ctools_ajax_sample.module:264,549,325,550,326,265,487,486,326,550,264,486,326,550,326,550,326,550,265,487,326,550,264,486,326,550,264,486
+msgid "Choose animal"
+msgstr ""
+
+#: ctools_ajax_sample/ctools_ajax_sample.module:305,366,367,306,367,305,367,367,367,306,367,305,367,305
+msgid "Configure animal"
+msgstr ""
+
+#: ctools_ajax_sample/ctools_ajax_sample.module:395,458,459,396,459,395,459,459,459,396,459,395,459,395
+msgid "Sheep"
+msgstr ""
+
+#: ctools_ajax_sample/ctools_ajax_sample.module:460,396,579,459,580,460,397,516,515,580,396,515,581,460,581,460,581,460,581,397,516,460,581,396,515,460,581,396,515
+msgid "Configure sheep"
+msgstr ""
+
+#: ctools_ajax_sample/ctools_ajax_sample.module:465,401,464,465,402,401,465,465,465,402,465,401,465,401
+msgid "Lizard"
+msgstr ""
+
+#: ctools_ajax_sample/ctools_ajax_sample.module:466,402,624,465,625,466,403,560,559,625,402,559,626,466,626,466,626,466,626,403,560,466,626,402,559,466,626,402,559
+msgid "Configure lizard"
+msgstr ""
+
+#: ctools_ajax_sample/ctools_ajax_sample.module:471,407,470,471,408,407,471,471,471,408,471,407,471,407
+msgid "Raptor"
+msgstr ""
+
+#: ctools_ajax_sample/ctools_ajax_sample.module:597,408,663,471,664,472,409,598,472,664,408,597,665,472,665,472,665,472,665,409,598,472,665,408,597,472,665,408,597
+msgid "Configure raptor"
+msgstr ""
+
+#: ctools_ajax_sample/ctools_ajax_sample.module:557,558,495,494,558,494,558,558,558,495,558,494,558,494
+msgid "Choose your animal"
+msgstr ""
+
+#: ctools_ajax_sample/ctools_ajax_sample.module:583,584,520,519,584,519,585,585,585,585,520,585,519,585,519
+msgid "Name your sheep"
+msgstr ""
+
+#: ctools_ajax_sample/ctools_ajax_sample.module:589,590,526,525,590,525,591,591,591,591,526,591,525,591,525
+msgid "What kind of sheep"
+msgstr ""
+
+#: ctools_ajax_sample/ctools_ajax_sample.module:592,593,529,528,593,528,594,594,594,594,529,594,528,594,528
+msgid "Wensleydale"
+msgstr ""
+
+#: ctools_ajax_sample/ctools_ajax_sample.module:593,594,530,529,594,529,595,595,595,595,530,595,529,595,529
+msgid "Merino"
+msgstr ""
+
+#: ctools_ajax_sample/ctools_ajax_sample.module:595,594,595,531,530,530,596,596,596,596,531,596,530,596,530
+msgid "Corriedale"
+msgstr ""
+
+#: ctools_ajax_sample/ctools_ajax_sample.module:595,594,595,531,530,530,596,596,596,596,531,596,530,596,530
+msgid "Coriedale"
+msgstr ""
+
+#: ctools_ajax_sample/ctools_ajax_sample.module:615,614,615,550,549,549,616,616,616,616,550,616,549,616,549
+msgid "You have a @type sheep named \"@name\"."
+msgstr ""
+
+#: ctools_ajax_sample/ctools_ajax_sample.module:628,629,564,563,629,563,630,630,630,630,564,630,563,630,563
+msgid "Name your lizard"
+msgstr ""
+
+#: ctools_ajax_sample/ctools_ajax_sample.module:634,635,570,569,635,569,636,636,636,636,570,636,569,636,569
+msgid "Venomous"
+msgstr ""
+
+#: ctools_ajax_sample/ctools_ajax_sample.module:587,653,654,588,654,587,655,655,655,655,588,655,587,655,587
+msgid "You have a @type lizard named \"@name\"."
+msgstr ""
+
+#: ctools_ajax_sample/ctools_ajax_sample.module:588,654,655,589,655,588,656,656,656,656,589,656,588,656,588
+msgid "non-venomous"
+msgstr ""
+
+#: ctools_ajax_sample/ctools_ajax_sample.module:588,654,655,589,655,588,656,656,656,656,589,656,588,656,588
+msgid "venomous"
+msgstr ""
+
+#: ctools_ajax_sample/ctools_ajax_sample.module:601,667,668,602,668,601,669,669,669,669,602,669,601,669,601
+msgid "Name your raptor"
+msgstr ""
+
+#: ctools_ajax_sample/ctools_ajax_sample.module:607,673,674,608,674,607,675,675,675,675,608,675,607,675,607
+msgid "What kind of raptor"
+msgstr ""
+
+#: ctools_ajax_sample/ctools_ajax_sample.module:610,676,677,611,677,610,678,678,678,678,611,678,610,678,610
+msgid "Eagle"
+msgstr ""
+
+#: ctools_ajax_sample/ctools_ajax_sample.module:611,677,678,612,678,611,679,679,679,679,612,679,611,679,611
+msgid "Hawk"
+msgstr ""
+
+#: ctools_ajax_sample/ctools_ajax_sample.module:678,679,613,612,679,612,680,680,680,680,613,680,612,680,612
+msgid "Owl"
+msgstr ""
+
+#: ctools_ajax_sample/ctools_ajax_sample.module:679,680,614,613,680,613,681,681,681,681,614,681,613,681,613
+msgid "Buzzard"
+msgstr ""
+
+#: ctools_ajax_sample/ctools_ajax_sample.module:686,687,621,620,687,620,688,688,688,688,621,688,620,688,620
+msgid "Domesticated"
+msgstr ""
+
+#: ctools_ajax_sample/ctools_ajax_sample.module:706,707,641,640,707,640,708,708,708,708,641,708,640,708,640
+msgid "You have a @type @raptor named \"@name\"."
+msgstr ""
+
+#: ctools_ajax_sample/ctools_ajax_sample.module:707,708,642,641,708,641,709,709,709,709,642,709,641,709,641
+msgid "wild"
+msgstr ""
+
+#: ctools_ajax_sample/ctools_ajax_sample.module:707,708,642,641,708,641,709,709,709,709,642,709,641,709,641
+msgid "domesticated"
+msgstr ""
+
+#: ctools_ajax_sample/ctools_ajax_sample.module:17,17,18,17,17,17,17,18,17,17,17,17
+msgid "Chaos Tools AJAX Demo"
+msgstr ""
+
+#: ctools_ajax_sample/ctools_ajax_sample.module:50,50,45,44,50,44,50,50,50,45,50,44,50,44
+msgid "Animal"
+msgstr ""
+
+#: ctools_ajax_sample/ctools_ajax_sample.module:57,57,52,51,57,51,57,57,57,52,57,51,57,51
+msgid "Post-Login Action"
+msgstr ""
+
+#: ctools_ajax_sample/ctools_ajax_sample.info:0,0,0,0,0,0,0,0,0,0,0
+msgid "Chaos Tools (CTools) AJAX Example"
+msgstr ""
+
+#: ctools_ajax_sample/ctools_ajax_sample.info:0,0,0,0,0,0,0,0,0,0,0
+msgid "Shows how to use the power of Chaos AJAX."
+msgstr ""
+
+#: ctools_ajax_sample/ctools_ajax_sample.module:193,192,193,193,193,193,193,193
+msgid "CTools Javascript Widgets"
+msgstr ""
+
+#: ctools_ajax_sample/ctools_ajax_sample.module:197,196,197,197,197,197,197,197
+msgid "Link 1"
+msgstr "Ссылка 1"
+
+#: ctools_ajax_sample/ctools_ajax_sample.module:198,197,198,198,198,198,198,198
+msgid "Link 2"
+msgstr "Ссылка 2"
+
+#: ctools_ajax_sample/ctools_ajax_sample.module:199,198,199,199,199,199,199,199
+msgid "Link 3"
+msgstr "Ссылка 3"
+
+#: ctools_ajax_sample/ctools_ajax_sample.module:201,200,201,201,201,201,201,201
+msgid "Drop Down Menu"
+msgstr ""
+
+#: ctools_ajax_sample/ctools_ajax_sample.module:202,201,202,202,202,202,202,202
+msgid "Click to Drop Down"
+msgstr ""
+
+#: ctools_ajax_sample/ctools_ajax_sample.module:205,204,205,205,205,205,205,205
+msgid "Click to Collapse"
+msgstr ""
+
+#: ctools_ajax_sample/ctools_ajax_sample.module:207,206,207,207,207,207,207,207
+msgid "Collapsible Div"
+msgstr ""
+
+#: ctools_ajax_sample/ctools_ajax_sample.module:719,720,720,721,721,721,721,721,721
+msgid "Jump!"
+msgstr ""
+
+#: ctools_ajax_sample/ctools_ajax_sample.module:727,728,728,729,729,729,729,729,729
+msgid "Return to the examples page."
+msgstr "Вернуться к странице примеров"
+
+#: ctools_ajax_sample/ctools_ajax_sample.module:728,729,729,730,730,730,730,730,730
+msgid "You successfully jumped! !return_link"
+msgstr ""
+
+#: ctools_ajax_sample/ctools_ajax_sample.module:23,23,23,23,23,23,23,23
+msgid "Simple Form"
+msgstr "Простая форма"
+
+#: ctools_ajax_sample/ctools_ajax_sample.module:64,64,64,64,64,64,64,64
+msgid "Successful Jumping"
+msgstr ""
+

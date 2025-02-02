@@ -1,0 +1,54 @@
+# Russian translation of ctools (all releases)
+# Copyright (c) 2013 by the Russian translation team
+# Generated from files:
+#  ctools/ctools_plugin_example/plugins/access/example_role.inc: n/a
+#  example_role.inc,v 1.1.2.2 2010/07/14 01:30:19 merlinofchaos
+#  ctools/ctools_plugin_example/plugins/access/arg_length.inc: n/a
+#  arg_length.inc,v 1.1.2.2 2010/07/14 01:30:19 merlinofchaos
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: ctools (all releases)\n"
+"POT-Creation-Date: 2013-05-29 14:25+0400\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Language-Team: Russian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=((((n%10)==1)&&((n%100)!=11))?(0):(((((n%10)>=2)&&((n%10)<=4))&&(((n%100)<10)||((n%100)>=20)))?(1):2));\n"
+
+#: ctools_plugin_example/plugins/access/example_role.inc:74,74,74,75,75,74,74,74,75,74,74,74,74
+msgid "@identifier must have role \"@roles\""
+msgid_plural "@identifier can be one of \"@roles\""
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: ctools_plugin_example/plugins/access/arg_length.inc:14,14,14,15,15,14,14,14,15,14,14,14,14
+msgid "Arg length"
+msgstr ""
+
+#: ctools_plugin_example/plugins/access/arg_length.inc:15,15,15,16,16,15,15,15,16,15,15,15,15
+msgid "Control access by length of simplecontext argument."
+msgstr ""
+
+#: ctools_plugin_example/plugins/access/arg_length.inc:28,28,29,29,28,28,28,28,29,28,28,28,28
+msgid "Grant access if simplecontext argument length is"
+msgstr ""
+
+#: ctools_plugin_example/plugins/access/arg_length.inc:34,34,35,35,34,34,34,34,35,34,34,34,34
+msgid "Length of simplecontext argument"
+msgstr ""
+
+#: ctools_plugin_example/plugins/access/arg_length.inc:37,37,38,38,37,37,37,37,38,37,37,37,37
+msgid "Access/visibility will be granted based on arg length."
+msgstr ""
+
+#: ctools_plugin_example/plugins/access/arg_length.inc:61,61,62,62,61,61,61,61,62,61,61,61,61
+msgid "Simpletext argument must be !comp @length characters"
+msgstr ""
+
+#: ctools_plugin_example/plugins/access/example_role.inc:15,15,16,16,15,15,15,15,16,15,15,15,15
+msgid "CTools example: role"
+msgstr ""
+

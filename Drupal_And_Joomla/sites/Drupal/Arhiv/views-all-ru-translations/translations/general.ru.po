@@ -1,0 +1,1760 @@
+# Russian translation of views (all releases)
+# Copyright (c) 2013 by the Russian translation team
+# Generated from files:
+#  views/modules/comment/views_handler_field_comment_link_delete.inc: n/a
+#  views/modules/node/views_handler_field_node_link_delete.inc: n/a
+#  views/modules/node/views_handler_field_node_revision_link_delete.inc: n/a
+#  views/modules/user/views_handler_field_user_link_delete.inc: n/a
+#  views/handlers/views_handler_field_boolean.inc: n/a
+#  views/handlers/views_handler_filter_boolean_operator.inc: n/a
+#  views/views_ui.module: n/a
+#  views/includes/admin.inc: n/a
+#  views/plugins/views_plugin_display.inc: n/a
+#  views/modules/user/views_handler_field_user_picture.inc: n/a
+#  views/plugins/export_ui/views_ui.class.php: n/a
+#  views/views.module: n/a
+#  views/includes/convert.inc: n/a
+#  views/views_export/views_export.module: n/a
+#  views/theme/theme.inc: n/a
+#  views/modules/search.views.inc: n/a
+#  views/modules/locale.views.inc: n/a
+#  views/modules/translation.views.inc: n/a
+#  views/modules/user.views.inc: n/a
+#  views/modules/locale/views_handler_filter_locale_language.inc: n/a
+#  views/modules/translation/views_handler_filter_node_language.inc: n/a
+#  views/modules/comment.views.inc: n/a
+#  views/modules/locale/views_handler_filter_node_language.inc: n/a
+#  views/modules/comment/views_handler_field_comment_link_edit.inc: n/a
+#  views/modules/locale/views_handler_field_locale_link_edit.inc: n/a
+#  views/modules/node/views_handler_field_node_link_edit.inc: n/a
+#  views/modules/taxonomy/views_handler_field_term_link_edit.inc: n/a
+#  views/modules/user/views_handler_field_user_link_edit.inc: n/a
+#  views/modules/comment/views_handler_argument_comment_user_uid.inc: n/a
+#  views/modules/user/views_handler_argument_user_uid.inc: n/a
+#  views/modules/user/views_plugin_argument_validate_user.inc: n/a
+#  views/includes/plugins.inc: n/a
+#  views/modules/comment/views_plugin_row_comment_view.inc: n/a
+#  views/plugins/views_plugin_query.inc: n/a
+#  views/views.tokens.inc: n/a
+#  views/modules/node/views_plugin_argument_validate_node.inc: n/a
+#  views/plugins/export_ui/views_ui.inc: n/a
+#  views/modules/views_node.inc: n/a
+#  views/handlers/views_handler_field.inc: n/a
+#  views/modules/comment.views_default.inc: n/a
+#  views/modules/node.views_default.inc: n/a
+#  views/modules/node.views_template.inc: n/a
+#  views/modules/search.views_default.inc: n/a
+#  views/modules/statistics.views_default.inc: n/a
+#  views/modules/taxonomy.views_default.inc: n/a
+#  views/modules/aggregator.views.inc: n/a
+#  views/modules/node.views.inc: n/a
+#  views/plugins/views_plugin_display_page.inc: n/a
+#  views/plugins/views_wizard/node.inc: n/a
+#  views/modules/views_statistics.inc: n/a
+#  views/modules/views_user.inc: n/a
+#  views/handlers/views_handler_argument.inc: n/a
+#  views/modules/taxonomy.views.inc: n/a
+#  views/modules/upload.views.inc: n/a
+#  views/handlers/views_handler_filter.inc: n/a
+#  views/views_rss.module: n/a
+#  views/modules/node/views_plugin_row_node_rss.inc: n/a
+#  views/modules/comment/views_handler_field_node_comment.inc: n/a
+#  views/modules/comment/views_handler_filter_node_comment.inc: n/a
+#  views/modules/book.views.inc: n/a
+#  views/handlers/views_handler_field_date.inc: n/a
+#  views/plugins/views_plugin_cache_time.inc: n/a
+#  views/plugins/views_wizard/comment.inc: n/a
+#  views/modules/views_comment.inc: n/a
+#  views/modules/system.views.inc: n/a
+#  views/docs/docs.php: n/a
+#  views/modules/tracker.views.inc: n/a
+#  views/handlers/views_handler_field_contextual_links.inc: n/a
+#  views/handlers/views_handler_filter_in_operator.inc: n/a
+#  views/modules/translation/views_handler_filter_node_tnid.inc: n/a
+#  views/plugins/views_plugin_display_attachment.inc: n/a
+#  views/includes/view.inc: n/a
+#  views/modules/views_taxonomy.inc: n/a
+#  views/modules/statistics.views.inc: n/a
+#  views/plugins/views_wizard/views_ui_base_views_wizard.class.php: n/a
+#  views/modules/system/views_handler_filter_system_type.inc: n/a
+#  views/modules/field.views.inc: n/a
+#  views/modules/file.views.inc: n/a
+#  views/modules/image.views.inc: n/a
+#  views/modules/node/views_handler_filter_node_type.inc: n/a
+#  views/modules/poll.views.inc: n/a
+#  views/modules/aggregator/views_plugin_row_aggregator_rss.inc: n/a
+#  views/modules/locale/views_handler_filter_locale_version.inc: n/a
+#  views/handlers/views_handler_filter_equality.inc: n/a
+#  views/handlers/views_handler_filter_numeric.inc: n/a
+#  views/handlers/views_handler_filter_string.inc: n/a
+#  views/modules/search/views_handler_filter_search.inc: n/a
+#  views/plugins/views_plugin_access_perm.inc: n/a
+#  views/modules/translation/views_handler_relationship_translation.inc: n/a
+#  views/modules/views_search.inc: n/a
+#  views/js/views-admin.js: n/a
+#  views/handlers/views_handler_relationship_groupwise_max.inc: n/a
+#  views/drush/views.drush.inc: n/a
+#  views/views_revert.drush.inc: n/a
+#  views/modules/search/views_handler_field_search_score.inc: n/a
+#  views/plugins/views_plugin_exposed_form.inc: n/a
+#  views/plugins/views_plugin_style_table.inc: n/a
+#  views/handlers/views_handler_sort.inc: n/a
+#  views/includes/handlers.inc: n/a
+#  views/handlers/views_handler_area.inc: n/a
+#  views/handlers/views_handler_relationship.inc: n/a
+#  views/handlers/views_handler_area_text.inc: n/a
+#  views/modules/views_upload.inc: n/a
+#  views/modules/node/views_plugin_row_node_view.inc: n/a
+#  views/modules/views.views.inc: n/a
+#  views/modules/views_profile.inc: n/a
+#  views/handlers/views_handler_argument_many_to_one.inc: n/a
+#  views/handlers/views_handler_argument_numeric.inc: n/a
+#  views/handlers/views_handler_argument_string.inc: n/a
+#  views/modules/taxonomy/views_handler_argument_term_node_tid_depth.inc: n/a
+#  views/modules/taxonomy/views_handler_filter_term_node_tid_depth.inc: n/a
+#  views/handlers/views_handler_field_time_interval.inc: n/a
+#  views/handlers/views_handler_sort_date.inc: n/a
+#  views/handlers/views_handler_area_result.inc: n/a
+#  views/modules/comment/views_plugin_row_comment_rss.inc: n/a
+#  views/handlers/views_handler_field_prerender_list.inc: n/a
+#  views/modules/field/views_handler_field_field.inc: n/a
+#  views/plugins/views_plugin_row_fields.inc: n/a
+#  views/plugins/views_plugin_style_summary_unformatted.inc: n/a
+#  views/plugins/views_wizard/file_managed.inc: n/a
+#  views/modules/taxonomy/views_handler_filter_term_node_tid.inc: n/a
+#  views/plugins/views_plugin_cache_none.inc: n/a
+#  views/plugins/views_plugin_display_block.inc: n/a
+#  views/plugins/views_plugin_display_feed.inc: n/a
+#  views/modules/comment/views_handler_field_comment_link.inc: n/a
+#  views/modules/node/views_handler_field_node_link.inc: n/a
+#  views/modules/user/views_handler_field_user_link.inc: n/a
+#  views/includes/cache.inc: n/a
+#  views/modules/node/views_handler_field_node_revision_link.inc: n/a
+#  views/views.info: n/a
+#  views/views_ui.info: n/a
+#  views/views_rss.info: n/a
+#  views/views_theme_wizard.info: n/a
+#  views/views_export/views_export.info: n/a
+#  views/modules/contact/views_handler_field_contact_link.inc: n/a
+#  views/plugins/views_plugin_access.inc: n/a
+#  views/plugins/views_plugin_cache.inc: n/a
+#  views/plugins/views_plugin_pager.inc: n/a
+#  views/plugins/views_plugin_access_role.inc: n/a
+#  views/modules/locale/views_handler_filter_locale_group.inc: n/a
+#  views/plugins/views_plugin_row.inc: n/a
+#  views/modules/taxonomy/views_handler_field_term_node_tid.inc: n/a
+#  views/modules/taxonomy/views_handler_relationship_node_term_data.inc: n/a
+#  views/modules/taxonomy/views_plugin_argument_default_taxonomy_tid.inc: n/a
+#  views/modules/taxonomy/views_plugin_argument_validate_taxonomy_term.inc: n/a
+#  views/plugins/views_plugin_query_default.inc: n/a
+#  views/handlers/views_handler_filter_many_to_one.inc: n/a
+#  views/plugins/views_wizard/views_ui_comment_views_wizard.class.php: n/a
+#  views/plugins/views_wizard/views_ui_node_views_wizard.class.php: n/a
+#  views/plugins/views_plugin_exposed_form_basic.inc: n/a
+#  views/handlers/views_handler_field_numeric.inc: n/a
+#  views/plugins/views_plugin_style.inc: n/a
+#  views/plugins/views_plugin_row_rss_fields.inc: n/a
+#  views/plugins/views_plugin_style_mapping.inc: n/a
+#  views/plugins/views_plugin_style_summary.inc: n/a
+#  views/plugins/views_plugin_style_summary_jump_menu.inc: n/a
+#  views/plugins/views_plugin_pager_some.inc: n/a
+#  views/plugins/views_plugin_pager_full.inc: n/a
+#  views/plugins/views_plugin_pager_none.inc: n/a
+#  views/plugins/views_plugin_style_list.inc: n/a
+#  views/handlers/views_handler_field_url.inc: n/a
+#  views/modules/aggregator/views_handler_field_aggregator_title_link.inc: n/a
+#  views/modules/statistics/views_handler_field_accesslog_path.inc: n/a
+#  views/modules/node/views_handler_filter_history_user_timestamp.inc: n/a
+#  views/plugins/views_plugin_exposed_form_input_required.inc: n/a
+#  views/modules/locale/views_handler_argument_locale_language.inc: n/a
+#  views/modules/node/views_handler_argument_node_language.inc: n/a
+#  views/modules/translation/views_handler_argument_node_language.inc: n/a
+#  views/modules/taxonomy/views_handler_argument_taxonomy.inc: n/a
+#  views/modules/taxonomy/views_handler_argument_vocabulary_machine_name.inc: n/a
+#  views/modules/taxonomy/views_handler_argument_vocabulary_vid.inc: n/a
+#  views/modules/system/views_handler_field_file.inc: n/a
+#  views/modules/upload/views_handler_field_upload_description.inc: n/a
+#  views/modules/upload/views_handler_field_upload_fid.inc: n/a
+#  views/plugins/views_plugin_argument_default_fixed.inc: n/a
+#  views/plugins/views_plugin_argument_default.inc: n/a
+#  views/modules/upload/views_handler_filter_upload_fid.inc: n/a
+#  views/handlers/views_handler_field_serialized.inc: n/a
+#  views/modules/taxonomy/views_handler_argument_term_node_tid.inc: n/a
+#  views/plugins/views_plugin_argument_validate.inc: n/a
+#  views/plugins/views_plugin_style_jump_menu.inc: n/a
+#  views/includes/analyze.inc: n/a
+#  views/theme/views-ui-edit-view.tpl.php: n/a
+#  views/modules/aggregator/views_handler_field_aggregator_category.inc: n/a
+#  views/modules/node/views_handler_field_node_revision.inc: n/a
+#  views/modules/comment/views_handler_field_comment.inc: n/a
+#  views/modules/comment/views_handler_field_node_new_comments.inc: n/a
+#  views/modules/node/views_handler_field_node.inc: n/a
+#  views/modules/taxonomy/views_handler_field_taxonomy.inc: n/a
+#  views/modules/user/views_handler_field_user.inc: n/a
+#  views/modules/user/views_plugin_row_user_view.inc: n/a
+#  views/handlers/views_handler_field_machine_name.inc: n/a
+#  views/modules/node/views_handler_field_node_type.inc: n/a
+#  views/plugins/views_plugin_style_grid.inc: n/a
+#  views/handlers/views_handler_area_view.inc: n/a
+#  views/handlers/views_handler_argument_group_by_numeric.inc: n/a
+#  views/modules/locale/views_handler_field_locale_language.inc: n/a
+#  views/modules/translation/views_handler_field_node_language.inc: n/a
+#  views/modules/locale/views_handler_field_node_language.inc: n/a
+#  views/modules/field/views_handler_argument_field_list.inc: n/a
+#  views/modules/field/views_handler_argument_field_list_string.inc: n/a
+#  views/handlers/views_handler_filter_date.inc: n/a
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: views (all releases)\n"
+"POT-Creation-Date: 2013-05-29 14:21+0400\n"
+"PO-Revision-Date: 2013-03-12 11:57+0400\n"
+"Language-Team: Russian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=((((n%10)==1)&&((n%100)!=11))?(0):(((((n%10)>=2)&&((n%10)<=4))&&(((n%100)<10)||((n%100)>=20)))?(1):2));\n"
+
+#: modules/comment/views_handler_field_comment_link_delete.inc:14,12,14,11,20,20,20,14,11,14,20; modules/node/views_handler_field_node_link_delete.inc:22,29,22,25,28,28,28,31,25,31,28; modules/node/views_handler_field_node_revision_link_delete.inc:30,35,30,34,34,34,34,37,34,37,34; modules/user/views_handler_field_user_link_delete.inc:14,12,14,12
+msgid "delete"
+msgstr "удалить"
+
+#: handlers/views_handler_field_boolean.inc:35,35,40,40,40,35,35,42,42; handlers/views_handler_filter_boolean_operator.inc:62,58,62,68,68,68,62,62,68; views_ui.module:273,283,302,274,284,303; includes/admin.inc:267,267,267; plugins/views_plugin_display.inc:1029,1051,1051
+msgid "Enabled"
+msgstr "Включено"
+
+#: views_ui.module:346,1639,312,1640,346,286,358,358,358,312,286,312,358; includes/admin.inc:825,1271,2017,123,259,663,863,825,1271,2017,118,236,626,819,824,1272,2036,3575,824,1272,2036,3575,824,1272,2036,3575,123,259,663,863,118,236,626,819,123,259,663,863,824,1272,2036,3575; modules/user/views_handler_field_user_picture.inc:56,56,61,61,61,61; plugins/export_ui/views_ui.class.php:110,359,110,359,110,359,110,359,110,359,110,359; views.module:1087,1126,880,919,1092,1131,880,919,1092,1131
+msgid "Default"
+msgstr "По умолчанию"
+
+#: plugins/export_ui/views_ui.class.php:273,273,273,273,273,273; includes/convert.inc:21,21,21; includes/admin.inc:3580,3580,3580,3580
+msgid "Operations"
+msgstr "Действия"
+
+#: views_ui.module:45,112,42,113,45,37,37,37,42,42,42,37; includes/admin.inc:1971,810,1971,767,1990,1990,1990,810,767,810,1990
+msgid "Import"
+msgstr "Импорт"
+
+#: views_ui.module:189,239,190,240; includes/admin.inc:120,1067,115,1031,120,1067,115,1031,120,1067; views_export/views_export.module:129,129,129; theme/theme.inc:111,111
+msgid "Export"
+msgstr "Экспорт"
+
+#: includes/admin.inc:3976,3976,4075,4075,4075,4075; modules/search.views.inc:22,83,101,146,22,81,99,168,83,101,146,162,18,79,97,142,18,79,97,142,18,79,97,142,22,81,99,168,22,81,99,162,22,81,99,168,18,79,97,142
+msgid "Search"
+msgstr "Найти"
+
+#: modules/locale.views.inc:159,159,154,205,154,205,154,205,159,159,159,154,205; modules/translation.views.inc:31,31,31,31,31; modules/user.views.inc:148,129,148,120,155,155,155,129,120,129,155; modules/locale/views_handler_filter_locale_language.inc:11,9,11,16,16,16,11,9,11,16; modules/translation/views_handler_filter_node_language.inc:10,8,10,10,8; modules/comment.views.inc:175,175,175,175; modules/locale/views_handler_filter_node_language.inc:16,16,16,16
+msgid "Language"
+msgstr "Язык"
+
+#: modules/comment/views_handler_field_comment_link_edit.inc:35,39,35,38,41,41,41,41,38,41; modules/locale/views_handler_field_locale_link_edit.inc:47,45,47,40,52,52,52,47,40,47,52; modules/node/views_handler_field_node_link_edit.inc:22,29,22,25,28,28,28,31,25,31,28; modules/taxonomy/views_handler_field_term_link_edit.inc:49,36,49,54,54,56,38,38,56; modules/user/views_handler_field_user_link_edit.inc:16,14,16,7,22,22,22,16,7,16,22
+msgid "edit"
+msgstr "изменить"
+
+#: modules/comment/views_handler_argument_comment_user_uid.inc:12,10,12,17,17,17,12,10,12,17; modules/user/views_handler_argument_user_uid.inc:21,16,21,22,22,22,18,16,18,22; modules/user/views_plugin_argument_validate_user.inc:83,120,120,83,88,88,88,120,120,88
+msgid "Anonymous"
+msgstr "Гость"
+
+#: includes/plugins.inc:157,150,157,135,159,159,159,150,135,150,159; views_ui.module:101,31,102,148,148,148,31,31,31,148
+msgid "List"
+msgstr "Список"
+
+#: views_ui.module:53,53,45,45,45,45; includes/admin.inc:2331,1369,1378,2331,1297,1306,2349,2349,2349,1369,1378,1297,1306,1369,1378,2349; includes/plugins.inc:541,541,558,558,558,558; modules/comment/views_plugin_row_comment_view.inc:25,25,26,26,26,26; plugins/views_plugin_display.inc:1227,1128,1227,1279,1279,1279,1150,1283,1150,1283; plugins/views_plugin_query.inc:94,80,94,106,106,106,92,92,106
+msgid "Settings"
+msgstr "Настройки"
+
+#: views.tokens.inc:13,13,13,13,13,13; modules/node/views_plugin_argument_validate_node.inc:43,43,45,45,45,43,43,45; plugins/export_ui/views_ui.inc:19,19,19,19,19,19; views_ui.module:157,164,247,158,165,248; modules/views_node.inc:865,866
+msgid "View"
+msgstr "Просмотр"
+
+#: handlers/views_handler_field.inc:1111,1111,1167,1167,1167,1167; modules/comment.views_default.inc:110,258,110,258,110,258,110,258,110,258,110,258; modules/node.views_default.inc:84,166,295,84,166,295,84,166,295,84,166,295,84,166,295,84,166,295; modules/node.views_template.inc:115,115,117,117,117,117; modules/search.views_default.inc:99,99,99,99,99,99; modules/statistics.views_default.inc:225,225,225,225,225,225; modules/taxonomy.views_default.inc:90,90,90,90,90,90; views.module:1576,1577
+msgid "more"
+msgstr "еще"
+
+#: views.tokens.inc:30,30,30,30,30,30; views_ui.module:385,247,321,869,1058,1639,248,322,870,1059,1640,385,397,397,397,397; includes/admin.inc:218,327,442,218,293,412,219,219,219,327,442,293,412,327,442,219; modules/aggregator.views.inc:84,237,84,237,78,231,78,231,78,231,84,237,84,237,84,237,78,231; modules/comment.views.inc:47,43,47,43,43,43,43,43,43; modules/comment.views_default.inc:268,268,268,268,268,268; modules/node.views.inc:88,497,84,522,88,497,495,72,491,72,491,72,524,84,522,84,495,84,522,72,524; modules/node.views_default.inc:304,304,304,304,304,304; modules/statistics.views_default.inc:235,235,235,235,235,235; plugins/views_plugin_display.inc:1054,1120,1021,1054,1120,689,1098,1164,1098,1164,1098,1164,1043,689,1102,1168,1043,1102,1168; plugins/views_plugin_display_page.inc:339,415,332,416,339,415,300,384,344,420,344,420,343,419,332,416,300,384,346,422,332,416,346,422; plugins/views_wizard/node.inc:13,13,13,13,13,13; modules/views_statistics.inc:116,205,117,206; modules/views_user.inc:161,162; handlers/views_handler_argument.inc:122,119,122,119,122
+msgid "Title"
+msgstr "Заголовок"
+
+#: views.tokens.inc:22,22,22,22,22,22; includes/admin.inc:324,5187,331,1162,324,5187,297,1117,325,5334,325,5334,325,5334,331,1162,297,1117,331,1162,325,5334; modules/aggregator.views.inc:295,295,290,290,290,295,295,295,290; modules/taxonomy.views.inc:87,87,83,83,83,83; plugins/views_plugin_display.inc:1397,1278,1397,1449,1449,1449,1300,1453,1300,1453; plugins/views_plugin_display_page.inc:346,422,340,424,346,422,308,392,351,427,351,427,350,426,340,424,308,392,353,429,340,424,353,429; plugins/export_ui/views_ui.class.php:270,270,270,270,270,270; views_ui.module:247,321,826,248,322,827; includes/convert.inc:20,20,20; modules/upload.views.inc:55,55,55; views_export/views_export.module:147,147,147; handlers/views_handler_filter.inc:496,883,496,883,496,883,496,883
+msgid "Description"
+msgstr "Описание"
+
+#: views.module:1315,1316; views_ui.module:415,416
+msgid "Submit"
+msgstr "Отправить"
+
+#: views.tokens.inc:34,34,34,34,34,34; views_ui.module:247,321,852,248,322,853
+msgid "URL"
+msgstr "URL"
+
+#: views_rss.module:168,169; modules/node/views_plugin_row_node_rss.inc:130,130,130,130
+msgid "read more"
+msgstr "подробнее"
+
+#: handlers/views_handler_field_boolean.inc:35,35,40,40,40,35,35,42,42; handlers/views_handler_filter_boolean_operator.inc:62,58,62,68,68,68,62,62,68; views_ui.module:276,280,305,277,281,306; includes/admin.inc:266,266,266; modules/comment/views_handler_field_node_comment.inc:12,11,14,11,14; modules/comment/views_handler_filter_node_comment.inc:9,11,9,11; plugins/views_plugin_display.inc:1029,1051,1051
+msgid "Disabled"
+msgstr "Отключено"
+
+#: includes/plugins.inc:49,59,50,59,49,51,60,49,59,49,59,49,59,50,59,51,60,50,49,59; modules/comment.views_default.inc:119,119,119,119,119,119; modules/node.views_default.inc:96,96,96,96,96,96; views_ui.module:291,1037,292,1038
+msgid "Block"
+msgstr "Блок"
+
+#: includes/admin.inc:3163,3469,3802,2272,2600,2904,2909,3163,3469,3802,2240,3186,3494,3576,3901,3186,3494,3576,3901,3186,3494,3576,3901,2272,2600,2904,2909,2240,2272,2600,2904,2909,3186,3494,3576,3901; modules/book.views.inc:55,55,52,52,52,55,55,55,52; modules/taxonomy.views.inc:195,157,195,143,90,220,90,220,90,220,157,143,157,90,220; plugins/views_plugin_display_page.inc:375,380,375,348,379,379,378,380,348,381,380,381; modules/upload.views.inc:90,90,90
+msgid "Weight"
+msgstr "Вес"
+
+#: includes/admin.inc:391,870,1083,2467,714,750,907,1517,391,870,1083,2467,676,712,893,1401,392,869,1084,2485,392,869,1084,2485,392,869,1084,2485,714,750,907,1517,676,712,893,1401,714,750,907,1517,392,869,1084,2485; views_ui.module:472,490,512,544,1199,473,491,513,545,1200; includes/convert.inc:158,158,158
+msgid "Cancel"
+msgstr "Отменить"
+
+#: modules/book.views.inc:108,108,105,105,105,108,108,108,105; modules/taxonomy.views.inc:333,348,333,318,361,361,361,348,318,348,361
+msgid "Parent"
+msgstr "Родитель"
+
+#: handlers/views_handler_field_date.inc:29,28,29,36,36,36,28,28,28,36; plugins/views_plugin_cache_time.inc:28,28,28,28; handlers/views_handler_field_boolean.inc:47,47
+msgid "Custom"
+msgstr "Собственная"
+
+#: modules/comment.views.inc:577,577,595,595,595,595; plugins/views_wizard/comment.inc:18,18,18,18,18,18
+msgid "Comments"
+msgstr "Комментарии"
+
+#: modules/comment.views_default.inc:109,109,109,109,109,109; modules/views_comment.inc:291,292
+msgid "Recent comments"
+msgstr "Последние комментарии"
+
+#: modules/comment/views_handler_field_node_comment.inc:14,13,16,13,16; modules/comment/views_handler_filter_node_comment.inc:10,12,10,12
+msgid "Read only"
+msgstr "Только чтение"
+
+#: modules/comment/views_handler_field_node_comment.inc:16,15,18,15,18; modules/comment/views_handler_filter_node_comment.inc:11,13,11,13
+msgid "Read/Write"
+msgstr "Чтение/Запись"
+
+#: views_ui.module:1662,1663; handlers/views_handler_filter.inc:309,343,833,888,833,888,833,888,309,343,309,833,888
+msgid "Optional"
+msgstr "Необязательно"
+
+#: modules/aggregator.views.inc:120,120,114,114,114,120,120,120,114; modules/comment.views.inc:85,358,94,85,358,81,376,81,376,81,376,94,94,94,81,376; modules/comment.views_default.inc:269,269,269,269,269,269; modules/node.views.inc:393,400,393,379,379,379,400,400,379; modules/node.views_default.inc:305,305,305,305,305,305; modules/node.views_template.inc:124,124,126,126,126,126; modules/statistics.views_default.inc:236,236,236,236,236,236; modules/views_statistics.inc:123,212,124,213; modules/views_user.inc:167,168
+msgid "Author"
+msgstr "Автор"
+
+#: views_ui.module:543,544; includes/convert.inc:156,156,156
+msgid "This action cannot be undone."
+msgstr "Это действие нельзя будет отменить.."
+
+#: modules/system.views.inc:150,520,154,268,150,520,141,140,527,140,527,140,527,154,268,141,154,268,140,527; views_ui.module:321,322; includes/admin.inc:271,271,271
+msgid "Status"
+msgstr "Статус"
+
+#: modules/node.views.inc:163,169,174,159,165,170,163,169,174,147,153,158,147,153,158,147,153,158,159,165,170,159,165,170,159,165,170,147,153,158; docs/docs.php:179,179,179; modules/upload.views.inc:81,81,81; modules/tracker.views.inc:58,66,141,149,58,66,141,149
+msgid "Published"
+msgstr "Опубликовано"
+
+#: modules/comment.views.inc:24,28,482,576,595,606,21,25,535,546,24,28,482,576,595,606,437,448,20,24,500,594,613,624,20,24,500,594,613,624,20,24,500,594,613,624,21,25,535,546,21,25,437,448,21,25,535,546,20,24,500,594,613,624; modules/system.views.inc:307,313,314,307,313,314,297,303,304,297,303,304,297,303,304,297,303,304; plugins/views_plugin_display.inc:1108,1009,1108,1152,1152,1152,1031,1156,1031,1156; modules/views_comment.inc:363,364
+msgid "Comment"
+msgstr "Комментарий"
+
+#: handlers/views_handler_field_boolean.inc:32,32,37,37,37,32,32,32,39,39; handlers/views_handler_field_contextual_links.inc:30; handlers/views_handler_filter_boolean_operator.inc:56,52,56,51,62,62,62,56,51,56,62; handlers/views_handler_filter_in_operator.inc:51,51,35,57,57,57,52,35,52,57; modules/translation/views_handler_filter_node_tnid.inc:26,17,26,24,32,32,32,19,24,19,32; plugins/views_plugin_display.inc:1167,1175,1209,1219,1307,1434,1442,2024,1069,1077,1110,1120,1190,1326,1334,1831,1167,1175,1209,1219,1307,1434,1442,2024,730,739,756,764,833,939,1430,1211,1219,1227,1261,1271,1359,1486,1494,1502,2084,1211,1219,1227,1261,1271,1359,1486,1494,1502,2084,1211,1219,1227,1261,1271,1359,1486,1494,1502,2084,1091,1099,1132,1142,1212,1348,1356,1854,730,739,756,764,833,939,1430,1215,1223,1231,1265,1275,1363,1490,1498,1506,2088,1091,1099,1132,1142,1212,1348,1356,1854,1215,1223,1231,1265,1275,1363,1490,1498,1506,2088; plugins/views_plugin_display_attachment.inc:95,101,107,113,64,70,76,82,95,101,107,113,96,102,108,114,96,102,108,114,96,102,108,114,64,70,76,82,64,70,76,82,64,70,76,82,96,102,108,114; views.module:1812,1813; views_ui.module:1353,1354
+msgid "Yes"
+msgstr "Да"
+
+#: handlers/views_handler_field_boolean.inc:32,32,37,37,37,32,32,32,39,39; handlers/views_handler_field_contextual_links.inc:29; handlers/views_handler_filter_boolean_operator.inc:56,52,56,51,62,62,62,56,51,56,62; handlers/views_handler_filter_in_operator.inc:51,51,35,57,57,57,52,35,52,57; modules/translation/views_handler_filter_node_tnid.inc:27,18,27,25,33,33,33,20,25,20,33; plugins/views_plugin_display.inc:1167,1175,1209,1219,1307,1434,1442,2024,1069,1077,1110,1120,1190,1326,1334,1831,1167,1175,1209,1219,1307,1434,1442,2024,730,739,756,764,833,939,947,1430,1211,1219,1227,1261,1271,1359,1486,1494,1502,2084,1211,1219,1227,1261,1271,1359,1486,1494,1502,2084,1211,1219,1227,1261,1271,1359,1486,1494,1502,2084,1091,1099,1132,1142,1212,1348,1356,1854,730,739,756,764,833,939,947,1430,1215,1223,1231,1265,1275,1363,1490,1498,1506,2088,1091,1099,1132,1142,1212,1348,1356,1854,1215,1223,1231,1265,1275,1363,1490,1498,1506,2088; plugins/views_plugin_display_attachment.inc:95,101,107,113,64,70,76,82,95,101,107,113,96,102,108,114,96,102,108,114,96,102,108,114,64,70,76,82,64,70,76,82,64,70,76,82,96,102,108,114; views.module:1812,1813; views_ui.module:1353,1354
+msgid "No"
+msgstr "Нет"
+
+#: views_ui.module:389,903,1087,1099,904,1088,1100,389,401,401,401,401; includes/view.inc:2494,2496,2497,2277,2279,2280,2494,2496,2497,2618,2620,2621,2618,2620,2621,2618,2620,2621,2440,2442,2443,2626,2628,2629,2440,2442,2443,2626,2628,2629; plugins/views_plugin_display.inc:837,1088,837,1088
+msgid "Header"
+msgstr "Заголовок"
+
+#: views.tokens.inc:18,18,18,18,18,18; includes/admin.inc:5186,326,5186,292,5333,5457,5333,5457,5333,5457,326,292,326,5333,5457; modules/system.views.inc:66,70,66,68,56,56,56,70,68,70,56; modules/taxonomy.views.inc:44,172,44,172,40,197,40,197,40,197,40,197; modules/user.views.inc:61,107,58,88,61,107,79,58,114,58,114,58,114,58,88,58,79,88,58,114; plugins/views_plugin_display.inc:1391,1001,1272,1391,677,1443,1443,1443,1023,1294,677,1447,1023,1294,1447; plugins/export_ui/views_ui.class.php:189,189,189,189,189,189; views_ui.module:808,1629,809,1630; modules/tracker.views.inc:119,119
+msgid "Name"
+msgstr "Имя"
+
+#: plugins/views_plugin_display.inc:1062,1062,1106,1106,1106,1110,1110; views_ui.module:1656,1657; includes/view.inc:2262,2104,2425,2104,2425
+msgid "Filters"
+msgstr "Фильтры"
+
+#: modules/comment.views_default.inc:270,270,270,270,270,270,270,270,270,270,270,270; modules/views_user.inc:172,173,172,173
+msgid "Replies"
+msgstr "Ответов"
+
+#: modules/views_taxonomy.inc:178,179; modules/taxonomy.views.inc:23,80,177,207,273,315,359,396,407,421,66,160,178,243,285,329,366,377,391,23,80,177,207,273,315,359,396,407,421,23,66,160,178,243,285,329,366,377,391,23,80,177,207,273,315,359,396,407,421
+msgid "Taxonomy"
+msgstr "Таксономия"
+
+#: includes/admin.inc:225,329,450,225,295,420,226,226,226,329,450,295,420,329,450,226; modules/node.views.inc:271,281,271,278,257,257,257,281,278,281,257; modules/statistics.views.inc:169,169,148,165,165,165,169,148,169,165; modules/system.views.inc:85,89,85,87,75,75,75,89,87,89,75; plugins/views_plugin_display_page.inc:256,247,256,215,261,261,261,247,215,264,247,264; plugins/export_ui/views_ui.class.php:190,272,190,272,190,272,190,272,190,272,190,272; plugins/views_wizard/views_ui_base_views_wizard.class.php:112,112,120,120,120,120
+msgid "Path"
+msgstr "Адрес"
+
+#: modules/comment.views_default.inc:112,260,112,260,112,260,112,260,112,260,112,260; modules/node.views_default.inc:86,168,297,86,168,297,86,168,297,86,168,297,86,168,297,86,168,297; modules/node.views_template.inc:117,117,119,119,119,119; modules/search.views_default.inc:101,101,101,101,101,101; modules/statistics.views_default.inc:227,227,227,227,227,227; modules/taxonomy.views_default.inc:92,92,92,92,92,92; includes/admin.inc:60,357,323,60,357,60,323,60,357
+msgid "Reset"
+msgstr "Сбросить"
+
+#: views_ui.module:303,304; includes/admin.inc:129,124,129,124,129
+msgid "Disable"
+msgstr "Отключить"
+
+#: handlers/views_handler_argument.inc:546,546,561,561,561,561; includes/admin.inc:842,283,330,842,249,296,841,5457,841,5457,841,5457,283,330,249,296,283,330,841,5457; modules/comment.views_default.inc:267,267,267,267,267,267; modules/node.views.inc:144,140,144,128,128,128,140,140,140,128; modules/statistics.views_default.inc:234,234,234,234,234,234; modules/system.views.inc:501,249,501,508,508,508,249,249,508; modules/system/views_handler_filter_system_type.inc:9,9,14,14,14,9,9,14; plugins/views_plugin_display_page.inc:327,320,327,288,332,332,331,320,288,334,320,334; modules/views_statistics.inc:110,199,111,200; modules/views_user.inc:156,157
+msgid "Type"
+msgstr "Тип"
+
+#: modules/aggregator.views.inc:162,162,156,156,156,162,162,162,156; modules/comment.views.inc:62,62,62,62; modules/node.views.inc:460,433,460,433,460
+msgid "Body"
+msgstr "Содержимое"
+
+#: views_ui.module:403,403,415,415,415,415; modules/comment.views.inc:336,341,396,309,336,341,396,354,359,414,354,359,414,354,359,414,309,309,354,359,414; modules/comment.views_default.inc:116,116,116,116,116,116; modules/field.views.inc:124,124,120,120,120,120; modules/file.views.inc:51,51,47,47,47,47; modules/image.views.inc:50,50,46,46,46,46; modules/node.views.inc:23,28,93,490,594,631,641,654,23,28,93,490,594,631,641,654,19,24,77,226,484,596,633,643,656,19,24,77,226,484,596,633,643,656,19,24,77,226,485,517,629,666,676,689,19,24,77,226,485,517,629,666,676,689; modules/system.views.inc:245,251,252,245,251,252,235,241,242,235,241,242,235,241,242,235,241,242; modules/taxonomy.views.inc:279,431,279,431,307,463,307,463,307,463,307,463; plugins/views_wizard/node.inc:19,19,19,19,19,19
+msgid "Content"
+msgstr "Содержимое"
+
+#: modules/node/views_handler_filter_node_type.inc:10,10,16,16,16,16; modules/node/views_plugin_argument_validate_node.inc:29,29,31,31,31,31
+msgid "Content types"
+msgstr "Типы содержимого"
+
+#: modules/comment/views_handler_field_node_comment.inc:16,16,21,21,21,21,16,16,21,21,21,21; modules/comment/views_handler_filter_node_comment.inc:12,12,17,17,17,17,12,12,17,17,17,17
+msgid "Closed"
+msgstr "Закрыто"
+
+#: modules/poll.views.inc:34,42,34,42,30,38,30,38,30,38,34,42,34,42,34,42,30,38; modules/user.views.inc:299,306,311,269,278,299,306,311,206,215,306,313,318,306,313,318,306,313,318,269,278,206,215,269,278,306,313,318
+msgid "Active"
+msgstr "Активный"
+
+#: modules/statistics.views.inc:149,149,128,145,145,145,149,128,149,145; plugins/views_wizard/views_ui_base_views_wizard.class.php:108,108,116,116,116,116
+msgid "Page title"
+msgstr "Заголовок страницы"
+
+#: modules/node.views.inc:454,447,454,420,448,448,448,447,420,447,448; modules/statistics.views.inc:224,224,203,220,220,220,224,203,224,220; modules/system.views.inc:276,282,283,186,192,276,282,283,173,179,266,272,273,266,272,273,266,272,273,186,192,173,179,186,192,266,272,273; modules/user.views.inc:22,26,360,433,458,531,554,22,26,327,398,478,360,433,458,531,554,255,325,405,19,23,367,440,465,538,561,19,23,367,440,465,538,561,19,23,367,440,465,538,561,22,26,327,399,479,22,26,255,326,406,22,26,327,399,479,19,23,367,440,465,538,561; modules/comment.views.inc:331,335,263,269,331,335,263,269,331,335
+msgid "User"
+msgstr "Пользователь"
+
+#: modules/comment.views.inc:123,132,123,119,119,119,132,132,132,119; modules/statistics.views.inc:205,205,184,201,201,201,205,184,205,201
+msgid "Hostname"
+msgstr "Имя хоста"
+
+#: modules/aggregator.views.inc:177,177,171,171,171,177,177,177,171; modules/statistics.views.inc:251,251,230,247,247,247,251,230,251,247
+msgid "Timestamp"
+msgstr "Временной штамп"
+
+#: includes/plugins.inc:35,45,37,46,35,45,39,47,35,45,35,45,35,45,37,46,39,47,37,46,35,45; modules/comment.views_default.inc:117,277,117,277,117,277,117,277,117,277,117,277; modules/node.views_default.inc:95,175,308,95,175,308,95,175,308,95,175,308,95,175,308,95,175,308; modules/search.views_default.inc:111,111,111,111,111,111; modules/taxonomy.views_default.inc:101,101,101,101,101,101; views_ui.module:288,839,289,840; docs/docs.php:416,408,416,408
+msgid "Page"
+msgstr "Страница"
+
+#: modules/aggregator/views_plugin_row_aggregator_rss.inc:27,27,24,28,28,28,27,24,27,28; modules/node/views_plugin_row_node_rss.inc:31,31,31,31
+msgid "Full text"
+msgstr "Полный текст"
+
+#: modules/locale.views.inc:105,105,100,100,100,105,105,105,100; modules/locale/views_handler_filter_locale_version.inc:11,9,11,16,16,16,11,9,11,16
+msgid "Version"
+msgstr "Версия"
+
+#: handlers/views_handler_filter_equality.inc:27,25,27,33,33,33,27,25,27,33; handlers/views_handler_filter_numeric.inc:161,175,190,205,161,175,147,162,166,180,166,180,166,180,192,207,147,162,192,207,166,180; handlers/views_handler_filter_string.inc:199,195,199,183,207,207,207,196,183,196,207; modules/search/views_handler_filter_search.inc:55,55,60,60,60,78,78; views_ui.module:1651,1652; includes/admin.inc:3579,3579,3579,3579
+msgid "Value"
+msgstr "Значение"
+
+#: modules/comment.views_default.inc:257,257,257,257,257,257; modules/views_user.inc:144,150,145,151
+msgid "Recent posts"
+msgstr "Последние публикации"
+
+#: includes/plugins.inc:63,63,64,63,63,63,63,64,63; modules/node.views_default.inc:309,309,309,309,309,309
+msgid "Attachment"
+msgstr "Вложение"
+
+#: includes/plugins.inc:241,252,241,231,253,253,253,252,231,252,253; modules/user.views.inc:444,444,451,451,451,451; plugins/views_plugin_access_perm.inc:50,38,50,34,57,57,57,38,34,38,57
+msgid "Permission"
+msgstr "Разрешения"
+
+#: handlers/views_handler_argument.inc:177,101,177,101,101,101; modules/comment.views_default.inc:275,275,275,275,275,275; modules/node.views_default.inc:93,307,93,307,93,307,93,307,93,307,93,307; modules/node.views_template.inc:125,125,127,127,127,127; modules/search.views_default.inc:109,109,109,109,109,109; modules/taxonomy.views_default.inc:99,99,99,99,99,99; modules/translation/views_handler_relationship_translation.inc:24,22,24,29,29,29,24,22,24,29; plugins/views_wizard/views_ui_base_views_wizard.class.php:342,342,350,350,350,350
+msgid "All"
+msgstr "Все"
+
+#: handlers/views_handler_field_date.inc:64,62,64,59,80,80,80,62,59,62,80; views.module:1649,1650
+msgid "%time ago"
+msgstr "%time назад"
+
+#: includes/admin.inc:830,258,830,235,829,829,829,258,235,258,829; includes/view.inc:1666,1975,1430,1480,1784,1666,1975,1355,1405,1762,2099,1762,2099,1762,2099,1579,1629,1933,1355,1405,1770,2107,1579,1629,1933,1770,2107; plugins/export_ui/views_ui.class.php:109,109,109,109,109,109; views.module:1673,1674; modules/views_comment.inc:24,122,25,123; modules/views_node.inc:15,16
+msgid "Normal"
+msgstr "Нормальный"
+
+#: handlers/views_handler_filter_string.inc:41,41,46,46,46,42,41,42,46; views.module:1919,1920; modules/views_search.inc:18,19
+msgid "Contains"
+msgstr "Содержит"
+
+#: views.module:1809,2043,1323,2044,1805,1869,1869,1869,1328,1328,1871,1871; includes/admin.inc:1076,2092,900,928,1076,2092,886,914,1077,2115,1077,2115,1077,2115,900,928,886,914,900,928,1077,2115; views_ui.module:775,1185,1747,1859,776,1186,1748,1860
+msgid "Save"
+msgstr "Сохранить"
+
+#: views.module:2043,2044,2043,2044,2043,2044; views_ui.module:1189,1747,1867,1190,1748,1868,1189,1747,1867,1190,1748,1868,1189,1747,1867,1190,1748,1868
+msgid "Save and edit"
+msgstr ""
+"Сохранить и продолжить "
+"редактирование"
+
+#: includes/admin.inc:2230,2232,1296,3083,2230,2232,1232,2348,2244,2246,2244,2246,1296,3083,1232,2348,1296,3083,2244,2246,2244,2246; views_ui.module:107,298,37,108,299,37,37,37; js/views-admin.js:0,0,0,0
+msgid "Add"
+msgstr "Добавить"
+
+#: views_ui.module:79,123,124,79,71,71,71,71; theme/theme.inc:90,92,92
+msgid "Edit view"
+msgstr "Редактировать представление"
+
+#: views_ui.module:172,173; plugins/views_plugin_display.inc:2236,1670,2259,1670,2259
+msgid "Override"
+msgstr "Переопределить"
+
+#: views_ui.module:195,241,196,242; includes/admin.inc:121,1072,116,1036,121,1072,116,1036,121,1072; theme/theme.inc:116,116
+msgid "Clone"
+msgstr "Клонировать"
+
+#: views.module:290,290,342,342,342,342; views_ui.module:214,215
+msgid "Administer views"
+msgstr "Управление представлениями"
+
+#: handlers/views_handler_relationship_groupwise_max.inc:129,129,129,129,129,129; views_ui.module:247,248
+msgid "Existing Views"
+msgstr "Существующие представления"
+
+#: drush/views.drush.inc:198,216,192,210,198,216,199,217,199,217,199,217,192,210,192,210,199,217; includes/admin.inc:834,1272,1799,1820,124,260,698,914,834,1272,1799,1820,119,237,660,900,833,1273,1812,1833,833,1273,1812,1833,833,1273,1812,1833,124,260,698,914,119,237,660,900,124,260,698,914,833,1273,1812,1833; includes/view.inc:1975,1784,1975,2099,2099,2099,1933,2107,1933,2107; plugins/export_ui/views_ui.class.php:111,111,111,111,111,111; views_ui.module:269,270; views.module:1084,1131,877,924,1089,1136,877,924,1089,1136; views_revert.drush.inc:123,141,123,141
+msgid "Overridden"
+msgstr "Переопределен"
+
+#: handlers/views_handler_relationship_groupwise_max.inc:126,126,126,126,126,126; views_ui.module:321,322
+msgid "Default Views"
+msgstr "Представления по умолчанию"
+
+#: views_ui.module:596,597; handlers/views_handler_argument.inc:327,272,327,272,327
+msgid "Summary, sorted ascending"
+msgstr "Сводка, сортировка по возрастанию"
+
+#: views_ui.module:597,598; handlers/views_handler_argument.inc:334,279,334,279,334
+msgid "Summary, sorted descending"
+msgstr "Сводка, сортировка по убыванию"
+
+#: handlers/views_handler_argument.inc:607,607,624,624,624,624; handlers/views_handler_relationship_groupwise_max.inc:102,102,102,102,102,102; modules/search/views_handler_field_search_score.inc:37,36,37,43,43,43,38,36,38,43; plugins/views_plugin_exposed_form.inc:74,84,74,89,89,97,84,84,97; plugins/views_plugin_style_table.inc:226,211,226,163,227,227,236,229,163,229,236; views_ui.module:608,1358,609,1359; handlers/views_handler_sort.inc:54,54
+msgid "Ascending"
+msgstr "По возрастанию"
+
+#: handlers/views_handler_argument.inc:607,607,624,624,624,624; handlers/views_handler_relationship_groupwise_max.inc:102,102,102,102,102,102; modules/search/views_handler_field_search_score.inc:37,36,37,43,43,43,38,36,38,43; plugins/views_plugin_exposed_form.inc:82,92,82,97,97,106,92,92,106; plugins/views_plugin_style_table.inc:226,211,226,163,227,227,236,229,163,229,236; views_ui.module:609,1358,610,1359; handlers/views_handler_sort.inc:54,54
+msgid "Descending"
+msgstr "По убыванию"
+
+#: modules/node.views.inc:579,637,579,610,581,581,614,637,610,637,614; plugins/views_plugin_display.inc:1257,1142,1257,778,1309,1309,1309,1164,778,1313,1164,1313; views_ui.module:818,819
+msgid "Access"
+msgstr "Доступ"
+
+#: views_ui.module:910,1103,911,1104; plugins/views_plugin_display.inc:1098,1098
+msgid ""
+"Text to display at the top of the view. May contain an explanation or "
+"links or whatever you like. Optional."
+msgstr ""
+"Текст для отображения вверху "
+"представления. Может содержать "
+"разъяснения или какие-либо ссылки. Не "
+"обязательно для заполнения."
+
+#: plugins/views_plugin_display_page.inc:410,411,410,379,415,415,414,411,379,417,411,417; views_ui.module:1008,1028,1009,1029
+msgid "Normal menu item"
+msgstr "Обычный пункт меню"
+
+#: views_ui.module:1500,1501; includes/handlers.inc:543,543,543; handlers/views_handler_filter.inc:210,210
+msgid "Expose"
+msgstr "Раскрыть"
+
+#: views_ui.module:1595,1596; includes/admin.inc:341,307,341,307,341
+msgid "Down"
+msgstr "Вниз"
+
+#: handlers/views_handler_area.inc:51,49,51,71,71,71,49,49,71; handlers/views_handler_field.inc:464,410,464,185,490,490,490,410,185,410,490; handlers/views_handler_filter.inc:329,297,329,331,489,827,877,489,827,877,489,827,877,297,331,297,489,827,877; handlers/views_handler_sort.inc:187,140,187,195,195,195,140,140,195; views_ui.module:1629,1662,1630,1663; handlers/views_handler_relationship.inc:88,77,88,77,88; includes/admin.inc:3577,3577,3577,3577
+msgid "Label"
+msgstr "Метка"
+
+#: includes/admin.inc:5104,4053,5104,3202,5251,5251,5251,4053,3202,4053,5251; views_ui.module:1629,1630
+msgid "Sortable"
+msgstr "Сортируется"
+
+#: handlers/views_handler_area_text.inc:43,42,43,44,44,44,42,42,44; handlers/views_handler_field.inc:767,779,599,611,767,779,308,320,793,805,793,805,793,805,599,611,308,320,599,611,793,805; handlers/views_handler_field_contextual_links.inc:19,29,29,29,29; includes/plugins.inc:187,188,187,173,189,199,189,199,189,199,188,173,188,189,199; includes/view.inc:2459,2241,2459,2083,2583,2583,2583,2404,2083,2591,2404,2591; plugins/views_plugin_display.inc:1066,1066,1110,1110,1110,1114,1114; views_ui.module:1633,1634
+msgid "Fields"
+msgstr "Поля"
+
+#: views_ui.module:1639,1640; handlers/views_handler_argument.inc:158,155,158,155,158
+msgid "Wildcard"
+msgstr "Групповой символ"
+
+#: handlers/views_handler_area_text.inc:48,49,47,48,49,49,50,49,50,49,50,47,48,47,48,49,50; handlers/views_handler_field.inc:775,776,607,608,775,776,316,317,801,802,801,802,801,802,607,608,316,317,607,608,801,802; plugins/views_plugin_display.inc:1720,1721,1575,1576,1720,1721,1780,1781,1780,1781,1780,1781,1597,1598,1784,1785,1597,1598,1784,1785; views_ui.module:1646,1647; includes/admin.inc:526,496,526,496,526; includes/view.inc:2248,2090,2411,2090,2411
+msgid "Arguments"
+msgstr "Аргументы"
+
+#: includes/admin.inc:5099,4048,5099,3198,5246,5246,5246,4048,3198,4048,5246; includes/view.inc:2461,2243,2461,2085,2585,2585,2585,2406,2085,2593,2406,2593; modules/field.views.inc:115,115,111,111,111,111; views_ui.module:1651,1662,1674,1652,1663,1675
+msgid "Field"
+msgstr "Поле"
+
+#: handlers/views_handler_filter.inc:194,176,194,145,282,282,282,176,145,176,282; includes/admin.inc:3622,3796,2898,3622,3796,3578,3721,3895,3578,3721,3895,3578,3721,3895,2898,2898,3578,3721,3895; views_ui.module:1651,1652
+msgid "Operator"
+msgstr "Оператор"
+
+#: plugins/views_plugin_exposed_form.inc:222,218,222,237,237,248,218,218,248; views_ui.module:1674,1675; includes/admin.inc:338,304,338,304,338
+msgid "Order"
+msgstr "Положение"
+
+#: includes/admin.inc:2008,854,2008,811,2027,2027,2027,854,811,854,2027; views_ui.module:1765,1766
+msgid "View name must be alphanumeric or underscores only."
+msgstr ""
+"Имя представления должно состоять "
+"только из английских букв, цифр и "
+"знака подчеркивания."
+
+#: modules/views_comment.inc:25,26; modules/views_node.inc:16,17
+msgid "With updated mark"
+msgstr "С обновленной оценкой"
+
+#: modules/views_comment.inc:61,62; modules/views_user.inc:28,29
+msgid "This will display the author of the node."
+msgstr "Отображение автора материала."
+
+#: modules/views_comment.inc:74,75; modules/views_node.inc:146,153,160,167,147,154,161,168; modules/views_upload.inc:43,44
+msgid "Equals"
+msgstr "Равно"
+
+#: modules/node/views_plugin_row_node_view.inc:79,51,79,80,80,80,51,51,51,80; modules/views_node.inc:71,72; modules/node.views.inc:475,448,475,448,475
+msgid "Teaser"
+msgstr "Краткое содержание"
+
+#: modules/views.views.inc:24,23,24,21,21,21,23,23,23,21; modules/views_node.inc:138,139
+msgid "Random"
+msgstr "В случайном порядке"
+
+#: modules/views_node.inc:225,226; modules/views_profile.inc:180
+msgid "This filter allows nodes to be filtered by their creation date."
+msgstr ""
+"Фильтр позволяет сортировать "
+"материалы по дате их создания."
+
+#: handlers/views_handler_argument_many_to_one.inc:117,131,107,121,117,131,123,137,123,137,123,137,107,121,107,121,107,121,123,137; handlers/views_handler_argument_numeric.inc:58,70,44,56,58,70,59,71,59,71,59,71,44,56,44,56,44,56,59,71; handlers/views_handler_argument_string.inc:260,269,260,253,253,253,269,269,253; modules/taxonomy.views.inc:189,286,151,257,385,189,286,137,227,355,214,314,214,314,214,314,151,257,385,137,227,355,151,257,385,214,314; modules/views_taxonomy.inc:332,336,340,333,337,341
+msgid "Uncategorized"
+msgstr "Без категории"
+
+#: handlers/views_handler_area_text.inc:70,69,70,71,71,71,69,69,71; handlers/views_handler_field.inc:807,636,807,345,833,833,833,636,345,636,833
+msgid "Replacement patterns"
+msgstr "Подстановочные шаблоны"
+
+#: modules/comment/views_handler_field_node_comment.inc:14,14,19,19,19,19; modules/comment/views_handler_filter_node_comment.inc:11,11,16,16,16,16
+msgid "Hidden"
+msgstr "Скрытый"
+
+#: modules/book.views.inc:67,67,64,64,64,67,67,67,64; modules/comment.views.inc:321,294,321,240,339,339,339,294,240,294,339; modules/taxonomy/views_handler_argument_term_node_tid_depth.inc:25,24,25,31,31,31,26,24,26,31; modules/taxonomy/views_handler_filter_term_node_tid_depth.inc:30,28,30,36,36,36,30,28,30,36
+msgid "Depth"
+msgstr "Глубина"
+
+#: handlers/views_handler_field_time_interval.inc:21,21,27,27,27,21,21,27; handlers/views_handler_sort_date.inc:25,25,30,30,30,25,25,25,30
+msgid "Granularity"
+msgstr "Степень детализации"
+
+#: views.tokens.inc:26,26,26,26,26,26; modules/taxonomy.views.inc:56,56,52,52,52,52
+msgid "Machine name"
+msgstr "Машинное имя"
+
+#: views_ui.module:64,64,56,56,56,56; includes/admin.inc:1683,1683,1696,1696,1696,1696
+msgid "Advanced"
+msgstr "Дополнительно"
+
+#: handlers/views_handler_area_result.inc:41,41,42,42,42,42; includes/admin.inc:3163,518,2272,3163,488,3186,3186,3186,518,2272,488,518,2272,3186
+msgid "Display"
+msgstr "Показать"
+
+#: modules/aggregator/views_plugin_row_aggregator_rss.inc:29,29,26,30,30,30,29,26,29,30; modules/comment/views_plugin_row_comment_rss.inc:72,72,73,73,73,73; modules/node/views_plugin_row_node_rss.inc:66,33,66,67,67,67,33,33,33,67
+msgid "Title only"
+msgstr "Только заголовок"
+
+#: handlers/views_handler_field_prerender_list.inc:47,48,47,38,52,52,52,48,38,48,52; includes/admin.inc:5102,4051,5102,3200,5249,5249,5249,4051,3200,4051,5249; modules/field/views_handler_field_field.inc:476,476,533,533,533,533; plugins/views_plugin_row_fields.inc:59,59,44,60,60,60,59,44,59,60; plugins/views_plugin_style_summary_unformatted.inc:29,29,30,30,30,29,29,29,30
+msgid "Separator"
+msgstr "Разделитель"
+
+#: handlers/views_handler_argument.inc:624,624,641,641,641,641; plugins/views_plugin_display.inc:1058,1134,1058,1134,1102,1178,1102,1178,1102,1178,1106,1182,1106,1182
+msgid "Format"
+msgstr "Формат"
+
+#: plugins/views_wizard/file_managed.inc:16,16,16,16,16,16; modules/upload.views.inc:134,133,134,133
+msgid "Files"
+msgstr "Файлы"
+
+#: modules/comment.views_default.inc:272,272,272,272,272,272; modules/statistics.views_default.inc:241,241,241,241,241,241
+msgid ","
+msgstr ","
+
+#: modules/taxonomy.views.inc:224,188,224,168,252,252,252,188,168,188,252; modules/taxonomy/views_handler_filter_term_node_tid.inc:61,42,61,38,66,66,66,44,38,44,66
+msgid "Vocabulary"
+msgstr "Словарь"
+
+#: views.module:1921,1436,1917,1041,1992,1992,1992,1441,1041,1441,1994,1994; includes/admin.inc:2424,2429,350,2424,2429,316,2442,2447,2442,2447,2442,2447,350,316,350,2442,2447; modules/comment.views_default.inc:111,259,111,259,111,259,111,259,111,259,111,259; modules/node.views_default.inc:85,167,296,85,167,296,85,167,296,85,167,296,85,167,296,85,167,296; modules/node.views_template.inc:116,116,118,118,118,118; modules/search.views_default.inc:100,100,100,100,100,100; modules/statistics.views_default.inc:226,226,226,226,226,226; modules/taxonomy.views_default.inc:91,91,91,91,91,91; plugins/views_plugin_exposed_form.inc:25,25; views_export/views_export.module:117,117,117
+msgid "Apply"
+msgstr "Применить"
+
+#: views_ui.module:63,63,63,63; includes/convert.inc:29,29,29
+msgid "Convert"
+msgstr "Конвертировать"
+
+#: plugins/export_ui/views_ui.class.php:191,271,191,271,191,271,191,271,191,271,191,271; includes/admin.inc:301,328,1159,267,294,1117,301,328,1159,267,294,1117,301,328,1159; views_export/views_export.module:147,147,147
+msgid "Tag"
+msgstr "Тег"
+
+#: includes/plugins.inc:75,82,74,82,75,72,80,75,82,75,82,75,82,74,82,72,80,74,75,82; modules/node.views_default.inc:176,176,176,176,176,176; modules/taxonomy.views_default.inc:102,102,102,102,102,102; docs/docs.php:471,463,471,463
+msgid "Feed"
+msgstr "Лента"
+
+#: includes/admin.inc:822,5154,1165,4095,822,5154,1116,3234,821,5301,821,5301,821,5301,1165,4095,1116,3234,1165,4095,821,5301; includes/plugins.inc:228,267,348,239,278,357,228,267,348,218,245,240,279,360,240,279,360,240,279,360,239,278,357,218,245,239,278,357,240,279,360; plugins/views_plugin_cache_none.inc:10,10,17,17,17,10,10,10,17; plugins/views_plugin_display.inc:1115,1293,1334,1016,1176,1216,1115,1293,1334,684,820,839,867,1159,1345,1386,1159,1345,1386,1159,1345,1386,1038,1198,1238,684,820,839,867,1163,1349,1390,1038,1198,1238,1163,1349,1390; plugins/views_plugin_display_block.inc:79,78,79,72,80,80,80,78,72,78,80; plugins/views_plugin_display_feed.inc:127,110,127,128,128,128,110,110,110,128; plugins/views_plugin_display_page.inc:251,238,251,206,256,256,256,238,206,238; plugins/views_plugin_style_table.inc:248,235,248,249,249,258,253,253,258; views_ui.module:1358,1359; plugins/views_plugin_display_attachment.inc:103,103,103,103
+msgid "None"
+msgstr "Нет"
+
+#: modules/comment/views_handler_field_comment_link.inc:44,38,44,33,50,50,50,40,33,40,50; modules/node/views_handler_field_node_link.inc:38,41,38,34,44,44,44,47,34,47,44; modules/user/views_handler_field_user_link.inc:44,42,44,37,50,50,50,44,37,44,50; plugins/export_ui/views_ui.inc:18,18,18,18,18,18; includes/cache.inc:131,131,131; modules/node/views_handler_field_node_revision_link.inc:40,40,40,40
+msgid "view"
+msgstr "просмотреть"
+
+#: views_ui.module:1594,1595; includes/admin.inc:340,306,340,306,340
+msgid "Up"
+msgstr "Вверх"
+
+#: modules/node/views_plugin_argument_validate_node.inc:43,43,45,45,45,43,43,45; views_ui.module:240,516,544,1194,1593,241,517,545,1195,1594; modules/views_node.inc:906,920,907,921; includes/admin.inc:124,706,914,119,668,900,124,706,914,119,668,900,124,706,914; includes/convert.inc:34,157,34,157,34,157
+msgid "Delete"
+msgstr "Удалить"
+
+#: views.module:309,300,309,164,361,361,361,300,164,300,363,363; views.info:0,0,0,0,0,0,0,0; views_ui.info:0,0,0,0,0,0,0,0; plugins/export_ui/views_ui.inc:21,21,21,21,21,21; views_ui.module:95,25,96,25,25,25; views_rss.info:0; views_theme_wizard.info:0; views_export/views_export.info:0,0,0
+msgid "Views"
+msgstr "Представления"
+
+#: modules/node/views_plugin_argument_validate_node.inc:43,43,45,45,45,43,43,45; views_ui.module:181,238,113,182,239,113,113,113; modules/views_node.inc:878,892,879,893; includes/admin.inc:119,114,119,114,119; theme/theme.inc:104,104
+msgid "Edit"
+msgstr "Редактировать"
+
+#: plugins/views_plugin_display_page.inc:280,356,431,275,360,434,280,356,431,243,328,402,285,361,436,285,361,436,285,360,435,275,360,434,243,328,402,288,363,438,275,434,288,363,438; plugins/views_wizard/views_ui_base_views_wizard.class.php:172,172,180,180,180,180; views_ui.module:294,951,295,952
+msgid "Menu"
+msgstr "Меню"
+
+#: views_ui.module:306,307; includes/admin.inc:132,127,132,127,132
+msgid "Enable"
+msgstr "Включить"
+
+#: views_ui.module:415,919,1112,1124,920,1113,1125,415,427,427,427,427; includes/view.inc:2502,2504,2505,2285,2287,2288,2502,2504,2505,2626,2628,2629,2626,2628,2629,2626,2628,2629,2448,2450,2451,2634,2636,2637,2448,2450,2451,2634,2636,2637; plugins/views_plugin_display.inc:837,1104,837,1104
+msgid "Footer"
+msgstr "Подвал"
+
+#: views_ui.module:1137,1149,1138,1150; handlers/views_handler_field.inc:734,415,734,415,734; includes/view.inc:2293,2295,2296,2456,2458,2459,2456,2458,2459; plugins/views_plugin_display.inc:837,1120,837,1120
+msgid "Empty text"
+msgstr ""
+"Пустой текст (выводится при пустом "
+"представлении)"
+
+#: views_ui.module:84,85; views.module:288,152,288,152,288
+msgid "administer views"
+msgstr "управлять представлениями"
+
+#: modules/comment.views_default.inc:273,273,273,273,273,273; modules/views_user.inc:178,179
+msgid "Last Post"
+msgstr "Последнее сообщение"
+
+#: includes/admin.inc:3982,3982,4081,4081,4081,4081; plugins/export_ui/views_ui.class.php:145,145,145,145,145,145; includes/view.inc:2264,2106,2427,2106,2427
+msgid "Filter"
+msgstr "Фильтр"
+
+#: modules/aggregator.views.inc:103,256,103,256,97,253,97,253,97,253,103,256,103,256,103,256,97,253; modules/node.views.inc:245,257,245,254,231,542,231,542,231,575,257,254,257,231,575; modules/user.views.inc:188,188,195,195,195,195; modules/contact/views_handler_field_contact_link.inc:20,22,20,22
+msgid "Link"
+msgstr "Ссылка"
+
+#: handlers/views_handler_filter_in_operator.inc:309,318,309,300,318,318,318,319,300,319,318; modules/system.views.inc:567,347,567,220,574,574,574,347,220,347,574; plugins/views_plugin_access.inc:54,54,65,65,65,54,54,54,65; plugins/views_plugin_cache.inc:43,43,49,54,54,54,43,49,43,54; plugins/views_plugin_pager.inc:117,114,117,128,128,128,114,114,128; plugins/views_plugin_exposed_form.inc:28,28,28
+msgid "Unknown"
+msgstr "Неизвестно"
+
+#: includes/plugins.inc:234,245,234,224,246,246,246,245,224,245,246; plugins/views_plugin_access_role.inc:42,41,42,37,49,49,49,41,37,41,49
+msgid "Role"
+msgstr "Роль"
+
+#: modules/comment/views_handler_field_node_comment.inc:18,18,23,23,23,23; modules/comment/views_handler_filter_node_comment.inc:13,13,18,18,18,18
+msgid "Open"
+msgstr "Открыто"
+
+#: includes/admin.inc:3802,2904,2909,3802,3901,3901,3901,2904,2909,2904,2909,3901; modules/locale.views.inc:75,75,70,70,70,75,75,75,70; modules/locale/views_handler_filter_locale_group.inc:11,9,11,16,16,16,11,9,11,16
+msgid "Group"
+msgstr "Группа"
+
+#: views_ui.module:411,411,423,423,423,423; includes/handlers.inc:396,396,404,404,404,404
+msgid "More"
+msgstr "Еще"
+
+#: includes/admin.inc:4211,3205,4211,2457,4349,4349,4349,3205,2457,3205,4349; includes/view.inc:2489,2490,2272,2273,2489,2490,2114,2115,2613,2614,2613,2614,2613,2614,2435,2436,2114,2115,2621,2622,2435,2436,2621,2622; plugins/views_plugin_row.inc:85,84,85,84,84,84,84,84,84
+msgid "Relationship"
+msgstr "Связь"
+
+#: modules/field.views.inc:123,123,119,119,119,119; modules/file.views.inc:50,50,46,46,46,46; modules/image.views.inc:49,49,45,45,45,45; modules/taxonomy.views.inc:430,232,430,203,462,462,462,232,203,232,462; modules/comment.views.inc:314,368,252,258,293,314,368,252,258,293,314,368; modules/node.views.inc:23,28,89,459,474,515,651,793,804,817,432,447,488,624,760,771,784,23,28,89,459,474,515,651,793,804,817,23,28,89,432,447,488,624,760,771,784,23,28,89,459,474,515,651,793,804,817; modules/upload.views.inc:42,42,42
+msgid "Node"
+msgstr "Материал"
+
+#: handlers/views_handler_argument.inc:606,606,623,623,623,623; handlers/views_handler_sort.inc:53,53
+msgid "Sort order"
+msgstr "Порядок сортировки"
+
+#: handlers/views_handler_field.inc:525,564,604,525,564,604,551,590,630,551,590,630,551,590,630,551,590,630; plugins/views_plugin_display.inc:1339,1420,1221,1310,1339,1420,872,923,1391,1472,1391,1472,1391,1472,1243,1332,872,923,1395,1476,1243,1332,1395,1476
+msgid "CSS class"
+msgstr "CSS класс"
+
+#: modules/comment/views_plugin_row_comment_rss.inc:34,34,35,35,35,35; modules/comment/views_plugin_row_comment_view.inc:48,23,48,20,49,49,49,23,20,23,49; modules/node/views_plugin_row_node_rss.inc:50,50,51,51,51,51; modules/node/views_plugin_row_node_view.inc:56,63,56,57,57,57,63,63,63,57
+msgid "Display links"
+msgstr "Отображать связи"
+
+#: modules/taxonomy/views_handler_field_term_node_tid.inc:67,55,67,54,71,71,71,56,54,56,71; modules/taxonomy/views_handler_relationship_node_term_data.inc:43,28,43,43,43,43,34,28,34,43; modules/taxonomy/views_plugin_argument_default_taxonomy_tid.inc:66,62,66,67,70,70,70,62,67,62,70; modules/taxonomy/views_plugin_argument_validate_taxonomy_term.inc:45,29,45,22,46,46,46,29,22,29,46
+msgid "Vocabularies"
+msgstr "Словари"
+
+#: includes/admin.inc:361,361,362,362,362,362; plugins/views_plugin_display.inc:1153,1153,1197,1197,1197,1201,1201
+msgid "Show"
+msgstr "Показать"
+
+#: handlers/views_handler_filter_numeric.inc:99,99,104,104,104,104; handlers/views_handler_filter_string.inc:123,123,128,128,128,128
+msgid "regex"
+msgstr ""
+
+#: modules/comment.views.inc:363,363,381,381,381,381; modules/node.views.inc:398,398,384,384,384,384
+msgid "author"
+msgstr "автор"
+
+#: plugins/export_ui/views_ui.class.php:286,286,286,286,286,286; theme/theme.inc:509,443,509,355,512,512,512,443,355,443,512
+msgid "sort by @s"
+msgstr "сортировать по @s"
+
+#: plugins/views_plugin_query_default.inc:212,187,212,252,252,252,194,194,252; plugins/views_plugin_display.inc:763,997,763,997
+msgid "Distinct"
+msgstr "Уникальность"
+
+#: includes/admin.inc:4771,4771,4911,4911,4911,4911; plugins/views_plugin_display.inc:1277,1526,1161,1420,1277,1526,797,1046,1329,1586,1329,1586,1329,1586,1183,1442,797,1046,1333,1590,1183,1442,1333,1590; plugins/views_plugin_display_block.inc:99,93,99,93,99
+msgid "Caching"
+msgstr "Кэширование"
+
+#: handlers/views_handler_field_boolean.inc:33,33,38,38,38,33,33,33,40,40; handlers/views_handler_filter_boolean_operator.inc:27,68,23,64,27,68,22,60,33,74,33,74,33,74,27,68,22,60,27,68,33,74
+msgid "True"
+msgstr "Истина"
+
+#: handlers/views_handler_field_boolean.inc:33,33,38,38,38,33,33,33,40,40; handlers/views_handler_filter_boolean_operator.inc:68,64,68,60,74,74,74,68,60,68,74
+msgid "False"
+msgstr "Ложь"
+
+#: includes/admin.inc:204,240,243,460,204,240,243,399,430,205,241,244,205,241,244,205,241,244,460,399,430,460,205,241,244; plugins/views_plugin_query.inc:166,178,178; plugins/views_plugin_query_default.inc:1334,1378,1378
+msgid "Query"
+msgstr "SQL-запрос"
+
+#: handlers/views_handler_filter_in_operator.inc:110,110,91,116,116,116,111,91,111,116; handlers/views_handler_filter_many_to_one.inc:76,61,76,59,81,81,81,63,59,63,81; handlers/views_handler_filter_numeric.inc:82,82,80,87,87,87,84,80,84,87; handlers/views_handler_filter_string.inc:107,107,95,112,112,112,108,95,108,112
+msgid "empty"
+msgstr "пусто"
+
+#: includes/handlers.inc:555,555,555; handlers/views_handler_filter.inc:222,222
+msgid "Hide"
+msgstr "Скрыть"
+
+#: includes/view.inc:2460,2242,2460,2084,2584,2584,2584,2405,2084,2592,2405,2592; plugins/views_wizard/views_ui_comment_views_wizard.class.php:8,8,16,16,16,16; plugins/views_wizard/views_ui_node_views_wizard.class.php:11,11,19,19,19,19
+msgid "fields"
+msgstr "поля"
+
+#: handlers/views_handler_argument.inc:613,613,630,630,630,630; modules/comment.views_default.inc:113,261,113,261,113,261,113,261,113,261,113,261; modules/node.views_default.inc:87,169,298,87,169,298,87,169,298,87,169,298,87,169,298,87,169,298; modules/node.views_template.inc:118,118,120,120,120,120; modules/search.views_default.inc:102,102,102,102,102,102; modules/statistics.views_default.inc:228,228,228,228,228,228; modules/taxonomy.views_default.inc:93,93,93,93,93,93; includes/admin.inc:324,290,324,290,324
+msgid "Sort by"
+msgstr "Сортировать по"
+
+#: views_ui.module:59,55,59,51,51,51,55,55,55,51; includes/plugins.inc:287,298,287,299,299,299,298,298,299; plugins/views_plugin_exposed_form_basic.inc:9,9
+msgid "Basic"
+msgstr "Базовый"
+
+#: handlers/views_handler_field_boolean.inc:34,34,39,39,39,34,34,34,41,41; handlers/views_handler_filter_boolean_operator.inc:59,55,59,54,65,65,65,59,54,59,65
+msgid "Off"
+msgstr "Выкл"
+
+#: handlers/views_handler_field_boolean.inc:34,34,39,39,39,34,34,34,41,41; handlers/views_handler_filter_boolean_operator.inc:59,55,59,54,65,65,65,59,54,59,65
+msgid "On"
+msgstr "Вкл"
+
+#: handlers/views_handler_filter_numeric.inc:98,98,103,103,103,103; handlers/views_handler_filter_string.inc:122,122,127,127,127,127
+msgid "Regular expression"
+msgstr "Регулярное выражение"
+
+#: modules/node.views_template.inc:113,113,115,115,115,115; docs/docs.php:327,319,327,319; includes/plugins.inc:23,25,23,25,23
+msgid "Defaults"
+msgstr "По умолчанию"
+
+#: modules/taxonomy.views.inc:132,109,244,132,95,215,146,171,146,171,146,171,109,244,95,215,109,244,146,171; modules/taxonomy/views_plugin_argument_validate_taxonomy_term.inc:55,39,55,34,56,56,56,39,34,39,56
+msgid "Term ID"
+msgstr "ID термина"
+
+#: modules/comment.views.inc:194,185,194,212,212,212,185,185,212; modules/node.views.inc:281,291,281,288,267,267,267,291,288,291,267; modules/user.views.inc:196,211,167,182,196,211,158,203,218,203,218,203,218,167,182,158,167,182,203,218
+msgid "Created date"
+msgstr "Дата создания"
+
+#: modules/comment.views.inc:178,178,196,196,196,196; modules/node.views.inc:128,335,532,124,345,557,128,335,532,342,530,112,321,526,112,321,526,112,321,559,124,345,557,124,342,530,124,345,557,112,321,559; modules/tracker.views.inc:44,127,44,127
+msgid "Updated date"
+msgstr "Дата обновления"
+
+#: modules/comment.views_default.inc:271,271,271,271,271,271; modules/statistics.views_default.inc:240,240,240,240,240,240
+msgid "."
+msgstr "."
+
+#: handlers/views_handler_filter_in_operator.inc:92,92,73,98,98,98,93,73,93,98; handlers/views_handler_filter_many_to_one.inc:48,56,33,41,48,56,31,39,53,61,53,61,53,61,35,43,31,39,35,43,53,61; handlers/views_handler_filter_numeric.inc:41,41,39,46,46,46,43,39,43,46; handlers/views_handler_filter_string.inc:30,30,35,35,35,31,30,31,35
+msgid "="
+msgstr "="
+
+#: handlers/views_handler_filter_equality.inc:16,14,16,22,22,22,16,14,16,22; handlers/views_handler_filter_numeric.inc:39,39,37,44,44,44,41,37,41,44; handlers/views_handler_filter_string.inc:29,29,34,34,34,30,29,30,34
+msgid "Is equal to"
+msgstr "Равно"
+
+#: handlers/views_handler_filter_equality.inc:17,15,17,23,23,23,17,15,17,23; handlers/views_handler_filter_numeric.inc:45,45,43,50,50,50,47,43,47,50; handlers/views_handler_filter_string.inc:35,35,40,40,40,36,35,36,40
+msgid "Is not equal to"
+msgstr "Не равно"
+
+#: views_ui.module:407,407,419,419,419,419; plugins/views_plugin_display.inc:1070,1070,1114,1114,1114,1118,1118
+msgid "Pager"
+msgstr "Навигатор"
+
+#: handlers/views_handler_field.inc:256,228,256,271,271,271,228,228,271; handlers/views_handler_field_numeric.inc:56,56,62,62,62,62; plugins/views_plugin_style.inc:169,164,170,90,189,189,189,173,90,173,189; includes/admin.inc:251,228,251,228,251; plugins/views_plugin_row_rss_fields.inc:26,26,26,26; plugins/views_plugin_style_mapping.inc:80,80
+msgid "- None -"
+msgstr "- Нет -"
+
+#: handlers/views_handler_field_prerender_list.inc:36,37,36,27,41,41,41,37,27,37,41; modules/aggregator/views_plugin_row_aggregator_rss.inc:25,25,22,26,26,26,25,22,25,26; modules/comment/views_plugin_row_comment_rss.inc:28,28,29,29,29,29; modules/field/views_handler_field_field.inc:463,463,520,520,520,520; modules/node/views_plugin_row_node_rss.inc:44,29,44,45,45,45,29,29,29,45
+msgid "Display type"
+msgstr "Вид элемента"
+
+#: handlers/views_handler_argument_many_to_one.inc:135,125,135,141,141,141,125,125,125,141; handlers/views_handler_argument_numeric.inc:74,60,74,75,75,75,60,60,60,75; handlers/views_handler_argument_string.inc:264,273,264,257,257,257,273,273,257
+msgid "Invalid input"
+msgstr "Ошибочный ввод"
+
+#: plugins/views_plugin_style_summary.inc:33,33,34,34,34,33,33,33,34; plugins/views_plugin_style_summary_jump_menu.inc:38,39,38,41,39,39,40,39,41,39,41,41
+msgid "Base path"
+msgstr "Базовый путь"
+
+#: handlers/views_handler_field.inc:491,383,491,517,517,517,383,383,517; plugins/views_plugin_display.inc:983,1005,1005
+msgid "Style settings"
+msgstr "Настройки стиля"
+
+#: modules/node/views_plugin_argument_validate_node.inc:49,46,49,46,49; modules/taxonomy/views_plugin_argument_validate_taxonomy_term.inc:37,32,37,32,37
+msgid "Argument type"
+msgstr "Тип аргумента"
+
+#: plugins/views_plugin_display.inc:1198,2974,1099,1198,2974,747,958,1250,3062,1250,3062,1250,3062,1121,747,958,1254,3066,1121,1254,3066; plugins/views_plugin_style_summary.inc:54,53,54,55,55,55,53,53,53,55; plugins/views_wizard/views_ui_base_views_wizard.class.php:136,136,144,144,144,144; plugins/views_plugin_pager_some.inc:29,29,29
+msgid "Items to display"
+msgstr "Элементы для показа"
+
+#: modules/comment.views_default.inc:266,266,266,266,266,266; modules/node.views_default.inc:92,174,303,92,174,303,92,174,303,92,174,303,92,174,303,92,174,303; modules/node.views_template.inc:123,123,125,125,125,125; modules/search.views_default.inc:107,107,107,107,107,107; modules/statistics.views_default.inc:233,233,233,233,233,233; modules/taxonomy.views_default.inc:98,98,98,98,98,98; plugins/views_plugin_pager_full.inc:52,50,52,67,67,67,50,50,67; plugins/views_plugin_pager_none.inc:38,37,38,43,43,43,37,37,43; plugins/views_plugin_pager_some.inc:39,37,39,44,44,44,37,37,44; plugins/views_plugin_display.inc:967,967
+msgid "Offset"
+msgstr "Пропустить"
+
+#: includes/admin.inc:306,1954,592,793,306,1954,562,755,307,1967,307,1967,307,1967,592,793,562,755,592,793,307,1967; plugins/export_ui/views_ui.class.php:269,418,425,269,418,425,269,418,425,269,418,425,269,423,430,269,423,430; includes/convert.inc:19,19,19
+msgid "View name"
+msgstr "Имя представления"
+
+#: includes/admin.inc:704,666,704,666,704; includes/convert.inc:154,154,154
+msgid "Are you sure you want to delete the view %name?"
+msgstr ""
+"Вы уверены, что хотите удалить "
+"представление %name?"
+
+#: plugins/views_plugin_display.inc:1127,1128,1148,1149,1034,1052,1127,1128,1148,1149,695,713,1171,1172,1192,1193,1171,1172,1192,1193,1171,1172,1192,1193,1056,1074,695,713,1175,1176,1196,1197,1056,1074,1175,1176,1196,1197; includes/admin.inc:1374,1302,1374,1302,1374
+msgid "Missing style plugin"
+msgstr "Отсутствует плагин стиля"
+
+#: handlers/views_handler_filter_in_operator.inc:90,90,71,96,96,96,91,71,91,96; handlers/views_handler_filter_many_to_one.inc:46,31,46,29,51,51,51,33,29,33,51; modules/taxonomy/views_handler_filter_term_node_tid_depth.inc:13,11,13,19,19,19,13,11,13,19
+msgid "Is one of"
+msgstr "Любые:"
+
+#: modules/comment.views_default.inc:264,264,264,264,264,264; modules/node.views_default.inc:90,172,301,90,172,301,90,172,301,90,172,301,90,172,301,90,172,301; modules/node.views_template.inc:121,121,123,123,123,123; modules/search.views_default.inc:105,105,105,105,105,105; modules/statistics.views_default.inc:231,231,231,231,231,231; modules/taxonomy.views_default.inc:96,96,96,96,96,96; plugins/views_plugin_display_page.inc:547,547,551,551,550,553,553; plugins/views_wizard/views_ui_base_views_wizard.class.php:267,267,275,275,275,275; plugins/views_plugin_pager_full.inc:42,42,42; plugins/views_plugin_display.inc:747,958,747,958
+msgid "Items per page"
+msgstr "Элементов на страницу"
+
+#: plugins/views_plugin_display_page.inc:548,548,552,552,551,554,554; plugins/views_plugin_pager_full.inc:44,44,44; plugins/views_plugin_display.inc:962,962
+msgid "The number of items to display per page. Enter 0 for no limit."
+msgstr ""
+"Количество элементов, показываемых на "
+"странице. Укажите 0 для снятия "
+"ограничений."
+
+#: plugins/views_plugin_pager_full.inc:53,51,53,68,68,68,51,51,68; plugins/views_plugin_pager_none.inc:39,38,39,44,44,44,38,38,44; plugins/views_plugin_pager_some.inc:40,38,40,45,45,45,38,38,45
+msgid ""
+"The number of items to skip. For example, if this field is 3, the "
+"first 3 items will be skipped and not displayed."
+msgstr ""
+"Количество пропущенных пунктов. "
+"Например, если в этом поле 3, то 3 первых "
+"пункта будет пропущено и не "
+"отображено."
+
+#: handlers/views_handler_area.inc:59,57,59,79,79,79,57,57,79; plugins/views_plugin_display.inc:1091,1107,1091,1107
+msgid "Display even if view has no result"
+msgstr "Показывать даже если результат пустой"
+
+#: handlers/views_handler_field_prerender_list.inc:38,39,38,29,43,43,43,39,29,39,43; modules/field/views_handler_field_field.inc:465,465,522,522,522,522; plugins/views_plugin_style_list.inc:34,34,32,35,35,35,34,32,34,35
+msgid "Unordered list"
+msgstr "Маркированный список"
+
+#: handlers/views_handler_field_prerender_list.inc:39,40,39,30,44,44,44,40,30,40,44; modules/field/views_handler_field_field.inc:466,466,523,523,523,523; plugins/views_plugin_style_list.inc:34,34,32,35,35,35,34,32,34,35
+msgid "Ordered list"
+msgstr "Нумерованный список"
+
+#: plugins/views_plugin_style_summary.inc:44,44,45,45,45,44,44,44,45; plugins/views_plugin_style_summary_jump_menu.inc:49,50,49,52,50,50,51,50,52,50,52,52
+msgid "Display record count with link"
+msgstr "Показать число записей с ссылкой"
+
+#: modules/comment.views.inc:333,306,333,351,351,351,306,306,351; modules/node.views.inc:61,56,61,45,45,45,460,56,56,56,45,460; modules/tracker.views.inc:24,88,24,88
+msgid "Nid"
+msgstr "Nid"
+
+#: modules/comment.views.inc:161,170,161,157,157,157,170,170,170,157; modules/node.views.inc:112,108,112,96,96,96,108,108,108,96
+msgid "Post date"
+msgstr "Дата создания"
+
+#: modules/node.views.inc:533,125,558,533,531,527,527,560,125,558,125,531,125,558,560; modules/tracker.views.inc:45,45
+msgid "The date the node was last updated."
+msgstr "Дата последнего изменения материала."
+
+#: modules/comment.views.inc:204,194,204,222,222,222,194,194,222; modules/node.views.inc:290,300,290,297,276,276,276,300,297,300,276; modules/user.views.inc:220,191,220,227,227,227,191,191,227
+msgid "Created year + month"
+msgstr "Год и месяц создания"
+
+#: modules/comment.views.inc:214,203,214,232,232,232,203,203,232; modules/node.views.inc:299,309,299,306,285,285,285,309,306,309,285; modules/user.views.inc:230,200,230,237,237,237,200,200,237
+msgid "Created year"
+msgstr "Год создания"
+
+#: modules/comment.views.inc:224,212,224,242,242,242,212,212,242; modules/node.views.inc:308,318,308,315,294,294,294,318,315,318,294; modules/user.views.inc:239,209,239,246,246,246,209,209,246
+msgid "Created month"
+msgstr "Месяц создания"
+
+#: modules/user.views.inc:50,47,50,47,47,47,47,47,47; modules/comment.views.inc:328,328,328; modules/tracker.views.inc:108,108
+msgid "Uid"
+msgstr "Uid"
+
+#: plugins/export_ui/views_ui.class.php:192,192,192,192,192,192; includes/admin.inc:255,232,255,232,255
+msgid "Storage"
+msgstr "Хранилище"
+
+#: handlers/views_handler_field_url.inc:22,23,22,27,27,27,23,23,23,27; modules/aggregator/views_handler_field_aggregator_title_link.inc:28,27,28,33,33,33,29,27,29,33; modules/statistics/views_handler_field_accesslog_path.inc:31,30,31,37,37,37,32,30,32,37
+msgid "Display as link"
+msgstr "Выводить в виде ссылки"
+
+#: includes/handlers.inc:548,548,548; handlers/views_handler_filter.inc:215,215
+msgid ""
+"This item is currently not exposed. If you <strong>expose</strong> it, "
+"users will be able to change the filter as they view it."
+msgstr ""
+"Этот элемент сейчас не раскрыт. Если "
+"вы <strong>раскроете</strong> его, то "
+"пользователи смогут использовать "
+"фильтр самостоятельно."
+
+#: handlers/views_handler_filter_boolean_operator.inc:127,123,127,119,136,136,136,127,119,127,136; handlers/views_handler_filter_in_operator.inc:288,297,288,279,297,297,297,298,279,298,297; handlers/views_handler_filter_numeric.inc:261,310,261,246,269,269,269,312,246,312,269; handlers/views_handler_filter_string.inc:147,136,147,124,155,155,155,137,124,137,155; modules/node/views_handler_filter_history_user_timestamp.inc:77,67,77,84,84,84,69,67,69,84
+msgid "exposed"
+msgstr "раскрыт"
+
+#: modules/statistics.views.inc:52,52,48,48,48,52,52,52,48; modules/statistics.views_default.inc:239,239,239,239,239,239
+msgid "Views today"
+msgstr "Просмотров сегодня"
+
+#: views_ui.module:109,109,101,101,101,101; includes/admin.inc:869,749,869,711,868,868,868,749,711,749,868
+msgid "Break lock"
+msgstr "Прервать блокировку"
+
+#: includes/plugins.inc:294,305,294,306,306,306,305,305,306; plugins/views_plugin_exposed_form_input_required.inc:9,9,9
+msgid "Input required"
+msgstr "Требуется ввод"
+
+#: modules/node.views_default.inc:94,94,94,94,94,94; modules/taxonomy.views_default.inc:100,100,100,100,100,100
+msgid "%1"
+msgstr "%1"
+
+#: plugins/export_ui/views_ui.inc:33,33,33,33,33,33; includes/admin.inc:723,685,723,685,723
+msgid "The view has been deleted."
+msgstr "Представление было удалено."
+
+#: includes/admin.inc:4196,3190,4196,2442,4334,4334,4334,3190,2442,3190,4334; plugins/views_plugin_row.inc:76,75,76,75,75,75,75,75,75
+msgid "Do not use a relationship"
+msgstr "Не использовать связь"
+
+#: handlers/views_handler_field_prerender_list.inc:40,41,40,31,45,45,45,41,31,41,45; modules/field/views_handler_field_field.inc:467,467,524,524,524,524
+msgid "Simple separator"
+msgstr "Простой разделитель"
+
+#: handlers/views_handler_filter_in_operator.inc:108,108,89,114,114,114,109,89,109,114; handlers/views_handler_filter_many_to_one.inc:74,59,74,57,79,79,79,61,57,61,79; handlers/views_handler_filter_numeric.inc:80,80,78,85,85,85,82,78,82,85; handlers/views_handler_filter_string.inc:105,105,93,110,110,110,106,93,106,110
+msgid "Is empty (NULL)"
+msgstr "<Нет>"
+
+#: handlers/views_handler_filter_in_operator.inc:116,116,97,122,122,122,117,97,117,122; handlers/views_handler_filter_many_to_one.inc:82,67,82,65,87,87,87,69,65,69,87; handlers/views_handler_filter_numeric.inc:88,88,86,93,93,93,90,86,90,93; handlers/views_handler_filter_string.inc:113,113,101,118,118,118,114,101,114,118
+msgid "not empty"
+msgstr "не пусто"
+
+#: handlers/views_handler_filter_numeric.inc:47,47,45,52,52,52,49,45,49,52; handlers/views_handler_filter_string.inc:36,36,41,41,41,37,36,37,41
+msgid "!="
+msgstr "!="
+
+#: handlers/views_handler_argument_string.inc:64,79,71,85,64,79,70,84,69,84,69,84,69,84,71,85,70,84,71,85,69,84; handlers/views_handler_field.inc:700,700,726,726,726,726
+msgid "No transform"
+msgstr "Не изменять"
+
+#: handlers/views_handler_argument_string.inc:65,80,72,86,65,80,71,85,70,85,70,85,70,85,72,86,71,85,72,86,70,85; handlers/views_handler_field.inc:701,701,727,727,727,727
+msgid "Upper case"
+msgstr "Привести к верхнему регистру"
+
+#: handlers/views_handler_argument_string.inc:66,81,73,87,66,81,72,86,71,86,71,86,71,86,73,87,72,86,73,87,71,86; handlers/views_handler_field.inc:702,702,728,728,728,728
+msgid "Lower case"
+msgstr "Привести к нижнему регистру"
+
+#: handlers/views_handler_argument_string.inc:67,82,74,88,67,82,73,87,72,87,72,87,72,87,74,88,73,87,74,88,72,87; handlers/views_handler_field.inc:703,703,729,729,729,729
+msgid "Capitalize first letter"
+msgstr "Первая буква заглавная"
+
+#: handlers/views_handler_argument_string.inc:68,83,75,89,68,83,74,88,73,88,73,88,73,88,75,89,74,88,75,89,73,88; handlers/views_handler_field.inc:704,704,730,730,730,730
+msgid "Capitalize each word"
+msgstr "Каждое слово - с заглавной буквы"
+
+#: includes/plugins.inc:333,333,345,345,345,345; plugins/views_plugin_display.inc:739,739
+msgid "Mini"
+msgstr "Мини"
+
+#: modules/node.views.inc:57,57,57,57; modules/tracker.views.inc:25,25
+msgid "The node ID of the node."
+msgstr "ID материала."
+
+#: modules/comment.views.inc:285,268,285,214,303,303,303,268,214,268,303; modules/locale.views.inc:122,122,117,117,117,122,122,122,117; modules/node.views.inc:254,265,254,262,240,240,240,265,262,265,240; modules/user.views.inc:335,302,335,238,342,342,342,302,238,302,342
+msgid "Edit link"
+msgstr "Ссылка на редактирование"
+
+#: modules/comment.views.inc:294,277,294,223,312,312,312,277,223,277,312; modules/node.views.inc:263,556,273,614,263,556,270,587,249,558,249,558,249,591,273,614,270,587,273,614,249,591; modules/user.views.inc:310,246,310,246,310
+msgid "Delete link"
+msgstr "Ссылка на удаление"
+
+#: modules/comment.views.inc:244,230,244,262,262,262,230,230,262; modules/node.views.inc:326,336,326,333,312,312,312,336,333,336,312; modules/user.views.inc:257,227,257,264,264,264,227,227,264
+msgid "Created week"
+msgstr "Неделя создания"
+
+#: modules/node.views.inc:610,667,610,640,612,612,645,667,640,667,645; modules/node/views_handler_filter_history_user_timestamp.inc:30,22,30,37,37,37,24,22,24,37
+msgid "Has new content"
+msgstr "Содержимое обновлено"
+
+#: modules/comment/views_handler_field_comment_link.inc:22,22,28,28,28,24,22,24,28; modules/locale/views_handler_field_locale_link_edit.inc:25,24,25,30,30,30,26,24,26,30; modules/node/views_handler_field_node_link.inc:18,23,18,24,24,24,25,23,25,24; modules/taxonomy/views_handler_field_term_link_edit.inc:30,24,30,35,35,35,26,26,35; modules/user/views_handler_field_user_link.inc:22,21,22,28,28,28,23,21,23,28
+msgid "Text to display"
+msgstr "Текст для показа"
+
+#: modules/locale/views_handler_argument_locale_language.inc:31,29,31,36,36,36,31,29,31,36; modules/node/views_handler_argument_node_language.inc:28,28,34,34,34,28,28,28,34; modules/translation/views_handler_argument_node_language.inc:28,28,28
+msgid "Unknown language"
+msgstr "Неизвестный язык"
+
+#: modules/taxonomy/views_handler_field_term_node_tid.inc:52,41,52,40,57,57,57,42,40,42,57; modules/taxonomy/views_plugin_argument_default_taxonomy_tid.inc:48,44,48,46,52,52,52,44,46,44,52
+msgid "Limit terms by vocabulary"
+msgstr "Ограничить термины словарем"
+
+#: modules/taxonomy/views_handler_argument_taxonomy.inc:22,20,22,17,27,27,27,22,17,22,27; modules/taxonomy/views_handler_argument_term_node_tid_depth.inc:137,136,137,134,143,143,143,138,134,138,143
+msgid "No name"
+msgstr "Без имени"
+
+#: modules/taxonomy/views_handler_argument_vocabulary_machine_name.inc:16,16,21,21,21,21; modules/taxonomy/views_handler_argument_vocabulary_vid.inc:16,14,16,21,21,21,16,14,16,21
+msgid "No vocabulary"
+msgstr "Нет словаря"
+
+#: plugins/views_plugin_display.inc:1160,1047,1062,1160,708,723,1204,1204,1204,1069,1084,708,723,1208,1069,1084,1208; includes/admin.inc:1378,1306,1378,1306,1378
+msgid "Change settings for this style"
+msgstr "Изменить настройки этого стиля"
+
+#: handlers/views_handler_argument_many_to_one.inc:54,54; handlers/views_handler_argument_string.inc:102,102
+msgid "Allow multiple arguments to work together."
+msgstr ""
+"Позволить несколько аргументов, чтобы "
+"они работали вместе."
+
+#: handlers/views_handler_argument_many_to_one.inc:55,55,55,55; handlers/views_handler_argument_string.inc:104,103,104,103,104
+msgid ""
+"If selected, multiple instances of this argument can work together, as "
+"though multiple terms were supplied to the same argument. This setting "
+"is not compatible with the \"Reduce duplicates\" setting."
+msgstr ""
+
+#: handlers/views_handler_argument_many_to_one.inc:70,61,70,76,76,76,61,61,61,76; handlers/views_handler_argument_string.inc:107,110,107,109,112,112,112,110,109,110,112
+msgid "Do not display items with no value in summary"
+msgstr ""
+"Не показывать элементы без значения в "
+"сводке"
+
+#: handlers/views_handler_argument_many_to_one.inc:46,46; handlers/views_handler_argument_numeric.inc:29,29
+msgid "Allow multiple terms per argument."
+msgstr ""
+"Разрешить несколько терминов в "
+"аргументе."
+
+#: plugins/views_plugin_pager_full.inc:60,58,60,75,75,75,58,58,75; plugins/views_plugin_display.inc:953,953
+msgid ""
+"Unless you're experiencing problems with pagers related to this view, "
+"you should leave this at 0. If using multiple pagers on one page you "
+"may need to set this number to a higher value so as not to conflict "
+"within the ?page= array. Large values will add a lot of commas to your "
+"URLs, so avoid if possible."
+msgstr ""
+"Оставьте 0 в этом поле, если только при "
+"использовании этого представления не "
+"возникают проблемы с навигатором. "
+"Если на одной странице несколько "
+"навигаторов, возможно, потребуется "
+"установить здесь другой номер, чтобы "
+"не было конфликтов внутри ?page= array. "
+"Большие значения добавляют много "
+"запятых в ваш URL-адрес, так что по "
+"возможности старайтесь избегать их."
+
+#: plugins/views_plugin_query_default.inc:213,188,213,253,253,253,195,195,253; plugins/views_plugin_display.inc:998,998
+msgid ""
+"This will make the view display only distinct items. If there are "
+"multiple identical items, each will be displayed only once. You can "
+"use this to try and remove duplicates from a view, though it does not "
+"always work. Note that this can slow queries down, so use it with "
+"caution."
+msgstr ""
+"Эта настройка позволит отображать "
+"только уникальные элементы. Если в "
+"результат попадут  идентичные "
+"элементы, то они будут отображаться "
+"только один раз. Может не всегда "
+"работать. Может замедлить выборку, так "
+"что используйте осторожно."
+
+#: modules/system/views_handler_field_file.inc:29,28,29,35,35,35,30,28,30,35; modules/upload/views_handler_field_upload_description.inc:23,23,23; modules/upload/views_handler_field_upload_fid.inc:20,20,20
+msgid "Link this field to download the file"
+msgstr "Ссылка на загрузку этого файла"
+
+#: includes/admin.inc:1068,1032,1068,1032,1068; theme/theme.inc:112,112
+msgid "Export this view"
+msgstr "Экспортировать это представление"
+
+#: includes/admin.inc:1073,1037,1073,1037,1073; theme/theme.inc:117,117
+msgid "Create a copy of this view"
+msgstr "Создать копию этого представления"
+
+#: plugins/views_plugin_display_attachment.inc:67,93,67,68,68,68,93,93,93,68; plugins/views_plugin_display_feed.inc:117,100,117,118,118,118,100,100,100,118
+msgid "Multiple displays"
+msgstr "Несколько отображений"
+
+#: plugins/views_plugin_display_attachment.inc:82,172,108,167,82,172,83,173,83,173,83,173,108,167,108,167,108,167,83,173; plugins/views_plugin_display_feed.inc:132,159,115,142,132,159,133,160,133,160,133,159,115,142,115,142,115,142,133,159
+msgid "Attach to"
+msgstr "Прикрепить к"
+
+#: plugins/views_plugin_argument_default_fixed.inc:21,21,21; plugins/views_plugin_argument_default.inc:41,41
+msgid "Default argument"
+msgstr "Аргумент по умолчанию"
+
+#: modules/aggregator/views_plugin_row_aggregator_rss.inc:28,28,25,29,29,29,28,25,28,29; modules/node/views_plugin_row_node_rss.inc:32,32,32,32
+msgid "Title plus teaser"
+msgstr "Заголовок и анонс"
+
+#: modules/aggregator/views_plugin_row_aggregator_rss.inc:30,30,27,31,31,31,30,27,30,31; modules/node/views_plugin_row_node_rss.inc:34,34,34,34
+msgid "Use default RSS settings"
+msgstr ""
+"Использовать установки RSS по "
+"умолчанию"
+
+#: modules/upload.views.inc:122,121,122,121; modules/upload/views_handler_filter_upload_fid.inc:9,9,9
+msgid "Has attached files"
+msgstr "Имеются прикрепленные файлы"
+
+#: includes/view.inc:2193,2019,2193,1868,2317,2317,2317,2168,1868,2325,2168,2325; plugins/export_ui/views_ui.class.php:211,211,211,211,211,211; includes/admin.inc:171,148,171,148,171
+msgid "Broken"
+msgstr "Прервано"
+
+#: modules/comment.views.inc:240,186,240,186,240; modules/node.views.inc:213,210,213,210,213
+msgid "In moderation"
+msgstr "На модерации"
+
+#: modules/node.views_default.inc:177,177,177,177,177,177; docs/docs.php:539,531,539,531
+msgid "Front page feed"
+msgstr "Лента главной страницы"
+
+#: modules/comment.views.inc:555,509,555,411,573,573,573,509,411,509,573; modules/tracker.views.inc:167,167
+msgid "User posted or commented"
+msgstr ""
+"Пользователь написавший или "
+"прокомментировавший."
+
+#: handlers/views_handler_field_serialized.inc:23,18,23,28,28,28,23,23,28; plugins/views_wizard/views_ui_base_views_wizard.class.php:123,254,123,254,131,262,131,262,131,262,131,262
+msgid "Display format"
+msgstr "Формат отображения"
+
+#: handlers/views_handler_filter_numeric.inc:193,224,193,180,198,198,198,226,180,226,198; includes/admin.inc:3606,3625,2697,2716,3606,3625,3705,3724,3705,3724,3705,3724,2697,2716,2697,2716,3705,3724
+msgid "And"
+msgstr "И"
+
+#: modules/translation.views.inc:32,32,32,32,32; modules/locale.views.inc:206,206,206,206
+msgid "The language the content is in."
+msgstr "Язык содержимого."
+
+#: modules/locale/views_handler_filter_locale_language.inc:13,10,13,18,18,18,12,10,12,18; modules/translation/views_handler_filter_node_language.inc:12,9,12,11,9; plugins/views_plugin_display.inc:1232,1615,1232,1615,1284,1675,1284,1675,1284,1675,1288,1679,1288,1679; modules/locale/views_handler_filter_node_language.inc:18,18,18,18
+msgid "Current user's language"
+msgstr "Язык текущего пользователя"
+
+#: handlers/views_handler_argument_numeric.inc:30,30,30,30; handlers/views_handler_argument_string.inc:119,119,119
+msgid ""
+"If selected, users can enter multiple arguments in the form of 1+2+3 "
+"or 1,2,3."
+msgstr ""
+"Если отмечено, то пользователи могут "
+"ввести составные  аргументы в виде 1+2+3 "
+"или 1,2,3."
+
+#: handlers/views_handler_argument_many_to_one.inc:46,46,46; handlers/views_handler_argument_numeric.inc:29,29,29; handlers/views_handler_argument_string.inc:118,118,118; modules/taxonomy/views_handler_argument_term_node_tid_depth.inc:31,33,31,33
+msgid "Allow multiple terms per argument"
+msgstr ""
+"Разрешить множественные термины для "
+"аргументов."
+
+#: modules/taxonomy/views_handler_argument_term_node_tid.inc:18,17,18,16,24,24,24,19,16,19,24; modules/taxonomy/views_handler_argument_term_node_tid_depth.inc:39,38,39,45,45,45,40,38,40,45
+msgid "Set the breadcrumb for the term parents"
+msgstr ""
+"Установить хлебные крошки для "
+"родительского термина"
+
+#: modules/taxonomy/views_handler_argument_term_node_tid.inc:19,18,19,17,25,25,25,20,17,20,25; modules/taxonomy/views_handler_argument_term_node_tid_depth.inc:40,39,40,46,46,46,41,39,41,46
+msgid ""
+"If selected, the breadcrumb trail will include all parent terms, each "
+"one linking to this view. Note that this only works if just one term "
+"was received."
+msgstr ""
+"При выборе хлебных крошек будет "
+"включать в себя все родительские "
+"термины, каждое со ссылками на это "
+"представление. Заметим, что это "
+"работает только, если хотя бы один "
+"термин был получен."
+
+#: modules/locale/views_handler_filter_locale_language.inc:15,10,15,20,20,20,12,10,12,20; modules/translation/views_handler_filter_node_language.inc:14,9,14,11,9; modules/locale/views_handler_filter_node_language.inc:20,20,20,20
+msgid "No language"
+msgstr "Нет языка"
+
+#: modules/taxonomy/views_handler_argument_term_node_tid_depth.inc:27,26,27,33,33,33,28,26,28,33; modules/taxonomy/views_handler_filter_term_node_tid_depth.inc:32,30,32,38,38,38,32,30,32,38
+msgid ""
+"The depth will match nodes tagged with terms in the hierarchy. For "
+"example, if you have the term \"fruit\" and a child term \"apple\", "
+"with a depth of 1 (or higher) then filtering for the term \"fruit\" "
+"will get nodes that are tagged with \"apple\" as well as \"fruit\". If "
+"negative, the reverse is true; searching for \"apple\" will also pick "
+"up nodes tagged with \"fruit\" if depth is -1 (or lower)."
+msgstr ""
+"Глубина будет соответствовать "
+"терминам материала в иерархии. "
+"Например, если у вас есть термин "
+"\"фрукт\", и дочерний термин \"яблоко\", "
+"глубиной 1 (или выше), то фильтрация по "
+"термину \"фрукт\" получит материалы, "
+"которые помечены как \"яблоко\", а также "
+"\" фрукты \". Если ответ отрицательный, "
+"то наоборот; поиск по слову \"яблоко\" "
+"будет также забрать материалы "
+"помеченые как \"фрукт\", если глубина -1 "
+"(или ниже)."
+
+#: handlers/views_handler_area.inc:92,88,92,112,112,112,90,90,112; handlers/views_handler_argument.inc:1193,926,1193,753,1221,1221,1221,926,753,926,1221; handlers/views_handler_field.inc:1431,1154,1430,788,1556,1556,1556,1157,788,1157,1556; handlers/views_handler_filter.inc:660,595,660,615,1381,1381,1381,609,615,609,1381; handlers/views_handler_relationship.inc:164,152,164,132,167,167,167,158,132,158,167; handlers/views_handler_sort.inc:212,172,212,65,220,220,220,174,65,174,220
+msgid "Broken/missing handler"
+msgstr "Обработчик испорчен или отсутствует"
+
+#: handlers/views_handler_area.inc:101,97,101,121,121,121,99,99,121; handlers/views_handler_argument.inc:1200,934,1200,761,1228,1228,1228,934,761,934,1228; handlers/views_handler_field.inc:1438,1162,1437,796,1563,1563,1563,1165,796,1165,1563; handlers/views_handler_filter.inc:667,603,667,623,1388,1388,1388,617,623,617,1388; handlers/views_handler_relationship.inc:171,160,171,140,174,174,174,166,140,166,174; handlers/views_handler_sort.inc:219,180,219,73,227,227,227,182,73,182,227
+msgid ""
+"The handler for this item is broken or missing and cannot be used. If "
+"a module provided the handler and was disabled, re-enabling the module "
+"may restore it. Otherwise, you should probably delete this item."
+msgstr ""
+"Обработчик этого пункта испорчен или "
+"отсутствует и не может быть "
+"использован. Если модуль "
+"предусматривал обработчик и был "
+"отключен, то повторное включение "
+"модуля, возможно, восстановит "
+"обработчик. В противном случае вам, "
+"скорее всего, нужно будет удалить этот "
+"пункт."
+
+#: includes/admin.inc:1493,1377,1493,1377,1493; plugins/views_plugin_display.inc:2245,1679,2268,1679,2268
+msgid "Update default display"
+msgstr "Обновить отображение по умолчанию"
+
+#: plugins/views_plugin_argument_default.inc:78,63,78,63,78; plugins/views_plugin_argument_validate.inc:82,82,82
+msgid ""
+"Note: you do not have permission to modify this. If you change the "
+"default argument type, this setting will be lost and you will NOT be "
+"able to get it back."
+msgstr ""
+
+#: handlers/views_handler_field.inc:867,867,893,893,893,893; plugins/views_plugin_display.inc:1465,1358,1465,988,1525,1525,1525,1380,988,1529,1380,1529
+msgid "More link text"
+msgstr "Текст ссылки"
+
+#: plugins/views_plugin_style_jump_menu.inc:66,66,67,67,68,66,66,66,69,69; plugins/views_plugin_style_summary_jump_menu.inc:61,62,61,64,62,62,63,62,64,62,64,64
+msgid "Button text"
+msgstr "Текст на кнопке"
+
+#: includes/admin.inc:2036,2036,829,2058,2058,2058,829,2058; includes/analyze.inc:107,107,107
+msgid "Display plugin @plugin is not available."
+msgstr "Отобразить плагин @plugin невозможно."
+
+#: includes/admin.inc:2043,2043,836,2065,2065,2065,836,2065; includes/analyze.inc:120,120,120
+msgid "Style plugin @plugin is not available."
+msgstr "Плагин стиля @plugin не доступен."
+
+#: includes/admin.inc:2059,2059,852,2081,2081,2081,852,2081; includes/analyze.inc:133,133,133
+msgid "@type handler @table.@field is not available."
+msgstr "Обработчик @type для @table.@field не доступен."
+
+#: modules/comment.views.inc:234,221,234,252,252,252,221,221,252; modules/node.views.inc:317,327,317,324,303,303,303,327,324,327,303; modules/user.views.inc:248,218,248,255,255,255,218,218,255
+msgid "Created day"
+msgstr "День создания"
+
+#: modules/comment.views_default.inc:115,263,115,263,115,263,115,263,115,263,115,263; modules/node.views_default.inc:89,171,300,89,171,300,89,171,300,89,171,300,89,171,300,89,171,300; modules/node.views_template.inc:120,120,122,122,122,122; modules/search.views_default.inc:104,104,104,104,104,104; modules/statistics.views_default.inc:230,230,230,230,230,230; modules/taxonomy.views_default.inc:95,95,95,95,95,95
+msgid "Desc"
+msgstr "Убыв."
+
+#: modules/locale/views_handler_filter_locale_language.inc:14,10,14,19,19,19,12,10,12,19; modules/translation/views_handler_filter_node_language.inc:13,9,13,11,9; plugins/views_plugin_display.inc:1233,1616,1233,1616,1285,1676,1285,1676,1285,1676,1289,1680,1289,1680; modules/locale/views_handler_filter_node_language.inc:19,19,19,19
+msgid "Default site language"
+msgstr "Язык сайта по умолчанию"
+
+#: includes/admin.inc:1036,1036,1037,1037,1037,1037; theme/views-ui-edit-view.tpl.php:10,10,11,11,11,10,10,10,11
+msgid ""
+"This view is being edited by user !user, and is therefore locked from "
+"editing by others. This lock is !age old. Click here to <a "
+"href=\"!break\">break this lock</a>."
+msgstr ""
+"Это представление в настоящее время, "
+"возможно, редактируется "
+"пользователем !user и поэтому "
+"заблокировано (!age назад) для "
+"редактирования другими. <a "
+"href=\"!break\">Щелкните здесь, чтобы снять "
+"блокировку</a>."
+
+#: includes/handlers.inc:560,560,560; handlers/views_handler_filter.inc:227,227
+msgid ""
+"This item is currently exposed. If you <strong>hide</strong> it, users "
+"will not be able to change the filter as they view it."
+msgstr ""
+"Этот элемент сейчас раскрыт. Если вы "
+"<strong>скроете</strong> его, пользователи не "
+"смогут изменить фильтр, когда они "
+"увидят его."
+
+#: modules/node.views.inc:160,160,160,160; modules/tracker.views.inc:59,59
+msgid "Whether or not the node is published."
+msgstr "Материал опубликован или нет."
+
+#: includes/admin.inc:3979,250,257,3039,3979,227,234,2304,4078,4078,4078,250,257,3039,227,234,2304,250,257,3039,4078; modules/comment.views_default.inc:265,265,265,265,265,265; modules/node.views_default.inc:91,173,302,91,173,302,91,173,302,91,173,302,91,173,302,91,173,302; modules/node.views_template.inc:122,122,124,124,124,124; modules/search.views_default.inc:106,106,106,106,106,106; modules/statistics.views_default.inc:232,232,232,232,232,232; modules/taxonomy.views_default.inc:97,97,97,97,97,97
+msgid "- All -"
+msgstr "- Все -"
+
+#: modules/aggregator/views_handler_field_aggregator_category.inc:30,29,30,35,35,35,31,29,31,35; modules/node/views_handler_field_node_revision.inc:34,31,34,40,40,40,35,31,35,40; modules/comment/views_handler_field_comment.inc:30,32,30,32; modules/comment/views_handler_field_node_new_comments.inc:36,38,36,38; modules/node/views_handler_field_node.inc:38,37,40,37,40; modules/system/views_handler_field_file.inc:29,31,29,31; modules/taxonomy/views_handler_field_taxonomy.inc:34,33,36,33,36; modules/user/views_handler_field_user.inc:30,32,30,32
+msgid "This will override any other link you have set."
+msgstr ""
+"Если выше было выбрано \"Выводить это "
+"поле в виде ссылки\", при активации "
+"данного флажка она будет заменена "
+"ссылкой на материал, к которому "
+"относится текущее значение поля."
+
+#: modules/comment.views.inc:556,510,556,412,574,574,574,510,412,510,574; modules/tracker.views.inc:168,168
+msgid "Display nodes only if a user posted the node or commented on the node."
+msgstr ""
+
+#: handlers/views_handler_filter.inc:500,442,500,480,705,1073,705,1073,705,1073,448,480,448,705,1073; handlers/views_handler_filter_boolean_operator.inc:110,106,110,102,116,116,116,110,102,110,116; includes/admin.inc:4696,3756,4696,2924,3592,4836,3592,4836,3592,4836,3756,2924,3756,3592,4836
+msgid "- Any -"
+msgstr "- Все -"
+
+#: modules/comment/views_plugin_row_comment_view.inc:42,42,43,43,43,43; modules/node/views_plugin_row_node_view.inc:51,51,52,52,52,52; modules/user/views_plugin_row_user_view.inc:34,34,34,34,34,34
+msgid "View mode"
+msgstr "Режим просмотра"
+
+#: handlers/views_handler_filter_in_operator.inc:99,99,80,105,105,105,100,80,100,105; handlers/views_handler_filter_many_to_one.inc:64,49,64,47,69,69,69,51,47,51,69
+msgid "<>"
+msgstr "<>"
+
+#: modules/field/views_handler_field_field.inc:536,536,593,593,593,593; modules/system.views.inc:425,425,425,425
+msgid "Entity ID"
+msgstr "ID сущности"
+
+#: handlers/views_handler_argument_many_to_one.inc:53,53,59,59,59,59; handlers/views_handler_argument_numeric.inc:41,41,42,42,42,42; handlers/views_handler_argument_string.inc:116,116,121,121,121,121; modules/taxonomy/views_handler_argument_term_node_tid_depth.inc:32,32,38,38,38,38
+msgid "Allow multiple values"
+msgstr "Разрешить несколько значений"
+
+#: handlers/views_handler_area_text.inc:48,47,48,49,49,49,47,47,49; handlers/views_handler_field.inc:775,607,775,316,801,801,801,607,316,607,801; plugins/views_plugin_display.inc:1720,1575,1720,1780,1780,1780,1597,1784,1597,1784
+msgid "@argument title"
+msgstr "@argument заголовок"
+
+#: handlers/views_handler_area_text.inc:49,48,49,50,50,50,48,48,50; handlers/views_handler_field.inc:776,608,776,317,802,802,802,608,317,608,802; plugins/views_plugin_display.inc:1721,1576,1721,1781,1781,1781,1598,1785,1598,1785
+msgid "@argument input"
+msgstr "@argument ввод"
+
+#: includes/admin.inc:827,827,826,826,826,826; plugins/export_ui/views_ui.class.php:110,110,110,110,110,110
+msgid "In code"
+msgstr "Встроенное"
+
+#: plugins/views_plugin_style_jump_menu.inc:59,59; plugins/views_plugin_style_summary_jump_menu.inc:57,57
+msgid "Hide the \"Go\" button."
+msgstr "Скрыть кнопку \"Go\"."
+
+#: plugins/views_plugin_style_jump_menu.inc:61,61,62,62,63,61,61,61,64,64; plugins/views_plugin_style_summary_jump_menu.inc:56,57,56,59,57,57,58,57,59,57,59,59
+msgid ""
+"If hidden, this button will only be hidden for users with javascript "
+"and the page will automatically jump when the select is changed."
+msgstr ""
+
+#: includes/admin.inc:5167,5167,5314,5314,5314,5314; includes/plugins.inc:21,21,21,21,21,21; modules/comment.views_default.inc:108,256,108,256,108,256,108,256,108,256,108,256; modules/node.views_default.inc:82,165,294,82,165,294,82,165,294,82,165,294,82,165,294,82,165,294; modules/search.views_default.inc:98,98,98,98,98,98; modules/statistics.views_default.inc:223,223,223,223,223,223; modules/taxonomy.views_default.inc:89,89,89,89,89,89
+msgid "Master"
+msgstr "Мастер"
+
+#: modules/comment/views_plugin_row_comment_view.inc:67,67,68,68,68,68; modules/node/views_plugin_row_node_view.inc:80,80,81,81,81,81
+msgid "Full content"
+msgstr "Полное содержание"
+
+#: includes/admin.inc:831,831,830,830,830,830; plugins/export_ui/views_ui.class.php:109,109,109,109,109,109
+msgid "In database"
+msgstr "В базе"
+
+#: handlers/views_handler_filter_in_operator.inc:114,114,95,120,120,120,115,95,115,120; handlers/views_handler_filter_many_to_one.inc:80,65,80,63,85,85,85,67,63,67,85; handlers/views_handler_filter_numeric.inc:86,86,84,91,91,91,88,84,88,91; handlers/views_handler_filter_string.inc:111,111,99,116,116,116,112,99,112,116
+msgid "Is not empty (NOT NULL)"
+msgstr "<Есть>"
+
+#: plugins/views_plugin_style_jump_menu.inc:72,72,73,73,81,72,72,72,82,82; plugins/views_plugin_style_summary_jump_menu.inc:67,68,67,70,68,68,76,68,70,68,77,77
+msgid "Choose text"
+msgstr "Выберите текст"
+
+#: plugins/views_plugin_style_jump_menu.inc:74,74,75,75,83,74,74,74,84,84; plugins/views_plugin_style_summary_jump_menu.inc:69,70,69,72,70,70,78,70,72,70,79,79
+msgid "The text that will appear as the selected option in the jump menu."
+msgstr ""
+"Текст, который появится как выбранный "
+"пункт в меню."
+
+#: handlers/views_handler_field_machine_name.inc:46,46,51,51,51,51; modules/node/views_handler_field_node_type.inc:23,21,23,28,28,28,23,21,23,28
+msgid "Output machine name"
+msgstr "Машинное имя \"на выходе\""
+
+#: views_ui.module:31,31,23,23,23,23; includes/admin.inc:292,292,293,293,293,293
+msgid "Add new view"
+msgstr "Добавить новое представление"
+
+#: modules/comment.views.inc:248,194,248,194,248; modules/node.views.inc:222,219,222,219,222
+msgid "In the moderation queue"
+msgstr "В модераторской очереди"
+
+#: plugins/views_plugin_style_summary.inc:35,35,36,36,36,35,35,35,36; plugins/views_plugin_style_summary_jump_menu.inc:40,41,40,43,41,41,42,41,43,41,43,43
+msgid ""
+"Define the base path for links in this summary\n"
+"        view, i.e. "
+"http://example.com/<strong>your_view_path/archive</strong>.\n"
+"        Do not include beginning and ending forward slash. If this "
+"value\n"
+"        is empty, views will use the first path found as the base "
+"path,\n"
+"        in page displays, or / if no path could be found."
+msgstr ""
+
+#: handlers/views_handler_field.inc:255,227,255,270,270,270,227,227,270; includes/admin.inc:4688,4688,4828,4828,4828,4828
+msgid "- Use default -"
+msgstr "- Использовать по умолчанию -"
+
+#: includes/plugins.inc:204,204,216,216,216,216; plugins/views_plugin_argument_default_fixed.inc:22,22,25,25,25,25
+msgid "Fixed value"
+msgstr ""
+
+#: plugins/views_plugin_style_list.inc:38,38,39,39,39,38,38,39; handlers/views_handler_field.inc:446,446,446
+msgid "Wrapper class"
+msgstr "Класса-оболочки"
+
+#: plugins/views_plugin_style_grid.inc:56,56,54,57,57,65,56,54,56,65; plugins/views_plugin_style_table.inc:183,168,183,170,184,184,193,185,170,185,193
+msgid "Table summary"
+msgstr ""
+
+#: plugins/views_plugin_style_grid.inc:57,57,55,58,58,57,55,57; plugins/views_plugin_style_table.inc:184,169,184,171,185,185,186,171,186
+msgid ""
+"This value will be displayed as table-summary attribute in the html. "
+"Set this for better accessiblity of your site."
+msgstr ""
+
+#: plugins/views_plugin_style_jump_menu.inc:79,79; plugins/views_plugin_style_summary_jump_menu.inc:77,77
+msgid "Select the current argument."
+msgstr "Выберите текущий аргумент."
+
+#: modules/comment.views_default.inc:114,262,114,262,114,262,114,262,114,262,114,262; modules/node.views_default.inc:88,170,299,88,170,299,88,170,299,88,170,299,88,170,299,88,170,299; modules/node.views_template.inc:119,119,121,121,121,121; modules/search.views_default.inc:103,103,103,103,103,103; modules/statistics.views_default.inc:229,229,229,229,229,229; modules/taxonomy.views_default.inc:94,94,94,94,94,94
+msgid "Asc"
+msgstr "Возр."
+
+#: views_ui.module:393,393,405,405,405,405; handlers/views_handler_field.inc:932,932,958,958,958,958; includes/view.inc:2510,2512,2513,2510,2512,2513,2634,2636,2637,2634,2636,2637,2634,2636,2637,2642,2644,2645,2642,2644,2645
+msgid "No results behavior"
+msgstr "Поведение при отсутствии результатов"
+
+#: handlers/views_handler_area_view.inc:43,43,44,44,44,44; plugins/views_plugin_display_attachment.inc:94,127,94,127,95,128,95,128,95,128,95,128
+msgid "Inherit contextual filters"
+msgstr "Наследовать контекстный фильтр"
+
+#: handlers/views_handler_argument_group_by_numeric.inc:22,22,27,27,27,27; handlers/views_handler_argument_numeric.inc:113,113,114,114,114,114; modules/comment/views_handler_argument_comment_user_uid.inc:54,54,59,59,59,59
+msgid "Numerical"
+msgctxt "Sort order"
+msgstr "Числовой"
+
+#: handlers/views_handler_argument_many_to_one.inc:54,54,60,60,60,60; handlers/views_handler_argument_numeric.inc:42,42,43,43,43,43; handlers/views_handler_argument_string.inc:117,117,122,122,122,122
+msgid ""
+"If selected, users can enter multiple values in the form of 1+2+3 (for "
+"OR) or 1,2,3 (for AND)."
+msgstr ""
+"Если выбрано, пользователь может "
+"вводить множественные значения в "
+"форму 1+2+3 (для OR) или 1,2,3 (для AND)."
+
+#: handlers/views_handler_argument_many_to_one.inc:63,63,69,69,69,69; handlers/views_handler_argument_string.inc:100,100,105,105,105,105
+msgid ""
+"If selected, multiple instances of this filter can work together, as "
+"though multiple values were supplied to the same filter. This setting "
+"is not compatible with the \"Reduce duplicates\" setting."
+msgstr ""
+
+#: includes/admin.inc:835,835,834,834,834,834; plugins/export_ui/views_ui.class.php:111,111,111,111,111,111
+msgid "Database overriding code"
+msgstr ""
+
+#: includes/admin.inc:2647,2647,2665,2665,2665,2665; plugins/export_ui/views_ui.class.php:161,161,161,161,161,161
+msgid "All displays"
+msgstr "Все представления"
+
+#: modules/comment/views_handler_field_comment.inc:33,33,39,39,39,39; modules/comment/views_handler_field_node_new_comments.inc:37,37,42,42,42,42; modules/node/views_handler_field_node.inc:39,39,40,40,40,40; modules/system/views_handler_field_file.inc:30,30,36,36,36,36; modules/taxonomy/views_handler_field_taxonomy.inc:39,39,44,44,44,44; modules/user/views_handler_field_user.inc:31,31,36,36,36,36
+msgid "Enable to override this field's links."
+msgstr ""
+
+#: plugins/views_plugin_argument_default.inc:78,78,77,77,77,77; plugins/views_plugin_argument_validate.inc:82,82,80,80,80,80
+msgid ""
+"Note: you do not have permission to modify this. If you change the "
+"default filter type, this setting will be lost and you will NOT be "
+"able to get it back."
+msgstr ""
+"Примечание: вы не имеете разрешения на "
+"изменение этого. Если вы измените тип "
+"фильтра по умолчанию, эта установка "
+"будет потеряна, и вы НЕ сможете "
+"вернуть её обратно."
+
+#: plugins/views_wizard/views_ui_comment_views_wizard.class.php:29,29,37,37,37,37; plugins/views_wizard/views_ui_node_views_wizard.class.php:33,33,41,41,41,41
+msgid "without links"
+msgstr "без ссылки"
+
+#: modules/locale/views_handler_field_locale_language.inc:19,17,19,24,24,24,19,17,19,24; modules/translation/views_handler_field_node_language.inc:19,17,19,19,17; modules/locale/views_handler_field_node_language.inc:24,24,24,24
+msgid "Native language"
+msgstr "Родной язык"
+
+#: modules/locale/views_handler_field_locale_language.inc:22,20,22,27,27,27,22,20,22,27; modules/translation/views_handler_field_node_language.inc:22,20,22,22,20; modules/locale/views_handler_field_node_language.inc:27,27,27,27
+msgid "If enabled, the native name of the language will be displayed"
+msgstr ""
+"Если включено, будет отображаться "
+"родное название языка"
+
+#: handlers/views_handler_argument_many_to_one.inc:62,62,68,68,68,68; handlers/views_handler_argument_string.inc:99,99,104,104,104,104
+msgid "Allow multiple filter values to work together"
+msgstr ""
+
+#: plugins/views_plugin_style_jump_menu.inc:59,59,60,60,61,59,59,62,62; plugins/views_plugin_style_summary_jump_menu.inc:54,55,54,55,55,56,55,55,57,57
+msgid "Hide the \"Go\" button"
+msgstr ""
+
+#: plugins/views_plugin_style_jump_menu.inc:79,79,80,80,88,95,95; plugins/views_plugin_style_summary_jump_menu.inc:74,74,75,75,83,90,90
+msgid "Select the current contextual filter value"
+msgstr ""
+
+#: handlers/views_handler_argument_many_to_one.inc:54,54,54; handlers/views_handler_argument_string.inc:103,103,103
+msgid "Allow multiple arguments to work together"
+msgstr ""
+"Разрешить нескольким аргументам "
+"работать совместно"
+
+#: plugins/views_plugin_style_jump_menu.inc:79,79,79; plugins/views_plugin_style_summary_jump_menu.inc:75,75,75
+msgid "Select the current argument"
+msgstr "Выберите текущий аргумент"
+
+#: modules/file.views.inc:55,55,51,51,51,51; modules/image.views.inc:54,54,50,50,50,50; modules/taxonomy.views.inc:435,435,467,467,467,467
+msgid "@entity using @field"
+msgstr ""
+
+#: modules/file.views.inc:63,63,59,59,59,59; modules/image.views.inc:62,62,58,58,58,58; modules/taxonomy.views.inc:443,443,475,475,475,475
+msgid "!field_name"
+msgstr "!field_name"
+
+#: modules/taxonomy.views.inc:157,158,157,158,182,183,182,183,182,183,182,183; modules/user.views.inc:81,82,81,82,88,89,88,89,88,89,88,89
+msgid "Representative node"
+msgstr ""
+
+#: modules/comment.views.inc:355,355,373,373,373,373; modules/node.views.inc:390,390,376,376,376,376
+msgid "Author uid"
+msgstr ""
+
+#: includes/admin.inc:2651,2651,2669,2669,2669,2669; js/views-admin.js:0,0,0,0,0,0
+msgid "Revert to default"
+msgstr "Вернуть в умолчание"
+
+#: modules/comment.views.inc:195,186,195,213,213,213,186,186,213; modules/node.views.inc:282,336,292,346,282,336,268,322,268,322,268,322,292,346,292,346,268,322; modules/user.views.inc:212,183,212,219,219,219,183,183,219
+msgid "Date in the form of CCYYMMDD."
+msgstr "Дата в формате CCYYMMDD."
+
+#: modules/comment.views.inc:205,195,205,223,223,223,195,195,223; modules/node.views.inc:291,345,301,355,291,345,277,331,277,331,277,331,301,355,301,355,277,331; modules/user.views.inc:221,192,221,228,228,228,192,192,228
+msgid "Date in the form of YYYYMM."
+msgstr "Дата в формате YYYYMM."
+
+#: modules/comment.views.inc:215,204,215,233,233,233,204,204,233; modules/node.views.inc:300,354,310,364,300,354,286,340,286,340,286,340,310,364,310,364,286,340; modules/user.views.inc:231,201,231,238,238,238,201,201,238
+msgid "Date in the form of YYYY."
+msgstr "Дата в формате YYYY."
+
+#: modules/comment.views.inc:225,213,225,243,243,243,213,213,243; modules/node.views.inc:309,363,319,373,309,363,295,349,295,349,295,349,319,373,319,373,295,349; modules/user.views.inc:240,210,240,247,247,247,210,210,247
+msgid "Date in the form of MM (01 - 12)."
+msgstr "Дата в формате MM (01 - 12)."
+
+#: modules/comment.views.inc:235,222,235,253,253,253,222,222,253; modules/node.views.inc:318,372,328,382,318,372,304,358,304,358,304,358,328,382,328,382,304,358; modules/user.views.inc:249,219,249,256,256,256,219,219,256
+msgid "Date in the form of DD (01 - 31)."
+msgstr "Дата в формате DD (01 - 31)."
+
+#: modules/comment.views.inc:245,231,245,263,263,263,231,231,263; modules/node.views.inc:327,381,337,391,327,381,313,367,313,367,313,367,337,391,337,391,313,367; modules/user.views.inc:258,228,258,265,265,265,228,228,265
+msgid "Date in the form of WW (01 - 53)."
+msgstr "Дата в формате WW (01 - 53)."
+
+#: modules/comment/views_handler_field_comment.inc:38,38,44,44,44,44; modules/comment/views_handler_field_comment_link.inc:26,26,32,32,32,32
+msgid "Link field to the node if there is no comment."
+msgstr ""
+
+#: modules/comment/views_plugin_row_comment_rss.inc:73,73,74,74,74,74; modules/node/views_plugin_row_node_rss.inc:67,67,68,68,68,68
+msgid "Use site default RSS settings"
+msgstr ""
+
+#: modules/field/views_handler_argument_field_list.inc:36,36,39,39,39,39; modules/field/views_handler_argument_field_list_string.inc:40,40,40,40
+msgid "Display list value as human readable"
+msgstr ""
+
+#: handlers/views_handler_filter.inc:613,613,613,613; handlers/views_handler_filter_date.inc:111,111,111,111
+msgid "The value is required if title for this item is defined."
+msgstr ""
+
+#: handlers/views_handler_filter.inc:622,622,622,622; handlers/views_handler_filter_date.inc:118,118,118,118
+msgid "The title is required if value for this item is defined."
+msgstr ""
+
+#: handlers/views_handler_filter_boolean_operator.inc:133,133,133,133; handlers/views_handler_filter_in_operator.inc:294,294,294,294; handlers/views_handler_filter_numeric.inc:266,266,266,266; handlers/views_handler_filter_string.inc:152,152,152,152
+msgid "grouped"
+msgstr ""
+
+#: plugins/views_plugin_style_grid.inc:58,58; plugins/views_plugin_style_table.inc:185,185
+msgid "Short description of table"
+msgstr ""
+
+#: plugins/views_plugin_style_grid.inc:59,59; plugins/views_plugin_style_table.inc:186,186
+msgid "Include a caption for better accessibility of your table."
+msgstr ""
+
+#: plugins/views_plugin_style_grid.inc:66,66; plugins/views_plugin_style_table.inc:194,194
+msgid ""
+"This value will be displayed as table-summary attribute in the html. "
+"Use this to give a summary of complex tables."
+msgstr ""
+
+#: plugins/views_plugin_style_jump_menu.inc:74,75,75; plugins/views_plugin_style_summary_jump_menu.inc:69,70,70
+msgid "Selector label"
+msgstr ""
+
+#: plugins/views_plugin_style_jump_menu.inc:76,77,77; plugins/views_plugin_style_summary_jump_menu.inc:71,72,72
+msgid ""
+"The text that will appear as the the label of the selector element. If "
+"blank no label tag will be used."
+msgstr ""
+
+#: plugins/views_plugin_style_jump_menu.inc:89,89; plugins/views_plugin_style_summary_jump_menu.inc:84,84
+msgid "Set this field to display inline"
+msgstr ""
+

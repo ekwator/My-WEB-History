@@ -1,0 +1,638 @@
+<?xml version="1.0" encoding="utf-8"?>
+<euroauto-export>
+  <request>
+    <creation-time>2012-10-31 08:42:43 GMT+0400</creation-time>
+    <status>
+      <code>0</code>
+      <message>ok</message>
+    </status>
+    <get>parts</get>
+    <model_id>482</model_id>
+    <part_id>5014</part_id>
+    <used>1</used>
+  </request>
+  <parts>
+    <part>
+      <sh_id>1037</sh_id>
+      <firm_name>Honda</firm_name>
+      <model>Accord VII 2003-2007</model>
+      <part_name>Фара левая</part_name>
+      <comment>ДО 2005г НЕ КСЕНОН</comment>
+      <price>5630</price>
+      <netto_price>4730</netto_price>
+      <wear>100</wear>
+      <tv_id>1196021</tv_id>
+      <kit_id>0</kit_id>
+      <kit_title>0</kit_title>
+      <images>
+        <image>http://partner.euroauto.ru/lib/merge_image.php?src=p1037_1196021_01.jpg&amp;tp=1037&amp;site=euroauto.ru</image>
+      </images>
+      <tp>1037</tp>
+    </part>
+    <part>
+      <sh_id>1037</sh_id>
+      <firm_name>Honda</firm_name>
+      <model>Accord VII 2003-2007</model>
+      <part_name>Фара левая</part_name>
+      <comment>ДО 2005г НЕ КСЕНОН</comment>
+      <price>5630</price>
+      <netto_price>4730</netto_price>
+      <wear>100</wear>
+      <tv_id>1279156</tv_id>
+      <kit_id>0</kit_id>
+      <kit_title>0</kit_title>
+      <images>
+        <image>http://partner.euroauto.ru/lib/merge_image.php?src=p1037_1279156_01.jpg&amp;tp=1037&amp;site=euroauto.ru</image>
+        <image>http://partner.euroauto.ru/lib/merge_image.php?src=p1037_1279156_02.jpg&amp;tp=1037&amp;site=euroauto.ru</image>
+      </images>
+      <tp>1037</tp>
+    </part>
+    <part>
+      <sh_id>1037</sh_id>
+      <firm_name>Honda</firm_name>
+      <model>Accord VII 2003-2007</model>
+      <part_name>Фара левая</part_name>
+      <comment>ДО 2005г НЕ КСЕНОН</comment>
+      <price>5630</price>
+      <netto_price>4730</netto_price>
+      <wear>100</wear>
+      <tv_id>1293828</tv_id>
+      <kit_id>0</kit_id>
+      <kit_title>0</kit_title>
+      <images>
+        <image>http://partner.euroauto.ru/lib/merge_image.php?src=p1037_1293828_01.jpg&amp;tp=1037&amp;site=euroauto.ru</image>
+        <image>http://partner.euroauto.ru/lib/merge_image.php?src=p1037_1293828_02.jpg&amp;tp=1037&amp;site=euroauto.ru</image>
+      </images>
+      <tp>1037</tp>
+    </part>
+    <part>
+      <sh_id>1037</sh_id>
+      <firm_name>Honda</firm_name>
+      <model>Accord VII 2003-2007</model>
+      <part_name>Фара левая</part_name>
+      <comment>ДО 2005г НЕ КСЕНОН</comment>
+      <price>5630</price>
+      <netto_price>4730</netto_price>
+      <wear>100</wear>
+      <tv_id>1359926</tv_id>
+      <kit_id>0</kit_id>
+      <kit_title>0</kit_title>
+      <images>
+        <image>http://partner.euroauto.ru/lib/merge_image.php?src=p1037_1359926_01.jpg&amp;tp=1037&amp;site=euroauto.ru</image>
+        <image>http://partner.euroauto.ru/lib/merge_image.php?src=p1037_1359926_02.jpg&amp;tp=1037&amp;site=euroauto.ru</image>
+      </images>
+      <tp>1037</tp>
+    </part>
+    <part>
+      <sh_id>1037</sh_id>
+      <firm_name>Honda</firm_name>
+      <model>Accord VII 2003-2007</model>
+      <part_name>Фара левая</part_name>
+      <comment>ДО 2005г НЕ КСЕНОН</comment>
+      <price>5630</price>
+      <netto_price>4730</netto_price>
+      <wear>100</wear>
+      <tv_id>1374351</tv_id>
+      <kit_id>0</kit_id>
+      <kit_title>0</kit_title>
+      <images>
+        <image>http://partner.euroauto.ru/lib/merge_image.php?src=p1037_1374351_01.jpg&amp;tp=1037&amp;site=euroauto.ru</image>
+        <image>http://partner.euroauto.ru/lib/merge_image.php?src=p1037_1374351_02.jpg&amp;tp=1037&amp;site=euroauto.ru</image>
+      </images>
+      <tp>1037</tp>
+    </part>
+    <part>
+      <sh_id>1037</sh_id>
+      <firm_name>Honda</firm_name>
+      <model>Accord VII 2003-2007</model>
+      <part_name>Фара левая</part_name>
+      <comment>ДО 2005г НЕ КСЕНОН</comment>
+      <price>5630</price>
+      <netto_price>4730</netto_price>
+      <wear>100</wear>
+      <tv_id>1434569</tv_id>
+      <kit_id>0</kit_id>
+      <kit_title>0</kit_title>
+      <images>
+        <image>http://partner.euroauto.ru/lib/merge_image.php?src=p1037_1434569_01.jpg&amp;tp=1037&amp;site=euroauto.ru</image>
+        <image>http://partner.euroauto.ru/lib/merge_image.php?src=p1037_1434569_02.jpg&amp;tp=1037&amp;site=euroauto.ru</image>
+        <image>http://partner.euroauto.ru/lib/merge_image.php?src=p1037_1434569_03.jpg&amp;tp=1037&amp;site=euroauto.ru</image>
+      </images>
+      <tp>1037</tp>
+    </part>
+    <part>
+      <sh_id>1037</sh_id>
+      <firm_name>Honda</firm_name>
+      <model>Accord VII 2003-2007</model>
+      <part_name>Фара левая</part_name>
+      <comment>ДО 2005г НЕ КСЕНОН</comment>
+      <price>5630</price>
+      <netto_price>4730</netto_price>
+      <wear>100</wear>
+      <tv_id>1519908</tv_id>
+      <kit_id>0</kit_id>
+      <kit_title>0</kit_title>
+      <images>
+        <image>http://partner.euroauto.ru/lib/merge_image.php?src=p1037_1519908_01.jpg&amp;tp=1037&amp;site=euroauto.ru</image>
+        <image>http://partner.euroauto.ru/lib/merge_image.php?src=p1037_1519908_02.jpg&amp;tp=1037&amp;site=euroauto.ru</image>
+      </images>
+      <tp>1037</tp>
+    </part>
+    <part>
+      <sh_id>1043</sh_id>
+      <firm_name>Honda</firm_name>
+      <model>Accord VII 2003-2007</model>
+      <part_name>Фара левая</part_name>
+      <comment>ДО 2005г.;НЕ КСЕНОН</comment>
+      <price>5630</price>
+      <netto_price>4730</netto_price>
+      <wear>100</wear>
+      <tv_id>3123779</tv_id>
+      <kit_id>0</kit_id>
+      <kit_title>0</kit_title>
+      <images>
+        <image>http://partner.euroauto.ru/lib/merge_image.php?src=p1043_3123779_01.jpg&amp;tp=1043&amp;site=euroauto.ru</image>
+        <image>http://partner.euroauto.ru/lib/merge_image.php?src=p1043_3123779_02.jpg&amp;tp=1043&amp;site=euroauto.ru</image>
+      </images>
+      <tp>1043</tp>
+    </part>
+    <part>
+      <sh_id>1043</sh_id>
+      <firm_name>Honda</firm_name>
+      <model>Accord VII 2003-2007</model>
+      <part_name>Фара левая</part_name>
+      <comment>ДО 2005г.;НЕ КСЕНОН</comment>
+      <price>5630</price>
+      <netto_price>4730</netto_price>
+      <wear>100</wear>
+      <tv_id>3147973</tv_id>
+      <kit_id>0</kit_id>
+      <kit_title>0</kit_title>
+      <images>
+        <image>http://partner.euroauto.ru/lib/merge_image.php?src=p1043_3147973_01.jpg&amp;tp=1043&amp;site=euroauto.ru</image>
+        <image>http://partner.euroauto.ru/lib/merge_image.php?src=p1043_3147973_02.jpg&amp;tp=1043&amp;site=euroauto.ru</image>
+      </images>
+      <tp>1043</tp>
+    </part>
+    <part>
+      <sh_id>1043</sh_id>
+      <firm_name>Honda</firm_name>
+      <model>Accord VII 2003-2007</model>
+      <part_name>Фара левая</part_name>
+      <comment>ДО 2005г.;НЕ КСЕНОН</comment>
+      <price>5060</price>
+      <netto_price>4250</netto_price>
+      <wear>90</wear>
+      <tv_id>3246941</tv_id>
+      <kit_id>0</kit_id>
+      <kit_title>0</kit_title>
+      <images>
+        <image>http://partner.euroauto.ru/lib/merge_image.php?src=p1043_3246941_01.jpg&amp;tp=1043&amp;site=euroauto.ru</image>
+        <image>http://partner.euroauto.ru/lib/merge_image.php?src=p1043_3246941_02.jpg&amp;tp=1043&amp;site=euroauto.ru</image>
+        <image>http://partner.euroauto.ru/lib/merge_image.php?src=p1043_3246941_03.jpg&amp;tp=1043&amp;site=euroauto.ru</image>
+        <image>http://partner.euroauto.ru/lib/merge_image.php?src=p1043_3246941_04.jpg&amp;tp=1043&amp;site=euroauto.ru</image>
+      </images>
+      <tp>1043</tp>
+    </part>
+    <part>
+      <sh_id>1043</sh_id>
+      <firm_name>Honda</firm_name>
+      <model>Accord VII 2003-2007</model>
+      <part_name>Фара левая</part_name>
+      <comment>после 2005г КСЕНОН (БЕЗ  ЛАМП с блоком)сломано крепление</comment>
+      <price>18140</price>
+      <netto_price>15880</netto_price>
+      <wear>90</wear>
+      <tv_id>3247901</tv_id>
+      <kit_id>0</kit_id>
+      <kit_title>0</kit_title>
+      <images>
+        <image>http://partner.euroauto.ru/lib/merge_image.php?src=p1043_3247901_01.jpg&amp;tp=1043&amp;site=euroauto.ru</image>
+        <image>http://partner.euroauto.ru/lib/merge_image.php?src=p1043_3247901_02.jpg&amp;tp=1043&amp;site=euroauto.ru</image>
+      </images>
+      <tp>1043</tp>
+    </part>
+    <part>
+      <sh_id>1043</sh_id>
+      <firm_name>Honda</firm_name>
+      <model>Accord VII 2003-2007</model>
+      <part_name>Фара левая</part_name>
+      <comment>ДО 2005г.;НЕ КСЕНОН;ПРАВЫЙ РУЛЬ</comment>
+      <price>5630</price>
+      <netto_price>4730</netto_price>
+      <wear>100</wear>
+      <tv_id>3313823</tv_id>
+      <kit_id>0</kit_id>
+      <kit_title>0</kit_title>
+      <images>
+        <image>http://partner.euroauto.ru/lib/merge_image.php?src=p1043_3313823_01.jpg&amp;tp=1043&amp;site=euroauto.ru</image>
+        <image>http://partner.euroauto.ru/lib/merge_image.php?src=p1043_3313823_02.jpg&amp;tp=1043&amp;site=euroauto.ru</image>
+      </images>
+      <tp>1043</tp>
+    </part>
+    <part>
+      <sh_id>1043</sh_id>
+      <firm_name>Honda</firm_name>
+      <model>Accord VII 2003-2007</model>
+      <part_name>Фара левая</part_name>
+      <comment>ДО 2005г.;НЕ КСЕНОН</comment>
+      <price>5630</price>
+      <netto_price>4730</netto_price>
+      <wear>100</wear>
+      <tv_id>3314654</tv_id>
+      <kit_id>0</kit_id>
+      <kit_title>0</kit_title>
+      <images>
+        <image>http://partner.euroauto.ru/lib/merge_image.php?src=p1043_3314654_01.jpg&amp;tp=1043&amp;site=euroauto.ru</image>
+        <image>http://partner.euroauto.ru/lib/merge_image.php?src=p1043_3314654_02.jpg&amp;tp=1043&amp;site=euroauto.ru</image>
+        <image>http://partner.euroauto.ru/lib/merge_image.php?src=p1043_3314654_03.jpg&amp;tp=1043&amp;site=euroauto.ru</image>
+      </images>
+      <tp>1043</tp>
+    </part>
+    <part>
+      <sh_id>1047</sh_id>
+      <firm_name>Honda</firm_name>
+      <model>Accord VII 2003-2007</model>
+      <part_name>Фара левая</part_name>
+      <comment>ДО 2005г НЕ КСЕНОН</comment>
+      <price>5630</price>
+      <netto_price>4730</netto_price>
+      <wear>100</wear>
+      <tv_id>5235264</tv_id>
+      <kit_id>0</kit_id>
+      <kit_title>0</kit_title>
+      <images>
+        <image>http://partner.euroauto.ru/lib/merge_image.php?src=p1047_5235264_01.jpg&amp;tp=1047&amp;site=euroauto.ru</image>
+        <image>http://partner.euroauto.ru/lib/merge_image.php?src=p1047_5235264_02.jpg&amp;tp=1047&amp;site=euroauto.ru</image>
+      </images>
+      <tp>1047</tp>
+    </part>
+    <part>
+      <sh_id>1039</sh_id>
+      <firm_name>Honda</firm_name>
+      <model>Accord VII 2003-2007</model>
+      <part_name>Фара левая</part_name>
+      <comment>ДО 2005г.;НЕ КСЕНОН</comment>
+      <price>5630</price>
+      <netto_price>4730</netto_price>
+      <wear>100</wear>
+      <tv_id>6254784</tv_id>
+      <kit_id>0</kit_id>
+      <kit_title>0</kit_title>
+      <images>
+        <image>http://partner.euroauto.ru/lib/merge_image.php?src=p1039_6254784_01.jpg&amp;tp=1039&amp;site=euroauto.ru</image>
+        <image>http://partner.euroauto.ru/lib/merge_image.php?src=p1039_6254784_02.jpg&amp;tp=1039&amp;site=euroauto.ru</image>
+      </images>
+      <tp>1039</tp>
+    </part>
+    <part>
+      <sh_id>1039</sh_id>
+      <firm_name>Honda</firm_name>
+      <model>Accord VII 2003-2007</model>
+      <part_name>Фара левая</part_name>
+      <comment>ДО 2005г. НЕ КСЕНОН</comment>
+      <price>5630</price>
+      <netto_price>4730</netto_price>
+      <wear>100</wear>
+      <tv_id>6344000</tv_id>
+      <kit_id>0</kit_id>
+      <kit_title>0</kit_title>
+      <images>
+        <image>http://partner.euroauto.ru/lib/merge_image.php?src=p1039_6344000_01.jpg&amp;tp=1039&amp;site=euroauto.ru</image>
+      </images>
+      <tp>1039</tp>
+    </part>
+    <part>
+      <sh_id>1039</sh_id>
+      <firm_name>Honda</firm_name>
+      <model>Accord VII 2003-2007</model>
+      <part_name>Фара левая</part_name>
+      <comment>ДО 2005г. НЕ КСЕНОН</comment>
+      <price>5630</price>
+      <netto_price>4730</netto_price>
+      <wear>100</wear>
+      <tv_id>6353687</tv_id>
+      <kit_id>0</kit_id>
+      <kit_title>0</kit_title>
+      <images>
+        <image>http://partner.euroauto.ru/lib/merge_image.php?src=p1039_6353687_01.jpg&amp;tp=1039&amp;site=euroauto.ru</image>
+      </images>
+      <tp>1039</tp>
+    </part>
+    <part>
+      <sh_id>1039</sh_id>
+      <firm_name>Honda</firm_name>
+      <model>Accord VII 2003-2007</model>
+      <part_name>Фара левая</part_name>
+      <comment>ДО 2005г. НЕ КСЕНОН ПРАВЫЙ РУЛЬ 33151SEAE01</comment>
+      <price>5630</price>
+      <netto_price>4730</netto_price>
+      <wear>100</wear>
+      <tv_id>6363471</tv_id>
+      <kit_id>0</kit_id>
+      <kit_title>0</kit_title>
+      <images>
+        <image>http://partner.euroauto.ru/lib/merge_image.php?src=p1039_6363471_01.jpg&amp;tp=1039&amp;site=euroauto.ru</image>
+      </images>
+      <tp>1039</tp>
+    </part>
+    <part>
+      <sh_id>1039</sh_id>
+      <firm_name>Honda</firm_name>
+      <model>Accord VII 2003-2007</model>
+      <part_name>Фара левая</part_name>
+      <comment>ДО 2005г. НЕ КСЕНОН ПРАВЫЙ РУЛЬ 33151SEAE01</comment>
+      <price>5630</price>
+      <netto_price>4730</netto_price>
+      <wear>100</wear>
+      <tv_id>6376090</tv_id>
+      <kit_id>0</kit_id>
+      <kit_title>0</kit_title>
+      <images>
+        <image>http://partner.euroauto.ru/lib/merge_image.php?src=p1039_6376090_01.jpg&amp;tp=1039&amp;site=euroauto.ru</image>
+      </images>
+      <tp>1039</tp>
+    </part>
+    <part>
+      <sh_id>1035</sh_id>
+      <firm_name>Honda</firm_name>
+      <model>Accord VII 2003-2007</model>
+      <part_name>Фара левая</part_name>
+      <comment>ДО 2005г.;НЕ КСЕНОН</comment>
+      <price>5630</price>
+      <netto_price>4730</netto_price>
+      <wear>100</wear>
+      <tv_id>7217891</tv_id>
+      <kit_id>0</kit_id>
+      <kit_title>0</kit_title>
+      <images/>
+      <tp>1035</tp>
+    </part>
+    <part>
+      <sh_id>1035</sh_id>
+      <firm_name>Honda</firm_name>
+      <model>Accord VII 2003-2007</model>
+      <part_name>Фара левая</part_name>
+      <comment>ДО 2005г., НЕ КСЕНОН</comment>
+      <price>5630</price>
+      <netto_price>4730</netto_price>
+      <wear>100</wear>
+      <tv_id>7547368</tv_id>
+      <kit_id>0</kit_id>
+      <kit_title>0</kit_title>
+      <images>
+        <image>http://partner.euroauto.ru/lib/merge_image.php?src=p1035_7547368_01.jpg&amp;tp=1035&amp;site=euroauto.ru</image>
+        <image>http://partner.euroauto.ru/lib/merge_image.php?src=p1035_7547368_02.jpg&amp;tp=1035&amp;site=euroauto.ru</image>
+        <image>http://partner.euroauto.ru/lib/merge_image.php?src=p1035_7547368_03.jpg&amp;tp=1035&amp;site=euroauto.ru</image>
+        <image>http://partner.euroauto.ru/lib/merge_image.php?src=p1035_7547368_04.jpg&amp;tp=1035&amp;site=euroauto.ru</image>
+      </images>
+      <tp>1035</tp>
+    </part>
+    <part>
+      <sh_id>1035</sh_id>
+      <firm_name>Honda</firm_name>
+      <model>Accord VII 2003-2007</model>
+      <part_name>Фара левая</part_name>
+      <comment>ДО 2005г КСЕНОН (БЕЗ БЛОКА И ЛАМПЫ)</comment>
+      <price>10500</price>
+      <netto_price>8820</netto_price>
+      <wear>100</wear>
+      <tv_id>7588129</tv_id>
+      <kit_id>0</kit_id>
+      <kit_title>0</kit_title>
+      <images>
+        <image>http://partner.euroauto.ru/lib/merge_image.php?src=p1035_7588129_01.jpg&amp;tp=1035&amp;site=euroauto.ru</image>
+        <image>http://partner.euroauto.ru/lib/merge_image.php?src=p1035_7588129_02.jpg&amp;tp=1035&amp;site=euroauto.ru</image>
+        <image>http://partner.euroauto.ru/lib/merge_image.php?src=p1035_7588129_03.jpg&amp;tp=1035&amp;site=euroauto.ru</image>
+      </images>
+      <tp>1035</tp>
+    </part>
+    <part>
+      <sh_id>1035</sh_id>
+      <firm_name>Honda</firm_name>
+      <model>Accord VII 2003-2007</model>
+      <part_name>Фара левая</part_name>
+      <comment>ДО 2005г., НЕ КСЕНОН</comment>
+      <price>5630</price>
+      <netto_price>4730</netto_price>
+      <wear>100</wear>
+      <tv_id>7663154</tv_id>
+      <kit_id>0</kit_id>
+      <kit_title>0</kit_title>
+      <images>
+        <image>http://partner.euroauto.ru/lib/merge_image.php?src=p1035_7663154_01.jpg&amp;tp=1035&amp;site=euroauto.ru</image>
+        <image>http://partner.euroauto.ru/lib/merge_image.php?src=p1035_7663154_02.jpg&amp;tp=1035&amp;site=euroauto.ru</image>
+        <image>http://partner.euroauto.ru/lib/merge_image.php?src=p1035_7663154_03.jpg&amp;tp=1035&amp;site=euroauto.ru</image>
+      </images>
+      <tp>1035</tp>
+    </part>
+    <part>
+      <sh_id>1035</sh_id>
+      <firm_name>Honda</firm_name>
+      <model>Accord VII 2003-2007</model>
+      <part_name>Фара левая</part_name>
+      <comment>ДО 2005г., НЕ КСЕНОН</comment>
+      <price>3940</price>
+      <netto_price>3310</netto_price>
+      <wear>70</wear>
+      <tv_id>7680517</tv_id>
+      <kit_id>0</kit_id>
+      <kit_title>0</kit_title>
+      <images>
+        <image>http://partner.euroauto.ru/lib/merge_image.php?src=p1035_7680517_01.jpg&amp;tp=1035&amp;site=euroauto.ru</image>
+        <image>http://partner.euroauto.ru/lib/merge_image.php?src=p1035_7680517_02.jpg&amp;tp=1035&amp;site=euroauto.ru</image>
+        <image>http://partner.euroauto.ru/lib/merge_image.php?src=p1035_7680517_03.jpg&amp;tp=1035&amp;site=euroauto.ru</image>
+        <image>http://partner.euroauto.ru/lib/merge_image.php?src=p1035_7680517_04.jpg&amp;tp=1035&amp;site=euroauto.ru</image>
+      </images>
+      <tp>1035</tp>
+    </part>
+    <part>
+      <sh_id>1035</sh_id>
+      <firm_name>Honda</firm_name>
+      <model>Accord VII 2003-2007</model>
+      <part_name>Фара левая</part_name>
+      <comment>ДО 2005г.;НЕ КСЕНОН</comment>
+      <price>5630</price>
+      <netto_price>4730</netto_price>
+      <wear>100</wear>
+      <tv_id>7771676</tv_id>
+      <kit_id>0</kit_id>
+      <kit_title>0</kit_title>
+      <images>
+        <image>http://partner.euroauto.ru/lib/merge_image.php?src=p1035_7771676_01.jpg&amp;tp=1035&amp;site=euroauto.ru</image>
+        <image>http://partner.euroauto.ru/lib/merge_image.php?src=p1035_7771676_02.jpg&amp;tp=1035&amp;site=euroauto.ru</image>
+        <image>http://partner.euroauto.ru/lib/merge_image.php?src=p1035_7771676_03.jpg&amp;tp=1035&amp;site=euroauto.ru</image>
+        <image>http://partner.euroauto.ru/lib/merge_image.php?src=p1035_7771676_04.jpg&amp;tp=1035&amp;site=euroauto.ru</image>
+      </images>
+      <tp>1035</tp>
+    </part>
+    <part>
+      <sh_id>1035</sh_id>
+      <firm_name>Honda</firm_name>
+      <model>Accord VII 2003-2007</model>
+      <part_name>Фара левая</part_name>
+      <comment>ПОСЛЕ 2005 НЕ БОЛЬШАЯ ТРЕЩИНА</comment>
+      <price>11250</price>
+      <netto_price>9450</netto_price>
+      <wear>90</wear>
+      <tv_id>7873121</tv_id>
+      <kit_id>0</kit_id>
+      <kit_title>0</kit_title>
+      <images>
+        <image>http://partner.euroauto.ru/lib/merge_image.php?src=p1035_7873121_01.jpg&amp;tp=1035&amp;site=euroauto.ru</image>
+        <image>http://partner.euroauto.ru/lib/merge_image.php?src=p1035_7873121_02.jpg&amp;tp=1035&amp;site=euroauto.ru</image>
+        <image>http://partner.euroauto.ru/lib/merge_image.php?src=p1035_7873121_03.jpg&amp;tp=1035&amp;site=euroauto.ru</image>
+        <image>http://partner.euroauto.ru/lib/merge_image.php?src=p1035_7873121_04.jpg&amp;tp=1035&amp;site=euroauto.ru</image>
+      </images>
+      <tp>1035</tp>
+    </part>
+    <part>
+      <sh_id>11</sh_id>
+      <firm_name>Honda</firm_name>
+      <model>Accord VII 2003-2007</model>
+      <part_name>Фара левая</part_name>
+      <comment>ДО 2005г КСЕНОН (БЕЗ БЛОКА И ЛАМПЫ)</comment>
+      <price>8060</price>
+      <netto_price>6720</netto_price>
+      <wear>80</wear>
+      <tv_id>11446549</tv_id>
+      <kit_id>0</kit_id>
+      <kit_title>0</kit_title>
+      <images>
+        <image>http://partner.euroauto.ru/lib/merge_image.php?src=p11_11446549_01.jpg&amp;tp=11&amp;site=euroauto.ru</image>
+        <image>http://partner.euroauto.ru/lib/merge_image.php?src=p11_11446549_02.jpg&amp;tp=11&amp;site=euroauto.ru</image>
+      </images>
+      <tp>11</tp>
+    </part>
+    <part>
+      <sh_id>11</sh_id>
+      <firm_name>Honda</firm_name>
+      <model>Accord VII 2003-2007</model>
+      <part_name>Фара левая</part_name>
+      <comment>ДО 2005г. НЕ КСЕНОН</comment>
+      <price>5400</price>
+      <netto_price>4500</netto_price>
+      <wear>100</wear>
+      <tv_id>11693495</tv_id>
+      <kit_id>0</kit_id>
+      <kit_title>0</kit_title>
+      <images>
+        <image>http://partner.euroauto.ru/lib/merge_image.php?src=p11_11693495_01.jpg&amp;tp=11&amp;site=euroauto.ru</image>
+      </images>
+      <tp>11</tp>
+    </part>
+    <part>
+      <sh_id>11</sh_id>
+      <firm_name>Honda</firm_name>
+      <model>Accord VII 2003-2007</model>
+      <part_name>Фара левая</part_name>
+      <comment>ДО 2005г. НЕ КСЕНОН</comment>
+      <price>5400</price>
+      <netto_price>4500</netto_price>
+      <wear>100</wear>
+      <tv_id>11712625</tv_id>
+      <kit_id>0</kit_id>
+      <kit_title>0</kit_title>
+      <images>
+        <image>http://partner.euroauto.ru/lib/merge_image.php?src=p11_11712625_01.jpg&amp;tp=11&amp;site=euroauto.ru</image>
+      </images>
+      <tp>11</tp>
+    </part>
+    <part>
+      <sh_id>11</sh_id>
+      <firm_name>Honda</firm_name>
+      <model>Accord VII 2003-2007</model>
+      <part_name>Фара левая</part_name>
+      <comment>ДО 2005г. НЕ КСЕНОН 33151SEAG01</comment>
+      <price>5400</price>
+      <netto_price>4500</netto_price>
+      <wear>100</wear>
+      <tv_id>11835789</tv_id>
+      <kit_id>0</kit_id>
+      <kit_title>0</kit_title>
+      <images>
+        <image>http://partner.euroauto.ru/lib/merge_image.php?src=p11_11835789_01.jpg&amp;tp=11&amp;site=euroauto.ru</image>
+        <image>http://partner.euroauto.ru/lib/merge_image.php?src=p11_11835789_02.jpg&amp;tp=11&amp;site=euroauto.ru</image>
+      </images>
+      <tp>11</tp>
+    </part>
+    <part>
+      <sh_id>11</sh_id>
+      <firm_name>Honda</firm_name>
+      <model>Accord VII 2003-2007</model>
+      <part_name>Фара левая</part_name>
+      <comment>ДО 2005г. КСЕНОН (БЕЗ БЛОКА И ЛАМПЫ) ОТСУТСТВУЕТ ЛИНЗА ЦАРАПАННОЕ СТЕКЛО</comment>
+      <price>8060</price>
+      <netto_price>6720</netto_price>
+      <wear>80</wear>
+      <tv_id>11852270</tv_id>
+      <kit_id>0</kit_id>
+      <kit_title>0</kit_title>
+      <images>
+        <image>http://partner.euroauto.ru/lib/merge_image.php?src=p11_11852270_01.jpg&amp;tp=11&amp;site=euroauto.ru</image>
+        <image>http://partner.euroauto.ru/lib/merge_image.php?src=p11_11852270_02.jpg&amp;tp=11&amp;site=euroauto.ru</image>
+        <image>http://partner.euroauto.ru/lib/merge_image.php?src=p11_11852270_03.jpg&amp;tp=11&amp;site=euroauto.ru</image>
+        <image>http://partner.euroauto.ru/lib/merge_image.php?src=p11_11852270_04.jpg&amp;tp=11&amp;site=euroauto.ru</image>
+        <image>http://partner.euroauto.ru/lib/merge_image.php?src=p11_11852270_05.jpg&amp;tp=11&amp;site=euroauto.ru</image>
+      </images>
+      <tp>11</tp>
+    </part>
+    <part>
+      <sh_id>11</sh_id>
+      <firm_name>Honda</firm_name>
+      <model>Accord VII 2003-2007</model>
+      <part_name>Фара левая</part_name>
+      <comment>ДО 2005г. НЕ КСЕНОН ПРАВЫЙ РУЛЬ</comment>
+      <price>5400</price>
+      <netto_price>4500</netto_price>
+      <wear>100</wear>
+      <tv_id>11879568</tv_id>
+      <kit_id>0</kit_id>
+      <kit_title>0</kit_title>
+      <images>
+        <image>http://partner.euroauto.ru/lib/merge_image.php?src=p11_11879568_01.jpg&amp;tp=11&amp;site=euroauto.ru</image>
+        <image>http://partner.euroauto.ru/lib/merge_image.php?src=p11_11879568_02.jpg&amp;tp=11&amp;site=euroauto.ru</image>
+      </images>
+      <tp>11</tp>
+    </part>
+    <part>
+      <sh_id>11</sh_id>
+      <firm_name>Honda</firm_name>
+      <model>Accord VII 2003-2007</model>
+      <part_name>Фара левая</part_name>
+      <comment>ДО 2005г  НЕ КСЕНОН  33151SEAE01</comment>
+      <price>4860</price>
+      <netto_price>4050</netto_price>
+      <wear>90</wear>
+      <tv_id>11973468</tv_id>
+      <kit_id>0</kit_id>
+      <kit_title>0</kit_title>
+      <images>
+        <image>http://partner.euroauto.ru/lib/merge_image.php?src=p11_11973468_01.jpg&amp;tp=11&amp;site=euroauto.ru</image>
+        <image>http://partner.euroauto.ru/lib/merge_image.php?src=p11_11973468_02.jpg&amp;tp=11&amp;site=euroauto.ru</image>
+        <image>http://partner.euroauto.ru/lib/merge_image.php?src=p11_11973468_03.jpg&amp;tp=11&amp;site=euroauto.ru</image>
+        <image>http://partner.euroauto.ru/lib/merge_image.php?src=p11_11973468_04.jpg&amp;tp=11&amp;site=euroauto.ru</image>
+        <image>http://partner.euroauto.ru/lib/merge_image.php?src=p11_11973468_05.jpg&amp;tp=11&amp;site=euroauto.ru</image>
+      </images>
+      <tp>11</tp>
+    </part>
+    <part>
+      <sh_id>7</sh_id>
+      <firm_name>Honda</firm_name>
+      <model>Accord VII 2003-2007</model>
+      <part_name>Фара левая</part_name>
+      <comment>ДО 2005г НЕ КСЕНОН</comment>
+      <price>5630</price>
+      <netto_price>4730</netto_price>
+      <wear>100</wear>
+      <tv_id>12018961</tv_id>
+      <kit_id>0</kit_id>
+      <kit_title>0</kit_title>
+      <images>
+        <image>http://partner.euroauto.ru/lib/merge_image.php?src=p7_12018961_01.jpg&amp;tp=7&amp;site=euroauto.ru</image>
+        <image>http://partner.euroauto.ru/lib/merge_image.php?src=p7_12018961_02.jpg&amp;tp=7&amp;site=euroauto.ru</image>
+      </images>
+      <tp>7</tp>
+    </part>
+  </parts>
+</euroauto-export>

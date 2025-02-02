@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<euroauto-export>
+  <request>
+    <creation-time>2012-10-31 08:42:00 GMT+0400</creation-time>
+    <status>
+      <code>0</code>
+      <message>ok</message>
+    </status>
+    <get>parts</get>
+    <model_id>482</model_id>
+    <part_id>5014</part_id>
+    <used>0</used>
+  </request>
+  <parts>
+    <part>
+      <firm_name>Depo</firm_name>
+      <orig_nr>217-1144L-LD-EM</orig_nr>
+      <model>HONDA ACCORD VII (2003&gt;)</model>
+      <firm_id>1027</firm_id>
+      <part_name>Фара левая</part_name>
+      <comment>ЕВРОПА / ДО 2005г.</comment>
+      <price>3370</price>
+      <using>0</using>
+      <images>
+        <image>http://partner.euroauto.ru/lib/merge_image.php?src=n278166_01.jpg&amp;tp=1&amp;site=euroauto.ru</image>
+        <image>http://partner.euroauto.ru/lib/merge_image.php?src=n278166_02.jpg&amp;tp=1&amp;site=euroauto.ru</image>
+      </images>
+      <tp>1</tp>
+    </part>
+    <part>
+      <firm_name>Depo</firm_name>
+      <orig_nr>217-1162L-LDEM2</orig_nr>
+      <model>HONDA ACCORD VII (2005&gt;)</model>
+      <firm_id>1027</firm_id>
+      <part_name>Фара левая</part_name>
+      <comment>ПОСЛЕ 2005г.</comment>
+      <price>4590</price>
+      <using>0</using>
+      <images/>
+      <tp>0</tp>
+    </part>
+    <part>
+      <firm_name>Hanse</firm_name>
+      <orig_nr>33151-SEA-G53</orig_nr>
+      <model>HONDA ACCORD VII (2005&gt;)</model>
+      <firm_id>1135</firm_id>
+      <part_name>Фара левая</part_name>
+      <comment>ПОСЛЕ 2005г.</comment>
+      <price>4660</price>
+      <using>0</using>
+      <images/>
+      <tp>0</tp>
+    </part>
+  </parts>
+</euroauto-export>

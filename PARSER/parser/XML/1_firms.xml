@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<euroauto-export>
+  <request>
+    <creation-time>2012-10-31 08:32:00 GMT+0400</creation-time>
+    <status>
+      <code>0</code>
+      <message>ok</message>
+    </status>
+    <get>firms</get>
+  </request>
+  <firms>
+    <firm>Acura</firm>
+    <firm>Alfa Romeo</firm>
+    <firm>Audi</firm>
+    <firm>BMW</firm>
+    <firm>BPW</firm>
+    <firm>Brilliance</firm>
+    <firm>BYD</firm>
+    <firm>Cadillac</firm>
+    <firm>Chery</firm>
+    <firm>Chevrolet</firm>
+    <firm>CHRYSLER</firm>
+    <firm>Citroen</firm>
+    <firm>Daewoo</firm>
+    <firm>DAF</firm>
+    <firm>Daihatsu</firm>
+    <firm>Fiat</firm>
+    <firm>Ford</firm>
+    <firm>Ford America</firm>
+    <firm>FOTON</firm>
+    <firm>Freightliner</firm>
+    <firm>GAZ</firm>
+    <firm>Geely</firm>
+    <firm>GM</firm>
+    <firm>Great Wall</firm>
+    <firm>Honda</firm>
+    <firm>HOWO</firm>
+    <firm>Hummer</firm>
+    <firm>Hyundai</firm>
+    <firm>International</firm>
+    <firm>Iran Khordo</firm>
+    <firm>Isuzu</firm>
+    <firm>Iveco</firm>
+    <firm>Jaguar</firm>
+    <firm>Kia</firm>
+    <firm>Lancia</firm>
+    <firm>Land Rover</firm>
+    <firm>LDV</firm>
+    <firm>Lexus</firm>
+    <firm>Lifan</firm>
+    <firm>MAN</firm>
+    <firm>Mazda</firm>
+    <firm>Mercedes Benz</firm>
+    <firm>Mini</firm>
+    <firm>Mitsubishi</firm>
+    <firm>Nissan</firm>
+    <firm>Opel</firm>
+    <firm>Peugeot</firm>
+    <firm>Porsche</firm>
+    <firm>Renault</firm>
+    <firm>ROR</firm>
+    <firm>Rover</firm>
+    <firm>SAAB</firm>
+    <firm>SAF</firm>
+    <firm>Scania</firm>
+    <firm>Seat</firm>
+    <firm>Sisu</firm>
+    <firm>Skoda</firm>
+    <firm>Smart</firm>
+    <firm>Ssang Yong</firm>
+    <firm>Subaru</firm>
+    <firm>Suzuki</firm>
+    <firm>Toyota</firm>
+    <firm>Trailor</firm>
+    <firm>VAZ</firm>
+    <firm>Volvo</firm>
+    <firm>VW</firm>
+  </firms>
+</euroauto-export>

@@ -1,0 +1,74 @@
+# Russian translation of ctools (all releases)
+# Copyright (c) 2013 by the Russian translation team
+# Generated from file: ctools/page_manager/theme/page_manager.theme.inc: n/a
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: ctools (all releases)\n"
+"POT-Creation-Date: 2013-05-29 14:25+0400\n"
+"PO-Revision-Date: 2011-07-02 22:15+0400\n"
+"Language-Team: Russian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=((((n%10)==1)&&((n%100)!=11))?(0):(((((n%10)>=2)&&((n%10)<=4))&&(((n%100)<10)||((n%100)>=20)))?(1):2));\n"
+
+#: page_manager/theme/page_manager.theme.inc:48,34,34,48,48,34,48,34,34,34,34,48,34,48
+msgid "Changed"
+msgstr "Изменение"
+
+#: page_manager/theme/page_manager.theme.inc:28,42,28,28,42,42,42,28,28,28,28,42,28,42
+msgid "Locked"
+msgstr "Заблокировано"
+
+#: page_manager/theme/page_manager.theme.inc:45,31,31,45,45,31,45,31,31,31,31,45,31,45
+msgid "New"
+msgstr "Новый"
+
+#: page_manager/theme/page_manager.theme.inc:98,72,72,98,98,72,98,72,72,72,72,98,72,98
+msgid "No task handlers are defined for this task."
+msgstr ""
+
+#: page_manager/theme/page_manager.theme.inc:124,100,100,124,124,100,124,100,100,100,100,124,100,124
+msgid ""
+"This page is being edited by user !user, and is therefore locked from "
+"editing by others. This lock is !age old. Click here to <a "
+"href=\"!break\">break this lock</a>."
+msgstr ""
+"В данный момент пользователь !user "
+"редактирует эту страницу, поэтому она "
+"заблокирована от изменений кем бы то "
+"ни было ещё. Блокировка длится уже !age. "
+"Щёлкните здесь, чтобы <a "
+"href=\"!break\">разблокировать её</a>."
+
+#: page_manager/theme/page_manager.theme.inc:28,42,28,28,42,42,42,28,28,28,28,42,28,42
+msgid ""
+"This page is being edited by another user and you cannot make changes "
+"to it."
+msgstr ""
+"В данный момент другой пользователь "
+"редактирует эту страницу, поэтому вы "
+"не можете вносить в неё изменения."
+
+#: page_manager/theme/page_manager.theme.inc:45,31,31,45,45,31,45,31,31,31,31,45,31,45
+msgid ""
+"This page is newly created and has not yet been saved to the database. "
+"It will not be available until you save it."
+msgstr ""
+"Эта страница - новая, ещё не записанная "
+"в базу данных. Она не будет доступна, "
+"пока вы её не сохраните."
+
+#: page_manager/theme/page_manager.theme.inc:48,34,34,48,48,34,48,34,34,34,34,48,34,48
+msgid ""
+"This page has been modified, but these modifications are not yet live. "
+"While modifying this page, it is locked from modification by other "
+"users."
+msgstr ""
+"Эта страница была изменена, но "
+"изменения ещё не вступили в силу. Во "
+"время редактирования страница "
+"блокируется от изменений другими "
+"пользователями."
+

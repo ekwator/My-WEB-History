@@ -1,0 +1,27 @@
+
+1    firms - список фирм; 
+2    models - список моделей по выбранной фирме;
+3    groups - новые, список групп и наименования деталей;
+4    groups - б/у, список групп и наименования деталей;
+5    parts - новые;
+6    parts - б/у;
+7    kit;
+8    usage;
+9    fulltextmodels - полнотекстовый поиск; б/у, без разбивки на страницы;
+10   fulltextmodels - полнотекстовый поиск; б/у, страница 1, стандартное количество моделей на странице (30);
+11   fulltextmodels - полнотекстовый поиск; новые, страница 2, 10 моделей на странице;
+12   fulltextparts - для полнотекстовый поиск б/у.
+
+1	http://partner.euroauto.ru/export/?login=euroauto&get=firms
+2	http://partner.euroauto.ru/export/?login=euroauto&get=models&firm=Audi
+3	http://partner.euroauto.ru/export/?login=euroauto&get=groups&model_id=288&used=0
+4	http://partner.euroauto.ru/export/?login=euroauto&get=groups&model_id=288&used=1
+5	http://partner.euroauto.ru/export/?login=euroauto&get=parts&model_id=482&part_id=5014&used=0
+6	http://partner.euroauto.ru/export/?login=euroauto&get=parts&model_id=482&part_id=5014&used=1
+7	http://partner.euroauto.ru/export/?login=euroauto&get=kit&tv_id=7504841&sh_id=1035
+8	http://partner.euroauto.ru/export/?login=euroauto&get=usage&firm_id=1004&orig_nr=13.0460-2887.2
+9	http://partner.euroauto.ru/export/?login=euroauto&get=fulltextmodels&query=%D0%BA%D0%B0%D0%BF%D0%BE%D1%82%20Audi&used=1
+10	http://partner.euroauto.ru/export/?login=euroauto&get=fulltextmodels&query=%D0%BA%D0%B0%D0%BF%D0%BE%D1%82%20Audi&used=1&page=1
+11	http://partner.euroauto.ru/export/?login=euroauto&get=fulltextmodels&query=%D1%80%D1%8B%D1%87%D0%B0%D0%B3+Audi&used=0&page=2&pageItems=10
+12	http://partner.euroauto.ru/export/?login=euroauto&get=fulltextparts&orig_grup=4018&model_id=17&used=1
+	

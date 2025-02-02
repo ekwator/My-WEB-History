@@ -1,0 +1,40 @@
+Да, кстати... про парсинг html (как правило, выдирание ссылок) писалось уже N + 1 раз... и 
+вроде все-таки все сводится к тому, что делать это тупо регэкспами - тупо. Ибо не будет работать 
+нормально на том говно-хтмл-коде (в плане соответствия каким-либо стандартам), из коего на 99% состоят 
+сайты инета... Так что выход 1 - использовать полноценный парсер [x]html в xml... 
+и тут вот SgmlReader - весьма неплохое решение... Вот как мог бы выглядеть упрощенный пример, 
+возвращающий XDocument по произвольному хтмлу:
+
+public static class SgmlHelper
+{
+    public static XDocument AsXDocument(this TextReader reader)
+    {
+        using (SgmlReader sgml = new SgmlReader())
+        {
+            sgml.DocType = "HTML";
+            sgml.CaseFolding = CaseFolding.ToLower;
+            sgml.InputStream = reader;
+
+            using (MemoryStream ms = new MemoryStream())
+            {
+                using (XmlWriter xml = XmlWriter.Create(ms))
+                {
+                    w.WriteStartDocument();
+                    sgml.Read();
+                    while (!sgml.EOF) w.WriteNode(sgml, true);
+                    w.Flush();
+                    
+                    ms.Position = 0;
+                    using (TextReader reader2 = new StreamReader(ms, Encoding.UTF8)) return XDocument.Load(reader2);
+                }
+            }
+        }
+    }
+}
+
+А уж по XDocument можно затем гулять как угодно, например, тем же линком:
+
+foreach (var ee in (from e in xDoc.Descendants() where e.NodeType == XmlNodeType.Element && e.Name == @"a" select e))
+{
+    Console.WriteLine(HttpUtility.UrlDecode(ee.Attribute(@"href").Value, Encoding.Default));
+}

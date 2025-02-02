@@ -1,0 +1,105 @@
+# Russian translation of date (all releases)
+# Copyright (c) 2012 by the Russian translation team
+# Generated from files:
+#  date/date_migrate/date_migrate_example/date_migrate_example.features.field.inc: n/a
+#  date/date_migrate/date_migrate_example/date_migrate_example.info: n/a
+#  date/date_migrate/date_migrate_example/date_migrate_example.features.inc: n/a
+#  date/date_migrate/date_migrate_example/date_migrate_example.migrate.inc: n/a
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: date (all releases)\n"
+"POT-Creation-Date: 2012-08-17 04:37-0400\n"
+"PO-Revision-Date: 2009-11-18 14:02-0500\n"
+"Language-Team: Russian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=((((n%10)==1)&&((n%100)!=11))?(0):(((((n%10)>=2)&&((n%10)<=4))&&(((n%100)<10)||((n%100)>=20)))?(1):2));\n"
+
+#: date_migrate/date_migrate_example/date_migrate_example.features.field.inc:670,670,670,670
+msgid "Body"
+msgstr "Содержимое"
+
+#: date_migrate/date_migrate_example/date_migrate_example.features.field.inc:674,674,674,674
+msgid "Datestamp"
+msgstr ""
+
+#: date_migrate/date_migrate_example/date_migrate_example.info:0,0,0,0
+msgid "Features"
+msgstr "Особенности"
+
+#: date_migrate/date_migrate_example/date_migrate_example.features.field.inc:672,672,672,672
+msgid "Date range"
+msgstr ""
+
+#: date_migrate/date_migrate_example/date_migrate_example.features.field.inc:673,673,673,673
+msgid "Date with repeat"
+msgstr ""
+
+#: date_migrate/date_migrate_example/date_migrate_example.features.field.inc:675,675,675,675
+msgid "Datestamp range"
+msgstr ""
+
+#: date_migrate/date_migrate_example/date_migrate_example.features.field.inc:676,676,676,676
+msgid "Datetime"
+msgstr ""
+
+#: date_migrate/date_migrate_example/date_migrate_example.features.field.inc:677,677,677,677
+msgid "Datetime range"
+msgstr ""
+
+#: date_migrate/date_migrate_example/date_migrate_example.features.inc:14,14,14,14
+msgid "Migrate example - dates"
+msgstr ""
+
+#: date_migrate/date_migrate_example/date_migrate_example.migrate.inc:18,18,18,18
+msgid "Example migration into date fields"
+msgstr ""
+
+#: date_migrate/date_migrate_example/date_migrate_example.migrate.inc:34,34,34,34
+msgid "Source id"
+msgstr ""
+
+#: date_migrate/date_migrate_example/date_migrate_example.migrate.inc:37,37,37,37
+msgid "A simple date"
+msgstr ""
+
+#: date_migrate/date_migrate_example/date_migrate_example.migrate.inc:38,38,38,38
+msgid "Start value for a date range"
+msgstr ""
+
+#: date_migrate/date_migrate_example/date_migrate_example.migrate.inc:39,39,39,39
+msgid "Simple datestamp"
+msgstr ""
+
+#: date_migrate/date_migrate_example/date_migrate_example.migrate.inc:40,40,40,40
+msgid "Start value for a datestamp range"
+msgstr ""
+
+#: date_migrate/date_migrate_example/date_migrate_example.migrate.inc:41,41,41,41
+msgid "Simple datetime"
+msgstr ""
+
+#: date_migrate/date_migrate_example/date_migrate_example.migrate.inc:42,42,42,42
+msgid "Start value for a datetime range"
+msgstr ""
+
+#: date_migrate/date_migrate_example/date_migrate_example.migrate.inc:43,43,43,43
+msgid "Sample of a repeating date field"
+msgstr ""
+
+#: date_migrate/date_migrate_example/date_migrate_example.info:0,0,0,0
+msgid "Examples of migrating with the Date module"
+msgstr ""
+
+#: date_migrate/date_migrate_example/date_migrate_example.features.inc:16,16,16,16
+msgid ""
+"This content type is used for demonstrating and testing migration into "
+"Date fields."
+msgstr ""
+
+#: date_migrate/date_migrate_example/date_migrate_example.info:0,0,0,0
+msgid "Date Migration Example"
+msgstr ""
+

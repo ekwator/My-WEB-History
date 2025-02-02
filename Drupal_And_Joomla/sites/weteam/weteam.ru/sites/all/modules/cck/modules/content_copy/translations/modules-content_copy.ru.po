@@ -1,0 +1,50 @@
+# Russian translation of cck (all releases)
+# Copyright (c) 2012 by the Russian translation team
+# Generated from file: cck/modules/content_copy/content_copy.module: n/a
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: cck (all releases)\n"
+"POT-Creation-Date: 2012-08-17 04:30-0400\n"
+"PO-Revision-Date: 2010-07-12 09:12-0400\n"
+"Language-Team: Russian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=((((n%10)==1)&&((n%100)!=11))?(0):(((((n%10)>=2)&&((n%10)<=4))&&(((n%100)<10)||((n%100)>=20)))?(1):2));\n"
+
+#: modules/content_copy/content_copy.module:180,181
+msgid "Content types"
+msgstr "Типы содержимого"
+
+#: modules/content_copy/content_copy.module:323,337
+msgid "<create>"
+msgstr "<создать>"
+
+#: modules/content_copy/content_copy.module:354,437,438
+msgid ""
+"An error has occurred adding the content type %type.<br/>Please check "
+"the errors displayed for more details."
+msgstr ""
+"Произошла ошибка при добавлении типа "
+"содержимого %type.<br/>Пожалуйста "
+"проверьте показанные ошибки для более "
+"подробной информации."
+
+#: modules/content_copy/content_copy.module:393,472,473,393,472,473
+msgid ""
+"The field %field_label (%field_name) was added to the content type "
+"%type."
+msgstr ""
+"Поле %field_label (%field_name) было добавлено к "
+"типу содержимого %type."
+
+#: modules/content_copy/content_copy.module:96,97
+msgid ""
+"This form will process a content type and one or more fields from that "
+"type and export the settings. The export created by this process can "
+"be copied and pasted as an import into the current or any other "
+"database. The import will add the fields to an existing content type "
+"or create a new content type that includes the selected fields."
+msgstr ""
+

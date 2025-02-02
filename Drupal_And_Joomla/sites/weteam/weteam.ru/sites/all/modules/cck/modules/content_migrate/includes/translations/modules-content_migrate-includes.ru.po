@@ -1,0 +1,141 @@
+# Russian translation of cck (all releases)
+# Copyright (c) 2012 by the Russian translation team
+# Generated from files:
+#  cck/modules/content_migrate/includes/content_migrate.drush.inc: n/a
+#  cck/modules/content_migrate/includes/content_migrate.admin.inc: n/a
+#  cck/modules/content_migrate/includes/content_migrate.values.inc: n/a
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: cck (all releases)\n"
+"POT-Creation-Date: 2012-08-17 04:30-0400\n"
+"PO-Revision-Date: 2011-05-21 16:12-0400\n"
+"Language-Team: Russian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=((((n%10)==1)&&((n%100)!=11))?(0):(((((n%10)>=2)&&((n%10)<=4))&&(((n%100)<10)||((n%100)>=20)))?(1):2));\n"
+
+#: modules/content_migrate/includes/content_migrate.drush.inc:71
+msgid "Status"
+msgstr "Статус"
+
+#: modules/content_migrate/includes/content_migrate.admin.inc:114
+msgid "This operation cannot be undone!"
+msgstr "Эта операция не может быть отменена!"
+
+#: modules/content_migrate/includes/content_migrate.admin.inc:94
+msgid "Available fields"
+msgstr "Доступные поля"
+
+#: modules/content_migrate/includes/content_migrate.admin.inc:17
+msgid "There is no D6 field information in this database."
+msgstr ""
+"В этой базе данных нет информации о D6 "
+"поле"
+
+#: modules/content_migrate/includes/content_migrate.admin.inc:101
+msgid "No fields are available to be migrated."
+msgstr "Нет доступпных полей для перенесения."
+
+#: modules/content_migrate/includes/content_migrate.admin.inc:105
+msgid "Migrate selected fields"
+msgstr "Миграция выделенных полей"
+
+#: modules/content_migrate/includes/content_migrate.admin.inc:113
+msgid "Converted fields"
+msgstr "Конвертированные поля"
+
+#: modules/content_migrate/includes/content_migrate.admin.inc:114
+msgid ""
+"Fields that have already been converted. You can choose to roll them "
+"back if the conversion did not work correctly. Note that rolling "
+"fields back will completely destroy the new field tables."
+msgstr ""
+
+#: modules/content_migrate/includes/content_migrate.admin.inc:120
+msgid "No fields are already converted."
+msgstr "Никакие поля уже не преобразованы."
+
+#: modules/content_migrate/includes/content_migrate.admin.inc:124
+msgid "Roll back selected fields"
+msgstr "Откат выбранных полей"
+
+#: modules/content_migrate/includes/content_migrate.admin.inc:132
+msgid "Unavailable fields"
+msgstr "Недоступные поля"
+
+#: modules/content_migrate/includes/content_migrate.admin.inc:133
+msgid "Fields that cannot be migrated because some modules are missing."
+msgstr ""
+"Поля не могут быть перемещены, потому "
+"что некоторые модули отсутствуют."
+
+#: modules/content_migrate/includes/content_migrate.admin.inc:139
+msgid "No fields have missing modules."
+msgstr ""
+"Ни у каких полей нет недостающих "
+"модулей."
+
+#: modules/content_migrate/includes/content_migrate.admin.inc:179
+msgid "Rolling back @field_name."
+msgstr "Откат @ ield_name."
+
+#: modules/content_migrate/includes/content_migrate.admin.inc:241
+msgid "Created field @field_name"
+msgstr "Создано поле @field_name"
+
+#: modules/content_migrate/includes/content_migrate.admin.inc:259
+msgid "Created instance of @field_name in bundle @bundle."
+msgstr ""
+
+#: modules/content_migrate/includes/content_migrate.admin.inc:265
+msgid "Error creating instance of @field_name in bundle @bundle."
+msgstr ""
+
+#: modules/content_migrate/includes/content_migrate.admin.inc:272
+msgid "Error creating field @field_name"
+msgstr "Ошибка создания поля @field_name"
+
+#: modules/content_migrate/includes/content_migrate.admin.inc:223
+msgid "\"Creating field: %field"
+msgstr "\"Создание поля: %field"
+
+#: modules/content_migrate/includes/content_migrate.admin.inc:32
+msgid "Missing field module: '@field'. This field cannot be migrated."
+msgstr ""
+
+#: modules/content_migrate/includes/content_migrate.admin.inc:95
+msgid ""
+"Fields that have not yet been migrated but are available for "
+"migration. <strong>Please carefully read the messages next to each "
+"field before migrating it to understand changes that might be "
+"made.</strong>"
+msgstr ""
+
+#: modules/content_migrate/includes/content_migrate.values.inc:45
+msgid ""
+"Caution: The '@field' field is a shared field that uses different "
+"widgets. The '@widget' widget is sometimes used to determine the "
+"destination field type for the new field. The migration may not work "
+"correctly if other widgets used by this shared field would create "
+"different results."
+msgstr ""
+
+#: modules/content_migrate/includes/content_migrate.values.inc:236
+msgid ""
+"Missing widget: The '@widget' widget is not available for the @field "
+"field, it will be set to the default widget."
+msgstr ""
+
+#: modules/content_migrate/includes/content_migrate.values.inc:246
+msgid ""
+"Missing formatter: The '@formatter' formatter used in @view_mode view "
+"modes for the @field field is not available, these displays will be "
+"reset to the default formatter."
+msgstr ""
+
+#: modules/content_migrate/includes/content_migrate.admin.inc:428
+msgid "Processing through nid %nid"
+msgstr ""
+

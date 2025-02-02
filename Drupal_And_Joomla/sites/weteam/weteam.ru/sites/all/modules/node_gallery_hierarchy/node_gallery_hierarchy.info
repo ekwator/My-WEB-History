@@ -1,0 +1,14 @@
+; $Id$
+
+name = Node Gallery Hierarchy
+description = "An extension to the Node Gallery module providing sub gallery functionality."
+core = 6.x
+dependencies[] = node_gallery
+package = Node Gallery
+
+; Information added by drupal.org packaging script on 2011-09-30
+version = "6.x-1.x-dev"
+core = "6.x"
+project = "node_gallery_hierarchy"
+datestamp = "1317384854"
+

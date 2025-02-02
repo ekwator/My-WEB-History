@@ -1,0 +1,458 @@
+@charset "utf-8";
+
+/**
+ * Базовая компоновка для клиентов
+ */
+#doc3 {
+    margin: auto 3%;
+    min-width: 1000px;
+}
+#bd {
+    color: #41464a;
+    position: relative;
+    padding-top: 20px;
+}
+#hd, .no-head #bd {
+    padding-top: 26px;
+}
+
+#bd a {
+    color: #00adef;
+}
+#bd .link {
+    color: #00adef;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#bd .layout-col1 h4 {
+    font-size: 12px;
+    color: #959595;
+    width: 120px;
+}
+
+.yui-t5 #yui-main .yui-b {
+    margin-right: 22em;
+    *margin-right: 21.45em;
+}
+
+/* виджет jQuery UI Datepicker */
+.ui-datepicker {
+    z-index: 10;
+}
+
+/**
+ * Компоновка страницы
+ *  div.layout-mask
+ *      div.layout-col1 - левая колонка 160px
+ *      div.layout-col2 - центральная эластичная колонка
+ *      div.layout-col3 - правая колонка 240px + 40px зазор
+ */
+.layout-mask {
+    padding-left: 160px;
+    padding-right: 280px;
+}
+.layout-col1, .layout-col2, .layout-col3 {
+    float: left;
+    position: relative;
+}
+.layout-col1 {
+    width: 160px;
+    right: 160px;
+    margin-right: -100%;
+}
+.layout-col2 {
+    width: 100%;
+    background: white;
+    z-index: 2;
+}
+.layout-col3 {
+    width: 240px;
+    margin-right: -100%;
+    left: 40px;
+}
+
+
+.logo-holder {
+    overflow: hidden;
+    max-height: 200px;
+}
+
+
+#hd {
+    padding-bottom: 16px;
+    position: relative;
+    z-index: 10;
+}
+#bd div.profile-info {
+    padding-top: 10px;
+}
+#bd div.profile-info p {
+    font-size: 17px;
+    color: #00adef;
+    padding-bottom: 2px;
+}
+#bd div.profile-info p span {
+    color: #41464a;
+}
+
+.phone-pass {
+    padding-bottom: 15px;
+    padding-top: 10px;
+    white-space: nowrap;
+}
+.phone-pass p {
+    height: 1.4em;
+    vertical-align: top;
+}
+.phone-pass__link {
+    border-bottom: 1px dotted;
+    color: #41464A;
+    cursor: pointer;
+}
+.phone-pass_edit .phone-pass__link {
+    display: none;
+}
+.phone-pass__input {
+    display: none;
+    width: 3em;
+}
+.phone-pass_edit .phone-pass__input {
+    display: inline;
+}
+.phone-pass_edit .submit-link {
+    display: inline-block;
+}
+
+#nav {
+    padding-bottom: 20px;
+    position: relative;
+    z-index: 50;
+}
+
+#nav ul {
+    position: relative;
+    left: -12px;
+}
+#nav li {
+    float: left;
+    position: relative;
+    font-size: 17px;
+    padding-left: 12px;
+    margin-right: 12px;
+}
+#nav li span {
+    padding-right: 12px;
+    display: block;
+    float: left;
+    position: relative;
+}
+#nav li, #nav li span {
+    height: 24px;
+    line-height: 24px;
+}
+#nav li.active {
+    background: url(../i/btn-sprite.png) left -90px no-repeat;
+}
+#nav li.active span {
+    background: url(../i/btn-sprite.png) right -90px no-repeat;
+    color: white;
+}
+#nav .active a {
+    color: white;
+    text-decoration: none;
+    position: relative;
+}
+
+#nav li.over {
+    margin-right: 0;
+    padding-right: 12px;
+    background: #E6F1F5;
+}
+
+#nav ul.sub-menu li.delegated a, #dns-zones li.delegated a{
+    color: #EB5E23;
+    font-style: italic;
+}
+
+#nav em {
+    font-style: normal;
+    font-weight: bold;
+    position: relative;
+    cursor: default;
+}
+
+#nav .w, #nav ul.sub-menu {
+    display: none;
+}
+#nav .over, #nav .over em {
+    z-index: 11;
+}
+#nav .over ul.sub-menu {
+    left: 0;
+    background: #e6f1f5;
+    padding: 12px 0 12px 0;
+    display: block;
+    float: left;
+}
+#nav ul.sub-menu li {
+    display: block;
+    clear: left;
+    padding: 0 24px 0 24px;
+    margin: 0;
+    white-space: nowrap;
+    font-size: 12px;
+    height: auto;
+    line-height: 20px;
+}
+#nav ul.sub-menu li a {
+    color: #0793c9;
+    border-bottom: 0 none;
+    text-decoration: underline;
+}
+#nav .over .w {
+    display: block !important;
+    position: absolute;
+    z-index: 10;
+    overflow: hidden;
+    left: 0;
+    *top: 24px;
+}
+#nav .w .cap {
+    height: 12px;
+    margin: 0 12px;
+    background: #e6f1f5;
+    overflow: hidden;
+}
+#nav .w em.c {
+    background: url(../i/menu-popup-cn.png) 0 0 no-repeat;
+    position: absolute;
+    left: -12px;
+    top: -12px;
+    display: block;
+    width: 24px;
+    height: 24px;
+}
+#nav .w em.r {
+    margin-left: 100%;
+    *left: 12px;
+}
+#nav .w .cap-bottom em.c {
+    top: auto;
+}
+
+#info-column {
+    padding-top: 20px;
+}
+#info-column .knowledge-base a {
+    background: url(../i/sidebar-info-sprite.png) 0 0 no-repeat;
+    display: block;
+    width: 240px;
+    height: 53px;
+    line-height: 53px;
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+}
+#info-column .knowledge-base span {
+    padding-left: 48px;
+    padding-right: 16px;
+}
+
+#info-column .tech-support {
+    color: #41464a;
+}
+#info-column .tech-support div {
+    background: url(../i/sidebar-info-sprite.png) 0 -150px no-repeat;
+    padding-top: 33px;
+    padding-left: 42px;
+    margin-bottom: 5px;
+    font-size: 18px;
+    white-space: nowrap;
+    zoom: 1;
+}
+#info-column .tech-support div.phone {
+    background-position: 0 -75px;
+}
+#info-column .tech-support div.help {
+    background-position: 0 -225px;
+}
+#info-column .tech-support div.nameservers {
+    background-position: 0 -300px;
+}
+#info-column .tech-support div.phone span {
+    font-size: 26px;
+}
+#info-column .tech-support p {
+    margin-top: -33px;
+    position: relative;
+    line-height: 33px;
+}
+#info-column .tech-support .phone p {
+    line-height: 1;
+}
+#info-column .tech-support h6 {
+    font-size: 14px;
+    margin-bottom: 12px;
+    margin-top: 32px;
+}
+#info-column .tech-support span.dashed {
+    color: #00adef;
+}
+#info-column .payment-systems li {
+    padding-bottom: 0.5em;
+    float: left;
+    width: 110px;
+}
+
+
+/**
+ * Кнопка
+ * <a class="btn"><span><em>Title</em></span></a>
+ * <span class="btn"><span><input type="button" value="Title" /></span></span>
+ *
+ * Классы: «btn-secondary», «btn-disabled»
+ */
+.btn {
+    background: url(../i/btn-sprite.png) left top no-repeat;
+    position: relative;
+    margin-right: -3px;
+    margin-left: -3px;
+    padding-left: 3px;
+    font-size: 12px;
+    text-decoration: none;
+    color: white !important;
+    /*vertical-align: top;*/
+    vertical-align: middle;
+}
+.btn span {
+    background: url(../i/btn-sprite.png) right top no-repeat;
+    padding-right: 5px;
+}
+.btn, .btn span {
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+    overflow: hidden;
+    height: 30px;
+}
+.btn span * {
+    font-style: normal;
+    position: relative;
+    padding: 0 10px;
+
+}
+.btn em {
+    font-style: normal;
+    position: relative;
+    top: 5px;
+    padding: 0 10px;
+}
+.btn input {
+    background: none;
+    border: 0 none;
+    color: white;
+    cursor: pointer;
+    height: 20px;
+    padding: 0 10px 3px;
+    position: relative;
+    top: 4px;
+}
+.btn-secondary {
+    background-position: left -30px;
+}
+.btn-secondary span {
+    background-position: right -30px;
+}
+.btn-disabled {
+    background-position: left -60px !important;
+}
+.btn-disabled span {
+    background-position: right -60px !important;
+}
+.btn-disabled * {
+    cursor: default !important;
+}
+.btn.rev {
+    float: right;
+}
+
+table .btn {
+    background-image: url(../i/btn-sprite-noshadow.png);
+    margin-left: 0;
+    margin-right: 2px;
+}
+table .btn span {
+    background: none;
+    padding-right: 0;
+}
+
+
+
+.dashed {
+    padding: 0 2px;
+    border-bottom: 1px dashed;
+    cursor: pointer;
+}
+
+#page {
+    position: relative;
+    zoom: 1;
+}
+
+#page h1 {
+    font-size: 26px;
+    margin-bottom: 1em;
+}
+#page h2 {
+    font-size: 18px;
+    margin-bottom: 1em;
+}
+#page p {
+    margin-bottom: 1em;
+}
+#page ul, #page ol {
+    margin: 1em 0 1em 2em;
+}
+#page ul li {
+    display: list-item;
+    list-style-type: disc;
+}
+#page ol li {
+    display: list-item;
+    list-style-type: decimal;
+}
+
+#page div.frame {
+    color: #41464a;
+    border: 1px solid #90d226;
+    padding: 1.6em 2em 1.3em 2em;
+    margin-bottom: 1em;
+    position: relative;
+    zoom: 1;
+}
+
+/**
+ * Разбивка на страницы
+ */
+#page ul.pager {
+    margin: 0.5em 0;
+    text-align: center;
+}
+#page ul.pager li {
+    padding: 0.5em;
+    display: inline;
+}
+
+#noscript-msg {
+    background: red;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 1em;
+    text-align: center;
+    margin-bottom: 20px;
+}
+#noscript-msg strong {
+    font-weight: bold;
+}

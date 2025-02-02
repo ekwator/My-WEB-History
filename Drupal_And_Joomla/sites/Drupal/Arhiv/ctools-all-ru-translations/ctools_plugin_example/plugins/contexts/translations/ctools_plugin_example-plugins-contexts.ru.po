@@ -1,0 +1,55 @@
+# Russian translation of ctools (all releases)
+# Copyright (c) 2013 by the Russian translation team
+# Generated from files:
+#  ctools/ctools_plugin_example/plugins/contexts/relcontext.inc: n/a
+#  relcontext.inc,v 1.1.2.1 2010/01/29 19:54:02 merlinofchaos
+#  ctools/ctools_plugin_example/plugins/contexts/simplecontext.inc: n/a
+#  simplecontext.inc,v 1.1.2.1 2010/01/29 19:54:02 merlinofchaos
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: ctools (all releases)\n"
+"POT-Creation-Date: 2013-05-29 14:25+0400\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Language-Team: Russian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=((((n%10)==1)&&((n%100)!=11))?(0):(((((n%10)>=2)&&((n%10)<=4))&&(((n%100)<10)||((n%100)>=20)))?(1):2));\n"
+
+#: ctools_plugin_example/plugins/contexts/relcontext.inc:15,15,16,16,15,15,15,15,16,15,15,15,15
+msgid "A relcontext object."
+msgstr ""
+
+#: ctools_plugin_example/plugins/contexts/relcontext.inc:50,50,51,51,50,50,50,50,51,50,50,50,50
+msgid "Relcontext context from simplecontext"
+msgstr ""
+
+#: ctools_plugin_example/plugins/contexts/relcontext.inc:74,74,75,75,74,74,74,74,75,74,74,74,74
+msgid "Relcontext setting"
+msgstr ""
+
+#: ctools_plugin_example/plugins/contexts/relcontext.inc:76,76,77,77,76,76,76,76,77,76,76,76,76
+msgid "Just an example setting."
+msgstr ""
+
+#: ctools_plugin_example/plugins/contexts/simplecontext.inc:16,16,17,17,16,16,16,16,17,16,16,16,16
+msgid "A single \"simplecontext\" context, or data element."
+msgstr ""
+
+#: ctools_plugin_example/plugins/contexts/simplecontext.inc:29,29,30,30,29,29,29,29,30,29,29,29,29
+msgid "Enter some data to represent this \"simplecontext\"."
+msgstr ""
+
+#: ctools_plugin_example/plugins/contexts/simplecontext.inc:63,63,64,64,63,63,63,63,64,63,63,63,63
+msgid "Simplecontext context from config"
+msgstr ""
+
+#: ctools_plugin_example/plugins/contexts/simplecontext.inc:95,95,95,96,96,95,95,95,96,95,95,95,95
+msgid "Setting for simplecontext"
+msgstr ""
+
+#: ctools_plugin_example/plugins/contexts/simplecontext.inc:97,97,97,98,98,97,97,97,98,97,97,97,97
+msgid "An example setting that could be used to configure a context"
+msgstr ""
+

@@ -1,0 +1,2025 @@
+<?xml version="1.0" encoding="utf-8"?>
+<euroauto-export>
+  <request>
+    <creation-time>2012-10-31 08:46:26 GMT+0400</creation-time>
+    <status>
+      <code>0</code>
+      <message>ok</message>
+    </status>
+    <get>usage</get>
+    <orig_nr>13.0460-2887.2</orig_nr>
+    <firm_id>1004</firm_id>
+  </request>
+  <comments>
+    <item>ширина: 105,3 мм</item>
+    <item>высота: 55,9 мм</item>
+    <item>Толщина: 17,1 мм</item>
+    <item>NB: подготовленно для датчика износа</item>
+    <item>NB: без датчика износа</item>
+    <item>NB: с винтами тормозных сателлитов</item>
+    <item>Тормозная система: Lucas</item>
+    <item>провер. знач.: E1 90R-01891/745</item>
+  </comments>
+  <usage>
+    <model>
+      <TYPE>AUDI A3 (8P1) 3.2 V6 quattro</TYPE>
+      <BODY/>
+      <TYP_YEAR>07/2003-</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>184</TYP_KW_FROM>
+      <TYP_HP_FROM>250</TYP_HP_FROM>
+      <TYP_CCM>3189</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A3 (8P1) S3 quattro</TYPE>
+      <BODY/>
+      <TYP_YEAR>11/2006-</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>195</TYP_KW_FROM>
+      <TYP_HP_FROM>265</TYP_HP_FROM>
+      <TYP_CCM>1984</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A3 (8P1) S3 quattro</TYPE>
+      <BODY/>
+      <TYP_YEAR>02/2007-</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>188</TYP_KW_FROM>
+      <TYP_HP_FROM>256</TYP_HP_FROM>
+      <TYP_CCM>1984</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A3 Sportback (8PA) 3.2 V6 quattro</TYPE>
+      <BODY/>
+      <TYP_YEAR>09/2004-</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>184</TYP_KW_FROM>
+      <TYP_HP_FROM>250</TYP_HP_FROM>
+      <TYP_CCM>3189</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A3 Sportback (8PA) S3 quattro</TYPE>
+      <BODY/>
+      <TYP_YEAR>06/2008-</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>195</TYP_KW_FROM>
+      <TYP_HP_FROM>265</TYP_HP_FROM>
+      <TYP_CCM>1984</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A3 Sportback (8PA) S3 quattro</TYPE>
+      <BODY/>
+      <TYP_YEAR>07/2008-</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>188</TYP_KW_FROM>
+      <TYP_HP_FROM>256</TYP_HP_FROM>
+      <TYP_CCM>1984</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A4 (8E2, B6) 1.6</TYPE>
+      <BODY/>
+      <TYP_YEAR>11/2000-12/2004</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>75</TYP_KW_FROM>
+      <TYP_HP_FROM>102</TYP_HP_FROM>
+      <TYP_CCM>1595</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A4 (8E2, B6) 1.8 T</TYPE>
+      <BODY/>
+      <TYP_YEAR>11/2000-07/2002</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>110</TYP_KW_FROM>
+      <TYP_HP_FROM>150</TYP_HP_FROM>
+      <TYP_CCM>1781</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A4 (8E2, B6) 1.8 T</TYPE>
+      <BODY/>
+      <TYP_YEAR>07/2002-12/2004</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>120</TYP_KW_FROM>
+      <TYP_HP_FROM>163</TYP_HP_FROM>
+      <TYP_CCM>1781</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A4 (8E2, B6) 1.8 T</TYPE>
+      <BODY/>
+      <TYP_YEAR>11/2002-12/2004</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>140</TYP_KW_FROM>
+      <TYP_HP_FROM>190</TYP_HP_FROM>
+      <TYP_CCM>1781</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A4 (8E2, B6) 1.8 T</TYPE>
+      <BODY/>
+      <TYP_YEAR>07/2001-12/2004</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>125</TYP_KW_FROM>
+      <TYP_HP_FROM>170</TYP_HP_FROM>
+      <TYP_CCM>1781</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A4 (8E2, B6) 1.8 T quattro</TYPE>
+      <BODY/>
+      <TYP_YEAR>07/2001-12/2004</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>125</TYP_KW_FROM>
+      <TYP_HP_FROM>170</TYP_HP_FROM>
+      <TYP_CCM>1781</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A4 (8E2, B6) 1.8 T quattro</TYPE>
+      <BODY/>
+      <TYP_YEAR>11/2002-12/2004</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>140</TYP_KW_FROM>
+      <TYP_HP_FROM>190</TYP_HP_FROM>
+      <TYP_CCM>1781</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A4 (8E2, B6) 1.8 T quattro</TYPE>
+      <BODY/>
+      <TYP_YEAR>07/2002-12/2004</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>120</TYP_KW_FROM>
+      <TYP_HP_FROM>163</TYP_HP_FROM>
+      <TYP_CCM>1781</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A4 (8E2, B6) 1.8 T quattro</TYPE>
+      <BODY/>
+      <TYP_YEAR>11/2000-07/2002</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>110</TYP_KW_FROM>
+      <TYP_HP_FROM>150</TYP_HP_FROM>
+      <TYP_CCM>1781</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A4 (8E2, B6) 1.9 TDI</TYPE>
+      <BODY/>
+      <TYP_YEAR>11/2000-12/2004</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>96</TYP_KW_FROM>
+      <TYP_HP_FROM>130</TYP_HP_FROM>
+      <TYP_CCM>1896</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A4 (8E2, B6) 1.9 TDI</TYPE>
+      <BODY/>
+      <TYP_YEAR>05/2001-12/2004</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>74</TYP_KW_FROM>
+      <TYP_HP_FROM>101</TYP_HP_FROM>
+      <TYP_CCM>1896</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A4 (8E2, B6) 1.9 TDI</TYPE>
+      <BODY/>
+      <TYP_YEAR>06/2004-12/2004</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>85</TYP_KW_FROM>
+      <TYP_HP_FROM>116</TYP_HP_FROM>
+      <TYP_CCM>1896</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A4 (8E2, B6) 1.9 TDI quattro</TYPE>
+      <BODY/>
+      <TYP_YEAR>11/2001-12/2004</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>96</TYP_KW_FROM>
+      <TYP_HP_FROM>130</TYP_HP_FROM>
+      <TYP_CCM>1896</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A4 (8E2, B6) 2.0</TYPE>
+      <BODY/>
+      <TYP_YEAR>11/2000-12/2004</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>96</TYP_KW_FROM>
+      <TYP_HP_FROM>130</TYP_HP_FROM>
+      <TYP_CCM>1984</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A4 (8E2, B6) 2.0 FSI</TYPE>
+      <BODY/>
+      <TYP_YEAR>07/2002-12/2004</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>110</TYP_KW_FROM>
+      <TYP_HP_FROM>150</TYP_HP_FROM>
+      <TYP_CCM>1984</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A4 (8E2, B6) 2.4</TYPE>
+      <BODY/>
+      <TYP_YEAR>09/2001-12/2004</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>125</TYP_KW_FROM>
+      <TYP_HP_FROM>170</TYP_HP_FROM>
+      <TYP_CCM>2393</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A4 (8E2, B6) 2.4</TYPE>
+      <BODY/>
+      <TYP_YEAR>09/2001-12/2004</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>120</TYP_KW_FROM>
+      <TYP_HP_FROM>163</TYP_HP_FROM>
+      <TYP_CCM>2393</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A4 (8E2, B6) 2.5 TDI</TYPE>
+      <BODY/>
+      <TYP_YEAR>08/2001-07/2002</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>114</TYP_KW_FROM>
+      <TYP_HP_FROM>155</TYP_HP_FROM>
+      <TYP_CCM>2496</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A4 (8E2, B6) 2.5 TDI</TYPE>
+      <BODY/>
+      <TYP_YEAR>07/2002-12/2004</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>120</TYP_KW_FROM>
+      <TYP_HP_FROM>163</TYP_HP_FROM>
+      <TYP_CCM>2496</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A4 (8E2, B6) 2.5 TDI quattro</TYPE>
+      <BODY/>
+      <TYP_YEAR>11/2000-12/2004</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>132</TYP_KW_FROM>
+      <TYP_HP_FROM>180</TYP_HP_FROM>
+      <TYP_CCM>2496</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A4 (8E2, B6) 3.0</TYPE>
+      <BODY/>
+      <TYP_YEAR>11/2000-12/2004</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>162</TYP_KW_FROM>
+      <TYP_HP_FROM>220</TYP_HP_FROM>
+      <TYP_CCM>2976</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A4 (8E2, B6) 3.0</TYPE>
+      <BODY/>
+      <TYP_YEAR>04/2001-12/2004</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>160</TYP_KW_FROM>
+      <TYP_HP_FROM>218</TYP_HP_FROM>
+      <TYP_CCM>2976</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A4 (8E2, B6) 3.0  quattro</TYPE>
+      <BODY/>
+      <TYP_YEAR>04/2001-12/2004</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>160</TYP_KW_FROM>
+      <TYP_HP_FROM>218</TYP_HP_FROM>
+      <TYP_CCM>2976</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A4 (8E2, B6) 3.0  quattro</TYPE>
+      <BODY/>
+      <TYP_YEAR>11/2000-12/2004</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>162</TYP_KW_FROM>
+      <TYP_HP_FROM>220</TYP_HP_FROM>
+      <TYP_CCM>2976</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A4 (8EC) 1.6</TYPE>
+      <BODY/>
+      <TYP_YEAR>11/2004-</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>75</TYP_KW_FROM>
+      <TYP_HP_FROM>102</TYP_HP_FROM>
+      <TYP_CCM>1595</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A4 (8EC) 1.8 T</TYPE>
+      <BODY/>
+      <TYP_YEAR>11/2004-</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>120</TYP_KW_FROM>
+      <TYP_HP_FROM>163</TYP_HP_FROM>
+      <TYP_CCM>1781</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A4 (8EC) 1.8 T quattro</TYPE>
+      <BODY/>
+      <TYP_YEAR>11/2004-</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>120</TYP_KW_FROM>
+      <TYP_HP_FROM>163</TYP_HP_FROM>
+      <TYP_CCM>1781</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A4 (8EC) 1.9 TDI</TYPE>
+      <BODY/>
+      <TYP_YEAR>11/2004-</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>85</TYP_KW_FROM>
+      <TYP_HP_FROM>116</TYP_HP_FROM>
+      <TYP_CCM>1896</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A4 (8EC) 2.0</TYPE>
+      <BODY/>
+      <TYP_YEAR>11/2004-</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>96</TYP_KW_FROM>
+      <TYP_HP_FROM>130</TYP_HP_FROM>
+      <TYP_CCM>1984</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A4 (8EC) 2.0 FSi</TYPE>
+      <BODY/>
+      <TYP_YEAR>01/2005-07/2005</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>110</TYP_KW_FROM>
+      <TYP_HP_FROM>150</TYP_HP_FROM>
+      <TYP_CCM>1984</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A4 (8EC) 2.0 TDI</TYPE>
+      <BODY/>
+      <TYP_YEAR>11/2004-</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>103</TYP_KW_FROM>
+      <TYP_HP_FROM>140</TYP_HP_FROM>
+      <TYP_CCM>1968</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A4 (8EC) 2.0 TDI</TYPE>
+      <BODY/>
+      <TYP_YEAR>06/2006-</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>125</TYP_KW_FROM>
+      <TYP_HP_FROM>170</TYP_HP_FROM>
+      <TYP_CCM>1968</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A4 (8EC) 2.0 TDI</TYPE>
+      <BODY/>
+      <TYP_YEAR>11/2004-</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>100</TYP_KW_FROM>
+      <TYP_HP_FROM>136</TYP_HP_FROM>
+      <TYP_CCM>1968</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A4 (8EC) 2.0 TDI 16V</TYPE>
+      <BODY/>
+      <TYP_YEAR>11/2004-</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>103</TYP_KW_FROM>
+      <TYP_HP_FROM>140</TYP_HP_FROM>
+      <TYP_CCM>1968</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A4 (8EC) 2.0 TDI quattro</TYPE>
+      <BODY/>
+      <TYP_YEAR>01/2006-</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>103</TYP_KW_FROM>
+      <TYP_HP_FROM>140</TYP_HP_FROM>
+      <TYP_CCM>1968</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A4 (8EC) 2.0 TDI quattro</TYPE>
+      <BODY/>
+      <TYP_YEAR>06/2006-</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>125</TYP_KW_FROM>
+      <TYP_HP_FROM>170</TYP_HP_FROM>
+      <TYP_CCM>1968</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A4 (8EC) 2.0 TFSI</TYPE>
+      <BODY/>
+      <TYP_YEAR>06/2005-</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>162</TYP_KW_FROM>
+      <TYP_HP_FROM>220</TYP_HP_FROM>
+      <TYP_CCM>1984</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A4 (8EC) 2.0 TFSI</TYPE>
+      <BODY/>
+      <TYP_YEAR>11/2004-</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>147</TYP_KW_FROM>
+      <TYP_HP_FROM>200</TYP_HP_FROM>
+      <TYP_CCM>1984</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A4 (8EC) 2.0 TFSI quattro</TYPE>
+      <BODY/>
+      <TYP_YEAR>11/2004-</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>147</TYP_KW_FROM>
+      <TYP_HP_FROM>200</TYP_HP_FROM>
+      <TYP_CCM>1984</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A4 (8EC) 2.0 TFSI quattro</TYPE>
+      <BODY/>
+      <TYP_YEAR>06/2005-</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>162</TYP_KW_FROM>
+      <TYP_HP_FROM>220</TYP_HP_FROM>
+      <TYP_CCM>1984</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A4 (8EC) 2.5 TDI</TYPE>
+      <BODY/>
+      <TYP_YEAR>11/2004-05/2006</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>120</TYP_KW_FROM>
+      <TYP_HP_FROM>163</TYP_HP_FROM>
+      <TYP_CCM>2496</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A4 (8EC) 2.7 TDI</TYPE>
+      <BODY/>
+      <TYP_YEAR>01/2006-</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>132</TYP_KW_FROM>
+      <TYP_HP_FROM>180</TYP_HP_FROM>
+      <TYP_CCM>2698</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A4 (8EC) 2.7 TDI</TYPE>
+      <BODY/>
+      <TYP_YEAR>11/2005-</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>120</TYP_KW_FROM>
+      <TYP_HP_FROM>163</TYP_HP_FROM>
+      <TYP_CCM>2698</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A4 (8EC) 3.0</TYPE>
+      <BODY/>
+      <TYP_YEAR>11/2004-05/2006</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>160</TYP_KW_FROM>
+      <TYP_HP_FROM>218</TYP_HP_FROM>
+      <TYP_CCM>2976</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A4 (8EC) 3.0  quattro</TYPE>
+      <BODY/>
+      <TYP_YEAR>11/2004-07/2006</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>160</TYP_KW_FROM>
+      <TYP_HP_FROM>218</TYP_HP_FROM>
+      <TYP_CCM>2976</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A4 (8EC) 3.0 TDI quattro</TYPE>
+      <BODY/>
+      <TYP_YEAR>01/2006-</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>171</TYP_KW_FROM>
+      <TYP_HP_FROM>233</TYP_HP_FROM>
+      <TYP_CCM>2967</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A4 (8EC) 3.0 TDI quattro</TYPE>
+      <BODY/>
+      <TYP_YEAR>11/2004-</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>150</TYP_KW_FROM>
+      <TYP_HP_FROM>204</TYP_HP_FROM>
+      <TYP_CCM>2967</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A4 (8EC) 3.2 FSI</TYPE>
+      <BODY/>
+      <TYP_YEAR>01/2005-</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>188</TYP_KW_FROM>
+      <TYP_HP_FROM>255</TYP_HP_FROM>
+      <TYP_CCM>3123</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A4 (8EC) 3.2 FSI quattro</TYPE>
+      <BODY/>
+      <TYP_YEAR>01/2005-</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>188</TYP_KW_FROM>
+      <TYP_HP_FROM>255</TYP_HP_FROM>
+      <TYP_CCM>3123</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A4 Avant (8E5, B6) 1.6</TYPE>
+      <BODY/>
+      <TYP_YEAR>09/2001-12/2004</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>75</TYP_KW_FROM>
+      <TYP_HP_FROM>102</TYP_HP_FROM>
+      <TYP_CCM>1595</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A4 Avant (8E5, B6) 1.8 T</TYPE>
+      <BODY/>
+      <TYP_YEAR>09/2001-07/2002</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>110</TYP_KW_FROM>
+      <TYP_HP_FROM>150</TYP_HP_FROM>
+      <TYP_CCM>1781</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A4 Avant (8E5, B6) 1.8 T</TYPE>
+      <BODY/>
+      <TYP_YEAR>07/2002-12/2004</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>120</TYP_KW_FROM>
+      <TYP_HP_FROM>163</TYP_HP_FROM>
+      <TYP_CCM>1781</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A4 Avant (8E5, B6) 1.8 T</TYPE>
+      <BODY/>
+      <TYP_YEAR>11/2002-12/2004</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>140</TYP_KW_FROM>
+      <TYP_HP_FROM>190</TYP_HP_FROM>
+      <TYP_CCM>1781</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A4 Avant (8E5, B6) 1.8 T quattro</TYPE>
+      <BODY/>
+      <TYP_YEAR>11/2002-12/2004</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>140</TYP_KW_FROM>
+      <TYP_HP_FROM>190</TYP_HP_FROM>
+      <TYP_CCM>1781</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A4 Avant (8E5, B6) 1.8 T quattro</TYPE>
+      <BODY/>
+      <TYP_YEAR>07/2002-12/2004</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>120</TYP_KW_FROM>
+      <TYP_HP_FROM>163</TYP_HP_FROM>
+      <TYP_CCM>1781</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A4 Avant (8E5, B6) 1.8 T quattro</TYPE>
+      <BODY/>
+      <TYP_YEAR>09/2001-07/2002</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>110</TYP_KW_FROM>
+      <TYP_HP_FROM>150</TYP_HP_FROM>
+      <TYP_CCM>1781</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A4 Avant (8E5, B6) 1.8 T quattro</TYPE>
+      <BODY/>
+      <TYP_YEAR>09/2001-12/2004</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>125</TYP_KW_FROM>
+      <TYP_HP_FROM>170</TYP_HP_FROM>
+      <TYP_CCM>1781</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A4 Avant (8E5, B6) 1.9 TDI</TYPE>
+      <BODY/>
+      <TYP_YEAR>06/2004-12/2004</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>85</TYP_KW_FROM>
+      <TYP_HP_FROM>116</TYP_HP_FROM>
+      <TYP_CCM>1896</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A4 Avant (8E5, B6) 1.9 TDI</TYPE>
+      <BODY/>
+      <TYP_YEAR>09/2001-12/2004</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>96</TYP_KW_FROM>
+      <TYP_HP_FROM>130</TYP_HP_FROM>
+      <TYP_CCM>1896</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A4 Avant (8E5, B6) 1.9 TDI</TYPE>
+      <BODY/>
+      <TYP_YEAR>11/2001-12/2004</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>74</TYP_KW_FROM>
+      <TYP_HP_FROM>101</TYP_HP_FROM>
+      <TYP_CCM>1896</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A4 Avant (8E5, B6) 1.9 TDI quattro</TYPE>
+      <BODY/>
+      <TYP_YEAR>11/2001-12/2004</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>96</TYP_KW_FROM>
+      <TYP_HP_FROM>130</TYP_HP_FROM>
+      <TYP_CCM>1896</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A4 Avant (8E5, B6) 2.0</TYPE>
+      <BODY/>
+      <TYP_YEAR>09/2001-12/2004</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>96</TYP_KW_FROM>
+      <TYP_HP_FROM>130</TYP_HP_FROM>
+      <TYP_CCM>1984</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A4 Avant (8E5, B6) 2.0 FSI</TYPE>
+      <BODY/>
+      <TYP_YEAR>07/2002-12/2004</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>110</TYP_KW_FROM>
+      <TYP_HP_FROM>150</TYP_HP_FROM>
+      <TYP_CCM>1984</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A4 Avant (8E5, B6) 2.4</TYPE>
+      <BODY/>
+      <TYP_YEAR>09/2001-12/2004</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>125</TYP_KW_FROM>
+      <TYP_HP_FROM>170</TYP_HP_FROM>
+      <TYP_CCM>2393</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A4 Avant (8E5, B6) 2.4</TYPE>
+      <BODY/>
+      <TYP_YEAR>09/2001-12/2004</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>120</TYP_KW_FROM>
+      <TYP_HP_FROM>163</TYP_HP_FROM>
+      <TYP_CCM>2393</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A4 Avant (8E5, B6) 2.5 TDI</TYPE>
+      <BODY/>
+      <TYP_YEAR>09/2001-07/2002</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>114</TYP_KW_FROM>
+      <TYP_HP_FROM>155</TYP_HP_FROM>
+      <TYP_CCM>2496</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A4 Avant (8E5, B6) 2.5 TDI</TYPE>
+      <BODY/>
+      <TYP_YEAR>07/2002-12/2004</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>120</TYP_KW_FROM>
+      <TYP_HP_FROM>163</TYP_HP_FROM>
+      <TYP_CCM>2496</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A4 Avant (8E5, B6) 2.5 TDi</TYPE>
+      <BODY/>
+      <TYP_YEAR>10/2000-05/2003</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>132</TYP_KW_FROM>
+      <TYP_HP_FROM>179</TYP_HP_FROM>
+      <TYP_CCM>2496</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A4 Avant (8E5, B6) 2.5 TDI quattro</TYPE>
+      <BODY/>
+      <TYP_YEAR>09/2001-12/2004</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>132</TYP_KW_FROM>
+      <TYP_HP_FROM>180</TYP_HP_FROM>
+      <TYP_CCM>2496</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A4 Avant (8E5, B6) 3.0</TYPE>
+      <BODY/>
+      <TYP_YEAR>09/2001-12/2004</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>162</TYP_KW_FROM>
+      <TYP_HP_FROM>220</TYP_HP_FROM>
+      <TYP_CCM>2976</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A4 Avant (8E5, B6) 3.0</TYPE>
+      <BODY/>
+      <TYP_YEAR>04/2001-12/2004</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>160</TYP_KW_FROM>
+      <TYP_HP_FROM>218</TYP_HP_FROM>
+      <TYP_CCM>2976</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A4 Avant (8E5, B6) 3.0  quattro</TYPE>
+      <BODY/>
+      <TYP_YEAR>04/2001-12/2004</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>160</TYP_KW_FROM>
+      <TYP_HP_FROM>218</TYP_HP_FROM>
+      <TYP_CCM>2976</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A4 Avant (8E5, B6) 3.0  quattro</TYPE>
+      <BODY/>
+      <TYP_YEAR>09/2001-12/2004</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>162</TYP_KW_FROM>
+      <TYP_HP_FROM>220</TYP_HP_FROM>
+      <TYP_CCM>2976</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A4 Avant (8ED) 1.6</TYPE>
+      <BODY/>
+      <TYP_YEAR>11/2004-</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>75</TYP_KW_FROM>
+      <TYP_HP_FROM>102</TYP_HP_FROM>
+      <TYP_CCM>1595</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A4 Avant (8ED) 1.8 T</TYPE>
+      <BODY/>
+      <TYP_YEAR>11/2004-</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>120</TYP_KW_FROM>
+      <TYP_HP_FROM>163</TYP_HP_FROM>
+      <TYP_CCM>1781</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A4 Avant (8ED) 1.8 T quattro</TYPE>
+      <BODY/>
+      <TYP_YEAR>11/2004-</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>120</TYP_KW_FROM>
+      <TYP_HP_FROM>163</TYP_HP_FROM>
+      <TYP_CCM>1781</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A4 Avant (8ED) 1.9 TDI</TYPE>
+      <BODY/>
+      <TYP_YEAR>11/2004-</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>85</TYP_KW_FROM>
+      <TYP_HP_FROM>116</TYP_HP_FROM>
+      <TYP_CCM>1896</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A4 Avant (8ED) 2.0</TYPE>
+      <BODY/>
+      <TYP_YEAR>11/2004-</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>96</TYP_KW_FROM>
+      <TYP_HP_FROM>130</TYP_HP_FROM>
+      <TYP_CCM>1984</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A4 Avant (8ED) 2.0 FSi</TYPE>
+      <BODY/>
+      <TYP_YEAR>01/2005-07/2005</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>110</TYP_KW_FROM>
+      <TYP_HP_FROM>150</TYP_HP_FROM>
+      <TYP_CCM>1984</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A4 Avant (8ED) 2.0 TDI</TYPE>
+      <BODY/>
+      <TYP_YEAR>11/2004-</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>103</TYP_KW_FROM>
+      <TYP_HP_FROM>140</TYP_HP_FROM>
+      <TYP_CCM>1968</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A4 Avant (8ED) 2.0 TDI</TYPE>
+      <BODY/>
+      <TYP_YEAR>11/2004-</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>100</TYP_KW_FROM>
+      <TYP_HP_FROM>136</TYP_HP_FROM>
+      <TYP_CCM>1968</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A4 Avant (8ED) 2.0 TDI</TYPE>
+      <BODY/>
+      <TYP_YEAR>06/2006-</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>125</TYP_KW_FROM>
+      <TYP_HP_FROM>170</TYP_HP_FROM>
+      <TYP_CCM>1968</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A4 Avant (8ED) 2.0 TDI 16V</TYPE>
+      <BODY/>
+      <TYP_YEAR>11/2004-</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>103</TYP_KW_FROM>
+      <TYP_HP_FROM>140</TYP_HP_FROM>
+      <TYP_CCM>1968</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A4 Avant (8ED) 2.0 TDI quattro</TYPE>
+      <BODY/>
+      <TYP_YEAR>06/2006-</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>125</TYP_KW_FROM>
+      <TYP_HP_FROM>170</TYP_HP_FROM>
+      <TYP_CCM>1968</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A4 Avant (8ED) 2.0 TDI quattro</TYPE>
+      <BODY/>
+      <TYP_YEAR>01/2006-</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>103</TYP_KW_FROM>
+      <TYP_HP_FROM>140</TYP_HP_FROM>
+      <TYP_CCM>1968</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A4 Avant (8ED) 2.0 TFSI</TYPE>
+      <BODY/>
+      <TYP_YEAR>06/2005-</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>162</TYP_KW_FROM>
+      <TYP_HP_FROM>220</TYP_HP_FROM>
+      <TYP_CCM>1984</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A4 Avant (8ED) 2.0 TFSI</TYPE>
+      <BODY/>
+      <TYP_YEAR>11/2004-</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>147</TYP_KW_FROM>
+      <TYP_HP_FROM>200</TYP_HP_FROM>
+      <TYP_CCM>1984</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A4 Avant (8ED) 2.0 TFSI quattro</TYPE>
+      <BODY/>
+      <TYP_YEAR>11/2004-</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>147</TYP_KW_FROM>
+      <TYP_HP_FROM>200</TYP_HP_FROM>
+      <TYP_CCM>1984</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A4 Avant (8ED) 2.0 TFSI quattro</TYPE>
+      <BODY/>
+      <TYP_YEAR>06/2005-</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>162</TYP_KW_FROM>
+      <TYP_HP_FROM>220</TYP_HP_FROM>
+      <TYP_CCM>1984</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A4 Avant (8ED) 2.5 TDI</TYPE>
+      <BODY/>
+      <TYP_YEAR>11/2004-05/2006</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>120</TYP_KW_FROM>
+      <TYP_HP_FROM>163</TYP_HP_FROM>
+      <TYP_CCM>2496</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A4 Avant (8ED) 2.7 TDI</TYPE>
+      <BODY/>
+      <TYP_YEAR>01/2006-</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>132</TYP_KW_FROM>
+      <TYP_HP_FROM>180</TYP_HP_FROM>
+      <TYP_CCM>2698</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A4 Avant (8ED) 2.7 TDi</TYPE>
+      <BODY/>
+      <TYP_YEAR>11/2005-03/2008</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>120</TYP_KW_FROM>
+      <TYP_HP_FROM>163</TYP_HP_FROM>
+      <TYP_CCM>2698</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A4 Avant (8ED) 3.0</TYPE>
+      <BODY/>
+      <TYP_YEAR>11/2004-05/2006</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>160</TYP_KW_FROM>
+      <TYP_HP_FROM>218</TYP_HP_FROM>
+      <TYP_CCM>2976</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A4 Avant (8ED) 3.0  quattro</TYPE>
+      <BODY/>
+      <TYP_YEAR>11/2004-07/2006</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>160</TYP_KW_FROM>
+      <TYP_HP_FROM>218</TYP_HP_FROM>
+      <TYP_CCM>2976</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A4 Avant (8ED) 3.0 TDI quattro</TYPE>
+      <BODY/>
+      <TYP_YEAR>01/2006-</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>171</TYP_KW_FROM>
+      <TYP_HP_FROM>233</TYP_HP_FROM>
+      <TYP_CCM>2967</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A4 Avant (8ED) 3.0 TDI quattro</TYPE>
+      <BODY/>
+      <TYP_YEAR>11/2004-</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>150</TYP_KW_FROM>
+      <TYP_HP_FROM>204</TYP_HP_FROM>
+      <TYP_CCM>2967</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A4 Avant (8ED) 3.2 FSI</TYPE>
+      <BODY/>
+      <TYP_YEAR>01/2005-</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>188</TYP_KW_FROM>
+      <TYP_HP_FROM>255</TYP_HP_FROM>
+      <TYP_CCM>3123</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A4 Avant (8ED) 3.2 FSI quattro</TYPE>
+      <BODY/>
+      <TYP_YEAR>01/2005-</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>188</TYP_KW_FROM>
+      <TYP_HP_FROM>255</TYP_HP_FROM>
+      <TYP_CCM>3123</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A4 кабрио (8H7, 8HE) 1.8 T</TYPE>
+      <BODY/>
+      <TYP_YEAR>07/2002-</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>120</TYP_KW_FROM>
+      <TYP_HP_FROM>163</TYP_HP_FROM>
+      <TYP_CCM>1781</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A4 кабрио (8H7, 8HE) 1.8 T quattro</TYPE>
+      <BODY/>
+      <TYP_YEAR>05/2003-</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>120</TYP_KW_FROM>
+      <TYP_HP_FROM>163</TYP_HP_FROM>
+      <TYP_CCM>1781</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A4 кабрио (8H7, 8HE) 2.0</TYPE>
+      <BODY/>
+      <TYP_YEAR>09/2004-12/2005</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>96</TYP_KW_FROM>
+      <TYP_HP_FROM>130</TYP_HP_FROM>
+      <TYP_CCM>1984</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A4 кабрио (8H7, 8HE) 2.0</TYPE>
+      <BODY/>
+      <TYP_YEAR>11/2005-</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>147</TYP_KW_FROM>
+      <TYP_HP_FROM>200</TYP_HP_FROM>
+      <TYP_CCM>1984</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A4 кабрио (8H7, 8HE) 2.0 TDI</TYPE>
+      <BODY/>
+      <TYP_YEAR>01/2006-</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>100</TYP_KW_FROM>
+      <TYP_HP_FROM>136</TYP_HP_FROM>
+      <TYP_CCM>1968</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A4 кабрио (8H7, 8HE) 2.0 TDI</TYPE>
+      <BODY/>
+      <TYP_YEAR>01/2006-</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>103</TYP_KW_FROM>
+      <TYP_HP_FROM>140</TYP_HP_FROM>
+      <TYP_CCM>1968</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A4 кабрио (8H7, 8HE) 2.0 TFSI 16V</TYPE>
+      <BODY/>
+      <TYP_YEAR>01/2006-</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>147</TYP_KW_FROM>
+      <TYP_HP_FROM>200</TYP_HP_FROM>
+      <TYP_CCM>1984</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A4 кабрио (8H7, 8HE) 2.4</TYPE>
+      <BODY/>
+      <TYP_YEAR>04/2002-12/2005</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>120</TYP_KW_FROM>
+      <TYP_HP_FROM>163</TYP_HP_FROM>
+      <TYP_CCM>2393</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A4 кабрио (8H7, 8HE) 2.4</TYPE>
+      <BODY/>
+      <TYP_YEAR>04/2002-12/2005</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>125</TYP_KW_FROM>
+      <TYP_HP_FROM>170</TYP_HP_FROM>
+      <TYP_CCM>2393</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A4 кабрио (8H7, 8HE) 2.5 TDI</TYPE>
+      <BODY/>
+      <TYP_YEAR>08/2002-12/2005</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>120</TYP_KW_FROM>
+      <TYP_HP_FROM>163</TYP_HP_FROM>
+      <TYP_CCM>2496</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A4 кабрио (8H7, 8HE) 2.7 TDI</TYPE>
+      <BODY/>
+      <TYP_YEAR>06/2006-</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>132</TYP_KW_FROM>
+      <TYP_HP_FROM>180</TYP_HP_FROM>
+      <TYP_CCM>2698</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A4 кабрио (8H7, 8HE) 3.0</TYPE>
+      <BODY/>
+      <TYP_YEAR>04/2002-12/2005</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>162</TYP_KW_FROM>
+      <TYP_HP_FROM>220</TYP_HP_FROM>
+      <TYP_CCM>2976</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A4 кабрио (8H7, 8HE) 3.0  quattro</TYPE>
+      <BODY/>
+      <TYP_YEAR>05/2003-12/2005</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>162</TYP_KW_FROM>
+      <TYP_HP_FROM>220</TYP_HP_FROM>
+      <TYP_CCM>2976</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A4 кабрио (8H7, 8HE) 3.0 TDI quattro</TYPE>
+      <BODY/>
+      <TYP_YEAR>01/2006-</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>171</TYP_KW_FROM>
+      <TYP_HP_FROM>233</TYP_HP_FROM>
+      <TYP_CCM>2967</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A4 кабрио (8H7, 8HE) 3.0 TDI quattro</TYPE>
+      <BODY/>
+      <TYP_YEAR>01/2006-</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>150</TYP_KW_FROM>
+      <TYP_HP_FROM>204</TYP_HP_FROM>
+      <TYP_CCM>2967</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A4 кабрио (8H7, 8HE) 3.2 FSI</TYPE>
+      <BODY/>
+      <TYP_YEAR>01/2006-</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>188</TYP_KW_FROM>
+      <TYP_HP_FROM>255</TYP_HP_FROM>
+      <TYP_CCM>3123</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A4 кабрио (8H7, 8HE) 3.2 FSI quattro</TYPE>
+      <BODY/>
+      <TYP_YEAR>01/2006-</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>188</TYP_KW_FROM>
+      <TYP_HP_FROM>255</TYP_HP_FROM>
+      <TYP_CCM>3123</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A4 седан (8EC) 1.6</TYPE>
+      <BODY/>
+      <TYP_YEAR>11/2004-</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>75</TYP_KW_FROM>
+      <TYP_HP_FROM>102</TYP_HP_FROM>
+      <TYP_CCM>1595</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A4 седан (8EC) 1.8 T</TYPE>
+      <BODY/>
+      <TYP_YEAR>11/2004-</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>120</TYP_KW_FROM>
+      <TYP_HP_FROM>163</TYP_HP_FROM>
+      <TYP_CCM>1781</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A4 седан (8EC) 1.8 T quattro</TYPE>
+      <BODY/>
+      <TYP_YEAR>11/2004-</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>120</TYP_KW_FROM>
+      <TYP_HP_FROM>163</TYP_HP_FROM>
+      <TYP_CCM>1781</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A4 седан (8EC) 1.9 TDI</TYPE>
+      <BODY/>
+      <TYP_YEAR>11/2004-</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>85</TYP_KW_FROM>
+      <TYP_HP_FROM>116</TYP_HP_FROM>
+      <TYP_CCM>1896</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A4 седан (8EC) 2.0</TYPE>
+      <BODY/>
+      <TYP_YEAR>11/2004-</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>96</TYP_KW_FROM>
+      <TYP_HP_FROM>130</TYP_HP_FROM>
+      <TYP_CCM>1984</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A4 седан (8EC) 2.0 FSi</TYPE>
+      <BODY/>
+      <TYP_YEAR>01/2005-07/2005</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>110</TYP_KW_FROM>
+      <TYP_HP_FROM>150</TYP_HP_FROM>
+      <TYP_CCM>1984</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A4 седан (8EC) 2.0 TDI</TYPE>
+      <BODY/>
+      <TYP_YEAR>11/2004-</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>103</TYP_KW_FROM>
+      <TYP_HP_FROM>140</TYP_HP_FROM>
+      <TYP_CCM>1968</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A4 седан (8EC) 2.0 TDI</TYPE>
+      <BODY/>
+      <TYP_YEAR>06/2006-</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>125</TYP_KW_FROM>
+      <TYP_HP_FROM>170</TYP_HP_FROM>
+      <TYP_CCM>1968</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A4 седан (8EC) 2.0 TDI</TYPE>
+      <BODY/>
+      <TYP_YEAR>11/2004-</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>100</TYP_KW_FROM>
+      <TYP_HP_FROM>136</TYP_HP_FROM>
+      <TYP_CCM>1968</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A4 седан (8EC) 2.0 TDI 16V</TYPE>
+      <BODY/>
+      <TYP_YEAR>11/2004-</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>103</TYP_KW_FROM>
+      <TYP_HP_FROM>140</TYP_HP_FROM>
+      <TYP_CCM>1968</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A4 седан (8EC) 2.0 TDI quattro</TYPE>
+      <BODY/>
+      <TYP_YEAR>01/2006-</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>103</TYP_KW_FROM>
+      <TYP_HP_FROM>140</TYP_HP_FROM>
+      <TYP_CCM>1968</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A4 седан (8EC) 2.0 TDI quattro</TYPE>
+      <BODY/>
+      <TYP_YEAR>06/2006-</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>125</TYP_KW_FROM>
+      <TYP_HP_FROM>170</TYP_HP_FROM>
+      <TYP_CCM>1968</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A4 седан (8EC) 2.0 TFSI</TYPE>
+      <BODY/>
+      <TYP_YEAR>06/2005-</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>162</TYP_KW_FROM>
+      <TYP_HP_FROM>220</TYP_HP_FROM>
+      <TYP_CCM>1984</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A4 седан (8EC) 2.0 TFSI</TYPE>
+      <BODY/>
+      <TYP_YEAR>11/2004-</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>147</TYP_KW_FROM>
+      <TYP_HP_FROM>200</TYP_HP_FROM>
+      <TYP_CCM>1984</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A4 седан (8EC) 2.0 TFSI quattro</TYPE>
+      <BODY/>
+      <TYP_YEAR>11/2004-</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>147</TYP_KW_FROM>
+      <TYP_HP_FROM>200</TYP_HP_FROM>
+      <TYP_CCM>1984</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A4 седан (8EC) 2.0 TFSI quattro</TYPE>
+      <BODY/>
+      <TYP_YEAR>06/2005-</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>162</TYP_KW_FROM>
+      <TYP_HP_FROM>220</TYP_HP_FROM>
+      <TYP_CCM>1984</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A4 седан (8EC) 2.5 TDI</TYPE>
+      <BODY/>
+      <TYP_YEAR>11/2004-05/2006</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>120</TYP_KW_FROM>
+      <TYP_HP_FROM>163</TYP_HP_FROM>
+      <TYP_CCM>2496</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A4 седан (8EC) 2.7 TDI</TYPE>
+      <BODY/>
+      <TYP_YEAR>01/2006-</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>132</TYP_KW_FROM>
+      <TYP_HP_FROM>180</TYP_HP_FROM>
+      <TYP_CCM>2698</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A4 седан (8EC) 2.7 TDI</TYPE>
+      <BODY/>
+      <TYP_YEAR>11/2005-</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>120</TYP_KW_FROM>
+      <TYP_HP_FROM>163</TYP_HP_FROM>
+      <TYP_CCM>2698</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A4 седан (8EC) 3.0</TYPE>
+      <BODY/>
+      <TYP_YEAR>11/2004-05/2006</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>160</TYP_KW_FROM>
+      <TYP_HP_FROM>218</TYP_HP_FROM>
+      <TYP_CCM>2976</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A4 седан (8EC) 3.0  quattro</TYPE>
+      <BODY/>
+      <TYP_YEAR>11/2004-07/2006</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>160</TYP_KW_FROM>
+      <TYP_HP_FROM>218</TYP_HP_FROM>
+      <TYP_CCM>2976</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A4 седан (8EC) 3.0 TDI quattro</TYPE>
+      <BODY/>
+      <TYP_YEAR>01/2006-</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>171</TYP_KW_FROM>
+      <TYP_HP_FROM>233</TYP_HP_FROM>
+      <TYP_CCM>2967</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A4 седан (8EC) 3.0 TDI quattro</TYPE>
+      <BODY/>
+      <TYP_YEAR>11/2004-</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>150</TYP_KW_FROM>
+      <TYP_HP_FROM>204</TYP_HP_FROM>
+      <TYP_CCM>2967</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A4 седан (8EC) 3.2 FSI</TYPE>
+      <BODY/>
+      <TYP_YEAR>01/2005-</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>188</TYP_KW_FROM>
+      <TYP_HP_FROM>255</TYP_HP_FROM>
+      <TYP_CCM>3123</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A4 седан (8EC) 3.2 FSI quattro</TYPE>
+      <BODY/>
+      <TYP_YEAR>01/2005-</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>188</TYP_KW_FROM>
+      <TYP_HP_FROM>255</TYP_HP_FROM>
+      <TYP_CCM>3123</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A6 (4F2) 2.0 TDI</TYPE>
+      <BODY/>
+      <TYP_YEAR>07/2004-10/2008</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>103</TYP_KW_FROM>
+      <TYP_HP_FROM>140</TYP_HP_FROM>
+      <TYP_CCM>1968</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A6 (4F2) 2.0 TDI</TYPE>
+      <BODY/>
+      <TYP_YEAR>07/2004-</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>100</TYP_KW_FROM>
+      <TYP_HP_FROM>136</TYP_HP_FROM>
+      <TYP_CCM>1968</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A6 (4F2) 2.0 TDI</TYPE>
+      <BODY/>
+      <TYP_YEAR>11/2008-</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>125</TYP_KW_FROM>
+      <TYP_HP_FROM>170</TYP_HP_FROM>
+      <TYP_CCM>1968</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A6 (4F2) 2.0 TFSI</TYPE>
+      <BODY/>
+      <TYP_YEAR>06/2005-</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>125</TYP_KW_FROM>
+      <TYP_HP_FROM>170</TYP_HP_FROM>
+      <TYP_CCM>1984</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A6 (4F2) 2.4</TYPE>
+      <BODY/>
+      <TYP_YEAR>05/2004-10/2008</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>130</TYP_KW_FROM>
+      <TYP_HP_FROM>177</TYP_HP_FROM>
+      <TYP_CCM>2393</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A6 (4F2) 2.4  quattro</TYPE>
+      <BODY/>
+      <TYP_YEAR>01/2005-10/2008</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>130</TYP_KW_FROM>
+      <TYP_HP_FROM>177</TYP_HP_FROM>
+      <TYP_CCM>2393</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A6 (4F2) 2.7 TDI</TYPE>
+      <BODY/>
+      <TYP_YEAR>11/2004-10/2008</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>132</TYP_KW_FROM>
+      <TYP_HP_FROM>180</TYP_HP_FROM>
+      <TYP_CCM>2698</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A6 (4F2) 2.7 TDI</TYPE>
+      <BODY/>
+      <TYP_YEAR>11/2004-</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>120</TYP_KW_FROM>
+      <TYP_HP_FROM>163</TYP_HP_FROM>
+      <TYP_CCM>2698</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A6 (4F2) 2.7 TDI</TYPE>
+      <BODY/>
+      <TYP_YEAR>10/2008-</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>140</TYP_KW_FROM>
+      <TYP_HP_FROM>190</TYP_HP_FROM>
+      <TYP_CCM>2698</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A6 (4F2) 2.7 TDI quattro</TYPE>
+      <BODY/>
+      <TYP_YEAR>10/2008-</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>140</TYP_KW_FROM>
+      <TYP_HP_FROM>190</TYP_HP_FROM>
+      <TYP_CCM>2698</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A6 (4F2) 2.7 TDI quattro</TYPE>
+      <BODY/>
+      <TYP_YEAR>11/2004-10/2008</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>132</TYP_KW_FROM>
+      <TYP_HP_FROM>180</TYP_HP_FROM>
+      <TYP_CCM>2698</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A6 (4F2) 2.7 TDI quattro</TYPE>
+      <BODY/>
+      <TYP_YEAR>06/2005-</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>120</TYP_KW_FROM>
+      <TYP_HP_FROM>163</TYP_HP_FROM>
+      <TYP_CCM>2698</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A6 (4F2) 2.8 FSI</TYPE>
+      <BODY/>
+      <TYP_YEAR>11/2006-10/2008</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>154</TYP_KW_FROM>
+      <TYP_HP_FROM>210</TYP_HP_FROM>
+      <TYP_CCM>2773</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A6 (4F2) 2.8 FSI</TYPE>
+      <BODY/>
+      <TYP_YEAR>10/2008-</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>140</TYP_KW_FROM>
+      <TYP_HP_FROM>190</TYP_HP_FROM>
+      <TYP_CCM>2773</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A6 (4F2) 2.8 FSI</TYPE>
+      <BODY/>
+      <TYP_YEAR>10/2008-</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>162</TYP_KW_FROM>
+      <TYP_HP_FROM>220</TYP_HP_FROM>
+      <TYP_CCM>2773</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A6 (4F2) 2.8 FSI quattro</TYPE>
+      <BODY/>
+      <TYP_YEAR>10/2008-</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>162</TYP_KW_FROM>
+      <TYP_HP_FROM>220</TYP_HP_FROM>
+      <TYP_CCM>2773</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A6 (4F2) 2.8 FSI quattro</TYPE>
+      <BODY/>
+      <TYP_YEAR>10/2008-</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>140</TYP_KW_FROM>
+      <TYP_HP_FROM>190</TYP_HP_FROM>
+      <TYP_CCM>2773</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A6 (4F2) 2.8 FSI quattro</TYPE>
+      <BODY/>
+      <TYP_YEAR>06/2007-10/2008</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>154</TYP_KW_FROM>
+      <TYP_HP_FROM>210</TYP_HP_FROM>
+      <TYP_CCM>2773</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A6 (4F2) 3.0</TYPE>
+      <BODY/>
+      <TYP_YEAR>08/2004-05/2006</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>160</TYP_KW_FROM>
+      <TYP_HP_FROM>218</TYP_HP_FROM>
+      <TYP_CCM>2976</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A6 (4F2) 3.0  quattro</TYPE>
+      <BODY/>
+      <TYP_YEAR>05/2004-05/2006</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>160</TYP_KW_FROM>
+      <TYP_HP_FROM>218</TYP_HP_FROM>
+      <TYP_CCM>2976</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A6 (4F2) 3.0 TDI quattro</TYPE>
+      <BODY/>
+      <TYP_YEAR>06/2006-10/2008</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>171</TYP_KW_FROM>
+      <TYP_HP_FROM>233</TYP_HP_FROM>
+      <TYP_CCM>2967</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A6 (4F2) 3.0 TDI quattro</TYPE>
+      <BODY/>
+      <TYP_YEAR>05/2004-05/2006</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>165</TYP_KW_FROM>
+      <TYP_HP_FROM>225</TYP_HP_FROM>
+      <TYP_CCM>2967</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A6 (4F2) 3.0 TDI quattro</TYPE>
+      <BODY/>
+      <TYP_YEAR>05/2004-</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>155</TYP_KW_FROM>
+      <TYP_HP_FROM>211</TYP_HP_FROM>
+      <TYP_CCM>2967</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A6 (4F2) 3.0 TDI quattro</TYPE>
+      <BODY/>
+      <TYP_YEAR>10/2008-</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>176</TYP_KW_FROM>
+      <TYP_HP_FROM>240</TYP_HP_FROM>
+      <TYP_CCM>2967</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A6 (4F2) 3.0 TFSI quattro</TYPE>
+      <BODY/>
+      <TYP_YEAR>10/2008-</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>213</TYP_KW_FROM>
+      <TYP_HP_FROM>290</TYP_HP_FROM>
+      <TYP_CCM>2995</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A6 (4F2) 3.2 FSI</TYPE>
+      <BODY/>
+      <TYP_YEAR>05/2004-10/2008</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>188</TYP_KW_FROM>
+      <TYP_HP_FROM>255</TYP_HP_FROM>
+      <TYP_CCM>3123</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A6 (4F2) 3.2 FSI quattro</TYPE>
+      <BODY/>
+      <TYP_YEAR>05/2004-10/2008</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>188</TYP_KW_FROM>
+      <TYP_HP_FROM>255</TYP_HP_FROM>
+      <TYP_CCM>3123</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A6 (4F2) 3.2 FSI quattro</TYPE>
+      <BODY/>
+      <TYP_YEAR>09/2006-10/2008</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>183</TYP_KW_FROM>
+      <TYP_HP_FROM>249</TYP_HP_FROM>
+      <TYP_CCM>3123</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A6 (4F2) 4.2  quattro</TYPE>
+      <BODY/>
+      <TYP_YEAR>05/2004-05/2006</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>246</TYP_KW_FROM>
+      <TYP_HP_FROM>335</TYP_HP_FROM>
+      <TYP_CCM>4163</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A6 (4F2) 4.2 FSI quattro</TYPE>
+      <BODY/>
+      <TYP_YEAR>06/2006-</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>257</TYP_KW_FROM>
+      <TYP_HP_FROM>350</TYP_HP_FROM>
+      <TYP_CCM>4163</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A6 Allroad (4FH) 2.7 TDI quattro</TYPE>
+      <BODY/>
+      <TYP_YEAR>05/2006-</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>132</TYP_KW_FROM>
+      <TYP_HP_FROM>180</TYP_HP_FROM>
+      <TYP_CCM>2698</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A6 Allroad (4FH) 2.7 TDI quattro</TYPE>
+      <BODY/>
+      <TYP_YEAR>05/2006-</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>120</TYP_KW_FROM>
+      <TYP_HP_FROM>163</TYP_HP_FROM>
+      <TYP_CCM>2698</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A6 Allroad (4FH) 2.7 TDI quattro</TYPE>
+      <BODY/>
+      <TYP_YEAR>10/2008-</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>140</TYP_KW_FROM>
+      <TYP_HP_FROM>190</TYP_HP_FROM>
+      <TYP_CCM>2698</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A6 Allroad (4FH) 3.0 TDI quattro</TYPE>
+      <BODY/>
+      <TYP_YEAR>10/2008-</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>176</TYP_KW_FROM>
+      <TYP_HP_FROM>240</TYP_HP_FROM>
+      <TYP_CCM>2967</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A6 Allroad (4FH) 3.0 TDI quattro</TYPE>
+      <BODY/>
+      <TYP_YEAR>05/2006-</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>155</TYP_KW_FROM>
+      <TYP_HP_FROM>211</TYP_HP_FROM>
+      <TYP_CCM>2967</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A6 Allroad (4FH) 3.0 TDI quattro</TYPE>
+      <BODY/>
+      <TYP_YEAR>05/2006-</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>171</TYP_KW_FROM>
+      <TYP_HP_FROM>233</TYP_HP_FROM>
+      <TYP_CCM>2967</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A6 Allroad (4FH) 3.0 TFSI quattro</TYPE>
+      <BODY/>
+      <TYP_YEAR>10/2008-</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>213</TYP_KW_FROM>
+      <TYP_HP_FROM>290</TYP_HP_FROM>
+      <TYP_CCM>2995</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A6 Allroad (4FH) 3.2 FSI quattro</TYPE>
+      <BODY/>
+      <TYP_YEAR>05/2006-</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>188</TYP_KW_FROM>
+      <TYP_HP_FROM>255</TYP_HP_FROM>
+      <TYP_CCM>3123</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A6 Allroad (4FH) 4.2 FSI quattro</TYPE>
+      <BODY/>
+      <TYP_YEAR>05/2006-</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>257</TYP_KW_FROM>
+      <TYP_HP_FROM>350</TYP_HP_FROM>
+      <TYP_CCM>4163</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A6 Allroad универсал (4FH) 2.7 TDI quattro</TYPE>
+      <BODY/>
+      <TYP_YEAR>05/2006-</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>132</TYP_KW_FROM>
+      <TYP_HP_FROM>180</TYP_HP_FROM>
+      <TYP_CCM>2698</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A6 Allroad универсал (4FH) 2.7 TDI quattro</TYPE>
+      <BODY/>
+      <TYP_YEAR>05/2006-</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>120</TYP_KW_FROM>
+      <TYP_HP_FROM>163</TYP_HP_FROM>
+      <TYP_CCM>2698</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A6 Allroad универсал (4FH) 2.7 TDI quattro</TYPE>
+      <BODY/>
+      <TYP_YEAR>10/2008-</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>140</TYP_KW_FROM>
+      <TYP_HP_FROM>190</TYP_HP_FROM>
+      <TYP_CCM>2698</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A6 Allroad универсал (4FH) 3.0 TDI quattro</TYPE>
+      <BODY/>
+      <TYP_YEAR>10/2008-</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>176</TYP_KW_FROM>
+      <TYP_HP_FROM>240</TYP_HP_FROM>
+      <TYP_CCM>2967</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A6 Allroad универсал (4FH) 3.0 TDI quattro</TYPE>
+      <BODY/>
+      <TYP_YEAR>05/2006-</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>155</TYP_KW_FROM>
+      <TYP_HP_FROM>211</TYP_HP_FROM>
+      <TYP_CCM>2967</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A6 Allroad универсал (4FH) 3.0 TDI quattro</TYPE>
+      <BODY/>
+      <TYP_YEAR>05/2006-</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>171</TYP_KW_FROM>
+      <TYP_HP_FROM>233</TYP_HP_FROM>
+      <TYP_CCM>2967</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A6 Allroad универсал (4FH) 3.0 TFSI quattro</TYPE>
+      <BODY/>
+      <TYP_YEAR>10/2008-</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>213</TYP_KW_FROM>
+      <TYP_HP_FROM>290</TYP_HP_FROM>
+      <TYP_CCM>2995</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A6 Allroad универсал (4FH) 3.2 FSI quattro</TYPE>
+      <BODY/>
+      <TYP_YEAR>05/2006-</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>188</TYP_KW_FROM>
+      <TYP_HP_FROM>255</TYP_HP_FROM>
+      <TYP_CCM>3123</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A6 Allroad универсал (4FH) 4.2 FSI quattro</TYPE>
+      <BODY/>
+      <TYP_YEAR>05/2006-</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>257</TYP_KW_FROM>
+      <TYP_HP_FROM>350</TYP_HP_FROM>
+      <TYP_CCM>4163</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A6 Avant (4F5) 2.0 TDI</TYPE>
+      <BODY/>
+      <TYP_YEAR>06/2005-</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>100</TYP_KW_FROM>
+      <TYP_HP_FROM>136</TYP_HP_FROM>
+      <TYP_CCM>1968</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A6 Avant (4F5) 2.0 TDI</TYPE>
+      <BODY/>
+      <TYP_YEAR>06/2005-10/2008</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>103</TYP_KW_FROM>
+      <TYP_HP_FROM>140</TYP_HP_FROM>
+      <TYP_CCM>1968</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A6 Avant (4F5) 2.0 TDI</TYPE>
+      <BODY/>
+      <TYP_YEAR>10/2008-</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>125</TYP_KW_FROM>
+      <TYP_HP_FROM>170</TYP_HP_FROM>
+      <TYP_CCM>1968</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A6 Avant (4F5) 2.0 TFSI</TYPE>
+      <BODY/>
+      <TYP_YEAR>06/2005-</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>125</TYP_KW_FROM>
+      <TYP_HP_FROM>170</TYP_HP_FROM>
+      <TYP_CCM>1984</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A6 Avant (4F5) 2.4</TYPE>
+      <BODY/>
+      <TYP_YEAR>03/2005-10/2008</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>130</TYP_KW_FROM>
+      <TYP_HP_FROM>177</TYP_HP_FROM>
+      <TYP_CCM>2393</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+    <model>
+      <TYPE>AUDI A6 Avant (4F5) 2.4  quattro</TYPE>
+      <BODY/>
+      <TYP_YEAR>03/2005-10/2008</TYP_YEAR>
+      <AXLE/>
+      <TYP_KW_FROM>130</TYP_KW_FROM>
+      <TYP_HP_FROM>177</TYP_HP_FROM>
+      <TYP_CCM>2393</TYP_CCM>
+      <TYP_MAX_WEIGHT/>
+    </model>
+  </usage>
+</euroauto-export>

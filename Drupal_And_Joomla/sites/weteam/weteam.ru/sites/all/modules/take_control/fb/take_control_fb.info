@@ -1,0 +1,12 @@
+name = File Browser
+description = A complete File System Management module for Drupal Administrators.
+core = 6.x
+dependencies[] = take_control
+package = Take Control
+
+; Information added by drupal.org packaging script on 2011-08-09
+version = "6.x-2.2"
+core = "6.x"
+project = "take_control"
+datestamp = "1312875123"
+

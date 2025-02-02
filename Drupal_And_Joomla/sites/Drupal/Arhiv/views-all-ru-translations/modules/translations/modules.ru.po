@@ -1,0 +1,3748 @@
+# Russian translation of views (all releases)
+# Copyright (c) 2013 by the Russian translation team
+# Generated from files:
+#  views/modules/node.views_default.inc: n/a
+#  views/modules/node.views.inc: n/a
+#  views/modules/user.views.inc: n/a
+#  views/modules/aggregator.views.inc: n/a
+#  views/modules/views_statistics.inc: n/a
+#  views/modules/taxonomy.views.inc: n/a
+#  views/modules/system.views.inc: n/a
+#  views/modules/poll.views.inc: n/a
+#  views/modules/statistics.views.inc: n/a
+#  views/modules/statistics.views_default.inc: n/a
+#  views/modules/book.views.inc: n/a
+#  views/modules/upload.views.inc: n/a
+#  views/modules/locale.views.inc: n/a
+#  views/modules/views_book.inc: n/a
+#  views/modules/views_comment.inc: n/a
+#  views/modules/views_node.inc: n/a
+#  views/modules/views_taxonomy.inc: n/a
+#  views/modules/views_upload.inc: n/a
+#  views/modules/views_user.inc: n/a
+#  views/modules/comment.views.inc: n/a
+#  views/modules/node.views_template.inc: n/a
+#  views/modules/views.views.inc: n/a
+#  views/modules/views_profile.inc: n/a
+#  views/modules/profile.views.inc: n/a
+#  views/modules/translation.views.inc: n/a
+#  views/modules/tracker.views.inc: n/a
+#  views/modules/views_search.inc: n/a
+#  views/modules/search.views_default.inc: n/a
+#  views/modules/search.views.inc: n/a
+#  views/modules/comment.views_default.inc: n/a
+#  views/modules/field.views.inc: n/a
+#  views/modules/contact.views.inc: n/a
+#  views/modules/file.views.inc: n/a
+#  views/modules/image.views.inc: n/a
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: views (all releases)\n"
+"POT-Creation-Date: 2013-05-29 14:21+0400\n"
+"PO-Revision-Date: 2013-03-12 11:57+0400\n"
+"Language-Team: Russian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=((((n%10)==1)&&((n%100)!=11))?(0):(((((n%10)>=2)&&((n%10)<=4))&&(((n%100)<10)||((n%100)>=20)))?(1):2));\n"
+
+#: modules/node.views_default.inc:306,306,306,306,306,306
+msgid "Last update"
+msgstr "Последнее обновление"
+
+#: modules/node.views.inc:518,543,518,516,512,512,545,543,516,543,545
+msgid "Log message"
+msgstr "Сообщение в системный журнал"
+
+#: modules/user.views.inc:321,288,321,225,328,328,328,288,225,288,328
+msgid "Signature"
+msgstr "Подпись"
+
+#: modules/user.views.inc:129,110,129,101,136,136,136,110,101,110,136
+msgid "E-mail"
+msgstr "E-mail"
+
+#: modules/node.views.inc:169,165,169,153,153,153,165,165,165,153
+msgid "Not published"
+msgstr "Не опубликовано"
+
+#: modules/aggregator.views.inc:375,375,369,369,369,375,375,375,369
+msgid "Category"
+msgstr "Категория"
+
+#: modules/user.views.inc:383,348,383,276,390,390,390,348,276,348,390
+msgid "Roles"
+msgstr "Роли"
+
+#: modules/node.views.inc:596,569,596,569,596
+msgid "Input format"
+msgstr "Формат ввода"
+
+#: modules/views_statistics.inc:129,218,130,219
+msgid "Created"
+msgstr "Создан"
+
+#: modules/node.views.inc:196,207,192,203,196,207,200,180,191,180,191,180,191,192,203,192,200,192,203,180,191
+msgid "Promoted to front page"
+msgstr "Помещать на главную"
+
+#: modules/taxonomy.views.inc:270,238,270,209,298,298,298,238,209,238,298
+msgid "node"
+msgstr "материал"
+
+#: modules/system.views.inc:451,199,451,458,458,458,199,199,458
+msgid "System"
+msgstr "Система"
+
+#: modules/poll.views.inc:19,19,15,15,15,19,19,19,15
+msgid "Poll"
+msgstr "Опрос"
+
+#: modules/views_statistics.inc:136,137
+msgid "Recent hits"
+msgstr "Последние посещения"
+
+#: modules/statistics.views.inc:189,189,168,185,185,185,189,168,189,185
+msgid "Referrer"
+msgstr "Источник отсылки"
+
+#: modules/statistics.views_default.inc:224,224,224,224,224,224
+msgid "Popular content"
+msgstr "Популярное содержимое"
+
+#: modules/taxonomy.views.inc:98,244,303,467,488,98,244,303,467,455,112,272,331,499,112,272,331,499,112,272,331,499,488,455,488,112,272,331,499
+msgid "Taxonomy term"
+msgstr "Термин таксономии"
+
+#: modules/taxonomy.views.inc:47,47,47,47
+msgid "Vocabulary name"
+msgstr "Название словаря"
+
+#: modules/book.views.inc:85,85,82,82,82,85,85,85,82
+msgid "Hierarchy"
+msgstr "Иерархия"
+
+#: modules/taxonomy.views.inc:299,269,299,269,299
+msgid "Related terms"
+msgstr "Связанные термины"
+
+#: modules/taxonomy.views.inc:328,343,328,313,356,356,356,343,313,343,356
+msgid "Parent term"
+msgstr "Родительский термин"
+
+#: modules/system.views.inc:134,138,134,125,124,124,124,138,125,138,124
+msgid "Size"
+msgstr "Размер"
+
+#: modules/upload.views.inc:45,45,45
+msgid "upload"
+msgstr "загрузка"
+
+#: modules/user.views.inc:306,306,313,313,313,313
+msgid "Blocked"
+msgstr "Заблокирован"
+
+#: modules/user.views.inc:168,148,168,139,175,175,175,148,139,148,175
+msgid "Picture"
+msgstr "Изображение"
+
+#: modules/user.views.inc:267,237,267,174,274,274,274,237,174,237,274
+msgid "Last access"
+msgstr "Последний доступ"
+
+#: modules/locale.views.inc:55,55,50,50,50,55,55,55,50
+msgid "Location"
+msgstr "Местоположение"
+
+#: modules/views_book.inc:25,26
+msgid "This allows you to filter books based on parent node."
+msgstr ""
+"Позволяет фильтровать книги, "
+"основанные на родительском документе."
+
+#: modules/views_book.inc:30,31
+msgid "Book: Weight"
+msgstr "Подшивка: Вес"
+
+#: modules/views_book.inc:32,33
+msgid "This will sort the view by book weight, if that is applicable."
+msgstr ""
+"Сортирует представление по весу "
+"книги, если возможно."
+
+#: modules/views_book.inc:50,61,51,62
+msgid "Book: Parent Title"
+msgstr "Подшивка: Заголовок родителя"
+
+#: modules/views_book.inc:52,53
+msgid "As Link"
+msgstr "Как ссылка"
+
+#: modules/views_book.inc:53,54
+msgid "Without Link"
+msgstr "Без ссылки"
+
+#: modules/views_book.inc:56,57
+msgid "Display the title of the parent node"
+msgstr ""
+"Показать заголовок родительского "
+"документа."
+
+#: modules/views_book.inc:62,63
+msgid "Sort by the title of the parent node"
+msgstr ""
+"Сортировать по название "
+"родительского документа"
+
+#: modules/views_book.inc:73,74
+msgid "Book: Parent Node ID"
+msgstr "Подшивка: ID родительского материала"
+
+#: modules/views_comment.inc:38,39
+msgid "Comment: Comment"
+msgstr "Комментарий: Комментарий"
+
+#: modules/views_comment.inc:41,42
+msgid "Display the content of a comment."
+msgstr "Показать текст комментария."
+
+#: modules/views_comment.inc:44,45
+msgid "Comment: Comment ID"
+msgstr "Комментарий: ID комментария"
+
+#: modules/views_comment.inc:46,47
+msgid "Display the CID of a comment."
+msgstr "Показывает CID комментария."
+
+#: modules/views_comment.inc:49,81,50,82
+msgid "Comment: Created Time"
+msgstr "Комментарий: Время создания"
+
+#: modules/views_comment.inc:53,54
+msgid "Display the post time of the comment."
+msgstr ""
+"Показывает время создания "
+"комментария."
+
+#: modules/views_comment.inc:56,57
+msgid "Comment: Author Name"
+msgstr "Комментарий: Имя автора"
+
+#: modules/views_comment.inc:64,65
+msgid "Comment: Add link"
+msgstr "Комментарий: Ссылка добавления"
+
+#: modules/views_comment.inc:68,69
+msgid ""
+"Display a link to add a comment to the node. Enter the text of this "
+"link into the option field; if blank the default \"Comment\" will be "
+"used."
+msgstr ""
+"Показать ссылку добавления "
+"комментария к материалу. Введите "
+"текст ссылки в поле. Если не заполнено, "
+"то  будет использован \"Комментарий\" "
+"по умолчанию."
+
+#: modules/views_comment.inc:73,74
+msgid "Comment: Pending approval"
+msgstr "Комментарий: Ожидает подтверждения"
+
+#: modules/views_comment.inc:84,85
+msgid "Sort by the created time of comments."
+msgstr ""
+"Сортировать по времени создания "
+"комментариев."
+
+#: modules/views_comment.inc:103,145,104,146
+msgid "Comment: Last Comment Time"
+msgstr ""
+"Коментарий: время последнего "
+"сообщения"
+
+#: modules/views_comment.inc:107,108
+msgid "This will display the last comment time."
+msgstr ""
+"Отображение времени последнего "
+"сообщения."
+
+#: modules/views_comment.inc:110,111
+msgid "Comment: Last Comment Author"
+msgstr ""
+"Комментарий: Автор последнего "
+"комментария"
+
+#: modules/views_comment.inc:116,117
+msgid "This will display the name of the last user to comment on the post."
+msgstr ""
+"Отображение имени последнего "
+"пользователя, комментировавшего "
+"сообщение."
+
+#: modules/views_comment.inc:119,120
+msgid "Comment: Count"
+msgstr "Сообщение: Количество"
+
+#: modules/views_comment.inc:123,124
+msgid "With New Count"
+msgstr "С новым количеством"
+
+#: modules/views_comment.inc:125,126
+msgid "This will display the comment count."
+msgstr "Отображение числа комментариев."
+
+#: modules/views_comment.inc:128,154,129,155
+msgid "Comment: Last Changed Time"
+msgstr ""
+"Комментарий: Время последнего "
+"изменения"
+
+#: modules/views_comment.inc:134,135
+msgid "This will display the time of the last comment or node edit."
+msgstr ""
+"Отображение времени последнего "
+"комментария или редактирования "
+"материала."
+
+#: modules/views_comment.inc:139,172,140,173
+msgid "Comment: Comment Count"
+msgstr "Комментарий: Количество комментариев"
+
+#: modules/views_comment.inc:142,143
+msgid "This filter allows you to filter by the amount of comments."
+msgstr ""
+"Этот фильтр позволяет фильтровать по "
+"количеству комментариев."
+
+#: modules/views_comment.inc:150,159,151,160
+msgid ""
+"This filter allows nodes to be filtered by the timestamp for the last "
+"comment or node edit."
+msgstr ""
+"Этот фильтр позволяет фильтровать "
+"материалы по времнени последнего "
+"комментария или редактирования "
+"материала."
+
+#: modules/views_comment.inc:166,167
+msgid "Comment: Last Comment Date"
+msgstr ""
+"Комментарий: Дата последнего "
+"комментария"
+
+#: modules/views_comment.inc:169,170
+msgid ""
+"This will allow you to sort by the date of the most recent comment on "
+"a node."
+msgstr ""
+"Сортировка по дате последнего "
+"сообщения для документа."
+
+#: modules/views_comment.inc:173,174
+msgid "This filter allows you to sort by the number of comments."
+msgstr ""
+"Этот фильтр позволяет вам сортировать "
+"по количеству комментариев."
+
+#: modules/views_comment.inc:176,177
+msgid "Comment: Last Changed"
+msgstr ""
+"Комментарий: Дата последнего "
+"изменения"
+
+#: modules/views_comment.inc:179,180
+msgid "Sort based on the most recent comment or edit for the node."
+msgstr ""
+"Сортировка основанная на самом "
+"последнем комментарии или "
+"редактировании материала."
+
+#: modules/views_comment.inc:249,250
+msgid "@num new"
+msgstr "@num новый"
+
+#: modules/views_comment.inc:286,287
+msgid "Display recent comments block"
+msgstr ""
+"Показывает блок последних "
+"комментариев"
+
+#: modules/views_node.inc:27,28
+msgid "Display the title of the node."
+msgstr "Отобразить заголовок документа."
+
+#: modules/views_node.inc:30,109,316,31,110,317
+msgid "Node: ID"
+msgstr "Материал: ID"
+
+#: modules/views_node.inc:35,36
+msgid "Display the NID of a node."
+msgstr "Показать NID материала."
+
+#: modules/views_node.inc:38,114,220,39,115,221
+msgid "Node: Created Time"
+msgstr "Документ: Время создания"
+
+#: modules/views_node.inc:42,43
+msgid "Display the post time of the node."
+msgstr ""
+"Отображать время публикации "
+"документа."
+
+#: modules/views_node.inc:43,51,44,52
+msgid ""
+"The option field may be used to specify the custom date format as it's "
+"required by the date() function or if \"as time ago\" has been chosen "
+"to customize the granularity of the time interval."
+msgstr ""
+"Поле может быть использовано для "
+"указания произвольного формата даты, "
+"как это требуется функцией date() или, "
+"если было выбрано \"тому назад\" - "
+"размер временного интервала."
+
+#: modules/views_node.inc:46,120,229,47,121,230
+msgid "Node: Updated Time"
+msgstr "Документ: Время обновления"
+
+#: modules/views_node.inc:50,51
+msgid "Display the last time the node was updated."
+msgstr ""
+"Отображать время последнего "
+"обновления документа."
+
+#: modules/views_node.inc:54,134,173,280,55,135,174,281
+msgid "Node: Type"
+msgstr "Материал: Тип"
+
+#: modules/views_node.inc:57,58
+msgid ""
+"The Node Type field will display the type of a node (for example, "
+"'blog entry', 'forum post', 'story', etc)"
+msgstr ""
+"Поле будет отображать тип материала, "
+"например, \"Заметка\", \"Сообщение "
+"форума\" и т.п."
+
+#: modules/views_node.inc:60,61
+msgid "Node: Link to node"
+msgstr "Материал: Ссылка на материал"
+
+#: modules/views_node.inc:65,66
+msgid ""
+"This will create a link to the node; fill the option field with the "
+"text for the link. If you want titles that link to the node, use Node: "
+"Title instead."
+msgstr ""
+"Создаёт ссылку на материал. Заполните "
+"поле текстом ссылки. Если вы хотите "
+"заголовок, который ссылается на "
+"материал, то используйте Материал: "
+"Заголовок."
+
+#: modules/views_node.inc:68,238,69,239
+msgid "Node: Body"
+msgstr "Материал: Тело"
+
+#: modules/views_node.inc:75,76
+msgid "Display the Main Content."
+msgstr "Отобразить главное содержимое"
+
+#: modules/views_node.inc:78,79
+msgid "Node: View link"
+msgstr "Материал: Ссылка для просмотра"
+
+#: modules/views_node.inc:82,83
+msgid ""
+"Display a link to view the node. Enter the text of this link into the "
+"option field; if blank the default \"View\" will be used."
+msgstr ""
+"Показывает ссылку для просмотра "
+"материала. Введите текст этой ссылки в "
+"поле. Если поле пусто - будет "
+"использоваться \"Просмотреть\" по "
+"умолчанию."
+
+#: modules/views_node.inc:85,86
+msgid "Node: Edit link"
+msgstr "Материал: Ссылка для редактирования"
+
+#: modules/views_node.inc:87,98,88,99
+msgid "Return To View"
+msgstr "Вернуться к Представлению"
+
+#: modules/views_node.inc:88,89
+msgid "Return to Node"
+msgstr "Вернуться к Материалу"
+
+#: modules/views_node.inc:93,94
+msgid ""
+"Display a link to edit the node. Enter the text of this link into the "
+"option field; if blank the default \"Edit\" will be used."
+msgstr ""
+"Показать ссылку для изменения "
+"материала. Введите текст этой ссылки в "
+"поле. Если пусто - будет использовано "
+"\"Редактировать\" по умолчанию."
+
+#: modules/views_node.inc:96,97
+msgid "Node: Delete link"
+msgstr "Материал: Ссылка для удаления"
+
+#: modules/views_node.inc:99,100
+msgid "Return To The Frontpage"
+msgstr "Вернуть на Главную"
+
+#: modules/views_node.inc:104,105
+msgid ""
+"Display a link to delete the node. Enter the text of this link into "
+"the option field; if blank the default \"Delete\" will be used."
+msgstr ""
+"Показать ссылку для удаления "
+"материала. Введите текст этой ссылки в "
+"поле. Если не заполнено - будет "
+"использовано \"Удалить\" по умолчанию."
+
+#: modules/views_node.inc:110,111
+msgid "Sort by the database ID of the node."
+msgstr ""
+"Упорядочить материалы по ID в базе "
+"данных."
+
+#: modules/views_node.inc:117,118
+msgid "Sort by the submission date of the node."
+msgstr ""
+"Сортировать по дате публикации "
+"документа."
+
+#: modules/views_node.inc:123,124
+msgid "Sort by the last update date of the node."
+msgstr ""
+"Сортировать по дате обновления "
+"документа."
+
+#: modules/views_node.inc:126,159,127,160
+msgid "Node: Sticky"
+msgstr "Материал: Прикреплен"
+
+#: modules/views_node.inc:127,128
+msgid ""
+"Sort by whether or not the node is sticky. Choose descending to put "
+"sticky nodes at the top."
+msgstr ""
+"Сортировать по признаку "
+"\"прикрепленности\". Выберите обратный "
+"порядок, чтобы поместить "
+"\"прикрепленные\" документы сверху."
+
+#: modules/views_node.inc:13,130,214,285,14,131,215,286
+msgid "Node: Title"
+msgstr "Материал: Заголовок"
+
+#: modules/views_node.inc:131,132
+msgid "Sort by the node title, alphabetically"
+msgstr ""
+"Сортировать по имени документа, в "
+"алфавитном порядке"
+
+#: modules/views_node.inc:135,136
+msgid "Sort by the node type, alphabetically"
+msgstr ""
+"Сортировать по типу материала в "
+"алфавитном порядке"
+
+#: modules/views_node.inc:140,141
+msgid ""
+"By choosing random, nodes will be ordered completely randomly. This is "
+"a good way to choose X random nodes from a group of nodes."
+msgstr ""
+"Выбрав \"Случайно\", документы будут "
+"расположены совершенно случайно. Это "
+"хороший способ выбрать Х случайных "
+"документов из группы документов."
+
+#: modules/views_node.inc:145,146
+msgid "Node: Published"
+msgstr "Материал: Опубликован"
+
+#: modules/views_node.inc:149,150
+msgid ""
+"Filter by whether or not the node is published. This is recommended "
+"for most Views!"
+msgstr ""
+"Фильтровать по признаку, опубликован "
+"ли материал. Рекомендуется для "
+"большинства представлений!"
+
+#: modules/views_node.inc:152,153
+msgid "Node: Front Page"
+msgstr "Материал: Главная страница"
+
+#: modules/views_node.inc:156,157
+msgid "Filter by whether or not the node has been promoted to Front Page."
+msgstr ""
+"Фильтровать по признаку, присутствует "
+"ли документ на главной странице."
+
+#: modules/views_node.inc:163,164
+msgid "Filter by whether or not the node is set sticky."
+msgstr ""
+"Фильтровать по признаку "
+"\"прикрепленности\" документа."
+
+#: modules/views_node.inc:166,167
+msgid "Node: Moderated"
+msgstr "Материал: Проверен"
+
+#: modules/views_node.inc:170,171
+msgid "Filter by whether or not the node is moderated."
+msgstr ""
+"Фильтровать по признаку того, "
+"проверен  ли материал."
+
+#: modules/views_node.inc:178,179
+msgid "Include or exclude nodes of the selected types."
+msgstr ""
+"Включить или исключить материалы "
+"выбранных типов."
+
+#: modules/views_node.inc:182,183
+msgid "Node: Author is Anonymous"
+msgstr "Материал: Автор анонимный"
+
+#: modules/views_node.inc:186,187
+msgid ""
+"This allows you to filter by whether or not the node author is "
+"anonymous."
+msgstr ""
+"Позволяет фильтровать по критерию "
+"анонимности автора."
+
+#: modules/views_node.inc:190,191
+msgid "Node: Author is Current User"
+msgstr ""
+"Материал: Автор является текущим "
+"пользователем"
+
+#: modules/views_node.inc:194,195
+msgid ""
+"This allows you to filter by whether or not the node was authored by "
+"the logged in user of the view."
+msgstr ""
+"Позволяет фильтровать по тому, "
+"является ли автор материала тем "
+"зарегистрированным пользователем, "
+"который использует данное  "
+"представление."
+
+#: modules/views_node.inc:198,199
+msgid "Node: Current User Authored or Commented"
+msgstr ""
+"Материал: Создан или Откомментирован "
+"текущим пользователем"
+
+#: modules/views_node.inc:203,204
+msgid ""
+"This allows you to filter by whether or not the logged in user "
+"authored or commented on the node."
+msgstr ""
+"Позволяет фильтровать по критерию, "
+"является ли зарегистрированный "
+"пользователь автором материала или "
+"комментария этого материала."
+
+#: modules/views_node.inc:206,207
+msgid "Node: Distinct"
+msgstr "Материал: Особый"
+
+#: modules/views_node.inc:211,212
+msgid ""
+"This filter ensures that each node may only be listed once, even if it "
+"matches multiple criteria. Use this if multiple taxonomy matches "
+"return duplicated nodes."
+msgstr ""
+"Этот фильтр нужен для того, чтобы "
+"любой материал выводился лишь "
+"однажды, даже если он соответствует "
+"нескольким критериям. Используйте, "
+"если множественные совпадения "
+"таксономии возвращают дублированные "
+"материалы."
+
+#: modules/views_node.inc:217,218
+msgid "This filter allows nodes to be filtered by their title."
+msgstr ""
+"Этот фильтр позволяет материалам быть "
+"отфильтрованными по их заголовку."
+
+#: modules/views_node.inc:234,235
+msgid "This filter allows nodes to be filtered by the time they were updated."
+msgstr ""
+"Фильтр позволяет сортировать "
+"материалов по времени их обновления."
+
+#: modules/views_node.inc:241,242
+msgid "This filter allows nodes to be filtered by their body."
+msgstr ""
+"Фильтр позволяет сортировать "
+"материалы по их телу."
+
+#: modules/views_node.inc:264,265
+msgid "Node: Has New Content"
+msgstr "Материал: Имеет новое содержимое"
+
+#: modules/views_node.inc:269,270
+msgid ""
+"Including this filter will reduce the node set to nodes that have been "
+"updated or have new content since the user last read the node, as well "
+"as unread nodes."
+msgstr ""
+"Включение этого фильтра оставит те "
+"материалы, которые были обновлены или "
+"имеют новое содержимое с момента, "
+"когда пользователь в последний раз "
+"просматривал его, а также "
+"непросмотренные материалы."
+
+#: modules/views_node.inc:282,283
+msgid ""
+"The node type argument allows users to filter a view by specifying the "
+"type of node."
+msgstr ""
+"Аргумент типа материала позволяет "
+"пользователям фильтровать "
+"представление, указывая тип "
+"материала."
+
+#: modules/views_node.inc:288,289
+msgid ""
+"The argument will filter by the node title. For this argument, set the "
+"option to the number of characters, using 0 for full term; use 1 for "
+"an A/B/C style glossary."
+msgstr ""
+"Аргумент будет фильтровать по "
+"заголовку документа. Используйте "
+"число символов для этого аргумента: 0 "
+"для полного термина, 1 для глоссария "
+"(A/Б/В)."
+
+#: modules/views_node.inc:291,292
+msgid "Node: Posted Year"
+msgstr "Материал: Год публикации"
+
+#: modules/views_node.inc:293,294
+msgid ""
+"This argument allows users to filter by what year the node was posted, "
+"in the form of CCYY."
+msgstr ""
+"Аргумент позволяет пользователям "
+"фильтровать документы по году "
+"публикации (ГГГГ)."
+
+#: modules/views_node.inc:296,297
+msgid "Node: Posted Month"
+msgstr "Материал: Месяц публикации"
+
+#: modules/views_node.inc:298,299
+msgid ""
+"Months are specified by the numbers 1-12. Since this argument does not "
+"specify a year, it is recommended that it usually follow a 'Year' "
+"argument."
+msgstr ""
+"Месяцы указываются числами от 1 до 12. "
+"Поскольку этот аргумент не задает год, "
+"рекомендуется, чтобы за ним следовал "
+"аргумент \"Год\"."
+
+#: modules/views_node.inc:301,302
+msgid "Node: Posted Week"
+msgstr "Материал: Неделя публикации"
+
+#: modules/views_node.inc:303,304
+msgid ""
+"This allows the user to filter a view by the week number from 1-52. It "
+"is recommended this argument follow a 'Year' argument."
+msgstr ""
+"Позволяет пользователю фильтровать "
+"вид по номеру недели (1-52). "
+"Рекомендуется, чтобы за этим "
+"аргументом следовал аргумент \"Год\"."
+
+#: modules/views_node.inc:306,307
+msgid "Node: Posted Month + Year"
+msgstr "Материал: Месяц + год публикации"
+
+#: modules/views_node.inc:308,309
+msgid ""
+"This argument combines Month and Year into a single argument, "
+"specified in the form CCYYMM."
+msgstr ""
+"Аргумент, объединяющий месяц и год в "
+"виде ГГГГММ."
+
+#: modules/views_node.inc:311,312
+msgid "Node: Posted Full Date"
+msgstr "Материал: Полная дата публикации"
+
+#: modules/views_node.inc:313,314
+msgid "This argument is a complete date in the form of CCYYMMDD."
+msgstr ""
+"Аргумент является полной датой в "
+"формате ГГГГММДД."
+
+#: modules/views_node.inc:322,323
+msgid "This argument is a single Node ID."
+msgstr ""
+"Аргумент является ID единственного "
+"материала."
+
+#: modules/views_node.inc:327,328
+msgid "Node: Feed Selector"
+msgstr "Материал:  Селектор ленты"
+
+#: modules/views_node.inc:330,331
+msgid ""
+"This argument allows pluggable \"feed\" selectors. If using views_rss "
+"module, \"feed\" will turn the view into an RSS feed. Other modules "
+"may provide their own feeds. You may enter the title the feed will "
+"advertise in the title field here. If the feed type offers a "
+"description, enter the description of the feed in the option field "
+"here."
+msgstr ""
+"Этот аргумент позволяет вставные "
+"селекторы \"ленты\". Если вы "
+"используете модуль views_rss module,\r\n"
+"представление будет преобразованы в "
+"ленту RSS. Другие модули могут "
+"предоставлять свои собственные ленты. "
+"Вы можете ввести заголовок в поле "
+"заголовка, если требуется описание, "
+"введите описание в не обязательное "
+"поле здесь."
+
+#: modules/views_node.inc:341,342
+msgid "The basic front page view."
+msgstr ""
+"Базовое представление главной "
+"страницы."
+
+#: modules/views_node.inc:684,685
+msgid "Untitled"
+msgstr "Без заголовка"
+
+#: modules/views_statistics.inc:24,25
+msgid "This will display the number of times a node has been read."
+msgstr ""
+"Будет показывать, сколько раз "
+"материал был прочитан."
+
+#: modules/views_statistics.inc:27,45,28,46
+msgid "Node: Recent Hits"
+msgstr "Материал: Последние посещения"
+
+#: modules/views_statistics.inc:29,30
+msgid "This will display the number of times a node has been read recently."
+msgstr ""
+"Будет показывать, сколько раз "
+"документ был прочитать в последнее "
+"время."
+
+#: modules/views_statistics.inc:32,49,33,50
+msgid "Node: Last Hit Time"
+msgstr "Материал : Время последнего посещения"
+
+#: modules/views_statistics.inc:36,37
+msgid "Display the time the node was last read."
+msgstr ""
+"Показывать время последнего чтения "
+"материала."
+
+#: modules/views_statistics.inc:22,41,23,42
+msgid "Node: Total Hits"
+msgstr "Материал: Общее количество посещений"
+
+#: modules/views_statistics.inc:42,43
+msgid "This allows you to sort by the number of times a node has been read."
+msgstr ""
+"Позволяет сортировать по тому, "
+"сколько раз документ был прочтен."
+
+#: modules/views_statistics.inc:46,47
+msgid ""
+"This allows you to sort by the number of times a node has been read "
+"recently."
+msgstr ""
+"Позволит сортировать по количеству "
+"прочтения документа за  последнее "
+"время."
+
+#: modules/views_statistics.inc:52,53
+msgid "This allows you to sort by the time a node was last read."
+msgstr ""
+"Позволяет сортировать по времени "
+"последнего прочтения документа."
+
+#: modules/views_statistics.inc:67,68
+msgid "Nodes sorted by recent page-views"
+msgstr ""
+"Документы отсортированы по "
+"последнему просмотру страницы"
+
+#: modules/views_statistics.inc:72,89,73,90
+msgid "Recent popular content"
+msgstr "Последние популярные материалы"
+
+#: modules/views_statistics.inc:156,157
+msgid "Nodes sorted by total page-views"
+msgstr ""
+"Документы отсортированы по общему "
+"просмотру страниц"
+
+#: modules/views_statistics.inc:161,178,162,179
+msgid "All-time popular content"
+msgstr "Популярное во все времена"
+
+#: modules/views_statistics.inc:225,226
+msgid "Reads"
+msgstr "Просмотров"
+
+#: modules/views_taxonomy.inc:51,52
+msgid ""
+"This will display all taxonomy terms associated with the node that are "
+"members of %voc-name. Note that this causes one extra query per row "
+"displayed, and might have a minor performance impact."
+msgstr ""
+"Отображение всех терминов таксономии, "
+"связанных с материалом и находящихся "
+"в словаре %voc-name. Заметьте, что это "
+"приведет к дополнительному запросу на "
+"каждую строку, что может привести к "
+"лишней загрузке сервера."
+
+#: modules/views_taxonomy.inc:49,66,50,67
+msgid "Taxonomy: Terms for @voc-name"
+msgstr "Таксономия: Термины для @voc-name"
+
+#: modules/views_taxonomy.inc:75,76
+msgid ""
+"Only terms associated with %voc-name will appear in the select box for "
+"this filter. When filtering by taxonomy term you may specify the "
+"'depth' as an option. Please see the taxonomy help for more "
+"information."
+msgstr ""
+"В выпадающем списке для этого фильтра "
+"будут отображаться только термины, "
+"связанные с %voc-name. При фильтрации с "
+"использованием термина таксономии, вы "
+"можете указать глубину. См. справку "
+"таксономии для дополнительной "
+"информации."
+
+#: modules/views_taxonomy.inc:110,111
+msgid "Taxonomy: Term"
+msgstr "Таксономия: Термин"
+
+#: modules/views_taxonomy.inc:114,115
+msgid ""
+"This will display one of the taxonomy terms associated with the node; "
+"if taxonomy terms were used to filter or sort, it will be the one that "
+"triggered the sort or filter."
+msgstr ""
+"Отображение одного из терминов "
+"таксономии, связанных с материалом. "
+"Если термины таксономии были "
+"использованы  для фильтрации или "
+"сортировки, будет показан тот из них, "
+"который использовался для сортировки "
+"или фильтрации."
+
+#: modules/views_taxonomy.inc:117,118
+msgid "Taxonomy: Term Description"
+msgstr "Таксономия: Описание термина"
+
+#: modules/views_taxonomy.inc:119,120
+msgid "This will display the description associated with a taxonomy term."
+msgstr ""
+"Отображение описания термина "
+"таксономии."
+
+#: modules/views_taxonomy.inc:124,156,125,157
+msgid "Taxonomy: Term Name"
+msgstr "Таксономия: Имя термина"
+
+#: modules/views_taxonomy.inc:126,127
+msgid ""
+"This will sort nodes by taxonomy weight and name, as defined in the "
+"category administration."
+msgstr ""
+"Сортировка материалов по весу и "
+"названию таксономии, как указано на "
+"странице управления категориями."
+
+#: modules/views_taxonomy.inc:131,132
+msgid "Taxonomy: Vocabulary Name"
+msgstr "Таксономия: Название словаря"
+
+#: modules/views_taxonomy.inc:136,137
+msgid ""
+"This will filter a view to only nodes that contain a term in the "
+"associated vocabulary."
+msgstr ""
+"Фильтровать вид для поиска только тех "
+"материалов, которые содержат термин в "
+"связанном словаре."
+
+#: modules/views_taxonomy.inc:150,151
+msgid "Taxonomy: Term ID"
+msgstr "Таксономия: ID термина"
+
+#: modules/views_taxonomy.inc:153,154
+msgid ""
+"The argument will filter by a taxonomy term ID. For this argument, set "
+"the option to the depth to search. See taxonomy for more information."
+msgstr ""
+"Аргумент будет отбирать по ID термина "
+"таксономии. Установите глубину поиска "
+"для этого аргумента. Смотрите справку "
+"по таксономии для дополнительной "
+"информации."
+
+#: modules/views_taxonomy.inc:159,160
+msgid ""
+"The argument will filter by a taxonomy term name. For this argument, "
+"set the option to the number of characters, using 0 for full term; use "
+"1 for an A/B/C style glossary."
+msgstr ""
+"Аргумент будет отбирать по имени "
+"термина таксономии. Установите "
+"параметр количества символов для "
+"этого аргумента, используя 0 для "
+"полного термина и 1 для словаря в стиле "
+"А/Б/В."
+
+#: modules/views_taxonomy.inc:162,163
+msgid "Taxonomy: Vocabulary ID"
+msgstr "Таксономия: ID словаря"
+
+#: modules/views_taxonomy.inc:164,165
+msgid "The argument will filter to nodes with terms in a vocabulary."
+msgstr ""
+"Аргумент будет фильтровать те  "
+"материалы , которые связаны с "
+"терминами из словаря."
+
+#: modules/views_taxonomy.inc:174,175
+msgid "The taxonomy view with a depth of 0."
+msgstr ""
+"Представление таксономии с учетом "
+"глубины 0."
+
+#: modules/views_taxonomy.inc:374,375
+msgid "Uncatgorized"
+msgstr "Без категории"
+
+#: modules/views_upload.inc:24,25
+msgid "File Id which represents the file."
+msgstr ""
+"Идентификатор файла, который "
+"представляет файл."
+
+#: modules/views_upload.inc:29,30
+msgid "Sort by File Id"
+msgstr "Сортировать по ID файла"
+
+#: modules/views_upload.inc:34,35
+msgid "File: Has file downloads"
+msgstr "Файл: Файл имеет скачивания"
+
+#: modules/views_upload.inc:35,36
+msgid "Exists"
+msgstr "Существует"
+
+#: modules/views_upload.inc:39,40
+msgid "Filter whether the node has files for download"
+msgstr ""
+"Отобрать материалы, у которых есть "
+"файлы, которые можно скачать."
+
+#: modules/views_upload.inc:42,43
+msgid "File: Listed in file downloads"
+msgstr ""
+"Файл: Указан в списке скачиваемых "
+"файлов"
+
+#: modules/views_upload.inc:46,47
+msgid "Filter whether the file is listed in downloads"
+msgstr ""
+"Отобрать файлы, которые указаны в "
+"списке скачивания"
+
+#: modules/views_upload.inc:63,64
+msgid "File: All files"
+msgstr "Файл: Все файлы"
+
+#: modules/views_upload.inc:67,68
+msgid "All files"
+msgstr "Все файлы"
+
+#: modules/views_upload.inc:68,69
+msgid "Listed files"
+msgstr "Перечисленные файлы"
+
+#: modules/views_upload.inc:73,74
+msgid "File names with links"
+msgstr "Имена файлов со ссылками"
+
+#: modules/views_upload.inc:74,75
+msgid "File names without links"
+msgstr "Имена файлов без ссылок"
+
+#: modules/views_upload.inc:75,76
+msgid "File descriptions with links"
+msgstr "Описания файлов со ссылками"
+
+#: modules/views_upload.inc:76,77
+msgid "File descriptions without links"
+msgstr "Описания файлов без ссылок"
+
+#: modules/views_upload.inc:79,80
+msgid "Display all attached files in one field."
+msgstr ""
+"Показать все присоединённые файлы в "
+"одном поле."
+
+#: modules/views_upload.inc:82,83
+msgid "File: Name"
+msgstr "Файл: Имя"
+
+#: modules/views_upload.inc:84,85
+msgid "Plain"
+msgstr "Простой"
+
+#: modules/views_upload.inc:85,86
+msgid "With download link"
+msgstr "Со ссылкой для скачивания"
+
+#: modules/views_upload.inc:90,91
+msgid "Display file name"
+msgstr "Отобразить имя файла"
+
+#: modules/views_upload.inc:93,94
+msgid "File: Path"
+msgstr "Файл: Путь"
+
+#: modules/views_upload.inc:95,96
+msgid "Display Path to File."
+msgstr "Отобразить путь к файлу."
+
+#: modules/views_upload.inc:98,117,99,118
+msgid "File: Size"
+msgstr "Файл: Размер"
+
+#: modules/views_upload.inc:101,102
+msgid "Display the size of the associated file."
+msgstr ""
+"Показать размер ассоциированного "
+"файла."
+
+#: modules/views_upload.inc:104,122,138,105,123,139
+msgid "File: Mime type"
+msgstr "Файл: тип MIME"
+
+#: modules/views_upload.inc:106,125,107,126
+msgid "This filter allows nodes to be filtered by mime type."
+msgstr ""
+"Этот фильтр позволяет материалам быть "
+"отобранным по типу MIME."
+
+#: modules/views_upload.inc:111,112
+msgid "File: Filename"
+msgstr "Файл: Имя файла"
+
+#: modules/views_upload.inc:114,115
+msgid "This filter allows nodes to be filtered by the name of attached files."
+msgstr ""
+"Этот фильтр позволяет материалам быть "
+"отобранными по имени присоединённых "
+"файлов."
+
+#: modules/views_upload.inc:119,120
+msgid "This filter allows nodes to be filtered by file size."
+msgstr ""
+"Этот фильтр позволяет материалам быть "
+"отобранными по размеру файла."
+
+#: modules/views_upload.inc:130,131
+msgid "File: Sort by Filename"
+msgstr "Файл: Сортировать по имени файла"
+
+#: modules/views_upload.inc:131,132
+msgid "Sort by file name"
+msgstr "Сортировать по имени файла"
+
+#: modules/views_upload.inc:134,135
+msgid "File: File size"
+msgstr "Файл: Размер файла"
+
+#: modules/views_upload.inc:135,136
+msgid "Sort by file size."
+msgstr "Сортировать по размеру файла."
+
+#: modules/views_upload.inc:139,140
+msgid "Sort by mime type."
+msgstr "Сотрировать по типу MIME."
+
+#: modules/views_user.inc:31,32
+msgid "User: Author Picture"
+msgstr "Пользователь: Картинка автора"
+
+#: modules/views_user.inc:34,35
+msgid "Display the user picture of the author."
+msgstr ""
+"Отображать пользовательское "
+"изображение автора."
+
+#: modules/views_user.inc:23,44,50,24,45,51
+msgid "Node: Author Name"
+msgstr "Материал: Имя автора"
+
+#: modules/views_user.inc:45,46
+msgid "This allows you to sort alphabetically by author."
+msgstr ""
+"Сортировка по автору в алфавитном "
+"порядке."
+
+#: modules/views_user.inc:54,55
+msgid ""
+"This allows you to filter by a particular user. You might not find "
+"this useful if you have a lot of users."
+msgstr ""
+"Позволит фильтровать по "
+"определенному пользователю. При "
+"большом количестве пользователей "
+"может неудобным."
+
+#: modules/views_user.inc:78,79
+msgid "Node: Authors in role %role-name"
+msgstr "Материал: Авторы с ролью %role-name"
+
+#: modules/views_user.inc:83,84
+msgid ""
+"Only users in role %role-name will appear in the select box for this "
+"filter."
+msgstr ""
+"Только пользователи  с ролью %role-name "
+"появятся в выпадающем списке этого "
+"фильтра."
+
+#: modules/views_user.inc:103,104
+msgid "Role: Author Role"
+msgstr "Роль: Роль автора"
+
+#: modules/views_user.inc:108,109
+msgid "Include the node only if the author is a member of the selected role."
+msgstr ""
+"Включать материал, если только   автор "
+"имеет  выбранную роль."
+
+#: modules/views_user.inc:118,119
+msgid "User: UID is Author"
+msgstr "Пользователь: UID является Автором"
+
+#: modules/views_user.inc:120,121
+msgid ""
+"The User ID argument allows users to filter to nodes authored by the "
+"specified user ID."
+msgstr ""
+"Аргумент \"ID пользователя\" позволяет "
+"пользователям отобрать материалы, "
+"автором которых является "
+"пользователь с этим ID."
+
+#: modules/views_user.inc:123,124
+msgid "User: UID Authored or Commented"
+msgstr ""
+"Пользователь: UID автора или автора "
+"комментария"
+
+#: modules/views_user.inc:125,126
+msgid ""
+"The User ID argument allows users to filter a to nodes authored or "
+"commented on the specified user ID."
+msgstr ""
+"Аргумент \"ID пользователя\" позволяет "
+"пользователям отобрать материалы, "
+"автором которых или автором "
+"комментариев к которому является "
+"пользователь с этим ID."
+
+#: modules/views_user.inc:128,129
+msgid "User: Username is Author"
+msgstr ""
+"Пользователь: Пользователь является "
+"автором"
+
+#: modules/views_user.inc:129,130
+msgid "views_handler_arg_username"
+msgstr "views_handler_arg_username"
+
+#: modules/views_user.inc:130,131
+msgid ""
+"The Username argument allows users to file to a nodes authored by the "
+"specified username."
+msgstr ""
+"Аргумент \"имя пользователя\" "
+"позволяет пользователям отобрать "
+"материалы, автором которых является "
+"указанный пользователь (по имени)."
+
+#: modules/views_user.inc:141,142
+msgid "Shows all new activity on system."
+msgstr ""
+"Показать всю новую активность в "
+"системе."
+
+#: modules/views_user.inc:193,194
+msgid "recent posts for %1"
+msgstr "недавние сообщения для %1"
+
+#: modules/views_user.inc:371,372
+msgid "Currently Logged In User"
+msgstr "Вошедший в данный момент пользователь"
+
+#: modules/comment.views.inc:142,151,142,138,138,138,151,151,151,138
+msgid "Mail"
+msgstr "Почта"
+
+#: modules/comment.views.inc:254,260,254,260,272,278,272,278,272,278,272,278
+msgid "Approved"
+msgstr "Одобрено"
+
+#: modules/aggregator.views.inc:310,310,304,304,304,310,310,310,304
+msgid "Last modified"
+msgstr "Последний измененный"
+
+#: modules/comment.views.inc:66,75,66,62,62,62,75,75,75,62
+msgid "ID"
+msgstr "ID"
+
+#: modules/node.views_template.inc:114,114,116,116,116,116
+msgid "Image gallery"
+msgstr "Галерея изображений"
+
+#: modules/aggregator.views.inc:274,274,270,270,270,274,274,274,270
+msgid "Last checked"
+msgstr "Посл. проверка"
+
+#: modules/views.views.inc:17,17,14,14,14,17,17,17,14
+msgid "Global"
+msgstr "Глобальный"
+
+#: modules/taxonomy.views.inc:101,147,83,134,262,101,147,69,120,232,115,161,115,161,115,161,83,134,262,69,120,232,83,134,262,115,161
+msgid "Term"
+msgstr "Термин"
+
+#: modules/views_profile.inc:70,77
+msgid "This will display all options of the profile field %field-name. "
+msgstr ""
+"Покажет все параметры поля профиля "
+"%field-name. "
+
+#: modules/views_profile.inc:84
+msgid "Display the date of the %field-name field."
+msgstr "Покажет дату поля %field-name."
+
+#: modules/views_profile.inc:91,192
+msgid "Checkbox based profile field help"
+msgstr ""
+"Помощь для поля профиля, основанная на "
+"чекбоксах."
+
+#: modules/views_profile.inc:98,105,201
+msgid "Other types based profile field help"
+msgstr ""
+"Помощь по полю профиля, основанная на "
+"других типах"
+
+#: modules/views_profile.inc:66,122,156
+msgid "Profile: @field-name"
+msgstr "Профиль: @field-name"
+
+#: modules/views_profile.inc:128
+msgid "This allows you to sort by vocabulary terms"
+msgstr ""
+"Это позволит вам сортировать по "
+"термину из словаря"
+
+#: modules/views_profile.inc:131
+msgid "This allows you to sort by selection options"
+msgstr ""
+"Это позволит вам сортировать по "
+"параметрам выбора"
+
+#: modules/views_profile.inc:137
+msgid "This allows you to sort by date"
+msgstr "Это позволит вам сортировать по дате"
+
+#: modules/views_profile.inc:140
+msgid "This allows you to sort yes/no"
+msgstr "Это позволит вам сортировать по да/нет"
+
+#: modules/views_profile.inc:160
+msgid "Taxonomy based profile field help"
+msgstr ""
+"Помощь по полю профиля, основанная на "
+"таксономии"
+
+#: modules/views_profile.inc:171
+msgid "Selection based profile field help"
+msgstr ""
+"Помощь по полю профиля, основанная на "
+"выборе"
+
+#: modules/statistics.views.inc:130,130,109,126,126,126,130,109,130,126
+msgid "Browser session ID of user that visited page."
+msgstr ""
+"Идентификатор сеанса браузера "
+"посетившего страницу пользователя."
+
+#: modules/statistics.views.inc:150,150,129,146,146,146,150,129,150,146
+msgid "Title of page visited."
+msgstr "Заголовок просмотренной страницы."
+
+#: modules/statistics.views.inc:170,170,149,166,166,166,170,149,170,166
+msgid "Internal path to page visited (relative to Drupal root.)"
+msgstr ""
+"Внутренний путь посещённой страницы "
+"(относительно корня Drupal)."
+
+#: modules/statistics.views.inc:190,190,169,186,186,186,190,169,190,186
+msgid "Referrer URI."
+msgstr "Referrer URI."
+
+#: modules/statistics.views.inc:206,206,185,202,202,202,206,185,206,202
+msgid "Hostname of user that visited the page."
+msgstr ""
+"Имя хоста посетившего страницу "
+"пользователя."
+
+#: modules/statistics.views.inc:236,236,215,232,232,232,236,215,236,232
+msgid "Time in milliseconds that the page took to load."
+msgstr ""
+"Время загрузки страницы в "
+"миллисекундах."
+
+#: modules/statistics.views.inc:252,252,231,248,248,248,252,231,252,248
+msgid "Timestamp of when the page was visited."
+msgstr "Время посещения страницы."
+
+#: modules/system.views.inc:464,212,464,471,471,471,212,212,471
+msgid ""
+"The path of the primary file for this item, relative to the Drupal "
+"root; e.g. modules/node/node.module."
+msgstr ""
+"Путь первичного файла для данного "
+"элемента относительно корневой "
+"директории Drupal; например "
+"modules/node/node.module."
+
+#: modules/system.views.inc:483,231,483,490,490,490,231,231,490
+msgid "The name of the item; e.g. node."
+msgstr "Название элемента; например, материал."
+
+#: modules/system.views.inc:502,250,502,509,509,509,250,250,509
+msgid "The type of the item, either module, theme, or theme_engine."
+msgstr ""
+"Тип элемента, либо модуль, тема, или "
+"theme_engine."
+
+#: modules/system.views.inc:521,269,521,528,528,528,269,269,528
+msgid "Boolean indicating whether or not this item is enabled."
+msgstr ""
+"Булева переменная, указывающая, "
+"включен ли этот элемент."
+
+#: modules/book.views.inc:20,34,44,97,20,34,44,97,17,31,41,94,17,31,41,94,17,31,41,94,20,34,44,97,20,34,44,97,20,34,44,97,17,31,41,94
+msgid "Book"
+msgstr "Подшивка"
+
+#: modules/node.views.inc:406,426,406,426,406
+msgid "user"
+msgstr "пользователь"
+
+#: modules/views_node.inc:70,71
+msgid "Full Text"
+msgstr "Полный текст"
+
+#: modules/node.views.inc:202,198,202,186,186,186,198,198,186
+msgid "Promoted"
+msgstr "Вынесено на главную"
+
+#: modules/node.views.inc:202,198,202,186,186,186,198,198,186
+msgid "Not promoted"
+msgstr "Не продвинутый"
+
+#: modules/node.views.inc:217,224,229,232,239,244,217,224,229,236,241,201,208,213,201,208,213,201,208,213,232,239,244,229,236,241,232,239,244,201,208,213
+msgid "Sticky"
+msgstr "Закреплено"
+
+#: modules/node.views.inc:208,208,208,239,239,208
+msgid "Not sticky"
+msgstr "Не закреплен"
+
+#: modules/upload.views.inc:24,112,24,112,24,112
+msgid "Upload"
+msgstr "Загрузить"
+
+#: modules/comment.views.inc:326,299,326,245,344,344,344,299,245,299,344
+msgid "Thread"
+msgstr "Тема"
+
+#: modules/system.views.inc:401,401,391,391,391,391
+msgid "Module"
+msgstr "Модуль"
+
+#: modules/locale.views.inc:146,146,141,141,141,146,146,146,141
+msgid "Translation"
+msgstr "Перевод"
+
+#: modules/system.views.inc:25,30,260,266,267,291,297,298,322,328,329,353,359,360,384,390,391,24,29,25,30,260,266,267,291,297,298,322,328,329,353,359,360,384,390,391,20,25,250,256,257,281,287,288,312,318,319,343,349,350,374,380,381,20,25,250,256,257,281,287,288,312,318,319,343,349,350,374,380,381,20,25,250,256,257,281,287,288,312,318,319,343,349,350,374,380,381,24,29,24,29,24,29,20,25,250,256,257,281,287,288,312,318,319,343,349,350,374,380,381
+msgid "File"
+msgstr "Файл"
+
+#: modules/profile.views.inc:20,40,19,39,20,40,17,37,17,37,17,37,19,39,19,39,19,39,17,37
+msgid "Profile"
+msgstr "Профиль"
+
+#: modules/aggregator.views.inc:141,141,135,135,135,141,141,141,135
+msgid "GUID"
+msgstr "GUID"
+
+#: modules/translation.views.inc:82,85,92,83,86,93,82,85,92,80,90,57,60,67,57,60,67,57,60,67,83,86,93,80,83,90,83,86,93,57,60,67
+msgid "Translations"
+msgstr "Переводы"
+
+#: modules/translation.views.inc:119,120,119,117,94,94,94,120,117,120,94
+msgid "Translation status"
+msgstr "Статус перевода"
+
+#: modules/aggregator.views.inc:25,25,19,19,19,25,25,25,19
+msgid "Aggregator"
+msgstr "Сбор новостей"
+
+#: modules/tracker.views.inc:15,15
+msgid "Tracker"
+msgstr "Изменения"
+
+#: modules/locale.views.inc:92,92,87,87,87,92,92,92,87
+msgid "Source"
+msgstr "Источник"
+
+#: modules/views_book.inc:22,23
+msgid "Book: Parent Node"
+msgstr "Подшивка: Родительский материал"
+
+#: modules/views_comment.inc:22,23
+msgid "Comment: Subject"
+msgstr "Комментарий: Тема"
+
+#: modules/views_search.inc:17,18
+msgid "Search: Index"
+msgstr "Поиск: Индекс"
+
+#: modules/views_upload.inc:22,23
+msgid "File: Id"
+msgstr "Файл: ID"
+
+#: modules/taxonomy.views.inc:211,173,211,156,239,239,239,173,156,173,239
+msgid "Term description"
+msgstr "Описание термина"
+
+#: modules/translation.views.inc:30,50,81,98,118,137,30,50,81,98,118,137,25,56,73,93,112,25,56,73,93,112,25,56,73,93,112,25,56,73,93,112
+msgid "Content translation"
+msgstr "Перевод содержания"
+
+#: modules/system.views.inc:435,435,442,442,442,442
+msgid "Use count"
+msgstr ""
+
+#: modules/system.views.inc:338,344,345,338,344,345,328,334,335,328,334,335,328,334,335,328,334,335
+msgid "Taxonomy Term"
+msgstr "Термин таксономии"
+
+#: modules/system.views.inc:540,288,540,547,547,547,288,288,547
+msgid ""
+"The module's database schema version number. -1 if the module is not "
+"installed (its tables do not exist); 0 or the largest N of the "
+"module's hook_update_N() function that has either been run or existed "
+"when the module was first installed."
+msgstr ""
+"Номер версии схемы базы данных "
+"данного модуля. -1, если модуль не "
+"установлен (его таблицы не "
+"существуют); 0 или максимальный N "
+"функции hook_update_N() модуля, которая была "
+"либо выполнена или существовала, "
+"когда модуль был впервые установлен."
+
+#: modules/system.views.inc:123,127,123,113,113,113,127,127,113
+msgid "Extension"
+msgstr "Расширение"
+
+#: modules/statistics.views.inc:235,235,214,231,231,231,235,214,235,231
+msgid "Timer"
+msgstr "Таймер"
+
+#: modules/statistics.views_default.inc:243,243,243,243,243,243
+msgid " ("
+msgstr " ("
+
+#: modules/statistics.views_default.inc:244,244,244,244,244,244
+msgid ")"
+msgstr ")"
+
+#: modules/taxonomy.views.inc:353,401,353,371,385,385,385,401,371,401,385
+msgid "term"
+msgstr "термин"
+
+#: modules/search.views_default.inc:112,112,112,112,112,112
+msgid "What links here"
+msgstr "Ссылки сюда"
+
+#: modules/aggregator.views.inc:342,342,336,336,336,342,342,342,336
+msgid "Aggregator category"
+msgstr "Категория агрегатора"
+
+#: modules/aggregator.views.inc:200,200,194,194,194,200,200,200,194
+msgid "Aggregator feed"
+msgstr "Агрегация лент"
+
+#: modules/aggregator.views.inc:30,400,30,441,400,24,394,24,394,24,394,30,441,30,441,30,441,24,394
+msgid "Aggregator item"
+msgstr "Элемент агрегатора"
+
+#: modules/search.views.inc:67,67,63,63,63,67,67,67,63
+msgid "Score"
+msgstr "Результат"
+
+#: modules/statistics.views.inc:129,129,108,125,125,125,129,108,129,125
+msgid "Session ID"
+msgstr "ID сессии"
+
+#: modules/system.views.inc:45,48,45,35,35,35,48,48,48,35
+msgid "File ID"
+msgstr "ID файла"
+
+#: modules/taxonomy.views.inc:72,62,72,55,68,68,68,62,55,62,68
+msgid "Vocabulary ID"
+msgstr "ID словаря"
+
+#: modules/user.views.inc:283,253,283,190,290,290,290,253,190,253,290
+msgid "Last login"
+msgstr "Последний доступ"
+
+#: modules/statistics.views.inc:35,35,31,31,31,35,35,35,31
+msgid "Total views"
+msgstr "Всего просмотров"
+
+#: modules/user.views.inc:74,71,74,71,71,71,71,71
+msgid "nodes"
+msgstr "материалы"
+
+#: modules/aggregator.views.inc:59,59,53,53,53,59,59,59,53
+msgid "Item ID"
+msgstr "ID пункта"
+
+#: modules/user.views.inc:350,317,350,357,357,357,317,317,357
+msgid "Data"
+msgstr "Данные"
+
+#: modules/system.views.inc:418,418,408,408,408,408
+msgid "Entity type"
+msgstr "Тип объекта"
+
+#: modules/statistics.views.inc:88,93,88,93,84,89,84,89,84,89,88,93,88,93,88,93,84,89
+msgid "Access log"
+msgstr "Журнал доступа"
+
+#: modules/locale.views.inc:185,193,185,193,180,188,180,188,180,188,185,193,185,193,185,193,180,188
+msgid "Plural"
+msgstr "Множественное число"
+
+#: modules/comment.views.inc:260,260,278,278,278,278
+msgid "Not Approved"
+msgstr "Не утверждено"
+
+#: modules/user.views.inc:343,343,350,350,350,350
+msgid "Cancel link"
+msgstr "Ссылка отмены"
+
+#: modules/user.views.inc:97,78,97,69,104,104,104,78,69,78,104
+msgid "Current"
+msgstr "Текущий"
+
+#: modules/upload.views.inc:113,127,126,113,127,113,126
+msgid "Attached files"
+msgstr "Прикрепленные файлы"
+
+#: modules/taxonomy.views.inc:24,24,20,20,20,20
+msgid "Taxonomy vocabulary"
+msgstr "Словарь таксономии"
+
+#: modules/book.views.inc:114,114,111,111,111,114,114,114,111
+msgid "Book parent"
+msgstr "Родительская подшивка"
+
+#: modules/book.views.inc:29,29,26,26,26,29,29,29,26
+msgid "Top level book"
+msgstr "Верхний уровень подшивки"
+
+#: modules/node.views.inc:85,523,496,85,523,85,496,85,523
+msgid "The title of the node."
+msgstr "Заголовок материала."
+
+#: modules/node.views.inc:109,109,109,109
+msgid "The date the node was posted."
+msgstr "Дата создания материала."
+
+#: modules/node.views.inc:233,230,233,230,233
+msgid "Whether or not the node is sticky."
+msgstr "Закреплен ли материал вверху списков."
+
+#: modules/node.views.inc:461,434,461,434,461
+msgid ""
+"The actual, full data in the body field; this may not be valid data on "
+"all node types."
+msgstr ""
+"Текущее содержание материала; может "
+"быть некорректно для всех типов "
+"материала."
+
+#: modules/node.views.inc:476,449,476,449,476
+msgid ""
+"The stored teaser field. This may not be valid or useful data on all "
+"node types."
+msgstr ""
+"Сохранённый анонс. Может быть "
+"некорректным, или использоваться "
+"только для некоторых типов "
+"материалов."
+
+#: modules/node.views.inc:794,805,761,772,794,805,761,772,794,805
+msgid "Display the node with standard node view."
+msgstr ""
+
+#: modules/user.views.inc:108,89,108,80,115,115,115,89,80,89,115
+msgid "The user or author name."
+msgstr "Имя пользователя или автора."
+
+#: modules/user.views.inc:51,48,51,48,80,48,80,48,80,48,48,48,80
+msgid "The user ID"
+msgstr "ID пользователя"
+
+#: modules/views.views.inc:56,55,56,53,53,53,55,55,53
+msgid "Text area"
+msgstr "Текстовое область"
+
+#: modules/comment.views.inc:48,44,48,44,44,44,44,44,44
+msgid "The title of the comment."
+msgstr "Заголовок комментария."
+
+#: modules/system.views.inc:104,108,104,106,94,94,94,108,106,108,94
+msgid "Mime type"
+msgstr "MIME-тип"
+
+#: modules/comment.views.inc:104,113,104,100,100,100,113,113,113,100
+msgid "Author's website"
+msgstr "Веб-сайт автора"
+
+#: modules/comment.views.inc:441,411,441,336,459,459,459,411,336,411,459
+msgid "Comment count"
+msgstr "Количество комментариев"
+
+#: modules/poll.views.inc:35,35,31,31,31,35,35,35,31
+msgid "Whether the poll is open for voting."
+msgstr "Открыт ли опрос для голосования."
+
+#: modules/statistics.views.inc:23,23,23,23
+msgid "Node statistics"
+msgstr "Статистика материалов"
+
+#: modules/statistics.views.inc:36,36,32,32,32,36,36,36,32
+msgid "The total number of times the node has been viewed."
+msgstr "Общее число просмотров материала."
+
+#: modules/statistics.views.inc:53,53,49,49,49,53,53,53,49
+msgid "The total number of times the node has been viewed today."
+msgstr ""
+"Общее число просмотров материала за "
+"сегодня."
+
+#: modules/statistics.views.inc:69,69,65,65,65,69,69,69,65
+msgid "Most recent view"
+msgstr "Последний просмотр"
+
+#: modules/statistics.views.inc:70,70,66,66,66,70,70,70,66
+msgid "The most recent time the node has been viewed."
+msgstr "Время последнего просмотра материала."
+
+#: modules/statistics.views.inc:94,94,90,90,90,94,94,94,90
+msgid "Stores site access information."
+msgstr ""
+"Записывает информацию о доступе к "
+"сайту."
+
+#: modules/statistics.views.inc:225,225,204,221,221,221,225,204,225,221
+msgid "The user who visited the site."
+msgstr "Пользователи, посетившие сайт."
+
+#: modules/taxonomy.views.inc:247,218,247,218,247
+msgid "All terms"
+msgstr "Все термины"
+
+#: modules/comment.views.inc:522,476,522,379,540,540,540,476,379,476,540
+msgid "New comments"
+msgstr "Новые комментарии"
+
+#: modules/comment.views.inc:171,171,171,171
+msgid "Date and time of when the comment was posted."
+msgstr "Дата и время добавления комментария."
+
+#: modules/comment.views.inc:411,383,411,308,429,429,429,383,308,383,429
+msgid "Date and time of when the last comment was posted."
+msgstr "Дата и время последнего комментария."
+
+#: modules/comment.views.inc:427,399,427,324,445,445,445,399,324,399,445
+msgid "The name of the author of the last posted comment."
+msgstr "Имя автора последнего комментария."
+
+#: modules/comment.views.inc:442,412,442,337,460,460,460,412,337,412,460
+msgid "The number of comments a node has."
+msgstr "Количество комментариев к материалу."
+
+#: modules/node.views.inc:29,29,29,29
+msgid "Nodes are a Drupal site's primary content."
+msgstr ""
+"Материал - это это базовый тип "
+"содержимого Drupal-сайта."
+
+#: modules/node.views.inc:141,141,141,141
+msgid ""
+"The type of a node (for example, \"blog entry\", \"forum post\", "
+"\"story\", etc)."
+msgstr ""
+"Тип материала (например, \"страничка "
+"блога\", \"пост на форуме\", \"история\" и "
+"т.д.)."
+
+#: modules/node.views.inc:258,255,258,255,258
+msgid "Provide a simple link to the node."
+msgstr "Прямая ссылка на материал."
+
+#: modules/node.views.inc:266,263,266,263,266
+msgid "Provide a simple link to edit the node."
+msgstr ""
+"Прямая ссылка для изменение "
+"материала."
+
+#: modules/node.views.inc:274,271,274,271,274
+msgid "Provide a simple link to delete the node."
+msgstr "Прямая ссылка для удаления материала."
+
+#: modules/node.views.inc:289,343,289,343
+msgid "In the form of CCYYMMDD."
+msgstr "В виде CCYYMMDD."
+
+#: modules/node.views.inc:298,352,298,352
+msgid "In the form of YYYYMM."
+msgstr "В виде ГГГГММ"
+
+#: modules/node.views.inc:307,361,307,361
+msgid "In the form of YYYY."
+msgstr "В виде ГГГГ"
+
+#: modules/node.views.inc:316,370,316,370
+msgid "In the form of MM (01 - 12)."
+msgstr "В виде ММ (01-12)."
+
+#: modules/node.views.inc:334,388,334,388
+msgid "In the form of WW (01 - 53)."
+msgstr "В виде НН (01 - 53)."
+
+#: modules/node.views.inc:427,432,400,405,427,432,400,405,427,432
+msgid "Node revision"
+msgstr "Редакция материала"
+
+#: modules/node.views.inc:433,406,433,406,433
+msgid "Node revisions are a history of changes to nodes."
+msgstr ""
+"Ревизия материала это история "
+"изменений материала."
+
+#: modules/node.views.inc:466,489,466,462,460,460,492,489,462,489,492
+msgid "Vid"
+msgstr "Vid"
+
+#: modules/node.views.inc:490,463,490,463,490
+msgid "The revision ID of the node revision."
+msgstr "ID редакции материала."
+
+#: modules/node.views.inc:519,544,519,517,513,513,546,544,517,544,546
+msgid "The log message entered when the revision was created."
+msgstr "Пояснение к редакции материала."
+
+#: modules/node.views.inc:548,606,548,579,550,550,583,606,579,606,583
+msgid "Revert link"
+msgstr "Обратная ссылка"
+
+#: modules/node.views.inc:549,607,549,580,551,551,584,607,580,607,584
+msgid "Provide a simple link to revert to the revision."
+msgstr ""
+"Предоставить ссылку на возврат "
+"версии."
+
+#: modules/node.views.inc:615,588,615,588,615
+msgid "Provide a simple link to delete the node revision."
+msgstr ""
+"Предоставить ссылку на удаление "
+"версии материала."
+
+#: modules/node.views.inc:670,643,670,643,670,670,643,670,643,670,670,643,670,643,670
+msgid "Show a marker if the node has new or updated content."
+msgstr "Изменился ли материал, или он новый."
+
+#: modules/node.views.inc:673,646,673,646,673
+msgid "Show only nodes that have new content."
+msgstr "Показывает только новые материалы."
+
+#: modules/profile.views.inc:107,106,107,104,104,104,106,106,106,104
+msgid "Profile textfield"
+msgstr "Текстовое поле профиля"
+
+#: modules/profile.views.inc:126,125,126,123,123,123,125,125,125,123
+msgid "Profile textarea"
+msgstr "textarea профиля"
+
+#: modules/profile.views.inc:142,141,142,139,139,139,141,141,141,139
+msgid "Profile checkbox"
+msgstr "Флажок профиля"
+
+#: modules/profile.views.inc:160,159,160,157,157,157,159,159,159,157
+msgid "Profile URL"
+msgstr "Ссылка в профиле"
+
+#: modules/profile.views.inc:176,175,176,173,173,173,175,175,175,173
+msgid "Profile selection"
+msgstr "Выбор профиля"
+
+#: modules/profile.views.inc:196,195,196,193,193,193,195,195,195,193
+msgid "Profile freeform list %field-name."
+msgstr ""
+
+#: modules/profile.views.inc:209,208,209,207,206,206,206,208,207,208,206
+msgid "Profile date %field-name."
+msgstr "Дата профиля %field-name."
+
+#: modules/taxonomy.views.inc:46,52,46,49,42,42,42,52,49,52,42
+msgid ""
+"Name of the vocabulary a term is a member of. This will be the "
+"vocabulary that whichever term the \"Taxonomy: Term\" field is; and "
+"can similarly cause duplicates."
+msgstr ""
+"Название словаря, в который входит "
+"термин. Будьте осторожны - значение "
+"может дублироваться."
+
+#: modules/taxonomy.views.inc:73,63,73,56,69,69,69,63,56,63,69
+msgid "The taxonomy vocabulary ID"
+msgstr "ID словаря Таксономии"
+
+#: modules/taxonomy.views.inc:102,84,102,70,116,116,116,84,70,84,116
+msgid "Taxonomy terms are attached to nodes."
+msgstr ""
+"Термины таксономии, связанные с "
+"материалом."
+
+#: modules/taxonomy.views.inc:196,158,196,144,221,221,221,158,144,158,221
+msgid "The term weight field"
+msgstr "Вес термина"
+
+#: modules/taxonomy.views.inc:212,174,212,157,240,240,240,174,157,174,240
+msgid "The description associated with a taxonomy term."
+msgstr "Описание термина Таксономии."
+
+#: modules/taxonomy.views.inc:63,67,225,189,63,67,225,169,59,63,253,59,63,253,59,63,253,189,169,189,59,63,253
+msgid "Filter the results of \"Taxonomy: Term\" to a particular vocabulary."
+msgstr ""
+"Фильтрует результаты \"Таксономия: "
+"Термин\" по определенному словарю."
+
+#: modules/taxonomy.views.inc:110,245,96,216,110,245,96,216,110,245
+msgid "The taxonomy term ID"
+msgstr "ID термина таксономии"
+
+#: modules/taxonomy.views.inc:380,350,380,350,380
+msgid "Term synonym"
+msgstr "Синоним термина"
+
+#: modules/user.views.inc:27,27,24,24,24,27,27,27,24
+msgid "Users who have created accounts on your site."
+msgstr ""
+"Пользователи, у которых есть учетная "
+"запись на этом сайте."
+
+#: modules/user.views.inc:197,168,197,159,204,204,204,168,159,168,204
+msgid "The date the user was created."
+msgstr ""
+"Дата заведения учетной записи "
+"пользователя."
+
+#: modules/user.views.inc:268,238,268,175,275,275,275,238,175,238,275
+msgid "The user's last access date."
+msgstr "Дата последнего доступа пользователя."
+
+#: modules/user.views.inc:284,254,284,191,291,291,291,254,191,254,291
+msgid "The user's last login date."
+msgstr ""
+"Дата последнего захода пользователя "
+"на сайт."
+
+#: modules/user.views.inc:300,270,300,207,307,307,307,270,207,270,307
+msgid "Whether a user is active or blocked."
+msgstr ""
+"Активен пользователь или "
+"заблокирован."
+
+#: modules/user.views.inc:322,289,322,226,329,329,329,289,226,289,329
+msgid "The user's signature."
+msgstr "Подпись пользователя."
+
+#: modules/user.views.inc:336,303,336,239,343,343,343,303,239,303,343
+msgid "Provide a simple link to edit the user."
+msgstr ""
+"Прямая ссылка для редактирования "
+"профиля пользователя."
+
+#: modules/user.views.inc:311,247,311,247,311
+msgid "Provide a simple link to delete the user."
+msgstr ""
+"Прямая ссылка для удаления профиля "
+"пользователя."
+
+#: modules/aggregator.views.inc:354,354,348,348,348,354,354,354,348
+msgid "Category ID"
+msgstr "ID категории"
+
+#: modules/book.views.inc:56,56,53,53,53,56,56,56,53
+msgid "The weight of the book page."
+msgstr "Вес страницы подшивки."
+
+#: modules/book.views.inc:68,68,65,65,65,68,68,68,65
+msgid ""
+"The depth of the book page in the hierarchy; top level books have a "
+"depth of 1."
+msgstr ""
+"Глубина книжных страниц в иерархии; "
+"верхний уровень подшивки имеет "
+"глубину 1."
+
+#: modules/comment.views.inc:29,26,29,25,25,25,26,26,26,25
+msgid "Comments are responses to node content."
+msgstr "Комментарии к материалу."
+
+#: modules/system.views.inc:31,30,31,26,26,26,30,30,30,26
+msgid "Files maintained by Drupal and various modules."
+msgstr ""
+"Файлы поддерживаются Drupal и различными "
+"модулями."
+
+#: modules/system.views.inc:46,49,46,36,36,36,49,49,49,36
+msgid "The ID of the file."
+msgstr "ID файла."
+
+#: modules/system.views.inc:67,71,67,69,57,57,57,71,69,71,57
+msgid "The name of the file."
+msgstr "Имя файла."
+
+#: modules/system.views.inc:86,90,86,88,76,76,76,90,88,90,76
+msgid "The path of the file."
+msgstr "Путь к файлу."
+
+#: modules/system.views.inc:105,109,105,107,95,95,95,109,107,109,95
+msgid "The mime type of the file."
+msgstr "MIME-тип файла."
+
+#: modules/system.views.inc:135,139,135,126,125,125,125,139,126,139,125
+msgid "The size of the file."
+msgstr "Размер файла."
+
+#: modules/system.views.inc:166,170,166,157,156,156,156,170,157,170,156
+msgid "Upload date"
+msgstr "Дата загрузки"
+
+#: modules/system.views.inc:167,171,167,158,157,157,157,171,158,171,157
+msgid "The date the file was uploaded."
+msgstr "Дата загрузки файла."
+
+#: modules/system.views.inc:562,342,562,215,569,569,569,342,215,342,569
+msgid "Temporary"
+msgstr "Временный"
+
+#: modules/system.views.inc:563,343,563,216,570,570,570,343,216,343,570
+msgid "Permanent"
+msgstr "Постоянный"
+
+#: modules/user.views.inc:169,149,169,140,176,176,176,149,140,149,176
+msgid "The user's picture, if allowed."
+msgstr "Картинка пользователя, если доступно."
+
+#: modules/user.views.inc:384,349,384,277,391,391,391,349,277,349,391
+msgid "Roles that a user belongs to."
+msgstr "Роли пользователя."
+
+#: modules/views.views.inc:25,24,25,22,22,22,24,24,24,22
+msgid "Randomize the display order."
+msgstr "Отображать в случайном порядке."
+
+#: modules/comment.views.inc:276,259,276,205,294,294,294,259,205,259,294
+msgid "View link"
+msgstr "Ссылка \"Прочитать\""
+
+#: modules/comment.views.inc:277,260,277,206,295,295,295,260,206,260,295
+msgid "Provide a simple link to view the comment."
+msgstr "Прямая ссылка на комментарий"
+
+#: modules/comment.views.inc:286,269,286,215,304,304,304,269,215,269,304
+msgid "Provide a simple link to edit the comment."
+msgstr ""
+"Прямая ссылка для изменения "
+"комментария."
+
+#: modules/comment.views.inc:295,278,295,224,313,313,313,278,224,278,313,295,278,295,224,313,313,313,278,224,278,313
+msgid "Provide a simple link to delete the comment."
+msgstr ""
+"Прямая ссылка на удаление "
+"комментария."
+
+#: modules/comment.views.inc:313,286,313,232,331,331,331,286,232,286,331
+msgid "Reply-to link"
+msgstr "Ссылка \"Ответить на\""
+
+#: modules/comment.views.inc:314,287,314,233,332,332,332,287,233,287,332
+msgid "Provide a simple link to reply to the comment."
+msgstr ""
+"Прямая ссылка для ответа на "
+"комментарий."
+
+#: modules/comment.views.inc:327,300,327,246,345,345,345,300,246,300,345
+msgid ""
+"Sort by the threaded order. This will keep child comments together "
+"with their parents."
+msgstr ""
+"Сортировать в порядке ветки "
+"обсуждения. Будет располагать "
+"дочерние комментарии рядом с их "
+"родителями."
+
+#: modules/comment.views.inc:377,349,377,274,395,395,395,349,274,349,395
+msgid "Parent CID"
+msgstr "Родительский CID"
+
+#: modules/search.views.inc:120,118,120,116,116,116,118,118,118,116
+msgid "Search Terms"
+msgstr "Условия поиска"
+
+#: modules/search.views.inc:121,119,121,117,117,117,119,119,119,117
+msgid "The terms to search for."
+msgstr "Условия поиска"
+
+#: modules/search.views.inc:147,169,147,163,143,143,143,169,163,169,143
+msgid "Display the results with standard search view."
+msgstr ""
+"Показывать результаты в стандартном "
+"представлении."
+
+#: modules/system.views.inc:151,155,151,142,141,141,141,155,142,155,141
+msgid "The status of the file."
+msgstr "Состояние файла."
+
+#: modules/upload.views.inc:114,114,114
+msgid "All files attached to a node with upload.module."
+msgstr ""
+"Все файлы, присоединенные к материалу "
+"при помощи модуля upload."
+
+#: modules/upload.views.inc:124,123,124,123
+msgid ""
+"Only display items with attached files. This can cause duplicates if "
+"there are multiple attached files."
+msgstr ""
+"Показывать только элементы с "
+"прикрепленными файлами. Может "
+"привести к дублированию, если к одному "
+"элементу прикреплено несколько "
+"файлов."
+
+#: modules/upload.views.inc:56,56,56
+msgid "The description of the uploaded file."
+msgstr "Описание загруженного файла."
+
+#: modules/upload.views.inc:73,73,73
+msgid "Listed"
+msgstr "Включен в список"
+
+#: modules/upload.views.inc:74,74,74
+msgid "Whether or not the file is marked to be listed."
+msgstr "Будет ли файл помечен или нет в списке."
+
+#: modules/upload.views.inc:91,91,91
+msgid "The weight, used for sorting."
+msgstr "Вес, используется для сортировки."
+
+#: modules/user.views.inc:98,79,98,70,105,105,105,79,70,79,105
+msgid "Filter the view to the currently logged in user."
+msgstr ""
+"Фильтрует представление по текущему "
+"пользователю."
+
+#: modules/user.views.inc:398,362,398,289,405,405,405,363,290,363,405
+msgid "No role"
+msgstr "Нет роли"
+
+#: modules/comment.views.inc:63,63,63,63
+msgid "The text of the comment."
+msgstr "Текст комментария."
+
+#: modules/comment.views.inc:322,295,322,241,340,340,340,295,241,295,340,322,295,322,241,340,340,340,295,241,295,340
+msgid "Display the depth of the comment if it is threaded."
+msgstr ""
+"Показывает глубину комментария, если "
+"доступно."
+
+#: modules/comment.views.inc:378,350,378,275,396,396,396,350,275,350,396
+msgid "The Comment ID of the parent comment."
+msgstr "ID родительского комментария."
+
+#: modules/node.views.inc:185,190,181,186,185,190,169,174,169,174,169,174,181,186,181,186,181,186,169,174
+msgid "Published or admin"
+msgstr "Опубликован или админ"
+
+#: modules/node.views.inc:182,182,182,182
+msgid "Filters out unpublished nodes if the current user cannot view them."
+msgstr ""
+"Отсекает неопубликованные материалы, "
+"если пользователь не может их видеть."
+
+#: modules/node.views.inc:735,904,735,868,737,737,770,904,868,904,770
+msgid ""
+"Display %display has no access control but does not contain a filter "
+"for published nodes."
+msgstr ""
+"У отображения %display нет контроля "
+"доступа, а также не содержит фильтра "
+"для опубликованных материалов."
+
+#: modules/comment.views.inc:410,382,410,307,428,428,428,382,307,382,428
+msgid "Last comment time"
+msgstr "Время последнего комментария"
+
+#: modules/comment.views.inc:426,495,499,398,449,453,426,495,499,323,444,513,517,444,513,517,444,513,517,398,449,453,323,398,449,453,444,513,517
+msgid "Last comment author"
+msgstr "Автор последнего комментария"
+
+#: modules/comment.views.inc:460,430,460,355,478,478,478,430,355,430,478
+msgid "Updated/commented date"
+msgstr "Дата обновления/комментирования"
+
+#: modules/comment.views.inc:461,431,461,356,479,479,479,431,356,431,479
+msgid "The most recent of last comment posted or node updated time."
+msgstr ""
+"Позднейшая из двух дат - даты "
+"последнего комментирования и даты "
+"обновления материала."
+
+#: modules/comment.views.inc:523,477,523,380,541,541,541,477,380,477,541
+msgid "The number of new comments on the node."
+msgstr ""
+"Количество новых комментариев к "
+"материалу."
+
+#: modules/comment.views_default.inc:274,274,274,274,274,274
+msgid " new"
+msgstr " новый"
+
+#: modules/comment.views_default.inc:276,276,276,276,276,276
+msgid "Recent posts for %1"
+msgstr "Последние публикации для %1"
+
+#: modules/search.views_default.inc:110,110,110,110,110,110
+msgid "Pages that link to %1"
+msgstr "Страница, которая ссылается на %1"
+
+#: modules/search.views_default.inc:108,108,108,108,108,108
+msgid "No backlinks found."
+msgstr "Не найдено обратных ссылок."
+
+#: modules/comment.views.inc:253,253
+msgid "The node the comment is a reply to."
+msgstr ""
+"Материал, на который оставлен "
+"комментарий."
+
+#: modules/comment.views.inc:383,388,355,360,383,388,280,285,401,406,401,406,401,406,355,360,280,285,355,360,401,406
+msgid "Parent comment"
+msgstr "Родительский комментарий"
+
+#: modules/comment.views.inc:540,494,540,396,558,558,558,494,396,494,558
+msgid "Comment status"
+msgstr "Разрешение комментировать"
+
+#: modules/comment.views.inc:607,547,607,449,625,625,625,547,449,547,625
+msgid "Display the comment as RSS."
+msgstr "Показывать комментарии как RSS."
+
+#: modules/upload.views.inc:128,127,128,127
+msgid ""
+"Add a relationship to gain access to more file data for files uploaded "
+"by upload.module. Note that this relationship will cause duplicate "
+"nodes if there are multiple files attached to the node."
+msgstr ""
+
+#: modules/views.views.inc:61,61,61,61,61,61,61,61,61,61,61,61
+msgid "Unfiltered text"
+msgstr "Нефильтрованный текст"
+
+#: modules/search.views.inc:90,88,90,86,86,86,88,88,88,86
+msgid "Links from"
+msgstr "Ссылка от"
+
+#: modules/search.views.inc:108,106,108,104,104,104,106,106,106,104
+msgid "Links to"
+msgstr "Ссылка на"
+
+#: modules/statistics.views_default.inc:237,237,237,237,237,237
+msgid "Popular (page)"
+msgstr "Популярное (страница)"
+
+#: modules/statistics.views_default.inc:238,238,238,238,238,238
+msgid "Today (page)"
+msgstr "Сегодня (страница)"
+
+#: modules/statistics.views_default.inc:246,246,246,246,246,246
+msgid "Today's popular content"
+msgstr "Популярное содержание"
+
+#: modules/statistics.views_default.inc:242,242,242,242,242,242
+msgid "Popular (block)"
+msgstr "Популярное (блок)"
+
+#: modules/statistics.views_default.inc:245,245,245,245,245,245
+msgid "Today (block)"
+msgstr "Сегодня (блок)"
+
+#: modules/taxonomy.views.inc:381,351,381,351,381
+msgid "Term synonyms may be used to find terms by alternate names."
+msgstr ""
+"Синонимы термина можно использовать, "
+"чтобы найти его по альтернативным "
+"названиям."
+
+#: modules/taxonomy.views.inc:408,378,408,378,408
+msgid "Term ID (with depth)"
+msgstr "ID Термина (с глубиной)"
+
+#: modules/taxonomy.views.inc:409,379,409,379,409
+msgid "The depth filter is more complex, so provides fewer options."
+msgstr ""
+"Фильтр глубину более сложный, и "
+"предоставляет несколько настроек."
+
+#: modules/taxonomy.views.inc:422,392,422,392,422
+msgid "Term ID depth modifier"
+msgstr "Глубина ID термина"
+
+#: modules/taxonomy.views.inc:423,393,423,393,423
+msgid ""
+"Allows the \"depth\" for Taxonomy: Term ID (with depth) to be modified "
+"via an additional argument."
+msgstr ""
+
+#: modules/views.views.inc:32,31,32,29,29,29,31,31,31,29
+msgid "Null"
+msgstr "Ноль"
+
+#: modules/views.views.inc:32,32,32,32
+msgid ""
+"Allow an argument to be ignored. The query will not be altered by this "
+"argument."
+msgstr ""
+"Позволяет игнорировать аргумент. "
+"Запрос не будет изменять этот "
+"аргумент."
+
+#: modules/comment.views.inc:596,536,596,438,614,614,614,536,438,536,614
+msgid "Display the comment with standard comment view."
+msgstr ""
+
+#: modules/comment.views_default.inc:118,118,118,118,118,118
+msgid "Reply to"
+msgstr "Ответить"
+
+#: modules/node.views.inc:448,421,448,421,448
+msgid "Relate a node revision to the user who created the revision."
+msgstr ""
+"Пользователь, который создал редакцию "
+"материала."
+
+#: modules/node.views.inc:824,791,824,791,824
+msgid "Node ID from URL"
+msgstr "ID материала из URL"
+
+#: modules/user.views.inc:542,464,542,391,549,549,549,465,392,465,549
+msgid "User ID from URL"
+msgstr "ID пользователя из URL"
+
+#: modules/comment.views.inc:541,495,541,397,559,559,559,495,397,495,559
+msgid "Whether comments are enabled or disabled on the node."
+msgstr "Разрешено ли комментировать материал."
+
+#: modules/comment.views.inc:67,76,67,63,63,63,76,76,76,63
+msgid "The comment ID of the field"
+msgstr "ID комментария"
+
+#: modules/taxonomy.views.inc:135,121,135,121,135
+msgid ""
+"Taxonomy terms. Note that using this can cause duplicate nodes to "
+"appear in views; you must add filters to reduce the result set."
+msgstr ""
+"Термины таксономи. Использование "
+"этого поля может вызвать дублирование "
+"материалов в представлении; добавьте "
+"в начале фильтры для уменьшения "
+"объема выборки."
+
+#: modules/node.views.inc:625,598,625,598,625
+msgid "Node access"
+msgstr "Доступ к материалу"
+
+#: modules/book.views.inc:30,30,27,27,27,30,30,30,27
+msgid "The book the node is in."
+msgstr ""
+"Подшивка(книга), в которой находится "
+"материал."
+
+#: modules/book.views.inc:109,109,106,106,106,109,109,109,106
+msgid "The parent book node."
+msgstr "Родительский материал подшивки."
+
+#: modules/comment.views.inc:384,356,384,281,402,402,402,356,281,356,402
+msgid "The parent comment."
+msgstr "Родительский комментарий."
+
+#: modules/upload.views.inc:43,43,43
+msgid "The node the uploaded file is attached to"
+msgstr ""
+"Прикреплённый к материалу файл вложен "
+"в"
+
+#: modules/node.views.inc:325,379,325,379
+msgid "In the form of DD (01 - 31)."
+msgstr "В формате ДД (01 - 31)."
+
+#: modules/field.views.inc:345,384,345,384,419,458,419,458
+msgid "<No value>"
+msgstr "<Нет значения>"
+
+#: modules/taxonomy.views.inc:183,187,145,149,183,187,131,135,208,212,208,212,208,212,145,149,131,135,145,149,208,212
+msgid "Taxonomy term name."
+msgstr "Название термина таксономии."
+
+#: modules/taxonomy.views.inc:329,344,329,314,357,357,357,344,314,344,357
+msgid ""
+"The parent term of the term. This can produce duplicate entries if you "
+"are using a vocabulary that allows multiple parents."
+msgstr ""
+
+#: modules/taxonomy.views.inc:358,248,358,219,390,390,390,248,219,248,390
+msgid ""
+"Display all taxonomy terms associated with a node from specified "
+"vocabularies."
+msgstr ""
+"Отобразить все термины таксономии, "
+"связанные с материалов из указанных "
+"словарей."
+
+#: modules/translation.views.inc:108,30,50,82,99,109,119,138,108,47,79,96,106,116,135,83,83,83,30,50,82,99,109,119,138,30,47,79,96,106,116,135,30,50,82,99,109,119,138,83
+msgid "Node translation"
+msgstr "Перевод материала"
+
+#: modules/translation.views.inc:51,51,48,26,26,26,51,48,51,26
+msgid "Translation set node ID"
+msgstr ""
+
+#: modules/translation.views.inc:52,52,49,27,27,27,52,49,52,27
+msgid "The ID of the translation set the content belongs to."
+msgstr ""
+
+#: modules/translation.views.inc:70,75,99,71,76,100,70,75,99,68,73,97,45,50,74,45,50,74,45,50,74,71,76,100,68,73,97,71,76,100,45,50,74
+msgid "Source translation"
+msgstr "Источник перевода"
+
+#: modules/translation.views.inc:71,72,71,69,46,46,46,72,69,72,46
+msgid "The source that this content was translated from."
+msgstr ""
+
+#: modules/translation.views.inc:83,86,84,87,83,86,81,58,61,58,61,58,61,84,87,81,84,84,87,58,61
+msgid "Versions of content in different languages."
+msgstr "Версии содержимого на других языках."
+
+#: modules/translation.views.inc:121,118,121,118,121
+msgid ""
+"The translation status of the node--whether or not the translation "
+"needs to be updated."
+msgstr ""
+"Статус перевода материала: требуется "
+"или не требуется обновление перевода."
+
+#: modules/user.views.inc:547,470,547,397,554,554,554,471,398,471,554
+msgid "User ID from logged in user"
+msgstr "ID авторизованного пользователя"
+
+#: modules/comment.views.inc:86,95,86,82,82,82,95,95,95,82
+msgid ""
+"The name of the comment's author. Can be rendered as a link to the "
+"author's homepage."
+msgstr ""
+"Имя автора комментария. Может быть "
+"показано как ссылка на домашнюю "
+"страницу автора."
+
+#: modules/comment.views.inc:105,114,105,101,101,101,114,114,114,101
+msgid ""
+"The website address of the comment's author. Can be rendered as a "
+"link. Will be empty if the author is a registered user."
+msgstr ""
+"Адрес сайта автора комментария. Может "
+"быть показан как ссылка. Будет пустым, "
+"если автор зарегистрированный "
+"пользователь."
+
+#: modules/comment.views.inc:359,329,359,264,377,377,377,329,264,329,377
+msgid "The User ID of the comment's author."
+msgstr ""
+"ID пользователя оставившего "
+"комментарий."
+
+#: modules/node.views.inc:193,193,193,193
+msgid "Whether or not the node is promoted to the front page."
+msgstr ""
+"Отображается материал на главной "
+"странице или нет."
+
+#: modules/search.views.inc:91,89,91,87,87,87,89,89,89,87
+msgid "Other nodes that are linked from the node."
+msgstr ""
+"Другие материалы, на которые "
+"ссылается этот."
+
+#: modules/search.views.inc:109,107,109,105,105,105,107,107,107,105
+msgid "Other nodes that link to the node."
+msgstr "Другие материалы, ссылающиеся на этот."
+
+#: modules/translation.views.inc:101,98,101,98,101
+msgid ""
+"Nodes that are either untranslated or are the original versions of a "
+"translation set."
+msgstr ""
+
+#: modules/translation.views.inc:109,110,109,107,84,84,84,110,107,110,84
+msgid "Child translation"
+msgstr "Перевод потомка"
+
+#: modules/translation.views.inc:111,108,111,108,111
+msgid "Nodes that are translations of a source translation."
+msgstr ""
+
+#: modules/user.views.inc:130,111,130,102,137,137,137,111,102,111,137
+msgid ""
+"Email address for a given user. This field is normally not shown to "
+"users, so be cautious when using it."
+msgstr ""
+"E-mail пользователя. Обычно это поле не "
+"показывается пользователям, так что "
+"будьте осторожны при его "
+"использовании."
+
+#: modules/user.views.inc:180,160,180,151,187,187,187,160,151,160,187
+msgid "Has Avatar"
+msgstr "Имеет аватар"
+
+#: modules/field.views.inc:283,319,283,319,279,315,279,315,279,315,279,315
+msgid "@label (!name)"
+msgstr "@label (!name)"
+
+#: modules/statistics.views.inc:23,23,19,19,19,19
+msgid "Content statistics"
+msgstr ""
+
+#: modules/aggregator.views.inc:31,31,25,25,25,31,31,31,25
+msgid "Aggregator items are imported from external RSS and Atom news feeds."
+msgstr ""
+"Элементы агрегатора импортированы с "
+"внешних RSS- и Atom- новостных лент"
+
+#: modules/aggregator.views.inc:85,85,79,79,79,85,85,85,79
+msgid "The title of the aggregator item."
+msgstr "Заголовок элемента агрегатора."
+
+#: modules/aggregator.views.inc:104,104,98,98,98,104,104,104,98
+msgid "The link to the original source URL of the item."
+msgstr "Ссылка на источник элемента."
+
+#: modules/aggregator.views.inc:121,121,115,115,115,121,121,121,115
+msgid "The author of the original imported item."
+msgstr ""
+"Автор оригинального импортированного "
+"элемента."
+
+#: modules/aggregator.views.inc:163,163,157,157,157,163,163,163,157
+msgid "The actual content of the imported item."
+msgstr ""
+"Актуальное содержимое "
+"импортированного элемента."
+
+#: modules/aggregator.views.inc:178,178,172,172,172,178,178,178,172
+msgid ""
+"The date the original feed item was posted. (With some feeds, this "
+"will be the date it was imported.)"
+msgstr ""
+"Дата, когда оригинальный элемент "
+"RSS-ленты был опубликован. (Для "
+"некоторых лент это будет дата, когда "
+"он был импортирован)"
+
+#: modules/aggregator.views.inc:212,212,206,206,206,212,212,212,206
+msgid "Feed ID"
+msgstr "ID ленты"
+
+#: modules/aggregator.views.inc:213,213,207,207,207,213,213,213,207
+msgid "The unique ID of the aggregator feed."
+msgstr "Уникальный ID агрегатора RSS-ленты."
+
+#: modules/aggregator.views.inc:238,238,232,232,232,238,238,238,232
+msgid "The title of the aggregator feed."
+msgstr "Заголовок агрегатора RSS-ленты."
+
+#: modules/aggregator.views.inc:257,257,254,254,254,257,257,257,254
+msgid "The link to the source URL of the feed."
+msgstr "Ссылка на URL источника RSS-ленты"
+
+#: modules/aggregator.views.inc:275,275,271,271,271,275,275,275,271
+msgid "The date the feed was last checked for new content."
+msgstr ""
+"Дата последней проверки ленты на "
+"обновления."
+
+#: modules/aggregator.views.inc:296,296,291,291,291,296,296,296,291
+msgid "The description of the aggregator feed."
+msgstr "Описание ленты агрегатора"
+
+#: modules/aggregator.views.inc:311,311
+msgid "The date of the most recent new content onf the feed."
+msgstr ""
+"Дата последнего нового материала в "
+"ленте."
+
+#: modules/aggregator.views.inc:401,442,401,395,395,395,442,442,442,395
+msgid "Display the aggregator item using the data from the original source."
+msgstr ""
+
+#: modules/translation.views.inc:127,128,127,125,102,102,102,128,125,128,102
+msgid "Outdated"
+msgstr "Устаревший"
+
+#: modules/system.views.inc:369,375,376,369,375,376,359,365,366,359,365,366,359,365,366,359,365,366
+msgid "Taxonomy Vocabulary"
+msgstr "Словарь Таксономии"
+
+#: modules/views.views.inc:40,39,40,37,37,37,39,39,39,37
+msgid "Custom text"
+msgstr "Пользовательский текст"
+
+#: modules/views.views.inc:41,40,41,38,38,38,40,40,40,38
+msgid "Provide custom text or link."
+msgstr "Снабжать текстом или ссылкой."
+
+#: modules/views_user.inc:37,38
+msgid "User: E-mail"
+msgstr "Пользоаватель: E-mail"
+
+#: modules/views_user.inc:39,40
+msgid ""
+"Display the user's email address. Beware that this should only be "
+"shown to administrators in a normal Drupal installation. Further, no "
+"attempt is made to obfuscate the email address."
+msgstr ""
+"Показать адреса электронной почты "
+"пользователей. Помните, что это должно "
+"быть показано только администраторам "
+"в обычной установке Drupal. Более того, не "
+"предпринимается никаких попыток, "
+"чтобы скрыть адреса электронной "
+"почты."
+
+#: modules/locale.views.inc:22,27,54,74,91,104,120,22,27,54,74,91,104,120,17,22,49,69,86,99,115,17,22,49,69,86,99,115,17,22,49,69,86,99,115,22,27,54,74,91,104,120,22,27,54,74,91,104,120,27,54,74,91,104,120,17,22,49,69,86,99,115
+msgid "Locale source"
+msgstr "Исходная локаль"
+
+#: modules/locale.views.inc:28,28,23,23,23,28,28,28,23
+msgid ""
+"A source string for translation, in English or the default site "
+"language."
+msgstr ""
+"Исходные строки для перевода на "
+"английском или на языке сайта по "
+"умолчанию."
+
+#: modules/locale.views.inc:33,33,28,28,28,33,33,33,28
+msgid "LID"
+msgstr "LID"
+
+#: modules/locale.views.inc:34,34,29,29,29,34,34,34,29
+msgid "The ID of the source string."
+msgstr "ID исходной строки."
+
+#: modules/locale.views.inc:56,56,51,51,51,56,56,56,51
+msgid "A description of the location or context of the string."
+msgstr ""
+
+#: modules/locale.views.inc:76,76,71,71,71,76,76,76,71
+msgid "The group the translation is in."
+msgstr ""
+
+#: modules/locale.views.inc:93,93,88,88,88,93,93,93,88
+msgid "The full original string."
+msgstr "Полная оригинальная строка."
+
+#: modules/locale.views.inc:106,106,101,101,101,106,106,106,101
+msgid "The version of Drupal core that this string is for."
+msgstr ""
+"Версия ядра Drupal для которой эта "
+"строка."
+
+#: modules/locale.views.inc:123,123,118,118,118,123,123,123,118
+msgid "Provide a simple link to edit the translations."
+msgstr "Ссылка на редактирование перевода."
+
+#: modules/locale.views.inc:133,145,158,174,184,133,145,158,174,184,128,140,153,169,179,128,140,153,169,179,128,140,153,169,179,133,145,158,174,184,133,145,158,174,184,133,145,158,174,184,128,140,153,169,179
+msgid "Locale target"
+msgstr "Локальная цель"
+
+#: modules/locale.views.inc:147,147,142,142,142,147,147,147,142
+msgid "The full translation string."
+msgstr "Полный перевод строки."
+
+#: modules/locale.views.inc:160,160,155,155,155,160,160,160,155
+msgid "The language this translation is in."
+msgstr ""
+
+#: modules/locale.views.inc:175,175,170,170,170,175,175,175,170
+msgid "Singular LID"
+msgstr ""
+
+#: modules/locale.views.inc:176,176,171,171,171,176,176,176,171
+msgid "The ID of the parent translation."
+msgstr "ID родительского перевода."
+
+#: modules/locale.views.inc:186,186,181,181,181,186,186,186,181
+msgid "Whether or not the translation is plural."
+msgstr ""
+
+#: modules/search.views.inc:68,68,64,64,64,68,68,68,64
+msgid ""
+"The score of the search item. This will not be used if the search "
+"filter is not also present."
+msgstr ""
+
+#: modules/comment.views.inc:532,486,532,388,550,550,550,486,388,486,550
+msgid "Add comment link"
+msgstr "Добавить ссылку на комментарий"
+
+#: modules/node.views.inc:62,62,46,46,46,46
+msgid "The node ID."
+msgstr "ID материала"
+
+#: modules/contact.views.inc:10,10,16,16,16,10,10,10,16
+msgid "Link to contact page"
+msgstr "Ссылка на страницу контактов"
+
+#: modules/contact.views.inc:11,11,17,17,17,11,11,11,17
+msgid "Provide a simple link to the user contact page."
+msgstr ""
+"Ссылка на страницу с персональной "
+"формой контактов пользователя."
+
+#: modules/node.views.inc:344,354,344,351,330,330,330,354,351,354,330
+msgid "Updated year + month"
+msgstr "Обновленный год + месяц"
+
+#: modules/node.views.inc:353,363,353,360,339,339,339,363,360,363,339
+msgid "Updated year"
+msgstr "Обновленный год"
+
+#: modules/node.views.inc:362,372,362,369,348,348,348,372,369,372,348
+msgid "Updated month"
+msgstr "Обновленный месяц"
+
+#: modules/node.views.inc:371,381,371,378,357,357,357,381,378,381,357
+msgid "Updated day"
+msgstr "Обновленный день"
+
+#: modules/node.views.inc:380,390,380,387,366,366,366,390,387,390,366
+msgid "Updated week"
+msgstr "Обновленная неделя"
+
+#: modules/aggregator.views.inc:355,355,349,349,349,355,355,355,349
+msgid "The unique ID of the aggregator category."
+msgstr "Уникальный ID категории агрегатора."
+
+#: modules/aggregator.views.inc:376,376,370,370,370,376,376,376,370
+msgid "The title of the aggregator category."
+msgstr "Заголовок категории агрегатора."
+
+#: modules/node.views.inc:580,638,580,611,582,582,615,638,611,638,615
+msgid "Filter by access."
+msgstr "Фильтр по доступу."
+
+#: modules/node.views.inc:641,614,641,614,641
+msgid ""
+"Filter for nodes by view access. <strong>Not necessary if you are "
+"using node as your base table.</strong>"
+msgstr ""
+
+#: modules/taxonomy.views.inc:336,351,336,321,368,368,368,351,321,351,368
+msgid "The parent term of the term."
+msgstr "Родительский термин термина."
+
+#: modules/user.views.inc:149,130,149,121,156,156,156,130,121,130,156
+msgid "Language of the user"
+msgstr "Язык пользователя"
+
+#: modules/views.views.inc:48,47,48,45,45,45,47,47,47,45
+msgid "View result counter"
+msgstr "Счетчик результатов"
+
+#: modules/views.views.inc:49,48,49,46,46,46,48,48,48,46
+msgid "Displays the actual position of the view result"
+msgstr ""
+"Показывать актуальную позицию в "
+"представлении."
+
+#: modules/node.views.inc:573,546,573,546,573
+msgid "Input format id"
+msgstr "ID формата ввода"
+
+#: modules/node.views.inc:574,547,574,547,574
+msgid ""
+"The numeric input format of the node revision. !default means the "
+"default input format."
+msgstr ""
+
+#: modules/node.views.inc:597,570,597,570,597
+msgid "The name of the input format of the node revision."
+msgstr ""
+"Наименование формата ввода для "
+"редакций материала"
+
+#: modules/taxonomy.views.inc:350,398,350,368,382,382,382,398,368,398,382
+msgid ""
+"Relate nodes to taxonomy terms, specifiying which vocabulary or "
+"vocabularies to use. This relationship will cause duplicated records "
+"if there are multiple terms."
+msgstr ""
+
+#: modules/node.views.inc:401,401,401
+msgid "Relate a node to the user who created it."
+msgstr ""
+"Связывать материал с пользователем, "
+"создавшим его."
+
+#: modules/node.views.inc:460,453,460,454,454,454,453,453,454
+msgid "revision user"
+msgstr "редакция пользователя"
+
+#: modules/user.views.inc:65,65,65
+msgid "Nodes authored"
+msgstr "Автор материала"
+
+#: modules/user.views.inc:66,66,66
+msgid ""
+"Relate nodes to the user who created it. This relationship will create "
+"one record for every node created by the user."
+msgstr ""
+
+#: modules/statistics.views.inc:108,108,104,104,104,108,108,104
+msgid "Aid"
+msgstr ""
+
+#: modules/node.views_template.inc:126,126,128,128,128,128
+msgid "Gallery page"
+msgstr "Страница галереи"
+
+#: modules/comment.views.inc:124,133,124,120,120,120,133,133,133,120
+msgid "Hostname of user that posted the comment."
+msgstr ""
+"Имя хоста, с которого пользователь "
+"оставил комментарий."
+
+#: modules/comment.views.inc:143,152,143,139,139,139,152,152,152,139
+msgid ""
+"Email of user that posted the comment. Will be empty if the author is "
+"a registered user."
+msgstr ""
+"E-mail пользователя, который написал "
+"комментарий. Будет пустым, если "
+"автором является зарегистрированный "
+"пользователь."
+
+#: modules/comment.views.inc:162,162,158,158,158,158
+msgid "Date and time of when the comment was created."
+msgstr ""
+"Дата и время, когда комментарий был "
+"создан."
+
+#: modules/comment.views.inc:179,179,197,197,197,197
+msgid "Date and time of when the comment was last updated."
+msgstr ""
+"Дата и время, когда комментарий был "
+"обновлён."
+
+#: modules/taxonomy.views.inc:58,58,54,54,54,54
+msgid ""
+"Machine-Name of the vocabulary a term is a member of. This will be the "
+"vocabulary that whichever term the \"Taxonomy: Term\" field is; and "
+"can similarly cause duplicates."
+msgstr ""
+
+#: modules/node.views_default.inc:83,83,83,83,83,83
+msgid "Monthly archive"
+msgstr "Месячный архив"
+
+#: modules/book.views.inc:86,86,83,83,83,86,86,86,83
+msgid "The order of pages in the book hierarchy."
+msgstr "Порядок страниц в иерархии подшивки."
+
+#: modules/comment.views.inc:533,487,533,389,551,551,551,487,389,487,551
+msgid ""
+"Display the standard add comment link used on regular nodes, which "
+"will only display if the viewing user has access to add a comment."
+msgstr ""
+
+#: modules/node.views.inc:249,246,249,246,249
+msgid ""
+"Whether or not the node is sticky. To list sticky nodes first, set "
+"this to descending."
+msgstr ""
+
+#: modules/taxonomy.views.inc:52,58,52,48,48,48,58,58,48
+msgid "The taxonomy vocabulary name"
+msgstr "Имя словаря таксономии"
+
+#: modules/user.views.inc:121,102,121,128,128,128,102,102,128
+msgid "Name (raw)"
+msgstr "Имя (сырое)"
+
+#: modules/user.views.inc:122,103,122,129,129,129,103,103,129
+msgid ""
+"The user or author name. This filter does not check if the user exists "
+"and allows partial matching. Does not utilize autocomplete."
+msgstr ""
+
+#: modules/views.views.inc:57,56,57,54,54,54,56,56,54
+msgid "Provide markup text for the area."
+msgstr ""
+
+#: modules/user.views.inc:507,440,507,367,514,514,514,441,368,441,514
+msgid "Authentication module"
+msgstr "Модуль авторизации"
+
+#: modules/taxonomy.views.inc:234,198,234,262,262,262,198,198,262
+msgid "Term edit link"
+msgstr "Ссылка на редактирование термина"
+
+#: modules/taxonomy.views.inc:235,199,235,263,263,263,199,199,263
+msgid "Provide a simple link to edit the term."
+msgstr ""
+"Прямая ссылка на редактирование "
+"термина"
+
+#: modules/field.views.inc:162,162,158,158,158,158
+msgid "@entity:@bundle"
+msgstr "@entity:@bundle"
+
+#: modules/node.views.inc:282,279,282,279,282
+msgid "The aliased path to this node."
+msgstr "Путь-синоним к этому материалу."
+
+#: modules/profile.views.inc:100,99,100,97,97,97,99,99,99,97
+msgid "@category: @field-name"
+msgstr "@category: @field-name"
+
+#: modules/taxonomy.views.inc:233,204,233,204,233
+msgid "Get all nodes tagged with a term."
+msgstr "Отметить термином все материалы"
+
+#: modules/node.views.inc:743,912,743,876,745,745,778,912,876,912,778
+msgid ""
+"Display %display has set node/% as path. This will not produce what "
+"you want. If you want to have multiple versions of the node view, use "
+"panels."
+msgstr ""
+
+#: modules/translation.views.inc:138,139,138,136,113,113,113,139,136,139,113
+msgid "Translate link"
+msgstr "Ссылка на перевод"
+
+#: modules/translation.views.inc:139,140,139,137,114,114,114,140,137,140,114
+msgid "Provide a simple link to translate the node."
+msgstr "Прямая ссылка на перевод материала."
+
+#: modules/taxonomy.views.inc:495,462,495,462,495
+msgid "Taxonomy Term ID from URL"
+msgstr "ID термина таксономии из URL"
+
+#: modules/user.views.inc:479,412,479,339,486,486,486,413,340,413,486
+msgid "Authmap ID"
+msgstr "Authmap ID"
+
+#: modules/user.views.inc:480,413,480,340,487,487,487,414,341,414,487
+msgid "The Authmap ID."
+msgstr "Authmap ID"
+
+#: modules/user.views.inc:494,427,494,354,501,501,501,428,355,428,501
+msgid "Authentication name"
+msgstr "Имя идентификации"
+
+#: modules/user.views.inc:495,428,495,355,502,502,502,429,356,429,502
+msgid "The unique authentication name."
+msgstr "Уникальное имя идентификации."
+
+#: modules/user.views.inc:508,441,508,368,515,515,515,442,369,442,515
+msgid "The name of the module managing the authentication entry."
+msgstr ""
+
+#: modules/taxonomy.views.inc:300,270,300,270,300
+msgid ""
+"The related terms of the term. This can produce duplicate entries if "
+"there is more than one related term."
+msgstr ""
+
+#: modules/taxonomy.views.inc:304,274,304,274,304
+msgid "Related term"
+msgstr "Связанные термины"
+
+#: modules/taxonomy.views.inc:307,277,307,277,307
+msgid "A related term of the term."
+msgstr "Связанный термин для термина."
+
+#: modules/comment.views.inc:477,477,495,495,495,495
+msgid "Last comment CID"
+msgstr "Последний комментарий CID"
+
+#: modules/comment.views.inc:478,478,496,496,496,496
+msgid "Display the last comment of a node"
+msgstr ""
+"Отображать последний комментарий "
+"материала"
+
+#: modules/comment.views.inc:480,486,480,486,498,504,498,504,498,504,498,504
+msgid "Last Comment"
+msgstr "Последний комментарий"
+
+#: modules/comment.views.inc:481,481,499,499,499,499
+msgid "The last comment of a node."
+msgstr "Последний комментарий материала"
+
+#: modules/views.views.inc:91,64,81,56,104,104,104,64,56,64,104
+msgid "Math expression"
+msgstr "Математическое выражение"
+
+#: modules/aggregator.views.inc:39,39,33,33,33,39,39,39,33
+msgid "Feed Item ID"
+msgstr "ID элемента ленты"
+
+#: modules/aggregator.views.inc:40,60,40,60,34,54,34,54,34,54,40,60,40,60,40,60,34,54
+msgid "The unique ID of the aggregator item."
+msgstr "Уникальный ID элемента агрегатора"
+
+#: modules/comment.views.inc:241,187,241,187,241
+msgid "Whether or not the comment is currently in the moderation queue."
+msgstr ""
+"Будет ли комментарий в данный момент в "
+"модераторской очереди."
+
+#: modules/node.views.inc:214,211,214,211,214
+msgid "Whether or not the node is currently in the moderation queue."
+msgstr ""
+"Будет ли материал в данный момент в "
+"модераторской очереди."
+
+#: modules/user.views.inc:93,93
+msgid "User raw name"
+msgstr "Сырое имя пользователя"
+
+#: modules/user.views.inc:94,94
+msgid ""
+"The user or author name. This filter do not check if the user exists. "
+"Only useful for string comparisons."
+msgstr ""
+"Имя пользователя или автора. Этот "
+"фильтр не проверяет, существует ли "
+"пользователь. Полезно только для "
+"сравнения строк."
+
+#: modules/tracker.views.inc:89,89
+msgid ""
+"The node ID of the node a user created or commented on. You must use "
+"an argument or filter on UID or you will get misleading results using "
+"this field."
+msgstr ""
+
+#: modules/tracker.views.inc:109,109
+msgid ""
+"The user ID of a user who touched the node (either created or "
+"commented on it)."
+msgstr ""
+
+#: modules/tracker.views.inc:128,128
+msgid ""
+"The date the node was last updated or commented on. You must use an "
+"argument or filter on UID or you will get misleading results using "
+"this field."
+msgstr ""
+
+#: modules/tracker.views.inc:142,142
+msgid ""
+"Whether or not the node is published. You must use an argument or "
+"filter on UID or you will get misleading results using this field."
+msgstr ""
+
+#: modules/system.views.inc:195,195,185,185,185,185
+msgid "File Usage"
+msgstr ""
+
+#: modules/system.views.inc:261,261,251,251,251,251
+msgid ""
+"A file that is associated with this node, usually because it is in a "
+"field on the node."
+msgstr ""
+
+#: modules/system.views.inc:277,277,267,267,267,267
+msgid ""
+"A user that is associated with this file, usually because this file is "
+"in a field on the user."
+msgstr ""
+
+#: modules/system.views.inc:292,292,282,282,282,282
+msgid ""
+"A file that is associated with this user, usually because it is in a "
+"field on the user."
+msgstr ""
+
+#: modules/system.views.inc:308,308,298,298,298,298
+msgid ""
+"A comment that is associated with this file, usually because this file "
+"is in a field on the comment."
+msgstr ""
+
+#: modules/system.views.inc:323,323,313,313,313,313
+msgid ""
+"A file that is associated with this comment, usually because it is in "
+"a field on the comment."
+msgstr ""
+
+#: modules/system.views.inc:339,339,329,329,329,329
+msgid ""
+"A taxonomy term that is associated with this file, usually because "
+"this file is in a field on the taxonomy term."
+msgstr ""
+
+#: modules/system.views.inc:354,354,344,344,344,344
+msgid ""
+"A file that is associated with this taxonomy term, usually because it "
+"is in a field on the taxonomy term."
+msgstr ""
+
+#: modules/system.views.inc:370,370,360,360,360,360
+msgid ""
+"A taxonomy vocabulary that is associated with this file, usually "
+"because this file is in a field on the taxonomy vocabulary."
+msgstr ""
+
+#: modules/system.views.inc:385,385,375,375,375,375
+msgid ""
+"A file that is associated with this taxonomy vocabulary, usually "
+"because it is in a field on the taxonomy vocabulary."
+msgstr ""
+
+#: modules/system.views.inc:402,402,392,392,392,392
+msgid "The module managing this file relationship."
+msgstr ""
+
+#: modules/system.views.inc:419,419,409,409,409,409
+msgid "The type of entity that is related to the file."
+msgstr ""
+
+#: modules/system.views.inc:436,436,443,443,443,443
+msgid "The number of times the file is used by this entity."
+msgstr ""
+
+#: modules/aggregator.views.inc:142,142,136,136,136,142,142,142,136
+msgid "The guid of the original imported item."
+msgstr ""
+
+#: modules/system.views.inc:124,128,124,114,114,114,128,128,114
+msgid "The extension of the file."
+msgstr "Расширение файла."
+
+#: modules/system.views.inc:187,174,187,174,187
+msgid "The user, who uploaded the file."
+msgstr "Пользователь, загрузивший файл."
+
+#: modules/system.views.inc:539,287,539,546,546,546,287,287,546
+msgid "Schema version"
+msgstr "Версии схемы"
+
+#: modules/views.views.inc:92,65,82,57,105,105,105,65,57,65,105
+msgid "Evaluates a mathematical expression and displays it."
+msgstr ""
+
+#: modules/node.views.inc:567,567,569,569,602,602
+msgid "Content access"
+msgstr ""
+
+#: modules/comment.views.inc:255,255,273,273,273,273
+msgid "Whether the comment is approved (or still in the moderation queue)."
+msgstr ""
+
+#: modules/comment.views.inc:265,265,283,283,283,283
+msgid "Approved comment"
+msgstr "Опубликованный комментарий"
+
+#: modules/taxonomy.views.inc:410,410,442,442,442,442
+msgid "term from !field_name"
+msgstr ""
+
+#: modules/node.views.inc:727,896,727,860,729,729,762,896,860,896,762
+msgid ""
+"Some roles lack permission to access content, but display %display has "
+"no access control."
+msgstr ""
+
+#: modules/node.views.inc:516,489,516,489,516
+msgid "Get the actual node from a node revision."
+msgstr ""
+
+#: modules/user.views.inc:344,344,351,351,351,351
+msgid "Provide a simple link to cancel the user."
+msgstr ""
+
+#: modules/comment.views.inc:304,304,322,322,322,322
+msgid "Approve link"
+msgstr ""
+
+#: modules/system.views.inc:456,204,456,463,463,463,204,204,463
+msgid "Module/Theme/Theme engine"
+msgstr ""
+
+#: modules/system.views.inc:457,205,457,464,464,464,205,205,464
+msgid "Modules/Themes/Theme engines in your codebase."
+msgstr ""
+
+#: modules/system.views.inc:463,211,463,470,470,470,211,211,470
+msgid "Module/Theme/Theme engine filename"
+msgstr ""
+
+#: modules/system.views.inc:482,230,482,489,489,489,230,230,489
+msgid "Module/Theme/Theme engine name"
+msgstr ""
+
+#: modules/user.views.inc:351,318,351,358,358,358,318,318,358
+msgid "Provide serialized data of the user"
+msgstr ""
+
+#: modules/comment.views.inc:337,310,337,355,355,355,310,310,355
+msgid "The content to which the comment is a reply to."
+msgstr ""
+
+#: modules/node.views.inc:89,498,89,498,73,492,73,492,73,525,73,525
+msgid "The content title."
+msgstr "Заголовок контента."
+
+#: modules/node.views.inc:113,113,97,97,97,97
+msgid "The date the content was posted."
+msgstr "Дата публикации контента."
+
+#: modules/node.views.inc:129,129,113,113,113,113
+msgid "The date the content was last updated."
+msgstr "Дата последнего обновления контента."
+
+#: modules/node.views.inc:145,145,129,129,129,129
+msgid ""
+"The content type (for example, \"blog entry\", \"forum post\", "
+"\"story\", etc)."
+msgstr ""
+
+#: modules/node.views.inc:164,164,148,148,148,148
+msgid "Whether or not the content is published."
+msgstr ""
+
+#: modules/node.views.inc:186,186,170,170,170,170
+msgid "Filters out unpublished content if the current user cannot view it."
+msgstr ""
+
+#: modules/node.views.inc:197,197,181,181,181,181
+msgid "Whether or not the content is promoted to the front page."
+msgstr ""
+
+#: modules/node.views.inc:218,218,202,202,202,202
+msgid "Whether or not the content is sticky."
+msgstr ""
+
+#: modules/node.views.inc:234,234,218,218,218,218
+msgid ""
+"Whether or not the content is sticky. To list sticky content first, "
+"set this to descending."
+msgstr ""
+
+#: modules/node.views.inc:246,246,232,232,232,232
+msgid "Provide a simple link to the content."
+msgstr ""
+"Обеспечивает простую ссылку на "
+"содержимое."
+
+#: modules/node.views.inc:255,255,241,241,241,241
+msgid "Provide a simple link to edit the content."
+msgstr ""
+"Обеспечивает простую ссылку на "
+"редактирование содержимого."
+
+#: modules/node.views.inc:264,264,250,250,250,250
+msgid "Provide a simple link to delete the content."
+msgstr ""
+"Обеспечивает простую ссылку удаление "
+"содержимого."
+
+#: modules/node.views.inc:272,272,258,258,258,258
+msgid "The aliased path to this content."
+msgstr ""
+
+#: modules/node.views.inc:394,394,380,380,380,380
+msgid "Relate content to the user who created it."
+msgstr ""
+
+#: modules/node.views.inc:429,436,429,436,416,423,416,423,416,423,416,423
+msgid "Content revision"
+msgstr "Версии содержимого"
+
+#: modules/node.views.inc:437,437,424,424,424,424
+msgid "Content revision is a history of changes to content."
+msgstr ""
+
+#: modules/node.views.inc:455,455,449,449,449,449
+msgid "Relate a content revision to the user who created the revision."
+msgstr ""
+
+#: modules/node.views.inc:467,467,461,461,494,494
+msgid "The revision ID of the content revision."
+msgstr ""
+
+#: modules/node.views.inc:491,491,485,485,486,518,486,518
+msgid "Get the actual content from a content revision."
+msgstr ""
+
+#: modules/node.views.inc:557,557,559,559,592,592
+msgid "Provide a simple link to delete the content revision."
+msgstr ""
+
+#: modules/node.views.inc:583,583,585,585,618,618
+msgid ""
+"Filter for content by view access. <strong>Not necessary if you are "
+"using node as your base table.</strong>"
+msgstr ""
+
+#: modules/node.views.inc:613,613,615,615,648,648
+msgid "Show a marker if the content is new or updated."
+msgstr ""
+
+#: modules/node.views.inc:616,616,618,618,651,651
+msgid "Show only content that is new or updated."
+msgstr ""
+
+#: modules/node.views.inc:632,642,632,642,634,644,634,644,667,677,667,677
+msgid "Display the content with standard node view."
+msgstr ""
+
+#: modules/node.views.inc:660,660,662,662,695,695
+msgid "Content ID from URL"
+msgstr ""
+
+#: modules/system.views.inc:246,246,236,236,236,236
+msgid ""
+"Content that is associated with this file, usually because this file "
+"is in a field on the content."
+msgstr ""
+
+#: modules/taxonomy.views.inc:380,380,412,412,412,412
+msgid ""
+"Allows the \"depth\" for Taxonomy: Term ID (with depth) to be modified "
+"via an additional contextual filter value."
+msgstr ""
+
+#: modules/translation.views.inc:100,100,75,75,75,75
+msgid ""
+"Content that is either untranslated or is the original version of a "
+"translation set."
+msgstr ""
+
+#: modules/translation.views.inc:110,110,85,85,85,85
+msgid "Content that is a translation of a source translation."
+msgstr ""
+
+#: modules/translation.views.inc:120,120,95,95,95,95
+msgid ""
+"The translation status of the content - whether or not the translation "
+"needs to be updated."
+msgstr ""
+
+#: modules/user.views.inc:68,68,65,65,65,65
+msgid "Content authored"
+msgstr ""
+
+#: modules/user.views.inc:69,69,66,66,66,66
+msgid ""
+"Relate content to the user who created it. This relationship will "
+"create one record for each content item created by the user."
+msgstr ""
+
+#: modules/views.views.inc:33,33,30,30,30,30
+msgid ""
+"Allow a contextual filter value to be ignored. The query will not be "
+"altered by this contextual filter value. Can be used when contextual "
+"filter values come from the URL, and a part of the URL needs to be "
+"ignored."
+msgstr ""
+
+#: modules/views.views.inc:64,64,69,69,69,69
+msgid "View area"
+msgstr ""
+
+#: modules/views.views.inc:65,65,70,70,70,70
+msgid "Insert a view inside an area."
+msgstr ""
+
+#: modules/taxonomy.views.inc:397,367,397,367,397
+msgid "Terms on node"
+msgstr ""
+
+#: modules/node.views.inc:412,411,412,398,398,398,411,411,398
+msgid "User has a revision"
+msgstr ""
+
+#: modules/node.views.inc:413,412,413,399,399,399,412,412,399
+msgid "All nodes where a certain user has a revision"
+msgstr ""
+
+#: modules/field.views.inc:189,223,297,189,223,297,185,219,293,185,219,293,185,219,293,185,219,293
+msgid "@group (historical data)"
+msgstr ""
+
+#: modules/system.views.inc:182,185,186,182,185,186,172,175,176,172,175,176,172,175,176,172,175,176
+msgid "User who uploaded"
+msgstr ""
+
+#: modules/system.views.inc:183,183,173,173,173,173
+msgid "The user that uploaded the file."
+msgstr "Пользователь, который загрузил файл."
+
+#: modules/taxonomy.views.inc:88,88,84,84,84,84
+msgid "The taxonomy vocabulary description"
+msgstr ""
+
+#: modules/taxonomy.views.inc:148,148,162,162,162,162
+msgid "Taxonomy term chosen from autocomplete or select widget."
+msgstr ""
+
+#: modules/taxonomy.views.inc:173,173,198,198,198,198
+msgid "The taxonomy term name."
+msgstr ""
+
+#: modules/taxonomy.views.inc:264,264,292,292,292,292
+msgid "Content with term"
+msgstr ""
+
+#: modules/taxonomy.views.inc:265,265,293,293,293,293
+msgid "Relate all content tagged with a term."
+msgstr ""
+
+#: modules/taxonomy.views.inc:280,280,308,308,308,308
+msgid "Has taxonomy term ID"
+msgstr ""
+
+#: modules/taxonomy.views.inc:281,281,309,309,309,309
+msgid "Display content if it has the selected taxonomy terms."
+msgstr ""
+
+#: modules/taxonomy.views.inc:291,291,319,319,319,319
+msgid "Has taxonomy term"
+msgstr ""
+
+#: modules/taxonomy.views.inc:349,349,381,381,381,381
+msgid "Taxonomy terms on node"
+msgstr ""
+
+#: modules/taxonomy.views.inc:357,357,389,389,389,389
+msgid "All taxonomy terms"
+msgstr "Все термины таксономии"
+
+#: modules/taxonomy.views.inc:365,365,397,397,397,397
+msgid ""
+"Display content if it has the selected taxonomy terms, or children of "
+"the selected terms. Due to additional complexity, this has fewer "
+"options than the versions without depth."
+msgstr ""
+
+#: modules/taxonomy.views.inc:368,368,400,400,400,400
+msgid "Has taxonomy term ID (with depth)"
+msgstr ""
+
+#: modules/taxonomy.views.inc:373,373,405,405,405,405
+msgid "Has taxonomy terms (with depth)"
+msgstr ""
+
+#: modules/taxonomy.views.inc:379,379,411,411,411,411
+msgid "Has taxonomy term ID depth modifier"
+msgstr ""
+
+#: modules/taxonomy.views.inc:474,474,506,506,506,506
+msgid "Taxonomy term ID from URL"
+msgstr ""
+
+#: modules/aggregator.views.inc:311,311,305,305,305,311,311,305
+msgid "The date of the most recent new content on the feed."
+msgstr ""
+
+#: modules/field.views.inc:288,323,288,323,284,319,284,319,284,319,284,319
+msgid "@label (!name:!column)"
+msgstr "@label (!name:!column)"
+
+#: modules/field.views.inc:289,289,285,285,285,285
+msgid "@label:!column"
+msgstr "@label:!column"
+
+#: modules/field.views.inc:367,367,363,363,363,363
+msgid "@label (!name:delta)"
+msgstr "@label (!name:delta)"
+
+#: modules/field.views.inc:368,368,364,364,364,364
+msgid "@label:delta"
+msgstr "@label:delta"
+
+#: modules/comment.views.inc:334,307,334,352,352,352,307,307,352
+msgid "The node ID to which the comment is a reply to."
+msgstr ""
+
+#: modules/comment.views.inc:573,573,591,591,591,591
+msgid "Comments of the node"
+msgstr ""
+
+#: modules/comment.views.inc:574,574,592,592,592,592
+msgid ""
+"Relate all comments on the node. This will create 1 duplicate record "
+"for every comment. Usually if you need this it is better to create a "
+"comment view."
+msgstr ""
+
+#: modules/field.views.inc:199,308,199,308,195,304,195,304,195,304,195,304
+msgid "Appears in: @bundles."
+msgstr ""
+
+#: modules/field.views.inc:214,225,328,214,225,328,210,221,324,210,221,324,210,221,324,210,221,324
+msgid "This is an alias of @group: @field."
+msgstr ""
+
+#: modules/field.views.inc:217,331,217,331,213,327,213,327,213,327,213,327
+msgid "@group: @field"
+msgstr "@group: @field"
+
+#: modules/field.views.inc:228,228,224,224,224,224
+msgid "@group (historical data): @field"
+msgstr ""
+
+#: modules/field.views.inc:234,336,234,336,230,332,230,332,230,332,230,332
+msgid "Also known as: !also."
+msgstr "Так же известны как: !also."
+
+#: modules/field.views.inc:374,374,370,370,370,370
+msgid "Delta - Appears in: @bundles."
+msgstr ""
+
+#: modules/taxonomy.views.inc:436,436,468,468,468,468
+msgid "Relate each @entity with a @field set to the term."
+msgstr ""
+
+#: modules/taxonomy.views.inc:159,159,184,184,184,184
+msgid ""
+"Obtains a single representative node for each term, according to a "
+"chosen sort criterion."
+msgstr ""
+
+#: modules/user.views.inc:83,83,90,90,90,90
+msgid ""
+"Obtains a single representative node for each user, according to a "
+"chosen sort criterion."
+msgstr ""
+
+#: modules/file.views.inc:31,31,27,27,27,27
+msgid "file from !field_name"
+msgstr ""
+
+#: modules/file.views.inc:56,56,52,52,52,52
+msgid "Relate each @entity with a @field set to the file."
+msgstr ""
+
+#: modules/image.views.inc:30,30,26,26,26,26
+msgid "image from !field_name"
+msgstr ""
+
+#: modules/image.views.inc:55,55,51,51,51,51
+msgid "Relate each @entity with a @field set to the image."
+msgstr ""
+
+#: modules/comment.views.inc:305,305,323,323,323,323
+msgid "Provide a simple link to approve the comment."
+msgstr ""
+
+#: modules/user.views.inc:445,445,452,452,452,452
+msgid "The user permissions."
+msgstr ""
+
+#: modules/taxonomy.views.inc:133,133,147,172,147,172,147,172,147,172
+msgid "The tid of a taxonomy term."
+msgstr ""
+
+#: modules/comment.views.inc:492,446,492,510,510,510,446,446,510
+msgid "Last comment uid"
+msgstr ""
+
+#: modules/comment.views.inc:493,447,493,511,511,511,447,447,511
+msgid "The User ID of the author of the last comment of a node."
+msgstr ""
+
+#: modules/comment.views.inc:356,356,374,374,374,374
+msgid ""
+"If you need more fields than the uid add the comment: author "
+"relationship"
+msgstr ""
+
+#: modules/node.views.inc:391,391,377,377,377,377
+msgid ""
+"The user authoring the content. If you need more fields than the uid "
+"add the content: author relationship"
+msgstr ""
+
+#: modules/statistics.views.inc:109,109,105,105,105,109,109,105
+msgid "Unique access event ID."
+msgstr ""
+
+#: modules/views.views.inc:72,72,77,77,77,77
+msgid "Result summary"
+msgstr ""
+
+#: modules/views.views.inc:73,73,78,78,78,78
+msgid "Shows result summary, for example the items per page."
+msgstr ""
+
+#: modules/user.views.inc:189,189,196,196,196,196
+msgid "Provide a simple link to the user."
+msgstr ""
+
+#: modules/user.views.inc:532,532,539,539,539,539
+msgid "Display the user with standard user view."
+msgstr ""
+
+#: modules/views.views.inc:81,86,86,86,86
+msgid "Contextual Links"
+msgstr "Контекстные ссылки"
+
+#: modules/views.views.inc:82,87,87,87,87
+msgid "Display fields in a contextual links menu."
+msgstr ""
+
+#: modules/system.views.inc:426,426,426,426
+msgid "The ID of the entity that is related to the file."
+msgstr ""
+
+#: modules/views.views.inc:95,95,95,95
+msgid "Combine fields filter"
+msgstr ""
+
+#: modules/views.views.inc:96,96,96,96
+msgid "Combine two fields together and search by them."
+msgstr ""
+
+#: modules/node.views.inc:543,543,576,576
+msgid "Provide a simple link to the revision."
+msgstr ""
+
+#: modules/field.views.inc:341,380,341,380,341,380,341,380
+msgid "- No value -"
+msgstr ""
+
+#: modules/field.views.inc:402,441,402,441
+msgid "@label (!name:language)"
+msgstr "@label (!name:язык)"
+
+#: modules/field.views.inc:403,442,403,442
+msgid "@label:language"
+msgstr "@label:язык"
+
+#: modules/field.views.inc:409,448,409,448
+msgid "Language - Appears in: @bundles."
+msgstr ""
+
+#: modules/book.views.inc:126,126,126,126
+msgid "Book root from current node"
+msgstr ""
+
+#: modules/user.views.inc:77,77,77,77
+msgid "The raw numeric user ID."
+msgstr ""
+
+#: modules/comment.views.inc:176,176,176,176
+msgid "The language the comment is in."
+msgstr ""
+
+#: modules/taxonomy.views.inc:91,91,91,91
+msgid "The taxonomy vocabulary weight"
+msgstr ""
+
+#: modules/views.views.inc:62,62,62,62
+msgid ""
+"Add unrestricted, custom text or markup. This is similar to the custom "
+"text field."
+msgstr ""
+
+#: modules/taxonomy.views.inc:364,364,364,364
+msgid "Filter the results of \"Taxonomy: Term\" by the parent pid."
+msgstr ""
+
+#: modules/node.views.inc:462,462
+msgid "The revision NID of the content revision."
+msgstr ""
+
+#: modules/tracker.views.inc:74,166,74,166
+msgid "Tracker - User"
+msgstr ""
+

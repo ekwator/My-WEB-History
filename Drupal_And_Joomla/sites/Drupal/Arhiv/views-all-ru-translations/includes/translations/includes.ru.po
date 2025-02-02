@@ -1,0 +1,1829 @@
+# Russian translation of views (all releases)
+# Copyright (c) 2013 by the Russian translation team
+# Generated from files:
+#  views/includes/ajax.inc: n/a
+#  views/includes/admin.inc: n/a
+#  views/includes/plugins.inc: n/a
+#  views/includes/view.inc: n/a
+#  views/includes/convert.inc: n/a
+#  views/includes/form.inc: n/a
+#  views/includes/handlers.inc: n/a
+#  views/includes/analyze.inc: n/a
+#  views/includes/cache.inc: n/a
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: views (all releases)\n"
+"POT-Creation-Date: 2013-05-29 14:21+0400\n"
+"PO-Revision-Date: 2012-12-24 17:39+0400\n"
+"Language-Team: Russian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=((((n%10)==1)&&((n%100)!=11))?(0):(((((n%10)>=2)&&((n%10)<=4))&&(((n%100)<10)||((n%100)>=20)))?(1):2));\n"
+
+#: includes/ajax.inc:215,93,215,91,215,215,215,93,83,95,215
+msgid "Error"
+msgstr "Ошибка"
+
+#: includes/admin.inc:534,504,534,504,534
+msgid "Preview"
+msgstr "Предпросмотр"
+
+#: includes/admin.inc:1489,1373,1489,1373,1489
+msgid "Update"
+msgstr "Обновить"
+
+#: includes/admin.inc:4048,4048,4147,4147,4147,4147
+msgid "Selected"
+msgstr "Выбрано"
+
+#: includes/admin.inc:2222,2239,1294,2222,2239,1230,2236,2253,2236,2253,1294,1230,1294,2236,2253,2236,2253
+msgid "Rearrange"
+msgstr "Перестроить"
+
+#: includes/plugins.inc:145,138,145,124,147,147,147,138,124,138,147
+msgid "Table"
+msgstr "Таблица"
+
+#: includes/view.inc:2265,2107,2428,2107,2428
+msgid "filter"
+msgstr "фильтр"
+
+#: includes/admin.inc:5108,4057,5108,5255,5255,5255,4057,4057,5255
+msgid "Default order"
+msgstr "Порядок по умолчанию"
+
+#: includes/admin.inc:4816,4816,4956,4956,4956,4956
+msgid "Localization"
+msgstr "Переводы"
+
+#: includes/view.inc:1571,1325,1571,1251,1667,1667,1667,1474,1251,1675,1474,1675
+msgid "Home"
+msgstr "Главная"
+
+#: includes/view.inc:2503,2286,2503,2627,2627,2627,2449,2635,2449,2635
+msgid "footer"
+msgstr "подвал"
+
+#: includes/admin.inc:3042,2307,3042,2307,3042
+msgid "Groups"
+msgstr "Группы"
+
+#: includes/admin.inc:3138,3163,3461,3469,3774,3802,4247,2247,2272,2591,2600,2877,2904,2909,3240,3138,3163,3461,3469,3774,3802,4247,2231,2240,2492,3161,3186,3486,3494,3606,3873,3901,4385,3161,3186,3486,3494,3606,3873,3901,4385,3161,3186,3486,3494,3606,3873,3901,4385,2247,2272,2591,2600,2877,2904,2909,3240,2231,2240,2492,2247,2272,2591,2600,2877,2904,2909,3240,3161,3186,3486,3494,3606,3873,3901,4385
+msgid "Remove"
+msgstr "Удалить"
+
+#: includes/admin.inc:5270,5270,5417,5457,5417,5457,5417,5457,5417,5457
+msgid "Used in"
+msgstr "Используется в"
+
+#: includes/plugins.inc:325,325,337,337,337,337
+msgid "Full"
+msgstr "Полный"
+
+#: includes/admin.inc:5188,5188,5335,5335,5335,5335
+msgid "Operation"
+msgstr "Действие"
+
+#: includes/admin.inc:642,605,642,605,642
+msgid "Next"
+msgstr "Далее"
+
+#: includes/admin.inc:2838,2838,2838
+msgid "Add new group"
+msgstr "Добавить новую группу"
+
+#: includes/view.inc:2250,2251,2092,2093,2413,2414,2092,2093,2413,2414
+msgid "Argument"
+msgstr "Аргумент"
+
+#: includes/plugins.inc:134,127,134,114,135,135,135,127,114,127,135
+msgid "Grid"
+msgstr "Сетка"
+
+#: includes/admin.inc:2244,2246
+msgid "add"
+msgstr "добавить"
+
+#: includes/view.inc:2473,2255,2473,2097,2597,2597,2597,2418,2097,2605,2418,2605
+msgid "Sort criteria"
+msgstr "Критерии сортировки"
+
+#: includes/admin.inc:124,701,914,119,663,900,124,701,914,119,663,900,124,701,914
+msgid "Revert"
+msgstr "Удалить"
+
+#: includes/view.inc:2495,2278,2495,2619,2619,2619,2441,2627,2441,2627
+msgid "header"
+msgstr "заголовок"
+
+#: includes/view.inc:2263,2105,2426,2105,2426
+msgid "filters"
+msgstr "фильтры"
+
+#: includes/admin.inc:4828,3744,4828,2912,4968,4968,4968,3744,2912,3744,4968
+msgid "Watchdog"
+msgstr "Регистратор"
+
+#: includes/admin.inc:630,593,630,593,630
+msgid "View type"
+msgstr "Тип представления"
+
+#: includes/plugins.inc:354,363,354,366,366,366,363,363,366
+msgid "Core"
+msgstr "Ядро"
+
+#: includes/convert.inc:87,87,87
+msgid "Clean up"
+msgstr "Очистить"
+
+#: includes/form.inc:248,248,248
+msgid ""
+"Validation error, please try again. If this error persists, please "
+"contact the site administrator."
+msgstr ""
+"Ошибка при проверке значения, "
+"пожалуйста повторите. Если ошибка "
+"повторится, сообщите администратору "
+"сайта."
+
+#: includes/admin.inc:5270,5270,5417,5417,5417,5417
+msgid "Field name"
+msgstr "Название поля"
+
+#: includes/admin.inc:214,439,214,409,215,215,215,439,409,439,215
+msgid "Other queries"
+msgstr "Другие запросы"
+
+#: includes/admin.inc:2355,2363,1406,1420,2355,2363,2373,2381,2373,2381,2373,2381,1406,1420,1406,1420,2373,2381
+msgid "OR"
+msgstr "ИЛИ"
+
+#: includes/admin.inc:2355,2363,1406,1420,2355,2363,2373,2381,2373,2381,2373,2381,1406,1420,1406,1420,2373,2381
+msgid "AND"
+msgstr "И"
+
+#: includes/admin.inc:1651,1651,1664,1664,1664,1664
+msgid "Display name"
+msgstr "Показывать имя"
+
+#: includes/plugins.inc:86,93,86,93,86,94,86,94,86,94,86,94
+msgid "Embed"
+msgstr ""
+
+#: includes/admin.inc:3466,3787,2597,2890,3466,3787,2237,3491,3886,3491,3886,3491,3886,2597,2890,2237,2597,2890,3491,3886
+msgid "No fields available."
+msgstr "Нет доступных полей."
+
+#: includes/admin.inc:5101,4050,5101,5248,5248,5248,4050,4050,5248
+msgid "Align"
+msgstr "Выравнивание"
+
+#: includes/admin.inc:2662,2662,2680,2680,2680,2680
+msgid "For"
+msgstr "Для"
+
+#: includes/view.inc:2462,2244,2462,2086,2586,2586,2586,2407,2086,2594,2407,2594
+msgid "field"
+msgstr "поле"
+
+#: includes/plugins.inc:175,169,175,154,177,177,177,169,154,169,177
+msgid "RSS Feed"
+msgstr "RSS Лента"
+
+#: includes/plugins.inc:208,218,209,224,208,218,191,203,220,230,220,230,220,230,209,224,191,203,209,224,220,230
+msgid "PHP Code"
+msgstr "PHP-Код"
+
+#: includes/admin.inc:4789,4789,4929,4929,4929,4929
+msgid "Debugging"
+msgstr "Отладка"
+
+#: includes/admin.inc:602,2338,602,2338,602,2338
+msgid "Human readable name"
+msgstr "Человеко-читаемое имя"
+
+#: includes/admin.inc:1366,1366,1366
+msgid "Group settings"
+msgstr "Установки групп"
+
+#: includes/view.inc:2487,2270,2487,2112,2611,2611,2611,2433,2112,2619,2433,2619
+msgid "Relationships"
+msgstr "Взаимосвязи"
+
+#: includes/view.inc:2488,2271,2488,2113,2612,2612,2612,2434,2113,2620,2434,2620
+msgid "relationships"
+msgstr "связи"
+
+#: includes/plugins.inc:166,104,159,166,93,144,168,168,168,104,159,93,144,104,159,168
+msgid "Unformatted"
+msgstr "Без форматирования"
+
+#: includes/admin.inc:3957,3031,3957,2296,4056,4056,4056,3031,2296,3031,4056
+msgid "Add @type"
+msgstr "Добавить @type"
+
+#: includes/admin.inc:3461,3774,2591,2877,3461,3774,2231,3486,3606,3873,3486,3606,3873,3486,3606,3873,2591,2877,2231,2591,2877,3486,3606,3873
+msgid "Remove this item"
+msgstr "Удалить этот элемент"
+
+#: includes/admin.inc:5048,3962,5048,3112,5195,5195,5195,3962,3112,3962,5195
+msgid "Error: missing @component"
+msgstr "Ошибка: отсутствуе @component"
+
+#: includes/view.inc:2475,2257,2475,2099,2599,2599,2599,2420,2099,2607,2420,2607
+msgid "Sort criterion"
+msgstr "Критерий сортировки"
+
+#: includes/admin.inc:593,563,593,563,593
+msgid ""
+"This is the unique name of the view. It must contain only alphanumeric "
+"characters and underscores; it is used to identify the view internally "
+"and to generate unique theming template names for this view. If "
+"overriding a module provided view, the name must not be changed or "
+"instead a new view will be created."
+msgstr ""
+"Это уникальное название "
+"представления. Должно состоять только "
+"из букв, цифр и подчеркиваний; "
+"используется только для того, чтобы "
+"идентифицировать представление для "
+"внутреннего использования и для "
+"создания имени уникального шаблона "
+"темы для этого представления. Если "
+"модуль, используемый представлением, "
+"изменяется, не изменяйте имя "
+"представления, или взамен создайте "
+"новое представление."
+
+#: includes/admin.inc:3206,609,2357,3206,572,1980,3231,3231,3231,609,2357,572,1980,609,2357,3231
+msgid "View description"
+msgstr "Описание представления"
+
+#: includes/admin.inc:3207,610,2358,3207,573,1981,3232,3232,3232,610,2358,573,1981,610,2358,3232
+msgid ""
+"This description will appear on the Views administrative UI to tell "
+"you what the view is about."
+msgstr ""
+"Это описание будет отображаться на "
+"странице управления Представлениями "
+"чтобы напомнить вам, для чего он "
+"создан."
+
+#: includes/admin.inc:3199,617,2347,3199,580,1987,3224,3224,3224,617,2347,580,1987,617,2347,3224
+msgid "View tag"
+msgstr "Метка представления"
+
+#: includes/admin.inc:618,2348,581,1988,618,2348,581,1988,618,2348
+msgid ""
+"Enter an optional tag for this view; it is used only to help sort "
+"views on the administrative page."
+msgstr ""
+"Вы можете дополнительно указать метку "
+"для этого представления; она "
+"используется только для удобства "
+"выборки представлений на странице "
+"администрирования."
+
+#: includes/admin.inc:631,594,631,594,631
+msgid ""
+"The view type is the primary table for which information is being "
+"retrieved. The view type controls what arguments, fields, sort "
+"criteria and filters are available, so once this is set it "
+"<strong>cannot be changed</strong>."
+msgstr ""
+"Тип представления является главной "
+"таблицей, по которой получается "
+"информация. Тип представления задаёт "
+"какие аргументы, поля, критерии "
+"сортировки и фильтров доступны, "
+"поэтому, будучи однажды установленным "
+"он <strong>не может быть изменен</strong>."
+
+#: includes/convert.inc:166,166,166
+msgid "The view has been deleted"
+msgstr "Представление было удалено"
+
+#: includes/admin.inc:1017,982,1017,982,1017
+msgid "Unknown or missing table name"
+msgstr ""
+"Не известное или отсутствующее имя "
+"таблицы"
+
+#: includes/admin.inc:1316,1022,1316,987,1317,1317,1317,1022,987,1022,1317
+msgid "Click on an item to edit that item's details."
+msgstr ""
+"Щелкните на элементе, чтобы изменить "
+"его параметры."
+
+#: includes/admin.inc:1025,990,1025,990,1025
+msgid "This view has a broken default display and cannot be used."
+msgstr ""
+"У этого представления нарушено "
+"отображение по умолчанию, и оно не "
+"может быть использовано."
+
+#: includes/admin.inc:1518,1248,1518,1194,1531,1531,1531,1248,1194,1248,1531
+msgid "Invalid"
+msgstr "Недействительный"
+
+#: includes/admin.inc:1249,1195,1249,1195,1249
+msgid ""
+"Error: Display @display refers to a plugin named '@plugin', but that "
+"plugin doesn't exist!"
+msgstr ""
+"Ошибка: Отображение @display ссылается на "
+"плагин с названием '@plugin', но этот "
+"плагин не существует!"
+
+#: includes/admin.inc:4152,4403,4502,4573,3148,3311,3407,3473,3558,4152,4403,4502,4573,2399,2583,2650,2735,4290,4541,4642,4713,4290,4541,4642,4713,4290,4541,4642,4713,3148,3311,3407,3473,3558,2399,2583,2650,2735,3148,3311,3407,3473,3558,4290,4541,4642,4713
+msgid "Error: handler for @table > @field doesn't exist!"
+msgstr ""
+"Ошибка: обработчик для @table &gt; @field не "
+"существует!"
+
+#: includes/admin.inc:1844,1706,1844,1706,1844
+msgid "Add display"
+msgstr "Добавить вид"
+
+#: includes/admin.inc:1964,1826,1964,1826,1964
+msgid "Remove display"
+msgstr "Удалить вид"
+
+#: includes/admin.inc:1975,1837,1975,1837,1975
+msgid "Restore display"
+msgstr "Вернуть вид"
+
+#: includes/admin.inc:2331,1975,2331,1975,2331
+msgid "View details"
+msgstr "Представление подробно"
+
+#: includes/admin.inc:3367,3564,2517,2655,3367,3564,2147,3392,3663,3392,3663,3392,3663,2517,2655,2147,2517,2655,3392,3663
+msgid "Rearrange @type"
+msgstr "Перестроить @type"
+
+#: includes/admin.inc:3419,3702,2551,2788,3419,3702,2191,3444,3801,3444,3801,3444,3801,2551,2788,2191,2551,2788,3444,3801
+msgid "Broken field @id"
+msgstr "Битое поле @id"
+
+#: includes/admin.inc:4041,3080,4041,2345,4140,4140,4140,3080,2345,3080,4140
+msgid "There are no @types available to add."
+msgstr ""
+"@types, доступные для добавления, "
+"отсутствуют."
+
+#: includes/ajax.inc:92,90,92,82,94
+msgid "Server reports invalid input error."
+msgstr "Сервер сообщает об ошибке ввода."
+
+#: includes/plugins.inc:22,101,24,90,22,101,26,22,102,22,102,22,102,24,90,26,24,90,22,102
+msgid "Default settings for this view."
+msgstr ""
+"Настройки по умолчанию для этого "
+"представления."
+
+#: includes/plugins.inc:36,38,36,40,36,36,36,38,40,38,36
+msgid "Display the view as a page, with a URL and menu links."
+msgstr ""
+"Показ представления как страницы, с URL "
+"и ссылками меню."
+
+#: includes/plugins.inc:50,51,50,52,50,50,50,51,52,51,50
+msgid "Display the view as a block."
+msgstr "Показывать представление как блок."
+
+#: includes/plugins.inc:112,105,112,94,113,113,113,105,94,105,113
+msgid "Displays rows one after another."
+msgstr "Отображает строки одну за другой."
+
+#: includes/plugins.inc:124,117,124,105,125,125,125,117,105,117,125
+msgid "Displays rows as an HTML list."
+msgstr "Показ строк как HTML список."
+
+#: includes/plugins.inc:146,139,146,125,148,148,148,139,125,139,148
+msgid "Displays rows in a table."
+msgstr "Отображает строки в таблице."
+
+#: includes/plugins.inc:188,189,188,174,190,190,190,189,174,189,190
+msgid "Displays the fields with an optional template."
+msgstr "Отображаются поля в шаблоне."
+
+#: includes/admin.inc:2467,1517,2467,1401,2485,2485,2485,1517,1401,1517,2485
+msgid "Ok"
+msgstr "Ok"
+
+#: includes/admin.inc:1955,794,1955,756,1968,1968,1968,794,756,794,1968
+msgid ""
+"Enter the name to use for this view if it is different from the source "
+"view. Leave blank to use the name of the view."
+msgstr ""
+"Введите название, которое вы хотите "
+"использовать для представления, если "
+"оно отличается от исходного. Оставьте "
+"пустым, чтобы использовать название "
+"исходного представления."
+
+#: includes/admin.inc:1965,804,1965,761,1984,1984,1984,804,761,804,1984
+msgid "Paste view code here"
+msgstr "Вставьте сюда код представления"
+
+#: includes/admin.inc:1993,832,1993,789,2012,2012,2012,832,789,832,2012
+msgid "Unable to interpret view code."
+msgstr ""
+"Невозможно проинтерпретировать код "
+"представления."
+
+#: includes/admin.inc:843,800,843,800,843
+msgid "That view is not compatible with this version of Views."
+msgstr ""
+"Это представление несовместимо с этой "
+"версией Views."
+
+#: includes/admin.inc:2018,864,2018,820,2037,2037,2037,864,820,864,2037
+msgid "A view by that name already exists; please choose a different name"
+msgstr ""
+"Представление с таким именем уже "
+"существует; выберите другое имя"
+
+#: includes/handlers.inc:275,347,275,269,277,277,277,347,269,347,277
+msgid "!group: !title"
+msgstr "!group: !title"
+
+#: includes/admin.inc:5100,4049,5100,3199,5247,5247,5247,4049,3199,4049,5247
+msgid "Column"
+msgstr "Колонка"
+
+#: includes/admin.inc:5112,4061,5112,3206,5259,5259,5259,4061,3206,4061,5259
+msgid "Default sort"
+msgstr "Сортировка по умолчанию"
+
+#: includes/admin.inc:5457,5457,5457,5457
+msgid "Provided by"
+msgstr "Представлен"
+
+#: includes/admin.inc:240,243,460,240,243,430,241,244,241,244,241,244,460,430,460,241,244
+msgid "No query was run"
+msgstr "Запрос пуст - нечего выполнять"
+
+#: includes/admin.inc:252,467,252,437,253,253,253,467,437,467,253
+msgid "Unable to preview due to validation errors."
+msgstr ""
+"Невозожно создать предпросмотр из-за "
+"ошибок некорректности."
+
+#: includes/admin.inc:528,498,528,498,528
+msgid "Separate arguments with a / as though they were a URL path."
+msgstr "Аргументы, разделеные '/' как в URL пути."
+
+#: includes/admin.inc:664,627,664,627,664
+msgid "You must use a unique name for this view."
+msgstr ""
+"Вы должны использовать уникальное имя "
+"для этого представления."
+
+#: includes/admin.inc:705,667,705,667,705
+msgid "Deleting a view cannot be undone."
+msgstr ""
+"Удаление представления нельзя "
+"отменить."
+
+#: includes/admin.inc:854,735,854,697,735,697,735
+msgid "There is no lock on view %view to break."
+msgstr ""
+"Представление %view не содержит "
+"блокировок для их прерывания."
+
+#: includes/admin.inc:865,745,865,707,864,864,864,745,707,745,864
+msgid "Are you sure you want to break the lock on view %name?"
+msgstr ""
+"Вы действительно хотите прервать "
+"блокировку для представления %name?"
+
+#: includes/admin.inc:868,748,868,710,867,867,867,748,710,748,867
+msgid "By breaking this lock, any unsaved changes made by !user will be lost!"
+msgstr ""
+"Прерывая блокировку, любые не "
+"сохраненные изменения сделанные !user "
+"будут утеряны!"
+
+#: includes/admin.inc:840,797,840,797,840
+msgid ""
+"You are importing a view created in Views version 1. You may need to "
+"adjust some parameters to work correctly in version 2."
+msgstr ""
+"Вы импортируете представление, "
+"созданное во Views версии 1. Возможно, "
+"потребуется изменить некоторые "
+"параметры для корректной работы в "
+"версии 2."
+
+#: includes/admin.inc:1812,1890,1674,1752,1812,1890,1674,1752,1812,1890
+msgid "Unable to initialize default display"
+msgstr ""
+"Невозможно инициализировать "
+"отображение по умолчанию"
+
+#: includes/admin.inc:150,984,3240,3317,3364,3560,3945,4145,4393,4495,4566,2386,2458,2513,2651,3019,3141,3301,3400,3466,3551,150,984,3240,3317,3364,3560,3945,4145,4393,4495,4566,2016,2088,2143,2290,2392,2576,2643,2728,151,985,3265,3342,3389,3659,4044,4283,4531,4635,4706,151,985,3265,3342,3389,3659,4044,4283,4531,4635,4706,151,985,3265,3342,3389,3659,4044,4283,4531,4635,4706,2386,2458,2513,2651,3019,3141,3301,3400,3466,3551,2016,2088,2143,2290,2392,2576,2643,2728,2386,2458,2513,2651,3019,3141,3301,3400,3466,3551,151,985,3265,3342,3389,3659,4044,4283,4531,4635,4706
+msgid "Invalid display id @display"
+msgstr ""
+"Неверный идентификатор отображения "
+"@display"
+
+#: includes/convert.inc:13,13,13
+msgid "There are no Views 1 views stored in the database to convert."
+msgstr ""
+"Нет ни одного \"Views 1\"-представления для "
+"конвертации"
+
+#: includes/convert.inc:32,32,32
+msgid "Converted"
+msgstr "Конвертировать"
+
+#: includes/convert.inc:67,67,67
+msgid ""
+"The table below lists Views version 1 views that are stored in the "
+"database. You can either convert them to work in Views version 2, or "
+"delete them. The views are convertible only if there is no Views 2 "
+"view with the same name."
+msgstr ""
+
+#: includes/convert.inc:128,128,128
+msgid "Unable to find view."
+msgstr "Не удалось найти представление."
+
+#: includes/convert.inc:138,138,138
+msgid "Unable to convert view."
+msgstr ""
+"Не удалось конвертировать "
+"представление."
+
+#: includes/plugins.inc:222,228,222,207,234,234,234,228,207,228,234
+msgid "Numeric"
+msgstr "Числовая"
+
+#: includes/admin.inc:139,133,139,133,139
+msgid "Warning! Broken view!"
+msgstr ""
+"Предупреждение! Испорченное "
+"представление!"
+
+#: includes/admin.inc:223,447,223,417,224,224,224,447,417,447,224
+msgid "This display has no path."
+msgstr "У этого отображения нет пути."
+
+#: includes/admin.inc:4794,3674,4794,2850,4934,4934,4934,3674,2850,3674,4934
+msgid "Add Views signature to all SQL queries"
+msgstr ""
+"Добавить сигнатуру Views во все запросы "
+"SQL"
+
+#: includes/admin.inc:3675,2851,3675,2851,3675
+msgid ""
+"All Views-generated queries will include a special 'VIEWS' = 'VIEWS' "
+"string in the WHERE clause. This makes identifying Views queries in "
+"database server logs simpler, but should only be used when "
+"troubleshooting."
+msgstr ""
+"Все запросы, сгенерированные Views будут "
+"включать специальную 'VIEWS' = 'VIEWS' строку "
+"в положении WHERE. Это позволит проще "
+"идентифицировать Views-запросы в логах "
+"сервера базы данных, но должно "
+"использоваться только для поиска "
+"неисправностей."
+
+#: includes/admin.inc:4776,3681,4776,2857,4916,4916,4916,3681,2857,3681,4916
+msgid "Disable views data caching"
+msgstr ""
+"Отключить кэширование данных "
+"представлений"
+
+#: includes/admin.inc:4777,3682,4777,2858,4917,4917,4917,3682,2858,3682,4917
+msgid ""
+"Views caches data about tables, modules and views available, to "
+"increase performance. By checking this box, Views will skip this cache "
+"and always rebuild this data when needed. This can have a serious "
+"performance impact on your site."
+msgstr ""
+"Для увеличения производительности Views "
+"кэширует информацию о таблицах, "
+"модулях и доступных представлениях. "
+"При отметке этого флажка Views будет "
+"пропускать этот кэш и заново "
+"запрашивать требуемую информацию. "
+"Этот пункт может иметь серьезные "
+"последствия для производительности."
+
+#: includes/handlers.inc:745,770,745,524,765,765,772,770,524,770,772
+msgid "Reduce duplicates"
+msgstr "Устранить дубликаты"
+
+#: includes/admin.inc:1084,1048,1084,1048,1084
+msgid "View \"@display\""
+msgstr "Представление \"@display\""
+
+#: includes/admin.inc:1599,1085,1599,1049,1612,1612,1612,1085,1049,1085,1612
+msgid "Go to the real page for this display"
+msgstr ""
+"Перейдите на реальную страницу для "
+"этого отображения"
+
+#: includes/admin.inc:2047,1909,2047,1909,2047
+msgid "Analyze"
+msgstr "Анализ"
+
+#: includes/analyze.inc:103,103,104,104,104,103,103,103,104
+msgid ""
+"This view has only a default display and therefore will not be placed "
+"anywhere on your site; perhaps you want to add a page or a block "
+"display."
+msgstr ""
+
+#: includes/admin.inc:2978,2059,2978,1921,3001,3001,3001,2059,1921,2059,3001
+msgid "View analysis"
+msgstr "Анализ представления"
+
+#: includes/analyze.inc:37,37,37,37,37,37,37,37
+msgid "View analysis can find nothing to report."
+msgstr ""
+"Анализ представления не нашел ничего "
+"для отчета."
+
+#: includes/admin.inc:3320,2462,3320,2092,3345,3345,3345,2462,2092,2462,3345
+msgid "Configure @type"
+msgstr "Настроить @type"
+
+#: includes/plugins.inc:64,64,65,64,64,64,64,65,64
+msgid ""
+"Attachments added to other displays to achieve multiple views in the "
+"same view."
+msgstr ""
+"Вложения добаляются к другим "
+"отображениям, чтобы "
+"получитьнесколько представлений в "
+"одном и том же представлении."
+
+#: includes/plugins.inc:76,75,76,73,76,76,76,75,73,75,76
+msgid "Display the view as a feed, such as an RSS feed."
+msgstr ""
+"Показывать представление как ленту, "
+"такую как RSS лента."
+
+#: includes/plugins.inc:176,170,176,155,178,178,178,170,155,170,178
+msgid "Generates an RSS feed from a view."
+msgstr "Создавать RSS ленту для представления."
+
+#: includes/plugins.inc:205,187,205,187,205
+msgid "Fixed entry"
+msgstr "Фиксированная запись"
+
+#: includes/admin.inc:96,38,96,97,97,97,38,38,38
+msgid ""
+"If you install the advanced help module from !href, Views will provide "
+"more and better help. <a href=\"@hide\">Hide this message.</a>"
+msgstr ""
+"Если вы установите модуль Advanced help (см. "
+"!href), то вы получите более удобную "
+"справку. <a href=\"@hide\">Скрыть это "
+"сообщение.</a>"
+
+#: includes/admin.inc:1088,317,1088,283,1089,1089,1089,317,283,317,1089
+msgid "Displays"
+msgstr "Отображения"
+
+#: includes/admin.inc:4783,3668,4783,2844,4923,4923,4923,3668,2844,3668,4923
+msgid "Clear Views' cache"
+msgstr "Очистить кэш Views"
+
+#: includes/admin.inc:3688,2864,3688,2864,3688
+msgid "Ignore missing advanced help module"
+msgstr ""
+"Игнорировать отсутствие модуля Advanced "
+"Help"
+
+#: includes/admin.inc:3689,2865,3689,2865,3689
+msgid ""
+"Views uses the advanced help module to provide help text; if this "
+"module is not present Views will complain, unless this setting is "
+"checked."
+msgstr ""
+"Views использует модуль Advanced help для "
+"отображения справки. Если этого "
+"модуля нет, Views будет жаловаться, пока "
+"вы не отметите этот пункт."
+
+#: includes/admin.inc:4865,3783,4865,2936,5005,5005,5005,3783,2936,3783,5005
+msgid "The cache has been cleared."
+msgstr "Кэш очищен."
+
+#: includes/plugins.inc:135,128,135,115,136,136,136,128,115,128,136
+msgid "Displays rows in a grid."
+msgstr "Отображает строки в сетке."
+
+#: includes/admin.inc:4026,3068,4026,2333,4125,4125,4125,3068,2333,3068,4125
+msgid "!group: !field"
+msgstr "!group: !field"
+
+#: includes/view.inc:2249,2091,2412,2091,2412
+msgid "arguments"
+msgstr "аргументы"
+
+#: includes/admin.inc:3329,3329,3329
+msgid "Group type"
+msgstr "Тип группы"
+
+#: includes/admin.inc:233,210,233,210,233
+msgid "Install the advanced help module for the getting started"
+msgstr ""
+"Установите модуль Advanced help для начала "
+"работы"
+
+#: includes/admin.inc:236,213,236,213,236
+msgid "Not sure what to do? Try the \"!getting-started\" page."
+msgstr ""
+"Сомневаетесь, с чего начать? "
+"Попробуйте со страницы \"!getting-started\"."
+
+#: includes/view.inc:2474,2256,2474,2098,2598,2598,2598,2419,2098,2606,2419,2606
+msgid "sort criteria"
+msgstr "критерий сортировки"
+
+#: includes/view.inc:2476,2258,2476,2100,2600,2600,2600,2421,2100,2608,2421,2608
+msgid "sort criterion"
+msgstr "критерий сортировки"
+
+#: includes/admin.inc:3723,2899,3723,2899,3723
+msgid "Enable views performance statistics via the Devel module"
+msgstr ""
+"Разрешить статистику представления "
+"для модуля Devel"
+
+#: includes/admin.inc:3748,2916,3748,2916,3748
+msgid "Page region to output performance statistics"
+msgstr ""
+"Раздел страницы для вывода статистики "
+"производительности"
+
+#: includes/admin.inc:3501,3515,2678,2692,3501,3515,2678,2692,3501,3515
+msgid "Internal error: broken plugin."
+msgstr "Внутренняя ошибка: битый плагин."
+
+#: includes/admin.inc:3695,2871,3695,2871,3695
+msgid "Show query above live preview"
+msgstr ""
+"Показывать запрос над областью "
+"предварительного просмотра"
+
+#: includes/admin.inc:3696,2872,3696,2872,3696
+msgid ""
+"The live preview feature will show you the output of the view you're "
+"creating, as well as the view. Check here to show the query and other "
+"information above the view; leave this unchecked to show that "
+"information below the view."
+msgstr ""
+"Отметьте, чтобы показывать информацию "
+"о запросе НАД предпросмотром. "
+"Оставьте неотмеченным, чтобы "
+"отображать информацию ПОД ним."
+
+#: includes/admin.inc:3716,2892,3716,2892,3716
+msgid "Do not show hover links over views"
+msgstr ""
+"Не показывать hover ссылку в "
+"представленииях"
+
+#: includes/admin.inc:3717,2893,3717,2893,3717
+msgid ""
+"To make it easier to administrate your views, Views provides 'hover' "
+"links to take you to the edit and export screen of a view whenever the "
+"view is used. This can be distracting on some themes, though; if it is "
+"problematic, you can turn it off here."
+msgstr ""
+"Чтобы облегчить администрирование "
+"представлений, Views создает ссылки "
+"(редактировать, экспорт), отображаемые "
+"при наведении на действующее "
+"представление. Это может отвлекать на "
+"некоторых темах оформления. Эта опция "
+"отключает отображение таких ссылок."
+
+#: includes/plugins.inc:167,160,167,145,169,169,169,160,145,160,169
+msgid ""
+"Displays the summary unformatted, with option for one after another or "
+"inline."
+msgstr ""
+
+#: includes/admin.inc:229,452,229,422,230,230,230,452,422,452,230
+msgid "Query build time"
+msgstr "Время построения запроса"
+
+#: includes/admin.inc:229,230,231,452,453,454,229,230,231,422,423,424,230,231,232,230,231,232,230,231,232,452,453,454,422,423,424,452,453,454,230,231,232
+msgid "@time ms"
+msgstr "@time мс"
+
+#: includes/admin.inc:230,453,230,423,231,231,231,453,423,453,231
+msgid "Query execute time"
+msgstr "Время выполнения запроса"
+
+#: includes/admin.inc:231,454,231,424,232,232,232,454,424,454,232
+msgid "View render time"
+msgstr "Время отрисовки представления"
+
+#: includes/admin.inc:699,661,699,661,699
+msgid "Are you sure you want to revert the view %name?"
+msgstr ""
+"Вы действительно хотите обратить "
+"представление %name?"
+
+#: includes/admin.inc:700,662,700,662,700
+msgid ""
+"Reverting the view will delete the view that is in the database, "
+"reverting it to the original default view. Any changes you have made "
+"will be lost and cannot be recovered."
+msgstr ""
+"Возвращение представления удалит тип "
+"представления, который в базе на "
+"представление по умолчанию. Все "
+"изменения, которые вы сделали, будут "
+"утеряны и восстановлению не подлежат."
+
+#: includes/admin.inc:3724,2900,3724,2900,3724
+msgid ""
+"Check this to enable some Views query and performance statistics "
+"<em>if Devel is installed</em>."
+msgstr ""
+"Включите, чтобы собирать сведеня о "
+"запросах и производительности "
+"Предаставлений <em>когда установлен "
+"Devel</em>."
+
+#: includes/admin.inc:3730,2906,3730,2906,3730
+msgid "Disable javascript with Views"
+msgstr "Отключить JavaScript в представлениях"
+
+#: includes/admin.inc:3731,2907,3731,2907,3731
+msgid ""
+"If you are having problems with the javascript, you can disable it "
+"here; the Views UI should degrade and still be usable without "
+"javascript, it just not as good."
+msgstr ""
+"Если у вас наблюдаются проблемы с "
+"Javascript, вы можете отключить эту опцию. "
+"Редактирование представлений без JS "
+"возможно, но менее удобно."
+
+#: includes/admin.inc:206,431,206,401,207,207,207,431,401,431,207
+msgid "These queries were run during view rendering:"
+msgstr ""
+"При рендеринге представления были "
+"выполнены следующие запросы:"
+
+#: includes/admin.inc:4751,3709,4751,2885,4891,4891,4891,3709,2885,3709,4891
+msgid "Show other queries run during render during live preview"
+msgstr ""
+"Показывать другие запросы, пока "
+"генерируется текущий предпросмотр."
+
+#: includes/admin.inc:4752,3710,4752,2886,4892,4892,4892,3710,2886,3710,4892
+msgid ""
+"Drupal has the potential to run many queries while a view is being "
+"rendered. Checking this box will display every query run during view "
+"render as part of the live preview."
+msgstr ""
+
+#: includes/admin.inc:2049,2049,842,2071,2071,2071,842,2071
+msgid "Row plugin @plugin is not available."
+msgstr "Плагин строки @plugin не доступен."
+
+#: includes/admin.inc:2072,2072,865,2095,2095,2095,865,2095
+msgid "Unable to import view."
+msgstr ""
+"Невозможно импортировать "
+"представление."
+
+#: includes/admin.inc:3607,3626,2698,2717,3607,3626,3706,3725,3706,3725,3706,3725,2698,2717,2698,2717,3706,3725
+msgid "Or"
+msgstr "Или"
+
+#: includes/handlers.inc:386,386,394,394,394,394
+msgid "Administrative title"
+msgstr "Административный заголовок"
+
+#: includes/admin.inc:2295,2295,2295
+msgid "Reorder"
+msgstr "Упорядочить"
+
+#: includes/handlers.inc:64,42,64,42,64
+msgid "Handler @handler include tried to loop infinitely!"
+msgstr ""
+"Обработчик @handler пытались включить в "
+"бесконечный цикл!"
+
+#: includes/plugins.inc:229,240,229,219,241,241,241,240,219,240,241
+msgid "Will be available to all users."
+msgstr ""
+"Будет доступно для всех "
+"пользователей."
+
+#: includes/plugins.inc:235,246,235,225,247,247,247,246,225,246,247
+msgid "Access will be granted to users with any of the specified roles."
+msgstr ""
+"Доступ будет предоставлен "
+"пользователям с любыми из указанных "
+"ролей."
+
+#: includes/plugins.inc:242,253,242,232,254,254,254,253,232,253,254
+msgid "Access will be granted to users with the specified permission string."
+msgstr ""
+"Доступ будет предоставлен "
+"пользователям с указанным "
+"разрешением."
+
+#: includes/plugins.inc:255,266,255,267,267,267,266,266,267
+msgid "SQL Query"
+msgstr "SQL запрос"
+
+#: includes/admin.inc:93,35,93,94,94,94,35,35,35
+msgid ""
+"If you <a href=\"@modules\">enable the advanced help module</a>, Views "
+"will provide more and better help. <a href=\"@hide\">Hide this "
+"message.</a>"
+msgstr ""
+"Если <a href=\"@modules\">включить модуль "
+"расширенной справки</a>, Views будет "
+"выдавать более подробную справку. <a "
+"href=\"@hide\">Скрыть это сообщение.</a>"
+
+#: includes/admin.inc:211,436,211,406,212,212,212,436,406,436,212
+msgid "[@time ms]"
+msgstr "[@time мс]"
+
+#: includes/admin.inc:579,549,579,549,579
+msgid "Clone view %view"
+msgstr "Клонировать представление %view"
+
+#: includes/admin.inc:879,759,879,721,878,878,878,759,721,759,878
+msgid "The lock has been broken and you may now edit this view."
+msgstr ""
+"Блокировка прервана и вы можете "
+"редактировать тип представления."
+
+#: includes/admin.inc:766,728,766,728,766
+msgid "Edit view %view"
+msgstr "Редактировать представление %view"
+
+#: includes/admin.inc:1381,1309,1381,1309,1381
+msgid "&nbsp; Style: !style"
+msgstr "&nbsp; Стиль: !style"
+
+#: includes/admin.inc:1456,1340,1456,1340,1456
+msgid "Invalid display id found while regenerating tabs"
+msgstr ""
+"Найден неверный идентификатор "
+"отображения во время восстановления "
+"вкладок"
+
+#: includes/admin.inc:3218,2470,3218,2470,3218
+msgid "Configure @type %item"
+msgstr "Конфигурировать @type %item"
+
+#: includes/admin.inc:4508,3414,4508,2590,4648,4648,4648,3414,2590,3414,4648
+msgid "Configure extra settings for @type %item"
+msgstr ""
+"Настройка дополнительных параметров "
+"для @type %item"
+
+#: includes/admin.inc:3478,2655,3478,2655,3478
+msgid "Change summary style for @type %item"
+msgstr "Изменить стиль анонса для @type %item"
+
+#: includes/admin.inc:4579,3565,4579,2742,4719,4719,4719,3565,2742,3565,4719
+msgid "Configure summary style for @type %item"
+msgstr ""
+"Конфигурировать стиль анонса для @type "
+"%item"
+
+#: includes/plugins.inc:158,151,158,136,160,160,160,151,136,151,160
+msgid "Displays the default summary as a list."
+msgstr ""
+"Отображает аннотацию по умолчанию в "
+"виде списка."
+
+#: includes/view.inc:351,313,465,313,465
+msgid "set_display() called with invalid display id @display."
+msgstr ""
+"set_display() вызвал ошибочные дисплей id "
+"@display."
+
+#: includes/plugins.inc:116,104,116,104,116
+msgid "HTML List"
+msgstr "HTML список"
+
+#: includes/admin.inc:411,411,412,412,412,412
+msgid "%name must be a positive integer."
+msgstr ""
+"%name должен быть положительным целым "
+"числом."
+
+#: includes/view.inc:2480,2480,2604,2604,2604,2612,2612
+msgid "Filter criteria"
+msgstr "Критерии фильтрации"
+
+#: includes/admin.inc:1292,1292,1293,1293,1293,1293
+msgid "Secondary tabs"
+msgstr "Вторичные вкладки"
+
+#: includes/admin.inc:3755,2923,3755,2923,3755
+msgid "Label for \"Any\" value on optional single-select exposed filters"
+msgstr ""
+"Метка для значения \"ЛЮБОЙ\" на "
+"опциональных раскрытых фильтрах"
+
+#: includes/admin.inc:1156,1156,1156
+msgid "Human name"
+msgstr ""
+
+#: includes/admin.inc:3646,2733,3646,3745,3745,3745,2733,2733,3745
+msgid "Default group"
+msgstr "Группа по умолчанию"
+
+#: includes/plugins.inc:256,267,256,268,268,268,267,267,268
+msgid "Query will be generated and run using the Drupal database API."
+msgstr ""
+"Запрос будет сгенерирован и запущен с "
+"использованием API базы данных Drupal."
+
+#: includes/plugins.inc:268,279,268,246,280,280,280,279,246,279,280
+msgid "No caching of Views data."
+msgstr "Не кэшировать данные представления."
+
+#: includes/plugins.inc:273,284,273,251,285,285,285,284,251,284,285
+msgid "Time-based"
+msgstr "По времени"
+
+#: includes/plugins.inc:274,285,274,252,286,286,286,285,252,285,286
+msgid "Simple time-based caching of data."
+msgstr ""
+"Простой, основанный на времени "
+"кэширования данных."
+
+#: includes/admin.inc:3646,2733,3646,3745,3745,3745,2733,2733,3745
+msgid "Group @group"
+msgstr "Группа @group"
+
+#: includes/admin.inc:2143,973,2143,938,2166,2166,2166,973,938,973,2166
+msgid "The view %name has been saved."
+msgstr "Представление %name было сохранено."
+
+#: includes/handlers.inc:746,771,746,525,766,766,773,771,525,771,773
+msgid ""
+"This filter can cause items that have more than one of the selected "
+"options to appear as duplicate results. If this filter causes "
+"duplicate results to occur, this checkbox can reduce those duplicates; "
+"however, the more terms it has to search for, the less performant the "
+"query will be, so use this with caution. Shouldn't be set on "
+"single-value fields, as it may cause values to disappear from display, "
+"if used on an incompatible field."
+msgstr ""
+"Из-за этого фильтра элементы, "
+"удовлетворяющие нескольким условиям, "
+"могут отобразиться дважды и более. "
+"Если такое происходит, эта опция может "
+"устранить дубликаты. Однако, чем "
+"больше вариантов доступно в фильтре, "
+"тем медленнее будет запрос. Поэтому "
+"используйте с осторожностью. Не "
+"следует включать для полей, имеющих "
+"только одно значение, поскольку это "
+"может привести к исчезновению "
+"значений поля из представления."
+
+#: includes/convert.inc:80,80,80
+msgid "Remove all Views 1 tables"
+msgstr "Удалить все таблицы Views 1"
+
+#: includes/convert.inc:81,81,81
+msgid ""
+"Check this box and then click clean up to drop all Views 1 tables. "
+"Warning: this operation will not be reversible! Do this only if you "
+"are sure you no longer need this data."
+msgstr ""
+
+#: includes/convert.inc:119,119,119
+msgid "All Views 1 tables have been removed."
+msgstr "Все таблицы Views 1 были удалены."
+
+#: includes/plugins.inc:368,377,377,386,368,262,271,380,389,380,389,380,389,377,386,262,271,377,386,380,389
+msgid "Jump menu"
+msgstr "Меню перехода"
+
+#: includes/plugins.inc:369,378,378,387,369,263,272,381,390,381,390,381,390,378,387,263,272,378,387,381,390
+msgid ""
+"Puts all of the results into a select box and allows the user to go to "
+"a different page based upon the results."
+msgstr ""
+
+#: includes/admin.inc:4409,3318,4409,4547,4547,4547,3318,3318,4547
+msgid "Configure group settings for @type %item"
+msgstr ""
+
+#: includes/admin.inc:3331,3331,3331
+msgid ""
+"Grouping is enabled for this display. You must select what function to "
+"use on this field."
+msgstr ""
+
+#: includes/plugins.inc:288,299,288,300,300,300,299,299,300
+msgid "Basic exposed form"
+msgstr "Базовая раскрытая форма"
+
+#: includes/plugins.inc:295,306,295,307,307,307,306,306,307
+msgid ""
+"An exposed form that only renders a view if the form contains user "
+"input."
+msgstr ""
+
+#: includes/plugins.inc:308,319,308,320,320,320,319,319,320
+msgid "Display all items"
+msgstr "Показ всех пунктов"
+
+#: includes/plugins.inc:309,320,309,321,321,321,320,320,321
+msgid "Display all items that this view might find"
+msgstr ""
+"Отображать все элементы, которые "
+"могут оказаться в этом представлении"
+
+#: includes/plugins.inc:316,327,316,328,328,328,327,327,328
+msgid "Display a specified number of items"
+msgstr ""
+"Отображать указанное количество "
+"элементов"
+
+#: includes/plugins.inc:317,328,317,329,329,329,328,328,329
+msgid "Display a limited number items that this view might find."
+msgstr ""
+"Отображать ограниченное количество "
+"элементов, которые могут оказаться в "
+"этом представлении."
+
+#: includes/plugins.inc:324,335,324,336,336,336,335,335,336
+msgid "Paged output, full pager"
+msgstr "Постраничный вывод, полный навигатор"
+
+#: includes/plugins.inc:326,336,326,338,338,338,336,336,338
+msgid "Paged output, full Drupal style"
+msgstr "Страничный вывод, полный Drupal-стиль"
+
+#: includes/plugins.inc:332,342,332,344,344,344,342,342,344
+msgid "Paged output, mini pager"
+msgstr "Постраничный вывод, мини-навигатор"
+
+#: includes/plugins.inc:334,343,334,346,346,346,343,343,346
+msgid "Use the mini pager output."
+msgstr "Использовать мини-навигатор."
+
+#: includes/admin.inc:3046,2154,3046,3069,3069,3069,2154,2154,3069
+msgid "Displays Reorder"
+msgstr ""
+
+#: includes/admin.inc:3144,3145,2253,2254,3144,3145,3167,3168,3167,3168,3167,3168,2253,2254,2253,2254,3167,3168
+msgid "Remove this display"
+msgstr "Удалить это отображение"
+
+#: includes/admin.inc:1199,1199,1200,1200,1200,1200
+msgid "Update preview"
+msgstr ""
+
+#: includes/admin.inc:2864,2864,2864
+msgid "This group is empty"
+msgstr "Группа пуста"
+
+#: includes/cache.inc:131,131,131
+msgid "View name '@name' is already taken"
+msgstr "Имя представления '@name' уже занято"
+
+#: includes/admin.inc:2236
+msgid "rearrange"
+msgstr "переупорядочить"
+
+#: includes/view.inc:2294,2457,2457
+msgid "empty text"
+msgstr "пустой текст"
+
+#: includes/admin.inc:3613,2704,3613,3712,3712,3712,2704,2704,3712
+msgid "Operator to use on all groups"
+msgstr ""
+"Оператор для использования во всех "
+"группах"
+
+#: includes/admin.inc:3614,2705,3614,3713,3713,3713,2705,2705,3713
+msgid ""
+"Either \"group 0 AND group 1 AND group 2\" or \"group 0 OR group 1 OR "
+"group 2\", etc"
+msgstr ""
+"\"group 0 AND group 1 AND group 2\" или \"group 0 OR group 1 OR "
+"group 2\", и т.д."
+
+#: includes/admin.inc:2713,2713,2713
+msgid "Group operator"
+msgstr "Оператор группы"
+
+#: includes/admin.inc:3638,2729,3638,3737,3737,3737,2729,2729,3737
+msgid "Remove group @group"
+msgstr "Удалить группу @group"
+
+#: includes/admin.inc:3802,2904,3802,3901,3901,3901,2904,2904,3901
+msgid "Ungroupable filters"
+msgstr "Негруппируемые фильтры"
+
+#: includes/admin.inc:541,511,541,511,541
+msgid "Automatic live preview"
+msgstr "Автоматический предпросмотр"
+
+#: includes/admin.inc:2001,847,2001,804,2020,2020,2020,847,804,847,2020
+msgid ""
+"That view is created for the version @import_version of views, but you "
+"only have @api_version"
+msgstr ""
+"Это представление создано для Views "
+"версии @import_version, однако у вас @api_version"
+
+#: includes/admin.inc:2307,1347,2307,1277,2321,2321,2321,1347,1277,1347,2321
+msgid "Broken/missing handler: @table > @field"
+msgstr ""
+"Поврежденный/пропущенный обработчик: "
+"@table > @field"
+
+#: includes/admin.inc:3702,2878,3702,2878,3702
+msgid "Disable automatic live preview"
+msgstr ""
+"Запретить автоматический "
+"предпросмотр"
+
+#: includes/admin.inc:3703,2879,3703,2879,3703
+msgid ""
+"Don't automatically update the preview. This can speed up the editing "
+"of views a bit.'"
+msgstr ""
+"Это может немного ускорить "
+"редактирование представлений."
+
+#: includes/admin.inc:658,621,658,621,658
+msgid ""
+"View name must be alphanumeric or underscores only, but cannot be "
+"numeric."
+msgstr ""
+"Имя представления должно содержать "
+"только буквы, цифры и символы "
+"подчеркивания, однако не может быть "
+"только цифровым."
+
+#: includes/admin.inc:1917,1779,1917,1779,1917
+msgid "Clone display"
+msgstr ""
+
+#: includes/admin.inc:1496,1380,1496,1380,1496
+msgid "Update and override"
+msgstr "Обновить и переопределить"
+
+#: includes/plugins.inc:123,123,124,124,124,124
+msgid "HTML list"
+msgstr "HTML список"
+
+#: includes/admin.inc:3193,3193,3218,3218,3218,3218
+msgid "Human-readable name"
+msgstr "Человеко-читаемое имя"
+
+#: includes/admin.inc:3023,3023,3046,3046,3046,3046
+msgid "Weight for @display"
+msgstr "Вес для @display"
+
+#: includes/admin.inc:4821,3737,4821,4961,4961,4961,3737,3737,4961
+msgid "Translation method"
+msgstr "Метод перевода"
+
+#: includes/admin.inc:4824,3740,4824,4964,4964,4964,3740,3740,4964
+msgid ""
+"Select a translation method to use for Views data like header, footer, "
+"and empty text."
+msgstr ""
+
+#: includes/plugins.inc:349,358,349,361,361,361,358,358,361
+msgid "Do not pass admin strings for translation."
+msgstr ""
+
+#: includes/plugins.inc:355,364,355,367,367,367,364,364,367
+msgid ""
+"Use Drupal core t() function. Not recommended, as it doesn't support "
+"updates to existing strings."
+msgstr ""
+
+#: includes/plugins.inc:363,372,363,375,375,375,372,372,375
+msgid ""
+"If you need to translate Views labels into other languages, consider "
+"installing the <a href=\"!path\">Internationalization</a> package's "
+"Views translation module."
+msgstr ""
+
+#: includes/admin.inc:603,2339,603,2339,603,2339
+msgid ""
+"You can use a more descriptive name for this view here. Spaces are "
+"allowed"
+msgstr ""
+
+#: includes/handlers.inc:409,409,409
+msgid "Administrative Title"
+msgstr "Управление заголовком"
+
+#: includes/handlers.inc:387,410,387,395,395,395,410,410,395
+msgid ""
+"This title will be displayed on the views edit page instead of the "
+"default one. This might be useful if you have the same item twice."
+msgstr ""
+
+#: includes/admin.inc:319,319,320,320,320,320
+msgid ""
+"A unique machine-readable name for this View. It must only contain "
+"lowercase letters, numbers, and underscores."
+msgstr ""
+
+#: includes/admin.inc:328,328,329,329,329,329
+msgid "Provide description"
+msgstr ""
+
+#: includes/admin.inc:378,378,379,379,379,379
+msgid "Save & exit"
+msgstr "Сохранить & выйти"
+
+#: includes/admin.inc:384,384,385,385,385,385
+msgid "Continue & edit"
+msgstr "Продолжить и редактировать"
+
+#: includes/admin.inc:574,574,575,575,575,575
+msgid "Update \"@title\" choice"
+msgstr ""
+
+#: includes/admin.inc:580,580,581,581,581,581
+msgid "Update \"@title\" choice (@number)"
+msgstr ""
+
+#: includes/admin.inc:730,730,729,729,729,729
+msgid "Your view was saved. You may edit it from the list below."
+msgstr ""
+
+#: includes/admin.inc:1040,1040,1041,1041,1041,1041
+msgid ""
+"* All changes are stored temporarily. Click Save to make your changes "
+"permanent. Click Cancel to discard the view."
+msgstr ""
+
+#: includes/admin.inc:1043,1043,1044,1044,1044,1044
+msgid ""
+"* All changes are stored temporarily. Click Save to make your changes "
+"permanent. Click Cancel to discard your changes."
+msgstr ""
+
+#: includes/admin.inc:1058,1058,1059,1059,1059,1059
+msgid "Modify the display(s) of your view below or add new displays."
+msgstr ""
+
+#: includes/admin.inc:1301,1308,1301,1308,1302,1309,1302,1309,1302,1309,1302,1309
+msgid "Add !display"
+msgstr "Добавить !display"
+
+#: includes/admin.inc:1113,1113,1114,1114,1114,1114
+msgid "@display_title details"
+msgstr "@display_title детали"
+
+#: includes/admin.inc:1183,1183,1184,1184,1184,1184
+msgid "Auto preview"
+msgstr "Авто предпросмотр"
+
+#: includes/admin.inc:1190,1190,1191,1191,1191,1191
+msgid "Preview with contextual filters:"
+msgstr ""
+
+#: includes/admin.inc:1191,1191,1192,1192,1192,1192
+msgid "Separate contextual filter values with a \"/\". For example, %example."
+msgstr ""
+
+#: includes/admin.inc:1804,1804,1817,1817,1817,1817
+msgid ":"
+msgstr ":"
+
+#: includes/admin.inc:2427,2429,2427,2429,2445,2447,2445,2447,2445,2447,2445,2447
+msgid "Apply and continue"
+msgstr "Применить и продолжить"
+
+#: includes/admin.inc:2627,2627,2645,2645,2645,2645
+msgid "@current of @total"
+msgstr "@current из @total"
+
+#: includes/admin.inc:2647,2647,2665,2665,2665,2665
+msgid "All displays (except overridden)"
+msgstr ""
+
+#: includes/admin.inc:2648,2648,2666,2666,2666,2666
+msgid "This @display_type (override)"
+msgstr ""
+
+#: includes/admin.inc:3184,3184,3209,3209,3209,3209
+msgid "View name and description"
+msgstr ""
+
+#: includes/admin.inc:3194,3194,3219,3219,3219,3219
+msgid "A descriptive human-readable name for this view. Spaces are allowed"
+msgstr ""
+
+#: includes/admin.inc:3719,3719,3818,3818,3818,3818
+msgid "Create new filter group"
+msgstr "Создать новую группу фильтров"
+
+#: includes/admin.inc:3754,3754,3853,3853,3853,3853
+msgid "No filters have been added."
+msgstr ""
+
+#: includes/admin.inc:3754,3754,3853,3853,3853,3853
+msgid "Drag to add filters."
+msgstr "Перетащите, для добавления фильтра."
+
+#: includes/admin.inc:4053,4053,4152,4152,4152,4152
+msgid "Add and configure @types"
+msgstr "Добавить и конфигурировать @types"
+
+#: includes/admin.inc:4224,4224,4362,4362,4362,4362
+msgid "Configure @type: @item"
+msgstr ""
+
+#: includes/admin.inc:4655,4655,4795,4795,4795,4795
+msgid "Show filters on the list of views"
+msgstr ""
+
+#: includes/admin.inc:4660,4660,4800,4800,4800,4800
+msgid "Show advanced help warning"
+msgstr ""
+
+#: includes/admin.inc:4738,4738,4878,4878,4878,4878
+msgid "Show the SQL query"
+msgstr "Показать SQL запрос"
+
+#: includes/admin.inc:4744,4744,4884,4884,4884,4884
+msgid "Show performance statistics"
+msgstr ""
+
+#: includes/admin.inc:4667,4667,4807,4807,4807,4807
+msgid ""
+"Advanced users of views may choose to see the master (i.e. default) "
+"display."
+msgstr ""
+
+#: includes/admin.inc:4673,4673,4813,4813,4813,4813
+msgid "Always show advanced display settings"
+msgstr ""
+
+#: includes/admin.inc:4674,4674,4814,4814,4814,4814
+msgid ""
+"Default to showing advanced display settings, such as relationships "
+"and contextual filters."
+msgstr ""
+
+#: includes/admin.inc:4695,4695,4835,4835,4835,4835
+msgid "Label for \"Any\" value on non-required single-select exposed filters"
+msgstr ""
+
+#: includes/admin.inc:4802,4802,4942,4942,4942,4942
+msgid "Disable JavaScript with Views"
+msgstr ""
+
+#: includes/admin.inc:4803,4803,4943,4943,4943,4943
+msgid ""
+"If you are having problems with the JavaScript, you can disable it "
+"here. The Views UI should degrade and still be usable without "
+"javascript; it's just not as good."
+msgstr ""
+
+#: includes/admin.inc:5182,5182,5329,5329,5329,5329
+msgid "There are no templates available."
+msgstr "Нет доступных шаблонов."
+
+#: includes/admin.inc:822,822,821,821,821,821
+msgid "Display"
+msgid_plural "Displays"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: includes/plugins.inc:111,111,112,112,112,112
+msgid "Unformatted list"
+msgstr "Не форматированный список"
+
+#: includes/view.inc:2466,2466,2590,2590,2590,2598,2598
+msgid "Contextual filters"
+msgstr "Контекстные фильтры"
+
+#: includes/view.inc:2467,2467,2591,2591,2591,2599,2599
+msgid "contextual filters"
+msgstr "контекстные фильтры"
+
+#: includes/view.inc:2468,2468,2592,2592,2592,2600,2600
+msgid "Contextual filter"
+msgstr "Контекстный фильтр"
+
+#: includes/view.inc:2469,2469,2593,2593,2593,2601,2601
+msgid "contextual filter"
+msgstr "контекстный фильтр"
+
+#: includes/view.inc:2481,2481,2605,2605,2605,2613,2613
+msgid "filter criteria"
+msgstr "критерии фильтра"
+
+#: includes/view.inc:2482,2482,2606,2606,2606,2614,2614
+msgid "Filter criterion"
+msgstr "Критерий фильтра"
+
+#: includes/view.inc:2483,2483,2607,2607,2607,2615,2615
+msgid "filter criterion"
+msgstr ""
+
+#: includes/view.inc:2511,2511,2635,2635,2635,2643,2643
+msgid "no results behavior"
+msgstr "поведение при отсутствии результатов"
+
+#: includes/admin.inc:4666,4666,4806,4806,4806,4806
+msgid "Always show the master display"
+msgstr "Всегда показывать основной дисплей"
+
+#: includes/admin.inc:4702,4702,4842,4842,4842,4842
+msgid "Live preview settings"
+msgstr ""
+
+#: includes/admin.inc:4707,4707,4847,4847,4847,4847
+msgid "Automatically update preview on changes"
+msgstr ""
+
+#: includes/admin.inc:4719,4719,4859,4859,4859,4859
+msgid "Show information and statistics about the view during live preview"
+msgstr ""
+
+#: includes/admin.inc:4726,4726,4866,4866,4866,4866
+msgid "Above the preview"
+msgstr ""
+
+#: includes/admin.inc:4727,4727,4867,4867,4867,4867
+msgid "Below the preview"
+msgstr ""
+
+#: includes/admin.inc:1243,1243,1244,1244,1244,1244
+msgid "edit view name/description"
+msgstr ""
+
+#: includes/admin.inc:1248,1248,1249,1249,1249,1249
+msgid "analyze view"
+msgstr ""
+
+#: includes/admin.inc:1253,1253,1254,1254,1254,1254
+msgid "clone view"
+msgstr "клонировать представление"
+
+#: includes/admin.inc:1257,1257,1258,1258,1258,1258
+msgid "export view"
+msgstr ""
+
+#: includes/admin.inc:1274,1274,1275,1275,1275,1275
+msgid "revert view"
+msgstr ""
+
+#: includes/admin.inc:1281,1281,1282,1282,1282,1282
+msgid "delete view"
+msgstr "удалить представление"
+
+#: includes/handlers.inc:636,661,636,644,644,644,661,661,644
+msgid "Ensure my table called but query has no ensure_table method."
+msgstr ""
+
+#: includes/admin.inc:1261,1261,1262,1262,1262,1262
+msgid "reorder displays"
+msgstr ""
+
+#: includes/admin.inc:1609,1609,1622,1622,1622,1622
+msgid "clone @display_title"
+msgstr "клонировать @display_title"
+
+#: includes/admin.inc:1619,1619,1632,1632,1632,1632
+msgid "delete @display_title"
+msgstr "удалить @display_title"
+
+#: includes/admin.inc:1640,1640,1653,1653,1653,1653
+msgid "undo delete of @display_title"
+msgstr "отменить удаление @display_title"
+
+#: includes/admin.inc:2213,2213,2227,2227,2227,2227
+msgid "The selected style or row format does not utilize fields."
+msgstr ""
+
+#: includes/admin.inc:1118,1118,1119,1119,1119,1119
+msgid "This display is disabled."
+msgstr ""
+
+#: includes/admin.inc:1585,1585,1598,1598,1598,1598
+msgid "enable @display_title"
+msgstr "включить @display_title"
+
+#: includes/admin.inc:1629,1629,1642,1642,1642,1642
+msgid "disable @display_title"
+msgstr "отключить @display_title"
+
+#: includes/admin.inc:1164,1164,1165,1165,1165,1165
+msgid ""
+"This view has been automatically updated to fix missing relationships. "
+"While this View should continue to work, you should verify that the "
+"automatic updates are correct and save this view."
+msgstr ""
+
+#: includes/analyze.inc:115,115,116,116,116,116
+msgid ""
+"You have configured display %display with a path which is an path "
+"alias as well. This might lead to unwanted effects so better use an "
+"internal path."
+msgstr ""
+
+#: includes/admin.inc:1997,1997,2016,2016,2016,2016
+msgid ""
+"That view is not compatible with this version of Views.\n"
+"      If you have a view from views1 you have to go to a drupal6 "
+"installation and import it there."
+msgstr ""
+
+#: includes/handlers.inc:440,440,448,448,448,448
+msgid "Aggregation type"
+msgstr ""
+
+#: includes/admin.inc:4849,3767,4849,4989,4989,4989,3767,3767,4989
+msgid "Display extenders"
+msgstr ""
+
+#: includes/admin.inc:4853,3771,4853,4993,4993,4993,3771,3771,4993
+msgid "Select extensions of the views interface."
+msgstr ""
+
+#: includes/plugins.inc:100,89,100,101,101,101,89,89,101
+msgid "Empty display extender"
+msgstr ""
+
+#: includes/admin.inc:1598,1598,1611,1611,1611,1611
+msgid "view @display"
+msgstr "представление @display"
+
+#: includes/admin.inc:1520,1520,1533,1533,1533,1533
+msgid ""
+"Error: Display @display refers to a plugin named '@plugin', but that "
+"plugin is not available."
+msgstr ""
+
+#: includes/admin.inc:2327,2327,2345,2345,2345,2345
+msgid "Aggregation settings"
+msgstr ""
+
+#: includes/handlers.inc:428,428,436,436,436,436
+msgid "Configure aggregation settings for @type %item"
+msgstr ""
+
+#: includes/handlers.inc:442,442,450,450,450,450
+msgid "Select the aggregation function to use on this field."
+msgstr ""
+
+#: includes/plugins.inc:212,213,212,224,224,224,213,213,224
+msgid "Raw value from URL"
+msgstr ""
+
+#: includes/analyze.inc:115,115,115
+msgid "Style plugin @plugin: @message"
+msgstr ""
+
+#: includes/admin.inc:2203,2203,2217,2217,2217,2217
+msgid "And/Or, Rearrange"
+msgstr ""
+
+#: includes/admin.inc:5287,5287,5434,5434,5434,5434
+msgid "No fields have been used in views yet."
+msgstr ""
+
+#: includes/admin.inc:5116,5116,5263,5263,5263,5263
+msgid "Hide empty column"
+msgstr ""
+
+#: includes/admin.inc:3200,3200,3225,3225,3225,3225
+msgid ""
+"Optionally, enter a comma delimited list of tags for this view to use "
+"in filtering and sorting views on the administrative page."
+msgstr ""
+
+#: includes/admin.inc:4687,4687,4827,4827,4827,4827
+msgid "Custom admin theme for the Views UI"
+msgstr ""
+
+#: includes/admin.inc:4690,4690,4830,4830,4830,4830
+msgid ""
+"In some cases you might want to select a different admin theme for the "
+"Views UI."
+msgstr ""
+
+#: includes/admin.inc:1960,799,1960,1973,1973,1973,799,799,1973
+msgid "Replace an existing view if one exists with the same name"
+msgstr ""
+
+#: includes/admin.inc:4809,4809,4949,4949,4949,4949
+msgid ""
+"Enable views performance statistics/debug messages via the Devel "
+"module"
+msgstr ""
+
+#: includes/admin.inc:4810,4810,4950,4950,4950,4950
+msgid ""
+"Check this to enable some Views query and performance statistics/debug "
+"messages <em>if Devel is installed</em>."
+msgstr ""
+
+#: includes/admin.inc:4830,4830,4970,4970,4970,4970
+msgid "Devel message(dpm)"
+msgstr ""
+
+#: includes/admin.inc:4831,4831,4971,4971,4971,4971
+msgid "Devel logging (tmp://drupal_debug.txt)"
+msgstr ""
+
+#: includes/admin.inc:4836,4836,4976,4976,4976,4976
+msgid "Page region to output performance statistics/debug messages"
+msgstr ""
+
+#: includes/admin.inc:4680,4680,4820,4820,4820,4820
+msgid "Show the embed display in the ui."
+msgstr ""
+
+#: includes/admin.inc:4681,4681,4821,4821,4821,4821
+msgid ""
+"Allow advanced user to use the embed view display. The plugin itself "
+"works if it's not visible in the ui"
+msgstr ""
+
+#: includes/plugins.inc:87,87,87,87,87,87
+msgid "Provide a display which can be embedded using the views api."
+msgstr ""
+
+#: includes/admin.inc:4795,4795,4935,4935,4935,4935
+msgid ""
+"All Views-generated queries will include the name of the views and "
+"display 'view-name:display-name' as a string  at the end of the SELECT "
+"clause. This makes identifying Views queries in database server logs "
+"simpler, but should only be used when troubleshooting."
+msgstr ""
+
+#: includes/plugins.inc:200,200,200,200
+msgid "Display fields as RSS items."
+msgstr ""
+
+#: includes/admin.inc:1978,1978,1978,1978
+msgid "Bypass view validation"
+msgstr ""
+
+#: includes/admin.inc:1979,1979,1979,1979
+msgid ""
+"Bypass the validation of plugins and handlers when importing this "
+"view."
+msgstr ""
+
+#: includes/admin.inc:853,853,853,853
+msgid "There is no lock on view %name to break."
+msgstr ""
+
+#: includes/admin.inc:5459,5459,5459,5459
+msgid "There are no enabled views."
+msgstr ""
+
+#: includes/admin.inc:1502,1502,1502,1502
+msgid "This display has one or more validation errors; please review it."
+msgstr ""
+
+#: includes/admin.inc:3592,3592,3592,3592
+msgid "&lt;Any&gt;"
+msgstr "&lt;Любой&gt;"
+
+#: includes/admin.inc:2217
+msgid "and/or, rearrange"
+msgstr "и/или переупорядочить"
+
+#: includes/admin.inc:94,94
+msgid ""
+"If you <a href=\"@modules\">enable the advanced help module</a>, Views "
+"will provide more and better help. <a href=\"@hide\">You can disable "
+"this message at the Views settings page.</a>"
+msgstr ""
+
+#: includes/admin.inc:97,97
+msgid ""
+"If you install the advanced help module from !href, Views will provide "
+"more and better help. <a href=\"@hide\">You can disable this message "
+"at the Views settings page.</a>"
+msgstr ""
+

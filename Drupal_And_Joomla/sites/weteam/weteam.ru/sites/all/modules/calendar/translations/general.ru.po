@@ -1,0 +1,421 @@
+# Russian translation of calendar (all releases)
+# Copyright (c) 2012 by the Russian translation team
+# Generated from files:
+#  calendar/calendar_admin.inc: n/a
+#  calendar/calendar.module: n/a
+#  calendar/jcalendar/jcalendar.module: n/a
+#  calendar/includes/calendar.views_template.inc: n/a
+#  calendar/theme/calendar-month-multiple-entity.tpl.php: n/a
+#  calendar-month-multiple-node.tpl.php,v 1.1.2.1 2010/11/28 23:31:28 karens
+#  calendar-week-multiple-node.tpl.php,v 1.1.2.1 2010/11/28 23:31:28 karens
+#  jcalendar.module,v 1.1.4.17 2010/11/21 12:24:45 karens
+#  calendar-month-multiple-node.tpl.php,v 1.1.2.6 2010/11/21 13:19:37 karens
+#  calendar-week-multiple-node.tpl.php,v 1.1.2.5 2010/11/21 13:19:37 karens
+#  calendar/calendar_multiday/theme/calendar-month-multiple-node.tpl.php: n/a
+#  calendar/calendar_multiday/theme/calendar-week-multiple-node.tpl.php: n/a
+#  calendar/theme/calendar-month-multiple-node.tpl.php: n/a
+#  calendar/theme/calendar-week-multiple-node.tpl.php: n/a
+#  calendar/calendar_ical_admin.inc: n/a
+#  calendar_ical_admin.inc,v 1.1.2.2 2008/10/02 20:23:49 karens
+#  calendar/calendar_ical/calendar_ical_admin.inc: n/a
+#  calendar/theme/theme.inc: n/a
+#  theme.inc,v 1.1.2.4 2011/01/03 12:28:48 karens
+#  theme.inc,v 1.10.2.80 2011/01/03 12:45:27 karens
+#  calendar/calendar_multiday/theme/theme.inc: n/a
+#  calendar/includes/calendar_plugin_style.inc: n/a
+#  calendar_view_plugin_style.inc,v 1.1.2.21 2010/12/28 15:35:50 karens
+#  calendar/includes/calendar_view_plugin_style.inc: n/a
+#  calendar/theme/calendar-day.tpl.php: n/a
+#  calendar/theme/calendar-week.tpl.php: n/a
+#  calendar-day.tpl.php,v 1.1.2.1 2010/11/28 23:31:28 karens
+#  calendar-week.tpl.php,v 1.1.2.1 2010/11/28 23:31:28 karens
+#  calendar-day.tpl.php,v 1.7.2.10 2010/11/21 13:19:37 karens
+#  calendar-week.tpl.php,v 1.5.2.6 2009/02/16 23:46:22 karens
+#  calendar/calendar_multiday/theme/calendar-day.tpl.php: n/a
+#  calendar/calendar_multiday/theme/calendar-week.tpl.php: n/a
+#  calendar_plugin_display_page.inc,v 1.1.2.25 2011/01/03 02:39:05 karens
+#  calendar/includes/calendar_plugin_display_page.inc: n/a
+#  calendar/calendar.theme: n/a
+#  calendar/calendar.info: n/a
+#  calendar/calendar_ical.info: n/a
+#  calendar/jcalendar/jcalendar.info: n/a
+#  calendar.info,v 1.8 2008/04/23 23:42:53 karens
+#  calendar_ical.info,v 1.1.2.1 2008/09/05 11:03:42 karens
+#  calendar_multiday.info,v 1.1.2.2 2011/01/03 12:28:47 karens
+#  jcalendar.info,v 1.1.4.2 2008/06/23 14:55:01 karens
+#  calendar/calendar_ical/calendar_ical.info: n/a
+#  calendar/calendar_multiday/calendar_multiday.info: n/a
+#  calendar/includes/calendar.views.inc: n/a
+#  calendar.module,v 1.121.2.43 2010/12/31 16:25:43 karens
+#  calendar.views.inc,v 1.1.2.11 2010/11/29 11:41:58 karens
+#  calendar/calendar_ical.module: n/a
+#  calendar_ical.module,v 1.1.2.6 2008/11/24 15:48:15 karens
+#  calendar/calendar_ical/calendar_ical.module: n/a
+#  calendar/includes/calendar_plugin_row.inc: n/a
+#  calendar_plugin_display_ical.inc,v 1.1.2.5 2008/11/25 16:12:36 karens
+#  calendar/calendar_ical/calendar_plugin_display_ical.inc: n/a
+#  calendar_plugin_display_attachment.inc,v 1.1.2.22 2011/01/03 02:39:05 karens
+#  calendar/includes/calendar_plugin_display_attachment.inc: n/a
+#  calendar_plugin_style_ical.inc,v 1.1.2.17 2009/04/28 22:47:29 karens
+#  calendar_plugin_style.inc,v 1.1.2.18 2011/01/03 02:39:05 karens
+#  calendar/calendar_ical/calendar_plugin_style_ical.inc: n/a
+#  calendar/theme/calendar-day-overlap.tpl.php: n/a
+#  calendar/theme/calendar-week-overlap.tpl.php: n/a
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: calendar (all releases)\n"
+"POT-Creation-Date: 2012-08-17 04:41-0400\n"
+"PO-Revision-Date: 2012-02-12 04:08-0500\n"
+"Language-Team: Russian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=((((n%10)==1)&&((n%100)!=11))?(0):(((((n%10)>=2)&&((n%10)<=4))&&(((n%100)<10)||((n%100)>=20)))?(1):2));\n"
+
+#: calendar_admin.inc:401,402; calendar.module:488,489
+msgid "List"
+msgstr "Список"
+
+#: jcalendar/jcalendar.module:82,83,95,94; includes/calendar.views_template.inc:802,802; theme/calendar-month-multiple-entity.tpl.php:24,24; calendar_multiday/theme/calendar-month-multiple-node.tpl.php:25,24; calendar_multiday/theme/calendar-week-multiple-node.tpl.php:24,23; theme/calendar-month-multiple-node.tpl.php:25,24; theme/calendar-week-multiple-node.tpl.php:24,23
+msgid "more"
+msgstr "еще"
+
+#: calendar_admin.inc:457,506,458,507; calendar_ical_admin.inc:91,92; calendar_ical/calendar_ical_admin.inc:77,76
+msgid "Submit"
+msgstr "Отправить"
+
+#: theme/theme.inc:187,212,296,187,212,296,325,351,394,324,350,393; calendar_multiday/theme/theme.inc:343,370,436,342,369,436
+msgid "Items"
+msgstr "Элементы"
+
+#: includes/calendar_plugin_style.inc:104,104; includes/calendar_view_plugin_style.inc:92,107
+msgid "Custom"
+msgstr "Собственная"
+
+#: theme/calendar-day.tpl.php:40,40,41,40; theme/calendar-week.tpl.php:40,40,36,35; calendar_multiday/theme/calendar-day.tpl.php:41,40; calendar_multiday/theme/calendar-week.tpl.php:38,37
+msgid "Time"
+msgstr "Время"
+
+#: calendar_admin.inc:367,374,368,375; calendar.module:46,46; includes/calendar_plugin_style.inc:63,79,63,79; includes/calendar_plugin_display_page.inc:137,136; includes/calendar_view_plugin_style.inc:70,85
+msgid "Yes"
+msgstr "Да"
+
+#: calendar_admin.inc:367,374,368,375; calendar.module:46,46; includes/calendar_plugin_style.inc:63,79,63,79; includes/calendar_plugin_display_page.inc:137,136; includes/calendar_view_plugin_style.inc:70,85
+msgid "No"
+msgstr "Нет"
+
+#: calendar_admin.inc:401,402; calendar.module:491,492
+msgid "Table"
+msgstr "Таблица"
+
+#: calendar_ical_admin.inc:54,55; calendar_ical/calendar_ical_admin.inc:47,46
+msgid "Name"
+msgstr "Имя"
+
+#: calendar_admin.inc:381,382; includes/calendar_plugin_style.inc:86,86; includes/calendar_view_plugin_style.inc:76,91
+msgid "Unlimited"
+msgstr "Не ограничено"
+
+#: calendar.theme:436,437; theme/theme.inc:705,705,695,696; calendar_multiday/theme/theme.inc:810,811
+msgid "Key"
+msgstr "Ключ"
+
+#: calendar.info:0,0,0,0; calendar_ical.info:0; jcalendar/jcalendar.info:0,0,0; calendar_ical/calendar_ical.info:0,0; calendar_multiday/calendar_multiday.info:0,0
+msgid "Date/Time"
+msgstr "Дата/Время"
+
+#: calendar.theme:435,436; theme/theme.inc:704,704,694,695; calendar_multiday/theme/theme.inc:809,810
+msgid "Item"
+msgstr "Пункт"
+
+#: calendar_admin.inc:354,361,355,362; includes/calendar_plugin_style.inc:71,71; includes/calendar_view_plugin_style.inc:62,77
+msgid "Full name"
+msgstr "Полное имя"
+
+#: calendar_admin.inc:17,401,577,628,640,18,402,578,629,641; calendar.module:487,271,16,488,271,16,522,519; calendar.info:0,0,0,0; includes/calendar.views.inc:25,25,200,199; includes/calendar.views_template.inc:144,144
+msgid "Calendar"
+msgstr "Календарь"
+
+#: calendar_admin.inc:401,402; calendar.module:489,490
+msgid "Teasers"
+msgstr "Анонсы"
+
+#: calendar_ical_admin.inc:27,28; calendar_ical/calendar_ical_admin.inc:22,21
+msgid "Expire iCal cache"
+msgstr ""
+
+#: calendar_ical_admin.inc:29,30; calendar_ical/calendar_ical_admin.inc:24,23
+msgid ""
+"iCal feeds are cached to improve performance. Set an expiration time "
+"for cached feeds."
+msgstr ""
+
+#: calendar_ical_admin.inc:35,36; calendar_ical/calendar_ical_admin.inc:30,29
+msgid "iCal Feeds"
+msgstr ""
+
+#: calendar_ical_admin.inc:36,37; calendar_ical/calendar_ical_admin.inc:31,30
+msgid ""
+"Use this section to set up iCal feeds that should be displayed in this "
+"calendar. They will be shown along with any internal items that match "
+"the calendar criteria."
+msgstr ""
+
+#: calendar_ical_admin.inc:49,50; calendar_ical/calendar_ical_admin.inc:42,41
+msgid "Feed type"
+msgstr ""
+
+#: calendar_ical_admin.inc:57,58; calendar_ical/calendar_ical_admin.inc:50,49
+msgid "The name of a feed to include in this calendar."
+msgstr ""
+
+#: calendar_ical.module:302,303; calendar_ical/calendar_ical.module:29,28
+msgid "Add to calendar"
+msgstr "Добавить в календарь"
+
+#: calendar_ical.module:19,20; includes/calendar.views_template.inc:814,814
+msgid "iCal"
+msgstr "iCal"
+
+#: calendar_admin.inc:401,402; includes/calendar_plugin_row.inc:79,79; includes/calendar_plugin_style.inc:104,104; calendar_ical/calendar_plugin_display_ical.inc:103,102; includes/calendar_plugin_display_page.inc:131,130; includes/calendar_view_plugin_style.inc:92,107
+msgid "None"
+msgstr "Нет"
+
+#: calendar.theme:384,406,385,407; calendar.module:200,200,160,159; includes/calendar.views_template.inc:810,810
+msgid "Month"
+msgstr "Месяц"
+
+#: calendar.theme:381,402,382,403; calendar.module:200,200,160,159; includes/calendar.views_template.inc:808,808
+msgid "Year"
+msgstr "Год"
+
+#: calendar.theme:390,414,391,415; calendar.module:200,200,160,159; includes/calendar.views_template.inc:812,812
+msgid "Day"
+msgstr "День"
+
+#: includes/calendar_plugin_style.inc:104,104; includes/calendar_view_plugin_style.inc:92,107
+msgid "Hour"
+msgstr "Час"
+
+#: calendar.theme:387,410,388,411; calendar.module:200,200,160,159; includes/calendar.views_template.inc:811,811
+msgid "Week"
+msgstr "Неделя"
+
+#: calendar_ical.info:0; calendar_ical/calendar_ical.info:0,0
+msgid "Calendar iCal"
+msgstr "Календарь iCal"
+
+#: includes/calendar_plugin_row.inc:70,70; includes/calendar_plugin_display_page.inc:160,159
+msgid "No link"
+msgstr "Без ссылок"
+
+#: calendar_admin.inc:379,380; includes/calendar_plugin_style.inc:84,84; includes/calendar_view_plugin_style.inc:74,89
+msgid "Maximum items"
+msgstr "Максимально элементов"
+
+#: calendar_ical.info:0; calendar_ical/calendar_ical.info:0,0
+msgid "Adds ical functionality to Calendar views."
+msgstr ""
+
+#: calendar_admin.inc:354,361,355,362; includes/calendar_plugin_style.inc:71,71; includes/calendar_view_plugin_style.inc:62,77
+msgid "First letter of name"
+msgstr "Первая буква имени"
+
+#: calendar_admin.inc:354,361,355,362; includes/calendar_plugin_style.inc:71,71; includes/calendar_view_plugin_style.inc:62,77
+msgid "First two letters of name"
+msgstr "Первые две буквы имени"
+
+#: calendar_admin.inc:354,361,355,362; includes/calendar_plugin_style.inc:71,71; includes/calendar_view_plugin_style.inc:62,77
+msgid "Abbreviated name"
+msgstr ""
+
+#: includes/calendar_plugin_style.inc:68,68; includes/calendar_view_plugin_style.inc:59,74
+msgid "Calendar day of week names"
+msgstr ""
+
+#: includes/calendar_plugin_style.inc:72,72; includes/calendar_view_plugin_style.inc:63,78
+msgid "The way day of week names should be displayed in a calendar."
+msgstr ""
+
+#: calendar_admin.inc:365,366; includes/calendar_plugin_style.inc:76,76; includes/calendar_view_plugin_style.inc:67,82
+msgid "Show week numbers"
+msgstr "Отображать номера недель"
+
+#: includes/calendar_plugin_style.inc:80,80; includes/calendar_view_plugin_style.inc:71,86
+msgid ""
+"Whether or not to show week numbers in the left column of calendar "
+"weeks and months."
+msgstr ""
+
+#: calendar_ical_admin.inc:75,76; calendar_ical/calendar_ical_admin.inc:61,60
+msgid "Stripe color"
+msgstr "Цвет полоски"
+
+#: calendar_ical_admin.inc:81,82; calendar_ical/calendar_ical_admin.inc:67,66
+msgid ""
+"The hex color value (like #ffffff) to use for this feed's calendar "
+"stripe."
+msgstr ""
+
+#: includes/calendar_plugin_display_attachment.inc:222,220; includes/calendar_plugin_display_page.inc:92,91
+msgid "Calendar settings"
+msgstr "Настройки Calendar"
+
+#: calendar_admin.inc:381,382; includes/calendar_plugin_style.inc:86,86; includes/calendar_view_plugin_style.inc:76,91
+msgid "3 items"
+msgstr "3 элемента"
+
+#: calendar_admin.inc:381,382; includes/calendar_plugin_style.inc:86,86; includes/calendar_view_plugin_style.inc:76,91
+msgid "5 items"
+msgstr "5 элементов"
+
+#: calendar_admin.inc:381,382; includes/calendar_plugin_style.inc:86,86; includes/calendar_view_plugin_style.inc:76,91
+msgid "10 items"
+msgstr "10 элементов"
+
+#: calendar.theme:635,674,636,675; theme/calendar-month-multiple-entity.tpl.php:20,20; calendar_multiday/theme/calendar-month-multiple-node.tpl.php:21,20; calendar_multiday/theme/calendar-week-multiple-node.tpl.php:20,19; theme/calendar-month-multiple-node.tpl.php:21,20; theme/calendar-week-multiple-node.tpl.php:20,19
+msgid "Click to see all @count events"
+msgstr ""
+"Нажмите для просмотра всех событий "
+"(@count)"
+
+#: includes/calendar.views.inc:159,158; includes/calendar_plugin_display_attachment.inc:188,227,186,225
+msgid "Calendar period"
+msgstr "Период календаря"
+
+#: includes/calendar_plugin_style.inc:55,55; includes/calendar_plugin_display_attachment.inc:191,189
+msgid "Select the calendar time period for this display."
+msgstr ""
+"Выберите период времени календаря для "
+"этого дисплея."
+
+#: calendar_ical/calendar_plugin_style_ical.inc:134,133; includes/calendar_plugin_style.inc:109,108
+msgid ""
+"The date field '@field' used by the display '@display_title' cannot be "
+"set to 'Group multiple values'."
+msgstr ""
+
+#: calendar_admin.inc:383,384; includes/calendar_view_plugin_style.inc:78,93
+msgid ""
+"Maximum number of items to show in calendar cells, used to keep the "
+"calendar from expanding to a huge size when there are lots of items in "
+"one day. "
+msgstr ""
+"Максимальное количество элементов "
+"для отобажения в ячейке календаря, "
+"используется для сдерживания "
+"расширения календаря до огромных "
+"размеров при большом количестве "
+"элементов в один день. "
+
+#: calendar_admin.inc:386,387; includes/calendar_plugin_style.inc:92,92; includes/calendar_view_plugin_style.inc:81,96
+msgid "Too many items"
+msgstr "Слишком много элементов"
+
+#: calendar_admin.inc:388,389; includes/calendar_plugin_style.inc:94,94; includes/calendar_view_plugin_style.inc:83,98
+msgid "Show maximum, add 'more' link"
+msgstr "Отображать максимум и ссылку \"больше\""
+
+#: calendar_admin.inc:388,389; includes/calendar_plugin_style.inc:94,94; includes/calendar_view_plugin_style.inc:83,98
+msgid "Hide all, add link to day"
+msgstr "Скрывать всё, добавлять ссылку на день"
+
+#: calendar_admin.inc:390,391; includes/calendar_plugin_style.inc:96,96; includes/calendar_view_plugin_style.inc:85,100
+msgid ""
+"Behavior when there are more than the above number of items in a "
+"single day. When there more items than this limit, a link to the day "
+"view will be displayed."
+msgstr ""
+
+#: theme/theme.inc:762,762,741,742; calendar_multiday/theme/theme.inc:856,857
+msgid "Empty day"
+msgstr "Пустой день"
+
+#: includes/calendar_plugin_row.inc:170,170; includes/calendar_plugin_display_page.inc:203,202
+msgid "Vocabulary Legend Types"
+msgstr ""
+
+#: includes/calendar_plugin_style.inc:100,100; includes/calendar_view_plugin_style.inc:88,103
+msgid "Time grouping"
+msgstr "Группировка по времени"
+
+#: includes/calendar_plugin_style.inc:103,103; includes/calendar_view_plugin_style.inc:91,106
+msgid "Group items together into time periods based on their start time."
+msgstr ""
+
+#: includes/calendar_plugin_style.inc:104,104; includes/calendar_view_plugin_style.inc:92,107
+msgid "Half hour"
+msgstr "Полчаса"
+
+#: includes/calendar_plugin_style.inc:108,108; includes/calendar_view_plugin_style.inc:95,110
+msgid "Custom time grouping"
+msgstr "Другая группировка по времени"
+
+#: includes/calendar_plugin_style.inc:111,111; includes/calendar_view_plugin_style.inc:98,113
+msgid ""
+"When choosing the 'custom' Time grouping option above, create custom "
+"time period groupings as a comma-separated list of 24-hour times in "
+"the format HH:MM:SS, like '00:00:00,08:00:00,18:00:00'. Be sure to "
+"start with '00:00:00'. All items after the last time will go in the "
+"final group."
+msgstr ""
+
+#: includes/calendar_plugin_style.inc:130,130; includes/calendar_view_plugin_style.inc:116,131
+msgid "Field grouping"
+msgstr "Группировка по полям"
+
+#: theme/theme.inc:626,626,667,668; calendar_multiday/theme/theme.inc:782,783
+msgid "All times"
+msgstr ""
+
+#: theme/theme.inc:630,630,671,672; calendar_multiday/theme/theme.inc:786,787
+msgid "Before @time"
+msgstr "Перед @time"
+
+#: includes/calendar_plugin_row.inc:67,67; includes/calendar_plugin_display_page.inc:130,156,129,155
+msgid "Add new date link"
+msgstr ""
+
+#: includes/calendar_plugin_row.inc:71,71; includes/calendar_plugin_display_page.inc:161,160
+msgid ""
+"Display a link to add a new date of the specified content type. "
+"Displayed only to users with appropriate permissions."
+msgstr ""
+
+#: calendar_multiday/theme/theme.inc:77,76; theme/theme.inc:78,77
+msgid "Add+"
+msgstr "Добавить+"
+
+#: theme/calendar-day-overlap.tpl.php:41,41; theme/calendar-day.tpl.php:49,49; theme/calendar-week-overlap.tpl.php:68,121,68,121; theme/calendar-week.tpl.php:64,64
+msgid "All day"
+msgctxt "datetime"
+msgstr "Весь день"
+
+#: includes/calendar_plugin_style.inc:138,138; includes/calendar_view_plugin_style.inc:125,140
+msgid "Multi-day style"
+msgstr ""
+
+#: includes/calendar_plugin_style.inc:141,141; includes/calendar_view_plugin_style.inc:128,143
+msgid "Display multi-day item as a single column"
+msgstr ""
+
+#: includes/calendar_plugin_style.inc:141,141; includes/calendar_view_plugin_style.inc:128,143
+msgid "Display multi-day item as a multiple column row"
+msgstr ""
+
+#: includes/calendar_plugin_style.inc:142,142; includes/calendar_view_plugin_style.inc:129,144
+msgid ""
+"If selected, items which span multiple days will displayed as a "
+"multi-column row.  If not selected, items will be displayed as an "
+"individual column."
+msgstr ""
+
+#: includes/calendar_plugin_style.inc:115,115; includes/calendar_view_plugin_style.inc:132,147
+msgid "Overlapping time style"
+msgstr ""
+
+#: includes/calendar_plugin_style.inc:118,118; includes/calendar_view_plugin_style.inc:135,150
+msgid "Do not display overlapping items"
+msgstr ""
+

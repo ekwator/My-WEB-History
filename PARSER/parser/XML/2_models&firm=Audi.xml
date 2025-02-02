@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<euroauto-export>
+  <request>
+    <creation-time>2012-10-31 08:34:20 GMT+0400</creation-time>
+    <status>
+      <code>0</code>
+      <message>ok</message>
+    </status>
+    <get>models</get>
+    <firm>Audi</firm>
+  </request>
+  <models>
+    <model>
+      <model_id>18</model_id>
+      <model_name>100 [C4] 1991-1994</model_name>
+    </model>
+    <model>
+      <model_id>16</model_id>
+      <model_name>100/200 [43] &gt;1983</model_name>
+    </model>
+    <model>
+      <model_id>17</model_id>
+      <model_name>100/200 [44] 1983-1991</model_name>
+    </model>
+    <model>
+      <model_id>12</model_id>
+      <model_name>50 &gt;1978</model_name>
+    </model>
+    <model>
+      <model_id>13</model_id>
+      <model_name>80/90 [B2] &gt;1986</model_name>
+    </model>
+    <model>
+      <model_id>14</model_id>
+      <model_name>80/90 [B3] 1986-1991</model_name>
+    </model>
+    <model>
+      <model_id>291</model_id>
+      <model_name>80/90 [B4] 1991-1994</model_name>
+    </model>
+    <model>
+      <model_id>1219</model_id>
+      <model_name>A1 2010&gt;</model_name>
+    </model>
+    <model>
+      <model_id>19</model_id>
+      <model_name>A2 [8Z0] 2000-2005</model_name>
+    </model>
+    <model>
+      <model_id>20</model_id>
+      <model_name>A3 [8L1] 1996-2003</model_name>
+    </model>
+    <model>
+      <model_id>919</model_id>
+      <model_name>A3 [8P1] 2003&gt;</model_name>
+    </model>
+    <model>
+      <model_id>360</model_id>
+      <model_name>A3 [8PA] 2004&gt;</model_name>
+    </model>
+    <model>
+      <model_id>21</model_id>
+      <model_name>A4 [B5] 1994-2000</model_name>
+    </model>
+    <model>
+      <model_id>288</model_id>
+      <model_name>A4 [B6] 2000-2004</model_name>
+    </model>
+    <model>
+      <model_id>947</model_id>
+      <model_name>A4 [B7] 2005-2007</model_name>
+    </model>
+    <model>
+      <model_id>1085</model_id>
+      <model_name>A4 [B8] 2007&gt;</model_name>
+    </model>
+    <model>
+      <model_id>1355</model_id>
+      <model_name>A4 [B8] Allroad 2010&gt;</model_name>
+    </model>
+    <model>
+      <model_id>1356</model_id>
+      <model_name>A5/S5 Cabrio 2010&gt;</model_name>
+    </model>
+    <model>
+      <model_id>1074</model_id>
+      <model_name>A5/S5 Coupe/Sportback 2008&gt;</model_name>
+    </model>
+    <model>
+      <model_id>22</model_id>
+      <model_name>A6 [C4] 1994-1997</model_name>
+    </model>
+    <model>
+      <model_id>292</model_id>
+      <model_name>A6 [C5] 1997-2004</model_name>
+    </model>
+    <model>
+      <model_id>133</model_id>
+      <model_name>A6 [C6,4F] 2005-2011</model_name>
+    </model>
+    <model>
+      <model_id>1305</model_id>
+      <model_name>A6 [C7,4G] 2011&gt;</model_name>
+    </model>
+    <model>
+      <model_id>1270</model_id>
+      <model_name>A7 2011&gt;</model_name>
+    </model>
+    <model>
+      <model_id>1310</model_id>
+      <model_name>A8 [4H] 2011&gt;</model_name>
+    </model>
+    <model>
+      <model_id>471</model_id>
+      <model_name>A8 [D3,4E] 2004-2010</model_name>
+    </model>
+    <model>
+      <model_id>23</model_id>
+      <model_name>A8 1994-1998</model_name>
+    </model>
+    <model>
+      <model_id>293</model_id>
+      <model_name>A8 1998-2003</model_name>
+    </model>
+    <model>
+      <model_id>276</model_id>
+      <model_name>Allroad quattro 2000-2005</model_name>
+    </model>
+    <model>
+      <model_id>1123</model_id>
+      <model_name>Allroad quattro 2005&gt;</model_name>
+    </model>
+    <model>
+      <model_id>1365</model_id>
+      <model_name>Q3 2012&gt;</model_name>
+    </model>
+    <model>
+      <model_id>1075</model_id>
+      <model_name>Q5 2008&gt;</model_name>
+    </model>
+    <model>
+      <model_id>700</model_id>
+      <model_name>Q7 2005&gt;</model_name>
+    </model>
+    <model>
+      <model_id>1201</model_id>
+      <model_name>R 8 2009&gt;</model_name>
+    </model>
+    <model>
+      <model_id>1097</model_id>
+      <model_name>TT(8J3) 2006&gt;</model_name>
+    </model>
+    <model>
+      <model_id>25</model_id>
+      <model_name>TT(8N3) 1998-2006</model_name>
+    </model>
+    <model>
+      <model_id>26</model_id>
+      <model_name>V8 1988-1994</model_name>
+    </model>
+  </models>
+</euroauto-export>

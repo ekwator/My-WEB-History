@@ -1,0 +1,25 @@
+
+Change Log
+
+5) 6.x-2.0-beta3
+  i)    Added support for creating/extracting zip archives.
+  ii)   Added support for deleting files/folders.
+  iii)  Added support for copying/moving files/folders.
+
+4) 6.x-2.0-beta1
+  i)    All Ajax calls have been moved to execute under Drupal bootstrap for enhanced integration with Drupal
+        and security, thereby simplifying the installation procedure also.
+
+3) 6.x-2.0-beta1
+  i)    Complete refactoring of the module into a core add-on module architecture.
+  ii)   Original "Take Control" module refactored as "Quick Permissions" add-on module.
+  iii)  Introduced a new add-on module, "File Browser" - a complete File Manager for Drupal.
+        Currently supports creating files/directories, browsing them, downloading/uploading etc.
+        Succeeding versions would add more functionality to make the browser more useful.
+
+2) 6.x-2.0-alpha1 & 6.x-2.0-alpha2
+  Preview releases for testing for the upcoming major refactoring for 6.x-2.0 branch. All Ajax calls execute
+  outside regular Drupal bootstrap.
+
+1) 6.x-1.0
+  Initial version for "Take Control" with only basic options for modifying/deleting file/directory permissions.

@@ -1,0 +1,4 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+uprsnab.ru	TRUE	/	FALSE	1999999999	c4d5d4a57407397d011caa40ac4b1df1	-
+

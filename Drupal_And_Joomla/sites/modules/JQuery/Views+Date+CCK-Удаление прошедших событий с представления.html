@@ -1,0 +1,335 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html class="js" xmlns="http://www.w3.org/1999/xhtml" xml:lang="ru" dir="ltr" lang="ru"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="shortcut icon" href="http://www.drupal.ru/files/novosibirsk_favicon_5.png" type="image/x-icon">
+  <title>[РЕШЕНО] Views+Date+CCK/ "Удаление" прошедших событий с представления | Drupal в рунете</title>
+  <link type="text/css" rel="stylesheet" media="all" href="Views+Date+CCK-%D0%A3%D0%B4%D0%B0%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%BF%D1%80%D0%BE%D1%88%D0%B5%D0%B4%D1%88%D0%B8%D1%85%20%D1%81%D0%BE%D0%B1%D1%8B%D1%82%D0%B8%D0%B9%20%D1%81%20%D0%BF%D1%80%D0%B5%D0%B4%D1%81%D1%82%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F_files/css_e22ff03421b7d9f9e72a8c54aa99d422.css">
+<link type="text/css" rel="stylesheet" media="all" href="Views+Date+CCK-%D0%A3%D0%B4%D0%B0%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%BF%D1%80%D0%BE%D1%88%D0%B5%D0%B4%D1%88%D0%B8%D1%85%20%D1%81%D0%BE%D0%B1%D1%8B%D1%82%D0%B8%D0%B9%20%D1%81%20%D0%BF%D1%80%D0%B5%D0%B4%D1%81%D1%82%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F_files/3column.css">
+<script type="text/javascript" src="Views+Date+CCK-%D0%A3%D0%B4%D0%B0%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%BF%D1%80%D0%BE%D1%88%D0%B5%D0%B4%D1%88%D0%B8%D1%85%20%D1%81%D0%BE%D0%B1%D1%8B%D1%82%D0%B8%D0%B9%20%D1%81%20%D0%BF%D1%80%D0%B5%D0%B4%D1%81%D1%82%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F_files/js_ae1cfd383fc220e403603de700a67249.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, { "basePath": "/" });
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+function druid_forum_goto(fid) { window.location = '/forum/' + fid; }
+//--><!]]>
+</script>
+<!--[if IE]><style>
+.outer, .wide, h2, .wrapper, .minwidth {height: 0; he\ight: auto; zoom: 1;}
+/* rimuove complicazione per Gecko 1.7- */
+.left {margin-right: 1px;}
+.right {margin-left: 1px;}
+#login {width: 178px;}
+img, div { behavior: url(/sites/all/themes/novosibirsk/iepngfix.htc) }
+</style><![endif]-->
+
+<!--[if lt IE 7]><style>
+/* previene espansione center */
+.incenter {width: 100%;	margin-right: -10000px;	position: relative;}
+.center .news2 {margin:0 1px 1px 1px;}
+.minwidth {border-left: 904px solid #fff;}
+.wrapper {margin-left: -904px; position: relative;}
+#topmenu {position:rolevante !important;}
+</style><![endif]-->
+<style type="text/css">.gsfe_a{border:1px solid #b9b9b9;border-top-color:#a0a0a0;box-shadow:inset 0px 1px 2px rgba(0,0,0,0.1);-moz-box-shadow:inset 0px 1px 2px rgba(0,0,0,0.1);-webkit-box-shadow:inset 0px 1px 2px rgba(0,0,0,0.1);}.gsfe_b{border:1px solid #4d90fe;outline:none;box-shadow:inset 0px 1px 2px rgba(0,0,0,0.3);-moz-box-shadow:inset 0px 1px 2px rgba(0,0,0,0.3);-webkit-box-shadow:inset 0px 1px 2px rgba(0,0,0,0.3);}.gsib_a{width:100%;padding:4px 6px 0}.gsib_a,.gsib_b{vertical-align:top}.gssb_a{padding:0 7px}.gssb_a,.gssb_a td{white-space:nowrap;overflow:hidden;line-height:22px}#gssb_b{font-size:11px;color:#36c;text-decoration:none}#gssb_b:hover{font-size:11px;color:#36c;text-decoration:underline}.gssb_m{color:#000;background:#fff}.gssb_g{text-align:center;padding:8px 0 7px;position:relative}.gssb_h{font-size:15px;height:28px;margin:0.2em}.gssb_i{background:#eee}.gss_ifl{visibility:hidden;padding-left:5px}.gssb_i .gss_ifl{visibility:visible}a.gssb_j{font-size:13px;color:#36c;text-decoration:none;line-height:100%}a.gssb_j:hover{text-decoration:underline}.gssb_l{height:1px;background-color:#e5e5e5}.gssb_c{border:0;position:absolute;z-index:989}.gssb_e{border:1px solid #ccc;border-top-color:#d9d9d9;box-shadow:0 2px 4px rgba(0,0,0,0.2);-moz-box-shadow:0 2px 4px rgba(0,0,0,0.2);cursor:default}.gssb_f{visibility:hidden;white-space:nowrap}.gssb_k{border:0;display:block;position:absolute;top:0;z-index:988}.gsdd_a{border:none!important}.gscsep_a{display:none}.gsq_a{padding:0}.gscb_a{display:inline-block;font:27px/13px arial,sans-serif}.gsst_a .gscb_a{color:#a1b9ed;cursor:pointer}.gsst_a:hover .gscb_a,.gsst_a:focus .gscb_a{color:#36c}.gsst_a,.gsst_d{display:inline-block}.gsst_a{cursor:pointer;padding:0 3px}.gsst_a:hover{text-decoration:none!important}.gsst_b{font-size:16px;padding:0 3px;user-select:none;-moz-user-select:none;white-space:nowrap}.gsst_d{width:4px}.gsst_e{opacity:0.55;}.gsst_a:hover .gsst_e,.gsst_a:focus .gsst_e{opacity:0.72;}.gsst_a:active .gsst_e{opacity:1;}.gssb_a{padding:0 7px}.gssb_e{border:0}.gssb_l{margin:5px 0}.gssb_c .gsc-completion-container{position:static}.gssb_c{z-index:5000}.gsc-completion-container table{background:transparent;font-size:inherit;font-family:inherit}.gssb_c > tbody > tr,.gssb_c > tbody > tr > td,.gssb_d,.gssb_d > tbody > tr,.gssb_d > tbody > tr > td,.gssb_e,.gssb_e > tbody > tr,.gssb_e > tbody > tr > td{padding:0;margin:0;border:0}.gssb_a table,.gssb_a table tr,.gssb_a table tr td{padding:0;margin:0;border:0}</style></head>
+
+
+<body>
+<div id="content"> <!-- высота -->
+	<div>  <!-- 3 колонки -->       
+
+  <!--шапка над 3 колонками-->
+	<div class="minwidth"><div class="wrapper">
+
+  <div id="header">
+		<div id="logo"><a href="http://www.drupal.ru/" title=""></a></div>
+		<p id="logo-name"><a href="http://www.drupal.ru/" title="Drupal Россия"><strong>Drupal</strong> Россия</a></p>
+		<div id="sub-header">
+
+			    <ul class="links" id="sub-topmenu"><li class="menu-122 first"><a href="http://www.drupal.ru/features">О Drupal</a></li>
+<li class="menu-244"><a href="http://www.drupal.ru/book" title="">Документация</a></li>
+<li class="menu-124"><a href="http://www.drupal.ru/about" title="">О Проекте</a></li>
+<li class="menu-2245 last"><a href="http://www.drupal.ru/rules" title="">Правила</a></li>
+</ul>
+			<div id="block-block-42" class="block block-block">
+
+  <div class="content">
+    <div style="float:right">
+ <form id="searchbox_000263937362789758988:cjkmtu9kh3o" onsubmit="return false;">  <input name="q" size="17" style="border: 1px solid gray; background: url(&quot;http://www.google.com/cse/intl/ru/images/google_custom_search_watermark.gif&quot;) no-repeat scroll left center rgb(255, 255, 255);" type="text">  <input value="&gt;" style="background-color:black;color:gray;border:1px solid gray;" type="submit"> <input value="www.drupal.ru/node/82622" name="siteurl" type="hidden"><input value="www.drupal.ru/taxonomy/term/966" name="ref" type="hidden"><input name="ss" type="hidden"></form> <script type="text/javascript" src="Views+Date+CCK-%D0%A3%D0%B4%D0%B0%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%BF%D1%80%D0%BE%D1%88%D0%B5%D0%B4%D1%88%D0%B8%D1%85%20%D1%81%D0%BE%D0%B1%D1%8B%D1%82%D0%B8%D0%B9%20%D1%81%20%D0%BF%D1%80%D0%B5%D0%B4%D1%81%D1%82%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F_files/brand"></script>    <style type="text/css">
+@import url(http://www.google.com/cse/api/overlay.css);
+</style>  <script src="Views+Date+CCK-%D0%A3%D0%B4%D0%B0%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%BF%D1%80%D0%BE%D1%88%D0%B5%D0%B4%D1%88%D0%B8%D1%85%20%D1%81%D0%BE%D0%B1%D1%8B%D1%82%D0%B8%D0%B9%20%D1%81%20%D0%BF%D1%80%D0%B5%D0%B4%D1%81%D1%82%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F_files/api" type="text/javascript"></script><script src="Views+Date+CCK-%D0%A3%D0%B4%D0%B0%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%BF%D1%80%D0%BE%D1%88%D0%B5%D0%B4%D1%88%D0%B8%D1%85%20%D1%81%D0%BE%D0%B1%D1%8B%D1%82%D0%B8%D0%B9%20%D1%81%20%D0%BF%D1%80%D0%B5%D0%B4%D1%81%D1%82%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F_files/defaultru.js" type="text/javascript"></script> <script src="Views+Date+CCK-%D0%A3%D0%B4%D0%B0%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%BF%D1%80%D0%BE%D1%88%D0%B5%D0%B4%D1%88%D0%B8%D1%85%20%D1%81%D0%BE%D0%B1%D1%8B%D1%82%D0%B8%D0%B9%20%D1%81%20%D0%BF%D1%80%D0%B5%D0%B4%D1%81%D1%82%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F_files/overlay.js"></script> <script type="text/javascript">
+function OnLoad() {
+  new CSEOverlay("000263937362789758988:cjkmtu9kh3o",
+                 document.getElementById("searchbox_000263937362789758988:cjkmtu9kh3o"),
+                 document.getElementById("results_000263937362789758988:cjkmtu9kh3o"));
+}
+GSearch.setOnLoadCallback(OnLoad);
+</script>
+</div>  </div>
+</div>
+			
+		</div>
+    <div id="topmenu">
+    	<a href="http://www.drupal.ru/tracker" title="Новое на сайте">Новое на сайте</a><a href="http://www.drupal.ru/forum" title="Форум">Форум</a><a href="http://api.drupal.ru/" title="API">API</a><a href="http://www.drupal.ru/blog" title="Блоги">Блоги</a><a href="http://www.drupal.ru/aggregator/categories/1" title="Планета">Планета</a>    	</div>
+	</div>
+
+	<div class="outer">
+		<div class="wrap-cl">
+			<div class="center"><div class="incenter">
+
+			   <!-- новости -->
+      <div id="mission"><div id="block-druid-4" class="block block-druid">
+
+  <div class="content">
+    <div class="form-item">
+ <select name="" onchange="druid_forum_goto(this.options[this.selectedIndex].value)" class="form-select" id=""><option selected="selected" value="">Перейти к форуму:</option><option value="51">Техподдержка Drupal</option><option value="2044">-FAQ </option><option value="42">-Системное окружение</option><option value="52">-Установка и настройка</option><option value="2118">-Решение проблем</option><option value="78">-Безопасность</option><option value="759">-Масштабируемость, нагрузка и быстродействие</option><option value="1">Разработка для Drupal</option><option value="96">-Выставка сайтов</option><option value="15">-Программирование</option><option value="791">-Дизайн и вёрстка</option><option value="39">Общие</option><option value="41">-Хостинг</option><option value="2045">-SEO</option><option value="12">-Обзоры и сравнения CMS</option><option value="40">-Свободные программы</option><option value="946">-Разное непонятное</option><option value="2055">Размещение заказов</option><option value="62">-Разработка и установка</option><option value="2056">-Разработка модулей</option><option value="2058">-Поиск специалистов и работы</option><option value="2047">Drupal.ru</option><option value="2057">-Модераторский</option><option value="6084">-Сертификация на Drupal.ru</option><option value="22">-Сайт и проект Drupal.ru</option><option value="665">-Создание документации WIKI.DRUPAL.RU</option><option value="2343">-Проекту нужна помощь</option><option value="53">-Работа по переводам UI и документации</option><option value="82">--Терминология</option><option value="2066">-Курилка</option><option value="3769">--Мусор</option><option value="18915">Drupal User Groups (DrUGs)</option><option value="18917">-Drupal Юг</option><option value="21869">-DrupalSib</option></select>
+</div>
+  </div>
+</div>
+</div>
+   
+				
+
+<p id="navigation"><a href="http://www.drupal.ru/">Главная</a> → <a href="http://www.drupal.ru/forum">Форумы</a> → <a href="http://www.drupal.ru/forum/genenal">Общие</a> → <a href="http://www.drupal.ru/forum/unknown">Разное непонятное</a></p>
+				<div class="post">
+						<strong><h1>[РЕШЕНО] Views+Date+CCK/ "Удаление" прошедших событий с представления</h1></strong>
+	<div class="ret">
+			<p>Прислано: <a href="http://www.drupal.ru/username/tahtaman" title="Профиль автора сообщения">tahtaman</a></p><p class="formatdate">пт, 01/06/2012 - 05:35</p>
+	</div>
+			<div class="dr">Другие статьи по теме: <ul class="links inline"><li class="taxonomy_term_15362 first"><a href="http://www.drupal.ru/taxonomy/term/15362" rel="tag" title="">Есть вопрос</a></li>
+<li class="taxonomy_term_946"><a href="http://www.drupal.ru/forum/unknown" rel="tag" title="Если непонятно, какому форуму соответствует новая тема, то помещаем её сюда. Для офтопиков используйте свой дневник. Это не курилка! ">Разное непонятное</a></li>
+<li class="taxonomy_term_2708"><a href="http://www.drupal.ru/taxonomy/term/2708" rel="tag" title="">Drupal 7.*</a></li>
+<li class="taxonomy_term_103"><a href="http://www.drupal.ru/taxonomy/term/103" rel="tag" title="">Drupal 6.*</a></li>
+<li class="taxonomy_term_251"><a href="http://www.drupal.ru/taxonomy/term/251" rel="tag" title="">CCK</a></li>
+<li class="taxonomy_term_966"><a href="http://www.drupal.ru/taxonomy/term/966" rel="tag" title="">date</a></li>
+<li class="taxonomy_term_746"><a href="http://www.drupal.ru/taxonomy/term/746" rel="tag" title="">event</a></li>
+<li class="taxonomy_term_165"><a href="http://www.drupal.ru/taxonomy/term/165" rel="tag" title="">views</a></li>
+<li class="taxonomy_term_1452 last"><a href="http://www.drupal.ru/taxonomy/term/1452" rel="tag" title="">события</a></li>
+</ul></div>
+		<p></p><p>Всем привет!<br>
+Есть такая задача-делема, выводить в блок события-расписание по дате 
+начала и убирать их по окнчанию, так сказать "прямой эфир". Реализовал 
+блок Views+Date+CCK</p>
+<p><img src="Views+Date+CCK-%D0%A3%D0%B4%D0%B0%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%BF%D1%80%D0%BE%D1%88%D0%B5%D0%B4%D1%88%D0%B8%D1%85%20%D1%81%D0%BE%D0%B1%D1%8B%D1%82%D0%B8%D0%B9%20%D1%81%20%D0%BF%D1%80%D0%B5%D0%B4%D1%81%D1%82%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F_files/7qUwHZ1R.png" alt="" width="500"></p>
+<p><img src="Views+Date+CCK-%D0%A3%D0%B4%D0%B0%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%BF%D1%80%D0%BE%D1%88%D0%B5%D0%B4%D1%88%D0%B8%D1%85%20%D1%81%D0%BE%D0%B1%D1%8B%D1%82%D0%B8%D0%B9%20%D1%81%20%D0%BF%D1%80%D0%B5%D0%B4%D1%81%D1%82%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F_files/sggFWmPO.png" alt=""></p>
+<p>Но есть проблема, нужно чтобы по окончанию событие в блоке больше не 
+висело. В идеале должно быть так - пришло время конца события, оно с 
+блока вышло.<br>
+Кто знает как это можно реализовать и возможно ли вообще посредством такого набора?</p>
+  <div class="forum-topic-navigation clear-block">
+          <a href="http://www.drupal.ru/node/82803" class="topic-previous" title="К предыдущему обсуждению">‹ не создаются стилизованные изображения при включенных чистых ссылках.</a>
+              <a href="http://www.drupal.ru/node/82719" class="topic-next" title="К следующему обсуждению">Drupal 7 + Ubercraft. Настраиваю товары и каталоги ›</a>
+      </div>
+<p></p>	
+	    <div class="links-bottom"><ul class="links inline"><li class="blog_usernames_blog first"><a href="http://www.drupal.ru/blog/75509" title="Read tahtaman's latest blog entries.">tahtaman's blog</a></li>
+<li class="comment_forbidden last"><span>Для комментирования <a href="http://www.drupal.ru/user/login?destination=node%2F82622%23comment-form">войдите</a> или <a href="http://www.drupal.ru/user/register?destination=node%2F82622%23comment-form">зарегистрируйтесь</a></span></li>
+</ul></div>
+  
+<div id="comments"><h2 class="comments">Комментарии</h2></div><br><form action="/node/82622" accept-charset="UTF-8" method="post" id="comment-controls">
+<div><div class="box">
+
+  <h2>Настройки просмотра комментариев</h2>
+
+  <div class="content"><div class="container-inline"><input name="form_build_id" id="form-29f6713c985248b93a0e5228444576e3" value="form-29f6713c985248b93a0e5228444576e3" type="hidden">
+<input name="form_id" id="edit-comment-controls" value="comment_controls" type="hidden">
+<div class="form-item" id="edit-mode-wrapper">
+ <select name="mode" class="form-select" id="edit-mode"><option value="1">Плоский список - свёрнутый</option><option value="2" selected="selected">Плоский список - развёрнутый</option><option value="3">Древовидный - свёрнутый</option><option value="4">Древовидный - развёрнутый</option></select>
+</div>
+<div class="form-item" id="edit-order-wrapper">
+ <select name="order" class="form-select" id="edit-order"><option value="1">По дате - сначала новые</option><option value="2" selected="selected">По дате - сначала старые</option></select>
+</div>
+<div class="form-item" id="edit-comments-per-page-wrapper">
+ <select name="comments_per_page" class="form-select" id="edit-comments-per-page"><option value="10">10 комментариев на страницу</option><option value="30">30 комментариев на страницу</option><option value="50" selected="selected">50 комментариев на страницу</option><option value="70">70 комментариев на страницу</option><option value="90">90 комментариев на страницу</option><option value="150">150 комментариев на страницу</option><option value="200">200 комментариев на страницу</option><option value="250">250 комментариев на страницу</option><option value="300">300 комментариев на страницу</option></select>
+</div>
+<input name="op" id="edit-submit" value="Применить" class="form-submit" type="submit">
+</div><div class="description">Выберите нужный метод показа комментариев и нажмите "Применить"</div></div>
+</div>
+
+</div></form>
+<a id="comment-480050"></a>
+<div class="comment">
+	<div class="autor">
+		<div>Опубликовано <a href="http://www.drupal.ru/username/pavlyxa" title="Информация о пользователе.">Pavlyxa</a> в пт, 01/06/2012 - 05:58.</div>
+			</div>
+<div class="avatar"><a href="http://www.drupal.ru/username/pavlyxa" title="Профиль автора сообщения"></a><div class="picture"><a href="http://www.drupal.ru/username/pavlyxa" title="Профиль автора сообщения">
+  </a><a href="http://www.drupal.ru/username/pavlyxa" title="Информация о пользователе."><img src="Views+Date+CCK-%D0%A3%D0%B4%D0%B0%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%BF%D1%80%D0%BE%D1%88%D0%B5%D0%B4%D1%88%D0%B8%D1%85%20%D1%81%D0%BE%D0%B1%D1%8B%D1%82%D0%B8%D0%B9%20%D1%81%20%D0%BF%D1%80%D0%B5%D0%B4%D1%81%D1%82%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F_files/picture-69264.jpg" alt="Pavlyxa" title="Информация о пользователе." class="imagecache imagecache-50x50" height="50" width="50"></a></div>
+</div>  
+		<p></p><p>Rules моdule</p>
+<p></p>
+<br class="clear">
+	<div class="abuse"><ul class="links"><li class="comment_forbidden first last"><span>Для комментирования <a href="http://www.drupal.ru/user/login?destination=node%2F82622%23comment-form">войдите</a> или <a href="http://www.drupal.ru/user/register?destination=node%2F82622%23comment-form">зарегистрируйтесь</a></span></li>
+</ul>	</div>
+</div><a id="comment-480068"></a>
+<div class="comment">
+	<div class="autor">
+		<div>Опубликовано <a href="http://www.drupal.ru/username/tahtaman" title="Информация о пользователе.">tahtaman</a> в пт, 01/06/2012 - 07:38.</div>
+			</div>
+<div class="avatar"><a href="http://www.drupal.ru/username/tahtaman" title="Профиль автора сообщения"></a><div class="picture"><a href="http://www.drupal.ru/username/tahtaman" title="Профиль автора сообщения">
+  </a><a href="http://www.drupal.ru/username/tahtaman" title="Информация о пользователе."><img src="Views+Date+CCK-%D0%A3%D0%B4%D0%B0%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%BF%D1%80%D0%BE%D1%88%D0%B5%D0%B4%D1%88%D0%B8%D1%85%20%D1%81%D0%BE%D0%B1%D1%8B%D1%82%D0%B8%D0%B9%20%D1%81%20%D0%BF%D1%80%D0%B5%D0%B4%D1%81%D1%82%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F_files/picture-75509_002.jpg" alt="tahtaman" title="Информация о пользователе." class="imagecache imagecache-50x50" height="50" width="50"></a></div>
+</div>  
+		<p></p><p>нет, думаю rules не совсем то. По крайней мере не представляю как это можно реализовать с его помощью.</p>
+<p></p>
+<br class="clear">
+	<div class="abuse"><ul class="links"><li class="comment_forbidden first last"><span>Для комментирования <a href="http://www.drupal.ru/user/login?destination=node%2F82622%23comment-form">войдите</a> или <a href="http://www.drupal.ru/user/register?destination=node%2F82622%23comment-form">зарегистрируйтесь</a></span></li>
+</ul>	</div>
+</div><a id="comment-480756"></a>
+<div class="comment">
+	<div class="autor">
+		<div>Опубликовано <a href="http://www.drupal.ru/username/tahtaman" title="Информация о пользователе.">tahtaman</a> в пн, 04/06/2012 - 20:42.</div>
+			</div>
+<div class="avatar"><a href="http://www.drupal.ru/username/tahtaman" title="Профиль автора сообщения"></a><div class="picture"><a href="http://www.drupal.ru/username/tahtaman" title="Профиль автора сообщения">
+  </a><a href="http://www.drupal.ru/username/tahtaman" title="Информация о пользователе."><img src="Views+Date+CCK-%D0%A3%D0%B4%D0%B0%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%BF%D1%80%D0%BE%D1%88%D0%B5%D0%B4%D1%88%D0%B8%D1%85%20%D1%81%D0%BE%D0%B1%D1%8B%D1%82%D0%B8%D0%B9%20%D1%81%20%D0%BF%D1%80%D0%B5%D0%B4%D1%81%D1%82%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F_files/picture-75509_002.jpg" alt="tahtaman" title="Информация о пользователе." class="imagecache imagecache-50x50" height="50" width="50"></a></div>
+</div>  
+		<p></p><p>Решил тем же набором Views+Date+CCK. Только выставил такие критерии фильтрации по дате -</p>
+<p>Дата: Дата (node) (Содержимое: Время - дата начала (field_time) OR 
+Содержимое: Время - дата окончания (field_time:value2) between now -1 
+sec и now +1 sec)</p>
+<p></p>
+<br class="clear">
+	<div class="abuse"><ul class="links"><li class="comment_forbidden first last"><span>Для комментирования <a href="http://www.drupal.ru/user/login?destination=node%2F82622%23comment-form">войдите</a> или <a href="http://www.drupal.ru/user/register?destination=node%2F82622%23comment-form">зарегистрируйтесь</a></span></li>
+</ul>	</div>
+</div>      						</div>
+
+
+			</div></div> <!-- center div -->
+			<div class="left"><div class="inleft"><!-- left div -->
+
+				<div id="left">
+					<div id="login-0" class="login-block">                                                                          
+	<h2>Вход</h2>
+		<div id="login-block-wrapper">
+			<form action="/node/82622?destination=node%2F82622" accept-charset="UTF-8" method="post" id="user-login-form">
+<div><fieldset id="login_form"><input id="edit-name" class="form-text required" name="name"><input id="edit-pass" class="form-text required" name="pass" type="password"><input id="edit-submit" class="form-submit" value="Вход" name="op" type="submit"></fieldset><input name="form_build_id" id="form-48744d1f96f59d55178990948268c218" value="form-48744d1f96f59d55178990948268c218" type="hidden">
+<input name="form_id" id="edit-user-login-block" value="user_login_block" type="hidden">
+<p><a href="http://www.drupal.ru/user/register"><strong>Зарегистрироваться</strong></a><br><br><a href="http://www.drupal.ru/user/password">Запросить новый пароль</a></p>
+</div></form>
+		</div>
+</div>
+	
+<div id="block-81" class="just-block">
+	<h2></h2>
+	<div class="content"><a href="http://dh.it-patrol.ru/drupal_hosting">
+  <img style="margin-left:-7px;" src="Views+Date+CCK-%D0%A3%D0%B4%D0%B0%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%BF%D1%80%D0%BE%D1%88%D0%B5%D0%B4%D1%88%D0%B8%D1%85%20%D1%81%D0%BE%D0%B1%D1%8B%D1%82%D0%B8%D0%B9%20%D1%81%20%D0%BF%D1%80%D0%B5%D0%B4%D1%81%D1%82%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F_files/200x200_black_blue.png" alt="drupal hosting | друпал хостинг | там, где друпал сайты летают | it patrol .inc"> 
+</a></div>
+</div>
+	
+<div id="druid-0" class="just-block">
+	<h2>Новое на сайте</h2>
+	<div class="content"><div class="item-list"><h3></h3><ul><li class=" odd first"><a href="http://www.drupal.ru/node/86844" title="Автор: student2000; 1 комментарий">Проблемы при добавлении в корзину</a></li>
+<li class=" even"><a href="http://www.drupal.ru/node/86842" title="Автор: nikola2">Требуется Drupal Developer</a></li>
+<li class=" odd"><a href="http://www.drupal.ru/node/86841" title="Автор: Mariya T">Команда ищет разработчика (вакансия в Запорожье)</a></li>
+<li class=" even"><a href="http://www.drupal.ru/node/86840" title="Автор: flatron; 3 комментария">Вывод материала через views с аргументом по урл?</a></li>
+<li class=" odd"><a href="http://www.drupal.ru/node/86839" title="Автор: ScorpionDs">При загрузке изображения, сохранять оригинал</a></li>
+<li class=" even"><a href="http://www.drupal.ru/node/86838" title="Автор: Detonator">Добавить капчу к руками вызванной форме</a></li>
+<li class=" odd"><a href="http://www.drupal.ru/node/86837" title="Автор: CyberDJ; 2 комментария">На каждой странице одна и та-же ошибка...</a></li>
+<li class=" even"><a href="http://www.drupal.ru/node/86836" title="Автор: void; 2 комментария">CCK nodereference и views</a></li>
+<li class=" odd"><a href="http://www.drupal.ru/node/86835" title="Автор: anzebra; 2 комментария">Drupal 7. Скачать файл с директории private:// (РЕШЕНО)</a></li>
+<li class=" even"><a href="http://www.drupal.ru/node/86834" title="Автор: Erbat; 1 комментарий">У вас нет доступа к этой странице. </a></li>
+<li class=" odd"><a href="http://www.drupal.ru/node/86833" title="Автор: Garin33; 9 комментариев">unset h2 в определенном блоке</a></li>
+<li class=" even"><a href="http://www.drupal.ru/node/86832" title="Автор: GolovaNoga; 2 комментария">Доделать модуль nodebasket</a></li>
+<li class=" odd"><a href="http://www.drupal.ru/node/86830" title="Автор: maxim4ik; 1 комментарий">Как использовать прогрессбар?</a></li>
+<li class=" even"><a href="http://www.drupal.ru/node/86826" title="Автор: oksale; 2 комментария">Сворачивание / разворачивание формы</a></li>
+<li class=" odd"><a href="http://www.drupal.ru/node/86818" title="Автор: andreyy05">Нестандартный datepicker в поле webforms . Как реализовать?</a></li>
+<li class=" even"><a href="http://www.drupal.ru/node/86816" title="Автор: DD 85; 2 комментария">Как к полю “Текст” с виджетом “Текстовая строка” добавить разрешение на ввод только цифр (0-9)?</a></li>
+<li class=" odd"><a href="http://www.drupal.ru/node/86815" title="Автор: sphinks; 1 комментарий">Как организовать запуск модуля по крону?</a></li>
+<li class=" even"><a href="http://www.drupal.ru/node/86814" title="Автор: stingrey4; 2 комментария">Календарь матчей</a></li>
+<li class=" odd"><a href="http://www.drupal.ru/node/86813" title="Автор: Goodseeker; 1 комментарий">Ubercart: минимальная сумма заказа для разных ролей</a></li>
+<li class=" even"><a href="http://www.drupal.ru/node/86812" title="Автор: vamptouch; 4 комментария">Не работает собственная тема</a></li>
+<li class=" odd"><a href="http://www.drupal.ru/node/86811" title="Автор: Lex-DRL; 2 комментария">Не отображается ссылка "Просмотр регионов" в D7</a></li>
+<li class=" even"><a href="http://www.drupal.ru/node/86809" title="Автор: Bezlepkin; 3 комментария">Как создать переменную для вывода в page.tpl.php</a></li>
+<li class=" odd"><a href="http://www.drupal.ru/node/86808" title="Автор: olush.ka">Множественная загрузка с помощью managed_file</a></li>
+<li class=" even"><a href="http://www.drupal.ru/node/86807" title="Автор: nitro; 6 комментариев">Не получается русифицировать Drupal 7</a></li>
+<li class=" odd last"><a href="http://www.drupal.ru/node/86806" title="Автор: WhyNot; 1 комментарий">Проблема с Shadowbox</a></li>
+</ul></div></div>
+</div>
+	
+<div id="druid-2" class="just-block">
+	<h2>Ссылки партнёров</h2>
+	<div class="content"><div style="padding-left:10px;padding-bottom:10px;"><a href="http://drupalapi.ru/">API Drupal для программистов</a></div></div>
+</div>
+	
+<div id="druid-5" class="login-block">
+	<h2>Сейчас на сайте</h2>
+	<div class="content"><a href="http://www.drupal.ru/online"><em>30 пользователей</em></a><h2>Пик посещаемости</h2><div>241 пользователь:<br>пт, 01/04/2011 - 08:30</div></div>
+</div>
+				</div>
+
+			</div></div> <!-- left div -->
+		</div> <!-- wrap-cl div -->
+		<div class="right"><div class="inright">
+		
+			<div id="right">
+					<div id="block-profile-0" class="block block-profile">
+  <h2>Об авторе</h2>
+
+  <div class="content">
+    <div class="picture">
+  <a href="http://www.drupal.ru/username/tahtaman" title="Информация о пользователе."><img src="Views+Date+CCK-%D0%A3%D0%B4%D0%B0%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%BF%D1%80%D0%BE%D1%88%D0%B5%D0%B4%D1%88%D0%B8%D1%85%20%D1%81%D0%BE%D0%B1%D1%8B%D1%82%D0%B8%D0%B9%20%D1%81%20%D0%BF%D1%80%D0%B5%D0%B4%D1%81%D1%82%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F_files/picture-75509.jpg" alt="tahtaman" title="Информация о пользователе." class="imagecache imagecache-96x96" height="80" width="96"></a></div>
+
+  <p>
+          <strong>Реальное имя</strong><br>
+        Таха  </p>
+  <p>
+          <strong>Страна</strong><br>
+        Россия  </p>
+<div><a href="http://www.drupal.ru/username/tahtaman">Просмотреть полный профиль пользователя</a></div>  </div>
+</div>
+<div id="block-block-83" class="block block-block">
+
+  <div class="content">
+    <br><a href="http://drupalguide.ru/"><img src="Views+Date+CCK-%D0%A3%D0%B4%D0%B0%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%BF%D1%80%D0%BE%D1%88%D0%B5%D0%B4%D1%88%D0%B8%D1%85%20%D1%81%D0%BE%D0%B1%D1%8B%D1%82%D0%B8%D0%B9%20%D1%81%20%D0%BF%D1%80%D0%B5%D0%B4%D1%81%D1%82%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F_files/banner_drupalGuide2.jpg" alt="Drupal Guide"></a><br>
+<a href="http://commercebox.org/"><img src="Views+Date+CCK-%D0%A3%D0%B4%D0%B0%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%BF%D1%80%D0%BE%D1%88%D0%B5%D0%B4%D1%88%D0%B8%D1%85%20%D1%81%D0%BE%D0%B1%D1%8B%D1%82%D0%B8%D0%B9%20%D1%81%20%D0%BF%D1%80%D0%B5%D0%B4%D1%81%D1%82%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F_files/banner_commercebox2.jpg" alt="commercebox.org"></a>  </div>
+</div>
+			</div>			
+
+		</div></div> <!-- right div -->
+
+		<br class="clear">
+	</div> <!-- outer div -->
+
+	<div class="wide bottom"></div><!--низ под 3 колонками-->
+	</div></div>
+
+  </div> <!-- 3 колонки -->
+	<div id="clearfooter"></div>
+</div>
+
+<div id="footer">
+		<p></p><div id="authority">Содержимое сайта публикуется на условиях <a href="http://www.drupal.ru/license#content">CreativeCommons Attribution-ShareAlike 3.0</a> или более поздней версии, программные коды в тексте статей — на условиях <a href="http://www.drupal.ru/license#code">GNU GPL v2</a> или более поздней версии.<br>
+Copyleft © 2003-2012, drupal.ru. <strong>Drupal</strong> — торговая марка <a href="http://www.drupal.ru/about/dries_buytaert">Дриса Байтаерта</a><br>
+Тема оформления «<a href="http://www.drupal.ru/about/theme-novosibirsk">Новосибирск</a>»<br>
+Вопросы по работе сайта: <a href="mailto:webmaster@drupal.ru">webmaster@drupal.ru</a><br>
+Сообщения об ошибках отображения сайта от гордых пользователей IE версии 6 и ниже — не принимаются.
+</div><div id="block-block-46" class="block block-block">
+
+  <div class="content">
+    <div style="float:right;margin-top:-65px;margin-right:5px;">
+
+<script type="text/javascript"><!--
+document.write("<a href='http://www.liveinternet.ru/click' "+
+"target=_blank><img src='http://counter.yadro.ru/hit?t14.11;r"+
+escape(document.referrer)+((typeof(screen)=="undefined")?"":
+";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?
+screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
+";h"+escape(document.title.substring(0,80))+";"+Math.random()+
+"' alt='' title='LiveInternet: показано число просмотров за 24"+
+" часа, посетителей за 24 часа и за сегодня' "+
+"border='0' width='88' height='31'><\/a>")
+//--></script><a href="http://www.liveinternet.ru/click" target="_blank"><img src="Views+Date+CCK-%D0%A3%D0%B4%D0%B0%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%BF%D1%80%D0%BE%D1%88%D0%B5%D0%B4%D1%88%D0%B8%D1%85%20%D1%81%D0%BE%D0%B1%D1%8B%D1%82%D0%B8%D0%B9%20%D1%81%20%D0%BF%D1%80%D0%B5%D0%B4%D1%81%D1%82%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F_files/hit.gif" alt="" title="LiveInternet: показано число просмотров за 24 часа, посетителей за 24 часа и за сегодня" border="0" height="31" width="88"></a>
+
+<script src="Views+Date+CCK-%D0%A3%D0%B4%D0%B0%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%BF%D1%80%D0%BE%D1%88%D0%B5%D0%B4%D1%88%D0%B8%D1%85%20%D1%81%D0%BE%D0%B1%D1%8B%D1%82%D0%B8%D0%B9%20%D1%81%20%D0%BF%D1%80%D0%B5%D0%B4%D1%81%D1%82%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F_files/counter_cv.js" id="spylog_code" type="text/javascript" counter="679413" part="" track_links="ext" page_level="0"></script><script language="javascript">window.spylog_js=1;</script><script language="javascript1.1">window.spylog_js=1.1;</script><script language="javascript1.2">window.spylog_js=1.2;</script><script language="javascript1.3">window.spylog_js=1.3;</script><script language="javascript1.4">window.spylog_js=1.4;</script><script language="javascript1.5">window.spylog_js=1.5;</script><script language="javascript1.6">window.spylog_js=1.6;</script><script language="javascript1.7">window.spylog_js=1.7;</script><script language="javascript1.8">window.spylog_js=1.8;</script><script language="javascript1.9">window.spylog_js=1.9;</script><script language="javascript"></script><a href="http://u6794.13.spylog.com/cnt?cid=679413&amp;p=0&amp;c=1&amp;fr=0&amp;fl=10.2&amp;px=24&amp;sl=1.8&amp;wh=1280x960&amp;j=N&amp;t=-540&amp;h5=111111&amp;pg=http%3A//www.drupal.ru/node/82622&amp;r=http%3A//www.drupal.ru/taxonomy/term/966&amp;title=%5B%u0420%u0415%u0428%u0415%u041D%u041E%5D%20Views+Date+CCK/%20%22%u0423%u0434%u0430%u043B%u0435%u043D%u0438%u0435%22%20%u043F%u0440%u043E%u0448%u0435%u0434%u0448%u0438%u0445%20%u0441%u043E%u0431%u044B%u0442%u0438%u0439%20%u0441%20%u043F%u0440%u0435%u0434%u0441%u0442%u0430%u0432%u043B%u0435%u043D%u0438%u044F%20%7C%20Drupal%20%u0432%20%u0440%u0443%u043D%u0435%u0442%u0435&amp;rn=0.024982681095082282&amp;f=3" target="_blank"><img src="Views+Date+CCK-%D0%A3%D0%B4%D0%B0%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%BF%D1%80%D0%BE%D1%88%D0%B5%D0%B4%D1%88%D0%B8%D1%85%20%D1%81%D0%BE%D0%B1%D1%8B%D1%82%D0%B8%D0%B9%20%D1%81%20%D0%BF%D1%80%D0%B5%D0%B4%D1%81%D1%82%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F_files/cnt.gif" alt="SpyLOG" border="0"></a>
+<noscript>
+<a href="http://u6794.13.spylog.com/cnt?cid=679413&f=3&p=0" target="_blank">
+<img src="http://u6794.13.spylog.com/cnt?cid=679413&p=0" alt="SpyLOG" border="0" width="88" height="31"></a>
+</noscript>
+
+</div>  </div>
+</div>
+<p></p>
+</div>
+
+
+<iframe class="cse-overlay-bg" src='javascript:""' style="border: 0px none; vertical-align: bottom; display: none; opacity: 0;" frameborder="0"></iframe><div style="display: none; opacity: 0.5;" class="cse-overlay-bg"></div><div aria-labelledby=":0" role="dialog" style="display: none;" tabindex="0" class="cse-overlay"><div id=":0" class="cse-overlay-title cse-overlay-title-draggable"><span class="cse-overlay-title-text"></span><span class="cse-overlay-title-close"></span></div><div class="cse-overlay-content"><div id="results_000263937362789758988:cjkmtu9kh3o" style="margin: 2em auto 0px; width: 600px;">  <div class="cse-closeResults">  <a>× Закрыть</a>  </div>  <div class="cse-resultsContainer"><div dir="ltr" class="gsc-control"><form accept-charset="utf-8" class="gsc-search-box"><table class="gsc-search-box" cellpadding="0" cellspacing="0"><tbody><tr><td class="gsc-input"><input style="outline: medium none;" spellcheck="false" dir="ltr" id="gsc-i-id1" title="поиск" name="search" class=" gsc-input" size="10" autocomplete="off" type="text"></td><td class="gsc-search-button"><input title="поиск" class="gsc-search-button" value="Поиск" type="button"></td><td class="gsc-clear-button"><div title="удалить результаты" class="gsc-clear-button">&nbsp;</div></td></tr></tbody></table><table class="gsc-branding" cellpadding="0" cellspacing="0"><tbody><tr style="display: none;"><td class="gsc-branding-user-defined"></td><td class="gsc-branding-text"><div class="gsc-branding-text">технология</div></td><td class="gsc-branding-img"><img class="gsc-branding-img" src="Views+Date+CCK-%D0%A3%D0%B4%D0%B0%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%BF%D1%80%D0%BE%D1%88%D0%B5%D0%B4%D1%88%D0%B8%D1%85%20%D1%81%D0%BE%D0%B1%D1%8B%D1%82%D0%B8%D0%B9%20%D1%81%20%D0%BF%D1%80%D0%B5%D0%B4%D1%81%D1%82%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F_files/small-logo.png"></td></tr></tbody></table></form><div class="gsc-above-wrapper-area-invisible"><table class="gsc-above-wrapper-area-container" cellpadding="0" cellspacing="0"><tbody><tr><td class="gsc-result-info-container"><div class="gsc-result-info-invisible"></div></td></tr></tbody></table></div><div class="gsc-resultsbox-invisible"><div class="gsc-resultsRoot"><table class="gsc-resultsHeader" cellpadding="0" cellspacing="0"><tbody><tr><td class="gsc-twiddleRegionCell"><div class="gsc-twiddle"><div class="gsc-title">Интернет</div></div><div class="gsc-stats"></div><div class="gsc-results-selector gsc-all-results-active"><div title="показать один результат" class="gsc-result-selector gsc-one-result">&nbsp;</div><div title="показать другие результаты" class="gsc-result-selector gsc-more-results">&nbsp;</div><div title="показать все результаты" class="gsc-result-selector gsc-all-results">&nbsp;</div></div></td><td class="gsc-configLabelCell"></td></tr></tbody></table><div><div class="gsc-expansionArea"></div></div></div></div></div></div> </div></div><div class="cse-overlay-buttons"></div></div><span tabindex="0" style="display: none; position: absolute;"></span><table class="gstl_0 gssb_c" style="width: 100%; display: none; top: -1px; left: 0px; position: absolute;" cellpadding="0" cellspacing="0"><tbody><tr><td class="gssb_f"></td><td style="width: 100%;" class="gssb_e"></td></tr></tbody></table></body></html>

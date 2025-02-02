@@ -1,0 +1,42 @@
+<?php
+
+
+require_once (drupal_get_path('module', 'take_control') . '/includes/common.inc');
+require_once (drupal_get_path('module', 'take_control') . '/includes/security.inc');
+require_once (drupal_get_path('module', 'take_control') . '/includes/filesystem.inc');
+
+function take_control_install() {
+//  take_control_create_default_settings();
+}
+
+//function take_control_update_6200() {
+//  take_control_create_default_settings();
+//}
+
+function take_control_uninstall() {
+  variable_del('take_control_digest_algo');
+  variable_del('take_control_pass_phrase');
+  variable_del('take_control_private_key');
+  variable_del('take_control_public_key');
+
+//  take_control_delete_directory(take_control_config_dir());
+}
+
+///////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+function take_control_create_default_settings() {
+  $algo = 'OPENSSL_ALGO_SHA1';
+  $passphrase = take_control_random_string(10);
+
+  $keys = take_control_new_keys($algo, $passphrase);
+
+  variable_set('take_control_digest_algo', $algo);
+  variable_set('take_control_pass_phrase', $passphrase);
+  variable_set('take_control_private_key', $keys['priv']);
+  variable_set('take_control_public_key', $keys['pub']);
+
+  take_control_save_config_items(array(
+      'pubKey' => $keys['pub'],
+      'appDir' => take_control_app_dir()));
+}

@@ -1,0 +1,485 @@
+# Russian translation of date (all releases)
+# Copyright (c) 2012 by the Russian translation team
+# Generated from files:
+#  date/date_repeat/date_repeat.module: n/a
+#  date/date_repeat/date_repeat_form.inc: n/a
+#  date/date_repeat/date_repeat.info: n/a
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: date (all releases)\n"
+"POT-Creation-Date: 2012-08-17 04:37-0400\n"
+"PO-Revision-Date: 2011-01-17 00:43-0500\n"
+"Language-Team: Russian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=((((n%10)==1)&&((n%100)!=11))?(0):(((((n%10)>=2)&&((n%10)<=4))&&(((n%100)<10)||((n%100)>=20)))?(1):2));\n"
+
+#: date_repeat/date_repeat.module:216,249,204,203,243,249,217,216,249,249,216
+msgid "and"
+msgstr "и"
+
+#: date_repeat/date_repeat_form.inc:533,533,533,533,533
+msgid "Count"
+msgstr "Количество"
+
+#: date_repeat/date_repeat.module:35,34
+msgid "Day(s)"
+msgstr "Дни(дней)"
+
+#: date_repeat/date_repeat.module:36,35
+msgid "Week(s)"
+msgstr "Неделя(и)"
+
+#: date_repeat/date_repeat.module:37,36
+msgid "Month(s)"
+msgstr "Месяц(месяцев)"
+
+#: date_repeat/date_repeat.module:38,37
+msgid "Year(s)"
+msgstr "Год (года)"
+
+#: date_repeat/date_repeat_form.inc:123,125,124,124,123,122,122
+msgid "Advanced"
+msgstr "Дополнительно"
+
+#: date_repeat/date_repeat.module:94,93
+msgid "Last"
+msgstr "Последняя"
+
+#: date_repeat/date_repeat_form.inc:202,203,202,201,201
+msgid "Additional"
+msgstr "Дополнительно"
+
+#: date_repeat/date_repeat_form.inc:384,397,923,936,268,267,923,936,923,936,384,397,384,397,923,936,923,936,386,399,386,399
+msgid "Delete"
+msgstr "Удалить"
+
+#: date_repeat/date_repeat_form.inc:198,197
+msgid "Help"
+msgstr "Помощь"
+
+#: date_repeat/date_repeat.module:45,88,44,87
+msgid "Every"
+msgstr "Каждый"
+
+#: date_repeat/date_repeat.module:89,88
+msgid "First"
+msgstr "Первая"
+
+#: date_repeat/date_repeat_form.inc:150,150,150,150,150
+msgid "days"
+msgstr "дней"
+
+#: date_repeat/date_repeat_form.inc:268,267
+msgid "Current Exceptions"
+msgstr "Текущие исключения"
+
+#: date_repeat/date_repeat_form.inc:70,69,71,70,70
+msgid ""
+"Choose a frequency and period to repeat this date. If nothing is "
+"selected, the date will not repeat."
+msgstr ""
+
+#: date_repeat/date_repeat_form.inc:102,534,101,534,534,103,102,534,534,102
+msgid "Until"
+msgstr "Не ранее"
+
+#: date_repeat/date_repeat_form.inc:103,102,104,103,103
+msgid "Date to stop repeating this item."
+msgstr ""
+"Дата окончания повторения данного "
+"элемента"
+
+#: date_repeat/date_repeat_form.inc:135,146,157,134,145,156,136,147,158,135,146,157,134,145,156,134,145,156
+msgid "-- Any"
+msgstr "-- Любой"
+
+#: date_repeat/date_repeat_form.inc:144,143,145,144,143,143
+msgid "Day of Month"
+msgstr "Число месяца"
+
+#: date_repeat/date_repeat_form.inc:155,154,156,155,154,154
+msgid "Day of Week"
+msgstr "День недели"
+
+#: date_repeat/date_repeat_form.inc:169,168,170,169,168,168
+msgid "Except"
+msgstr "Кроме"
+
+#: date_repeat/date_repeat_form.inc:170,169,171,170,169,169
+msgid "Dates to omit from the list of repeating dates."
+msgstr ""
+"Даты, исключенные из списка "
+"повторяющихся дат."
+
+#: date_repeat/date_repeat_form.inc:201,200
+msgid ""
+"<p>Dates will match any selection within the same box [January OR "
+"June]. When more than one box has criteria selected, all of them are "
+"combined to create repeats [[January OR June] AND [Day 1 OR Day 15]]. "
+"Positive numbers count from the beginning of the period. Negative "
+"numbers count from the end of the period, i.e. -1 is the last, -2 is "
+"the next to last, etc.</p><ul><li>If you select 'Every Year' above, "
+"and 'March' from 'Month' and '1' and '15' from 'Day of Month' in the "
+"Advanced options you will be selecting the 1st and 15th days of March "
+"of every year.</li><li>If you select 'Every other Month' above, and "
+"'Second Tuesday' in the Advanced options you will be selecting the "
+"second Tuesday of every other month.</li><li>If you select 'Every "
+"Year' above, and 'Second Tuesday' in the Advanced options you will be "
+"selecting the second Tuesday of every year.</li><li>If you select "
+"'Every Month' above, and 'January' and 'June' and 'First Saturday' in "
+"the Advanced options, you will be selecting the first Saturday in "
+"January or June.</li><li>If you select 'Every Month' above, and '-1' "
+"from 'Day of Month' in the Advanced options you will be selecting the "
+"last day of every month.</li></ul>"
+msgstr ""
+
+#: date_repeat/date_repeat.module:56,34,33,57,56,56
+msgid "-- Period"
+msgstr "-- Период"
+
+#: date_repeat/date_repeat.module:66,44,43,67,66,66
+msgid "-- Frequency"
+msgstr "-- Частота"
+
+#: date_repeat/date_repeat.module:70,48,47,71,70,70
+msgid "Every @number"
+msgstr "Каждый @number"
+
+#: date_repeat/date_repeat.module:91,90
+msgid "Third"
+msgstr "Третий"
+
+#: date_repeat/date_repeat.module:92,91
+msgid "Fourth"
+msgstr "Четвертый"
+
+#: date_repeat/date_repeat.module:93,92
+msgid "Fifth"
+msgstr "Пятый"
+
+#: date_repeat/date_repeat.module:95,94
+msgid "Next to last"
+msgstr ""
+
+#: date_repeat/date_repeat.module:96,95
+msgid "Second from last"
+msgstr ""
+
+#: date_repeat/date_repeat.module:97,96
+msgid "Third from last"
+msgstr ""
+
+#: date_repeat/date_repeat.module:98,97
+msgid "Fourth from last"
+msgstr ""
+
+#: date_repeat/date_repeat.info:0,0,0,0,0,0
+msgid "Date Repeat API"
+msgstr "API повтора даты"
+
+#: date_repeat/date_repeat.info:0,0,0,0,0,0
+msgid ""
+"A Date Repeat API to calculate repeating dates and times from iCal "
+"rules."
+msgstr ""
+
+#: date_repeat/date_repeat_form.inc:256,256,256,256,256
+msgid "interval"
+msgstr "интервал"
+
+#: date_repeat/date_repeat.module:189,219,177,176,216,219,190,189,219,219,189
+msgid "every week"
+msgid_plural "every @count weeks"
+msgstr[0] "каждая @count неделя"
+msgstr[1] "каждые @count недели"
+msgstr[2] "каждые @count[2] недель"
+
+#: date_repeat/date_repeat.module:192,222,180,179,219,222,193,192,222,222,192
+msgid "every month"
+msgid_plural "every @count months"
+msgstr[0] "каждый месяц"
+msgstr[1] "каждые @count месяца"
+msgstr[2] "каждые @count[2] месяцев"
+
+#: date_repeat/date_repeat.module:195,225,183,182,222,225,196,195,225,225,195
+msgid "every year"
+msgid_plural "every @count years"
+msgstr[0] "каждый год"
+msgstr[1] "каждые @count года"
+msgstr[2] "каждые @count[2] лет"
+
+#: date_repeat/date_repeat.module:198,228,186,185,225,228,199,198,228,228,198
+msgid "every day"
+msgid_plural "every @count days"
+msgstr[0] "каждый @count день"
+msgstr[1] "каждые @count дня"
+msgstr[2] "каждые @count[2] дней"
+
+#: date_repeat/date_repeat_form.inc:126,128,127,127,126,125,125
+msgid ""
+"If no advanced options are selected, the date will repeat on the day "
+"of week of the start date for weekly repeats, otherwise on the month "
+"and day of the start date. Use the options below to override that "
+"behavior to select specific months and days to repeat on. Use the "
+"'Except' box to input dates that should be omitted from the results."
+msgstr ""
+
+#: date_repeat/date_repeat_form.inc:384,923,923,923,384,384,923,923,386,386
+msgid "Current exceptions"
+msgstr "Текущие исключения"
+
+#: date_repeat/date_repeat.module:210,243,198,197,237,243,211,210,243,243,210
+msgid "!repeats_every_interval on the !date_order !day_of_week"
+msgstr "!repeats_every_interval по !date_order !day_of_week"
+
+#: date_repeat/date_repeat.module:213,246,201,200,240,246,214,213,246,246,213
+msgid "!repeats_every_interval every !day_of_week"
+msgstr "!repeats_every_interval каждые !day_of_week"
+
+#: date_repeat/date_repeat.module:242,275,229,228,269,275,242,242,275,275,242
+msgid "!repeats_every_interval until !until_date"
+msgstr "!repeats_every_interval до !until_date"
+
+#: date_repeat/date_repeat.module:249,284,236,235,278,284,249,249,284,284,249
+msgid "!repeats_every_interval except !except_dates"
+msgstr "!repeats_every_interval исключая !except_dates"
+
+#: date_repeat/date_repeat.module:260,288,240,239,282,288,260,260,288,288,260
+msgid "!repeats_every_interval where the week start on !day_of_week"
+msgstr ""
+
+#: date_repeat/date_repeat.module:242,241
+msgid "Repeats !interval !bymonth !byday !count !until !except."
+msgstr "Повтор !interval !bymonth !byday !count !until !except."
+
+#: date_repeat/date_repeat.module:226,259,214,213,253,259,227,226,259,259,226
+msgid "!repeats_every_interval on the !month_days of !month_names"
+msgstr "!repeats_every_interval по the !month_days !month_names"
+
+#: date_repeat/date_repeat.module:229,262,217,216,256,262,230,229,262,262,229
+msgid "!repeats_every_interval on !month_names"
+msgstr "!repeats_every_interval по !month_names"
+
+#: date_repeat/date_repeat.module:237,270,225,224,264,270,238,237,270,270,237
+msgid "!repeats_every_interval !count times"
+msgstr "!repeats_every_interval !count время"
+
+#: date_repeat/date_repeat_form.inc:203,204,203,202,202
+msgid "Dates to add to the list of repeating dates."
+msgstr ""
+
+#: date_repeat/date_repeat_form.inc:397,936,936,936,397,397,936,936,399,399
+msgid "Current additions"
+msgstr ""
+
+#: date_repeat/date_repeat.module:256,297,291,297,256,256,297,297,256
+msgid "Also includes !additional_dates."
+msgstr ""
+
+#: date_repeat/date_repeat.module:262,299,293,299,262,262,299,299,262
+msgid "Repeats !interval !bymonth !byday !count !until !except. !additional"
+msgstr ""
+
+#: date_repeat/date_repeat.module:135,132,135,135,135
+msgid "Every"
+msgctxt "date_order"
+msgstr "Каждый"
+
+#: date_repeat/date_repeat.module:74,74,74,74,74
+msgid "Sunday"
+msgctxt "day_name"
+msgstr "Воскресенье"
+
+#: date_repeat/date_repeat.module:75,75,75,75,75
+msgid "Monday"
+msgctxt "day_name"
+msgstr "Понедельник"
+
+#: date_repeat/date_repeat.module:76,76,76,76,76
+msgid "Tuesday"
+msgctxt "day_name"
+msgstr "Вторник"
+
+#: date_repeat/date_repeat.module:77,77,77,77,77
+msgid "Wednesday"
+msgctxt "day_name"
+msgstr "Среда"
+
+#: date_repeat/date_repeat.module:78,78,78,78,78
+msgid "Thursday"
+msgctxt "day_name"
+msgstr "Четверг"
+
+#: date_repeat/date_repeat.module:79,79,79,79,79
+msgid "Friday"
+msgctxt "day_name"
+msgstr "Пятница"
+
+#: date_repeat/date_repeat.module:80,80,80,80,80
+msgid "Saturday"
+msgctxt "day_name"
+msgstr "Суббота"
+
+#: date_repeat/date_repeat_form.inc:234,235,234,233,233
+msgid "Add more exceptions"
+msgstr ""
+
+#: date_repeat/date_repeat_form.inc:247,248,247,246,246
+msgid "Add more additions"
+msgstr ""
+
+#: date_repeat/date_repeat_form.inc:666,666,666,666,666
+msgid "Add exception"
+msgstr ""
+
+#: date_repeat/date_repeat_form.inc:677,677,677,677,677
+msgid "Add addition"
+msgstr ""
+
+#: date_repeat/date_repeat_form.inc:84,142,158,174,189,84,142,158,174,189,84,142,158,174,189,84,142,158,174,189,84,142,158,174,189
+msgid "Repeats"
+msgctxt "Date repeat"
+msgstr ""
+
+#: date_repeat/date_repeat_form.inc:139,139,139,139,139
+msgid "Every @interval days"
+msgctxt "Date repeat"
+msgstr ""
+
+#: date_repeat/date_repeat_form.inc:155,155,155,155,155
+msgid "Every @interval weeks"
+msgctxt "Date repeat"
+msgstr ""
+
+#: date_repeat/date_repeat_form.inc:170,170,170,170,170
+msgid "Every @interval months"
+msgctxt "Date repeat"
+msgstr ""
+
+#: date_repeat/date_repeat_form.inc:186,186,186,186,186
+msgid "Every @interval years"
+msgctxt "Date repeat"
+msgstr ""
+
+#: date_repeat/date_repeat_form.inc:204,204,204,204,204
+msgid "Repeat on"
+msgctxt "Date repeat"
+msgstr ""
+
+#: date_repeat/date_repeat_form.inc:230,230,230,230,230
+msgid "Every weekday"
+msgctxt "Date repeat"
+msgstr ""
+
+#: date_repeat/date_repeat_form.inc:235,235,235,235,235
+msgid "Every Mon, Wed, Fri"
+msgctxt "Date repeat"
+msgstr ""
+
+#: date_repeat/date_repeat_form.inc:240,240,240,240,240
+msgid "Every Tue, Thu"
+msgctxt "Date repeat"
+msgstr ""
+
+#: date_repeat/date_repeat_form.inc:246,246,246,246,246
+msgid "Repeats every"
+msgctxt "Date repeat"
+msgstr ""
+
+#: date_repeat/date_repeat_form.inc:257,257,257,257,257
+msgid "every weekday"
+msgstr ""
+
+#: date_repeat/date_repeat_form.inc:258,258,258,258,258
+msgid "monday wednesday friday"
+msgstr ""
+
+#: date_repeat/date_repeat_form.inc:259,259,259,259,259
+msgid "tuesday thursday"
+msgstr ""
+
+#: date_repeat/date_repeat_form.inc:366,470,366,470,366,470,366,470,366,470
+msgid "On day ... of ..."
+msgstr ""
+
+#: date_repeat/date_repeat_form.inc:367,471,367,471,367,471,367,471,367,471
+msgid "On the ... of ..."
+msgstr ""
+
+#: date_repeat/date_repeat_form.inc:481,481,481,481,481
+msgid "After @count occurrences"
+msgctxt "Date repeat"
+msgstr ""
+
+#: date_repeat/date_repeat_form.inc:484,484,484,484,484
+msgid "Count"
+msgctxt "Date repeat"
+msgstr ""
+
+#: date_repeat/date_repeat_form.inc:497,497,497,497,497
+msgid "On"
+msgctxt "Date repeat"
+msgstr ""
+
+#: date_repeat/date_repeat_form.inc:500,500,500,500,500
+msgid "Until"
+msgctxt "Date repeat"
+msgstr ""
+
+#: date_repeat/date_repeat_form.inc:522,522,522,522,522
+msgid "Stop repeating"
+msgctxt "Date repeat"
+msgstr ""
+
+#: date_repeat/date_repeat_form.inc:560,560,560,560,560
+msgid "Exclude dates"
+msgctxt "Date repeat"
+msgstr ""
+
+#: date_repeat/date_repeat_form.inc:618,618,618,618,618
+msgid "Include dates"
+msgctxt "Date repeat"
+msgstr ""
+
+#: date_repeat/date_repeat_form.inc:950,950,950,950,950
+msgid "Repeat settings"
+msgstr ""
+
+#: date_repeat/date_repeat.module:51,51,51,51,51
+msgid "Daily"
+msgctxt "datetime_singular"
+msgstr ""
+
+#: date_repeat/date_repeat.module:52,52,52,52,52
+msgid "Weekly"
+msgctxt "datetime_singular"
+msgstr ""
+
+#: date_repeat/date_repeat.module:53,53,53,53,53
+msgid "Monthly"
+msgctxt "datetime_singular"
+msgstr ""
+
+#: date_repeat/date_repeat.module:54,54,54,54,54
+msgid "Yearly"
+msgctxt "datetime_singular"
+msgstr ""
+
+#: date_repeat/date_repeat_form.inc:283,387,283,387,283,387,283,387,283,387
+msgid "On day @bymonthday of"
+msgctxt "Date repeat"
+msgstr ""
+
+#: date_repeat/date_repeat_form.inc:297,343,401,447,297,343,401,447,297,343,401,447,297,343,401,447,297,343,401,447
+msgid "Bymonth"
+msgctxt "Date repeat"
+msgstr ""
+
+#: date_repeat/date_repeat_form.inc:319,423,319,423,319,423,319,423,319,423
+msgid "On the @byday of"
+msgctxt "Date repeat"
+msgstr ""
+

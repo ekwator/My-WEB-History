@@ -1,0 +1,387 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html class="js" xmlns="http://www.w3.org/1999/xhtml" xml:lang="ru" lang="ru"><head><script async="" src="drupal-6-slaydshou-pri-pomoshchi-modulya-dynamic-display-block-chast-1_files/cbgapi.loaded_0"></script><script gapi_processed="true" src="drupal-6-slaydshou-pri-pomoshchi-modulya-dynamic-display-block-chast-1_files/plusone.js" async="true" type="text/javascript"></script><link media="all" href="drupal-6-slaydshou-pri-pomoshchi-modulya-dynamic-display-block-chast-1_files/widgetbig045.css" type="text/css" rel="stylesheet"><script src="drupal-6-slaydshou-pri-pomoshchi-modulya-dynamic-display-block-chast-1_files/ru.js" type="text/javascript"></script><link media="all" href="drupal-6-slaydshou-pri-pomoshchi-modulya-dynamic-display-block-chast-1_files/widget092.css" type="text/css" rel="stylesheet">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <!-- фавикон -->
+    <link type="image/x-icon" rel="icon" href="http://www.stepgt.com/favicon.ico">
+    <link type="image/x-icon" rel="shortcut icon" href="http://www.stepgt.com/favicon.ico">
+    <!-- Конец фавикон -->
+
+    <title>
+      Drupal 6 Слайдшоу при помощи модуля Dynamic display block (Часть 
+1) | Бесплатные видеоуроки по теме сайтостроения CMS Drupal    </title>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<script src="drupal-6-slaydshou-pri-pomoshchi-modulya-dynamic-display-block-chast-1_files/ga.js" async="" type="text/javascript"></script><script type="text/javascript" src="drupal-6-slaydshou-pri-pomoshchi-modulya-dynamic-display-block-chast-1_files/addthis_widget.js"></script><div id="_atssh" style="visibility: hidden; height: 1px; width: 1px; position: absolute; z-index: 100000;"><iframe src="drupal-6-slaydshou-pri-pomoshchi-modulya-dynamic-display-block-chast-1_files/sh098.html" style="height: 1px; width: 1px; position: absolute; z-index: 100000; border: 0px none; left: 0px; top: 0px;" title="AddThis utility frame" id="_atssh295"></iframe></div><script src="drupal-6-slaydshou-pri-pomoshchi-modulya-dynamic-display-block-chast-1_files/core032.js" type="text/javascript"></script>
+<link rel="shortcut icon" href="http://www.stepgt.com/sites/default/files/stepGT_favicon.jpg" type="image/x-icon">
+    <link type="text/css" rel="stylesheet" media="all" href="drupal-6-slaydshou-pri-pomoshchi-modulya-dynamic-display-block-chast-1_files/css_fda6e24793744469319d6c58f052206a.css">
+    <!--[if lte IE 6]>
+    <link rel="stylesheet" href="/sites/all/themes/stepGT/style/ie6.css" type="text/css">
+
+    <script src="/sites/all/themes/stepGT/js/DD_belatedPNG.js"></script>
+    <script>
+    DD_belatedPNG.fix("#top, #stepGT, #footer);
+    </script>
+    <![endif]-->
+
+    <script type="text/javascript" src="drupal-6-slaydshou-pri-pomoshchi-modulya-dynamic-display-block-chast-1_files/js_de57edc4439de3e292b9498b45407691.js"></script>
+<script type="text/javascript" src="drupal-6-slaydshou-pri-pomoshchi-modulya-dynamic-display-block-chast-1_files/cumulus.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, { "basePath": "/", "highslide": { "options": { "graphicsDir": "/sites/all/modules/highslide/highslide/graphics/", "align": "center", "outlineType": "drop-shadow", "dimmingOpacity": 0.4, "dimmingDuration": 140 } }, "cron": { "basePath": "/poormanscron", "runNext": 1346147758 }, "addthis": { "config_default": { "services_toolbox": "email,mymailru,vk,odnoklassniki_ru,facebook,twitter,livejournal,google_plusone", "services_compact": "", "services_expanded": "", "ui_cobrand": "", "ui_header_color": "#000000", "ui_header_background": "#FFFFFF", "ui_click": 0, "ui_delay": "", "ui_use_addressbook": 0, "pubid": "xa-4e2cfd1147868c4e", "data_track_clickback": true, "data_ga_tracker": "pageTracker", "ui_use_css": true, "data_use_cookies": true, "ui_language": "ru", "data_use_flash": true }, "share_default": { "templates": { "twitter": "" } } }, "language_mode": 0, "language_list": { "ru": { "language": "ru", "name": "Russian", "native": "Русский", "direction": "0", "enabled": "1", "plurals": "3", "formula": "(((($n%10)==1)\x26\x26(($n%100)!=11))?(0):((((($n%10)\x3e=2)\x26\x26(($n%10)\x3c=4))\x26\x26((($n%100)\x3c10)||(($n%100)\x3e=20)))?(1):2))", "domain": "", "prefix": "ru", "weight": "0", "javascript": "81ead18476c8df4ec0eaa175bfd23d3e" } }, "clean_url": "1", "rows_in_reply": "10", "rows_default": "10", "always_expand_main_form": 1, "blink_new": 1, "comment_preview_required": false, "ahah": { "ajax-comments-submit": { "url": "/ajax_comments/js", "event": "click", "keypress": null, "wrapper": "comment-form-content", "selector": "#ajax-comments-submit", "effect": "ajaxCommentsSubmit", "method": "before", "progress": { "type": "1bar", "message": "Пожалуйста, подождите..." }, "button": { "op": "Сохранить" } }, "ajax-comments-preview": { "url": "/ajax_comments/js", "event": "click", "keypress": null, "wrapper": "comment-preview", "selector": "#ajax-comments-preview", "effect": "ajaxCommentsPreview", "method": "append", "progress": { "type": "1bar", "message": "Пожалуйста, подождите..." }, "button": { "op": "Предпросмотр" } } } });
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+addthis_config = Drupal.settings.addthis.config_default; addthis_share = Drupal.settings.addthis.share_default;
+//--><!]]>
+</script>
+    <meta name="yandex-verification" content="6ff1dcbcafd56a8c">
+
+    <script type="text/javascript">
+
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-27978807-1']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+
+    </script>
+
+
+  <style type="text/css">.highslide img {cursor: url(/sites/all/modules/highslide/highslide/graphics/zoomin.cur), pointer !important;}.highslide-viewport-size {position: fixed; width: 100%; height: 100%; left: 0; top: 0}</style></head>
+
+  <body class="cron-check-processed">
+    <div id="main">
+      <div id="top">
+
+        <div id="stepGT">
+          <a href="http://www.stepgt.com/" title="Главная">
+            <img src="drupal-6-slaydshou-pri-pomoshchi-modulya-dynamic-display-block-chast-1_files/logo.png" alt="Главная">
+          </a>
+        </div>
+
+        <div id="nav">
+          <div id="youtube">
+
+            <a target="_blank" href="http://youtube.com/user/stepgtdotcom" title="Мой канал на YouTube.com">
+              <img src="drupal-6-slaydshou-pri-pomoshchi-modulya-dynamic-display-block-chast-1_files/youtube.png" alt="Мой канал на YouTube.com" height="80" width="80">
+            </a>
+
+            <a class="highslide-ajax-link" href="http://www.stepgt.com/content/obratnaya-svyaz#center" title="Отправить письмо автору">
+              <img src="drupal-6-slaydshou-pri-pomoshchi-modulya-dynamic-display-block-chast-1_files/mail.png" alt="Отправить письмо автору" height="80" width="80">
+            </a>
+
+          </div>
+          <ul class="links" id="navlist"><li class="menu-455 first"><a href="http://www.stepgt.com/" title="">На главную</a></li>
+<li class="menu-450"><a href="http://www.stepgt.com/content/ob-avtore" title="">Об авторе</a></li>
+<li class="menu-3663 last"><a href="http://www.stepgt.com/sitemap" title="">Карта сайта</a></li>
+</ul>        </div>
+
+        
+      </div><!-- END #top -->
+      <div id="content">
+        <div id="center">
+
+          <div class="breadcrumb"><a href="http://www.stepgt.com/">Главная</a></div>
+          <h1 class="title">
+            Drupal 6 Слайдшоу при помощи модуля Dynamic display block (Часть 1)          </h1>
+
+          <div class="tabs">
+                      </div>
+
+          
+          
+          <div class="clear-block">
+            <div id="node">
+
+  
+  <div class="content">
+    <div class="vud-widget vud-widget-alternate" id="widget-node-73">
+      <div class="alternate-votes-display">88</div>
+                  <a href="http://www.stepgt.com/vote/node/73/1/vote/alternate/1ee33fb42eb791dbc172503ad286e08b" rel="nofollow" class="vud-link-up ctools-use-ajax ctools-use-ajax-processed">
+                <div class="up-inactive" title="Голос за!"></div>
+          <div class="element-invisible">Голос за!</div>
+              </a>
+                </div>
+<p>В этом видеоподкасте мы будем работать с модулем <strong>Dynamic display block</strong>
+ для шестой версии Друпала. В первом видео мы займемся подготовкой, 
+установим все необходимые модули для корректной работы нашего слайдера и
+ проделаем операции импорта полей <strong>CCK </strong>и <strong>Views</strong></p>
+<br>
+
+<p align="center"><script type="text/javascript"><!--
+google_ad_client = "ca-pub-8560338277896538";
+/* stepGT.com 468x60 Графика */
+google_ad_slot = "5477476146";
+google_ad_width = 468;
+google_ad_height = 60;
+//-->
+</script>
+<script type="text/javascript" src="drupal-6-slaydshou-pri-pomoshchi-modulya-dynamic-display-block-chast-1_files/show_ads.js">
+</script><ins style="display:inline-table;border:none;height:60px;margin:0;padding:0;position:relative;visibility:visible;width:468px"><ins id="aswift_0_anchor" style="display:block;border:none;height:60px;margin:0;padding:0;position:relative;visibility:visible;width:468px"><iframe allowtransparency="true" hspace="0" marginwidth="0" marginheight="0" onload="var i=this.id,s=window.google_iframe_oncopy,H=s&amp;&amp;s.handlers,h=H&amp;&amp;H[i],w=this.contentWindow,d;try{d=w.document}catch(e){}if(h&amp;&amp;d&amp;&amp;(!d.body||!d.body.firstChild)){if(h.call){i+='.call';setTimeout(h,0)}else if(h.match){i+='.nav';w.location.replace(h)}s.log&amp;&amp;s.log.push(i)}" vspace="0" id="aswift_0" name="aswift_0" style="left:0;position:absolute;top:0;" frameborder="0" height="60" width="468" scrolling="no"></iframe></ins></ins></p><br>
+<p align="center"><iframe src="drupal-6-slaydshou-pri-pomoshchi-modulya-dynamic-display-block-chast-1_files/1ZSedwMx1BQ.html" allowfullscreen="" frameborder="0" height="349" width="425"></iframe></p><br>
+
+
+<div align="center">
+	<a target="_blank" href="http://narod.ru/disk/21225289001/ddblock_slider_1.zip.html">
+		<img src="drupal-6-slaydshou-pri-pomoshchi-modulya-dynamic-display-block-chast-1_files/cool_submit.png">
+	</a>
+	<br>
+	<a href="http://stepgt.com/sites/default/files/free_video/d6_ddblock_slider/1/dop_material.zip">
+		<img src="drupal-6-slaydshou-pri-pomoshchi-modulya-dynamic-display-block-chast-1_files/cool_staff.png">
+	</a>
+	
+</div>
+
+<br>
+
+<!--Попов All(синий 468x60)-->
+<div align="center">
+<script type="text/javascript" src="drupal-6-slaydshou-pri-pomoshchi-modulya-dynamic-display-block-chast-1_files/2708.js"></script><iframe src="drupal-6-slaydshou-pri-pomoshchi-modulya-dynamic-display-block-chast-1_files/2708.html" id="r2708" name="r2708" marginwidth="0" marginheight="0" vspace="0" hspace="0" style="overflow:hidden" frameborder="0" height="62" width="470"></iframe>
+</div>
+<!--End Попов All(синий 468x60)-->
+
+<br>
+<div align="center">
+<!-- RotaPost - Эффективная реклама в блогах -->
+<a target="_blank" href="http://www.rotapost.ru/?a=botyzi">
+    <img src="drupal-6-slaydshou-pri-pomoshchi-modulya-dynamic-display-block-chast-1_files/rotapost_468x60_1.gif" alt="RotaPost - Эффективная реклама в блогах" height="60px" width="468px">
+</a>
+<!-- End RotaPost - Эффективная реклама в блогах -->
+</div>  </div>
+
+  <div class="taxonomy">
+    Метки:<ul class="links inline"><li class="taxonomy_term_18 first"><a href="http://www.stepgt.com/kategorii/cms-drupal-6" rel="tag" title="Drupal (друпал)  — система управления содержимым (CMS), написанная на языке PHP и использующая в качестве хранилища данных реляционную базу данных (поддерживаются MySQL, PostgreSQL и другие). Drupal является свободным программным обеспечением, защищённым лицензией GPL, и развивается усилиями энтузиастов со всего мира.">CMS Drupal 6</a></li>
+<li class="taxonomy_term_15 last"><a href="http://www.stepgt.com/kategorii/javascript-and-jquery" rel="tag" title="JavaScript — объектно-ориентированный скриптовый язык программирования. Является диалектом языка ECMAScript.
+JavaScript обычно используется как встраиваемый язык для программного доступа к объектам приложений. Наиболее широкое применение находит в браузерах как язык сценариев для придания интерактивности веб-страницам.
+
+jQuery — библиотека JavaScript, фокусирующаяся на взаимодействии JavaScript и HTML. Библиотека jQuery помогает легко получать доступ к любому элементу DOM, обращаться к атрибутам и содержимому элементов DOM, манипулировать ими. Также библиотека jQuery предоставляет удобный API по работе с Ajax.">JavaScript and JQuery</a></li>
+</ul>  </div>
+
+        <div class="links-node">
+    <ul class="links inline"><li class="statistics_counter first"><span>2040 просмотров</span></li>
+<li class="vud_node_votes_count"></li>
+<li class="addthis last"><span><div class="addthis_toolbox addthis_default_style addthis_32x32_style" addthis:url="http://www.stepGT.com/content/drupal-6-slaydshou-pri-pomoshchi-modulya-dynamic-display-block-chast-1" addthis:title="Drupal 6 Слайдшоу при помощи модуля Dynamic display block (Часть 1)"><a href="#" title="Email" class="addthis_toolbox_item addthis_button_email at300b"><span class=" at300bs at15nc at15t_email"><span class="at_a11y">Share on email</span></span></a><a title="Mymailru" target="_blank" href="http://www.addthis.com/bookmark.php?v=250&amp;winname=addthis&amp;pub=xa-4e2cfd1147868c4e&amp;source=tbx32-250&amp;lng=ru&amp;s=mymailru&amp;url=http%3A%2F%2Fwww.stepGT.com%2Fcontent%2Fdrupal-6-slaydshou-pri-pomoshchi-modulya-dynamic-display-block-chast-1&amp;title=Drupal%206%20%D0%A1%D0%BB%D0%B0%D0%B9%D0%B4%D1%88%D0%BE%D1%83%20%D0%BF%D1%80%D0%B8%20%D0%BF%D0%BE%D0%BC%D0%BE%D1%89%D0%B8%20%D0%BC%D0%BE%D0%B4%D1%83%D0%BB%D1%8F%20Dynamic%20display%20block%20%28%D0%A7%D0%B0%D1%81%D1%82%D1%8C%201%29&amp;ate=AT-xa-4e2cfd1147868c4e/-/-/503c57c4d9e049e9/1&amp;frommenu=1&amp;uid=503c57c4d12de00e&amp;ct=1&amp;ui_header_color=%23000000&amp;ui_header_background=%23FFFFFF&amp;pre=http%3A%2F%2Fyandex.ru%2Fyandsearch%3Fp%3D1%26text%3Ddrupal%2B%25D0%25B4%25D0%25B8%25D0%25BD%25D0%25B0%25D0%25BC%25D0%25B8%25D1%2587%25D0%25B5%25D1%2581%25D0%25BA%25D0%25B8%25D0%25B9%2B%25D0%25B2%25D1%258B%25D0%25B2%25D0%25BE%25D0%25B4%2B%25D0%25BA%25D0%25B0%25D1%2580%25D1%2582%25D0%25B8%25D0%25BD%25D0%25BE%25D0%25BA%2B%25D0%25BC%25D0%25B0%25D1%2582%25D0%25B5%25D1%2580%25D0%25B8%25D0%25B0%25D0%25BB%25D0%25B0%2Bviews%26lr%3D48&amp;tt=0" class="addthis_toolbox_item addthis_button_mymailru at300b"><span class=" at300bs at15nc at15t_mymailru"><span class="at_a11y">Share on mymailru</span></span></a><a href="#" title="Vk" target="_blank" class="addthis_toolbox_item addthis_button_vk at300b"><span class=" at300bs at15nc at15t_vk"><span class="at_a11y">Share on vk</span></span></a><a title="Odnoklassniki_ru" target="_blank" href="http://www.addthis.com/bookmark.php?v=250&amp;winname=addthis&amp;pub=xa-4e2cfd1147868c4e&amp;source=tbx32-250&amp;lng=ru&amp;s=odnoklassniki_ru&amp;url=http%3A%2F%2Fwww.stepGT.com%2Fcontent%2Fdrupal-6-slaydshou-pri-pomoshchi-modulya-dynamic-display-block-chast-1&amp;title=Drupal%206%20%D0%A1%D0%BB%D0%B0%D0%B9%D0%B4%D1%88%D0%BE%D1%83%20%D0%BF%D1%80%D0%B8%20%D0%BF%D0%BE%D0%BC%D0%BE%D1%89%D0%B8%20%D0%BC%D0%BE%D0%B4%D1%83%D0%BB%D1%8F%20Dynamic%20display%20block%20%28%D0%A7%D0%B0%D1%81%D1%82%D1%8C%201%29&amp;ate=AT-xa-4e2cfd1147868c4e/-/-/503c57c4d9e049e9/2&amp;frommenu=1&amp;uid=503c57c4b21c4a08&amp;ct=1&amp;ui_header_color=%23000000&amp;ui_header_background=%23FFFFFF&amp;pre=http%3A%2F%2Fyandex.ru%2Fyandsearch%3Fp%3D1%26text%3Ddrupal%2B%25D0%25B4%25D0%25B8%25D0%25BD%25D0%25B0%25D0%25BC%25D0%25B8%25D1%2587%25D0%25B5%25D1%2581%25D0%25BA%25D0%25B8%25D0%25B9%2B%25D0%25B2%25D1%258B%25D0%25B2%25D0%25BE%25D0%25B4%2B%25D0%25BA%25D0%25B0%25D1%2580%25D1%2582%25D0%25B8%25D0%25BD%25D0%25BE%25D0%25BA%2B%25D0%25BC%25D0%25B0%25D1%2582%25D0%25B5%25D1%2580%25D0%25B8%25D0%25B0%25D0%25BB%25D0%25B0%2Bviews%26lr%3D48&amp;tt=0" class="addthis_toolbox_item addthis_button_odnoklassniki_ru at300b"><span class=" at300bs at15nc at15t_odnoklassniki_ru"><span class="at_a11y">Share on odnoklassniki_ru</span></span></a><a href="#" title="Facebook" class="addthis_toolbox_item addthis_button_facebook at300b"><span class=" at300bs at15nc at15t_facebook"><span class="at_a11y">Share on facebook</span></span></a><a href="#" title="Tweet This" class="addthis_toolbox_item addthis_button_twitter at300b"><span class=" at300bs at15nc at15t_twitter"><span class="at_a11y">Share on twitter</span></span></a><a title="Livejournal" target="_blank" href="http://www.addthis.com/bookmark.php?v=250&amp;winname=addthis&amp;pub=xa-4e2cfd1147868c4e&amp;source=tbx32-250&amp;lng=ru&amp;s=livejournal&amp;url=http%3A%2F%2Fwww.stepGT.com%2Fcontent%2Fdrupal-6-slaydshou-pri-pomoshchi-modulya-dynamic-display-block-chast-1&amp;title=Drupal%206%20%D0%A1%D0%BB%D0%B0%D0%B9%D0%B4%D1%88%D0%BE%D1%83%20%D0%BF%D1%80%D0%B8%20%D0%BF%D0%BE%D0%BC%D0%BE%D1%89%D0%B8%20%D0%BC%D0%BE%D0%B4%D1%83%D0%BB%D1%8F%20Dynamic%20display%20block%20%28%D0%A7%D0%B0%D1%81%D1%82%D1%8C%201%29&amp;ate=AT-xa-4e2cfd1147868c4e/-/-/503c57c4d9e049e9/3&amp;frommenu=1&amp;uid=503c57c4accd1bf7&amp;ct=1&amp;ui_header_color=%23000000&amp;ui_header_background=%23FFFFFF&amp;pre=http%3A%2F%2Fyandex.ru%2Fyandsearch%3Fp%3D1%26text%3Ddrupal%2B%25D0%25B4%25D0%25B8%25D0%25BD%25D0%25B0%25D0%25BC%25D0%25B8%25D1%2587%25D0%25B5%25D1%2581%25D0%25BA%25D0%25B8%25D0%25B9%2B%25D0%25B2%25D1%258B%25D0%25B2%25D0%25BE%25D0%25B4%2B%25D0%25BA%25D0%25B0%25D1%2580%25D1%2582%25D0%25B8%25D0%25BD%25D0%25BE%25D0%25BA%2B%25D0%25BC%25D0%25B0%25D1%2582%25D0%25B5%25D1%2580%25D0%25B8%25D0%25B0%25D0%25BB%25D0%25B0%2Bviews%26lr%3D48&amp;tt=0" class="addthis_toolbox_item addthis_button_livejournal at300b"><span class=" at300bs at15nc at15t_livejournal"><span class="at_a11y">Share on google_plusone</span></span></a><a href="#" title="Google_plusone" class="addthis_toolbox_item addthis_button_google_plusone at300b"><div id="___plusone_0" style="height: 24px; width: 106px; display: inline-block; text-indent: 0px; margin: 0px; padding: 0px; background: none repeat scroll 0% 0% transparent; border-style: none; float: none; line-height: normal; font-size: 1px; vertical-align: baseline;"><iframe title="+1" src="drupal-6-slaydshou-pri-pomoshchi-modulya-dynamic-display-block-chast-1_files/fastbutton.html" name="I0_1346131910280" id="I0_1346131910280" vspace="0" tabindex="0" style="position: static; top: 0px; width: 106px; margin: 0px; border-style: none; left: 0px; visibility: visible; height: 24px;" marginwidth="0" marginheight="0" hspace="0" allowtransparency="true" frameborder="0" width="100%" scrolling="no"></iframe></div></a><div class="atclear"></div></div></span></li>
+</ul>    </div>
+
+</div>
+
+
+
+<div id="comments">
+  <a id="comment-430"></a>
+  <div class="comment comment-published">
+    <div class="picture">
+  <img src="drupal-6-slaydshou-pri-pomoshchi-modulya-dynamic-display-block-chast-1_files/anonym.jpg" alt="Аватар пользователя Гость" title="Аватар пользователя Гость"></div>
+<h3 class="title"><a href="http://www.stepgt.com/content/drupal-6-slaydshou-pri-pomoshchi-modulya-dynamic-display-block-chast-1#comment-430" class="active active">Подскажите, сделал всё как</a></h3>    <div class="submitted">Автор Гость, дата создания чт, 05/31/2012 - 02:02.</div>
+    <div class="content">
+     <p>Подскажите, сделал всё как вы,делаю импорт для сск и для вьюс пишет что текст неправилно</p>
+         </div>
+    <div class="links">» <ul class="links"><li class="comment_reply first last"><a class="ajax-comments-processed" href="http://www.stepgt.com/comment/reply/73/430">ответить</a></li>
+</ul></div>
+  </div>
+<a id="comment-385"></a>
+  <div class="comment comment-published">
+    <div class="picture">
+  <img src="drupal-6-slaydshou-pri-pomoshchi-modulya-dynamic-display-block-chast-1_files/anonym.jpg" alt="Аватар пользователя Ardak" title="Аватар пользователя Ardak"></div>
+<h3 class="title"><a href="http://www.stepgt.com/content/drupal-6-slaydshou-pri-pomoshchi-modulya-dynamic-display-block-chast-1#comment-385" class="active active">Я все сделала как следует но</a></h3>    <div class="submitted">Автор Ardak, дата создания чт, 04/12/2012 - 02:45.</div>
+    <div class="content">
+     <p>Я все сделала как следует но не получается. на содержимое не 
+выходит ddblock slaider. (((( na moiu saitu o4en' nujna  slaideshow 
+pomogite pojaluista</p>
+         </div>
+    <div class="links">» <ul class="links"><li class="comment_reply first last"><a class="ajax-comments-processed" href="http://www.stepgt.com/comment/reply/73/385">ответить</a></li>
+</ul></div>
+  </div>
+<a id="comment-355"></a>
+  <div class="comment comment-published">
+    <div class="picture">
+  <img src="drupal-6-slaydshou-pri-pomoshchi-modulya-dynamic-display-block-chast-1_files/anonym.jpg" alt="Аватар пользователя Александр" title="Аватар пользователя Александр"></div>
+<h3 class="title"><a href="http://www.stepgt.com/content/drupal-6-slaydshou-pri-pomoshchi-modulya-dynamic-display-block-chast-1#comment-355" class="active active">Та же проблема с отображение,</a></h3>    <div class="submitted">Автор Александр, дата создания пт, 03/02/2012 - 23:44.</div>
+    <div class="content">
+     <p>Та же проблема с отображение, когда не под логином Админа, всё пропадает... как исправить???</p>
+         </div>
+    <div class="links">» <ul class="links"><li class="comment_reply first last"><a class="ajax-comments-processed" href="http://www.stepgt.com/comment/reply/73/355">ответить</a></li>
+</ul></div>
+  </div>
+<div class="indented"><a id="comment-356"></a>
+  <div class="comment comment-published">
+    <div class="picture">
+  <img src="drupal-6-slaydshou-pri-pomoshchi-modulya-dynamic-display-block-chast-1_files/picture-1.jpg" alt="Аватар пользователя Андрей" title="Аватар пользователя Андрей"></div>
+<h3 class="title"><a href="http://www.stepgt.com/content/drupal-6-slaydshou-pri-pomoshchi-modulya-dynamic-display-block-chast-1#comment-356" class="active active">Смотрите в сторону разрешений</a></h3>    <div class="submitted">Автор Андрей, дата создания сб, 03/03/2012 - 10:09.</div>
+    <div class="content">
+     <p>Смотрите в сторону разрешений пользователя(permissions)...</p>
+         </div>
+    <div class="links">» <ul class="links"><li class="comment_reply first last"><a class="ajax-comments-processed" href="http://www.stepgt.com/comment/reply/73/356">ответить</a></li>
+</ul></div>
+  </div>
+</div><a id="comment-343"></a>
+  <div class="comment comment-published">
+    <div class="picture">
+  <img src="drupal-6-slaydshou-pri-pomoshchi-modulya-dynamic-display-block-chast-1_files/anonym.jpg" alt="Аватар пользователя Гость" title="Аватар пользователя Гость"></div>
+<h3 class="title"><a href="http://www.stepgt.com/content/drupal-6-slaydshou-pri-pomoshchi-modulya-dynamic-display-block-chast-1#comment-343" class="active active">Как сделать переадресацию,</a></h3>    <div class="submitted">Автор Гость, дата создания вт, 02/21/2012 - 23:56.</div>
+    <div class="content">
+     <p>Как сделать переадресацию, чтоб кликая на "Далее" посетитель попадал вместо ноды с картинкой, на иную страницу? Спасибо.</p>
+         </div>
+    <div class="links">» <ul class="links"><li class="comment_reply first last"><a class="ajax-comments-processed" href="http://www.stepgt.com/comment/reply/73/343">ответить</a></li>
+</ul></div>
+  </div>
+<a id="comment-342"></a>
+  <div class="comment comment-published">
+    <div class="picture">
+  <img src="drupal-6-slaydshou-pri-pomoshchi-modulya-dynamic-display-block-chast-1_files/anonym.jpg" alt="Аватар пользователя OlegAnykey" title="Аватар пользователя OlegAnykey"></div>
+<h3 class="title"><a href="http://www.stepgt.com/content/drupal-6-slaydshou-pri-pomoshchi-modulya-dynamic-display-block-chast-1#comment-342" class="active active">Привет.все сделал как</a></h3>    <div class="submitted">Автор OlegAnykey, дата создания вт, 02/21/2012 - 22:40.</div>
+    <div class="content">
+     <p>Привет.все сделал как описано, но есть проблемка. Я когда под 
+логином админа то вижу фотки, а когда выхожу то нет слайдера и ничего не
+ видно, хотя поставил как и ты в блок материалы,что делать?</p>
+         </div>
+    <div class="links">» <ul class="links"><li class="comment_reply first last"><a class="ajax-comments-processed" href="http://www.stepgt.com/comment/reply/73/342">ответить</a></li>
+</ul></div>
+  </div>
+<a id="comment-341"></a>
+  <div class="comment comment-published">
+    <div class="picture">
+  <img src="drupal-6-slaydshou-pri-pomoshchi-modulya-dynamic-display-block-chast-1_files/anonym.jpg" alt="Аватар пользователя OlegAnykey" title="Аватар пользователя OlegAnykey"></div>
+<h3 class="title"><a href="http://www.stepgt.com/content/drupal-6-slaydshou-pri-pomoshchi-modulya-dynamic-display-block-chast-1#comment-341" class="active active">Огромное спасибо !!!!</a></h3>    <div class="submitted">Автор OlegAnykey, дата создания вт, 02/21/2012 - 20:49.</div>
+    <div class="content">
+     <p>Огромное спасибо !!!! поставлю ссылку на твой сайт, когда свой сделаю.</p>
+         </div>
+    <div class="links">» <ul class="links"><li class="comment_reply first last"><a class="ajax-comments-processed" href="http://www.stepgt.com/comment/reply/73/341">ответить</a></li>
+</ul></div>
+  </div>
+<a id="comment-334"></a>
+  <div class="comment comment-published">
+    <div class="picture">
+  <img src="drupal-6-slaydshou-pri-pomoshchi-modulya-dynamic-display-block-chast-1_files/anonym.jpg" alt="Аватар пользователя Виталий" title="Аватар пользователя Виталий"></div>
+<h3 class="title"><a href="http://www.stepgt.com/content/drupal-6-slaydshou-pri-pomoshchi-modulya-dynamic-display-block-chast-1#comment-334" class="active active">Подскажите, сделал всё как вы</a></h3>    <div class="submitted">Автор Виталий, дата создания сб, 02/11/2012 - 03:02.</div>
+    <div class="content">
+     <p>Подскажите, сделал всё как вы описали.. получилось</p>
+<p>Такой вопрос, как можно убрать из готового поста слова:</p>
+<p>Текст для навигации и Картинка, </p>
+<p>да и еще пожалуйста подскажите, как подключить lightbox2 для слайдшоу..</p>
+         </div>
+    <div class="links">» <ul class="links"><li class="comment_reply first last"><a class="ajax-comments-processed" href="http://www.stepgt.com/comment/reply/73/334">ответить</a></li>
+</ul></div>
+  </div>
+<a id="comment-157"></a>
+  <div class="comment comment-published">
+    <div class="picture">
+  <img src="drupal-6-slaydshou-pri-pomoshchi-modulya-dynamic-display-block-chast-1_files/anonym.jpg" alt="Аватар пользователя Алена" title="Аватар пользователя Алена"></div>
+<h3 class="title"><a href="http://www.stepgt.com/content/drupal-6-slaydshou-pri-pomoshchi-modulya-dynamic-display-block-chast-1#comment-157" class="active active">Спасибо! сейчас посмотрю и</a></h3>    <div class="submitted">Автор <a href="http://maaya-karamel.ru/" rel="nofollow">Алена</a>, дата создания ср, 09/14/2011 - 20:05.</div>
+    <div class="content">
+     <p>Спасибо! сейчас посмотрю и попробую сделать слайд шоу для моего сайта на 7м Друпале! :)</p>
+         </div>
+    <div class="links">» <ul class="links"><li class="comment_reply first last"><a class="ajax-comments-processed" href="http://www.stepgt.com/comment/reply/73/157">ответить</a></li>
+</ul></div>
+  </div>
+  <div id="comment-preview"></div><div class="box">
+    <h2 class="title ajax-comments-processed"><a class="pressed ajax-comments-processed" href="http://www.stepgt.com/comment/reply/73" id="comment-form-title">Отправить комментарий</a></h2>    <div cid="0" id="comment-form-content" class=""><form class="ajax-comments-processed" action="/comment/reply/73" accept-charset="UTF-8" method="post" id="comment-form">
+<div><div class="form-item container-inline wp-comments-element" id="edit-name-wrapper">
+ <input maxlength="60" name="name" id="edit-name" size="40" value="Гость" class="form-text" type="text">
+ <label for="edit-name">Ваше имя </label>
+</div>
+<div class="form-item container-inline wp-comments-element" id="edit-mail-wrapper">
+ <input maxlength="64" name="mail" id="edit-mail" size="40" class="form-text" type="text">
+ <label for="edit-mail">Электронная почта </label>
+</div>
+<div class="form-item container-inline wp-comments-element" id="edit-homepage-wrapper">
+ <input maxlength="255" name="homepage" id="edit-homepage" size="40" class="form-text" type="text">
+ <label for="edit-homepage">Домашняя страница </label>
+</div>
+<div class="form-item" id="edit-comment-wrapper">
+ <div class="resizable-textarea"><span><textarea cols="60" rows="10" name="comment" id="edit-comment" class="form-textarea resizable required textarea-processed"></textarea><div style="margin-right: -6px;" class="grippie"></div></span></div>
+</div>
+<ul class="tips"><li>Разрешённые HTML-теги: &lt;a&gt; &lt;em&gt; &lt;strong&gt;</li><li>Строки и параграфы переносятся автоматически.</li><li>Адреса страниц и электронной почты автоматически преобразуются в ссылки.</li></ul><p><a href="http://www.stepgt.com/filter/tips">Подробнее о форматировании текста</a></p><input name="pid" id="edit-pid" value="" type="hidden">
+<input name="form_build_id" id="form-f4a01b842e01fa235c1139fe7dc05777" value="form-f4a01b842e01fa235c1139fe7dc05777" type="hidden">
+<input name="form_id" id="edit-comment-form" value="comment_form" type="hidden">
+<div class="captcha"><input name="captcha_sid" id="edit-captcha-sid" value="158710" type="hidden">
+<input name="captcha_token" id="edit-captcha-token" value="a69eb20c63103913e2cb11db60066242" type="hidden">
+<img src="drupal-6-slaydshou-pri-pomoshchi-modulya-dynamic-display-block-chast-1_files/1346142719.png" alt="CAPTCHA на основе изображений" title="CAPTCHA на основе изображений"><div class="form-item" id="edit-captcha-response-wrapper">
+ <label for="edit-captcha-response">Введите пожалуйста код с картинки: <span class="form-required" title="Обязательно для заполнения.">*</span></label>
+ <input autocomplete="off" maxlength="128" name="captcha_response" id="edit-captcha-response" size="15" class="form-text required" type="text">
+ <div class="description">Внимание: регистр букв не имеет значение!</div>
+</div>
+</div><input name="op" id="ajax-comments-submit" value="Сохранить" class="form-submit ahah-processed" type="submit">
+<input name="op" id="ajax-comments-preview" value="Предпросмотр" class="form-submit ahah-processed" type="submit">
+
+</div></form>
+</div>
+ </div>
+
+</div>
+          </div>
+
+                  </div>
+        <div id="right">
+          <div class="block block-cumulus" id="block-cumulus-0">
+  <h2 class="title">
+      </h2>
+  <div class="content">
+            <div id="tags"><embed type="application/x-shockwave-flash" src="drupal-6-slaydshou-pri-pomoshchi-modulya-dynamic-display-block-chast-1_files/cumulus.swf" id="cumulusflash" name="cumulusflash" quality="high" wmode="transparent" allowscriptaccess="always" flashvars="tcolor=0x333333&amp;tcolor2=0x000000&amp;hicolor=0x666666&amp;tspeed=250&amp;distr=true&amp;mode=tags&amp;tagcloud=%3Ctags%3E%3Ca+href%3D%22http%3A%2F%2Fwww.stepGT.com%2Fkategorii%2Fcms-drupal-6%22+style%3D%22%26quot%3Bfont-size%3A+22px%3B%26quot%3B%22%3ECMS+Drupal+6%3C%2Fa%3E+%0A%3Ca+href%3D%22http%3A%2F%2Fwww.stepGT.com%2Fkategorii%2Fcms-drupal-7%22+style%3D%22%26quot%3Bfont-size%3A+22px%3B%26quot%3B%22%3ECMS+Drupal+7%3C%2Fa%3E+%0A%3Ca+href%3D%22http%3A%2F%2Fwww.stepGT.com%2Fkategorii%2Fdenwer-3%22+style%3D%22%26quot%3Bfont-size%3A+12px%3B%26quot%3B%22%3EDenwer+3%3C%2Fa%3E+%0A%3Ca+href%3D%22http%3A%2F%2Fwww.stepGT.com%2Fkategorii%2Fide-netbeans%22+style%3D%22%26quot%3Bfont-size%3A+12px%3B%26quot%3B%22%3EIDE+NetBeans%3C%2Fa%3E+%0A%3Ca+href%3D%22http%3A%2F%2Fwww.stepGT.com%2Fkategorii%2Fjavascript-and-jquery%22+style%3D%22%26quot%3Bfont-size%3A+22px%3B%26quot%3B%22%3EJavaScript+and+JQuery%3C%2Fa%3E+%0A%3Ca+href%3D%22http%3A%2F%2Fwww.stepGT.com%2Fkategorii%2Fmysql-and-sqlite%22+style%3D%22%26quot%3Bfont-size%3A+20px%3B%26quot%3B%22%3EMySQL+and+SQLite%3C%2Fa%3E+%0A%3Ca+href%3D%22http%3A%2F%2Fwww.stepGT.com%2Fkategorii%2Fphp5%22+style%3D%22%26quot%3Bfont-size%3A+22px%3B%26quot%3B%22%3EPHP5%3C%2Fa%3E+%0A%3Ca+href%3D%22http%3A%2F%2Fwww.stepGT.com%2Fkategorii%2Fubercart-2%22+style%3D%22%26quot%3Bfont-size%3A+14px%3B%26quot%3B%22%3EUbercart+2%3C%2Fa%3E+%0A%3C%2Ftags%3E" height="250" width="230">
+        </div>
+        <div class="more-link"><a href="http://www.stepgt.com/tagadelic/chunk/5">все теги</a></div>  </div>
+</div>
+<div class="block block-block" id="block-block-7">
+  <h2 class="title">
+      </h2>
+  <div class="content">
+    <h2 style="margin-left:50px;">Z342554031355</h2>
+<h2 style="margin-left:50px;">R379771154938</h2>
+<iframe allowtransparency="true" src="drupal-6-slaydshou-pri-pomoshchi-modulya-dynamic-display-block-chast-1_files/small.html" frameborder="0" height="31" width="auto" scrolling="no"></iframe>
+<div style="margin-left:110px;"><!--LiveInternet counter--><script type="text/javascript"><!--
+document.write("<a href='http://www.liveinternet.ru/click' "+
+"target=_blank><img src='//counter.yadro.ru/hit?t26.6;r"+
+escape(document.referrer)+((typeof(screen)=="undefined")?"":
+";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?
+screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
+";"+Math.random()+
+"' alt='' title='LiveInternet: number of visitors for today is"+
+" shown' "+
+"border='0' width='88' height='15'><\/a>")
+//--></script><a href="http://www.liveinternet.ru/click" target="_blank"><img src="drupal-6-slaydshou-pri-pomoshchi-modulya-dynamic-display-block-chast-1_files/hit.gif" alt="" title="LiveInternet: number of visitors for today is shown" border="0" height="15" width="88"></a><!--/LiveInternet--></div>  </div>
+</div>
+        </div>
+      </div><!-- END #content -->
+      <div id="clear"></div>
+    </div><!-- END #main -->
+    <div id="footer">
+      <div id="body_footer">
+        <div class="block block-block" id="block-block-1">
+  <h2 class="title">
+      </h2>
+  <div class="content">
+    <a target="_blank" href="http://www.stepgt.com/jino.php">
+<img src="drupal-6-slaydshou-pri-pomoshchi-modulya-dynamic-display-block-chast-1_files/d7.gif" alt="Хостинг «Джино»" title="Хостинг «Джино»" border="0" height="31" width="88">
+</a>
+
+  </div>
+</div>
+      </div>
+    </div>
+
+    <!-- Yandex.Metrika counter --><div style="display:none;"><script type="text/javascript">(function(w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter4437898 = new Ya.Metrika({id:4437898, enableAll: true, webvisor:true}); } catch(e) { } }); })(window, "yandex_metrika_callbacks");</script></div><script src="drupal-6-slaydshou-pri-pomoshchi-modulya-dynamic-display-block-chast-1_files/watch.js" type="text/javascript" defer="defer"></script><noscript><div><img src="//mc.yandex.ru/watch/4437898" style="position:absolute; left:-9999px;" alt="" /></div></noscript><!-- /Yandex.Metrika counter -->
+
+
+    <div id="closebutton" class="highslide-overlay closebutton" onclick="return hs.close(this)" title="Close"></div><script type="text/javascript">
+<!--//--><![CDATA[//><!--
+if (typeof pageTracker != "undefined") {addthis_config.data_ga_tracker = pageTracker;}
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+if (typeof addthis != "undefined") {addthis.init();}
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, { "CToolsAJAX": { "scripts": { "/misc/jquery.js": true, "/misc/drupal.js": true, "/sites/default/files/languages/ru_81ead18476c8df4ec0eaa175bfd23d3e.js": true, "/sites/all/modules/highslide/highslide/highslide-full.min.js": true, "/sites/all/modules/highslide/highslide.js": true, "/sites/all/modules/poormanscron/poormanscron.js": true, "/sites/all/modules/ctools/js/ajax-responder.js": true, "/modules/comment/comment.js": true, "/misc/jquery.form.js": true, "/sites/all/modules/ajax_comments/ajax_comments.js": true, "/misc/ahah.js": true, "/sites/all/modules/captcha/captcha.js": true, "/misc/textarea.js": true, "/sites/all/modules/cumulus/cumulus.js": true }, "css": { "/modules/node/node.css": true, "/modules/system/defaults.css": true, "/modules/system/system.css": true, "/modules/system/system-menus.css": true, "/modules/user/user.css": true, "/sites/all/modules/ctools/css/ctools.css": true, "/sites/all/modules/highslide/highslide/highslide.css": true, "/sites/all/modules/tagadelic/tagadelic.css": true, "/sites/all/modules/views/css/views.css": true, "/sites/all/modules/vote_up_down/widgets/alternate/alternate.css": true, "/modules/comment/comment.css": true, "/sites/all/modules/ajax_comments/ajax_comments.css": true, "/sites/all/themes/stepGT/style/style.css": true } } });
+//--><!]]>
+</script>
+  
+<div style="padding: 0px; border: medium none; margin: 0px; position: absolute; left: 0px; top: 0px; width: 100%; z-index: 1001; direction: ltr;" class="highslide-container"><a style="position: absolute; top: -9999px; opacity: 0.85; z-index: 1;" href="javascript:;" title="Click to cancel" class="highslide-loading"><img src="drupal-6-slaydshou-pri-pomoshchi-modulya-dynamic-display-block-chast-1_files/sprocket-loader.gif" alt=""></a><div style="display: none;"></div><div style="padding: 0px; border: medium none; margin: 0px; visibility: hidden;" class="highslide-viewport highslide-viewport-size"></div><table style="padding: 0px; border: medium none; margin: 0px; visibility: hidden; position: absolute; border-collapse: collapse; width: 0px;" cellspacing="0"><tbody style="padding: 0px; border: medium none; margin: 0px;"><tr style="padding: 0px; border: medium none; margin: 0px; height: auto;"><td style="padding: 0px; border: medium none; margin: 0px; line-height: 0; font-size: 0px; background: url(&quot;http://www.stepgt.com/sites/all/modules/highslide/highslide/graphics/outlines/drop-shadow.png&quot;) repeat scroll 0px 0px transparent; height: 20px; width: 20px;"></td><td style="padding: 0px; border: medium none; margin: 0px; line-height: 0; font-size: 0px; background: url(&quot;http://www.stepgt.com/sites/all/modules/highslide/highslide/graphics/outlines/drop-shadow.png&quot;) repeat scroll 0px -40px transparent; height: 20px; width: 20px;"></td><td style="padding: 0px; border: medium none; margin: 0px; line-height: 0; font-size: 0px; background: url(&quot;http://www.stepgt.com/sites/all/modules/highslide/highslide/graphics/outlines/drop-shadow.png&quot;) repeat scroll -20px 0px transparent; height: 20px; width: 20px;"></td></tr><tr style="padding: 0px; border: medium none; margin: 0px; height: auto;"><td style="padding: 0px; border: medium none; margin: 0px; line-height: 0; font-size: 0px; background: url(&quot;http://www.stepgt.com/sites/all/modules/highslide/highslide/graphics/outlines/drop-shadow.png&quot;) repeat scroll 0px -80px transparent; height: 20px; width: 20px;"></td><td class="drop-shadow highslide-outline" style="padding: 0px; border: medium none; margin: 0px; position: relative;"></td><td style="padding: 0px; border: medium none; margin: 0px; line-height: 0; font-size: 0px; background: url(&quot;http://www.stepgt.com/sites/all/modules/highslide/highslide/graphics/outlines/drop-shadow.png&quot;) repeat scroll -20px -80px transparent; height: 20px; width: 20px;"></td></tr><tr style="padding: 0px; border: medium none; margin: 0px; height: auto;"><td style="padding: 0px; border: medium none; margin: 0px; line-height: 0; font-size: 0px; background: url(&quot;http://www.stepgt.com/sites/all/modules/highslide/highslide/graphics/outlines/drop-shadow.png&quot;) repeat scroll 0px -20px transparent; height: 20px; width: 20px;"></td><td style="padding: 0px; border: medium none; margin: 0px; line-height: 0; font-size: 0px; background: url(&quot;http://www.stepgt.com/sites/all/modules/highslide/highslide/graphics/outlines/drop-shadow.png&quot;) repeat scroll 0px -60px transparent; height: 20px; width: 20px;"></td><td style="padding: 0px; border: medium none; margin: 0px; line-height: 0; font-size: 0px; background: url(&quot;http://www.stepgt.com/sites/all/modules/highslide/highslide/graphics/outlines/drop-shadow.png&quot;) repeat scroll -20px -20px transparent; height: 20px; width: 20px;"></td></tr></tbody></table></div></body></html>

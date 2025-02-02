@@ -1,0 +1,56 @@
+# Russian translation of ctools (all releases)
+# Copyright (c) 2013 by the Russian translation team
+# Generated from files:
+#  ctools/stylizer/stylizer.info: n/a
+#  stylizer.info,v 1.1.2.2 2010/10/15 20:52:02 merlinofchaos
+#  stylizer.info,v 1.1.2.1 2010/07/13 23:55:22 merlinofchaos
+#  ctools/stylizer/stylizer.module: n/a
+#  stylizer.module,v 1.1.2.3 2010/07/23 22:11:53 merlinofchaos
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: ctools (all releases)\n"
+"POT-Creation-Date: 2013-05-29 14:25+0400\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Language-Team: Russian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=((((n%10)==1)&&((n%100)!=11))?(0):(((((n%10)>=2)&&((n%10)<=4))&&(((n%100)<10)||((n%100)>=20)))?(1):2));\n"
+
+#: stylizer/stylizer.info:0,0,0,0,0,0,0,0,0,0,0,0
+msgid "Stylizer"
+msgstr ""
+
+#: stylizer/stylizer.module:58,58,44,44,43,58,43,58,58,58,44,58,43,58,43
+msgid "Custom style"
+msgstr ""
+
+#: stylizer/stylizer.module:21,21,20,20,21,20,20
+msgid "administer stylizer"
+msgstr ""
+
+#: stylizer/stylizer.info:0,0,0,0,0,0,0,0,0,0,0,0
+msgid "Create custom styles for applications such as Panels."
+msgstr ""
+
+#: stylizer/stylizer.module:59,59,45,45,44,59,44,59,59,59,45,59,44,59,44
+msgid "Custom styles can be applied to Panel regions and Panel panes."
+msgstr ""
+
+#: stylizer/stylizer.module:95,95,81,81,80,95,80,95,95,95,81,95,80,95,80
+msgid "There are no custom styles."
+msgstr ""
+
+#: stylizer/stylizer.module:99,99,85,85,84,99,84,99,99,99,85,99,84,99,84
+msgid "Manage styles"
+msgstr ""
+
+#: stylizer/stylizer.module:21,21,21,21,21,21,21,21
+msgid "Use the Stylizer UI"
+msgstr ""
+
+#: stylizer/stylizer.module:22,22,22,22,22,22,22,22
+msgid "Allows a user to use the CTools Stylizer UI."
+msgstr ""
+

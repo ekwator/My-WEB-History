@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!--[if IE]><script language="javascript" type="text/javascript" src="/sites/all/modules/flot/flot/excanvas.min.js"></script><![endif]-->
+<link rel="shortcut icon" href="/misc/favicon.ico" type="image/x-icon" />
+  <title>Views Field View | drupal.org</title>
+  <link type="text/css" rel="stylesheet" media="all" href="http://drupal.org/files/css/css_0f6a7cf8e5507004d50baa92c0763dff.css" />
+  <script type="text/javascript" src="http://drupal.org/files/js/js_e2dd237000c89fdbb63ddd7ded78ea9c.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","googleanalytics":{"trackOutgoing":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls|xml|z|zip"},"html5UserGeolocationPrecision":"1","jcarousel":{"ajaxPath":"\/jcarousel\/ajax\/views"}});
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+if (Drupal.jsEnabled) { Drupal.flot = {}; }
+//--><!]]>
+</script>
+  <!--[if lte IE 6]><style>img, div#header-screen, a { behavior: url("/sites/all/themes/bluecheese/iepngfix.htc") }</style><![endif]-->
+</head>
+
+<body class="not-front not-logged-in page-node node-type-project-project one-sidebar sidebar-right drupalorg-site-main">
+  <div id="skip-links">
+    <a href="#content">Skip to main content</a>
+    <a href="#search">Skip to search</a>
+  </div>
+    <div id="header" class="clear-block">
+    <div id="header-screen" class="clear-block">
+      <div id="header-inner" class="container-12 clear-block">
+        <div id="nav-header" class="grid-12">
+          <ul><li class="menu-2 first"><a href="/start" title="Getting Started with Drupal">Get Started</a></li>
+<li class="menu-4"><a href="/community" title="Drupal Community">Community</a></li>
+<li class="menu-16434"><a href="/documentation" title="Drupal Documentation">Documentation</a></li>
+<li class="menu-14"><a href="/support" title="Support for using Drupal">Support</a></li>
+<li class="menu-10468"><a href="/download" title="Download and Extend Drupal">Download &amp; Extend</a></li>
+<li class="menu-10"><a href="/drupal-services" title="Buy Drupal Products and Services">Marketplace</a></li>
+<li class="menu-25050 last"><a href="/about" title="About Drupal">About</a></li>
+</ul>        </div> <!-- /#nav-header -->
+
+        <div id="header-content" class="grid-12">
+          <div id="header-left" class="grid-7 alpha">
+            <div id="header-left-inner" class="grid-6 alpha">
+              <div id="site-name"><a href="/" title="Drupal">Drupal</a></div>
+                          </div> <!-- /#header-left-inner -->
+          </div> <!-- /#header-left -->
+
+          <div id="header-right" class="grid-5 omega">
+            <div id="header-right-inner">
+              <form action="/project/views_field_view"  accept-charset="UTF-8" method="post" id="search-theme-form">
+<div><div id="search">
+  <div class="form-item" id="edit-search-theme-form-1-wrapper">
+ <label for="edit-search-theme-form-1">Search drupal.org </label>
+ <input type="text" maxlength="128" name="search_theme_form" id="edit-search-theme-form-1" size="15" value="" title="Enter the terms you wish to search for." class="form-text" />
+</div>
+  <input type="image" id="search-theme-form-submit" src="/sites/all/themes/bluecheese/images/btn-search.png" alt="Search" name="op" />
+  <div id="search-theme-form-advanced"><fieldset class=" collapsible collapsed"><legend>Refine your search</legend><div class="form-radios"><div class="form-divider"><div class="form-item" id="edit-meta-type--wrapper">
+ <label class="option" for="edit-meta-type-"><input type="radio" id="edit-meta-type-" name="meta_type" value=""  checked="checked"  class="form-radio" /> All</label>
+</div>
+<div class="form-item" id="edit-meta-type-module-wrapper">
+ <label class="option" for="edit-meta-type-module"><input type="radio" id="edit-meta-type-module" name="meta_type" value="module"   class="form-radio" /> Modules</label>
+</div>
+<div class="form-item" id="edit-meta-type-theme-wrapper">
+ <label class="option" for="edit-meta-type-theme"><input type="radio" id="edit-meta-type-theme" name="meta_type" value="theme"   class="form-radio" /> Themes</label>
+</div>
+</div><div class="form-item" id="edit-meta-type-documentation-wrapper">
+ <label class="option" for="edit-meta-type-documentation"><input type="radio" id="edit-meta-type-documentation" name="meta_type" value="documentation"   class="form-radio" /> Documentation</label>
+</div>
+<div class="form-item" id="edit-meta-type-forum-issues-wrapper">
+ <label class="option" for="edit-meta-type-forum-issues"><input type="radio" id="edit-meta-type-forum-issues" name="meta_type" value="forum-issues"   class="form-radio" /> Forums & Issues</label>
+</div>
+<div class="form-item" id="edit-meta-type-group-wrapper">
+ <label class="option" for="edit-meta-type-group"><input type="radio" id="edit-meta-type-group" name="meta_type" value="group"   class="form-radio" /> Groups</label>
+</div>
+</div></fieldset>
+</div>
+  <input type="hidden" name="form_build_id" id="form-84fff736f444c2159d769227ae0cd7d9" value="form-84fff736f444c2159d769227ae0cd7d9"  />
+<input type="hidden" name="form_id" id="edit-search-theme-form" value="search_theme_form"  />
+</div>
+
+</div></form>
+            </div> <!-- /#header-right-inner -->
+          </div> <!-- /#header-right -->
+        </div> <!-- /#header-content -->
+
+        <div id="nav-masthead" class="grid-12">
+          <ul><li class="homepage first"><a href="/home">Drupal Homepage</a></li>
+<li class="login-register last"><a href="/user?destination=node%2F872276">Log in / Register</a></li>
+</ul>        </div> <!-- /#nav-masthead -->
+      </div> <!-- /#header-inner -->
+    </div>
+  </div> <!-- /#header -->
+
+  <div id="page" class="container-12 clear-block">
+    <div id="page-inner">
+
+      <div id="page-heading" class="grid-12">
+
+                  <div id="page-title-tools" class="clear-block">
+
+            <div class="grid-8 alpha">
+                                                <div id="page-title" class="h2">Download &amp; Extend</div>
+                                          </div>
+
+                          <div id="page-tools" class="grid-4 omega">
+                              </div> <!-- /#page-tools -->
+                      </div> <!-- /#page-title-tools -->
+
+                      <div id="nav-content" class="clear-block">
+              <ul class="links"><li class="home first"><a href="/download">Download &amp; Extend Home</a></li>
+<li class="core"><a href="/project/drupal">Drupal Core</a></li>
+<li class="distributions"><a href="/project/distributions">Distributions</a></li>
+<li class="modules active"><a href="/project/modules" class="active">Modules</a></li>
+<li class="themes last"><a href="/project/themes">Themes</a></li>
+</ul>            </div> <!-- /#nav-content -->
+          
+          
+                      <h1 id="page-subtitle">Views Field View</h1>
+          
+        
+      </div> <!-- /#page-heading -->
+
+      <div id="column-left" class="grid-8">
+
+                  <div id="tabs" class="clear-block">
+            <ul class="tabs primary clear-block"><li class="active" ><a href="/project/views_field_view" class="active">View</a></li>
+<li ><a href="/project/views_field_view/git-instructions">Version control</a></li>
+</ul>          </div> <!-- /#tabs -->
+        
+        
+        <div id="content" class="clear-block">
+                    
+          <div id="content-inner" class="clear-block"><div id="node-872276" class="node clear-block node-type-project_project">
+
+  
+  
+      <div class="submitted">Posted by <a href="/user/99340" title="View user profile.">dawehner</a> on <em>August 3, 2010 at 5:26am</em></div>
+  
+  <div class="node-content">
+    <p>This module allows you to embed a view as a field in a view. A new field handler is made available, so this can also be used in area (header/footer/empty) handlers as well as rows.</p>
+<p>This view handler can accept arguments from fields of the parent view using tokens and pass them into the child view for each row. Raw or rendered token values can be used, as well as static values.</p>
+<p>It's highly recommended to use this module in conjunction with views caching.<br /><a href="http://drupal.org/project/views_content_cache" rel="nofollow"> Views Content cache</a> and <a href="http://drupal.org/project/cache_actions" rel="nofollow">Cache Actions</a> are good ways of caching views.</p>
+<h3 id="downloads">Downloads</h3><div class="download-table download-table-ok"><h4>Recommended releases</h4>
+<div class="view view-project-release-download-table view-id-project_release_download_table view-display-id-attachment_1 view-dom-id-1">
+    
+  
+  
+      <div class="view-content">
+      <table class="views-table cols-5 project-release">
+    <thead>
+    <tr>
+              <th class="views-field views-field-version">
+          Version        </th>
+              <th class="views-field views-field-files">
+          Downloads        </th>
+              <th class="views-field views-field-file-timestamp">
+          Date        </th>
+              <th class="views-field views-field-view-node">
+          Links        </th>
+          </tr>
+  </thead>
+  <tbody>
+          <tr class="odd views-row-first release-update-status-0">
+                  <td class="views-field views-field-version">
+            <a href="/node/1786958">7.x-1.0</a>          </td>
+                  <td class="views-field views-field-files">
+            <a href="http://ftp.drupal.org/files/projects/views_field_view-7.x-1.0.tar.gz">tar.gz <span class="filesize">(16.55 KB)</span></a> | <a href="http://ftp.drupal.org/files/projects/views_field_view-7.x-1.0.zip">zip <span class="filesize">(18.93 KB)</span></a>          </td>
+                  <td class="views-field views-field-file-timestamp">
+            2012-Sep-17          </td>
+                  <td class="views-field views-field-view-node">
+            <a href="/node/1786958">Notes</a>          </td>
+              </tr>
+          <tr class="even views-row-last release-update-status-0">
+                  <td class="views-field views-field-version">
+            <a href="/node/901752">6.x-1.0-beta1</a>          </td>
+                  <td class="views-field views-field-files">
+            <a href="http://ftp.drupal.org/files/projects/views_field_view-6.x-1.0-beta1.tar.gz">tar.gz <span class="filesize">(7.26 KB)</span></a> | <a href="http://ftp.drupal.org/files/projects/views_field_view-6.x-1.0-beta1.zip">zip <span class="filesize">(8.84 KB)</span></a>          </td>
+                  <td class="views-field views-field-file-timestamp">
+            2010-Sep-03          </td>
+                  <td class="views-field views-field-view-node">
+            <a href="/node/901752">Notes</a>          </td>
+              </tr>
+      </tbody>
+</table>
+    </div>
+  
+  
+  
+  
+  
+  
+</div> </div> <!-- .download-table -->
+<div class="download-table download-table-error"><h4>Development releases</h4>
+<div class="view view-project-release-download-table view-id-project_release_download_table view-display-id-attachment_3 view-dom-id-3">
+    
+  
+  
+      <div class="view-content">
+      <table class="views-table cols-4">
+    <thead>
+    <tr>
+              <th class="views-field views-field-version">
+          Version        </th>
+              <th class="views-field views-field-files">
+          Downloads        </th>
+              <th class="views-field views-field-file-timestamp">
+          Date        </th>
+              <th class="views-field views-field-view-node">
+          Links        </th>
+          </tr>
+  </thead>
+  <tbody>
+          <tr class="odd views-row-first">
+                  <td class="views-field views-field-version">
+            <a href="/node/1146124">7.x-1.x-dev</a>          </td>
+                  <td class="views-field views-field-files">
+            <a href="http://ftp.drupal.org/files/projects/views_field_view-7.x-1.x-dev.tar.gz">tar.gz <span class="filesize">(16.56 KB)</span></a> | <a href="http://ftp.drupal.org/files/projects/views_field_view-7.x-1.x-dev.zip">zip <span class="filesize">(18.93 KB)</span></a>          </td>
+                  <td class="views-field views-field-file-timestamp">
+            2012-Sep-18          </td>
+                  <td class="views-field views-field-view-node">
+            <a href="/node/1146124">Notes</a>          </td>
+              </tr>
+          <tr class="even views-row-last">
+                  <td class="views-field views-field-version">
+            <a href="/node/1154336">6.x-1.x-dev</a>          </td>
+                  <td class="views-field views-field-files">
+            <a href="http://ftp.drupal.org/files/projects/views_field_view-6.x-1.x-dev.tar.gz">tar.gz <span class="filesize">(11.38 KB)</span></a> | <a href="http://ftp.drupal.org/files/projects/views_field_view-6.x-1.x-dev.zip">zip <span class="filesize">(13.08 KB)</span></a>          </td>
+                  <td class="views-field views-field-file-timestamp">
+            2012-Apr-25          </td>
+                  <td class="views-field views-field-view-node">
+            <a href="/node/1154336">Notes</a>          </td>
+              </tr>
+      </tbody>
+</table>
+    </div>
+  
+  
+  
+  
+  
+  
+</div> </div> <!-- .download-table -->
+<div class="project-info item-list">
+  <h3>Project Information</h3>
+  <ul>
+          <li>Maintenance status: <span class=""><a href="/taxonomy/term/13028">Actively maintained</a></span></li>
+          <li>Development status: <span class=""><a href="/taxonomy/term/9988">Under active development</a></span></li>
+          <li>Module categories: <span class="terms"><a href="/project/modules?filters=tid%3A89">Views</a></span></li>
+          <li>Reported installs: <strong>5281</strong> sites currently report using this module. <a href="/project/usage/views_field_view">View usage statistics</a>.</li>
+          <li>Downloads: 14,687</li>
+          <li>Automated tests: Enabled</li>
+              <li class="modified">Last modified: September 17, 2012</li>
+      </ul>
+</div>
+<div class="project-links-section" id="project-links-section-project_release"><div class="item-list"><ul><li class="first last"><a href="/node/872276/release">View all releases</a><a href="/node/872276/release/feed" class="project-feed-icon"><img src="/misc/feed.png" alt="RSS feed of all releases" title="RSS feed of all releases" width="16" height="16" /></a></li>
+</ul></div></div><br style="clear:both;" />  </div>
+
+  </div>
+</div>
+                  </div> <!-- /#content -->
+
+      </div> <!-- /#column-left -->
+
+              <div id="column-right" class="grid-4">
+          <div id="column-right-region">
+            <div id="block-versioncontrol_project-project_maintainers" class="block block-versioncontrol_project clear-block">
+  <div class="block-inner">
+          <h2>Maintainers for Views Field View</h2>
+    
+    <div class="block-content">
+      <div class="item-list"><ul><li class="first"><li><div class="vc-user"><a href="/user/1037976" title="View user profile.">damiankloip</a> - <span class="vc-commits">45 commits</span></div><div class="vc-commit-times">last: 4 days ago, first: 40 weeks ago</div></li></li>
+<li><li><div class="vc-user"><a href="/user/99340" title="View user profile.">dawehner</a> - <span class="vc-commits">16 commits</span></div><div class="vc-commit-times">last: 6 days ago, first: 2 years ago</div></li></li>
+<li class="last"><li><div class="vc-user"><a href="/user/168251" title="View user profile.">tizzo</a> - <span class="vc-commits">6 commits</span></div><div class="vc-commit-times">last: 1 year ago, first: 1 year ago</div></li></li>
+</ul></div><div id="project-committers"><a href="/node/872276/committers">View all committers</a></div><div id="project-commits"><a href="/node/872276/commits">View commits</a></div>    </div>
+  </div>
+</div>
+<div id="block-project_issue-issue_cockpit" class="block block-project_issue clear-block">
+  <div class="block-inner">
+          <h2>Issues for Views Field View</h2>
+    
+    <div class="block-content">
+      To avoid duplicates, please search before submitting a new issue.
+  <form action="/project/issues/views_field_view"  accept-charset="UTF-8" method="get" id="project-issue-issue-cockpit-searchbox">
+<div><div class="form-item" id="edit-text-wrapper">
+ <input type="text" maxlength="128" name="text" id="edit-text" size="20" value="" class="form-text" />
+</div>
+<input type="hidden" name="status" id="edit-status" value="All"  />
+<input type="submit" id="edit-submit" value="Search"  class="form-submit" />
+<a href="/project/issues/search/views_field_view">Advanced search</a>
+</div></form>
+  <div class="issue-cockpit-categories">
+          <div class="issue-cockpit-All">
+        <span class="category-header">All issues</span>
+        <div class="issue-cockpit-totals">
+          <a href="/project/issues/views_field_view?categories=All">31 open</a>,
+          <a href="/project/issues/views_field_view?status=All&amp;categories=All">93 total</a>        </div>
+      </div>
+          <div class="issue-cockpit-bug">
+        <span class="category-header">Bug reports</span>
+        <div class="issue-cockpit-totals">
+          <a href="/project/issues/views_field_view?categories=bug">9 open</a>,
+          <a href="/project/issues/views_field_view?status=All&amp;categories=bug">33 total</a>        </div>
+      </div>
+      </div>
+
+  <div class="issue-cockpit-subscribe">
+    <a href="/project/issues/subscribe-mail/views_field_view?destination=node%2F872276">Subscribe via e-mail</a>  </div>
+        <div class="issue-cockpit-metrics">
+        <span class="category-header">Statistics (2 years)</span>
+      <div class="metric-container"><div class="metric-label">New issues</div><div class="view view-project-issue-metrics-new-issues view-id-project_issue_metrics_new_issues view-display-id-default view-dom-id-4">
+    
+  
+  
+      <div class="view-content">
+      <div class="sparkline">
+  
+ <script>if (Drupal.jsEnabled) {
+      $(document).ready(function() {
+        Drupal.flot.views_sparkline_auto_identifier_1 = $.plot($("#views-sparkline-auto-identifier-1"), [{"colors":["#666","#999","#ccc"],"grid":{"labelMargin":0,"tickColor":"#eee","backgroundColor":"#f8f8f8","borderWidth":0,"hoverable":true,"autoHighlight":true,"clickable":false},"lines":{"show":true,"lineWidth":"0.8","fill":0},"bars":{"show":false},"points":{"show":false},"shadowSize":"0","data":[[0,1],[1,0],[2,0],[3,1],[4,0],[5,1],[6,0],[7,4],[8,1],[9,2],[10,1],[11,0],[12,1],[13,1],[14,0],[15,1],[16,0],[17,0],[18,0],[19,0],[20,0],[21,1],[22,0],[23,0],[24,0],[25,2],[26,1],[27,1],[28,0],[29,0],[30,0],[31,0],[32,4],[33,1],[34,2],[35,2],[36,0],[37,2],[38,0],[39,0],[40,1],[41,1],[42,2],[43,1],[44,0],[45,0],[46,0],[47,0],[48,0],[49,0],[50,0],[51,0],[52,0],[53,0],[54,3],[55,0],[56,0],[57,0],[58,1],[59,0],[60,0],[61,0],[62,1],[63,0],[64,0],[65,0],[66,1],[67,1],[68,0],[69,4],[70,0],[71,0],[72,2],[73,6],[74,1],[75,0],[76,2],[77,2],[78,0],[79,2],[80,1],[81,3],[82,2],[83,1],[84,1],[85,2],[86,5],[87,0],[88,0],[89,1],[90,1],[91,0],[92,1],[93,2],[94,0],[95,2],[96,0],[97,1],[98,0],[99,0],[100,0],[101,0],[102,2],[103,1]],"color":"#336699"},{"colors":["#666","#999","#ccc"],"grid":{"labelMargin":0,"tickColor":"#eee","backgroundColor":"#f8f8f8","borderWidth":0,"hoverable":true,"autoHighlight":true,"clickable":false},"lines":{"show":false},"bars":{"show":false},"points":{"show":true,"lineWidth":1,"fill":1,"fillColor":"#FF0000","radius":"1"},"shadowSize":0,"color":"#FF0000","data":[[103,1]]}], {"grid":{"show":false},"xaxis":{"mode":"time","ticks":0,"labelHeight":null,"max":106}});
+        
+      });
+    }</script> <div  style="width:100px;height:20px;" id="views-sparkline-auto-identifier-1"> </div> <script>if (Drupal.jsEnabled) {
+            $(document).ready(function() {
+              o = Drupal.flot.views_sparkline_auto_identifier_1.pointOffset( {x: 103, y: 1});
+              Drupal.flot.views_sparkline_auto_identifier_1.getPlaceholder().append('<div class="spark-annotation" style="position:absolute;left:' + (o.left + 6) + 'px;top:' + (o.top + -10) + 'px;">1</div>');
+            });
+          }</script></div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div> </div><div class="metric-container"><div class="metric-label">Open bugs</div><div class="view view-project-issue-metrics-open-bugs view-id-project_issue_metrics_open_bugs view-display-id-default view-dom-id-5">
+    
+  
+  
+      <div class="view-content">
+      <div class="sparkline">
+  
+ <script>if (Drupal.jsEnabled) {
+      $(document).ready(function() {
+        Drupal.flot.views_sparkline_auto_identifier_2 = $.plot($("#views-sparkline-auto-identifier-2"), [{"colors":["#666","#999","#ccc"],"grid":{"labelMargin":0,"tickColor":"#eee","backgroundColor":"#f8f8f8","borderWidth":0,"hoverable":true,"autoHighlight":true,"clickable":false},"lines":{"show":true,"lineWidth":"0.8","fill":0},"bars":{"show":false},"points":{"show":false},"shadowSize":"0","data":[[0,6],[1,6],[2,6],[3,6],[4,6],[5,6],[6,5],[7,5],[8,5],[9,5],[10,4],[11,4],[12,4],[13,4],[14,4],[15,4],[16,4],[17,4],[18,4],[19,4],[20,4],[21,4],[22,4],[23,4],[24,4],[25,4],[26,4],[27,4],[28,4],[29,4],[30,4],[31,4],[32,3],[33,3],[34,3],[35,3],[36,3],[37,3],[38,3],[39,3],[40,3],[41,3],[42,3],[43,4],[44,4],[45,4],[46,4],[47,4],[48,4],[49,4],[50,4],[51,3],[52,3],[53,3],[54,4],[55,4],[56,4],[57,4],[58,5],[59,5],[60,5],[61,5],[62,5],[63,5],[64,5],[65,5],[66,6],[67,6],[68,6],[69,9],[70,8],[71,8],[72,8],[73,12],[74,11],[75,11],[76,12],[77,14],[78,14],[79,14],[80,10],[81,10],[82,10],[83,8],[84,8],[85,9],[86,8],[87,8],[88,8],[89,8],[90,9],[91,9],[92,6],[93,6],[94,6],[95,6],[96,6],[97,6],[98,6],[99,6],[100,6],[101,6],[102,6],[103,6]],"color":"#336699"},{"colors":["#666","#999","#ccc"],"grid":{"labelMargin":0,"tickColor":"#eee","backgroundColor":"#f8f8f8","borderWidth":0,"hoverable":true,"autoHighlight":true,"clickable":false},"lines":{"show":false},"bars":{"show":false},"points":{"show":true,"lineWidth":1,"fill":1,"fillColor":"#FF0000","radius":"1"},"shadowSize":0,"color":"#FF0000","data":[[103,6]]}], {"grid":{"show":false},"xaxis":{"mode":"time","ticks":0,"labelHeight":null,"max":106}});
+        
+      });
+    }</script> <div  style="width:100px;height:20px;" id="views-sparkline-auto-identifier-2"> </div> <script>if (Drupal.jsEnabled) {
+            $(document).ready(function() {
+              o = Drupal.flot.views_sparkline_auto_identifier_2.pointOffset( {x: 103, y: 6});
+              Drupal.flot.views_sparkline_auto_identifier_2.getPlaceholder().append('<div class="spark-annotation" style="position:absolute;left:' + (o.left + 6) + 'px;top:' + (o.top + -10) + 'px;">6</div>');
+            });
+          }</script></div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div> </div><div class="metric-container"><div class="metric-label">Participants</div><div class="view view-project-issue-metrics-total-part view-id-project_issue_metrics_total_part view-display-id-default view-dom-id-6">
+    
+  
+  
+      <div class="view-content">
+      <div class="sparkline">
+  
+ <script>if (Drupal.jsEnabled) {
+      $(document).ready(function() {
+        Drupal.flot.views_sparkline_auto_identifier_3 = $.plot($("#views-sparkline-auto-identifier-3"), [{"colors":["#666","#999","#ccc"],"grid":{"labelMargin":0,"tickColor":"#eee","backgroundColor":"#f8f8f8","borderWidth":0,"hoverable":true,"autoHighlight":true,"clickable":false},"lines":{"show":true,"lineWidth":"0.8","fill":0},"bars":{"show":false},"points":{"show":false},"shadowSize":"0","data":[[0,2],[1,1],[2,0],[3,1],[4,0],[5,1],[6,2],[7,6],[8,2],[9,6],[10,2],[11,1],[12,3],[13,3],[14,0],[15,2],[16,4],[17,1],[18,2],[19,2],[20,0],[21,3],[22,4],[23,0],[24,0],[25,3],[26,2],[27,1],[28,2],[29,4],[30,3],[31,2],[32,8],[33,3],[34,5],[35,4],[36,2],[37,3],[38,2],[39,1],[40,4],[41,1],[42,2],[43,1],[44,3],[45,1],[46,0],[47,2],[48,0],[49,0],[50,2],[51,2],[52,0],[53,3],[54,3],[55,0],[56,1],[57,0],[58,2],[59,0],[60,2],[61,0],[62,2],[63,1],[64,2],[65,0],[66,2],[67,3],[68,2],[69,7],[70,6],[71,2],[72,6],[73,1],[74,3],[75,2],[76,4],[77,5],[78,7],[79,4],[80,4],[81,3],[82,6],[83,5],[84,5],[85,5],[86,7],[87,1],[88,1],[89,2],[90,3],[91,1],[92,4],[93,5],[94,1],[95,6],[96,3],[97,5],[98,0],[99,4],[100,1],[101,1],[102,3],[103,2]],"color":"#336699"},{"colors":["#666","#999","#ccc"],"grid":{"labelMargin":0,"tickColor":"#eee","backgroundColor":"#f8f8f8","borderWidth":0,"hoverable":true,"autoHighlight":true,"clickable":false},"lines":{"show":false},"bars":{"show":false},"points":{"show":true,"lineWidth":1,"fill":1,"fillColor":"#FF0000","radius":"1"},"shadowSize":0,"color":"#FF0000","data":[[103,2]]}], {"grid":{"show":false},"xaxis":{"mode":"time","ticks":0,"labelHeight":null,"max":106}});
+        
+      });
+    }</script> <div  style="width:100px;height:20px;" id="views-sparkline-auto-identifier-3"> </div> <script>if (Drupal.jsEnabled) {
+            $(document).ready(function() {
+              o = Drupal.flot.views_sparkline_auto_identifier_3.pointOffset( {x: 103, y: 2});
+              Drupal.flot.views_sparkline_auto_identifier_3.getPlaceholder().append('<div class="spark-annotation" style="position:absolute;left:' + (o.left + 6) + 'px;top:' + (o.top + -10) + 'px;">2</div>');
+            });
+          }</script></div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div> </div>    </div>
+      </div>
+  </div>
+</div>
+<div id="block-project-resources" class="block block-project clear-block">
+  <div class="block-inner">
+          <h2>Resources</h2>
+    
+    <div class="block-content">
+      <div class="item-list"><ul><li class="first last"><a href="http://localize.drupal.org/translate/projects/views_field_view">View project translations</a></li>
+</ul></div>    </div>
+  </div>
+</div>
+<div id="block-project-development" class="block block-project clear-block">
+  <div class="block-inner">
+          <h2>Development</h2>
+    
+    <div class="block-content">
+      <div class="item-list"><ul><li class="first"><a href="/project/issues/search/views_field_view?status[]=8&amp;status[]=13&amp;status[]=14">View pending patches</a></li>
+<li class="first"><a href="http://drupalcode.org/project/views_field_view.git">Repository viewer</a></li>
+<li class="first"><a href="/node/872276/commits">View commits</a></li>
+<li class="first"><a href="https://security.drupal.org/node/add/project-issue/views_field_view">Report a security issue</a></li>
+<li class="first"><a href="/list-changes/views_field_view">View change records</a></li>
+</ul></div>    </div>
+  </div>
+</div>
+<div id="block-pivots_block-0" class="block block-pivots_block clear-block">
+  <div class="block-inner">
+          <h2>Related projects</h2>
+    
+    <div class="block-content">
+      <div class="item-list"><ul><li class="first"><a href="/project/block2field" onClick="javascript:_gaq.push([&#039;_trackEvent&#039;, &#039;PivotsClick_5009&#039;, &#039;872276_1027224&#039;]);" rel="nofollow">Block2Field</a></li>
+<li><a href="/project/viewreference" onClick="javascript:_gaq.push([&#039;_trackEvent&#039;, &#039;PivotsClick_5009&#039;, &#039;872276_277490&#039;]);" rel="nofollow">View reference</a></li>
+<li><a href="/project/cache_actions" onClick="javascript:_gaq.push([&#039;_trackEvent&#039;, &#039;PivotsClick_5009&#039;, &#039;872276_794004&#039;]);" rel="nofollow">Cache Actions</a></li>
+<li><a href="/project/menu_callback_cache" onClick="javascript:_gaq.push([&#039;_trackEvent&#039;, &#039;PivotsClick_5009&#039;, &#039;872276_914208&#039;]);" rel="nofollow">Menu Callback Cache</a></li>
+<li class="last"><a href="/project/views_php" onClick="javascript:_gaq.push([&#039;_trackEvent&#039;, &#039;PivotsClick_5009&#039;, &#039;872276_1043008&#039;]);" rel="nofollow">Views PHP</a></li>
+</ul></div>    </div>
+  </div>
+</div>
+          </div> <!-- /#column-right-region -->
+        </div> <!-- /#column-right -->
+      
+          </div> <!-- /#page-inner -->
+  </div> <!-- /#page -->
+
+  <div id="footer">
+    <div id="footer-inner" class="container-12 clear-block">
+              <div id="footer-region" class="grid-12">
+          <div id="footer-region-inner" class="clear-block">
+            <div class="grid-footer alpha"><ul><li class="0 first"><a href="http://drupal.org/news">Drupal News</a></li>
+<li class="1"><a href="http://drupal.org/planet" title="News from Drupal community members">Planet Drupal</a></li>
+<li class="2"><a href="https://association.drupal.org/news" title="News from association.drupal.org">Association News</a></li>
+<li class="3"><a href="http://drupal.org/social-media" title="Drupal on social media">Social Media Directory</a></li>
+<li class="4"><a href="http://drupal.org/security" title="Advisories from the security team">Security Announcements</a></li>
+<li class="5 last"><a href="http://groups.drupal.org/jobs" title="Jobs posted on groups.drupal.org">Jobs</a></li>
+</ul></div><div class="grid-footer"><ul><li class="0 first"><a href="http://drupal.org/community">Community</a></li>
+<li class="1"><a href="http://drupal.org/getting-involved" title="Learn how to contribute to the Drupal project">Getting Involved</a></li>
+<li class="2"><span><a href="http://drupal.org/drupal-services" title="People and organizations offering Drupal services">Services</a>, <a href="http://drupal.org/training" title="People and organizations offering Drupal training">Training</a> & <a href="http://drupal.org/hosting" title="Organizations offering Drupal hosting">Hosting</a></span></li>
+<li class="3"><a href="http://groups.drupal.org/groups" title="groups.drupal.org">Groups &amp; Meetups</a></li>
+<li class="4 last"><a href="http://drupal.org/drupalcon" title="Upcoming and past DrupalCons">DrupalCon</a></li>
+</ul></div><div class="grid-footer"><ul><li class="0 first"><a href="http://drupal.org/start">Get Started</a></li>
+<li class="1"><a href="http://drupal.org/documentation" title="Guidebooks and documentation for working with Drupal">Documentation Home</a></li>
+<li class="2"><a href="http://drupal.org/documentation/install" title="Guide for installing Drupal">Installation Guide</a></li>
+<li class="3"><a href="http://drupal.org/documentation/build" title="Guide for building and extending Drupal sites">Site Building Guide</a></li>
+<li class="4"><a href="http://drupal.org/support" title="Drupal support options">Support</a></li>
+<li class="5 last"><a href="http://api.drupal.org/" title="Drupal API Reference">api.drupal.org</a></li>
+</ul></div><div class="grid-footer"><ul><li class="0 first"><a href="http://drupal.org/download">Download &amp; Extend</a></li>
+<li class="1"><a href="http://drupal.org/project/drupal" title="Download the latest version of the Drupal software">Drupal Core</a></li>
+<li class="2"><a href="http://drupal.org/project/modules" title="Download add-on features and functionality">Modules</a></li>
+<li class="3"><a href="http://drupal.org/project/themes" title="Download pre-designed styles for Drupal">Themes</a></li>
+<li class="4 last"><a href="http://drupal.org/project/distributions" title="Download a pre-packaged Drupal site">Distributions</a></li>
+</ul></div><div class="grid-footer omega"><ul><li class="0 first"><a href="http://drupal.org/about">About</a></li>
+<li class="1"><a href="http://drupal.org/druplicon" title="Drupal’s mascot">Druplicon</a></li>
+<li class="2"><a href="https://association.drupal.org/about" title="About the Drupal Association">The Drupal Association</a></li>
+<li class="3"><a href="https://association.drupal.org/advertising" title="How to advertise on Drupal.org">Advertise</a></li>
+<li class="4"><a href="http://drupal.org/node/179723" title="About Drupal.org">About Drupal.org</a></li>
+<li class="5 last"><a href="http://drupal.org/about/accessibility">Web accessibility</a></li>
+</ul></div>          </div> <!-- /#footer-region-inner -->
+        </div> <!-- /#footer-region -->
+                    <div id="footer-message" class="grid-12">
+          <div id="footer-message-inner" class="clear-block">
+            <p>Drupal is a <a href="http://drupal.com/trademark">registered trademark</a> of <a href="http://buytaert.net">Dries Buytaert</a>.</p>
+          </div> <!-- /#footer-message-inner -->
+        </div> <!-- /#footer-message -->
+          </div> <!-- /#footer-inner -->
+  </div> <!-- /#footer -->
+  <div><a href="http://drupal.org/sites/all/modules/httpbl/donotremove.php"><!-- nobody click here --></a></div><script type="text/javascript">
+<!--//--><![CDATA[//><!--
+$(document).ready(function() {
+    _gaq.push(['_trackEvent', 'PivotsPageview_5009', '872276_1027224_277490_794004_914208_1043008']);
+  });
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var _gaq = _gaq || [];_gaq.push(["_setAccount", "UA-2360451-1"]);_gaq.push(["_setVar", "anonymous user"]);_gaq.push(["_trackPageview"]);(function() {var ga = document.createElement("script");ga.type = "text/javascript";ga.async = true;ga.src = ("https:" == document.location.protocol ? "https://ssl" : "http://www") + ".google-analytics.com/ga.js";var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(ga, s);})();
+//--><!]]>
+</script>
+</body>
+</html>

@@ -1,0 +1,82 @@
+# Russian translation of views (all releases)
+# Copyright (c) 2013 by the Russian translation team
+# Generated from files:
+#  views/plugins/export_ui/views_ui.class.php: n/a
+#  views/plugins/export_ui/views_ui.inc: n/a
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: views (all releases)\n"
+"POT-Creation-Date: 2013-05-29 14:21+0400\n"
+"PO-Revision-Date: 2011-05-26 20:44+0400\n"
+"Language-Team: Russian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=((((n%10)==1)&&((n%100)!=11))?(0):(((((n%10)>=2)&&((n%10)<=4))&&(((n%100)<10)||((n%100)>=20)))?(1):2));\n"
+
+#: plugins/export_ui/views_ui.class.php:438,438,438,438,443,443
+msgid "Continue"
+msgstr "Продолжить"
+
+#: plugins/export_ui/views_ui.inc:20,20,20,20,20,20
+msgid "views"
+msgstr "представления"
+
+#: plugins/export_ui/views_ui.class.php:146,146,146,146,146,146
+msgid "All tags"
+msgstr "Все теги"
+
+#: plugins/export_ui/views_ui.class.php:125,125,125,125,125,125
+msgid "All types"
+msgstr "Все типы"
+
+#: plugins/export_ui/views_ui.class.php:188,188,188,188,188,188
+msgid "Enabled, name"
+msgstr "Включено, имя"
+
+#: plugins/export_ui/views_ui.class.php:249,249,249,249,249,249
+msgid "Machine name: "
+msgstr "Машинное име: "
+
+#: plugins/export_ui/views_ui.class.php:108,108,108,108,108,108
+msgid "All storage"
+msgstr ""
+
+#: plugins/export_ui/views_ui.class.php:114,114,114,114,114,114
+msgid "All status"
+msgstr "Все статусы"
+
+#: plugins/export_ui/views_ui.class.php:146,146,146,146,146,146
+msgid "No tags"
+msgstr "Нет тегов"
+
+#: plugins/export_ui/views_ui.class.php:362,362,362,362,362,362
+msgid "Create view from template @template"
+msgstr ""
+
+#: plugins/export_ui/views_ui.class.php:404,404,404,404,409,409
+msgid "Clone of"
+msgid_plural "Clone @count of"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: plugins/export_ui/views_ui.inc:28,28,28,28,28,28
+msgid ""
+"This action will permanently remove any customizations made to this "
+"view."
+msgstr ""
+
+#: plugins/export_ui/views_ui.inc:29,29,29,29,29,29
+msgid "The view has been reverted."
+msgstr "Представление было восстановлено."
+
+#: plugins/export_ui/views_ui.inc:32,32,32,32,32,32
+msgid "This action will permanently remove the view from your database."
+msgstr ""
+
+#: plugins/export_ui/views_ui.class.php:279,279,279,279,279,279
+msgid "No views match the search criteria."
+msgstr ""
+

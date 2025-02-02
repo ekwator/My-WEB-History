@@ -1,0 +1,179 @@
+/**
+ * A function to translate ambiguous short date strings.
+ * 
+ * Example: Pass in 'Monday', 'day_abbr' and get the translated 
+ * abbreviation for Monday.
+ * 
+ * @param string $string
+ * @param string $context
+ * @param int $langcode
+ * @return translated value of the string
+ */
+function date_t($string, $context, $langcode = NULL) {
+  //static $replace = array();
+ 
+  if (empty($replace[$langcode])) {
+    // The function to create the date string arrays is kept separate
+    // so those arrays can be directly accessed by other functions.
+    date_t_strings($replace, $langcode);
+  }
+  switch ($context) {
+    case 'day_name':
+    case 'day_abbr':
+    case 'day_abbr1':
+    case 'day_abbr2':  
+      $untranslated = array_flip(date_week_days_untranslated());
+      break;
+    case 'month_name':
+    case 'month_genitive': //Добавляем в обработку новый контекст
+    case 'month_abbr':
+      $untranslated = array_flip(date_month_names_untranslated());
+      break;  
+    case 'ampm':
+      $untranslated = array_flip(array('am', 'pm', 'AM', 'PM'));  
+      break;
+    case 'datetime':
+      $untranslated = array_flip(array('Year', 'Month', 'Day', 'Week', 'Hour', 'Minute', 'Second', 'All Day', 'All day'));  
+      break;
+    case 'datetime_plural':
+      $untranslated = array_flip(array('Years', 'Months', 'Days', 'Weeks', 'Hours', 'Minutes', 'Seconds'));  
+      break;
+    case 'date_order':
+      $untranslated = array_flip(array('Every', 'First', 'Second', 'Third', 'Fourth', 'Fifth'));  
+      break;
+    case 'date_order_reverse':
+      $untranslated = array_flip(array('', 'Last', 'Next to last', 'Third from last', 'Fourth from last', 'Fifth from last'));  
+      break;
+    case 'date_nav':
+      $untranslated = array_flip(array('Prev', 'Next', 'Today'));  
+      break;
+  }
+  $pos = $untranslated[$string];
+  return $replace[$langcode][$context][$pos];
+}
+ 
+/**
+ * Construct translation arrays from pipe-delimited strings.
+ * 
+ * Combining these strings into a single t() gives them the context needed
+ * for better translation.
+ */
+function date_t_strings(&$replace, $langcode) {
+  $replace[$langcode]['day_name'] = explode('|', trim(t('!day-name Sunday|Monday|Tuesday|Wednesday|Thursday|Friday|Saturday', array('!day-name' => ''), $langcode)));
+  $replace[$langcode]['day_abbr'] = explode('|', trim(t('!day-abbreviation Sun|Mon|Tue|Wed|Thu|Fri|Sat', array('!day-abbreviation' => ''), $langcode)));
+  $replace[$langcode]['day_abbr1'] = explode('|', trim(t('!day-abbreviation S|M|T|W|T|F|S', array('!day-abbreviation' => ''), $langcode)));
+  $replace[$langcode]['day_abbr2'] = explode('|', trim(t('!day-abbreviation SU|MO|TU|WE|TH|FR|SA', array('!day-abbreviation' => ''), $langcode)));
+  $replace[$langcode]['ampm'] = explode('|', trim(t('!ampm-abbreviation am|pm|AM|PM', array('!ampm-abbreviation' => ''), $langcode)));
+  $replace[$langcode]['datetime'] = explode('|', trim(t('!datetime Year|Month|Day|Week|Hour|Minute|Second|All Day|All day', array('!datetime' => ''), $langcode)));
+  $replace[$langcode]['datetime_plural'] = explode('|', trim(t('!datetime_plural Years|Months|Days|Weeks|Hours|Minutes|Seconds', array('!datetime_plural' => ''), $langcode)));
+  $replace[$langcode]['date_order'] = explode('|', trim(t('!date_order Every|First|Second|Third|Fourth|Fifth', array('!date_order' => ''), $langcode)));
+  $replace[$langcode]['date_order_reverse'] = explode('|', trim(t('!date_order |Last|Next to last|Third from last|Fourth from last|Fifth from last', array('!date_order' => ''), $langcode)));
+  $replace[$langcode]['date_nav'] = explode('|', trim(t('!date_nav Prev|Next|Today', array('!date_nav' => ''), $langcode)));
+ 
+  // These start with a pipe so the January value will be in position 1 instead of position 0.
+  $replace[$langcode]['month_name'] = explode('|', trim(t('!month-name |January|February|March|April|May|June|July|August|September|October|November|December', array('!month-name' => ''), $langcode)));
+  //Строка с названиями месяцев, которую ещё нужно будет перевести на нужные языки:
+  $replace[$langcode]['month_genitive'] = explode('|', trim(t('!month-genitive |January|February|March|April|May|June|July|August|September|October|November|December', array('!month-name' => ''), $langcode)));
+  $replace[$langcode]['month_abbr'] = explode('|', trim(t('!month-abbreviation |Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec', array('!month-abbreviation' => ''), $langcode)));
+ 
+ 
+}
+ 
+/**
+ * Reworked from Drupal's format_date function to handle pre-1970 and
+ * post-2038 dates and accept a date object instead of a timestamp as input.
+ *
+ * Translates formatted date results, unlike PHP function date_format().
+ *
+ * @param $oject
+ *   A date object, could be created by date_make_date().
+ * @param $type
+ *   The format to use. Can be "small", "medium" or "large" for the preconfigured
+ *   date formats. If "custom" is specified, then $format is required as well.
+ * @param $format
+ *   A PHP date format string as required by date(). A backslash should be used
+ *   before a character to avoid interpreting the character as part of a date
+ *   format.
+ * @return
+ *   A translated date string in the requested format.
+ */
+function date_format_date($date, $type = 'medium', $format = '', $langcode = NULL) {
+  if (empty($date)) {
+    return '';
+  }
+  switch ($type) {
+    case 'small':
+    case 'short':
+      $format = variable_get('date_format_short', 'm/d/Y - H:i');
+      break;
+    case 'large':
+    case 'long':
+      $format = variable_get('date_format_long', 'l, F j, Y - H:i');
+      break;
+    case 'custom':
+      $format = $format;
+      break;
+    case 'medium':
+    default:
+      $format = variable_get('date_format_medium', 'D, m/d/Y - H:i');
+  }
+  $max = strlen($format);
+  $datestring = '';
+  for ($i = 0; $i < $max; $i++) {
+    $c = $format[$i];
+    switch ($c) {
+      // Use date_t() for ambiguous short strings that need translation.
+      // We send long day and month names to date_t(), along with context.
+      case 'l':
+        $datestring .= date_t(date_format($date, 'l'), 'day_name', $langcode);
+        break;
+      case 'D':
+        $datestring .= date_t(date_format($date, 'l'), 'day_abbr', $langcode);
+        break;
+      case 'F':
+        //Собственно логика вывода названия месяца в зависимости от ситуации:
+        if ((strpos($format, 'd') === FALSE) && (strpos($format, 'j') === FALSE)) {
+          $datestring .= date_t(date_format($date, 'F'), 'month_name', $langcode);
+        }
+        else {
+          $datestring .= date_t(date_format($date, 'F'), 'month_genitive', $langcode);
+        }
+        break;
+      case 'M':
+        $datestring .= date_t(date_format($date, 'F'), 'month_abbr', $langcode);
+        break;  
+      case 'A':
+      case 'a':
+        $datestring .= date_t(date_format($date, $c), 'ampm', $langcode);
+        break;  
+      // The timezone name translations can use t().  
+      case 'e':
+      case 'T':
+        $datestring .= t(date_format($date, $c));
+        break;
+      // Remaining date parts need no translation.
+      case 'O':
+        $datestring .= sprintf('%s%02d%02d', (date_offset_get($date) < 0 ? '-' : '+'), abs(date_offset_get($date) / 3600), abs(date_offset_get($date) % 3600) / 60);
+        break;
+      case 'P':
+        $datestring .= sprintf('%s%02d:%02d', (date_offset_get($date) < 0 ? '-' : '+'), abs(date_offset_get($date) / 3600), abs(date_offset_get($date) % 3600) / 60);
+        break;
+      case 'Z':
+        $datestring .= date_offset_get($date);
+        break;              
+      case '\\':
+        $datestring .= $format[++$i];
+        break;
+      default:
+        if (strpos('BdcgGhHiIjLmnsStTUwWYyz', $c) !== FALSE) {
+          $datestring .= date_format($date, $c);
+        }
+        else if ($c == 'r') {
+          $datestring .= format_date($date, 'custom', 'D, d M Y H:i:s O', $langcode);
+        }
+        else {
+          $datestring .= $c;
+        }
+    }
+  }
+  return $datestring;

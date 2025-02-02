@@ -1,0 +1,3 @@
+date	size'/'remotesize	flags(request:Update,Range state:File response:Modified,Chunked,gZipped)	statuscode	status ('servermsg')	MIME	Etag|Date	URL	localfile	(from URL)
+00:56:54	170/170	---M--	200	added ('OK')	text/plain	etag:%222846fe-aa-40eedb8a-windows-1251%22	http://uprsnab.ru/robots.txt		(from )
+00:56:54	21319/21319	---MC-	200	added ('OK')	text/html	date:Mon,%2022%20Nov%202010%2019:57:00%20GMT	http://uprsnab.ru/new/	/home/ekwator/websites/GUP/uprsnab.ru/new/index.html	(from )

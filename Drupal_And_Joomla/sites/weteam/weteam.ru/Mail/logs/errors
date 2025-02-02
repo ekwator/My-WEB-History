@@ -1,0 +1,17 @@
+[12-Oct-2012 10:08:33 UTC] MDB2 Error: connect failed (-24): _doConnect: [Error message: No such file or directory]
+[Native code: 2002]
+[Native message: No such file or directory]
+
+[12-Oct-2012 14:08:33 +0400]: DB Error: _doConnect: [Error message: No such file or directory]
+[Native code: 2002]
+[Native message: No such file or directory]
+ ** mysql(mysql)://roundcube:xxx@localhost/roundcubemail in /home/p130900/www/weteam.ru/Mail/program/include/rcube_mdb2.php on line 107 (GET /Mail/)
+[12-Oct-2012 10:08:38 UTC] MDB2 Error: connect failed (-24): _doConnect: [Error message: No such file or directory]
+[Native code: 2002]
+[Native message: No such file or directory]
+
+[12-Oct-2012 14:08:38 +0400]: DB Error: _doConnect: [Error message: No such file or directory]
+[Native code: 2002]
+[Native message: No such file or directory]
+ ** mysql(mysql)://roundcube:xxx@localhost/roundcubemail in /home/p130900/www/weteam.ru/Mail/program/include/rcube_mdb2.php on line 107 (GET /Mail/?_task=settings)
+[23-Oct-2012 17:37:16 +0400]: IMAP Error: Login failed for d.zamalutdinov@gmail.com from 85.192.179.179. Could not connect to gmail.com:143: Время ожидания соединения истекло in /home/p130900/www/weteam.ru/Mail/program/include/rcube_imap.php on line 191 (POST /Mail/?_task=login&_action=login)

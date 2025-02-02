@@ -1,0 +1,207 @@
+# Russian translation of date (all releases)
+# Copyright (c) 2012 by the Russian translation team
+# Generated from files:
+#  date/date_api.info: n/a
+#  date/date_tools/date_tools.wizard.inc: n/a
+#  date/date_api/date_api.module: n/a
+#  date/date_api/date_api.install: n/a
+#  date/date_api/date_api.info: n/a
+#  date_api.info,v 1.6 2008/02/18 19:32:28 karens
+#  date/date_api.install: n/a
+#  date_api.install,v 1.16.2.1.2.25 2010/08/13 10:50:52 karens
+#  date/date_popup/date_popup.install: n/a
+#  date_popup.install,v 1.5.6.10 2010/12/21 12:21:16 karens
+#  date/date_timezone/date_timezone.install: n/a
+#  date/date_timezone/date_timezone.module: n/a
+#  date_timezone.install,v 1.7.2.2.2.7 2010/02/28 14:23:04 karens
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: date (all releases)\n"
+"POT-Creation-Date: 2012-08-17 04:37-0400\n"
+"PO-Revision-Date: 2010-08-29 11:15-0400\n"
+"Language-Team: Russian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=((((n%10)==1)&&((n%100)!=11))?(0):(((((n%10)>=2)&&((n%10)<=4))&&(((n%100)<10)||((n%100)>=20)))?(1):2));\n"
+
+#: date_api.info:0,0,0,0,0; date_tools/date_tools.wizard.inc:246,250,247,250,250; date_api/date_api.module:122,122,122,122; date_api/date_api.install:43,51,43,51,43,51,43,51; date_api/date_api.info:0,0,0,0
+msgid "Date API"
+msgstr "Date API"
+
+#: date_api.install:97,96
+msgid "The Date API module requires the !link for PHP versions less than 5.2."
+msgstr ""
+
+#: date_api.install:97,96
+msgid "Date PHP4 module"
+msgstr "Модуль  Date PHP4"
+
+#: date_api.install:249,101,100,250,249,249
+msgid "Date API requirements"
+msgstr "Требования Date API"
+
+#: date_popup/date_popup.install:15,18,17,16,15,15
+msgid "Date Popup requirements"
+msgstr "Требуется указать popup даты"
+
+#: date_timezone/date_timezone.install:45,49,44,46,49,49; date_timezone/date_timezone.module:21,20
+msgid "The Date Timezone module requires you to !link."
+msgstr ""
+
+#: date_timezone/date_timezone.install:45,49,44,46,49,49; date_timezone/date_timezone.module:21,20
+msgid "set the site timezone name"
+msgstr "указать имя часового пояса"
+
+#: date_timezone/date_timezone.install:51,55,50,52,55,55
+msgid "The !link may not be correct."
+msgstr "!link может быть не корректна."
+
+#: date_timezone/date_timezone.install:51,55,50,52,55,55
+msgid "site timezone name"
+msgstr "название часового пояса сайта"
+
+#: date_timezone/date_timezone.install:58,62,57,59,62,62
+msgid "Date Timezone requirements"
+msgstr "Необходимо указать часовой пояс"
+
+#: date_api.install:245,246,245,245
+msgid ""
+"The Date API module requires the <a href=\"@link\">Date PHP4 "
+"module</a> for PHP versions less than 5.2."
+msgstr ""
+"Модуль Date API требует <a href=\"@link\">модуль "
+"Date PHP4</a> для PHP версии меньше чем 5.2"
+
+#: date_popup/date_popup.install:16,17
+msgid ""
+"The Date Popup module needs code added by the <a "
+"href=\"http://drupal.org/project/jquery_ui\">jQuery UI module.</a> "
+"This is not yet a requirement, but soon will be, so you are encouraged "
+"to install that module as soon as possible. In the meantime, a version "
+"of the needed code is included here."
+msgstr ""
+
+#: date_api/date_api.module:86,86,86,86
+msgid "The timezone has been set to !value_link."
+msgstr ""
+
+#: date_api/date_api.module:89,89,89,89
+msgid ""
+"The Date API requires that you set up the !timezone_link to function "
+"correctly."
+msgstr ""
+
+#: date_api/date_api.module:89,89,89,89
+msgid "site timezone"
+msgstr ""
+
+#: date_api/date_api.module:95,95,95,95
+msgid "The first day of the week has been set to !value_link."
+msgstr ""
+
+#: date_api/date_api.module:98,98,98,98
+msgid ""
+"The Date API requires that you set up the !first_day_link to function "
+"correctly."
+msgstr ""
+
+#: date_api/date_api.module:98,98,98,98
+msgid "site first day of week settings"
+msgstr ""
+
+#: date_api/date_api.module:107,107,107,107
+msgid ""
+"The Date API requires that you set up the !format_link to function "
+"correctly."
+msgstr ""
+
+#: date_api/date_api.module:107,107,107,107
+msgid "system date formats"
+msgstr ""
+
+#: date_api/date_api.install:44,44,44,44
+msgid "Missing system date settings"
+msgstr ""
+
+#: date_api/date_api.install:52,52,52,52
+msgid "System date settings"
+msgstr ""
+
+#: date_api/date_api.install:73,73,73,73
+msgid ""
+"The Date API requires that you set up the !timezone_link and the "
+"!format_link to function correctly."
+msgstr ""
+
+#: date_api/date_api.install:73,73,73,73
+msgid "site timezone and first day of week settings"
+msgstr ""
+
+#: date_api/date_api.install:73,73,73,73
+msgid "date format settings"
+msgstr ""
+
+#: date_api/date_api.module:104,104,104,104
+msgid ""
+"The medium date format type has been set to to @value. You may find it "
+"helpful to add new format types like Date, Time, Month, or Year, with "
+"appropriate formats, at !value_link."
+msgstr ""
+
+#: date_popup/date_popup.install:16,16,16
+msgid ""
+"The Date Popup module needs code added by the <a "
+"href=\"http://drupal.org/project/jquery_ui\">jQuery UI module.</a> "
+"Install that module as soon as possible."
+msgstr ""
+
+#: date_api/date_api.module:86
+msgid ""
+"The timezone has been set to <a "
+"href=\"@regional_settings\">@timezone</a>."
+msgstr ""
+
+#: date_api/date_api.module:89
+msgid ""
+"The Date API requires that you set up the <a "
+"href=\"@regional_settings\">site timezone</a> to function correctly."
+msgstr ""
+
+#: date_api/date_api.module:95
+msgid ""
+"The first day of the week has been set to <a "
+"href=\"@regional_settings\">@day</a>."
+msgstr ""
+
+#: date_api/date_api.module:98
+msgid ""
+"The Date API requires that you set up the <a "
+"href=\"@regional_settings\">site first day of week settings</a> to "
+"function correctly."
+msgstr ""
+
+#: date_api/date_api.module:104
+msgid ""
+"The medium date format type has been set to to @value. You may find it "
+"helpful to add new format types like Date, Time, Month, or Year, with "
+"appropriate formats, at <a href=\"@regional_date_time\">Date and "
+"time</a> settings."
+msgstr ""
+
+#: date_api/date_api.module:107
+msgid ""
+"The Date API requires that you set up the <a "
+"href=\"@regional_date_time\">system date formats</a> to function "
+"correctly."
+msgstr ""
+
+#: date_api/date_api.install:73,75
+msgid ""
+"The Date API requires that you set up the <a "
+"href=\"@regional_settings\">site timezone and first day of week "
+"settings</a> and the <a href=\"@regional_date_time\">date format "
+"settings</a> to function correctly."
+msgstr ""
+

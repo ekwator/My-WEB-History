@@ -1,0 +1,106 @@
+# Russian translation of ctools (all releases)
+# Copyright (c) 2013 by the Russian translation team
+# Generated from files:
+#  ctools/plugins/content_types/search/search_form.inc: n/a
+#  search_form.inc,v 1.1.2.2 2010/01/29 20:18:25 merlinofchaos
+#  ctools/plugins/content_types/search/search_result.inc: n/a
+#  search_result.inc,v 1.1.2.4 2010/07/22 22:26:04 merlinofchaos
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: ctools (all releases)\n"
+"POT-Creation-Date: 2013-05-29 14:25+0400\n"
+"PO-Revision-Date: 2011-01-06 02:37+0300\n"
+"Language-Team: Russian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=((((n%10)==1)&&((n%100)!=11))?(0):(((((n%10)>=2)&&((n%10)<=4))&&(((n%100)<10)||((n%100)>=20)))?(1):2));\n"
+
+#: plugins/content_types/search/search_form.inc:99,100,95,100,100,95,99,95,95,95,100,95,99,95,99
+msgid "Search form"
+msgstr "Форма поиска"
+
+#: plugins/content_types/search/search_result.inc:58,58,59,59,58,59,58,58
+msgid "%keys (@type)."
+msgstr "%keys (@type)."
+
+#: plugins/content_types/search/search_result.inc:65,10,65,10,91,10,66,11,66,11,91,65,88,10,88,95,10,95,10,95,11,66,10,95,10,65,10,95,10,65
+msgid "Search results"
+msgstr "Результаты поиска"
+
+#: plugins/content_types/search/search_result.inc:70,70,96,71,71,96,70,93,93,100,100,100,71,100,70,100,70,70,70,96,71,71,96,70,93,93,100,100,100,71,100,70,100,70
+msgid "Your search yielded no results"
+msgstr "По вашему запросу ничего не найдено"
+
+#: plugins/content_types/search/search_form.inc:102,103,98,103,103,98,102,98,98,98,103,98,102,98,102
+msgid "Advanced"
+msgstr "Дополнительно"
+
+#: plugins/content_types/search/search_result.inc:58,58,77,59,59,77,58,77,84,84,84,59,84,58,84,58
+msgid "search"
+msgstr "поиск"
+
+#: plugins/content_types/search/search_result.inc:58,58,77,59,59,77,58,77,84,84,84,59,84,58,84,58
+msgid "results"
+msgstr "результаты"
+
+#: plugins/content_types/search/search_form.inc:10,10,10,11,11,10,10,10,11,10,10,10,10
+msgid "Advanced search form"
+msgstr "Расширенная форма поиска"
+
+#: plugins/content_types/search/search_form.inc:12,12,12,13,13,12,12,12,13,12,12,12,12
+msgid "A search form with advanced options."
+msgstr ""
+
+#: plugins/content_types/search/search_form.inc:105,106,101,106,106,101,105,101,101,101,106,101,105,101,105
+msgid ""
+"The advanced form may have additional options based upon the search "
+"type. For example the advanced content (node) search form will allow "
+"searching by node type and taxonomy term."
+msgstr ""
+
+#: plugins/content_types/search/search_form.inc:114,115,110,115,115,110,114,110,110,110,115,110,114,110,114
+msgid "Same page"
+msgstr ""
+
+#: plugins/content_types/search/search_form.inc:132,133,127,133,133,127,132,127,127,127,133,127,132,127,132
+msgid "Override default prompt"
+msgstr ""
+
+#: plugins/content_types/search/search_form.inc:159,161,155,160,160,155,159,155,155,155,160,155,159,155,159
+msgid "@type search form"
+msgstr ""
+
+#: plugins/content_types/search/search_result.inc:12,12,12,13,13,12,12,12,13,12,12,12,12
+msgid "The results of a search using keywords."
+msgstr ""
+
+#: plugins/content_types/search/search_result.inc:106,106,129,107,107,129,106,126,126,133,133,133,107,133,106,133,106
+msgid "Record a watchdog log entry when searches are made"
+msgstr ""
+
+#: plugins/content_types/search/search_result.inc:112,112,135,113,113,135,112,132,132,139,139,139,113,139,112,139,112
+msgid "Override \"no result\" text"
+msgstr ""
+
+#: plugins/content_types/search/search_result.inc:124,124,169,147,125,125,147,169,124,144,166,144,166,151,173,151,173,151,173,125,151,173,124,151,173,124
+msgid "No result text"
+msgstr ""
+
+#: plugins/content_types/search/search_result.inc:150,150,156,151,151,156,150,153,153,160,160,160,151,160,150,160,150
+msgid "Display text if no search keywords were submitted"
+msgstr ""
+
+#: plugins/content_types/search/search_result.inc:162,162,163,163,162,163,162,162
+msgid "No keywords text"
+msgstr ""
+
+#: plugins/content_types/search/search_result.inc:201,201,199,202,202,199,201,196,196,203,203,203,202,203,201,203,201
+msgid "@type search result"
+msgstr ""
+
+#: plugins/content_types/search/search_result.inc:77,77,77,84,84,84,84,84
+msgid "Searched %type for %keys."
+msgstr "Поиск %type в %keys."
+

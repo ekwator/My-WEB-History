@@ -1,0 +1,114 @@
+# Russian translation of views (all releases)
+# Copyright (c) 2013 by the Russian translation team
+# Generated from file: views/modules/field/views_handler_field_field.inc: n/a
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: views (all releases)\n"
+"POT-Creation-Date: 2013-05-29 14:21+0400\n"
+"PO-Revision-Date: 2012-12-24 17:32+0400\n"
+"Language-Team: Russian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=((((n%10)==1)&&((n%100)!=11))?(0):(((((n%10)>=2)&&((n%10)<=4))&&(((n%100)<10)||((n%100)>=20)))?(1):2));\n"
+
+#: modules/field/views_handler_field_field.inc:510,510,567,567,567,567
+msgid "Reversed"
+msgstr "Оборот"
+
+#: modules/field/views_handler_field_field.inc:377,377,434,434,434,434
+msgid "Formatter"
+msgstr "Форматёр"
+
+#: modules/field/views_handler_field_field.inc:498,498,555,555,555,555
+msgid "starting from @count"
+msgstr "начинается с @count"
+
+#: modules/field/views_handler_field_field.inc:506,506,563,563,563,563
+msgid "(first item is 0)"
+msgstr "(первой пункт есть 0)"
+
+#: modules/field/views_handler_field_field.inc:515,515,572,572,572,572
+msgid "(start from last values)"
+msgstr "(начало с последнего значения)"
+
+#: modules/field/views_handler_field_field.inc:367,367
+msgid "Click sort column"
+msgstr ""
+
+#: modules/field/views_handler_field_field.inc:370,370,427,427,427,427
+msgid ""
+"Used by Style: Table to determine the actual column to click sort the "
+"field on. The default is usually fine."
+msgstr ""
+
+#: modules/field/views_handler_field_field.inc:541,541,598,598,598,598
+msgid "Group column"
+msgstr ""
+
+#: modules/field/views_handler_field_field.inc:543,543,600,600,600,600
+msgid ""
+"Select the column of this field to apply the grouping function "
+"selected above."
+msgstr ""
+
+#: modules/field/views_handler_field_field.inc:552,552,609,609,609,609
+msgid "Group columns (additional)"
+msgstr ""
+
+#: modules/field/views_handler_field_field.inc:554,554,611,611,611,611
+msgid ""
+"Select any additional columns of this field to include in the query "
+"and to group on."
+msgstr ""
+
+#: modules/field/views_handler_field_field.inc:388,388,445,445,445,445
+msgid "Use field template"
+msgstr ""
+
+#: modules/field/views_handler_field_field.inc:391,391,448,448,448,448
+msgid ""
+"If checked, field api classes will be added using field.tpl.php (or "
+"equivalent). This is not recommended unless your CSS depends upon "
+"these classes. If not checked, template will not be used."
+msgstr ""
+
+#: modules/field/views_handler_field_field.inc:397,397,454,454,454,454
+msgid ""
+"Checking this option will cause the group Display Type and Separator "
+"values to be ignored."
+msgstr ""
+
+#: modules/field/views_handler_field_field.inc:433,433,490,490,490,490
+msgid "Multiple field settings"
+msgstr ""
+
+#: modules/field/views_handler_field_field.inc:440,440,497,497,497,497
+msgid "Display all values in the same row"
+msgstr ""
+
+#: modules/field/views_handler_field_field.inc:449,449,506,506,506,506
+msgid "Display @count value(s)"
+msgstr ""
+
+#: modules/field/views_handler_field_field.inc:823,823,880,880,880,880
+msgid "Raw @column"
+msgstr ""
+
+#: modules/field/views_handler_field_field.inc:443,443,500,500,500,500
+msgid ""
+"If checked, multiple values for this field will be shown in the same "
+"row. If not checked, each value in this field will create a new row. "
+"If using group by, please make sure to group by \"Entity ID\" for this "
+"setting to have any effect."
+msgstr ""
+
+#: modules/field/views_handler_field_field.inc:519,519,576,576,576,576
+msgid "First and last only"
+msgstr "Только последний и первый"
+
+#: modules/field/views_handler_field_field.inc:424,424,424,424
+msgid "Column used for click sorting"
+msgstr ""
+

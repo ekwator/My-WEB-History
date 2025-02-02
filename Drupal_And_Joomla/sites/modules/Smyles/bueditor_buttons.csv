@@ -1,0 +1,105 @@
+"title", "content", "icon", "accesskey", "weight"
+"Вставить/Редактировать изображение", "js:
+var B = eDefBrowseButton(\'/?q=imce/browse\', \'attr_src\', \'Browse\', \'image\');
+var form = [
+ {name: \'src\', title: \'Адрес изображения\', suffix: B},
+ {name: \'width\', title: \'Ширина x Высота\', suffix: \' x \', getnext: true, attributes: {size: 3}},
+ {name: \'height\', attributes: {size: 3}},
+ {name: \'alt\', title: \'Альтернативный текст\'},
+{name: \'align\', title: \'Выравнивание\', type: \'select\', options: {\'\': \'\', left: \'По левому краю\', right: \'По правому краю\', center: \'По центру\'}}
+];
+eDefTagDialog(\'img\', form, \'Вставить/Редактировать изображение\', \'Вставить\');
+", "picture.png", "M", "-10"
+"Вставить/Редактировать ссылку", "js:
+var B = eDefBrowseButton(\'\', \'attr_href\', \'Browse\', \'link\');
+var form = [
+ {name: \'href\', title: \'Адрес ссылки\', suffix: B},
+ {name: \'title\', title: \'Текст подсказки\'}
+];
+eDefTagDialog(\'a\', form, \'Вставить/Редактировать ссылку\', \'Вставить\');
+", "link.png", "L", "-9"
+"Смайлики", "js:
+getSmile=function(txt) {
+  editor.active.replaceSelection(txt,\'end\');
+  editor.dialog.close();
+}
+var userForm = \'<table><tr>\';
+userForm += \'<td><a href=\"javascript:getSmile(\\\':ANGEL:\\\');\"><img src=\"/sites/all/modules/smileys/packs/kolobok/aa.gif\" alt=\"ANGEL\" /></a></td>\';
+userForm += \'<td><a href=\"javascript:getSmile(\\\':HAPPY:\\\');\"><img src=\"/sites/all/modules/smileys/packs/kolobok/ab.gif\" alt=\"HAPPY\" /></a></td>\';
+userForm += \'<td><a href=\"javascript:getSmile(\\\':SAD:\\\');\"><img src=\"/sites/all/modules/smileys/packs/kolobok/ac.gif\" alt=\"SAD\" /></a></td>\';
+userForm += \'<td><a href=\"javascript:getSmile(\\\':WINKING:\\\');\"><img src=\"/sites/all/modules/smileys/packs/kolobok/ad.gif\" alt=\"WINKING\" /></a></td>\';
+userForm += \'<td><a href=\"javascript:getSmile(\\\':TONGUE:\\\');\"><img src=\"/sites/all/modules/smileys/packs/kolobok/ae.gif\" alt=\"TONGUE\" /></a></td>\';
+userForm += \'<td><a href=\"javascript:getSmile(\\\':COOL:\\\');\"><img src=\"/sites/all/modules/smileys/packs/kolobok/af.gif\" alt=\"COOL\" /></a></td>\';
+userForm += \'<td><a href=\"javascript:getSmile(\\\':LAUGHING:\\\');\"><img src=\"/sites/all/modules/smileys/packs/kolobok/ag.gif\" alt=\"LAUGHING\" /></a></td>\';
+userForm += \'</tr><tr>\';
+
+userForm += \'<td><a href=\"javascript:getSmile(\\\':EMBARASSED:\\\');\"><img src=\"/sites/all/modules/smileys/packs/kolobok/ah.gif\" alt=\"EMBARASSED\" /></a></td>\';
+userForm += \'<td><a href=\"javascript:getSmile(\\\':SHOCKED:\\\');\"><img src=\"/sites/all/modules/smileys/packs/kolobok/ai.gif\" alt=\"SHOCKED\" /></a></td>\';
+userForm += \'<td><a href=\"javascript:getSmile(\\\':KISS:\\\');\"><img src=\"/sites/all/modules/smileys/packs/kolobok/aj.gif\" alt=\"KISS\" /></a></td>\';
+userForm += \'<td><a href=\"javascript:getSmile(\\\':CRYING:\\\');\"><img src=\"/sites/all/modules/smileys/packs/kolobok/ak.gif\" alt=\"CRYING\" /></a></td>\';
+userForm += \'<td><a href=\"javascript:getSmile(\\\':SILENT:\\\');\"><img src=\"/sites/all/modules/smileys/packs/kolobok/al.gif\" alt=\"SILENT\" /></a></td>\';
+userForm += \'<td><a href=\"javascript:getSmile(\\\':ANGRY:\\\');\"><img src=\"/sites/all/modules/smileys/packs/kolobok/am.gif\" alt=\"ANGRY\" /></a></td>\';
+userForm += \'<td><a href=\"javascript:getSmile(\\\':DONT_UNDERSTAND:\\\');\"><img src=\"/sites/all/modules/smileys/packs/kolobok/an.gif\" alt=\"DONT_UNDERSTAND\" /></a></td>\';
+userForm += \'</tr><tr>\';
+ 
+userForm += \'<td><a href=\"javascript:getSmile(\\\':PENSIVE:\\\');\"><img src=\"/sites/all/modules/smileys/packs/kolobok/ao.gif\" alt=\"PENSIVE\" /></a></td>\';
+userForm += \'<td><a href=\"javascript:getSmile(\\\':JOKINGLY:\\\');\"><img src=\"/sites/all/modules/smileys/packs/kolobok/ap.gif\" alt=\"JOKINGLY\" /></a></td>\';
+userForm += \'<td><a href=\"javascript:getSmile(\\\':DEVIL:\\\');\"><img src=\"/sites/all/modules/smileys/packs/kolobok/aq.gif\" alt=\"DEVIL\" /></a></td>\';
+userForm += \'<td><a href=\"javascript:getSmile(\\\':HEADPHONES:\\\');\"><img src=\"/sites/all/modules/smileys/packs/kolobok/ar.gif\" alt=\"HEADPHONES\" /></a></td>\';
+userForm += \'<td><a href=\"javascript:getSmile(\\\':KISSED:\\\');\"><img src=\"/sites/all/modules/smileys/packs/kolobok/as.gif\" alt=\"KISSED\" /></a></td>\';
+userForm += \'<td><a href=\"javascript:getSmile(\\\':SICK:\\\');\"><img src=\"/sites/all/modules/smileys/packs/kolobok/at.gif\" alt=\"SICK\" /></a></td>\';
+userForm += \'<td><a href=\"javascript:getSmile(\\\':TIRED:\\\');\"><img src=\"/sites/all/modules/smileys/packs/kolobok/au.gif\" alt=\"TIRED\" /></a></td>\';
+userForm += \'</tr><tr>\';
+ 
+userForm += \'<td><a href=\"javascript:getSmile(\\\':STOP:\\\');\"><img src=\"/sites/all/modules/smileys/packs/kolobok/av.gif\" alt=\"STOP\" /></a></td>\';
+userForm += \'<td><a href=\"javascript:getSmile(\\\':KISSING:\\\');\"><img src=\"/sites/all/modules/smileys/packs/kolobok/aw.gif\" alt=\"KISSING\" /></a></td>\';
+userForm += \'<td><a href=\"javascript:getSmile(\\\':ROSE:\\\');\"><img src=\"/sites/all/modules/smileys/packs/kolobok/ax.gif\" alt=\"ROSE\" /></a></td>\';
+userForm += \'<td><a href=\"javascript:getSmile(\\\':THUMBS UP:\\\');\"><img src=\"/sites/all/modules/smileys/packs/kolobok/ay.gif\" alt=\"THUMBS UP\" /></a></td>\';
+userForm += \'<td><a href=\"javascript:getSmile(\\\':DRINK:\\\');\"><img src=\"/sites/all/modules/smileys/packs/kolobok/az.gif\" alt=\"DRINK\" /></a></td>\';
+userForm += \'<td><a href=\"javascript:getSmile(\\\':IN LOVE:\\\');\"><img src=\"/sites/all/modules/smileys/packs/kolobok/ba.gif\" alt=\"IN LOVE\" /></a></td>\';
+userForm += \'<td><a href=\"javascript:getSmile(\\\':BOMB:\\\');\"><img src=\"/sites/all/modules/smileys/packs/kolobok/bb.gif\" alt=\"BOMB\" /></a></td>\';
+userForm += \'</tr><tr>\';
+
+userForm += \'<td><a href=\"javascript:getSmile(\\\':HELP:\\\');\"><img src=\"/sites/all/modules/smileys/packs/kolobok/bc.gif\" alt=\"HELP\" /></a></td>\';
+userForm += \'<td><a href=\"javascript:getSmile(\\\':ROCK ON:\\\');\"><img src=\"/sites/all/modules/smileys/packs/kolobok/bd.gif\" alt=\"ROCK ON\" /></a></td>\';
+userForm += \'<td><a href=\"javascript:getSmile(\\\':CONFUSED:\\\');\"><img src=\"/sites/all/modules/smileys/packs/kolobok/be.gif\" alt=\"CONFUSED\" /></a></td>\';
+userForm += \'<td><a href=\"javascript:getSmile(\\\':OK:\\\');\"><img src=\"/sites/all/modules/smileys/packs/kolobok/bf.gif\" alt=\"OK\" /></a></td>\';
+userForm += \'<td><a href=\"javascript:getSmile(\\\':WASSUP:\\\');\"><img src=\"/sites/all/modules/smileys/packs/kolobok/bg.gif\" alt=\"WASSUP\" /></a></td>\';
+userForm += \'<td><a href=\"javascript:getSmile(\\\':SORRY:\\\');\"><img src=\"/sites/all/modules/smileys/packs/kolobok/bh.gif\" alt=\"SORRY\" /></a></td>\';
+userForm += \'<td><a href=\"javascript:getSmile(\\\':BRAVO:\\\');\"><img src=\"/sites/all/modules/smileys/packs/kolobok/bi.gif\" alt=\"BRAVO\" /></a></td>\';
+userForm += \'</tr><tr>\';
+
+userForm += \'<td><a href=\"javascript:getSmile(\\\':ROFL:\\\');\"><img src=\"/sites/all/modules/smileys/packs/kolobok/bj.gif\" alt=\"ROFL\" /></a></td>\';
+userForm += \'<td><a href=\"javascript:getSmile(\\\':PARDON:\\\');\"><img src=\"/sites/all/modules/smileys/packs/kolobok/bk.gif\" alt=\"PARDON\" /></a></td>\';
+userForm += \'<td><a href=\"javascript:getSmile(\\\':NO:\\\');\"><img src=\"/sites/all/modules/smileys/packs/kolobok/bl.gif\" alt=\"NO\" /></a></td>\';
+userForm += \'<td><a href=\"javascript:getSmile(\\\':CRAZY:\\\');\"><img src=\"/sites/all/modules/smileys/packs/kolobok/bm.gif\" alt=\"CRAZY\" /></a></td>\';
+userForm += \'<td><a href=\"javascript:getSmile(\\\':DONT_KNOW:\\\');\"><img src=\"/sites/all/modules/smileys/packs/kolobok/bn.gif\" alt=\"DONT_KNOW\" /></a></td>\';
+userForm += \'<td><a href=\"javascript:getSmile(\\\':DANCE:\\\');\"><img src=\"/sites/all/modules/smileys/packs/kolobok/bo.gif\" alt=\"DANCE\" /></a></td>\';
+userForm += \'<td><a href=\"javascript:getSmile(\\\':YAHOO:\\\');\"><img src=\"/sites/all/modules/smileys/packs/kolobok/bp.gif\" alt=\"YAHOO\" /></a></td>\';
+userForm += \'</tr><tr>\';
+
+userForm += \'<td><a href=\"javascript:getSmile(\\\':HI:\\\');\"><img src=\"/sites/all/modules/smileys/packs/kolobok/bq.gif\" alt=\"HI\" /></a></td>\';
+userForm += \'<td><a href=\"javascript:getSmile(\\\':BYE:\\\');\"><img src=\"/sites/all/modules/smileys/packs/kolobok/br.gif\" alt=\"BYE\" /></a></td>\';
+userForm += \'<td><a href=\"javascript:getSmile(\\\':YES:\\\');\"><img src=\"/sites/all/modules/smileys/packs/kolobok/bs.gif\" alt=\"YES\" /></a></td>\';
+userForm += \'<td><a href=\"javascript:getSmile(\\\':ACUTE:\\\');\"><img src=\"/sites/all/modules/smileys/packs/kolobok/bt.gif\" alt=\"ACUTE\" /></a></td>\';
+userForm += \'<td><a href=\"javascript:getSmile(\\\':WALL:\\\');\"><img src=\"/sites/all/modules/smileys/packs/kolobok/bu.gif\" alt=\"WALL\" /></a></td>\';
+userForm += \'<td><a href=\"javascript:getSmile(\\\':WRITE:\\\');\"><img src=\"/sites/all/modules/smileys/packs/kolobok/bv.gif\" alt=\"WRITE\" /></a></td>\';
+userForm += \'<td><a href=\"javascript:getSmile(\\\':SCRATCH:\\\');\"><img src=\"/sites/all/modules/smileys/packs/kolobok/bw.gif\" alt=\"SCRATCH\" /></a></td>\';
+userForm += \'</tr></table>\';
+editor.dialog.open(\'Смайлики\', userForm);", "smile.png", "", "-8"
+"Жирный", "<strong>%TEXT%</strong>", "text_bold.png", "B", "-7"
+"Курсив", "<em>%TEXT%</em>", "text_italic.png", "I", "-6"
+"Подчёркнутый", "<u>%TEXT%</u>", "text_underline.png", "", "-5"
+"Зачёркнутый", "<strike>%TEXT%</strike>
+", "text_strikethrough.png", "", "-4"
+"По левому краю", "<div class=\"editor-left-button\">%TEXT%</div>", "text_align_left.png", "", "-3"
+"По центру", "<div class=\"editor-center-button\">%TEXT%</div>", "text_align_center.png", "", "-2"
+"По правому краю", "<div class=\"editor-right-button\">%TEXT%</div>", "text_align_right.png", "", "-1"
+"Заголовок 1", "<h1>%TEXT%</h1>", "text_heading_1.png", "", "0"
+"Заголовок 2", "<h2>%TEXT%</h2>", "text_heading_2.png", "", "0"
+"Заголовок 3", "<h3>%TEXT%</h3>", "text_heading_3.png", "", "0"
+"Не нумерованный список", "js: eDefSelProcessLines(\'<ul>\\n\', \' <li>\', \'</li>\', \'\\n</ul>\');", "text_list_bullets.png", "U", "1"
+"Пронумерованный список", "js: eDefSelProcessLines(\'<ol>\\n\', \' <li>\', \'</li>\', \'\\n</ol>\');", "text_list_numbers.png", "O", "2"
+"Граница анонса", "<!--break-->", "more.png", "T", "8"
+"Просмотр", "js: eDefPreview();", "eye.png", "P", "9"
+"Справка", "js: eDefHelp();", "help.png", "H", "10"

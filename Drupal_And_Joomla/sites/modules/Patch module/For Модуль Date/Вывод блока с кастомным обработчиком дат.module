@@ -1,0 +1,37 @@
+// Функция преобразует даты в "правильные", то есть в родительном падеже и ещё разные штучки делает.
+function _calendar_list_conv_date($a, $format='front') {
+  global $language;
+  $date = strtotime($a);
+  switch($format) {
+    case 'front':
+      $monthes = array (
+        'en' => array('January','February','March','April','May','June','July','August','September','October','November','December'),
+        'ru' => array('января','февраля','марта','апреля','мая','июня','июля','августа','сентября','октября','ноября','декабря'),
+        'uk' => array('січня','лютого','березня','квітня','травня','червня','липня','серпня','вересня','жовтня','листопада','грудня'),
+      );
+      $weekday = array (
+        'en' => array('Monday','Tuesday','Wednesday','Thursday','Friday','Saturday','Sunday'),
+        'ru' => array('Понедельник','Вторник','Среда','Четверг','Пятница','Суббота','Воскресенье'),
+        'uk' => array('Понеділок','Вівторок','Середа','Четвер','П’ятниця','Субота','Неділя'),
+      );
+      switch ($language->language) {
+        case 'ru':
+        case 'uk':
+            $output = date("j",$date) .' '. $monthes[$language->language][date("n",$date)-1] .', '. $weekday[$language->language][date("N",$date)-1];
+            break;
+        case 'en':
+        default:
+            $output = $monthes[$language->language][date("n",$date)-1] .' '. date("j",$date) .', '. $weekday[$language->language][date("N",$date)-1];
+            break;
+      }
+ 
+      break;
+    case 'short':
+      $output = date('d.m.Y', $date); //20.02.2010
+      break;
+    default:
+      $output = date("j",$date).' '.$monthes[date("n",$date)-1].' '.date("Y",$date).' '.date("H",$date).':'.date("i",$date);
+      break;
+  }
+  return $output;
+}

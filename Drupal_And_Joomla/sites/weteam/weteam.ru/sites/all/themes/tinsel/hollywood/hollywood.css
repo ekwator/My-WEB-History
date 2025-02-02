@@ -1,0 +1,20 @@
+/* $Id: hollywood.css,v 1.1 2010/01/11 06:37:09 merlinofchaos Exp $ */
+
+/**
+ * Based upon Minnelli, for Drupal 6.x
+ * Stefan Nagtegaal, iStyledThis [dot] nl
+ * Steven Wittens, acko [dot] net
+ */
+
+#tinsel-wrapper #wrapper #container {
+  width: 1024px;
+}
+
+#tinsel-wrapper.sidebars #wrapper #container {
+  width: 980px;
+}
+
+#tinsel-wrapper.sidebar-left #wrapper #container,
+#tinsel-wrapper.sidebar-right #wrapper #container {
+  width: 770px;
+}

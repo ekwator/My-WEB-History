@@ -1,0 +1,82 @@
+# Russian translation of ctools (all releases)
+# Copyright (c) 2013 by the Russian translation team
+# Generated from files:
+#  ctools/views_content/views_content.module: n/a
+#  views_content.module,v 1.4.2.3 2010/08/12 20:35:37 merlinofchaos
+#  views_content.module,v 1.4.2.2 2010/07/20 00:17:08 merlinofchaos
+#  ctools/views_content/views_content.info: n/a
+#  views_content.info,v 1.2 2009/07/12 18:11:59 merlinofchaos
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: ctools (all releases)\n"
+"POT-Creation-Date: 2013-05-29 14:25+0400\n"
+"PO-Revision-Date: 2011-05-13 21:51+0400\n"
+"Language-Team: Russian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=((((n%10)==1)&&((n%100)!=11))?(0):(((((n%10)>=2)&&((n%10)<=4))&&(((n%100)<10)||((n%100)>=20)))?(1):2));\n"
+
+#: views_content/views_content.module:19,19,19,20,20,19,19,19,20,19,19,19,19
+msgid "Views panes"
+msgstr "Панели видов"
+
+#: views_content/views_content.module:154,152,154,154,153,92,152,154,154,154,153,154,152,154,152
+msgid "Make all views available as panes"
+msgstr ""
+"Сделать все представления доступными "
+"в качестве фрагментов панели"
+
+#: views_content/views_content.info:0,0,0,0,0,0,0,0,0,0,0,0
+msgid "Views content panes"
+msgstr "Представления - фрагменты панели"
+
+#: views_content/views_content.info:0,0,0,0,0,0,0,0,0,0,0,0
+msgid ""
+"Allows Views content to be used in Panels, Dashboard and other modules "
+"which use the CTools Content API."
+msgstr ""
+"Позволяет использовать Представления "
+"в качестве содержимого для модулей "
+"Panels, Dashboard и прочих, использующих CTools "
+"Content API."
+
+#: views_content/views_content.module:155,153,155,155,154,93,153,155,155,155,154,155,153,155,153
+msgid ""
+"If checked, all views will be made available as content panes to be "
+"added to content types. If not checked, only Views that have a "
+"'Content pane' display will be available as content panes. Uncheck "
+"this if you want to be able to more carefully control what view "
+"content is available to users using the panels layout UI."
+msgstr ""
+"Если выбрано, все представления будут "
+"доступны в списке фрагментов панели. В "
+"противном случае доступны будут лишь "
+"те представления, к которым был "
+"добавлен режим \"Фрагмент панели\". "
+"Выключите этот флажок, если хотите "
+"более чётко указывать, какие "
+"представления пользователи смогут "
+"использовать в своих панелях."
+
+#: views_content/views_content.module:23,23,24,24,23,23,23,23,24,23,23,23,23
+msgid "Configure Views to be used as CTools content."
+msgstr ""
+
+#: views_content/views_content.module:212,212,212,212,212,212,212
+msgid "Master"
+msgstr "Мастер"
+
+#: views_content/views_content.module:79,79,79,80,79,79,79,80,79,79,79,79
+msgid "Inherit path"
+msgstr ""
+
+#: views_content/views_content.module:195,195,195,195,195,195,195
+msgid "View: @view"
+msgstr ""
+
+#: views_content/views_content.module:198,198,198,198,198,198,198
+msgid "View: @view: @display"
+msgstr ""
+

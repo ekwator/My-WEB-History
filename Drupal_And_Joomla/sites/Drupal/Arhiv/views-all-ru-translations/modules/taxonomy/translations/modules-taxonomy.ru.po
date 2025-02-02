@@ -1,0 +1,278 @@
+# Russian translation of views (all releases)
+# Copyright (c) 2013 by the Russian translation team
+# Generated from files:
+#  views/modules/taxonomy/views_plugin_argument_validate_taxonomy_term.inc: n/a
+#  views/modules/taxonomy/views_handler_filter_term_node_tid.inc: n/a
+#  views/modules/taxonomy/views_handler_field_term_node_tid.inc: n/a
+#  views/modules/taxonomy/views_handler_field_taxonomy.inc: n/a
+#  views/modules/taxonomy/views_handler_argument_term_node_tid_depth.inc: n/a
+#  views/modules/taxonomy/views_handler_relationship_node_term_data.inc: n/a
+#  views/modules/taxonomy/views_handler_argument_term_node_tid.inc: n/a
+#  views/modules/taxonomy/views_plugin_argument_default_taxonomy_tid.inc: n/a
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: views (all releases)\n"
+"POT-Creation-Date: 2013-05-29 14:21+0400\n"
+"PO-Revision-Date: 2012-12-24 17:32+0400\n"
+"Language-Team: Russian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=((((n%10)==1)&&((n%100)!=11))?(0):(((((n%10)>=2)&&((n%10)<=4))&&(((n%100)<10)||((n%100)>=20)))?(1):2));\n"
+
+#: modules/taxonomy/views_plugin_argument_validate_taxonomy_term.inc:57,57,58,58,58,58
+msgid "Term name"
+msgstr "Название термина"
+
+#: modules/taxonomy/views_handler_filter_term_node_tid.inc:72,56,72,52,77,77,77,58,52,58,77
+msgid "Autocomplete"
+msgstr "Автодополнение"
+
+#: modules/taxonomy/views_handler_filter_term_node_tid.inc:109,179,97,161,109,179,93,157,114,189,114,189,114,189,99,163,93,157,99,163,114,189
+msgid "Select terms"
+msgstr "Выберите термины"
+
+#: modules/taxonomy/views_handler_filter_term_node_tid.inc:71,55,71,51,76,76,76,57,51,57,76
+msgid "Selection type"
+msgstr "Способ выбора"
+
+#: modules/taxonomy/views_handler_field_term_node_tid.inc:45,34,45,33,50,50,50,35,33,35,50
+msgid "Link this field to its term page"
+msgstr ""
+"Сделать это поле ссылкой на страницу "
+"его термина"
+
+#: modules/taxonomy/views_handler_field_taxonomy.inc:38,33,38,32,43,43,43,35,32,35,43
+msgid "Link this field to its taxonomy term page"
+msgstr ""
+"Сделать это поле ссылкой на страницу "
+"его термина таксономии"
+
+#: modules/taxonomy/views_handler_filter_term_node_tid.inc:72,56,72,52,77,77,77,58,52,58,77
+msgid "Dropdown"
+msgstr "Выпадающий"
+
+#: modules/taxonomy/views_handler_filter_term_node_tid.inc:88,79,88,75,93,93,93,81,75,81,93
+msgid "An invalid vocabulary is selected. Please change it in the options."
+msgstr ""
+"Выбран неверный словарь. Измените его "
+"в настройках."
+
+#: modules/taxonomy/views_handler_filter_term_node_tid.inc:109,179,97,161,109,179,93,157,114,189,114,189,114,189,99,163,93,157,99,163,114,189
+msgid "Select terms from vocabulary @voc"
+msgstr "Выберите термины из словаря @voc"
+
+#: modules/taxonomy/views_handler_argument_term_node_tid_depth.inc:32,34,32,34
+msgid ""
+"If selected, users can enter multiple arguments in the form of 1+2+3. "
+"Due to the number of JOINs it would require, AND will be treated as OR "
+"with this argument."
+msgstr ""
+"Если выбрано, пользователи могут "
+"ввести несколько аргументов в виде 1 +2 "
+"+3. Учитывая большое число JOIN  "
+"соединений, для этого потребуется, И "
+"будет рассматриваться в качестве ИЛИ "
+"этих аргументов."
+
+#: modules/taxonomy/views_handler_filter_term_node_tid.inc:63,44,63,40,68,68,68,46,40,46,68
+msgid "Select which vocabulary to show terms for in the regular options."
+msgstr ""
+"Выберите словарь, из которого будете "
+"выбирать термины."
+
+#: modules/taxonomy/views_plugin_argument_validate_taxonomy_term.inc:56,40,56,35,57,57,57,40,35,40,57
+msgid "Term IDs separated by , or +"
+msgstr "ID терминов, разделеные ',' или '+'"
+
+#: modules/taxonomy/views_plugin_argument_validate_taxonomy_term.inc:41,36,41,36,41
+msgid "Term name or synonym"
+msgstr "Имя термина или его синоним"
+
+#: modules/taxonomy/views_plugin_argument_validate_taxonomy_term.inc:42,37,42,37,42
+msgid "Term name/synonym converted to Term ID"
+msgstr "Термин/синоним, преобразованный в ID"
+
+#: modules/taxonomy/views_plugin_argument_validate_taxonomy_term.inc:45,40,45,40,45
+msgid ""
+"Select the form of this argument; if using term name, it is generally "
+"more efficient to convert it to a term ID and use Taxonomy: Term ID "
+"rather than Taxonomy: Term Name\" as an argument."
+msgstr ""
+"Выберите форму аргумента; если "
+"используется название, то обычно "
+"более эффективно использовать ID "
+"термина и использование ID термина "
+"предпочтительнее, чем название как "
+"аргумент."
+
+#: modules/taxonomy/views_handler_filter_term_node_tid.inc:78,62,78,58,83,83,83,64,58,64,83
+msgid "Show hierarchy in dropdown"
+msgstr ""
+"Показывать иерархию в выпадающем "
+"списке"
+
+#: modules/taxonomy/views_handler_filter_term_node_tid.inc:309,282,309,272,319,319,319,284,272,284,319
+msgid "Unable to find term: @terms"
+msgid_plural "Unable to find terms: @terms"
+msgstr[0] "Невозможно найти термин: @terms"
+msgstr[1] "Невозможно найти термины: @terms"
+msgstr[2] "Невозможно найти термины: @terms"
+
+#: modules/taxonomy/views_plugin_argument_validate_taxonomy_term.inc:48,32,48,25,49,49,49,32,25,32,49
+msgid ""
+"If you wish to validate for specific vocabularies, check them; if none "
+"are checked, all terms will pass."
+msgstr ""
+"Если вы хотите проверить конкретные "
+"словари - отметьте их; если ничего не "
+"отмечено - будут пройдены все термины."
+
+#: modules/taxonomy/views_plugin_argument_validate_taxonomy_term.inc:50,47,50,47,50
+msgid "Transform dashes in URL to spaces in term name arguments"
+msgstr ""
+"Преобразовывать тире в URL-адресе в "
+"пробелы в имени аргументов"
+
+#: modules/taxonomy/views_handler_field_term_node_tid.inc:130,107,130,106,133,133,133,108,106,108,133
+msgid "The taxonomy term ID for the term."
+msgstr "ID для текущего термина."
+
+#: modules/taxonomy/views_handler_field_term_node_tid.inc:131,108,131,107,134,134,134,109,107,109,134
+msgid "The taxonomy term name for the term."
+msgstr ""
+"Название термина таксономии для "
+"термина."
+
+#: modules/taxonomy/views_handler_field_term_node_tid.inc:109,108,110,108,110
+msgid "The vocabulary ID for the vocabulary the term belongs to."
+msgstr ""
+"ID словаря для словаря к которому "
+"относится термин."
+
+#: modules/taxonomy/views_handler_field_term_node_tid.inc:133,110,133,109,136,136,136,111,109,111,136
+msgid "The name for the vocabulary the term belongs to."
+msgstr ""
+"Название словаря, которому "
+"принадлежит термин."
+
+#: modules/taxonomy/views_handler_relationship_node_term_data.inc:46,31,46,46,46,46,37,31,37,46
+msgid ""
+"Choose which vocabularies you wish to relate. Remember that every term "
+"found will create a new record, so this relationship is best used on "
+"just one vocabulary that has only one term per node."
+msgstr ""
+
+#: modules/taxonomy/views_handler_argument_term_node_tid.inc:23,25,25
+msgid "Use term synonyms for summary links"
+msgstr ""
+
+#: modules/taxonomy/views_handler_argument_term_node_tid.inc:24,26,26
+msgid ""
+"If selected, summary views will use a synonym defined for each term "
+"when creating the URL to link to that term. Note that this only works "
+"reliably if terms have at most one synonym."
+msgstr ""
+
+#: modules/taxonomy/views_handler_argument_term_node_tid_depth.inc:46,45,46,52,52,52,47,45,47,52
+msgid "Use Drupal's taxonomy term path to create breadcrumb links"
+msgstr ""
+"Использовать стандартный путь "
+"терминов таксономии для создания "
+"ссылок навигационной линейки"
+
+#: modules/taxonomy/views_handler_argument_term_node_tid_depth.inc:47,46,47,53,53,53,48,46,48,53
+msgid ""
+"If selected, the links in the breadcrumb trail will be created using "
+"the standard drupal method instead of the custom views method. This is "
+"useful if you are using modules like taxonomy redirect to modify your "
+"taxonomy term links."
+msgstr ""
+
+#: modules/taxonomy/views_plugin_argument_default_taxonomy_tid.inc:33,23,33,23,33
+msgid "Load default argument from term page"
+msgstr ""
+"Загружать аргумент по умолчанию из "
+"страницы термина"
+
+#: modules/taxonomy/views_handler_filter_term_node_tid.inc:329,302,329,339,339,339,304,304,339
+msgid "Display error message"
+msgstr "Показать сообщения об ошибке"
+
+#: modules/taxonomy/views_handler_field_term_node_tid.inc:132,132,135,135,135,135
+msgid "The machine name for the vocabulary the term belongs to."
+msgstr ""
+
+#: modules/taxonomy/views_plugin_argument_validate_taxonomy_term.inc:58,58,59,59,59,59
+msgid "Term name converted to Term ID"
+msgstr ""
+
+#: modules/taxonomy/views_plugin_argument_default_taxonomy_tid.inc:68,68
+msgid ""
+"If you wish to limit terms for specific vocabularies, check them; if "
+"none are checked, all terms will be included."
+msgstr ""
+
+#: modules/taxonomy/views_handler_argument_term_node_tid_depth.inc:33,33,39,39,39,39
+msgid ""
+"If selected, users can enter multiple values in the form of 1+2+3. Due "
+"to the number of JOINs it would require, AND will be treated as OR "
+"with this filter."
+msgstr ""
+
+#: modules/taxonomy/views_plugin_argument_default_taxonomy_tid.inc:37,37,41,41,41,41
+msgid "Load default filter from term page"
+msgstr ""
+"Загрузить фильтр по умолчанию для "
+"страницы термина"
+
+#: modules/taxonomy/views_plugin_argument_validate_taxonomy_term.inc:53,53,54,54,54,54
+msgid "Filter value type"
+msgstr ""
+
+#: modules/taxonomy/views_plugin_argument_validate_taxonomy_term.inc:61,61,62,62,62,62
+msgid ""
+"Select the form of this filter value; if using term name, it is "
+"generally more efficient to convert it to a term ID and use Taxonomy: "
+"Term ID rather than Taxonomy: Term Name\" as the filter."
+msgstr ""
+
+#: modules/taxonomy/views_plugin_argument_validate_taxonomy_term.inc:66,66,67,67,67,67
+msgid "Transform dashes in URL to spaces in term name filter values"
+msgstr ""
+
+#: modules/taxonomy/views_plugin_argument_default_taxonomy_tid.inc:42,42,46,46,46,46
+msgid ""
+"Load default filter from node page, that's good for related taxonomy "
+"blocks"
+msgstr ""
+
+#: modules/taxonomy/views_plugin_argument_default_taxonomy_tid.inc:38,34,38,34,38
+msgid ""
+"Load default argument from node page, thats good for related taxonomy "
+"blocks"
+msgstr ""
+
+#: modules/taxonomy/views_plugin_argument_default_taxonomy_tid.inc:78,78,82,82,82,82
+msgid "Multiple-value handling"
+msgstr ""
+
+#: modules/taxonomy/views_plugin_argument_default_taxonomy_tid.inc:82,82,86,86,86,86
+msgid "Filter to items that share all terms"
+msgstr ""
+
+#: modules/taxonomy/views_plugin_argument_default_taxonomy_tid.inc:83,83,87,87,87,87
+msgid "Filter to items that share any term"
+msgstr ""
+
+#: modules/taxonomy/views_handler_field_taxonomy.inc:44,39,44,49,49,49,41,41,49
+msgid "Convert spaces in term names to hyphens"
+msgstr ""
+"Конвертировать пробелы в имени "
+"термина в дефисы"
+
+#: modules/taxonomy/views_handler_field_taxonomy.inc:45,40,45,50,50,50,42,42,50
+msgid "This allows links to work with Views taxonomy term arguments."
+msgstr ""
+

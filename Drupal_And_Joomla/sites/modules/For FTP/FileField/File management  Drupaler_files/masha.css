@@ -1,0 +1,60 @@
+#txtselect_marker {
+	Z-INDEX: 1200; POSITION: absolute; WIDTH: 48px; DISPLAY: block; BACKGROUND: url(../img/textselect/marker.png) no-repeat 0px 0px; HEIGHT: 48px; VISIBILITY: hidden; opacity: 0; -webkit-transition: opacity .4s, visibility .1s linear .4s; -moz-transition: opacity .4s, visibility .1s linear .4s; -o-transition: opacity .4s, visibility .1s linear .4s; transition: opacity .4s, visibility .1s linear .4s
+}
+#txtselect_marker:hover {
+	BACKGROUND-POSITION: 0px -48px
+}
+.show#txtselect_marker {
+	VISIBILITY: visible; opacity: 1; -webkit-transition: opacity .4s, visibility 0s; -moz-transition: opacity .4s, visibility 0s; -o-transition: opacity .4s, visibility 0s; transition: opacity .4s, visibility 0s
+}
+.user_selection {
+	PADDING-BOTTOM: 2px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BACKGROUND: #c4f47d; PADDING-TOP: 2px
+}
+.user_selection_true {
+	PADDING-BOTTOM: 2px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BACKGROUND: #c4f47d; PADDING-TOP: 2px
+}
+.user_selection A.txtsel_close {
+	DISPLAY: none
+}
+.user_selection_true A.txtsel_close {
+	DISPLAY: none
+}
+.user_selection .closewrap {
+	POSITION: relative
+}
+.user_selection_true .closewrap {
+	POSITION: relative
+}
+.hover.user_selection A.txtsel_close {
+	POSITION: absolute; WIDTH: 33px; DISPLAY: inline-block; BACKGROUND: url(../img/textselect/closemarker.png) no-repeat 0px 0px; HEIGHT: 33px; TOP: -7px; LEFT: -5px
+}
+.hover.user_selection_true A.txtsel_close {
+	POSITION: absolute; WIDTH: 33px; DISPLAY: inline-block; BACKGROUND: url(../img/textselect/closemarker.png) no-repeat 0px 0px; HEIGHT: 33px; TOP: -7px; LEFT: -5px
+}
+.hover.user_selection A.txtsel_close:hover {
+	BACKGROUND-POSITION: 0px -33px
+}
+.hover.user_selection_true A.txtsel_close:hover {
+	BACKGROUND-POSITION: 0px -33px
+}
+#upmsg-selectable {
+	Z-INDEX: 9999; POSITION: fixed; WIDTH: 100%; DISPLAY: none; BACKGROUND: url(../img/textselect/upmsg_bg.png) repeat-x; HEIGHT: 57px; OVERFLOW: hidden; TOP: -57px; LEFT: 0px
+}
+.show#upmsg-selectable {
+	DISPLAY: block
+}
+#upmsg-selectable .upmsg-selectable-inner {
+	POSITION: relative; MARGIN: 0px auto; WIDTH: 928px; HEIGHT: auto
+}
+#upmsg-selectable .upmsg-selectable-inner IMG {
+	FLOAT: left
+}
+#upmsg-selectable .upmsg-selectable-inner P {
+	TEXT-ALIGN: left; MARGIN-TOP: 17px; COLOR: white; MARGIN-LEFT: 63px; FONT-SIZE: 12px; text-shadow: 0 -1px 0 #000000
+}
+#upmsg-selectable .upmsg-selectable-inner .upmsg_closebtn {
+	POSITION: absolute; WIDTH: 19px; BOTTOM: -4px; DISPLAY: block; BACKGROUND: url(../img/textselect/upmsg_closebtn.png) no-repeat 0px 0px; HEIGHT: 19px; RIGHT: 0px
+}
+#upmsg-selectable .upmsg-selectable-inner .upmsg_closebtn:hover {
+	BACKGROUND-POSITION: 0px -19px
+}

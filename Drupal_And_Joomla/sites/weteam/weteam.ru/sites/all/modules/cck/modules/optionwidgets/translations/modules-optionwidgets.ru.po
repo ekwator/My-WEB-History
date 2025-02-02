@@ -1,0 +1,83 @@
+# Russian translation of cck (all releases)
+# Copyright (c) 2012 by the Russian translation team
+# Generated from file: cck/modules/optionwidgets/optionwidgets.module: n/a
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: cck (all releases)\n"
+"POT-Creation-Date: 2012-08-17 04:30-0400\n"
+"PO-Revision-Date: 2010-08-03 15:56-0400\n"
+"Language-Team: Russian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=((((n%10)==1)&&((n%100)!=11))?(0):(((((n%10)>=2)&&((n%10)<=4))&&(((n%100)<10)||((n%100)>=20)))?(1):2));\n"
+
+#: modules/optionwidgets/optionwidgets.module:428,429
+msgid "- None -"
+msgstr "- Нет -"
+
+#: modules/optionwidgets/optionwidgets.module:9
+msgid ""
+"Create a list of options as a list in <strong>Allowed values</strong> "
+"or as an array in PHP code. These values will be the same for %field "
+"in all content types."
+msgstr ""
+"Создайте список опций в виде списка "
+"<strong>допустимых значений</strong> или в "
+"виде PHP кода, возвращающего массив, "
+"внизу данной страницы. Данные "
+"значения будут одинаковыми для поля "
+"%field во всех типах содержимого."
+
+#: modules/optionwidgets/optionwidgets.module:11,21,22
+msgid ""
+"For a 'single on/off checkbox' widget, define the 'off' value first, "
+"then the 'on' value in the <strong>Allowed values</strong> section. "
+"Note that the checkbox will be labeled with the label of the 'on' "
+"value."
+msgstr ""
+"Для типа виджета \"выключатель да/нет\" "
+"в списке <strong>Допустимых значений</strong> "
+"сперва укажите значение для варианта "
+"\"нет\"(флажок снят), затем - для "
+"варианта \"да\" (флажок включён). Имейте "
+"в виду, что подпись к флажку будет "
+"взята из варианта \"да\"."
+
+#: modules/optionwidgets/optionwidgets.module:14,24,25
+msgid ""
+"The 'checkboxes/radio buttons' widget will display checkboxes if the "
+"multiple values option is selected for this field, otherwise radios "
+"will be displayed."
+msgstr ""
+"Виджет 'Чекбоксы/радиокнопки' будет "
+"отображать чекбоксы при "
+"множественном выборе и радиокнопки - "
+"при одиночном."
+
+#: modules/optionwidgets/optionwidgets.module:18,19
+msgid ""
+"Create a list of options as a list in <strong>Allowed values "
+"list</strong> or as an array in PHP code. These values will be the "
+"same for %field in all content types."
+msgstr ""
+"Создайте список опций в виде "
+"<strong>списка допустимых значений</strong> "
+"или в виде PHP кода, возвращающего "
+"массив, внизу данной страницы. Данные "
+"значения будут одинаковыми для поля "
+"%field во всех типах содержимого."
+
+#: modules/optionwidgets/optionwidgets.module:36,37
+msgid "You need to specify the 'allowed values' for this field."
+msgstr ""
+"Вы должны указать \"разрешённые "
+"значения\" в этом поле."
+
+#: modules/optionwidgets/optionwidgets.module:332,333
+msgid "%name: this field cannot hold more than @count values."
+msgstr ""
+"%name: поле не может содержать больше чем "
+"@count значений."
+

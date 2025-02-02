@@ -1,0 +1,666 @@
+# Russian translation of cck (all releases)
+# Copyright (c) 2012 by the Russian translation team
+# Generated from files:
+#  cck/includes/content.admin.inc: n/a
+#  cck/includes/content.views.inc: n/a
+#  cck/includes/content.token.inc: n/a
+#  cck/includes/content.node_form.inc: n/a
+#  cck/includes/content.rules.inc: n/a
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: cck (all releases)\n"
+"POT-Creation-Date: 2012-08-17 04:30-0400\n"
+"PO-Revision-Date: 2011-07-02 14:42-0400\n"
+"Language-Team: Russian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=((((n%10)==1)&&((n%100)!=11))?(0):(((((n%10)>=2)&&((n%10)<=4))&&(((n%100)<10)||((n%100)>=20)))?(1):2));\n"
+
+#: includes/content.admin.inc:35,36
+msgid "delete"
+msgstr "удалить"
+
+#: includes/content.admin.inc:29,30
+msgid "edit"
+msgstr "изменить"
+
+#: includes/content.admin.inc:97,113,176,204,202,175,201
+msgid "Configure"
+msgstr "Настройки"
+
+#: includes/content.admin.inc:52,53
+msgid "No content types available."
+msgstr "Не доступных типов содержимого."
+
+#: includes/content.admin.inc:765,1152,1138,1137
+msgid "Global settings"
+msgstr "Общие настройки"
+
+#: includes/content.admin.inc:704
+msgid ""
+"Instructions to present to the user below this field on the editing "
+"form."
+msgstr ""
+"Инструкции для пользователя, которые "
+"будут показаны в форме "
+"редактирования."
+
+#: includes/content.admin.inc:1249,1747,1704,1703
+msgid "Processing"
+msgstr "Обработка..."
+
+#: includes/content.admin.inc:1250,1748,1705,1704
+msgid "The update has encountered an error."
+msgstr "Во время обновления произошла ошибка."
+
+#: includes/content.admin.inc:1370,1868,1825,1824
+msgid "Processing %title"
+msgstr "Обработка %title"
+
+#: includes/content.admin.inc:1268,1766,1723,1722
+msgid "1 item successfully processed:"
+msgid_plural "@count items successfully processed:"
+msgstr[0] "@count пункт успешно обработан:"
+msgstr[1] "@count пункта успешно обработано:"
+msgstr[2] "@count[2] пунктов успешно обработано:"
+
+#: includes/content.views.inc:373
+msgid "Show"
+msgstr "Показать"
+
+#: includes/content.admin.inc:187,186
+msgid "Locked"
+msgstr "Заблокировано"
+
+#: includes/content.token.inc:11,14,12,15
+msgid "Token"
+msgstr "Маркер"
+
+#: includes/content.admin.inc:851,1036,837,1022,836,1021
+msgid "Widget type"
+msgstr "Тип виджета"
+
+#: includes/content.admin.inc:650,694,639,682,638,681
+msgid "Include"
+msgstr "Включить"
+
+#: includes/content.admin.inc:663,1049,1035,1034
+msgid "%type settings"
+msgstr "%type - настройки"
+
+#: includes/content.admin.inc:37,95,96
+msgid "No fields have been defined for any content type yet."
+msgstr ""
+"Ещё нет поля определенного для любого "
+"типа содержимого."
+
+#: includes/content.admin.inc:62,241
+msgid "There are no fields configured for this content type. You can !link."
+msgstr ""
+"Для этого типа материала ни одного "
+"поля ещё не задано. Вы можете !link."
+
+#: includes/content.admin.inc:540,561,550,549
+msgid "There was a problem adding field %label."
+msgstr "Ошибка добавления поля %label."
+
+#: includes/content.admin.inc:556
+msgid ""
+"The field name %field_name is invalid. The name must include only "
+"lowercase unaccentuated letters, numbers, and underscores."
+msgstr ""
+"Имя поля %field_name некорректно. Имя "
+"должно содержать только простую "
+"латиницу в нижнем регистре, цифры и "
+"подчеркивания."
+
+#: includes/content.admin.inc:564
+msgid "The name 'field_instance' is a reserved name."
+msgstr "Имя 'field_instance' зарезервировано."
+
+#: includes/content.admin.inc:585,539,528,527
+msgid "There was a problem creating field %label."
+msgstr "Ошибка создания поля %label."
+
+#: includes/content.admin.inc:775,1167,1153,1152
+msgid "Number of values"
+msgstr "Количество значений"
+
+#: includes/content.admin.inc:778
+msgid ""
+"Select a specific number of values for this field, or 'Unlimited' to "
+"provide an 'Add more' button so the users can add as many values as "
+"they like."
+msgstr ""
+"Укажите точное количество значений "
+"поля, или 'Неограничено'. Тогда  "
+"пользователь при помощи кнопки 'Add more' "
+"сможет  добавить столько значений, "
+"сколько пожелает."
+
+#: includes/content.admin.inc:778,1164,1150,1149
+msgid ""
+"Warning! Changing this setting after data has been created could "
+"result in the loss of data!"
+msgstr ""
+"Осторожно! Изменение этой настройки "
+"после создания данных может привести "
+"к их потере!"
+
+#: includes/content.admin.inc:941,1353,1339,1338
+msgid "Saved field %label."
+msgstr "Поле %label сохранено."
+
+#: includes/content.admin.inc:1264,1762,1719,1718
+msgid "The database has been altered and data has been migrated or deleted."
+msgstr ""
+"База была изменена и данные были "
+"изменены или удалены."
+
+#: includes/content.admin.inc:1267,1765,1722,1721
+msgid "An error occurred and database alteration did not complete."
+msgstr ""
+"Возникла ошибка и изменения в базе не "
+"произведены."
+
+#: includes/content.node_form.inc:193
+msgid "Add another !field value"
+msgstr "Добавить другое !field значение"
+
+#: includes/content.node_form.inc:194
+msgid ""
+"If the amount of boxes above isn't enough, click here to add more "
+"items."
+msgstr ""
+"Если количества полей недостаточно, "
+"кликните сюда, чтобы добавить еще "
+"элементов."
+
+#: includes/content.views.inc:95
+msgid "Appears in : @types"
+msgstr "Появляется в : @types"
+
+#: includes/content.views.inc:374
+msgid " values,"
+msgstr " значение,"
+
+#: includes/content.views.inc:385
+msgid "Start from last values"
+msgstr "Начинается с последнего значения"
+
+#: includes/content.views.inc:381
+msgid "Starting from"
+msgstr "Начинается с"
+
+#: includes/content.node_form.inc:388
+msgid "%name field is required."
+msgstr "Поле %name обязательно для заполнения."
+
+#: includes/content.admin.inc:63,242
+msgid "Add a new field"
+msgstr "Добавить поле"
+
+#: includes/content.admin.inc:87
+msgid ""
+"To change the order of a field, grab a drag-and-drop handle under the "
+"Label column and drag the field to a new location in the list. (Grab a "
+"handle by clicking and holding the mouse while hovering over a handle "
+"icon.) Remember that your changes will not be saved until you click "
+"the Save button at the bottom of the page."
+msgstr ""
+"Чтобы изменить порядок полей, "
+"схватите иконку в колонке Заголовок  и "
+"перетащите поле в нужное место. "
+"(Схватите иконку нажав и удерживая  "
+"мышку в то время, когда она находится "
+"над иконкой.) Помните, что изменения "
+"вступят в силу только после нажатия на "
+"кнопку 'Сохранить' внизу страницы"
+
+#: includes/content.admin.inc:481
+msgid ""
+"The machine-readable name of the field. This name cannot be changed "
+"later! The name will be prefixed with 'field_' and can include "
+"lowercase unaccented letters, numbers, and underscores. You'll be able "
+"to choose a human-readable label for the field on next page."
+msgstr ""
+"Машинное имя поля. Это имя не может "
+"быть изменено позже! Имя будет "
+"предварено 'field_' и может включать "
+"символы нижнего регистра, цифры и "
+"символы '_'. Вы сможете выбрать "
+"удобочитаемое название этого поля на "
+"следующей странице."
+
+#: includes/content.admin.inc:513
+msgid ""
+"Choose the type of value to store and an input method from the list "
+"below."
+msgstr ""
+"Выберите тип значения для записи и "
+"метод ввода из списка ниже."
+
+#: includes/content.admin.inc:638,959,945,944
+msgid "There was a problem deleting %field from %type."
+msgstr "Ошибка удаления %field из %type."
+
+#: includes/content.admin.inc:756
+msgid ""
+"Advanced usage only: PHP code that returns a default value. Should not "
+"include &lt;?php ?&gt; delimiters. If this field is filled out, the "
+"value returned by this code will override any value specified above. "
+"Expected format :<pre>!sample</pre>Using !link_devel's 'devel load' "
+"tab on a %type content page might help you figure out the expected "
+"format."
+msgstr ""
+"Только для специалистов: PHP-код, "
+"выдающий значение по умолчанию. Не "
+"должен содержать  разделители &lt;?php "
+"?&gt;. Если в это поле введён код, то "
+"выдаваемое им значение заменит "
+"вышеуказанное. Предполагаемый формат: "
+"<pre>!sample</pre>Чтобы узнать предполагаемый "
+"формат, воспользуйтсесь вкладкой \"devel "
+"load\" модуля !link_devel на странице "
+"материала %type."
+
+#: includes/content.admin.inc:879,1282,1268,1267
+msgid ""
+"The default value PHP code returned an incorrect value.<br/>Expected "
+"format: <pre>!sample</pre> Returned value: @value"
+msgstr ""
+"PHP-код значения по умолчанию вернул "
+"неправильное "
+"значение.<br/>Предполагаемый формат: "
+"<pre>!sample</pre> Возвращённое значение: @value"
+
+#: includes/content.token.inc:61
+msgid "Formatted HTML link to the node"
+msgstr "HTML-форматированная ссылка на материал"
+
+#: includes/content.admin.inc:825,811,810
+msgid "Edit basic information"
+msgstr "Изменить основную информацию"
+
+#: includes/content.admin.inc:839,825,824
+msgid ""
+"A human-readable name to be used as the label for this field in the "
+"%type content type."
+msgstr ""
+"Человеческое название, используемое "
+"для обозначения этого поля в типе "
+"материала %type."
+
+#: includes/content.admin.inc:846,832,831
+msgid ""
+"The type of data you would like to store in the database with this "
+"field. This option cannot be changed."
+msgstr ""
+"Тип данных, которые будут храниться в "
+"базе данных в этом поле. Его нельзя "
+"изменить."
+
+#: includes/content.admin.inc:855,841,840
+msgid ""
+"The type of form element you would like to present to the user when "
+"creating this field in the %type content type."
+msgstr ""
+"Предпочтительная форма "
+"редактирования поля для материала "
+"типа %type."
+
+#: includes/content.admin.inc:1043,1222,1029,1208,1028,1207
+msgid "Change basic information"
+msgstr "Изменить основную информацию"
+
+#: includes/content.admin.inc:1012,998,997
+msgid "%type basic information"
+msgstr "%type - основная информация"
+
+#: includes/content.admin.inc:32,33
+msgid "manage fields"
+msgstr "управлять полями"
+
+#: includes/content.admin.inc:59,60
+msgid "» Add a new content type"
+msgstr "» Добавить новый тип материала"
+
+#: includes/content.admin.inc:1321,1307,1306
+msgid "The PHP code for 'default value' returned @value, which is invalid."
+msgstr ""
+"PHP-код для 'значения по умолчанию' "
+"вернул @value, что ошибочно."
+
+#: includes/content.rules.inc:14,15
+msgid "Populate a field"
+msgstr "Заполнить поле"
+
+#: includes/content.rules.inc:55,56
+msgid "Select the machine-name of the field."
+msgstr "Выберите машинное имя для поля."
+
+#: includes/content.admin.inc:1160,1146,1145
+msgid "Maximum number of values users can enter for this field."
+msgstr ""
+"Максимальное количество значений, "
+"которые пользователи могут ввести для "
+"этого поля."
+
+#: includes/content.admin.inc:1162,1148,1147
+msgid ""
+"'Unlimited' will provide an 'Add more' button so the users can add as "
+"many values as they like."
+msgstr ""
+"При 'Неограничено' появится кнопка "
+"'Добавить еще', что позволит "
+"пользователю добавить любое "
+"количество значений."
+
+#: includes/content.admin.inc:551,540,539
+msgid ""
+"The field %label cannot be added to a content type because it is "
+"locked."
+msgstr ""
+"Поле %label не может быть добавлено к "
+"типу контента потому, что оно "
+"заблокировано."
+
+#: includes/content.admin.inc:933,919,918
+msgid "This field is <strong>locked</strong> and cannot be removed."
+msgstr ""
+"Это поле <strong>заблокировано</strong> и не "
+"может быть удалено."
+
+#: includes/content.admin.inc:978,964,963
+msgid "The field %field is locked and cannot be edited."
+msgstr ""
+"Поле %field заблокировано не может быть "
+"отредактировано."
+
+#: includes/content.admin.inc:253,245,244
+msgid "- Select a field type -"
+msgstr "- Выберите тип поля -"
+
+#: includes/content.admin.inc:254,246,245
+msgid "- Select a widget -"
+msgstr "- Выберите элемент окна -"
+
+#: includes/content.admin.inc:272,264,263
+msgid "Field name (a-z, 0-9, _)"
+msgstr "Имя поля (a-z, 0-9, _)"
+
+#: includes/content.admin.inc:277,269,268
+msgid "Type of data to store."
+msgstr "Тип данных для хранения"
+
+#: includes/content.admin.inc:282,314,274,306,273,305
+msgid "Form element to edit the data."
+msgstr ""
+"Определите элемент для "
+"редактирования данных"
+
+#: includes/content.admin.inc:298,290,289
+msgid "- Select an existing field -"
+msgstr "- Выберите существующее поле -"
+
+#: includes/content.admin.inc:309,301,300
+msgid "Field to share"
+msgstr "Название ранее созданного поля"
+
+#: includes/content.admin.inc:349,338,337
+msgid "Group name (a-z, 0-9, _)"
+msgstr "Название группы (a-z, 0-9, _)"
+
+#: includes/content.admin.inc:398,387,386
+msgid "Add new field: you need to provide a label."
+msgstr ""
+"Добавить новое поле: вы должны "
+"предоставить метку."
+
+#: includes/content.admin.inc:403,392,391
+msgid "Add new field: you need to provide a field name."
+msgstr ""
+"Добавить новое поле: вы должны указать "
+"имя поля."
+
+#: includes/content.admin.inc:417,406,405
+msgid ""
+"Add new field: the field name %field_name is invalid. The name must "
+"include only lowercase unaccentuated letters, numbers, and "
+"underscores."
+msgstr ""
+"Добавление нового поля: имя %field_name "
+"неверно. Имя должно включать только "
+"символы нижнего регистра, цифры и "
+"символы '_'"
+
+#: includes/content.admin.inc:420,409,408
+msgid ""
+"Add new field: the field name %field_name is too long. The name is "
+"limited to 32 characters, including the 'field_' prefix."
+msgstr ""
+"Добавить новое поле: поле с именем "
+"%field_name слишком длинное. Имя "
+"ограниченно 32 символами, включая 'field_' "
+"prefix."
+
+#: includes/content.admin.inc:424,413,412
+msgid "Add new field: the name 'field_instance' is a reserved name."
+msgstr ""
+"Добавить новое поле: имя 'field_instance' "
+"зарезервировано."
+
+#: includes/content.admin.inc:436,425,424
+msgid "Add new field: the field name %field_name already exists."
+msgstr ""
+"Добавить новое поле: имя поля %field_name "
+"уже существует."
+
+#: includes/content.admin.inc:442,431,430
+msgid "Add new field: you need to select a field type."
+msgstr ""
+"Добавление нового поля: необходимо "
+"выбрать тип поля."
+
+#: includes/content.admin.inc:447,436,435
+msgid "Add new field: you need to select a widget."
+msgstr ""
+"Добавление нового поля: необходимо "
+"выбрать виджет."
+
+#: includes/content.admin.inc:453,442,441
+msgid "Add new field: invalid widget."
+msgstr "Добавить новое поле: ошибочный виджет."
+
+#: includes/content.admin.inc:474,463,462
+msgid "Add existing field: you need to provide a label."
+msgstr ""
+"Добавить существующие поля: вы должны "
+"добавить метку."
+
+#: includes/content.admin.inc:479,468,467
+msgid "Add existing field: you need to select a field."
+msgstr ""
+"Добавить существующие поля: вы должны "
+"выбрать поля."
+
+#: includes/content.admin.inc:484,473,472
+msgid "Add existing field: you need to select a widget."
+msgstr ""
+"Добавление существующего поля: "
+"необходимо выбрать виджет."
+
+#: includes/content.admin.inc:490,479,478
+msgid "Add existing field: invalid widget."
+msgstr ""
+"Добавить существующие поля: ошибка "
+"виджета."
+
+#: includes/content.admin.inc:799,785,784
+msgid "@type: @field (@label)"
+msgstr "@type: @field (@label)"
+
+#: includes/content.admin.inc:831,817,816
+msgid "The machine-readable name of the field. This name cannot be changed."
+msgstr ""
+"Машиночитаемое название поля. Это "
+"название не может быть изменено."
+
+#: includes/content.admin.inc:893,879,878
+msgid "Updated basic settings for field %label."
+msgstr ""
+"Обновлены основные настройки поля "
+"%label."
+
+#: includes/content.admin.inc:897,883,882
+msgid "There was a problem updating the basic settings for field %label."
+msgstr ""
+"Ошибка обновления базовых настроек "
+"для поля %label."
+
+#: includes/content.admin.inc:1134,1120,1119
+msgid ""
+"Advanced usage only: PHP code that returns a default value. Should not "
+"include &lt;?php ?&gt; delimiters. If this field is filled out, the "
+"value returned by this code will override any value specified above. "
+"Expected format: <pre>!sample</pre>To figure out the expected format, "
+"you can use the <em>devel load</em> tab provided by <a "
+"href=\"@link_devel\">devel module</a> on a %type content page."
+msgstr ""
+"Только для специалистов: PHP-код, "
+"выдающий значение по умолчанию. Не "
+"должен содержать  разделители &lt;?php "
+"?&gt;. Если в это поле введён код, то "
+"выдаваемое им значение заменит "
+"вышеуказанное. Предполагаемый формат: "
+"<pre>!sample</pre>Чтобы узнать предполагаемый "
+"формат, воспользуйтесь вкладкой <em>devel "
+"load</em> модуля devel <a href=\"@link_devel\"> на "
+"странице материала %type</a>."
+
+#: includes/content.rules.inc:83,84
+msgid "Advanced: Specify the fields value with PHP code"
+msgstr ""
+"Дополнительно: Укажите значение полей "
+"с помощью PHP-кода"
+
+#: includes/content.rules.inc:129,130
+msgid "You have to return the default value in the expected format."
+msgstr ""
+"Вы должны вернуть значение по "
+"умолчанию в ожидаемом формате."
+
+#: includes/content.rules.inc:209,210
+msgid "Field has value"
+msgstr "Поле имеет значение"
+
+#: includes/content.rules.inc:218,219
+msgid "Field has changed"
+msgstr "Поле изменено"
+
+#: includes/content.rules.inc:220,221
+msgid "Content containing changes"
+msgstr "Содержимое содежержит изменения"
+
+#: includes/content.rules.inc:221,222
+msgid "Content not containing changes"
+msgstr "Контент не содержит изменений"
+
+#: includes/content.rules.inc:278,279
+msgid "Select the machine-name of the field to look at."
+msgstr "Выберите машинное имя поля в поле."
+
+#: includes/content.admin.inc:76,77
+msgid "@field_name (Locked)"
+msgstr "@field_name (Заблокировано)"
+
+#: includes/content.admin.inc:111,112
+msgid ""
+"This content type has inactive fields. Inactive fields are not "
+"included in lists of available fields until their modules are enabled."
+msgstr ""
+"Это тип материала имеет неактивные "
+"поля. Они не будут активны, пока вы не "
+"активируете соответствующие модули."
+
+#: includes/content.admin.inc:113,114
+msgid ""
+"!field (!field_name) is an inactive !field_type field that uses a "
+"!widget_type widget."
+msgstr ""
+"!field (!field_name) неактивное !field_type "
+"используется в !widget_type виджете."
+
+#: includes/content.rules.inc:22,223,23,224
+msgid ""
+"You should make sure that the used field exists in the given content "
+"type."
+msgstr ""
+"Вы должны убедиться, что используемый "
+"поле существует в данном типе "
+"содержимого."
+
+#: includes/content.rules.inc:101,102
+msgid ""
+"Advanced usage only: PHP code that returns the value to set. Should "
+"not include &lt;?php ?&gt; delimiters. If this field is filled out, "
+"the value returned by this code will override any value specified "
+"above. Expected format: <pre>!sample</pre>Using <a "
+"href=\"@link_devel\">devel.module's</a> 'devel load' tab on a content "
+"page might help you figure out the expected format."
+msgstr ""
+
+#: includes/content.rules.inc:214,215
+msgid ""
+"You should make sure that the used field exists in the given content "
+"type. The condition returns TRUE, if the selected field has the given "
+"value."
+msgstr ""
+"Убедитесь, что используемое поле "
+"существует в выбраном типе "
+"содержимого. Выражение возвращает TRUE, "
+"если полю назначено указанное "
+"значение."
+
+#: includes/content.admin.inc:369,358,357
+msgid "Type of group."
+msgstr "Тип группы"
+
+#: includes/content.admin.inc:603,592,591
+msgid ""
+"There are no fields configured for this content type. You can add new "
+"fields on the <a href=\"@link\">Manage fields</a> page."
+msgstr ""
+"Поля, настроенные для материала этого "
+"типа, отсутствуют. Вы можете добавить "
+"новые поля на странице <a "
+"href=\"@link\">Управление полями</a>."
+
+#: includes/content.rules.inc:192,193
+msgid "Populate @node's field '@field'"
+msgstr "Заполнить поле '@field' материала @node"
+
+#: includes/content.rules.inc:258,259
+msgid "@node's field '@field' has value"
+msgstr "поле @node имеет значение '@field'"
+
+#: includes/content.rules.inc:284,285
+msgid "@node's field '@field' has been changed"
+msgstr "поле @node было изменено '@field'"
+
+#: includes/content.admin.inc:1934,1891,1890
+msgid "%name must be an integer."
+msgstr "%name должен быть целым числом."
+
+#: includes/content.admin.inc:1944,1901,1900
+msgid "%name must be a positive integer."
+msgstr ""
+"%name должен быть положительным целым "
+"числом."
+
+#: includes/content.admin.inc:1954,1911,1910
+msgid "%name must be a number."
+msgstr "%name должен быть числом."
+

@@ -1,0 +1,951 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html class="js" xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>Набор кнопок для редактора BUEditor со смайлами</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="shortcut icon" href="http://ann.sabonim.ru/sites/all/themes/grid_inspired/favicon.ico" type="image/x-icon">
+  <link type="text/css" rel="stylesheet" media="all" href="nabor_knopok_dlya_redaktora_bueditor_so_smailami_files/codefilter.css">
+<link type="text/css" rel="stylesheet" media="all" href="nabor_knopok_dlya_redaktora_bueditor_so_smailami_files/css_633ff42a4b05d0666dff1b533adc1276.css">
+ <script src="nabor_knopok_dlya_redaktora_bueditor_so_smailami_files/cnt.js" type="text/javascript" async=""></script><script type="text/javascript" src="nabor_knopok_dlya_redaktora_bueditor_so_smailami_files/js_da39f52ea030bf9d007257d08df264e5.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, { "basePath": "/", "BUE": { "templates": { "e1": { "iconpath": "/sites/all/modules/bueditor/icons", "buttons": [ [ "Вставить изображение", "js:\nvar form = [\n {name: \'src\', title: \'URL изображения\'},\n {name: \'width\', title: \'Ширина x Высота\', suffix: \' x \', getnext: true, attributes: {size: 3}},\n {name: \'height\', attributes: {size: 3}},\n {name: \'alt\', title: \'Альтернативный текст\'}\n];\neDefTagDialog(\'img\', form, \'Вставить/Редактировать изображение\', \'Вставить\');", "image.png", "M" ], [ "Вставить ссылку", "js:\nvar form = [\n {name: \'href\', title: \'URL\'},\n {name: \'html\', title: \'Название ссылки\'},\n {name: \'title\', title: \'Title\'}\n];\neDefTagDialog(\'a\', form, \'Вставить/редактировать ссылку\', \'Вставить\');", "link.png", "L" ], [ "Жирный", "\x3cb\x3e%TEXT%\x3c/b\x3e", "i-bold.png", "B" ], [ "Курсив", "\x3cem\x3e%TEXT%\x3c/em\x3e", "i-italic.gif", "I" ], [ "Подчёркнутый", "\x3cu\x3e%TEXT%\x3c/u\x3e", "underline.gif", "" ], [ "Зачёркнутый", "\x3cstrike\x3e%TEXT%\x3c/strike\x3e\n", "strike.gif", "" ], [ "Цитата", "js: \n txt=\'\'\n if (window.getSelection\x26\x26!window.opera) txt = window.getSelection() \n else if (document.getSelection) txt=document.getSelection()\n else if (document.selection) txt=document.selection.createRange().text\nif (txt != \'\') {\n txt=\'[quote]\'+txt+\'[/quote]\'\n BUE.active.replaceSelection(txt)\n} else {\n BUE.active.tagSelection(\'[quote]\', \'[/quote]\')\n}", "quote.png", "" ], [ "Не нумерованный список", "js: eDefTagLines(\'\x3cul\x3e\\n\', \' \x3cli\x3e\', \'\x3c/li\x3e\', \'\\n\x3c/ul\x3e\');", "i-ul.png", "U" ], [ "Пронумерованный список", "js: eDefTagLines(\'\x3col\x3e\\n\', \' \x3cli\x3e\', \'\x3c/li\x3e\', \'\\n\x3c/ol\x3e\');", "i-ol.png", "O" ], [ "Фрагмент кода", "\x3ccode\x3e%TEXT%\x3c/code\x3e", "code.png", "" ], [ "Смайлики", "js:\n getSmile=function(txt) {\n  BUE.active.replaceSelection(txt,\'end\');\n  BUE.dialog.close();\n}\nvar userForm = \'\x3ctable\x3e\x3ctr\x3e\';\nuserForm += \'\x3ctd\x3e\x3ca href=\"javascript: getSmile(\\\':smile:\\\');\"\x3e\x3cimg src=\"/sites/all/modules/bueditor/icons/smiles/smile.gif\" alt=\"smile\" /\x3e\x3c/a\x3e\x3c/td\x3e\';\nuserForm += \'\x3ctd\x3e\x3ca href=\"javascript: getSmile(\\\':wink:\\\');\"\x3e\x3cimg src=\"/sites/all/modules/bueditor/icons/smiles/wink.gif\" alt=\"wink\" /\x3e\x3c/a\x3e\x3c/td\x3e\';\nuserForm += \'\x3ctd\x3e\x3ca href=\"javascript: getSmile(\\\':sad:\\\');\"\x3e\x3cimg src=\"/sites/all/modules/bueditor/icons/smiles/sad.gif\" alt=\"sad\" /\x3e\x3c/a\x3e\x3c/td\x3e\';\nuserForm += \'\x3ctd\x3e\x3ca href=\"javascript: getSmile(\\\':sigh:\\\');\"\x3e\x3cimg src=\"/sites/all/modules/bueditor/icons/smiles/sigh.gif\" alt=\"sigh\" /\x3e\x3c/a\x3e\x3c/td\x3e\';\nuserForm += \'\x3c/tr\x3e\x3ctr\x3e\';\n\nuserForm += \'\x3ctd\x3e\x3ca href=\"javascript: getSmile(\\\':angel:\\\');\"\x3e\x3cimg src=\"/sites/all/modules/bueditor/icons/smiles/angel.gif\" alt=\"angel\" /\x3e\x3c/a\x3e\x3c/td\x3e\';\nuserForm += \'\x3ctd\x3e\x3ca href=\"javascript: getSmile(\\\':diablo:\\\');\"\x3e\x3cimg src=\"/sites/all/modules/bueditor/icons/smiles/diablo.gif\" alt=\"diablo\" /\x3e\x3c/a\x3e\x3c/td\x3e\';\nuserForm += \'\x3ctd\x3e\x3ca href=\"javascript: getSmile(\\\':hmhm:\\\');\"\x3e\x3cimg src=\"/sites/all/modules/bueditor/icons/smiles/hmhm.gif\" alt=\"hmhm\" /\x3e\x3c/a\x3e\x3c/td\x3e\';\nuserForm += \'\x3ctd\x3e\x3ca href=\"javascript: getSmile(\\\':embarassed:\\\');\"\x3e\x3cimg src=\"/sites/all/modules/bueditor/icons/smiles/embarassed.gif\" alt=\"embarassed\" /\x3e\x3c/a\x3e\x3c/td\x3e\';\nuserForm += \'\x3c/tr\x3e\x3ctr\x3e\';\n\nuserForm += \'\x3ctd\x3e\x3ca href=\"javascript: getSmile(\\\':rose:\\\');\"\x3e\x3cimg src=\"/sites/all/modules/bueditor/icons/smiles/rose.gif\" alt=\"rose\" /\x3e\x3c/a\x3e\x3c/td\x3e\';\nuserForm += \'\x3ctd\x3e\x3ca href=\"javascript: getSmile(\\\':laughing:\\\');\"\x3e\x3cimg src=\"/sites/all/modules/bueditor/icons/smiles/laughing.gif\" alt=\"laughing\" /\x3e\x3c/a\x3e\x3c/td\x3e\';\nuserForm += \'\x3ctd\x3e\x3ca href=\"javascript: getSmile(\\\':zzz:\\\');\"\x3e\x3cimg src=\"/sites/all/modules/bueditor/icons/smiles/zzz.gif\" alt=\"zzz\" /\x3e\x3c/a\x3e\x3c/td\x3e\';\nuserForm += \'\x3ctd\x3e\x3ca href=\"javascript: getSmile(\\\':music:\\\');\"\x3e\x3cimg src=\"/sites/all/modules/bueditor/icons/smiles/music.gif\" alt=\"music\" /\x3e\x3c/a\x3e\x3c/td\x3e\';\nuserForm += \'\x3c/tr\x3e\x3ctr\x3e\';\n\nuserForm += \'\x3ctd\x3e\x3ca href=\"javascript: getSmile(\\\':rtfm:\\\');\"\x3e\x3cimg src=\"/sites/all/modules/bueditor/icons/smiles/rtfm.gif\" alt=\"rtfm\" /\x3e\x3c/a\x3e\x3c/td\x3e\';\nuserForm += \'\x3ctd\x3e\x3ca href=\"javascript: getSmile(\\\':bl:\\\');\"\x3e\x3cimg src=\"/sites/all/modules/bueditor/icons/smiles/bl.gif\" alt=\"bl\" /\x3e\x3c/a\x3e\x3c/td\x3e\';\nuserForm += \'\x3ctd\x3e\x3ca href=\"javascript: getSmile(\\\':shok:\\\');\"\x3e\x3cimg src=\"/sites/all/modules/bueditor/icons/smiles/shok.gif\" alt=\"shok\" /\x3e\x3c/a\x3e\x3c/td\x3e\';\nuserForm += \'\x3ctd\x3e\x3ca href=\"javascript: getSmile(\\\':tongue:\\\');\"\x3e\x3cimg src=\"/sites/all/modules/bueditor/icons/smiles/tongue.gif\" alt=\"tongue\" /\x3e\x3c/a\x3e\x3c/td\x3e\';\nuserForm += \'\x3c/tr\x3e\x3ctr\x3e\';\n\nuserForm += \'\x3ctd\x3e\x3ca href=\"javascript: getSmile(\\\':puzzled:\\\');\"\x3e\x3cimg src=\"/sites/all/modules/bueditor/icons/smiles/puzzled.gif\" alt=\"puzzled\" /\x3e\x3c/a\x3e\x3c/td\x3e\';\nuserForm += \'\x3ctd\x3e\x3ca href=\"javascript: getSmile(\\\':think:\\\');\"\x3e\x3cimg src=\"/sites/all/modules/bueditor/icons/smiles/think.gif\" alt=\"think\" /\x3e\x3c/a\x3e\x3c/td\x3e\';\nuserForm += \'\x3ctd\x3e\x3ca href=\"javascript: getSmile(\\\':back:\\\');\"\x3e\x3cimg src=\"/sites/all/modules/bueditor/icons/smiles/back.gif\" alt=\"back\" /\x3e\x3c/a\x3e\x3c/td\x3e\';\nuserForm += \'\x3ctd\x3e\x3ca href=\"javascript: getSmile(\\\':calm:\\\');\"\x3e\x3cimg src=\"/sites/all/modules/bueditor/icons/smiles/calm.gif\" alt=\"calm\" /\x3e\x3c/a\x3e\x3c/td\x3e\';\nuserForm += \'\x3c/tr\x3e\x3c/table\x3e\';\nBUE.dialog.open(\'Смайлики\', userForm);\n", "emotions.gif", "" ], [ "Предпросмотр", "js: eDefPreview();", "preview.png", "P" ], [ "Справка", "js: eDefHelp();", "help.png", "H" ] ] } }, "preset": { "edit-comment": "e1" } }, "quicktabs": { "qt_1": { "qtid": "1", "title": "Разделы и Тэги", "tabs": [ { "bid": "block_delta_5", "hide_title": 1, "title": "Разделы", "weight": "-10", "type": "block" }, { "bid": "tagadelic_delta_2", "hide_title": 1, "title": "Теги", "weight": "-9", "type": "block" } ], "ajax": "0", "style": "Phylactere" } } });
+//--><!]]>
+</script>
+</head>
+<body class="not-front not-logged-in page-node node-type-story one-sidebar sidebar-right tableHeader-processed"><div style="position: absolute; visibility: hidden; width: 264px; height: 150px; background-color: transparent; background-image: url(&quot;http://odnaknopka.ru/images/panel.png&quot;); border: 0px none; margin: 0px; padding: 0px 1px 4px; overflow: hidden; z-index: 1000; font: 12px/20px arial; color: rgb(102, 102, 102);" id="odnaknopka"><a href="http://odnaknopka.ru/" onclick="window.open('http://odnaknopka.ru/add/?url='+encodeURIComponent(location.href)+'&amp;title='+encodeURIComponent(document.title),'odnaknopka','scrollbars=yes,menubar=no,width=600,height=500,left=204.5,top=642.5,resizable=yes,toolbar=no,location=no,status=no');return false;" style="display:block;float:left;width:258px;height:20px;overflow:hidden;margin:1px 0;padding:0;background-color:transparent;font:bold 11px arial;color:#666;text-decoration:none"></a><a href="http://vkontakte.ru/share.php?url=http%3A%2F%2Fann.sabonim.ru%2Fblog%2Fnabor_knopok_dlya_redaktora_bueditor_so_smailami" style="display:block;float:left;width:108px;height:16px;overflow:hidden;margin:1px 0;padding:0 0 0 24px;background-color:transparent;background:url(http://odnaknopka.ru/images/panel.png) no-repeat -266px 0px;font:normal 12px arial;color:#666;text-decoration:none;text-align:left" onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration='none'" onclick="return odnaknopka2.go(1);">В Контакте</a><a href="http://www.facebook.com/sharer.php?u=http%3A%2F%2Fann.sabonim.ru%2Fblog%2Fnabor_knopok_dlya_redaktora_bueditor_so_smailami" style="display:block;float:left;width:108px;height:16px;overflow:hidden;margin:1px 0;padding:0 0 0 24px;background-color:transparent;background:url(http://odnaknopka.ru/images/panel.png) no-repeat -266px -16px;font:normal 12px arial;color:#666;text-decoration:none;text-align:left" onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration='none'" onclick="return odnaknopka2.go(2);">Facebook</a><a href="http://twitter.com/share?text=%D0%9D%D0%B0%D0%B1%D0%BE%D1%80%20%D0%BA%D0%BD%D0%BE%D0%BF%D0%BE%D0%BA%20%D0%B4%D0%BB%D1%8F%20%D1%80%D0%B5%D0%B4%D0%B0%D0%BA%D1%82%D0%BE%D1%80%D0%B0%20BUEditor%20%D1%81%D0%BE%20%D1%81%D0%BC%D0%B0%D0%B9%D0%BB%D0%B0%D0%BC%D0%B8&amp;url=http%3A%2F%2Fann.sabonim.ru%2Fblog%2Fnabor_knopok_dlya_redaktora_bueditor_so_smailami" style="display:block;float:left;width:108px;height:16px;overflow:hidden;margin:1px 0;padding:0 0 0 24px;background-color:transparent;background:url(http://odnaknopka.ru/images/panel.png) no-repeat -266px -32px;font:normal 12px arial;color:#666;text-decoration:none;text-align:left" onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration='none'" onclick="return odnaknopka2.go(3);">Twitter</a><a href="http://www.odnoklassniki.ru/dk?st.cmd=addShare&amp;st.s=1&amp;st._surl=http%3A%2F%2Fann.sabonim.ru%2Fblog%2Fnabor_knopok_dlya_redaktora_bueditor_so_smailami" style="display:block;float:left;width:108px;height:16px;overflow:hidden;margin:1px 0;padding:0 0 0 24px;background-color:transparent;background:url(http://odnaknopka.ru/images/panel.png) no-repeat -266px -48px;font:normal 12px arial;color:#666;text-decoration:none;text-align:left" onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration='none'" onclick="return odnaknopka2.go(4);">Одноклассники</a><a href="http://connect.mail.ru/share?share_url=http%3A%2F%2Fann.sabonim.ru%2Fblog%2Fnabor_knopok_dlya_redaktora_bueditor_so_smailami" style="display:block;float:left;width:108px;height:16px;overflow:hidden;margin:1px 0;padding:0 0 0 24px;background-color:transparent;background:url(http://odnaknopka.ru/images/panel.png) no-repeat -266px -64px;font:normal 12px arial;color:#666;text-decoration:none;text-align:left" onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration='none'" onclick="return odnaknopka2.go(5);">Мой Мир</a><a href="http://www.livejournal.com/update.bml?event=http%3A%2F%2Fann.sabonim.ru%2Fblog%2Fnabor_knopok_dlya_redaktora_bueditor_so_smailami&amp;subject=%D0%9D%D0%B0%D0%B1%D0%BE%D1%80%20%D0%BA%D0%BD%D0%BE%D0%BF%D0%BE%D0%BA%20%D0%B4%D0%BB%D1%8F%20%D1%80%D0%B5%D0%B4%D0%B0%D0%BA%D1%82%D0%BE%D1%80%D0%B0%20BUEditor%20%D1%81%D0%BE%20%D1%81%D0%BC%D0%B0%D0%B9%D0%BB%D0%B0%D0%BC%D0%B8" style="display:block;float:left;width:108px;height:16px;overflow:hidden;margin:1px 0;padding:0 0 0 24px;background-color:transparent;background:url(http://odnaknopka.ru/images/panel.png) no-repeat -266px -80px;font:normal 12px arial;color:#666;text-decoration:none;text-align:left" onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration='none'" onclick="return odnaknopka2.go(6);">LiveJournal</a><a href="http://memori.ru/link/?sm=1&amp;u_data[url]=http%3A%2F%2Fann.sabonim.ru%2Fblog%2Fnabor_knopok_dlya_redaktora_bueditor_so_smailami&amp;u_data[name]=%D0%9D%D0%B0%D0%B1%D0%BE%D1%80%20%D0%BA%D0%BD%D0%BE%D0%BF%D0%BE%D0%BA%20%D0%B4%D0%BB%D1%8F%20%D1%80%D0%B5%D0%B4%D0%B0%D0%BA%D1%82%D0%BE%D1%80%D0%B0%20BUEditor%20%D1%81%D0%BE%20%D1%81%D0%BC%D0%B0%D0%B9%D0%BB%D0%B0%D0%BC%D0%B8" style="display:block;float:left;width:108px;height:16px;overflow:hidden;margin:1px 0;padding:0 0 0 24px;background-color:transparent;background:url(http://odnaknopka.ru/images/panel.png) no-repeat -266px -96px;font:normal 12px arial;color:#666;text-decoration:none;text-align:left" onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration='none'" onclick="return odnaknopka2.go(7);">Memori</a><a href="http://bobrdobr.ru/addext.html?url=http%3A%2F%2Fann.sabonim.ru%2Fblog%2Fnabor_knopok_dlya_redaktora_bueditor_so_smailami&amp;title=%D0%9D%D0%B0%D0%B1%D0%BE%D1%80%20%D0%BA%D0%BD%D0%BE%D0%BF%D0%BE%D0%BA%20%D0%B4%D0%BB%D1%8F%20%D1%80%D0%B5%D0%B4%D0%B0%D0%BA%D1%82%D0%BE%D1%80%D0%B0%20BUEditor%20%D1%81%D0%BE%20%D1%81%D0%BC%D0%B0%D0%B9%D0%BB%D0%B0%D0%BC%D0%B8" style="display:block;float:left;width:108px;height:16px;overflow:hidden;margin:1px 0;padding:0 0 0 24px;background-color:transparent;background:url(http://odnaknopka.ru/images/panel.png) no-repeat -266px -112px;font:normal 12px arial;color:#666;text-decoration:none;text-align:left" onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration='none'" onclick="return odnaknopka2.go(8);">БобрДобр</a><a href="http://www.google.com/bookmarks/mark?op=add&amp;bkmk=http%3A%2F%2Fann.sabonim.ru%2Fblog%2Fnabor_knopok_dlya_redaktora_bueditor_so_smailami&amp;title=%D0%9D%D0%B0%D0%B1%D0%BE%D1%80%20%D0%BA%D0%BD%D0%BE%D0%BF%D0%BE%D0%BA%20%D0%B4%D0%BB%D1%8F%20%D1%80%D0%B5%D0%B4%D0%B0%D0%BA%D1%82%D0%BE%D1%80%D0%B0%20BUEditor%20%D1%81%D0%BE%20%D1%81%D0%BC%D0%B0%D0%B9%D0%BB%D0%B0%D0%BC%D0%B8" style="display:block;float:left;width:108px;height:16px;overflow:hidden;margin:1px 0;padding:0 0 0 24px;background-color:transparent;background:url(http://odnaknopka.ru/images/panel.png) no-repeat -266px -128px;font:normal 12px arial;color:#666;text-decoration:none;text-align:left" onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration='none'" onclick="return odnaknopka2.go(9);">Закладки Google</a><a href="http://zakladki.yandex.ru/newlink.xml?url=http%3A%2F%2Fann.sabonim.ru%2Fblog%2Fnabor_knopok_dlya_redaktora_bueditor_so_smailami&amp;name=%D0%9D%D0%B0%D0%B1%D0%BE%D1%80%20%D0%BA%D0%BD%D0%BE%D0%BF%D0%BE%D0%BA%20%D0%B4%D0%BB%D1%8F%20%D1%80%D0%B5%D0%B4%D0%B0%D0%BA%D1%82%D0%BE%D1%80%D0%B0%20BUEditor%20%D1%81%D0%BE%20%D1%81%D0%BC%D0%B0%D0%B9%D0%BB%D0%B0%D0%BC%D0%B8" style="display:block;float:left;width:108px;height:16px;overflow:hidden;margin:1px 0;padding:0 0 0 24px;background-color:transparent;background:url(http://odnaknopka.ru/images/panel.png) no-repeat -266px -144px;font:normal 12px arial;color:#666;text-decoration:none;text-align:left" onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration='none'" onclick="return odnaknopka2.go(10);">Яндекс.Закладки</a><a href="http://surfingbird.ru/share?url=http%3A%2F%2Fann.sabonim.ru%2Fblog%2Fnabor_knopok_dlya_redaktora_bueditor_so_smailami" style="display:block;float:left;width:108px;height:16px;overflow:hidden;margin:1px 0;padding:0 0 0 24px;background-color:transparent;background:url(http://odnaknopka.ru/images/panel.png) no-repeat -266px -160px;font:normal 12px arial;color:#666;text-decoration:none;text-align:left" onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration='none'" onclick="return odnaknopka2.go(11);">Surfingbird</a><a href="http://text20.ru/add/?title=%D0%9D%D0%B0%D0%B1%D0%BE%D1%80%20%D0%BA%D0%BD%D0%BE%D0%BF%D0%BE%D0%BA%20%D0%B4%D0%BB%D1%8F%20%D1%80%D0%B5%D0%B4%D0%B0%D0%BA%D1%82%D0%BE%D1%80%D0%B0%20BUEditor%20%D1%81%D0%BE%20%D1%81%D0%BC%D0%B0%D0%B9%D0%BB%D0%B0%D0%BC%D0%B8&amp;source=http%3A%2F%2Fann.sabonim.ru%2Fblog%2Fnabor_knopok_dlya_redaktora_bueditor_so_smailami&amp;text=%D0%9D%D0%B0%D0%B1%D0%BE%D1%80%20%D0%BA%D0%BD%D0%BE%D0%BF%D0%BE%D0%BA%20%D0%B4%D0%BB%D1%8F%20%D1%80%D0%B5%D0%B4%D0%B0%D0%BA%D1%82%D0%BE%D1%80%D0%B0%20BUEditor%20%D1%81%D0%BE%20%D1%81%D0%BC%D0%B0%D0%B9%D0%BB%D0%B0%D0%BC%D0%B8" style="display:block;float:left;width:108px;height:16px;overflow:hidden;margin:1px 0;padding:0 0 0 24px;background-color:transparent;background:url(http://odnaknopka.ru/images/panel.png) no-repeat -266px -176px;font:normal 12px arial;color:#666;text-decoration:none;text-align:left" onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration='none'" onclick="return odnaknopka2.go(12);">Текст 2.0</a><a href="http://odnaknopka.ru/" style="display:block;float:left;width:258px;height:16px;overflow:hidden;margin:1px 0;padding:0;background-color:transparent;font:bold 11px arial;color:#666;text-decoration:none;text-align:right">©&nbsp;ОднаКнопка.ру</a></div>
+  <div id="page">
+    <div id="header">
+      <div id="masthead">
+                  <a href="http://ann.sabonim.ru/" title="Главная">
+            <img src="nabor_knopok_dlya_redaktora_bueditor_so_smailami_files/grid_inspired_logo.gif" alt="Главная" id="logo">
+          </a>
+                <div id="name-and-slogan">
+                  <div id="site-name">
+           Оставляя след в сети...          </div>
+        		          <div id="site-slogan">
+            ... я делюсь опытом с вами          </div>
+                </div> <!-- /name-and-slogan --><br>
+      </div> <!-- /masthead -->
+      <div id="navigation" class="menu withprimary ">
+          <form action="/blog/nabor_knopok_dlya_redaktora_bueditor_so_smailami" accept-charset="UTF-8" method="post" id="search-theme-form">
+<div><div id="search" class="container-inline">
+  <div class="form-item" id="edit-search-theme-form-1-wrapper">
+ <input maxlength="128" name="search_theme_form" id="edit-search-theme-form-1" size="15" title="Введите слова, которые вы хотите искать." class="form-text" type="text">
+</div>
+<input name="op" id="edit-submit-1" class="form-submit butsearch" src="nabor_knopok_dlya_redaktora_bueditor_so_smailami_files/btn_search.gif" type="image">
+<input name="form_build_id" id="form-f650a814ca429db8966ab5ace26a805a" value="form-f650a814ca429db8966ab5ace26a805a" type="hidden">
+<input name="form_id" id="edit-search-theme-form" value="search_theme_form" type="hidden">
+</div>
+
+</div></form>
+                      <div id="primary" class="clear-block">
+              <ul class="links"><li class="menu-86 first"><a href="http://ann.sabonim.ru/ob_avtore" title="Introduction">Об авторе</a></li>
+<li class="menu-96"><a href="http://ann.sabonim.ru/sama_polzuyus_i_vam_sovetuyu" title="То, чем я пользуюсь на просторах сети">Полезняшки</a></li>
+<li class="menu-93"><a href="http://ann.sabonim.ru/sitemap" title="Все что есть на сайте с возможностью подписаться на RSS.">Карта</a></li>
+<li class="menu-115"><a href="http://mippin.com/annsabonim" title="Нажмите на эту ссылку если вы хотите просмотреть материалы на мобильном телефоне">Моб. версия</a></li>
+<li class="menu-6"><a href="http://ann.sabonim.ru/search">Поиск</a></li>
+<li class="menu-3 last"><a href="http://ann.sabonim.ru/contact" title="Если вам нужно написать лично мне, введите все поля формы обратной связи">Контакты</a></li>
+</ul>            </div>
+                          </div> <!-- /navigation -->
+    </div> <!-- /header -->
+    <div id="container" class="clear-block">
+      <div id="main" class="column"><div id="squeeze">
+        <div class="breadcrumb"><a href="http://ann.sabonim.ru/">Главная</a></div>        <div id="content-top"><div class="block block-block" id="block-block-17">
+  <div class="blockinner">
+
+    
+    <div class="content">
+      <!--LiveInternet counter--><script type="text/javascript">document.write("<img src='http://counter.yadro.ru/hit?r" + escape(document.referrer) + ((typeof(screen)=="undefined")?"":";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?screen.colorDepth:screen.pixelDepth)) + ";u" + escape(document.URL) +";i" + escape("Жж"+document.title.substring(0,80)) + ";" + Math.random() + "' width=1 height=1 alt=''>")</script><img src="nabor_knopok_dlya_redaktora_bueditor_so_smailami_files/hit.gif" alt="" height="1" width="1"><!--/LiveInternet-->    </div>
+    
+  </div>
+</div>
+</div>        <h1 class="title">Набор кнопок для редактора BUEditor со смайлами</h1>                                <div class="node" id="node-475">
+   <div class="submitted"><span class="date">12 июн 2008</span></div>      <div class="content"> 
+<p> По <a href="http://ann.sabonim.ru/blog/kak_ya_patchila_modul_commentrss#comment-29" title="Ссылка на комментарий с просьбой">просьбе</a>
+ читателя моего блога Олега я претворяю в жизнь свой давнишний план 
+поделиться набором кнопок для редактора BUEditor с данного блога. В нем 
+есть кнопка со смайлами, которые <a href="http://e-lu.demiart.ru/emoticons/emotions.html" title="Прикольные смайлы">я находила сама</a>, поэтому процесс немного осложнен, но и его можно осилить.</p>
+<p>Хочу заметить, что способ вставлять смайлики кнопкой редактора не я придумала, поэтому не забудем указать <a href="http://www.drupal.ru/node/11095#comment-68294" title="Кнопки со смайлами в BUEditor">ссылку на источник</a>, который я редактировала под себя. У этого набора почти все кнопки сделаны с учетом того, что стоит модуль <a href="http://drupal.org/project/bbcode" title="Страница проекта модуля bbcode">BBcode</a>. Так как у меня его нет, мой набор работает и без этого модуля.</p>
+<p>Итак, <b><u>последовательность действий для Drupal 5.*</u></b> <small>(для Drupal6 не делала, поэтому не скажу, работает ли)</small>:</p>
+<ol>
+<li>Скачать и включить 2 модуля: <a href="http://drupal.org/project/bueditor" title="Страница проекта модуля bueditor">bueditor</a> и <a href="http://drupal.org/project/smileys" title="Страница проекта модуля smileys">smileys</a> (<em>Smileys Import</em> тоже включить).</li>
+<li>Скачать файл в приложении к этой записи.</li>
+<li>Распаковать Zip-архив. Вы увидите две папки: <u>Smileys и BUEditor</u>.</li>
+<li>В первой папке (<b>Smileys</b>) скопируйте папку <b>my</b> в директорию для наборов смайлов модуля <em>smyleys</em>: <em>/sites/all/modules/smyleys/packs/</em>.</li>
+<li>
+<ul>
+<li>Зайдите в <span class="drupal-path">Админка → Настройки → Смайлы</span> и выберите вкладку <span class="drupal-button">Импорт</span>, вы должны увидеть новый набор <em>my</em> и рядом ссылку <em>"установить"</em>. </li>
+<li>После того, как вы нажмете ее, нужно будет удалить <em>example</em> 
+набор, при этом он никуда не денется, смайлики будут по-прежнему в папке
+ packs, просто на сайте они не будут использоваться. Так что не бойтесь 
+их удалять, вы всегда сможете вернуть все на место на этой же вкладке <span class="drupal-button">Импорт</span>. </li>
+<li>Далее идите на вкладку <span class="drupal-button">Настройки</span> и уберите там везде флажки (по умолчанию их и нет). У нас будут смайлы только в <em>bueditor</em>, другие места не нужны.</li>
+</ul>
+</li>
+<li>Потом фильтр смайлов нужно включить. Это делается на странице настроек форматов ввода <em>/admin/settings/filters</em>. Выберите формат и нажмите изменить. Отметьте фильтр смайлов флажком.</li>
+<li>Во второй папке (<b>BUEditor</b>) лежат 2 файла и набор иконок. <u>СНАЧАЛА</u> скопируйте папку <em>icons</em> (в ней есть уже папка со смайлами) в директорию модуля <em>bueditor</em>. Она должна быть обязательно такой: <em>/sites/all/modules/bueditor/</em>, иначе не будет работать. Если вы не хотите отказываться от своих иконок для <em>bueditor</em>, или используете старые для чего-то еще, то просто содержимое моей папки <em>icons</em> поместите в <em>icons</em> из модуля. Названия тех иконок, которые в <em>bueditor</em>
+ есть по умолчанию, остались такими же и в моей поставке, а остальные 
+изменены, поэтому если вам скажет компьютер, что файлы с таким именем 
+уже существуют, то не обращайте внимание и выберите либо пропустить, 
+либо заменить. Ничего не потеряется.</li>
+<li>Далее нужно создать новый редактор. Пройдите <span class="drupal-path">Админка → Настройка → BUEditor</span> и создайте новый набор.</li>
+<li>Импортируйте из скаченной папки BUEditor тот набор, который вы хотите, и нажмите <span class="drupal-button">Сохранить</span>. Full означает полный набор кнопок, который выглядит так:<br>
+<div class="drupal-image">
+<img src="nabor_knopok_dlya_redaktora_bueditor_so_smailami_files/bueditor_full.png" alt="Скриншот полного набора кнопок для редактора Bueditor" align="middle">
+</div>
+<p>а Light - набор, которым могут пользоваться посетители моего сайта, 
+отправляя комментарий (можно посмотреть вживую в низу страницы)</p></li>
+<li>В Full версии есть кнопки выравнивания текста по левому, правому 
+краю, по центру и растяжения по ширине, и, чтобы они работали, нужно 
+добавить в CSS файл вашей темы такие стили:<br>
+<div class="codeblock"><code>.editor-right-button{text-align:right;}<br>.editor-left-button{text-align:left;}<br>.editor-center-button{text-align:center;}<br>.editor-justify-button{text-align:justify;}</code></div>
+</li>
+<li>Не забудьте дописать допустимые теги для ваших форматов ввода <span class="drupal-path">Админка → Настройка → Форматы ввода</span> на вкладке <span class="drupal-button">Настроить</span>,
+ ведь их наличие в редакторе не означает, что они отобразятся в вашей 
+записи. Например, для выравнивания текста нужно разрешить тег <code>&lt;div&gt;</code> (Если в формате не включен <em>Фильтр HTML</em>, то все теги позволяются).</li>
+<li>Еще раз повторюсь, что кнопки сделаны на основе предложенных <a href="http://www.drupal.ru/user/cwer" title="Профайл CWER на Drupal.ru">cwer</a>, поэтому кнопка цитирования (которая кстати работает только с модулем <a href="http://drupal.org/project/quote" title="Страница проекта модуля quote">QUOTE</a> → не забудьте включить его фильтр в форматах ввода) с картинкой не работает в <b>Opera</b>
+ и если вы хотите сделать ее работоспособной в этом браузере, то в 
+настройках вашего набора кнопок уберите в выпадающем списке у этой 
+кнопки картинку и впишите в текстовое поле под этим списком любое слово,
+ которым хотите обозначить эту кнопку.
+<p>Эта замечательная кнопка оборачивает в теги <code>[</code>quote<code>]</code> любой выделенный на странице текст.</p></li>
+</ol>
+<p><b><em>Примечание:</em></b> Помните, что здесь у кнопки <b>"Вставить изображение"</b> нет возможности загрузки. Только поставив модуль <a href="http://drupal.org/project/imce" title="Страница проекта модуля IMCE">IMCE</a>, можно включить загрузку картинок при нажатии на <span class="drupal-button">Обзор...</span>. Для того, чтобы работало с моим набором, отредактируйте содержимое этой кнопки, опираясь на <a href="http://www.drupal.ru/node/9524#comment-59775" title="Код кнопки загрузить изображение в Bueditor">этот код</a>.</p>
+<p>После того, как я проделала описанные мной выше операции, я <small>(во-первых, ощутила кайф: как здорово делать по инструкции - не боишься ничего забыть и все получается)</small>
+ наткнулась на то обстоятельство, что модуль позволяет только 20 кнопок в
+ ряд, что делает набор full не эстетичным. От проблемы можно уйти, 
+закомментировав 105 строчку файла bueditor.js в папке bueditor. А если 
+вам нужно поставить перенос строки в другом месте, то <a href="http://drupal.org/node/227885#comment-879278">этот код</a> поможет решить эту проблему.</p>
+<p>Вот так выглядит процесс установки редактора Bueditor для моего 
+сайта. Если для вас оказались лишними какие-то кнопки из наборов, 
+удаляйте их и помните - чем больше неопытному пользователю дать кнопок, 
+тем быстрее он в них запутается. <img src="nabor_knopok_dlya_redaktora_bueditor_so_smailami_files/wink.gif" title="Подмигивающий" alt="Подмигивающий" class="smiley-content"> </p>
+<table style="position: fixed; top: 0px; width: 403px; left: 27px; visibility: hidden;" class="sticky-header"><thead><tr><th style="width: 322px;">Прикрепленный файл</th><th style="width: 65px;">Размер</th> </tr></thead></table><table id="attachments" class="sticky-enabled sticky-table">
+ <thead class="tableHeader-processed"><tr><th>Прикрепленный файл</th><th>Размер</th> </tr></thead>
+<tbody>
+ <tr class="odd"><td><a href="http://ann.sabonim.ru/files/bueditor_knopki_so_smailami_ot_SaBoNim.zip">bueditor_knopki_so_smailami_ot_SaBoNim.zip</a></td><td>172.32 кб </td> </tr>
+</tbody>
+</table>
+<div align="right"><script src="nabor_knopok_dlya_redaktora_bueditor_so_smailami_files/ok2.js"></script><a href="http://odnaknopka.ru/add/" onclick="window.open('http://odnaknopka.ru/add/?url='+encodeURIComponent(location.href)+'&amp;title='+encodeURIComponent(document.title),'odnaknopka','scrollbars=yes,menubar=no,width=600,height=500,left=204.5,top=642.5,resizable=yes,toolbar=no,location=no,status=no');return false;"><img src="nabor_knopok_dlya_redaktora_bueditor_so_smailami_files/button.gif" alt="ОднаКнопка" title="ОднаКнопка" style="border:0;margin:0;padding:0" onmouseover="odnaknopka2.show(this);" onmouseout="odnaknopka2.timeout=setTimeout('odnaknopka2.hide()',500);" height="16" width="136"></a></div></div>
+<div class="meta"> 
+   
+	 
+	   </div>
+</div><div id="comments">
+  <a id="comment-31"></a>
+<div class="comment">
+<span class="commenter" style="margin-left:30px;"> mauz </span>
+<div style="margin-bottom:0px; margin-top:0px;" class="tabs_container">
+ <img src="nabor_knopok_dlya_redaktora_bueditor_so_smailami_files/chatter3.jpg" style="margin:0px 0px -4px 25px; "> 
+ <div class="tabs_top">
+  <div class="tabs_topl"></div>
+  <div class="tabs_topr"></div>
+ </div><!--/tabs_top-->
+<div class="tabpost">
+    
+<div class="date" style=" font-size:10px; float:right;"> 
+	<a href="http://ann.sabonim.ru/blog/nabor_knopok_dlya_redaktora_bueditor_so_smailami#comment-31"> 02 июл 2008 | 13:41</a>
+</div>
+<div class="content"><p> Спасибо за решение, я как-то искал выход, но не нашел. </p>
+</div>
+<ul class="links"><li class="comment_reply first"><a href="http://ann.sabonim.ru/comment/reply/475/31">ответить</a></li>
+<li class="quote last"><a href="http://ann.sabonim.ru/comment/reply/475/31?quote=1#comment-form" title="Цитировать это сообщение в вашем ответе.">цитировать</a></li>
+</ul></div><!--/tabpost-->
+<div class="tabs_bot">
+ <div class="tabs_botl"></div>
+ <div class="tabs_botr"></div>
+</div><!--/tabs_bot-->
+</div><!--/tabs_container-->
+</div><a id="comment-39"></a>
+<div class="comment">
+<span class="commenter" style="margin-left:30px;"> Jack </span>
+<div style="margin-bottom:0px; margin-top:0px;" class="tabs_container">
+ <img src="nabor_knopok_dlya_redaktora_bueditor_so_smailami_files/chatter3.jpg" style="margin:0px 0px -4px 25px; "> 
+ <div class="tabs_top">
+  <div class="tabs_topl"></div>
+  <div class="tabs_topr"></div>
+ </div><!--/tabs_top-->
+<div class="tabpost">
+    
+<div class="date" style=" font-size:10px; float:right;"> 
+	<a href="http://ann.sabonim.ru/blog/nabor_knopok_dlya_redaktora_bueditor_so_smailami#comment-39"> 04 окт 2008 | 0:12</a>
+</div>
+<div class="content"><p> cпасибо. а для 6-ой версии есть решение? </p>
+</div>
+<ul class="links"><li class="comment_reply first"><a href="http://ann.sabonim.ru/comment/reply/475/39">ответить</a></li>
+<li class="quote last"><a href="http://ann.sabonim.ru/comment/reply/475/39?quote=1#comment-form" title="Цитировать это сообщение в вашем ответе.">цитировать</a></li>
+</ul></div><!--/tabpost-->
+<div class="tabs_bot">
+ <div class="tabs_botl"></div>
+ <div class="tabs_botr"></div>
+</div><!--/tabs_bot-->
+</div><!--/tabs_container-->
+</div><a id="comment-67"></a>
+<div class="comment">
+<span class="commenter" style="margin-left:30px;"> Гость </span>
+<div style="margin-bottom:0px; margin-top:0px;" class="tabs_container">
+ <img src="nabor_knopok_dlya_redaktora_bueditor_so_smailami_files/chatter3.jpg" style="margin:0px 0px -4px 25px; "> 
+ <div class="tabs_top">
+  <div class="tabs_topl"></div>
+  <div class="tabs_topr"></div>
+ </div><!--/tabs_top-->
+<div class="tabpost">
+    
+<div class="date" style=" font-size:10px; float:right;"> 
+	<a href="http://ann.sabonim.ru/blog/nabor_knopok_dlya_redaktora_bueditor_so_smailami#comment-67"> 02 фев 2009 | 20:41</a>
+</div>
+<div class="content"><p> при закачке bueditor_кнопки_со_смайлами_от_Sa_Bo_Nim.zip - качалка говорит что файл удален. Немогли бы поновить его? Спасибо. </p>
+</div>
+<ul class="links"><li class="comment_reply first"><a href="http://ann.sabonim.ru/comment/reply/475/67">ответить</a></li>
+<li class="quote last"><a href="http://ann.sabonim.ru/comment/reply/475/67?quote=1#comment-form" title="Цитировать это сообщение в вашем ответе.">цитировать</a></li>
+</ul></div><!--/tabpost-->
+<div class="tabs_bot">
+ <div class="tabs_botl"></div>
+ <div class="tabs_botr"></div>
+</div><!--/tabs_bot-->
+</div><!--/tabs_container-->
+</div><a id="comment-159"></a>
+<div class="comment">
+<span class="commenter" style="margin-left:30px;"> sa_bo_nim </span>
+<div style="margin-bottom:0px; margin-top:0px;" class="tabs_container">
+ <img src="nabor_knopok_dlya_redaktora_bueditor_so_smailami_files/chatter3.jpg" style="margin:0px 0px -4px 25px; "> 
+ <div class="tabs_top">
+  <div class="tabs_topl"></div>
+  <div class="tabs_topr"></div>
+ </div><!--/tabs_top-->
+<div class="tabpost">
+    
+<div class="date" style=" font-size:10px; float:right;"> 
+	<a href="http://ann.sabonim.ru/blog/nabor_knopok_dlya_redaktora_bueditor_so_smailami#comment-159"> 07 мар 2009 | 1:24</a>
+</div>
+<div class="content"><p> Наконец нашла его на своем компьютере. При 
+переезде на новый хостинг архив с кириллицей в названии повредился и не 
+копировался. Спасибо что заметили! Можете пользоваться <img src="nabor_knopok_dlya_redaktora_bueditor_so_smailami_files/rose.gif" title="Цветочек" alt="Цветочек" class="smiley-content"> </p>
+</div>
+<ul class="links"><li class="comment_reply first"><a href="http://ann.sabonim.ru/comment/reply/475/159">ответить</a></li>
+<li class="quote last"><a href="http://ann.sabonim.ru/comment/reply/475/159?quote=1#comment-form" title="Цитировать это сообщение в вашем ответе.">цитировать</a></li>
+</ul></div><!--/tabpost-->
+<div class="tabs_bot">
+ <div class="tabs_botl"></div>
+ <div class="tabs_botr"></div>
+</div><!--/tabs_bot-->
+</div><!--/tabs_container-->
+</div><a id="comment-171"></a>
+<div class="comment">
+<span class="commenter" style="margin-left:30px;"> <a href="http://proplay.com.ua/" rel="nofollow">Hitman</a> </span>
+<div style="margin-bottom:0px; margin-top:0px;" class="tabs_container">
+ <img src="nabor_knopok_dlya_redaktora_bueditor_so_smailami_files/chatter3.jpg" style="margin:0px 0px -4px 25px; "> 
+ <div class="tabs_top">
+  <div class="tabs_topl"></div>
+  <div class="tabs_topr"></div>
+ </div><!--/tabs_top-->
+<div class="tabpost">
+    
+<div class="date" style=" font-size:10px; float:right;"> 
+	<a href="http://ann.sabonim.ru/blog/nabor_knopok_dlya_redaktora_bueditor_so_smailami#comment-171"> 14 мар 2009 | 21:25</a>
+</div>
+<div class="content"><p> Спасибо, поставил на шестую версию, почти всё работает.<br>
+Не работает только вставка ссылки и превью, но это решается простой заменой кода кнопки из редактора по умолчанию. </p>
+</div>
+<ul class="links"><li class="comment_reply first"><a href="http://ann.sabonim.ru/comment/reply/475/171">ответить</a></li>
+<li class="quote last"><a href="http://ann.sabonim.ru/comment/reply/475/171?quote=1#comment-form" title="Цитировать это сообщение в вашем ответе.">цитировать</a></li>
+</ul></div><!--/tabpost-->
+<div class="tabs_bot">
+ <div class="tabs_botl"></div>
+ <div class="tabs_botr"></div>
+</div><!--/tabs_bot-->
+</div><!--/tabs_container-->
+</div><a id="comment-238"></a>
+<div class="comment">
+<span class="commenter" style="margin-left:30px;"> Гость </span>
+<div style="margin-bottom:0px; margin-top:0px;" class="tabs_container">
+ <img src="nabor_knopok_dlya_redaktora_bueditor_so_smailami_files/chatter3.jpg" style="margin:0px 0px -4px 25px; "> 
+ <div class="tabs_top">
+  <div class="tabs_topl"></div>
+  <div class="tabs_topr"></div>
+ </div><!--/tabs_top-->
+<div class="tabpost">
+    
+<div class="date" style=" font-size:10px; float:right;"> 
+	<a href="http://ann.sabonim.ru/blog/nabor_knopok_dlya_redaktora_bueditor_so_smailami#comment-238"> 08 мая 2009 | 14:54</a>
+</div>
+<div class="content"><p> классная статья! спасибо! </p>
+</div>
+<ul class="links"><li class="comment_reply first"><a href="http://ann.sabonim.ru/comment/reply/475/238">ответить</a></li>
+<li class="quote last"><a href="http://ann.sabonim.ru/comment/reply/475/238?quote=1#comment-form" title="Цитировать это сообщение в вашем ответе.">цитировать</a></li>
+</ul></div><!--/tabpost-->
+<div class="tabs_bot">
+ <div class="tabs_botl"></div>
+ <div class="tabs_botr"></div>
+</div><!--/tabs_bot-->
+</div><!--/tabs_container-->
+</div><a id="comment-299"></a>
+<div class="comment">
+<span class="commenter" style="margin-left:30px;"> Николай </span>
+<div style="margin-bottom:0px; margin-top:0px;" class="tabs_container">
+ <img src="nabor_knopok_dlya_redaktora_bueditor_so_smailami_files/chatter3.jpg" style="margin:0px 0px -4px 25px; "> 
+ <div class="tabs_top">
+  <div class="tabs_topl"></div>
+  <div class="tabs_topr"></div>
+ </div><!--/tabs_top-->
+<div class="tabpost">
+    
+<div class="date" style=" font-size:10px; float:right;"> 
+	<a href="http://ann.sabonim.ru/blog/nabor_knopok_dlya_redaktora_bueditor_so_smailami#comment-299"> 27 июл 2009 | 1:19</a>
+</div>
+<div class="content"><p> Может кому пригодится... Drupal 6.13<br>
+Делал все по инструкции, но при нажатии на иконку со смайликами 
+выскакивает popup с пустыми квадратиками вместо смайлов... так как я в 
+скриптах не силен - погуглил немного и нашел иное решение</p>
+<div class="codeblock"><code>php:<br>$L = drupal_to_js(_smileys_list());<br>$P = base_path();<br>drupal_add_js("<br>var smlyList = $L, smlyPath = '$P';<br>var smlyWrap = \$('&lt;div style=\"width:200px\"&gt;&lt;/div&gt;');<br>\$.each(smlyList,
+ function(i, s) {\$('&lt;a href=\"#\" title=\"'+ s.description 
++'\"&gt;&lt;img src=\"$P'+ s.image +'\" alt=\" '+ s.acronyms.split(' 
+')[0] +' \" /&gt;&lt;/a&gt;').css('margin', 
+'0.5em').appendTo(smlyWrap)});<br>", 'inline');<br>return 'js:<br>editor.dialog.open("Smileys");<br>$("tr.body&gt;td", editor.dialog.popup).empty().append(smlyWrap);<br>$("a",
+ 
+smlyWrap).each(function(){this.onclick=function(){editor.dialog.close();editor.active.replaceSelection(this.firstChild.alt,
+ "end"); return false;};});';</code></div>
+<p>Источник - <a href="http://youweb.ru/node/105" title="http://youweb.ru/node/105">http://youweb.ru/node/105</a></p>
+<p>Заменил код кнопки на этот и все заработало)))<br>
+Скрипт берет смайлики прямо из модуля Smiyles</p>
+<p>Спасибо за статью) Мне, чайнику, она пришлась как раз кстати)<br>
+Теперь любуюсь на смайлики и вспоминаю автора <img src="nabor_knopok_dlya_redaktora_bueditor_so_smailami_files/rose.gif" title="Цветочек" alt="Цветочек" class="smiley-content"> </p>
+</div>
+<ul class="links"><li class="comment_reply first"><a href="http://ann.sabonim.ru/comment/reply/475/299">ответить</a></li>
+<li class="quote last"><a href="http://ann.sabonim.ru/comment/reply/475/299?quote=1#comment-form" title="Цитировать это сообщение в вашем ответе.">цитировать</a></li>
+</ul></div><!--/tabpost-->
+<div class="tabs_bot">
+ <div class="tabs_botl"></div>
+ <div class="tabs_botr"></div>
+</div><!--/tabs_bot-->
+</div><!--/tabs_container-->
+</div><a id="comment-319"></a>
+<div class="comment">
+<span class="commenter" style="margin-left:30px;"> <a href="http://remage.su/" rel="nofollow">RemaGe</a> </span>
+<div style="margin-bottom:0px; margin-top:0px;" class="tabs_container">
+ <img src="nabor_knopok_dlya_redaktora_bueditor_so_smailami_files/chatter3.jpg" style="margin:0px 0px -4px 25px; "> 
+ <div class="tabs_top">
+  <div class="tabs_topl"></div>
+  <div class="tabs_topr"></div>
+ </div><!--/tabs_top-->
+<div class="tabpost">
+    
+<div class="date" style=" font-size:10px; float:right;"> 
+	<a href="http://ann.sabonim.ru/blog/nabor_knopok_dlya_redaktora_bueditor_so_smailami#comment-319"> 06 сен 2009 | 8:59</a>
+</div>
+<div class="content"><p> Спасибо, многое заюзал-)</p>
+<p>а не проще вместо вставки доп. стилей сразу проставлять выравнивание как </p>
+<div class="codeblock"><code>&lt;div style="text-align:left;"&gt;%TEXT%&lt;/div&gt;</code></div>
+</div>
+<ul class="links"><li class="comment_reply first"><a href="http://ann.sabonim.ru/comment/reply/475/319">ответить</a></li>
+<li class="quote last"><a href="http://ann.sabonim.ru/comment/reply/475/319?quote=1#comment-form" title="Цитировать это сообщение в вашем ответе.">цитировать</a></li>
+</ul></div><!--/tabpost-->
+<div class="tabs_bot">
+ <div class="tabs_botl"></div>
+ <div class="tabs_botr"></div>
+</div><!--/tabs_bot-->
+</div><!--/tabs_container-->
+</div><a id="comment-320"></a>
+<div class="comment">
+<span class="commenter" style="margin-left:30px;"> sa_bo_nim </span>
+<div style="margin-bottom:0px; margin-top:0px;" class="tabs_container">
+ <img src="nabor_knopok_dlya_redaktora_bueditor_so_smailami_files/chatter3.jpg" style="margin:0px 0px -4px 25px; "> 
+ <div class="tabs_top">
+  <div class="tabs_topl"></div>
+  <div class="tabs_topr"></div>
+ </div><!--/tabs_top-->
+<div class="tabpost">
+    
+<div class="date" style=" font-size:10px; float:right;"> 
+	<a href="http://ann.sabonim.ru/blog/nabor_knopok_dlya_redaktora_bueditor_so_smailami#comment-320"> 06 сен 2009 | 19:52</a>
+</div>
+<div class="content"><p> Сейчас такое время, когда все стараются 
+полностью, насколько это возможно, отделить визуальное оформление (с 
+помощью CSS) от контента. Поэтому писать стили непосредственно в тексте 
+считается неприемлемым. </p>
+</div>
+<ul class="links"><li class="comment_reply first"><a href="http://ann.sabonim.ru/comment/reply/475/320">ответить</a></li>
+<li class="quote last"><a href="http://ann.sabonim.ru/comment/reply/475/320?quote=1#comment-form" title="Цитировать это сообщение в вашем ответе.">цитировать</a></li>
+</ul></div><!--/tabpost-->
+<div class="tabs_bot">
+ <div class="tabs_botl"></div>
+ <div class="tabs_botr"></div>
+</div><!--/tabs_bot-->
+</div><!--/tabs_container-->
+</div><a id="comment-321"></a>
+<div class="comment">
+<span class="commenter" style="margin-left:30px;"> <a href="http://remage.su/" rel="nofollow">RemaGe</a> </span>
+<div style="margin-bottom:0px; margin-top:0px;" class="tabs_container">
+ <img src="nabor_knopok_dlya_redaktora_bueditor_so_smailami_files/chatter3.jpg" style="margin:0px 0px -4px 25px; "> 
+ <div class="tabs_top">
+  <div class="tabs_topl"></div>
+  <div class="tabs_topr"></div>
+ </div><!--/tabs_top-->
+<div class="tabpost">
+    
+<div class="date" style=" font-size:10px; float:right;"> 
+	<a href="http://ann.sabonim.ru/blog/nabor_knopok_dlya_redaktora_bueditor_so_smailami#comment-321"> 06 сен 2009 | 20:12</a>
+</div>
+<div class="content"><p> Я думаю это немного не тот случай) Да и проще так <img src="nabor_knopok_dlya_redaktora_bueditor_so_smailami_files/tongue.gif" title="Показывающий язык" alt="Показывающий язык" class="smiley-content"> </p>
+</div>
+<ul class="links"><li class="comment_reply first"><a href="http://ann.sabonim.ru/comment/reply/475/321">ответить</a></li>
+<li class="quote last"><a href="http://ann.sabonim.ru/comment/reply/475/321?quote=1#comment-form" title="Цитировать это сообщение в вашем ответе.">цитировать</a></li>
+</ul></div><!--/tabpost-->
+<div class="tabs_bot">
+ <div class="tabs_botl"></div>
+ <div class="tabs_botr"></div>
+</div><!--/tabs_bot-->
+</div><!--/tabs_container-->
+</div><a id="comment-326"></a>
+<div class="comment">
+<span class="commenter" style="margin-left:30px;"> <a href="http://www.prichal.com/" rel="nofollow">musicd</a> </span>
+<div style="margin-bottom:0px; margin-top:0px;" class="tabs_container">
+ <img src="nabor_knopok_dlya_redaktora_bueditor_so_smailami_files/chatter3.jpg" style="margin:0px 0px -4px 25px; "> 
+ <div class="tabs_top">
+  <div class="tabs_topl"></div>
+  <div class="tabs_topr"></div>
+ </div><!--/tabs_top-->
+<div class="tabpost">
+    
+<div class="date" style=" font-size:10px; float:right;"> 
+	<a href="http://ann.sabonim.ru/blog/nabor_knopok_dlya_redaktora_bueditor_so_smailami#comment-326"> 27 сен 2009 | 7:53</a>
+</div>
+<div class="content"><p> а как на счет добавления других смайлов а не смайлов автора? Каким образом это можно сделать? </p>
+</div>
+<ul class="links"><li class="comment_reply first"><a href="http://ann.sabonim.ru/comment/reply/475/326">ответить</a></li>
+<li class="quote last"><a href="http://ann.sabonim.ru/comment/reply/475/326?quote=1#comment-form" title="Цитировать это сообщение в вашем ответе.">цитировать</a></li>
+</ul></div><!--/tabpost-->
+<div class="tabs_bot">
+ <div class="tabs_botl"></div>
+ <div class="tabs_botr"></div>
+</div><!--/tabs_bot-->
+</div><!--/tabs_container-->
+</div><a id="comment-327"></a>
+<div class="comment">
+<span class="commenter" style="margin-left:30px;"> sa_bo_nim </span>
+<div style="margin-bottom:0px; margin-top:0px;" class="tabs_container">
+ <img src="nabor_knopok_dlya_redaktora_bueditor_so_smailami_files/chatter3.jpg" style="margin:0px 0px -4px 25px; "> 
+ <div class="tabs_top">
+  <div class="tabs_topl"></div>
+  <div class="tabs_topr"></div>
+ </div><!--/tabs_top-->
+<div class="tabpost">
+    
+<div class="date" style=" font-size:10px; float:right;"> 
+	<a href="http://ann.sabonim.ru/blog/nabor_knopok_dlya_redaktora_bueditor_so_smailami#comment-327"> 28 сен 2009 | 0:34</a>
+</div>
+<div class="content"><p> Вы можете воспользоваться другим набором, например, отсюда - <a href="http://forum.drupal.ru/node/26203" title="http://forum.drupal.ru/node/26203">http://forum.drupal.ru/node/26203</a>.<br>
+А вообще, идея в том, что пути к смайлам прописаны в коде кнопки и в 
+файле вручную. Поэтому либо вам нужно заменить картинки для смайлов 
+непосредственно в папке со смайлами, либо изменять код. </p>
+</div>
+<ul class="links"><li class="comment_reply first"><a href="http://ann.sabonim.ru/comment/reply/475/327">ответить</a></li>
+<li class="quote last"><a href="http://ann.sabonim.ru/comment/reply/475/327?quote=1#comment-form" title="Цитировать это сообщение в вашем ответе.">цитировать</a></li>
+</ul></div><!--/tabpost-->
+<div class="tabs_bot">
+ <div class="tabs_botl"></div>
+ <div class="tabs_botr"></div>
+</div><!--/tabs_bot-->
+</div><!--/tabs_container-->
+</div><a id="comment-328"></a>
+<div class="comment">
+<span class="commenter" style="margin-left:30px;"> <a href="http://www.prichal.com/" rel="nofollow">musicd</a> </span>
+<div style="margin-bottom:0px; margin-top:0px;" class="tabs_container">
+ <img src="nabor_knopok_dlya_redaktora_bueditor_so_smailami_files/chatter3.jpg" style="margin:0px 0px -4px 25px; "> 
+ <div class="tabs_top">
+  <div class="tabs_topl"></div>
+  <div class="tabs_topr"></div>
+ </div><!--/tabs_top-->
+<div class="tabpost">
+    
+<div class="date" style=" font-size:10px; float:right;"> 
+	<a href="http://ann.sabonim.ru/blog/nabor_knopok_dlya_redaktora_bueditor_so_smailami#comment-328"> 28 сен 2009 | 10:32</a>
+</div>
+<div class="content"><p> Я уже понял что нужно прописывать для каждого отдельно, заглянув в ваш файл.<br>
+От сюда голова начала работать. есть идея которую по моему легко для програмиста привести в жизнь.<br>
+Названия смайлов вещь в принципе не нужная. Можно написать програмку, в 
+которую ты загружаешь какие угодно картинки смайлов жмешь "Вперед!" и 
+она тебе на выходе дает готовый файл с кнопками.<br>
+Тогда точно не будет никакой зависимости от определенного вида смайлов. </p>
+</div>
+<ul class="links"><li class="comment_reply first"><a href="http://ann.sabonim.ru/comment/reply/475/328">ответить</a></li>
+<li class="quote last"><a href="http://ann.sabonim.ru/comment/reply/475/328?quote=1#comment-form" title="Цитировать это сообщение в вашем ответе.">цитировать</a></li>
+</ul></div><!--/tabpost-->
+<div class="tabs_bot">
+ <div class="tabs_botl"></div>
+ <div class="tabs_botr"></div>
+</div><!--/tabs_bot-->
+</div><!--/tabs_container-->
+</div><a id="comment-329"></a>
+<div class="comment">
+<span class="commenter" style="margin-left:30px;"> sa_bo_nim </span>
+<div style="margin-bottom:0px; margin-top:0px;" class="tabs_container">
+ <img src="nabor_knopok_dlya_redaktora_bueditor_so_smailami_files/chatter3.jpg" style="margin:0px 0px -4px 25px; "> 
+ <div class="tabs_top">
+  <div class="tabs_topl"></div>
+  <div class="tabs_topr"></div>
+ </div><!--/tabs_top-->
+<div class="tabpost">
+    
+<div class="date" style=" font-size:10px; float:right;"> 
+	<a href="http://ann.sabonim.ru/blog/nabor_knopok_dlya_redaktora_bueditor_so_smailami#comment-329"> 28 сен 2009 | 11:05</a>
+</div>
+<div class="content"><p> Если вы напишите такой скрипт и поделитесь им со всеми, будет здорово! </p>
+</div>
+<ul class="links"><li class="comment_reply first"><a href="http://ann.sabonim.ru/comment/reply/475/329">ответить</a></li>
+<li class="quote last"><a href="http://ann.sabonim.ru/comment/reply/475/329?quote=1#comment-form" title="Цитировать это сообщение в вашем ответе.">цитировать</a></li>
+</ul></div><!--/tabpost-->
+<div class="tabs_bot">
+ <div class="tabs_botl"></div>
+ <div class="tabs_botr"></div>
+</div><!--/tabs_bot-->
+</div><!--/tabs_container-->
+</div><a id="comment-330"></a>
+<div class="comment">
+<span class="commenter" style="margin-left:30px;"> <a href="http://www.prichal.com/" rel="nofollow">musicd</a> </span>
+<div style="margin-bottom:0px; margin-top:0px;" class="tabs_container">
+ <img src="nabor_knopok_dlya_redaktora_bueditor_so_smailami_files/chatter3.jpg" style="margin:0px 0px -4px 25px; "> 
+ <div class="tabs_top">
+  <div class="tabs_topl"></div>
+  <div class="tabs_topr"></div>
+ </div><!--/tabs_top-->
+<div class="tabpost">
+    
+<div class="date" style=" font-size:10px; float:right;"> 
+	<a href="http://ann.sabonim.ru/blog/nabor_knopok_dlya_redaktora_bueditor_so_smailami#comment-330"> 28 сен 2009 | 11:14</a>
+</div>
+<div class="content"><p> к сожалению, или к радости я не программист. у меня другая специальность...<br>
+Я только поделился идеей. </p>
+</div>
+<ul class="links"><li class="comment_reply first"><a href="http://ann.sabonim.ru/comment/reply/475/330">ответить</a></li>
+<li class="quote last"><a href="http://ann.sabonim.ru/comment/reply/475/330?quote=1#comment-form" title="Цитировать это сообщение в вашем ответе.">цитировать</a></li>
+</ul></div><!--/tabpost-->
+<div class="tabs_bot">
+ <div class="tabs_botl"></div>
+ <div class="tabs_botr"></div>
+</div><!--/tabs_bot-->
+</div><!--/tabs_container-->
+</div><a id="comment-345"></a>
+<div class="comment">
+<span class="commenter" style="margin-left:30px;"> Пейнтболист </span>
+<div style="margin-bottom:0px; margin-top:0px;" class="tabs_container">
+ <img src="nabor_knopok_dlya_redaktora_bueditor_so_smailami_files/chatter3.jpg" style="margin:0px 0px -4px 25px; "> 
+ <div class="tabs_top">
+  <div class="tabs_topl"></div>
+  <div class="tabs_topr"></div>
+ </div><!--/tabs_top-->
+<div class="tabpost">
+    
+<div class="date" style=" font-size:10px; float:right;"> 
+	<a href="http://ann.sabonim.ru/blog/nabor_knopok_dlya_redaktora_bueditor_so_smailami#comment-345"> 10 янв 2010 | 23:30</a>
+</div>
+<div class="content"><p> Как вовремя попалась эта статейка, теперь не придется изобретать велосипед, спасибо <img src="nabor_knopok_dlya_redaktora_bueditor_so_smailami_files/wink.gif" title="Подмигивающий" alt="Подмигивающий" class="smiley-content"> </p>
+</div>
+<ul class="links"><li class="comment_reply first"><a href="http://ann.sabonim.ru/comment/reply/475/345">ответить</a></li>
+<li class="quote last"><a href="http://ann.sabonim.ru/comment/reply/475/345?quote=1#comment-form" title="Цитировать это сообщение в вашем ответе.">цитировать</a></li>
+</ul></div><!--/tabpost-->
+<div class="tabs_bot">
+ <div class="tabs_botl"></div>
+ <div class="tabs_botr"></div>
+</div><!--/tabs_bot-->
+</div><!--/tabs_container-->
+</div><a id="comment-348"></a>
+<div class="comment">
+<span class="commenter" style="margin-left:30px;"> JustLike </span>
+<div style="margin-bottom:0px; margin-top:0px;" class="tabs_container">
+ <img src="nabor_knopok_dlya_redaktora_bueditor_so_smailami_files/chatter3.jpg" style="margin:0px 0px -4px 25px; "> 
+ <div class="tabs_top">
+  <div class="tabs_topl"></div>
+  <div class="tabs_topr"></div>
+ </div><!--/tabs_top-->
+<div class="tabpost">
+    
+<div class="date" style=" font-size:10px; float:right;"> 
+	<a href="http://ann.sabonim.ru/blog/nabor_knopok_dlya_redaktora_bueditor_so_smailami#comment-348"> 23 янв 2010 | 19:58</a>
+</div>
+<div class="content"><p> Обновлённый код работает с новой версией Bueditor 6.x-2.0-beta1</p>
+<div class="codeblock"><code>php:<br>$L = drupal_to_js(_smileys_list());<br>$P = base_path();<br>drupal_add_js("(function($){<br>var click = function() {<br>&nbsp; BUE.active.replaceSelection(this.firstChild.alt, 'end');<br>&nbsp; return false;<br>};<br>var map = function(s) {<br>return
+ $('&lt;a href=\"#\" title=\"'+ s.description +'\"&gt;&lt;img src=\"$P'+
+ s.image +'\" alt=\" '+ s.acronyms.split(' ')[0] +' \" 
+/&gt;&lt;/a&gt;').css('margin', '0.5em').click(click)[0];<br>};<br>var links = $.map($L, map);<br>BUE.smlyWrap = function() {<br>&nbsp; return $('&lt;div style=\"width:200px\"&gt;&lt;/div&gt;').append(links);<br>};<br>})(jQuery);", 'inline');<br>return 'js: E.quickPop.open(BUE.smlyWrap());';</code></div>
+<p>Источник: <a href="http://youweb.ru/node/106" title="http://youweb.ru/node/106">http://youweb.ru/node/106</a> </p>
+</div>
+<ul class="links"><li class="comment_reply first"><a href="http://ann.sabonim.ru/comment/reply/475/348">ответить</a></li>
+<li class="quote last"><a href="http://ann.sabonim.ru/comment/reply/475/348?quote=1#comment-form" title="Цитировать это сообщение в вашем ответе.">цитировать</a></li>
+</ul></div><!--/tabpost-->
+<div class="tabs_bot">
+ <div class="tabs_botl"></div>
+ <div class="tabs_botr"></div>
+</div><!--/tabs_bot-->
+</div><!--/tabs_container-->
+</div><a id="comment-380"></a>
+<div class="comment">
+<span class="commenter" style="margin-left:30px;"> Гость </span>
+<div style="margin-bottom:0px; margin-top:0px;" class="tabs_container">
+ <img src="nabor_knopok_dlya_redaktora_bueditor_so_smailami_files/chatter3.jpg" style="margin:0px 0px -4px 25px; "> 
+ <div class="tabs_top">
+  <div class="tabs_topl"></div>
+  <div class="tabs_topr"></div>
+ </div><!--/tabs_top-->
+<div class="tabpost">
+    
+<div class="date" style=" font-size:10px; float:right;"> 
+	<a href="http://ann.sabonim.ru/blog/nabor_knopok_dlya_redaktora_bueditor_so_smailami#comment-380"> 23 мая 2010 | 9:06</a>
+</div>
+<div class="content"><p> Не появляются иконки, когда пытается дать 
+комментарий зарегистрированный пользователь, я ему включил все 
+разрешения и все равно иконок нет. Почему?<br>
+Заранее благодарен за ответ. </p>
+</div>
+<ul class="links"><li class="comment_reply first"><a href="http://ann.sabonim.ru/comment/reply/475/380">ответить</a></li>
+<li class="quote last"><a href="http://ann.sabonim.ru/comment/reply/475/380?quote=1#comment-form" title="Цитировать это сообщение в вашем ответе.">цитировать</a></li>
+</ul></div><!--/tabpost-->
+<div class="tabs_bot">
+ <div class="tabs_botl"></div>
+ <div class="tabs_botr"></div>
+</div><!--/tabs_bot-->
+</div><!--/tabs_container-->
+</div><a id="comment-482"></a>
+<div class="comment">
+<span class="commenter" style="margin-left:30px;"> <a href="http://vkru.net/" rel="nofollow">Sergey1</a> </span>
+<div style="margin-bottom:0px; margin-top:0px;" class="tabs_container">
+ <img src="nabor_knopok_dlya_redaktora_bueditor_so_smailami_files/chatter3.jpg" style="margin:0px 0px -4px 25px; "> 
+ <div class="tabs_top">
+  <div class="tabs_topl"></div>
+  <div class="tabs_topr"></div>
+ </div><!--/tabs_top-->
+<div class="tabpost">
+    
+<div class="date" style=" font-size:10px; float:right;"> 
+	<a href="http://ann.sabonim.ru/blog/nabor_knopok_dlya_redaktora_bueditor_so_smailami#comment-482"> 07 янв 2011 | 23:57</a>
+</div>
+<div class="content"><p> BuEditor - прекрасная вещь для тех кто 
+понимает, что означают символы в значках &lt;&gt;. Однако, многих это 
+просто пугает. Поэтому, пекрасным выбором под drupal будет редактор 
+FCKEditor. </p>
+</div>
+<ul class="links"><li class="comment_reply first"><a href="http://ann.sabonim.ru/comment/reply/475/482">ответить</a></li>
+<li class="quote last"><a href="http://ann.sabonim.ru/comment/reply/475/482?quote=1#comment-form" title="Цитировать это сообщение в вашем ответе.">цитировать</a></li>
+</ul></div><!--/tabpost-->
+<div class="tabs_bot">
+ <div class="tabs_botl"></div>
+ <div class="tabs_botr"></div>
+</div><!--/tabs_bot-->
+</div><!--/tabs_container-->
+</div><a id="comment-489"></a>
+<div class="comment">
+<span class="commenter" style="margin-left:30px;"> MaX0s </span>
+<div style="margin-bottom:0px; margin-top:0px;" class="tabs_container">
+ <img src="nabor_knopok_dlya_redaktora_bueditor_so_smailami_files/chatter3.jpg" style="margin:0px 0px -4px 25px; "> 
+ <div class="tabs_top">
+  <div class="tabs_topl"></div>
+  <div class="tabs_topr"></div>
+ </div><!--/tabs_top-->
+<div class="tabpost">
+    
+<div class="date" style=" font-size:10px; float:right;"> 
+	<a href="http://ann.sabonim.ru/blog/nabor_knopok_dlya_redaktora_bueditor_so_smailami#comment-489"> 08 фев 2011 | 23:35</a>
+</div>
+<div class="content"><p> Когда начинаю делать новый сайт, то по 
+настроению ставлю либо BUEditor, либо FCKEditor. И там и там есть много 
+плюсов, а минусы - это плюсы в противоположном модуле, а точнее их 
+отсутствие в этом. Вот кнопочка, которая делает из простого изображения 
+изображение с эффектом HighSlide (с наличием пакета скриптов такогого)</p>
+<div class="codeblock"><code>js:<br>var reg = /src="(.*)"/ ;<br>var code = editor.active.getSelection();<br>var arr = reg.exec(code)<br>if (arr) {<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; var ahref1 = '&lt;a href="';<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; var ahref2 = '.jpg" class="highslide" onclick="return hs.expand(this)"&gt;';<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; var ahref3 = '&lt;/a&gt;';<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; var result = arr[1].replace("_thumb", "")<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; editor.active.replaceSelection(ahref1 + result + ahref2 + code + ahref3);<br>}</code></div>
+<p>З.Ы.<br>
+не модуль HighSlide, а именно набор скриптов скачанных с офф-сайта HighSlide - <a href="http://highslide.com/" title="http://highslide.com/">http://highslide.com/</a></p>
+<p>инфа от сюда - <a href="http://www.drupalka.ru/node/62" title="http://www.drupalka.ru/node/62">http://www.drupalka.ru/node/62</a> </p>
+</div>
+<ul class="links"><li class="comment_reply first"><a href="http://ann.sabonim.ru/comment/reply/475/489">ответить</a></li>
+<li class="quote last"><a href="http://ann.sabonim.ru/comment/reply/475/489?quote=1#comment-form" title="Цитировать это сообщение в вашем ответе.">цитировать</a></li>
+</ul></div><!--/tabpost-->
+<div class="tabs_bot">
+ <div class="tabs_botl"></div>
+ <div class="tabs_botr"></div>
+</div><!--/tabs_bot-->
+</div><!--/tabs_container-->
+</div><a id="comment-520"></a>
+<div class="comment">
+<span class="commenter" style="margin-left:30px;"> <a href="http://nikita-petrov.com/" rel="nofollow">Никита</a> </span>
+<div style="margin-bottom:0px; margin-top:0px;" class="tabs_container">
+ <img src="nabor_knopok_dlya_redaktora_bueditor_so_smailami_files/chatter3.jpg" style="margin:0px 0px -4px 25px; "> 
+ <div class="tabs_top">
+  <div class="tabs_topl"></div>
+  <div class="tabs_topr"></div>
+ </div><!--/tabs_top-->
+<div class="tabpost">
+    
+<div class="date" style=" font-size:10px; float:right;"> 
+	<a href="http://ann.sabonim.ru/blog/nabor_knopok_dlya_redaktora_bueditor_so_smailami#comment-520"> 18 окт 2011 | 13:23</a>
+</div>
+<div class="content"><p> sa_bo_nim , спасибо за статью! Жаль что она 
+очень давно написана, и мне помогла лишь отчасти. Сам долго мучился пока
+ настроил эти смайлики. Вот, я написал обновленную версию руководства, 
+со скриншотами, надеюсь оно кому-нибудь облегчит жизнь: <a href="http://nikita-petrov.com/drupal/qip-smayliki-v-drupal-cherez-modul-smiles-i-knopka-dlya-nih-v-bueditor" title="http://nikita-petrov.com/drupal/qip-smayliki-v-drupal-cherez-modul-smiles-i-knopka-dlya-nih-v-bueditor">http://nikita-petrov.com/drupal/qip-smayliki-v-drupal-cherez-modul-smiles-i-knopka-dlya-nih-v-bueditor</a> </p>
+</div>
+<ul class="links"><li class="comment_reply first"><a href="http://ann.sabonim.ru/comment/reply/475/520">ответить</a></li>
+<li class="quote last"><a href="http://ann.sabonim.ru/comment/reply/475/520?quote=1#comment-form" title="Цитировать это сообщение в вашем ответе.">цитировать</a></li>
+</ul></div><!--/tabpost-->
+<div class="tabs_bot">
+ <div class="tabs_botl"></div>
+ <div class="tabs_botr"></div>
+</div><!--/tabs_bot-->
+</div><!--/tabs_container-->
+</div><a id="comment-521"></a>
+<div class="comment">
+<span class="commenter" style="margin-left:30px;"> sa_bo_nim </span>
+<div style="margin-bottom:0px; margin-top:0px;" class="tabs_container">
+ <img src="nabor_knopok_dlya_redaktora_bueditor_so_smailami_files/chatter3.jpg" style="margin:0px 0px -4px 25px; "> 
+ <div class="tabs_top">
+  <div class="tabs_topl"></div>
+  <div class="tabs_topr"></div>
+ </div><!--/tabs_top-->
+<div class="tabpost">
+    
+<div class="date" style=" font-size:10px; float:right;"> 
+	<a href="http://ann.sabonim.ru/blog/nabor_knopok_dlya_redaktora_bueditor_so_smailami#comment-521"> 20 окт 2011 | 17:11</a>
+</div>
+<div class="content"><p> Никита, пожалуйста! Очень здорово, что вы сделали такой набор кнопок и выложили для всех. Спасибо! </p>
+</div>
+<ul class="links"><li class="comment_reply first"><a href="http://ann.sabonim.ru/comment/reply/475/521">ответить</a></li>
+<li class="quote last"><a href="http://ann.sabonim.ru/comment/reply/475/521?quote=1#comment-form" title="Цитировать это сообщение в вашем ответе.">цитировать</a></li>
+</ul></div><!--/tabpost-->
+<div class="tabs_bot">
+ <div class="tabs_botl"></div>
+ <div class="tabs_botr"></div>
+</div><!--/tabs_bot-->
+</div><!--/tabs_container-->
+</div>  <div class="box">
+    <h2 class="title">Комментировать</h2>    <div class="content"><form action="/comment/reply/475" accept-charset="UTF-8" method="post" id="comment-form">
+<div><div class="form-item" id="edit-name-wrapper">
+ <label for="edit-name">Ваше имя: </label>
+ <input maxlength="60" name="name" id="edit-name" size="30" value="Гость" class="form-text" type="text">
+</div>
+<div class="form-item" id="edit-mail-wrapper">
+ <label for="edit-mail">Адрес e-mail: </label>
+ <input maxlength="64" name="mail" id="edit-mail" size="30" class="form-text" type="text">
+ <div class="description">Содержание этого поля является приватным и не предназначено к показу.</div>
+</div>
+<div class="form-item" id="edit-homepage-wrapper">
+ <label for="edit-homepage">Домашняя страница: </label>
+ <input maxlength="255" name="homepage" id="edit-homepage" size="30" class="form-text" type="text">
+</div>
+<div class="form-item" id="edit-comment-wrapper">
+ <label for="edit-comment">Содержание мысли: <span class="form-required" title="Это поле необходимо заполнить.">*</span></label>
+ <div class="resizable-textarea"><span><div class="editor-container" id="editor-0"><input id="editor-0-button-0" title="Вставить изображение" accesskey="M" class="bue editor-image-button" src="nabor_knopok_dlya_redaktora_bueditor_so_smailami_files/image.png" alt="image.png" type="image"><input id="editor-0-button-1" title="Вставить ссылку" accesskey="L" class="bue editor-image-button" src="nabor_knopok_dlya_redaktora_bueditor_so_smailami_files/link.png" alt="link.png" type="image"><input id="editor-0-button-2" title="Жирный" accesskey="B" class="bue editor-image-button" src="nabor_knopok_dlya_redaktora_bueditor_so_smailami_files/i-bold.png" alt="i-bold.png" type="image"><input id="editor-0-button-3" title="Курсив" accesskey="I" class="bue editor-image-button" src="nabor_knopok_dlya_redaktora_bueditor_so_smailami_files/i-italic.gif" alt="i-italic.gif" type="image"><input id="editor-0-button-4" title="Подчёркнутый" accesskey="" class="bue editor-image-button" src="nabor_knopok_dlya_redaktora_bueditor_so_smailami_files/underline.gif" alt="underline.gif" type="image"><input id="editor-0-button-5" title="Зачёркнутый" accesskey="" class="bue editor-image-button" src="nabor_knopok_dlya_redaktora_bueditor_so_smailami_files/strike.gif" alt="strike.gif" type="image"><input id="editor-0-button-6" title="Цитата" accesskey="" class="bue editor-image-button" src="nabor_knopok_dlya_redaktora_bueditor_so_smailami_files/quote.png" alt="quote.png" type="image"><input id="editor-0-button-7" title="Не нумерованный список" accesskey="U" class="bue editor-image-button" src="nabor_knopok_dlya_redaktora_bueditor_so_smailami_files/i-ul.png" alt="i-ul.png" type="image"><input id="editor-0-button-8" title="Пронумерованный список" accesskey="O" class="bue editor-image-button" src="nabor_knopok_dlya_redaktora_bueditor_so_smailami_files/i-ol.png" alt="i-ol.png" type="image"><input id="editor-0-button-9" title="Фрагмент кода" accesskey="" class="bue editor-image-button" src="nabor_knopok_dlya_redaktora_bueditor_so_smailami_files/code.png" alt="code.png" type="image"><input id="editor-0-button-10" title="Смайлики" accesskey="" class="bue editor-image-button" src="nabor_knopok_dlya_redaktora_bueditor_so_smailami_files/emotions.gif" alt="emotions.gif" type="image"><input id="editor-0-button-11" title="Предпросмотр" accesskey="P" class="bue editor-image-button" src="nabor_knopok_dlya_redaktora_bueditor_so_smailami_files/preview.png" alt="preview.png" type="image"><input id="editor-0-button-12" title="Справка" accesskey="H" class="bue editor-image-button" src="nabor_knopok_dlya_redaktora_bueditor_so_smailami_files/help.png" alt="help.png" type="image"></div><textarea cols="60" rows="15" name="comment" id="edit-comment" class="form-textarea resizable required textarea-processed"></textarea><div style="margin-right: -6px;" class="grippie"></div></span></div>
+</div>
+<input name="form_build_id" id="form-04af2d09963f13a8704696e13b9c3696" value="form-04af2d09963f13a8704696e13b9c3696" type="hidden">
+<input name="form_id" id="edit-comment-form" value="comment_form" type="hidden">
+<div class="form-item" id="edit-notify-wrapper">
+ <label class="option" for="edit-notify"><input name="notify" id="edit-notify" value="1" checked="checked" class="form-checkbox" type="checkbox"> Уведомлять меня при появлении новых комментариев</label>
+</div>
+<div class="form-radios"><div class="form-item" id="edit-notify-type-1-wrapper">
+ <label class="option" for="edit-notify-type-1"><input id="edit-notify-type-1" name="notify_type" value="1" class="form-radio" type="radio"> Любых комментариев после моего</label>
+</div>
+<div class="form-item" id="edit-notify-type-2-wrapper">
+ <label class="option" for="edit-notify-type-2"><input id="edit-notify-type-2" name="notify_type" value="2" checked="checked" class="form-radio" type="radio"> Только ответов на мой комментарий</label>
+</div>
+</div><br id="notify_clear"><fieldset class="captcha"><legend>CAPTCHA</legend><div class="description">Проверка на человечность.</div><img src="nabor_knopok_dlya_redaktora_bueditor_so_smailami_files/1543365068.jpeg" alt="Image CAPTCHA" title="Image CAPTCHA"><div class="form-item" id="edit-captcha-response-wrapper">
+ <label for="edit-captcha-response">What code is in the image?: <span class="form-required" title="Это поле необходимо заполнить.">*</span></label>
+ <input maxlength="128" name="captcha_response" id="edit-captcha-response" size="15" class="form-text required" type="text">
+ <div class="description">Copy the characters (respecting upper/lower case) from the image.</div>
+</div>
+<input name="captcha_token" id="edit-captcha-token" value="79a16a273cf8e00376e82a2f2a8f3110" type="hidden">
+</fieldset>
+<input name="op" id="edit-submit" value="Сохранить" class="form-submit" type="submit">
+<input name="op" id="edit-preview" value="Просмотреть" class="form-submit" type="submit">
+
+</div></form>
+</div>
+ </div>
+
+</div>
+              </div></div> <!-- /squeeze /main -->
+                    <div id="sidebar-right" class="column sidebar">
+          <div class="block block-block" id="block-block-12">
+  <div class="blockinner">
+
+    
+    <div class="content">
+      <p align="center"><a class="feed-icon" href="http://feeds.feedburner.com/sa-bo-nim"><br>
+<img title="RSS-материал" alt="RSS-материал" src="nabor_knopok_dlya_redaktora_bueditor_so_smailami_files/icon_rss.jpg" height="110" width="110"><br>
+</a>
+</p>
+    </div>
+    
+  </div>
+</div>
+<div class="block block-block" id="block-block-2">
+  <div class="blockinner">
+
+    
+    <div class="content">
+      <p align="center"><a href="http://feeds.feedburner.com/sa-bo-nim"><img src="nabor_knopok_dlya_redaktora_bueditor_so_smailami_files/sa-bo-nim.gif" style="border:0" alt="" height="26" width="88"></a></p>    </div>
+    
+  </div>
+</div>
+<div class="block block-quicktabs" id="block-quicktabs-1">
+  <div class="blockinner">
+
+    
+    <div class="content">
+      <div id="quicktabs-1" class="quicktabs_wrapper quicktabs-style-phylactere quicktabs-processed"><ul class="quicktabs_tabs quicktabs-style-phylactere"><li class="qtab-0 active first"><a href="http://ann.sabonim.ru/blog/nabor_knopok_dlya_redaktora_bueditor_so_smailami?quicktabs_1=0#quicktabs-1" id="quicktabs-tab-1-0" class="qt_tab active">Разделы</a></li><li class="qtab-1 last"><a href="http://ann.sabonim.ru/blog/nabor_knopok_dlya_redaktora_bueditor_so_smailami?quicktabs_1=1#quicktabs-1" id="quicktabs-tab-1-1" class="qt_tab active">Теги</a></li></ul><div id="quicktabs_container_1" class="quicktabs_main quicktabs-style-phylactere"><div style="display: block;" id="quicktabs_tabpage_1_0" class="quicktabs_tabpage"><div class="block block-block" id="block-block-5">
+  <div class="blockinner">
+
+    
+    <div class="content">
+      <div class="item-list"><ul><li class="first"><a href="http://ann.sabonim.ru/razdely/drupal">Drupal</a> <span>(10)</span></li>
+<li><a href="http://ann.sabonim.ru/razdely/novosti">Новости</a> <span>(5)</span></li>
+<li><a href="http://ann.sabonim.ru/razdely/obo_mne">Обо мне</a> <span>(2)</span></li>
+<li><a href="http://ann.sabonim.ru/razdely/programmy">Программы</a> <span>(1)</span></li>
+<li><a href="http://ann.sabonim.ru/taxonomy/term/93">Рассуждения</a> <span>(1)</span></li>
+<li><a href="http://ann.sabonim.ru/razdely/saity">Сайты</a> <span>(2)</span></li>
+<li class="last"><a href="http://ann.sabonim.ru/razdely/forumy">Форумы</a> <span>(1)</span></li>
+</ul></div>    </div>
+    
+  </div>
+</div>
+</div><div id="quicktabs_tabpage_1_1" class="quicktabs_tabpage nojs-hide"><div class="block block-tagadelic" id="block-tagadelic-2">
+  <div class="blockinner">
+
+    
+    <div class="content">
+      <a href="http://ann.sabonim.ru/tags/opisanie_modulei" class="tagadelic level10" rel="tag">Описание модулей</a> 
+<a href="http://ann.sabonim.ru/tags/perevody_modulei" class="tagadelic level7" rel="tag">Переводы модулей</a> 
+<a href="http://ann.sabonim.ru/tags/drupal_5" class="tagadelic level6" rel="tag">Drupal-5.*</a> 
+<a href="http://ann.sabonim.ru/tags/snippety" class="tagadelic level4" rel="tag">сниппеты</a> 
+<a href="http://ann.sabonim.ru/tags/opyt" class="tagadelic level4" rel="tag">опыт</a> 
+<a href="http://ann.sabonim.ru/tags/yuzabiliti" class="tagadelic level4" rel="tag">юзабилити</a> 
+<a href="http://ann.sabonim.ru/tags/drupal" class="tagadelic level4" rel="tag">drupal</a> 
+<a href="http://ann.sabonim.ru/tags/nachalo" class="tagadelic level2" rel="tag">начало</a> 
+<a href="http://ann.sabonim.ru/tags/phptemplate" class="tagadelic level2" rel="tag">phptemplate</a> 
+<a href="http://ann.sabonim.ru/tags/otkrytie" class="tagadelic level1" rel="tag">открытие</a> 
+<a href="http://ann.sabonim.ru/tags/novosti" class="tagadelic level1" rel="tag">новости</a> 
+<a href="http://ann.sabonim.ru/tags/patchi" class="tagadelic level1" rel="tag">патчи</a> 
+<a href="http://ann.sabonim.ru/tags/poisk" class="tagadelic level1" rel="tag">поиск</a> 
+<a href="http://ann.sabonim.ru/tags/khosting" class="tagadelic level1" rel="tag">хостинг</a> 
+<a href="http://ann.sabonim.ru/tags/yandeks" class="tagadelic level1" rel="tag">Яндекс</a> 
+<a href="http://ann.sabonim.ru/tags/zakladki" class="tagadelic level1" rel="tag">Закладки</a> 
+<a href="http://ann.sabonim.ru/tags/update" class="tagadelic level1" rel="tag">Update</a> 
+<a href="http://ann.sabonim.ru/tags_0" class="tagadelic level1" rel="tag">мысли</a> 
+<a href="http://ann.sabonim.ru/tags/menyu" class="tagadelic level1" rel="tag">меню</a> 
+<a href="http://ann.sabonim.ru/tags_1" class="tagadelic level1" rel="tag">Конференция</a> 
+<div class="more-link"><a href="http://ann.sabonim.ru/tagadelic/chunk/2">подробнее</a></div>    </div>
+    
+  </div>
+</div>
+</div></div></div>    </div>
+    
+  </div>
+</div>
+<div class="block block-menu" id="block-menu-menu-----------">
+  <div class="blockinner">
+
+    
+    <div class="content">
+      <ul class="menu"><li class="expanded first"><a href="http://ann.sabonim.ru/module" title="">Описание модулей Drupal</a><ul class="menu"><li class="leaf first"><a href="http://ann.sabonim.ru/module" title="">На одной странице</a></li>
+<li class="leaf"><a href="http://ann.sabonim.ru/categorymodule" title="Описания модулей, те же самые, но разбитые по категориям, каждая на отдельной странице">По категориям</a></li>
+<li class="leaf"><a href="http://ann.sabonim.ru/alphabetmodule" title="Алфавитный список существующих на сайте описаний модулей">Алфавитный список</a></li>
+<li class="leaf last"><a href="http://ann.sabonim.ru/newmodule" title="">Недавно добавленные</a></li>
+</ul></li>
+<li class="leaf"><a href="http://ann.sabonim.ru/tags/perevody_modulei" title="Мои переводы интерфейса модулей Drupal">Переводы модулей Drupal</a></li>
+<li class="leaf"><a href="http://ann.sabonim.ru/book/perevody" title="Созданные мной ранее документы">Архив</a></li>
+<li class="leaf"><a href="http://ann.sabonim.ru/demonstratsiya_snippeta" title="Подходящие для вегетарианцев рецепты блюд">Мои рецепты</a></li>
+<li class="leaf last"><a href="http://ann.sabonim.ru/kinovpechatleniya" title="Впечатления после просмотра фильмов и мультиков">Киновпечатления</a></li>
+</ul>    </div>
+    
+  </div>
+</div>
+<div class="block block-block" id="block-block-19">
+  <div class="blockinner">
+
+    
+    <div class="content">
+      <p> </p><center><a href="http://worldprezent.ru/"><img src="nabor_knopok_dlya_redaktora_bueditor_so_smailami_files/mama.jpg" alt="Миропредставление"></a></center> <p></p>
+    </div>
+    
+  </div>
+</div>
+<div class="block block-block" id="block-block-15">
+  <div class="blockinner">
+
+    <h2 class="title"> Новые описания </h2>
+    <div class="content">
+      <div class="item-list"><ul><li><a href="http://ann.sabonim.ru/module/smtp">smtp</a></li><li><a href="http://ann.sabonim.ru/module/wikitools">wikitools</a></li><li><a href="http://ann.sabonim.ru/module/fbconnect">fbconnect</a></li><li><a href="http://ann.sabonim.ru/module/taxonomy_quick_find">taxonomy_quick_find</a></li><li><a href="http://ann.sabonim.ru/module/taxonomy_multi_edit">taxonomy_multi_edit</a></li><li><a href="http://ann.sabonim.ru/module/content_profile">content_profile</a></li><li><a href="http://ann.sabonim.ru/module/comment_bonus_api">comment_bonus_api</a></li></ul></div><p><a href="http://ann.sabonim.ru/newmodule" title="25 последних описаний на одной странице">Подробнее</a></p>    </div>
+    
+  </div>
+</div>
+<div class="block block-block" id="block-block-4">
+  <div class="blockinner">
+
+    <h2 class="title"> Свежие записи </h2>
+    <div class="content">
+      <div class="item-list"><ul><li><a href="http://ann.sabonim.ru/web_analitics_instruments">Инструменты веб-аналитики, помогающие в оценке юзабилити</a></li><li><a href="http://ann.sabonim.ru/digitalconf">Конференция по инновационному маркетингу и брендингу Digitale</a></li><li><a href="http://ann.sabonim.ru/blog/drupal_7">Первая работа с Drupal 7</a></li><li><a href="http://ann.sabonim.ru/blog/mr_freeman_spryatal_v_svoih_rolikah_sekretnoe_poslanie">Mr. Freeman спрятал в своих роликах секретное послание</a></li><li><a href="http://ann.sabonim.ru/blog/chto_ya_dumau_po%20povodu_rossiyskogo_vuzovskogo_obrazovaniya">Что я думаю по поводу российского ВУЗовского образования, и почему я сама ушла из университета</a></li></ul></div>    </div>
+    
+  </div>
+</div>
+        </div> <!-- /sidebar-right -->
+          </div> <!-- /container -->
+     <div id="footer-wrapper"> <div id="footer-menu" class="clear-block"> <div class="block block-block" id="block-block-9">
+  <div class="blockinner">
+
+    
+    <div class="content">
+      <p> Спасибо, что зашли <img src="nabor_knopok_dlya_redaktora_bueditor_so_smailami_files/smile.gif" title="Улыбка" alt="Улыбка" class="smiley-content"> <a href="http://ann.sabonim.ru/contact" rel="nofollow">Связаться с автором</a>. </p>
+    </div>
+    
+  </div>
+</div>
+ </div> </div>     <div id="footer-region">
+       <div id="footer-left"> <div class="block block-block" id="block-block-11">
+  <div class="blockinner">
+
+    
+    <div class="content">
+      <!--LiveInternet logo--><a href="http://www.liveinternet.ru/click" target="_blank"><img src="nabor_knopok_dlya_redaktora_bueditor_so_smailami_files/logo.gif" alt="" title="LiveInternet: показано число посетителей за сегодня" height="15" border="0" width="88"></a><!--/LiveInternet-->    </div>
+    
+  </div>
+</div>
+ </div>                   <div id="footer">
+        Site by SaBoNim<p><a href="http://5thirtyone.com/grid-focus" title="Grid Focus by: Derek Punsalan">Grid Focus</a> theme by <a href="http://5thirtyone.com/">Derek Punsalan</a>, ported to <a href="http://drupal.org/">Drupal</a> by <a href="http://neemtree.com.au/">Neem Tree</a>.</p>
+      </div> <!-- /footer -->
+    </div> <!-- /footer-wrapper -->
+  </div> <!-- /page -->
+<script type="text/javascript" language="JavaScript" src="nabor_knopok_dlya_redaktora_bueditor_so_smailami_files/tab.js"></script><style type="text/css">.tdsfh{background: url('http://widget.reformal.ru/tmpl/images/feedback_tab.png');}* html .tdsfh{background-image: none; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://widget.reformal.ru/tmpl/images/feedback_tab.png');}.widsnjx {margin:0 auto; position:relative;}.widsnjx fieldset {padding:0; border:none; border:0px solid #000; margin:0;}.furjbqy {position:fixed; left:0; top:263px; z-index:5; width:22px; height:151px;}* html .furjbqy {position:absolute;}.furjbqy a {display:block; width:22px; height:151px; background:#000000;}.furjbqy a:hover {background:#000000;}.furjbqy img {border:0;}.furrghtd {position:fixed; right:1px; top:263px; z-index:5; width:22px; height:151px;}* html .furrghtd {position:absolute;}.furrghtd a {display:block; width:22px; height:151px; background:#000000;}.furrghtd a:hover {background:#000000;}.furrghtd img {border:0;}#poxupih {position:absolute; z-index:1001; width:689px;  top:0px; left:0px; font-size:11px; color:#3F4543; font-family: "Segoe UI", Arial, Tahoma, sans-serif;}.poxupih_top {width:689px; height:28px; background:transparent url(http://widget.reformal.ru/tmpl/images/popup_idea_top.png) 0 0 no-repeat;}.poxupih_bt {width:689px; height:28px; background:transparent url(http://widget.reformal.ru/tmpl/images/popup_idea_bt.png) 0 0 no-repeat;}.poxupih_center {width:689px; background:transparent url(http://widget.reformal.ru/tmpl/images/popup_idea_bg.png) 0 0 repeat-y;}.poxupih1 {margin: 0 20px; overflow:hidden; background:#efefef; padding:0px;}.fdsrrel {float:right; margin:-2px 5px 0 0;}.bvnmrte {padding: 15px 20px 20px 12px; _padding-left:1px; font-family: "Segoe UI", Arial, Tahoma, sans-serif; font-size:11px; color:#3F4543; }.poxupih1 .bvnmrte {padding-bottom:10px; padding-top:0px; background:none;}.gertuik {padding:0 8px 0 20px;}#poxupih #hretge {margin:8px 0px; height:96px; background: #fba11f url(http://widget.reformal.ru/tmpl/images/search_bg.gif) 0 0px no-repeat; position:relative;}#hretge form {padding: 10px 19px 0 18px; display:block !important;}#poxupih #bulbulh {width:462px; float:left;}#adihet {float:right;background: transparent url(http://widget.reformal.ru/tmpl/images/add_idea_go.gif) 0 0px no-repeat; border:none medium; width:132px; height:27px; float:right; margin-right:-3px; cursor:pointer;}#adihet:hover {background-position: 0 -27px;}.drop_right {background: transparent url(http://widget.reformal.ru/tmpl/images/q_right1.gif) 0% 0px no-repeat; float:right; display:block; width:8px; height:11px; margin-top:1px; font-size:0;}.drop_left {background: transparent url(http://widget.reformal.ru/tmpl/images/q_left1.gif) 0% 0px no-repeat; float:right; display:block; width:8px; height:11px; margin-top:1px;}.status_right {left:15px !important;  text-align:left; float:right; margin:0 -15px 0 0;}#poxupih  a {position:relative; z-index:10;}#poxupih .idea_green_top {height:1%;}.poxupih_top {_background-image:none; _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://widget.reformal.ru/tmpl/images/popup_idea_top.png');}.poxupih_bt {_background-image:none; _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://widget.reformal.ru/tmpl/images/popup_idea_bt.png');}.poxupih_center {_background-image:none; _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://widget.reformal.ru/tmpl/images/popup_idea_bg.png',sizingmethod='scale');}a.pokusijy {display:block; width:16px; height:16px; background: transparent url(http://widget.reformal.ru/tmpl/images/cancel.gif) 100% 0px no-repeat; float:right; position:relative; z-index:101;}a.pokusijy:hover {background-position: 100% 100%; cursor:pointer;}.i_prop {font-size:18px; color:#fff; padding: 0 0 5px 0;}#bulbulh {width:600px; padding: 2px 4px; color:#3F4543; font-family: "Segoe UI", Arial; font-size:16px; margin-bottom:5px;}#hdsfjfsr {background: transparent url(http://widget.reformal.ru/tmpl/images/search_go.gif) 0 0px no-repeat; border:none medium; width:97px; height:27px; float:right; margin-right:-3px; cursor:pointer;}#hdsfjfsr:hover {background-position: 0 -27px;}#poxupih .fdsrrel a {z-index:0;}</style><div class="furrghtd"><a href="javascript:MyOtziv.mo_show_box();" id="reformal_tab"><img src="nabor_knopok_dlya_redaktora_bueditor_so_smailami_files/transp.gif" alt="" style="border: 0;" class="tdsfh" height="151" width="22"></a></div><div style="position:absolute; display: none; top: 0px; left: 0px;" id="myotziv_box"><div class="widsnjx"><div id="poxupih"><div class="poxupih_top"></div><div class="poxupih_center"><div class="poxupih1"><div class="gertuik"><a class="pokusijy" title="закрыть" onclick="MyOtziv.mo_hide_box();"></a><div class="fdsrrel"><a href="http://reformal.ru/" id="reformal_logo" target="_blank"><img src="nabor_knopok_dlya_redaktora_bueditor_so_smailami_files/widget_logo.jpg" alt="" height="23" border="0" width="109"></a></div>Вот идеи для проекта SaBoNim. Вы можете добавить свою:)</div><div id="hretge"><form target="_blank" action="http://sabonim.reformal.ru/proj/" method="get"><input name="charset" value="utf-8" type="hidden"><fieldset><div class="i_prop">Я предлагаю вам...</div><input id="bulbulh" name="idea" type="text"><input value="" id="adihet" type="submit"></fieldset></form></div><div class="bvnmrte" style="height: 250px;" id="fthere"></div></div></div><div class="poxupih_bt"></div></div></div></div>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script><script src="nabor_knopok_dlya_redaktora_bueditor_so_smailami_files/ga.js" type="text/javascript"></script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-3642438-2");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+<!-- Yandex.Metrika counter -->
+<div style="display:none;"><script type="text/javascript">
+(function(w, c) {
+    (w[c] = w[c] || []).push(function() {
+        try {
+            w.yaCounter3623329 = new Ya.Metrika({id:3623329, enableAll: true, webvisor:true});
+        }
+        catch(e) { }
+    });
+})(window, "yandex_metrika_callbacks");
+</script></div>
+<script src="nabor_knopok_dlya_redaktora_bueditor_so_smailami_files/watch.js" type="text/javascript" defer="defer"></script>
+<noscript><div><img src="//mc.yandex.ru/watch/3623329" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+<!--Openstat-->
+<span id="openstat2202600"></span>
+<script type="text/javascript">
+var openstat = { counter: 2202600, next: openstat, track_links: "all" };
+(function(d, t, p) {
+var j = d.createElement(t); j.async = true; j.type = "text/javascript";
+j.src = ("https:" == p ? "https:" : "http:") + "//openstat.net/cnt.js";
+var s = d.getElementsByTagName(t)[0]; s.parentNode.insertBefore(j, s);
+})(document, "script", document.location.protocol);
+</script>
+<!--/Openstat-->
+
+<table class="editor-popup" id="bue-quickpop" style="position: absolute; display: none;"><tbody><tr style="display: none;" class="head even"><td class="title"></td><td class="close"><a>x</a></td></tr><tr class="body odd"><td colspan="2" class="cnt"></td></tr></tbody></table><table class="editor-popup" id="bue-dialog" style="position: absolute; display: none;"><tbody><tr class="head even"><td class="title"></td><td class="close"><a>x</a></td></tr><tr class="body odd"><td colspan="2" class="cnt"></td></tr></tbody></table></body></html>

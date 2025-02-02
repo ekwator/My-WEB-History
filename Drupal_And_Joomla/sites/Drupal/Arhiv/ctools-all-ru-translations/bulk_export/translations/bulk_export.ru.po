@@ -1,0 +1,76 @@
+# Russian translation of ctools (all releases)
+# Copyright (c) 2013 by the Russian translation team
+# Generated from files:
+#  ctools/bulk_export/bulk_export.module: n/a
+#  bulk_export.module,v 1.3.2.2 2010/07/16 20:38:01 merlinofchaos
+#  ctools/bulk_export/bulk_export.info: n/a
+#  bulk_export.info,v 1.2 2009/07/12 18:11:58 merlinofchaos
+#  ctools/bulk_export/bulk_export.js: n/a
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: ctools (all releases)\n"
+"POT-Creation-Date: 2013-05-29 14:25+0400\n"
+"PO-Revision-Date: 2011-05-22 00:22+0400\n"
+"Language-Team: Russian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=((((n%10)==1)&&((n%100)!=11))?(0):(((((n%10)>=2)&&((n%10)<=4))&&(((n%100)<10)||((n%100)>=20)))?(1):2));\n"
+
+#: bulk_export/bulk_export.module:178,178,178,163,163,162,162,178,177,158,158,237,240,241,241,246,246,163,246,158,246,158
+msgid "Module name"
+msgstr "Название модуля"
+
+#: bulk_export/bulk_export.module:179,179,179,164,164,163,163,179,178,159,159,238,241,242,242,247,247,164,247,159,247,159
+msgid "Enter the module name to export code to."
+msgstr "Введите имя модуля для экспорта кода."
+
+#: bulk_export/bulk_export.module:65,65,65,72,72,71,71,65,64,70,70,90,94,94,99,99,72,99,70,99,70
+msgid "Bulk export results"
+msgstr "Результат массовой операции"
+
+#: bulk_export/bulk_export.module:129,118,92,129,118,92,129,118,92,96,120,131,96,120,131,95,119,130,95,119,130,92,118,129,91,117,128,93,116,126,93,116,126,121,152,168,125,156,172,125,156,172,161,177,130,161,177,96,120,131,130,161,177,93,116,126,130,161,177,93,116,126
+msgid "Place this in @file"
+msgstr ""
+
+#: bulk_export/bulk_export.module:137,137,137,137,137,136,136,137,132,132,181,185,185,190,190,190,132,190,132
+msgid "There are no objects to be exported at this time."
+msgstr ""
+
+#: bulk_export/bulk_export.module:204,204,203,203,199,199,204,199,199
+msgid "There are no objects in your system that may be exported at this time."
+msgstr ""
+
+#: bulk_export/bulk_export.module:13,13,12,12,11,11,13,11,11
+msgid "use bulk exporter"
+msgstr ""
+
+#: bulk_export/bulk_export.module:25,25,25,31,31,30,30,25,24,29,29,25,25,31,25,29,25,29
+msgid "Bulk Exporter"
+msgstr ""
+
+#: bulk_export/bulk_export.module:26,26,26,32,32,31,31,26,25,30,30,26,26,32,26,30,26,30
+msgid "Bulk-export multiple CTools-handled data objects to code."
+msgstr ""
+
+#: bulk_export/bulk_export.info:0,0,0,0,0,0,0,0,0,0,0,0
+msgid "Bulk Export"
+msgstr ""
+
+#: bulk_export/bulk_export.info:0,0,0,0,0,0,0,0,0,0,0,0
+msgid "Performs bulk exporting of data objects known about by Chaos tools."
+msgstr ""
+
+#: bulk_export/bulk_export.module:14,14,14,14,13,14,14,14,14
+msgid "Access Bulk Exporter"
+msgstr ""
+
+#: bulk_export/bulk_export.module:15,15,15,15,14,15,15,15,15
+msgid "Export various system objects into code."
+msgstr ""
+
+#: bulk_export/bulk_export.js:0,0,0,0,0
+msgid "Exportables selected"
+msgstr ""
+

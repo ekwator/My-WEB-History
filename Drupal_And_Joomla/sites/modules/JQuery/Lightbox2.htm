@@ -1,0 +1,887 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<!-- saved from url=(0063)http://content-management-systems.info/drupal/project/lightbox2 -->
+<HTML dir=ltr lang=ru xml:lang="ru" 
+xmlns="http://www.w3.org/1999/xhtml"><HEAD><TITLE>Lightbox2</TITLE>
+<META content="text/html; charset=utf-8" http-equiv=Content-Type>
+<META name=language content=russian><LINK rel=stylesheet type=text/css 
+href="Lightbox2_files/css_b974166260af22a09c7796a0f7bcfb34.css" media=all>
+<META name=GENERATOR content="MSHTML 8.00.7601.17514"></HEAD>
+<BODY>
+<DIV id=head class=clearfloat>
+<DIV class=clearfloat>
+<DIV id=logo><SPAN id=sitename><A title=Друпал 
+href="http://content-management-systems.info/">Друпал</A></SPAN></DIV>
+<DIV id=banner-region>
+<DIV id=block-block-9 class="block block-block">
+<DIV class=content>
+<DIV style="WIDTH: 100%" id=cse>Loading</DIV>
+<SCRIPT type=text/javascript src="Lightbox2_files/jsapi"></SCRIPT>
+
+<SCRIPT type=text/javascript> 
+  google.load('search', '1');
+  google.setOnLoadCallback(function() {
+    var customSearchControl = new google.search.CustomSearchControl('016726315500636833286:36683ph3okq');
+    customSearchControl.setResultSetSize(google.search.Search.FILTERED_CSE_RESULTSET);
+    var options = new google.search.DrawOptions();
+    options.setAutoComplete(true);
+    customSearchControl.draw('cse', options);
+  }, true);
+</SCRIPT>
+<LINK rel=stylesheet type=text/css 
+href="Lightbox2_files/google-search.css"></DIV></DIV></DIV></DIV>
+<DIV id=navbar class=clearfloat>
+<DIV id=page-bar>
+<UL class=menu>
+  <LI class="leaf first"><A title="" 
+  href="http://content-management-systems.info/drupal/release">Версии</A></LI>
+  <LI class=leaf><A title="" 
+  href="http://content-management-systems.info/drupal/book">Книги</A></LI>
+  <LI class=leaf><A 
+  href="http://content-management-systems.info/drupal/video">Видео</A></LI>
+  <LI class=leaf><A title="" 
+  href="http://content-management-systems.info/drupal/project">Проекты</A></LI>
+  <LI class=leaf><A title="" 
+  href="http://content-management-systems.info/drupal/snippet">Сниппеты</A></LI>
+  <LI class=leaf><A title="" 
+  href="http://content-management-systems.info/drupal/article">Статьи</A></LI>
+  <LI class=leaf><A title="" 
+  href="http://content-management-systems.info/drupal/site">Сайты</A></LI>
+  <LI class=leaf><A title="" 
+  href="http://content-management-systems.info/civicrm">CiviCRM</A></LI>
+  <LI class=leaf><A title="" 
+  href="http://content-management-systems.info/drupal/screenshot">Скриншоты</A></LI>
+  <LI class=leaf><A title="" 
+  href="http://content-management-systems.info/drupal/forum">Форум</A></LI>
+  <LI class="leaf last"><A title="" 
+  href="http://content-management-systems.info/drupal/aggregator">Планета</A></LI></UL></DIV></DIV></DIV>
+<DIV id=page class=clearfloat>
+<DIV id=content class="main-content with-sidebar">
+<DIV id=tabs-wrapper class=clear-block>
+<H1 class=with-tabs>Lightbox2</H1>
+<UL class="tabs primary">
+  <LI class=active><A class=active 
+  href="http://content-management-systems.info/drupal/project/lightbox2">Просмотр</A></LI>
+  <LI><A 
+  href="http://content-management-systems.info/node/1530/talk">Комментарии</A></LI></UL></DIV>
+<DIV class="node clear-block">
+<DIV class=content>
+<P>Модуль <A href="http://drupal.org/project/lightbox2">Lightbox2</A> 
+используется для показа изображений поверх текущей страницы. Модуль прост в 
+установке и работает во всех современных браузерах. Он может работать в режиме 
+Lightbox2 Lite, при котором библиотека jQuery не используется — в таком режиме 
+меньше вероятность того, что он будет с чем-то конфликтовать. Показ изображений 
+поверх страницы позволяет избежать ограничений, связанных с макетом, особенно 
+его шириной и оставить пользователя на текущей странице. Изображение будет 
+показываться поверх страницы в том случае, если нажать мышкой на его 
+миниатюру.</P>
+<P>Вторая версия (Lightbox2) имеет несколько преимуществ перед первой версией 
+(Lightbox). Отметьте: не все эти возможности будут доступны, если модуль 
+работает в режиме Lightbox2 Lite.</P>
+<UL>
+  <LI>Наборы изображений: группировка похожих изображений и удобная навигация по 
+  ним</LI>
+  <LI>Смена изображений: автоматическая смена изображений группы, включая 
+  возможность запуска/остановки слайдшоу и кнопок перехода к предыдущему и 
+  следующему изображениям</LI>
+  <LI>Поддержка содержания: использование фильтров и возможность показа 
+  HTML-содержания в lightbox.</LI>
+  <LI>Поддержка видео: возможность показа видео в lightbox</LI>
+  <LI>Визуальные эффекты: красивая предзагрузка и открытие изображнения</LI>
+  <LI>Клавиатурные сочетания: удобное использование клавиатурных сочетаний для 
+  переключения между изображениями, запуском/остановкой слайдшоу и т.д.</LI>
+  <LI>Возможность масштабирования: большие изображения будут уменьшены до 
+  размеров, которые позволяют им поместиться в окне браузера. В этом случае 
+  будет доступна кнопка, которая позволяет увидеть изображение в оригинальном 
+  размере</LI>
+  <LI>Автоматическое определение изображений: автоматическое переформатирование 
+  миниатюр, которое позволяет не добавлять запись rel="lightbox" к каждой ссылке 
+  на изображение. Эта возможность совместима с модулями Image, Inline, Flickr, 
+  Image Assist и ImageField. Также возможно использование своих CSS-классов, 
+  которые будут приводить к показу изображения с помощью модуля Lightbox2</LI>
+  <LI>Поддержка ImageCache: добавление форматтера поля Lightbox2 для ImageFields 
+  и использовании его в видах</LI>
+  <LI>Ссылка на страницу изображения: ссылка на страницу изображения может быть 
+  доступна из слоя lightbox</LI>
+  <LI>Возможность исключения страниц: исключение определённых страниц из области 
+  действия эффектов Lightbox2</LI>
+  <LI>Поддержка формы входа в аккаунт: возможность изменять все ссылки и вывод 
+  формы входа в аккаунт в накладываемом слое</LI>
+  <LI>Настройка оформления и анимации: настройка порядка и скорости анимации, 
+  включая настройку цветов, размеров границ и тонирования накладываемого 
+  слоя</LI>
+  <LI>Поддержка Gallery 2: поддержка изображений Gallery 2 через модуль 
+  Gallery</LI></UL>
+<H2>Использование</H2>
+<H3>Базовое добавление</H3>
+<P>Добавьте атрибут rel="lightbox" к любой ссылке и включите lightbox. 
+Примеры:</P>
+<P></P>
+<DIV class=codeblock><CODE>&lt;a href="image-1.jpg" rel="lightbox"&gt;image 
+#1&lt;/a&gt;<BR>&lt;a href="image-1.jpg" rel="lightbox[][подпись к 
+изображению]"&gt;image #1&lt;/a&gt;</CODE></DIV>
+<P></P>
+<P>Дополнительно: для показа подписи изображения, можно использовать либо 
+атрибут title, либо разместите второй набор [] в атрибуте rel.</P>
+<H3>Группировка изображений</H3>
+<P>Если у вас есть набор похожих изображений и вы хотите их сгруппировать, 
+выполните те же действия, что в параграфе «Базовое добавление», но дополнительно 
+включите название группы в квадратные скобки в атрибуте rel. Пример:</P>
+<P></P>
+<DIV class=codeblock><CODE>&lt;a href="images/image-1.jpg" 
+rel="lightbox[путешествие]"&gt;image #1&lt;/a&gt;<BR>&lt;a 
+href="images/image-2.jpg" rel="lightbox[путешествие][подпись к изображению 
+2]"&gt;image#2&lt;/a&gt;<BR>&lt;a href="images/image-3.jpg" 
+rel="lightbox[путешествие][подпись к изображению 
+3]"&gt;image#3&lt;/a&gt;</CODE></DIV>
+<P></P>
+<P>Ограничений на количество наборов изображений на странице или количество 
+изображений в наборе нет.</P>
+<P>Если у вас есть набор изображений, которые вы хотите сгруппировать, но 
+хотите, чтобы только одно из этих изображений было видно на странице, вы можете 
+назначить класс lightbox_hide_image, чтобы скрыть другие изображения. 
+Пример:</P>
+<P></P>
+<DIV class=codeblock><CODE>&lt;a href="images/image-1.jpg" 
+rel="lightbox[путешествие]"&gt;image #1&lt;/a&gt;<BR>&lt;a 
+href="images/image-2.jpg" rel="lightbox[путешествие]" 
+class="lightbox_hide_image"&gt;image #2&lt;/a&gt;<BR>&lt;a 
+href="images/image-3.jpg" rel="lightbox[путешествие][подпись к изображению 3]" 
+class="lightbox_hide_image"&gt;image #3&lt;/a&gt;</CODE></DIV>
+<P></P>
+<H3>Слайдшоу</H3>
+<P>Это похоже на группировку, которая описана выше. Разница только в том, что в 
+атрибут rel нужно добавить не lightbox, а lightshow. Используя пример выше, мы 
+заставим изображения сменять друг друга:</P>
+<P></P>
+<DIV class=codeblock><CODE>&lt;a href="images/image-1.jpg" 
+rel="lightshow[путешествие]"&gt;image #1&lt;/a&gt;<BR>&lt;a 
+href="images/image-2.jpg" rel="lightshow[путешествие][подпись к изображению 
+2]"&gt;image #2&lt;/a&gt;<BR>&lt;a href="images/image-3.jpg" 
+rel="lightshow[путешествие][подпись к изображению 3]"&gt;image 
+#3&lt;/a&gt;</CODE></DIV>
+<P></P>
+<H3>Видео</H3>
+<P>В lightbox можно показывать видеоклипы. Для этого, в атрибут rel нужно 
+добавить запись lightvideo. Возможно также группировать видео и управлять 
+размером lightbox, установив свойства width и height. Свойства могут быть 
+настроены как lightvideo[group|width:300px;height:200px;] и 
+lightvideo[|width:300px;height:200px;}{подпись к видео]. Свойства всегда 
+записываются в формате property: value; (обратите внимание на закрывающее 
+двоеточие). Если свойства не установлены, применяются стандартные значения — 
+400px по ширине и по высоте. Посмотрите примеры ниже.</P>
+<P>Базовый пример:</P>
+<P></P>
+<DIV class=codeblock><CODE>&lt;a 
+href="http://video.google.com/videoplay?docid=1811233136844420765" 
+rel="lightvideo"&gt;Google video example - default size&lt;/a&gt;</CODE></DIV>
+<P></P>
+<P>Базовый пример с подписью:</P>
+<P></P>
+<DIV class=codeblock><CODE>&lt;a 
+href="http://video.google.com/videoplay?docid=1811233136844420765" 
+rel="lightvideo[][подпись к видео]"&gt;Google video example - default 
+size&lt;/a&gt;</CODE></DIV>
+<P></P>
+<P>Пример группировки:</P>
+<P></P>
+<DIV class=codeblock><CODE>&lt;a 
+href="http://video.google.com/videoplay?docid=29023498723974239479" 
+rel="lightvideo[group][подпись к видео]"&gt;Grouped example 1&lt;/a&gt;<BR>&lt;a 
+href="http://video.google.com/videoplay?docid=1811233136844420765" 
+rel="lightvideo[group][подпись к видео]"&gt;Grouped example 
+2&lt;/a&gt;</CODE></DIV>
+<P></P>
+<P>Пример с управлением размером:</P>
+<P></P>
+<DIV class=codeblock><CODE>&lt;a 
+href="http://video.google.com/videoplay?docid=1811233136844420765" 
+rel="lightvideo[|width:400px;height:300px;][подпись к видео]"&gt;Google video 
+example - custom size&lt;/a&gt;</CODE></DIV>
+<P></P>
+<P><STRONG>Поддерживаемые форматы</STRONG></P>
+<P>Поддерживается видео в форматах asx, wmv, mov и swf. Кроме этого, 
+поддерживаются различные видеосервисы, включая YouTube и Google Video.</P>
+<H3>Содержание</H3>
+<P>Возможно показывать содержание страниц в lightbox, используя iframe. В этом 
+случае, в артибут rel следует записать lightframe. Возможна группировка пунктов 
+(например <CODE>lightframe[поиск]</CODE>), а также управление дополнительными 
+параметрами iframe. Можно установить свойства width, height и scrolling. 
+Свойства отделяются от названия группы вертикальной чертой «|», например 
+<CODE>lightframe[поиск|width:100px;]</CODE> и 
+<CODE>lightframe[поиск|width:120px][подпись]</CODE>. Если группировка не 
+используется, то вертикальная черта всё равно должна присутствовать — 
+lightframe[|width:100px;]. Свойства должны записываться в формате property: 
+value; (обратите внимание на закрывающее двоеточие). Если свойства iframe не 
+установлены, то применяются стандартные значения — 400px по ширине и по высоте. 
+Посмотрите примеры ниже.</P>
+<P>Базовый пример:</P>
+<P></P>
+<DIV class=codeblock><CODE>&lt;a href="http://www.google.com" 
+rel="lightframe[][Search Google]"&gt;Search google&lt;/a&gt;</CODE></DIV>
+<P></P>
+<P>Пример группировки:</P>
+<P></P>
+<DIV class=codeblock><CODE>&lt;a href="http://www.google.com" 
+rel="lightframe[search]"&gt;Search google&lt;/a&gt;<BR>&lt;a 
+href="http://www.yahoo.com" rel="lightframe[search][Search Yahoo]"&gt;Search 
+yahoo&lt;/a&gt;</CODE></DIV>
+<P></P>
+<P>Пример с управлением размером:</P>
+<P></P>
+<DIV class=codeblock><CODE>&lt;a href="http://www.google.com" 
+rel="lightframe[|width:400px; height:300px; scrolling: auto;]"&gt;Search 
+google&lt;/a&gt;</CODE></DIV>
+<P></P>
+<P>Пример группировки с управлением размером:</P>
+<P></P>
+<DIV class=codeblock><CODE>&lt;a href="http://www.google.com" 
+rel="lightframe[search|width:400px; height:300px; scrolling: auto;]"&gt;Search 
+google&lt;/a&gt;<BR>&lt;a href="http://www.yahoo.com" 
+rel="lightframe[search|width:400px; height:300px;][Search Yahoo]"&gt;Search 
+yahoo&lt;/a&gt;</CODE></DIV>
+<P></P>
+<H3>Встроенное содержание</H3>
+<P>Возможно показывать HTML-сниппеты в lightbox, которые находятся на домене 
+сайта. В этом случае атрибут rel должен иметь запись lightmodal. Опять же, можно 
+группировать содержание (например <CODE>lightmodal[search]</CODE>), но в 
+дополнение к этому, возможно управлять свойствами inline/modal. Можно установить 
+свойства width, height и scrolling для встроенного содержания. Свойства 
+отделяются от группы вертикальной чертой «|», например 
+<CODE>lightmodal[search|width:100px;]</CODE> и 
+<CODE>lightmodal[search|width:100px;][подпись]</CODE>. Если группировка не 
+используется, то вертикальная черта всё равно должна присутствовать — 
+lightmodal[|width:100px;]. Свойства должны записываться в формате property: 
+value; (обратите внимание на закрывающее двоеточие). Если свойства не 
+установлены, то применяются стандартные значения — 400px по ширине и по высоте. 
+Посмотрите примеры ниже.</P>
+<P>Базовый пример:</P>
+<P></P>
+<DIV class=codeblock><CODE>&lt;a href="search.php" 
+rel="lightmodal"&gt;Search&lt;/a&gt;</CODE></DIV>
+<P></P>
+<P>Базовый пример с подписью:</P>
+<P></P>
+<DIV class=codeblock><CODE>&lt;a href="search.php" rel="lightmodal[][my 
+caption]"&gt;Search&lt;/a&gt;</CODE></DIV>
+<P></P>
+<P>Пример группировки:</P>
+<P></P>
+<DIV class=codeblock><CODE>&lt;a href="search.php" 
+rel="lightmodal[search]"&gt;Search&lt;/a&gt;<BR>&lt;a href="search.php?status=1" 
+rel="lightmodal[search][published]"&gt;Search published 
+content&lt;/a&gt;</CODE></DIV>
+<P></P>
+<P>Пример с управлением размером:</P>
+<P></P>
+<DIV class=codeblock><CODE>&lt;a href="search.php" rel="lightmodal[|width:400px; 
+height:300px; scrolling: auto;]"&gt;Search&lt;/a&gt;</CODE></DIV>
+<P></P>
+<P>Пример группировки с управлением размером:</P>
+<P></P>
+<DIV class=codeblock><CODE>&lt;a href="search.php" 
+rel="lightmodal[search|width:400px; height:300px; scrolling: 
+auto;]"&gt;Search&lt;/a&gt;<BR>&lt;a href="search.php?status=1" 
+rel="lightmodal[search|width:400px; height:300px;][Search published]"&gt;Search 
+published content&lt;/a&gt;<BR>&lt;a href="search.php?status=0" 
+rel="lightmodal[search|width:400px; height:300px;][Search 
+Unpublished]"&gt;Search unpublished content&lt;/a&gt;</CODE></DIV>
+<P></P>
+<H2>Клавиатурные сочетания</H2>
+<P>Клавиатурные сочетания можно установить на странице настройки модуля. 
+Стандартно, используются следующие сочетания:</P>
+<UL>
+  <LI>Закрыть — x, o, c или Esc</LI>
+  <LI>Предыдущее изображение — p или стрелка влево</LI>
+  <LI>Следующее изображение — n или стрелка вправо</LI>
+  <LI>Масштабирование — z (в режиме слайдшоу недоступно)</LI>
+  <LI>Запуск/остановка — пробел (доступно в режиме слайдшоу)</LI></UL>
+<P>Не все сочетания работают в браузере Опера, например z для масштабирования и 
+пробел для остановки/запуска слайдшоу. Это можно изменить в параметрах 
+браузера.</P>
+<DIV class=related>Ультратонкие <A href="http://www.expopiter.ru/laytboksy" 
+target=_blank>лайтбоксы</A> в Петербурге. Лайтбоксы дешево. </DIV></DIV>
+<DIV class=taxonomy><SPAN style="PADDING-LEFT: 2px">Метки:</SPAN> 
+<DIV class="terms terms-inline">
+<UL class="links inline">
+  <LI class="taxonomy_term_35 first"><A title="" 
+  href="http://content-management-systems.info/taxonomy/term/35" 
+  rel=tag>&nbsp;&nbsp;&nbsp;Всплывающая форма входа</A></LI>
+  <LI class=taxonomy_term_50><A title="" 
+  href="http://content-management-systems.info/taxonomy/term/50" 
+  rel=tag>&nbsp;&nbsp;&nbsp;Изображения</A></LI>
+  <LI class="taxonomy_term_61 last"><A title="" 
+  href="http://content-management-systems.info/taxonomy/term/61" 
+  rel=tag>&nbsp;&nbsp;&nbsp;Яваскрипт</A></LI></UL></DIV></DIV>
+<DIV>
+<DIV style="MARGIN: 5px 0px 0px -3px; FLOAT: left"></DIV>
+<SCRIPT type=text/javascript charset=utf-8 
+src="Lightbox2_files/share.js"></SCRIPT>
+
+<DIV class=yashare-auto-init 
+data-yashareQuickServices="yaru,vkontakte,facebook,twitter,odnoklassniki,moimir,lj,moikrug" 
+data-yashareType="button" data-yashareL10n="ru"></DIV></DIV></DIV></DIV>
+<DIV id=sidebar>
+<DIV id=block-jquerymenu-2 class="block block-jquerymenu">
+<H3>Документация</H3>
+<DIV class=content><!--[if IE]>
+<DIV class=ie><![endif]-->
+<UL class="menu jquerymenu">
+  <LI class="parent closed"><SPAN class="parent closed"></SPAN><A 
+  href="http://content-management-systems.info/drupal">Общая информация</A>
+  <UL>
+    <LI class="parent closed"><SPAN class="parent closed"></SPAN><A 
+    href="http://content-management-systems.info/node/172">О проекте</A>
+    <UL>
+      <LI class="parent closed"><SPAN class="parent closed"></SPAN><A 
+      href="http://content-management-systems.info/node/196">Выход версий</A>
+      <UL>
+        <LI><A title="Цикл выпуска версий" 
+        href="http://content-management-systems.info/node/3958">Цикл выпуска 
+        версий</A></LI>
+        <LI><A title=CHANGELOG.txt 
+        href="http://content-management-systems.info/node/3640">CHANGELOG.txt</A></LI></UL></LI>
+      <LI><A href="http://content-management-systems.info/node/173">Команда 
+      безопасности</A></LI>
+      <LI><A href="http://content-management-systems.info/node/176">Миссия и 
+      принципы</A></LI>
+      <LI class="parent closed"><SPAN class="parent closed"></SPAN><A 
+      href="http://content-management-systems.info/drupal/terminology">Терминология</A>
+      <UL>
+        <LI><A href="http://content-management-systems.info/node/193">Типы 
+        документов</A></LI>
+        <LI><A href="http://content-management-systems.info/node/191">Адреса 
+        страниц</A></LI></UL></LI>
+      <LI><A title="Правила использования торговой марки и логотипа Drupal" 
+      href="http://content-management-systems.info/drupal/trademark">Торговая 
+      марка</A></LI>
+      <LI><A href="http://content-management-systems.info/node/179">Удобство и 
+      поддержка</A></LI>
+      <LI><A href="http://content-management-systems.info/node/174">Эмблема и 
+      логотип</A></LI>
+      <LI><A title=Награды 
+      href="http://content-management-systems.info/drupal/award">Награды</A></LI></UL></LI>
+    <LI class="parent closed"><SPAN class="parent closed"></SPAN><A 
+    href="http://content-management-systems.info/drupal/association">Ассоциация</A>
+    <UL>
+      <LI><A title="" 
+      href="http://content-management-systems.info/drupal/association/news">Новости</A></LI>
+      <LI><A title=Руководство 
+      href="http://content-management-systems.info/node/5136">Руководство</A></LI>
+      <LI><A title=Комитеты 
+      href="http://content-management-systems.info/node/5137">Комитеты</A></LI>
+      <LI><A title=Сотрудничество 
+      href="http://content-management-systems.info/node/5138">Сотрудничество</A></LI>
+      <LI><A title=Отчётность 
+      href="http://content-management-systems.info/node/5139">Отчётность</A></LI>
+      <LI><A title=Предыстория 
+      href="http://content-management-systems.info/node/5140">Предыстория</A></LI></UL></LI>
+    <LI class="parent closed"><SPAN class="parent closed"></SPAN><A 
+    href="http://content-management-systems.info/node/180">Сообщество</A>
+    <UL>
+      <LI class="parent closed"><SPAN class="parent closed"></SPAN><A 
+      title=drupal.org 
+      href="http://content-management-systems.info/node/2892">drupal.org</A>
+      <UL>
+        <LI><A title="Planet Drupal" 
+        href="http://content-management-systems.info/node/245">Планета</A></LI>
+        <LI><A 
+        href="http://content-management-systems.info/node/189">Ленты</A></LI></UL></LI>
+      <LI><A href="http://content-management-systems.info/node/177">Встречи 
+      друпаллеров</A></LI>
+      <LI class="parent closed"><SPAN class="parent closed"></SPAN><A 
+      href="http://content-management-systems.info/node/181">Участие в 
+      проекте</A>
+      <UL>
+        <LI><A href="http://content-management-systems.info/node/183">Внесение 
+        изменений</A></LI>
+        <LI><A href="http://content-management-systems.info/node/1045">Вопросы 
+        на форумах</A></LI>
+        <LI><A href="http://content-management-systems.info/node/182">Новые 
+        пользователи</A></LI></UL></LI></UL></LI>
+    <LI class="parent closed"><SPAN class="parent closed"></SPAN><A 
+    href="http://content-management-systems.info/node/184">Возможности</A>
+    <UL>
+      <LI><A 
+      href="http://content-management-systems.info/node/186">Возможности</A></LI>
+      <LI><A 
+      href="http://content-management-systems.info/node/187">Совместимость</A></LI>
+      <LI><SPAN></SPAN><A title=Сайты 
+      href="http://content-management-systems.info/node/580">Сайты</A></LI></UL></LI>
+    <LI><A 
+    href="http://content-management-systems.info/node/216">Обучение</A></LI></UL></LI>
+  <LI class="parent closed"><SPAN class="parent closed"></SPAN><A 
+  href="http://content-management-systems.info/node/1">Установка и 
+обновление</A>
+  <UL>
+    <LI class="parent closed"><SPAN class="parent closed"></SPAN><A title="" 
+    href="http://content-management-systems.info/node/2">Локальный сервер</A>
+    <UL>
+      <LI><A href="http://content-management-systems.info/node/4">Папка 
+      сайта</A></LI>
+      <LI><A href="http://content-management-systems.info/node/5">База 
+      данных</A></LI></UL></LI>
+    <LI class="parent closed"><SPAN class="parent closed"></SPAN><A title="" 
+    href="http://content-management-systems.info/node/3">Установка системы</A>
+    <UL>
+      <LI><A title="Установка Друпала 7" 
+      href="http://content-management-systems.info/drupal/install/7">Друпал 
+      7</A></LI>
+      <LI><A title="" 
+      href="http://content-management-systems.info/drupal/install/6">Друпал 
+      6</A></LI>
+      <LI><A title="" 
+      href="http://content-management-systems.info/drupal/upgrade">Обновление</A></LI></UL></LI>
+    <LI class="parent closed"><SPAN class="parent closed"></SPAN><A 
+    href="http://content-management-systems.info/node/80">Установка модулей</A>
+    <UL>
+      <LI><A title="" 
+      href="http://content-management-systems.info/node/1078">Обновление</A></LI></UL></LI>
+    <LI class="parent closed"><SPAN class="parent closed"></SPAN><A 
+    href="http://content-management-systems.info/node/84">Установка тем</A>
+    <UL>
+      <LI><A title="" 
+      href="http://content-management-systems.info/node/2896">Обновление</A></LI></UL></LI></UL></LI>
+  <LI class="parent closed"><SPAN class="parent closed"></SPAN><A 
+  href="http://content-management-systems.info/node/205">Модули и темы</A>
+  <UL>
+    <LI><A title="Стандартные модули" 
+    href="http://content-management-systems.info/node/669">Стандартные 
+    модули</A></LI>
+    <LI><A title="" 
+    href="http://content-management-systems.info/node/214">Стандартные 
+    темы</A></LI>
+    <LI class="parent closed"><SPAN class="parent closed"></SPAN><A 
+    title="Дополнительные модули" 
+    href="http://content-management-systems.info/node/3780">Дополнительные 
+    модули</A>
+    <UL>
+      <LI class="parent closed"><SPAN class="parent closed"></SPAN><A 
+      title=Views 
+      href="http://content-management-systems.info/drupal/project/views">Views</A>
+      <UL>
+        <LI class="parent closed"><SPAN class="parent closed"></SPAN><A 
+        title="Views 2. Введение" 
+        href="http://content-management-systems.info/node/3506">Views 2</A>
+        <UL>
+          <LI><A 
+          title="Views. 1.1. Создание страницы со списком пользователей по ролям" 
+          href="http://content-management-systems.info/node/3521">Создание 
+          страницы</A></LI>
+          <LI><A title="Views. 1.2. Создание блока со списком новых статей" 
+          href="http://content-management-systems.info/node/3520">Создание 
+          блока</A></LI>
+          <LI><A title="Views. 1.3. Создание ленты сообщений пользователей" 
+          href="http://content-management-systems.info/node/3519">Создание 
+          ленты</A></LI>
+          <LI><A 
+          title="Views. 1.4. Создание блока с новыми записями пользователя" 
+          href="http://content-management-systems.info/node/3518">Блок с 
+          аргументами</A></LI>
+          <LI><A title="Блок и страница аватаров новых пользователей" 
+          href="http://content-management-systems.info/node/4457">Аватары 
+          пользователей</A></LI>
+          <LI><A title="Блок и страница онлайн пользователей" 
+          href="http://content-management-systems.info/node/4458">Сейчас на 
+          сайте</A></LI></UL></LI>
+        <LI class="parent closed"><SPAN class="parent closed"></SPAN><A 
+        title="Views 1. Справочник для начинающих" 
+        href="http://content-management-systems.info/node/211">Views 1</A>
+        <UL>
+          <LI><A title="20 шагов с модулем Views" 
+          href="http://content-management-systems.info/node/200">20 шагов с 
+          Views</A></LI></UL></LI></UL></LI>
+      <LI><A title=Ubercart 
+      href="http://content-management-systems.info/drupal/project/ubercart">Ubercart</A></LI>
+      <LI class="parent closed"><SPAN class="parent closed"></SPAN><A 
+      title="Алфавитный указатель" 
+      href="http://content-management-systems.info/node/3652">Алфавитный 
+      указатель</A>
+      <UL>
+        <LI><A title="" 
+        href="http://content-management-systems.info/drupal/project/a">A</A></LI>
+        <LI><A title="" 
+        href="http://content-management-systems.info/drupal/project/b">B</A></LI>
+        <LI><A title="" 
+        href="http://content-management-systems.info/drupal/project/c">C</A></LI>
+        <LI><A title="" 
+        href="http://content-management-systems.info/drupal/project/d">D</A></LI>
+        <LI><A title="" 
+        href="http://content-management-systems.info/drupal/project/e">E</A></LI>
+        <LI><A title="" 
+        href="http://content-management-systems.info/drupal/project/f">F</A></LI>
+        <LI><A title="" 
+        href="http://content-management-systems.info/drupal/project/g">G</A></LI>
+        <LI><A title="" 
+        href="http://content-management-systems.info/drupal/project/h">H</A></LI>
+        <LI><A title="" 
+        href="http://content-management-systems.info/drupal/project/i">I</A></LI>
+        <LI><A title="" 
+        href="http://content-management-systems.info/drupal/project/j">J</A></LI>
+        <LI><A title="" 
+        href="http://content-management-systems.info/drupal/project/k">K</A></LI>
+        <LI><A title="" 
+        href="http://content-management-systems.info/drupal/project/l">L</A></LI>
+        <LI><A title="" 
+        href="http://content-management-systems.info/drupal/project/m">M</A></LI>
+        <LI><A title="" 
+        href="http://content-management-systems.info/drupal/project/n">N</A></LI>
+        <LI><A title="" 
+        href="http://content-management-systems.info/drupal/project/o">O</A></LI>
+        <LI><A title="" 
+        href="http://content-management-systems.info/drupal/project/p">P</A></LI>
+        <LI><A title="" 
+        href="http://content-management-systems.info/drupal/project/q">Q</A></LI>
+        <LI><A title="" 
+        href="http://content-management-systems.info/drupal/project/r">R</A></LI>
+        <LI><A title="" 
+        href="http://content-management-systems.info/drupal/project/s">S</A></LI>
+        <LI><A title="" 
+        href="http://content-management-systems.info/drupal/project/t">T</A></LI>
+        <LI><A title="" 
+        href="http://content-management-systems.info/drupal/project/u">U</A></LI>
+        <LI><A title="" 
+        href="http://content-management-systems.info/drupal/project/v">V</A></LI>
+        <LI><A title="" 
+        href="http://content-management-systems.info/drupal/project/w">W</A></LI>
+        <LI><A title="" 
+        href="http://content-management-systems.info/drupal/project/x">X</A></LI>
+        <LI><A title="" 
+        href="http://content-management-systems.info/drupal/project/y">Y</A></LI>
+        <LI><A title="" 
+        href="http://content-management-systems.info/drupal/project/z">Z</A></LI></UL></LI></UL></LI>
+    <LI><A title="" 
+    href="http://content-management-systems.info/node/1157">Дополнительные 
+    темы</A></LI></UL></LI>
+  <LI class="parent closed"><SPAN class="parent closed"></SPAN><A title="" 
+  href="http://content-management-systems.info/drupal/sitebuilding">Создание 
+  сайта</A>
+  <UL>
+    <LI class="parent closed"><SPAN class="parent closed"></SPAN><A 
+    title="Блоки информации" 
+    href="http://content-management-systems.info/node/883">Блоки информации</A>
+    <UL>
+      <LI><A title="Друпал 6" 
+      href="http://content-management-systems.info/node/2898">Друпал 
+    6</A></LI></UL></LI>
+    <LI class="parent closed"><SPAN class="parent closed"></SPAN><A 
+    href="http://content-management-systems.info/node/122">Настройка сайта</A>
+    <UL>
+      <LI><A title="Аватары пользователей" 
+      href="http://content-management-systems.info/node/896">Аватары 
+      пользователей</A></LI>
+      <LI><A title="Альтернативные адреса" 
+      href="http://content-management-systems.info/node/125">Альтернативные 
+      адреса</A></LI>
+      <LI><A title="Контактная форма" 
+      href="http://content-management-systems.info/node/809">Контактная 
+      форма</A></LI>
+      <LI><A title="Посещения страниц" 
+      href="http://content-management-systems.info/node/895">Посещения 
+      страниц</A></LI>
+      <LI><A title="Счётчик просмотров" 
+      href="http://content-management-systems.info/node/884">Счётчик 
+      просмотров</A></LI></UL></LI>
+    <LI class="parent closed"><SPAN class="parent closed"></SPAN><A 
+    href="http://content-management-systems.info/node/812">Работа с 
+    документами</A>
+    <UL>
+      <LI><A title="Адреса документов" 
+      href="http://content-management-systems.info/node/813">Адреса 
+      документов</A></LI>
+      <LI><A title="Версии документа" 
+      href="http://content-management-systems.info/node/2894">Версии 
+      документа</A></LI>
+      <LI><A title=Документооборот 
+      href="http://content-management-systems.info/node/2890">Документооборот</A></LI>
+      <LI><A title=Комментарии 
+      href="http://content-management-systems.info/node/814">Комментарии</A></LI>
+      <LI><A title="Перевод документа" 
+      href="http://content-management-systems.info/node/2895">Перевод 
+      документа</A></LI>
+      <LI><A title="Прикрепление файлов" 
+      href="http://content-management-systems.info/node/815">Прикрепление 
+      файлов</A></LI>
+      <LI><A title="Ссылка в меню" 
+      href="http://content-management-systems.info/node/2889">Ссылка в 
+      меню</A></LI></UL></LI>
+    <LI class="parent closed"><SPAN class="parent closed"></SPAN><A 
+    href="http://content-management-systems.info/node/910">Создание меню</A>
+    <UL>
+      <LI><A title="Включение блока" 
+      href="http://content-management-systems.info/node/914">Включение 
+      блока</A></LI>
+      <LI><A title="Добавление меню" 
+      href="http://content-management-systems.info/node/912">Добавление 
+      меню</A></LI>
+      <LI><A title="Добавление пунктов" 
+      href="http://content-management-systems.info/node/913">Добавление 
+      пунктов</A></LI>
+      <LI><A title="Общая настройка" 
+      href="http://content-management-systems.info/node/911">Общая 
+      настройка</A></LI>
+      <LI><A title="Работа с пунктами" 
+      href="http://content-management-systems.info/node/915">Работа с 
+      пунктами</A></LI></UL></LI>
+    <LI class="parent closed"><SPAN class="parent closed"></SPAN><A 
+    title="Настройка агрегатора" 
+    href="http://content-management-systems.info/node/611">Настройка 
+    агрегатора</A>
+    <UL>
+      <LI><A href="http://content-management-systems.info/node/610">Ленты 
+      новостей</A></LI>
+      <LI><A title="Добавление категории" 
+      href="http://content-management-systems.info/node/612">Добавление 
+      категории</A></LI>
+      <LI><A title="Добавление ленты" 
+      href="http://content-management-systems.info/node/613">Добавление 
+      ленты</A></LI>
+      <LI><A title="Перемещение пунктов" 
+      href="http://content-management-systems.info/node/614">Перемещение 
+      пунктов</A></LI>
+      <LI><A title="Публикация лент" 
+      href="http://content-management-systems.info/node/892">Публикация 
+      лент</A></LI></UL></LI>
+    <LI class="parent closed"><SPAN class="parent closed"></SPAN><A 
+    href="http://content-management-systems.info/node/853">Форумы</A>
+    <UL>
+      <LI><A title="Добавление контейнера" 
+      href="http://content-management-systems.info/node/855">Добавление 
+      контейнера</A></LI>
+      <LI><A title="Добавление форума" 
+      href="http://content-management-systems.info/node/854">Добавление 
+      форума</A></LI></UL></LI>
+    <LI><A title="Drupal Gardens" 
+    href="http://content-management-systems.info/drupal/service/drupal-gardens">Drupal 
+    Gardens</A></LI>
+    <LI><A title="" 
+    href="http://content-management-systems.info/drupal/distribution">Профили 
+    установок</A></LI></UL></LI>
+  <LI class="parent closed"><SPAN class="parent closed"></SPAN><A 
+  href="http://content-management-systems.info/drupal/hosting/requirements">Перенос 
+  на хостинг</A>
+  <UL>
+    <LI class="parent closed"><SPAN class="parent closed"></SPAN><A 
+    href="http://content-management-systems.info/node/197">Перенос базы</A>
+    <UL>
+      <LI><A 
+      href="http://content-management-systems.info/node/89">Экспорт</A></LI>
+      <LI><A 
+      href="http://content-management-systems.info/node/91">Импорт</A></LI></UL></LI>
+    <LI><A href="http://content-management-systems.info/node/90">Перенос 
+    файлов</A></LI>
+    <LI><A href="http://content-management-systems.info/node/82">Изменение 
+    настроек</A></LI></UL></LI>
+  <LI class="parent closed"><SPAN class="parent closed"></SPAN><A title="" 
+  href="http://content-management-systems.info/node/101">Стандарты 
+  кодирования</A>
+  <UL>
+    <LI><A href="http://content-management-systems.info/node/917">Кодирование 
+    PHP</A></LI>
+    <LI><A title="Cascading Style Sheets" 
+    href="http://content-management-systems.info/node/2909">Кодирование HTML и 
+    CSS</A></LI>
+    <LI><A href="http://content-management-systems.info/node/85">Кодирование 
+    JavaScript</A></LI>
+    <LI><A href="http://content-management-systems.info/node/1038">Кодирование 
+    SQL</A></LI>
+    <LI><A 
+    href="http://content-management-systems.info/node/110">Документирование 
+    кода</A></LI></UL></LI>
+  <LI class="parent closed"><SPAN class="parent closed"></SPAN><A title="" 
+  href="http://content-management-systems.info/node/619">Разработка тем</A>
+  <UL>
+    <LI class="parent closed"><SPAN class="parent closed"></SPAN><A 
+    href="http://content-management-systems.info/node/1150">Друпал 7</A>
+    <UL>
+      <LI><A href="http://content-management-systems.info/node/212">Обновление: 
+      6 → 7</A></LI>
+      <LI><A title="Стандартные стили" 
+      href="http://content-management-systems.info/node/5179">Стандартные 
+      стили</A></LI>
+      <LI><A title="" 
+      href="http://content-management-systems.info/drupal/api/7/file/.tpl.php">Стандартные 
+      шаблоны</A></LI></UL></LI>
+    <LI class="parent closed"><SPAN class="parent closed"></SPAN><A 
+    href="http://content-management-systems.info/node/1036">Друпал 6</A>
+    <UL>
+      <LI class="parent closed"><SPAN class="parent closed"></SPAN><A 
+      href="http://content-management-systems.info/node/1020">Файлы .info</A>
+      <UL>
+        <LI><A title="Структура файла" 
+        href="http://content-management-systems.info/node/3005">Структура 
+        файла</A></LI>
+        <LI><A href="http://content-management-systems.info/node/1021">Значения 
+        по умолчанию</A></LI>
+        <LI><A title="Примеры .info-файлов" 
+        href="http://content-management-systems.info/node/2962">Примеры 
+        .info-файлов</A></LI>
+        <LI><A 
+        href="http://content-management-systems.info/node/1076">Использование 
+        подтем</A></LI>
+        <LI><A title="Очистка кеша" 
+        href="http://content-management-systems.info/node/3006">Очистка 
+        кеша</A></LI>
+        <LI><A title="Реестр тем" 
+        href="http://content-management-systems.info/node/3007">Реестр 
+        тем</A></LI></UL></LI>
+      <LI class="parent closed"><SPAN class="parent closed"></SPAN><A 
+      href="http://content-management-systems.info/node/1075">Файлы .tpl.php</A>
+      <UL>
+        <LI><A title="Модули и их шаблоны" 
+        href="http://content-management-systems.info/node/3008">Модули и их 
+        шаблоны</A></LI>
+        <LI><A title="Именование шаблонов" 
+        href="http://content-management-systems.info/node/3009">Именование 
+        шаблонов</A></LI>
+        <LI><A title="" 
+        href="http://content-management-systems.info/drupal/api/6/file/.tpl.php">Стандартные 
+        шаблоны</A></LI></UL></LI>
+      <LI class="parent closed"><SPAN class="parent closed"></SPAN><A 
+      href="http://content-management-systems.info/node/1022">Файлы .css</A>
+      <UL>
+        <LI><A title="Добавление стилей" 
+        href="http://content-management-systems.info/node/3010">Добавление 
+        стилей</A></LI>
+        <LI><A title="Переопределение стилей" 
+        href="http://content-management-systems.info/node/3011">Переопределение 
+        стилей</A></LI>
+        <LI><A title="Наследование стилей" 
+        href="http://content-management-systems.info/node/3012">Наследование 
+        стилей</A></LI>
+        <LI><A title="Стандартные стили" 
+        href="http://content-management-systems.info/node/3013">Стандартные 
+        стили</A></LI></UL></LI>
+      <LI><A title="Скрипты — .js-файлы" 
+      href="http://content-management-systems.info/node/2958">Файлы .js</A></LI>
+      <LI><A href="http://content-management-systems.info/node/1151">Обновление: 
+      5 → 6</A></LI></UL></LI>
+    <LI class="parent closed"><SPAN class="parent closed"></SPAN><A 
+    href="http://content-management-systems.info/node/274">Друпал 5</A>
+    <UL>
+      <LI class="parent closed"><SPAN class="parent closed"></SPAN><A 
+      href="http://content-management-systems.info/node/339">PHPTemplate</A>
+      <UL>
+        <LI class="parent closed"><SPAN class="parent closed"></SPAN><A 
+        href="http://content-management-systems.info/drupal/api/5/file/block.tpl.php">block.tpl.php</A>
+        <UL>
+          <LI><A href="http://content-management-systems.info/node/341">Шаблоны 
+          блоков</A></LI></UL></LI>
+        <LI><A 
+        href="http://content-management-systems.info/drupal/api/5/file/box.tpl.php">box.tpl.php</A></LI>
+        <LI><A 
+        href="http://content-management-systems.info/drupal/api/5/file/comment.tpl.php">comment.tpl.php</A></LI>
+        <LI class="parent closed"><SPAN class="parent closed"></SPAN><A 
+        href="http://content-management-systems.info/drupal/api/5/file/node.tpl.php">node.tpl.php</A>
+        <UL>
+          <LI><A href="http://content-management-systems.info/node/344">Шаблоны 
+          документов</A></LI></UL></LI>
+        <LI class="parent closed"><SPAN class="parent closed"></SPAN><A 
+        href="http://content-management-systems.info/drupal/api/5/file/page.tpl.php">page.tpl.php</A>
+        <UL>
+          <LI><A href="http://content-management-systems.info/node/1074">Шаблоны 
+          страниц</A></LI></UL></LI>
+        <LI class="parent closed"><SPAN class="parent closed"></SPAN><A 
+        href="http://content-management-systems.info/drupal/api/5/file/template.php">template.php</A>
+        <UL>
+          <LI><A title="Добавление регионов" 
+          href="http://content-management-systems.info/node/345">Добавление 
+          регионов</A></LI>
+          <LI><A title="Регион на странице" 
+          href="http://content-management-systems.info/node/218">Регион на 
+          странице</A></LI>
+          <LI><A title="Шаблоны документов" 
+          href="http://content-management-systems.info/node/1073">Шаблоны 
+          документов</A></LI></UL></LI></UL></LI>
+      <LI><A title="Обновление тем версии 4.7.x до версии 5.x" 
+      href="http://content-management-systems.info/node/3004">Обновление: 4.7 → 
+      5</A></LI></UL></LI>
+    <LI><A href="http://content-management-systems.info/node/175">Создание 
+    скриншотов</A></LI></UL></LI>
+  <LI><A title="" 
+  href="http://content-management-systems.info/drupal/faq">Обычные 
+  вопросы</A></LI></UL><!--[if IE]></DIV><![endif]--></DIV></DIV>
+<DIV id=block-block-7 class="block block-block">
+<DIV class=content>
+<SCRIPT type=text/javascript><!--
+google_ad_client = "ca-pub-7708650725349985";
+/* 234x60 */
+google_ad_slot = "3119223718";
+google_ad_width = 234;
+google_ad_height = 60;
+//-->
+</SCRIPT>
+
+<SCRIPT type=text/javascript src="Lightbox2_files/show_ads.js">
+</SCRIPT>
+</DIV></DIV>
+<DIV id=block-jquerymenu-5 class="block block-jquerymenu">
+<H3>Навигация</H3>
+<DIV class=content><!--[if IE]>
+<DIV class=ie><![endif]-->
+<UL class="menu jquerymenu">
+  <LI><A title="" href="http://content-management-systems.info/user/login">Вход 
+  в аккаунт</A></LI></UL><!--[if IE]></DIV><![endif]--></DIV></DIV></DIV></DIV>
+<DIV id=footer-region class=clearfloat>
+<DIV id=footer-left class=clearfloat></DIV>
+<DIV id=footer-middle class=clearfloat></DIV>
+<DIV id=footer-right class=clearfloat></DIV></DIV>
+<DIV id=footer-message><A 
+title="CC–BY–SA — лицензия Creative Commons «Копилефт»" 
+href="http://content-management-systems.info/about/license"><IMG alt=CC-BY-SA 
+src="Lightbox2_files/cc-by-sa.png"></A> <!-- Yandex.Metrika counter -->
+<SCRIPT type=text/javascript>(function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter14117068 = new Ya.Metrika({id:14117068, clickmap:true, trackLinks:true}); } catch(e) {} }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f); } else { f(); } })(document, window, "yandex_metrika_callbacks");</SCRIPT>
+<NOSCRIPT>
+<DIV><IMG style="POSITION: absolute; LEFT: -9999px" alt="" 
+src="Lightbox2_files/14117068.gif"></DIV></NOSCRIPT><!-- /Yandex.Metrika counter --><!--LiveInternet counter-->
+<SCRIPT type=text/javascript><!--
+document.write("<a href='http://www.liveinternet.ru/click' "+
+"target=_blank><img src='//counter.yadro.ru/hit?t16.2;r"+
+escape(document.referrer)+((typeof(screen)=="undefined")?"":
+";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?
+screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
+";h"+escape(document.title.substring(0,80))+";"+Math.random()+
+"' alt='' title='LiveInternet: показано число просмотров за 24"+
+" часа, посетителей за 24 часа и за сегодня' "+
+"border='0' width='88' height='31'><\/a>")
+//--></SCRIPT>
+<!--/LiveInternet-->Drupal — <A 
+title="Правила использования торговой марки и логотипа Drupal" 
+href="http://content-management-systems.info/drupal/trademark">торговая 
+марка</A> Дриса Байтаерта. 
+<DIV style="FLOAT: right"><A 
+href="http://content-management-systems.info/contact"><IMG border=0 
+alt="Почтовый адрес и контактная форма" 
+src="Lightbox2_files/mail-cms.info.gif"></A></DIV></DIV>
+<SCRIPT type=text/javascript 
+src="Lightbox2_files/js_50fc645678383f548121beae8b137728.js"></SCRIPT>
+
+<SCRIPT type=text/javascript>
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, { "basePath": "/", "fancyLogin": { "screenFadeColor": "white", "screenFadeZIndex": "10", "loginBoxHeight": "auto", "loginBoxWidth": "200px", "loginBoxBackgroundColor": "white", "loginBoxTextColor": "black", "loginBoxBorderColor": "black", "loginBoxBorderWidth": "2px", "loginBoxBorderStyle": "solid", "loginPath": "user/login", "dimFadeSpeed": 250, "boxFadeSpeed": 500, "hideObjects": 1, "destination": "?destination=node/1530", "requestDestination": "?destination=node/1530" }, "jquerymenu": { "hover": 0, "animate": 1, "edit_link": 0 }, "views": { "ajax_path": "/views/ajax", "ajaxViews": { "views_dom_id:d2f5ade193af8bc87611acd96cfbe212": { "view_name": "videolesson", "view_display_id": "block_1", "view_args": "1530", "view_path": "node/1530", "view_base_path": null, "view_dom_id": "d2f5ade193af8bc87611acd96cfbe212", "pager_element": 0 } } } });
+//--><!]]>
+</SCRIPT>
+
+<DIV id=fancy_login_dim_screen></DIV>
+<DIV id=fancy_login_login_box>
+<DIV id=fancy_login_form_contents><A id=fancy_login_close_button 
+href="http://content-management-systems.info/drupal/project/lightbox2#">X</A>
+<FORM id=user-login accept-charset=UTF-8 method=post action=/user/login>
+<DIV>
+<DIV id=edit-name-wrapper class=form-item><LABEL for=edit-name>Логин: <SPAN 
+class=form-required title="This field is required.">*</SPAN></LABEL> <INPUT 
+id=edit-name class="form-text required" tabIndex=1 maxLength=60 size=15 
+type=text name=name> </DIV>
+<DIV id=edit-pass-wrapper class=form-item><LABEL for=edit-pass>Пароль: <SPAN 
+class=form-required title="This field is required.">*</SPAN></LABEL> <INPUT 
+id=edit-pass class="form-text required" tabIndex=2 maxLength=128 size=15 
+type=password name=pass> </DIV><INPUT id=edit-user-login value=user_login 
+type=hidden name=form_id> <INPUT id=form-ba54911c2634adae576dff7ea3015392 
+value=form-ba54911c2634adae576dff7ea3015392 type=hidden name=form_build_id> <INPUT id=edit-submit class=form-submit tabIndex=3 value=Войти type=submit name=op> 
+</DIV></FORM>
+<DIV class=item-list>
+<UL>
+  <LI class="first last"><A title="Восстановление пароля" 
+  href="http://content-management-systems.info/user/password">Восстановить 
+  пароль</A></LI></UL></DIV></DIV>
+<DIV id=fancy_login_ajax_loader><IMG alt=Loading 
+src="Lightbox2_files/ajax-loader.gif"></DIV></DIV></BODY></HTML>

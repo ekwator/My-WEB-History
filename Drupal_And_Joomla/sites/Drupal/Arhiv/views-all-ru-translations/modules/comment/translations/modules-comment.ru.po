@@ -1,0 +1,71 @@
+# Russian translation of views (all releases)
+# Copyright (c) 2013 by the Russian translation team
+# Generated from files:
+#  views/modules/comment/views_handler_field_comment_link_approve.inc: n/a
+#  views/modules/comment/views_handler_field_comment_link_reply.inc: n/a
+#  views/modules/comment/views_handler_field_comment.inc: n/a
+#  views/modules/comment/views_handler_field_comment_username.inc: n/a
+#  views/modules/comment/views_handler_argument_comment_user_uid.inc: n/a
+#  views/modules/comment/views_handler_field_node_new_comments.inc: n/a
+#  views/modules/comment/views_handler_field_comment_node_link.inc: n/a
+#  views/modules/comment/views_handler_field_comment_link_edit.inc: n/a
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: views (all releases)\n"
+"POT-Creation-Date: 2013-05-29 14:21+0400\n"
+"PO-Revision-Date: 2010-07-13 23:59+0400\n"
+"Language-Team: Russian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=((((n%10)==1)&&((n%100)!=11))?(0):(((((n%10)>=2)&&((n%10)<=4))&&(((n%100)<10)||((n%100)>=20)))?(1):2));\n"
+
+#: modules/comment/views_handler_field_comment_link_approve.inc:22,22,27,27,27,27
+msgid "approve"
+msgstr "одобрить"
+
+#: modules/comment/views_handler_field_comment_link_reply.inc:15,13,15,12,20,20,20,15,12,15,20
+msgid "reply"
+msgstr "ответить"
+
+#: modules/comment/views_handler_field_comment.inc:32,29,32,38,38,38,31,29,31,38
+msgid "Link this field to its comment"
+msgstr ""
+"Сделать это поле ссылкой на "
+"комментарии его материала"
+
+#: modules/comment/views_handler_field_comment_username.inc:25,24,25,31,31,31,26,24,26,31
+msgid "Link this field to its user or an author's homepage"
+msgstr ""
+"Сделать это поле ссылкой на его автора "
+"или на домашнюю страницу автора"
+
+#: modules/comment/views_handler_argument_comment_user_uid.inc:18,16,18,23,23,23,18,16,18,23
+msgid "No user"
+msgstr "Нет пользователей"
+
+#: modules/comment/views_handler_field_node_new_comments.inc:36,35,36,41,41,41,37,35,37,41
+msgid "Link this field to new comments"
+msgstr ""
+"Добавить ссылку на первый новый "
+"комментарий"
+
+#: modules/comment/views_handler_field_comment_node_link.inc:32,32,38,38,38,34,32,34,38
+msgid "Show teaser-style link"
+msgstr "Отображать ссылку как в анонсе"
+
+#: modules/comment/views_handler_field_comment_link_edit.inc:20,23,20,26,26,26,25,23,25,26
+msgid "Use destination"
+msgstr ""
+
+#: modules/comment/views_handler_field_comment_link_edit.inc:21,24,21,27,27,27,26,24,26,27
+msgid "Add destination to the link"
+msgstr ""
+
+#: modules/comment/views_handler_field_comment_node_link.inc:34,34,40,40,40,36,34,36,40
+msgid ""
+"Show the comment link in the form used on standard node teasers, "
+"rather than the full node form."
+msgstr ""
+

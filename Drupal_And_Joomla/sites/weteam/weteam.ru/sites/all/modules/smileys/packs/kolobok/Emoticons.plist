@@ -1,0 +1,622 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" 
+
+"http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AdiumSetVersion</key>
+	<integer>1</integer>
+	<key>Emoticons</key>
+	<dict>
+
+		<key>aa.gif</key>
+		<dict>
+			<key>Equivalents</key>
+			<array>
+				<string>O:-)</string>
+				<string>O=)</string>
+				<string>:ANGEL:</string>
+			</array>
+			<key>Name</key>
+			<string>Angel</string>
+		</dict>
+
+
+		<key>ab.gif</key>
+		<dict>
+			<key>Equivalents</key>
+			<array>
+				<string>:-)</string>
+				<string>=-)</string>
+				<string>:)</string>
+				<string>=)</string>
+				<string>:HAPPY:</string>
+			</array>
+			<key>Name</key>
+			<string>Happy</string>
+		</dict>
+
+
+		<key>ac.gif</key>
+		<dict>
+			<key>Equivalents</key>
+			<array>
+				<string>:-(</string>
+				<string>;-(</string>
+				<string>:(</string>
+				<string>;(</string>
+				<string>:SAD:</string>
+			</array>
+			<key>Name</key>
+			<string>Sad</string>
+		</dict>
+
+
+		<key>ad.gif</key>
+		<dict>
+			<key>Equivalents</key>
+			<array>
+				<string>;-)</string>
+				<string>;)</string>
+				<string>:WINKING:</string>
+				<string>:WINK:</string>
+			</array>
+			<key>Name</key>
+			<string>Winking</string>
+		</dict>
+
+
+		<key>ae.gif</key>
+		<dict>
+			<key>Equivalents</key>
+			<array>
+				<string>:-P</string>
+				<string>:P</string>
+				<string>:TONGUE:</string>
+			</array>
+			<key>Name</key>
+			<string>Tongue</string>
+		</dict>
+
+
+		<key>af.gif</key>
+		<dict>
+			<key>Equivalents</key>
+			<array>
+				<string>8-)</string>
+				<string>8)</string>
+				<string>B-)</string>
+				<string>B)</string>
+				<string>:COOL:</string>
+			</array>
+			<key>Name</key>
+			<string>Cool</string>
+		</dict>
+
+
+		<key>ag.gif</key>
+		<dict>
+			<key>Equivalents</key>
+			<array>
+				<string>:-D</string>
+				<string>:D</string>
+				<string>:LAUGHING:</string>
+			</array>
+			<key>Name</key>
+			<string>Laughing</string>
+		</dict>
+
+
+		<key>ah.gif</key>
+		<dict>
+			<key>Equivalents</key>
+			<array>
+				<string>:-[</string>
+				<string>:[</string>
+				<string>:EMBARASSED:</string>
+			</array>
+			<key>Name</key>
+			<string>Embarassed</string>
+		</dict>
+
+
+		<key>ai.gif</key>
+		<dict>
+			<key>Equivalents</key>
+			<array>
+				<string>=-O</string>
+				<string>=O</string>
+				<string>:-O</string>
+				<string>:O</string>
+				<string>:-o</string>
+				<string>:o</string>
+				<string>:-0</string>
+				<string>:0</string>
+				<string>:SHOCKED:</string>
+				<string>:SHOCK:</string>
+			</array>
+			<key>Name</key>
+			<string>Shocked</string>
+		</dict>
+
+
+		<key>aj.gif</key>
+		<dict>
+			<key>Equivalents</key>
+			<array>
+				<string>:-*</string>
+				<string>:*</string>
+				<string>:KISS:</string>
+			</array>
+			<key>Name</key>
+			<string>Kiss</string>
+		</dict>
+
+
+		<key>ak.gif</key>
+		<dict>
+			<key>Equivalents</key>
+			<array>
+				<string>:'(</string>
+				<string>:CRYING:</string>
+				<string>:CRY:</string>
+			</array>
+			<key>Name</key>
+			<string>Crying</string>
+		</dict>
+
+
+		<key>al.gif</key>
+		<dict>
+			<key>Equivalents</key>
+			<array>
+				<string>:-X</string>
+				<string>:-x</string>
+				<string>:X</string>
+				<string>:x</string>
+				<string>:SILENT:</string>
+			</array>
+			<key>Name</key>
+			<string>Silent</string>
+		</dict>
+
+
+		<key>am.gif</key>
+		<dict>
+			<key>Equivalents</key>
+			<array>
+				<string>>:o</string>
+				<string>>:O</string>
+				<string>>:0</string>
+				<string>:ANGRY:</string>
+			</array>
+			<key>Name</key>
+			<string>Angry</string>
+		</dict>
+
+
+		<key>an.gif</key>
+		<dict>
+			<key>Equivalents</key>
+			<array>
+				<string>:-|</string>
+				<string>:|</string>
+				<string>:DONT_UNDERSTAND:</string>
+			</array>
+			<key>Name</key>
+			<string>Don't Understand</string>
+		</dict>
+
+
+		<key>ao.gif</key>
+		<dict>
+			<key>Equivalents</key>
+			<array>
+				<string>:-\</string>
+				<string>:-/</string>
+				<string>:\</string>
+				<string>:/</string>
+				<string>:PENSIVE:</string>
+			</array>
+			<key>Name</key>
+			<string>Pensive</string>
+		</dict>
+
+
+		<key>ap.gif</key>
+		<dict>
+			<key>Equivalents</key>
+			<array>
+				<string>:JOKINGLY:</string>
+			</array>
+			<key>Name</key>
+			<string>Jokingly</string>
+		</dict>
+
+
+		<key>aq.gif</key>
+		<dict>
+			<key>Equivalents</key>
+			<array>
+				<string>]:-></string>
+				<string>]:></string>
+				<string>:DEVIL:</string>
+			</array>
+			<key>Name</key>
+			<string>Devil</string>
+		</dict>
+
+
+		<key>ar.gif</key>
+		<dict>
+			<key>Equivalents</key>
+			<array>
+				<string>[:-}</string>
+				<string>[:}</string>
+				<string>:HEADPHONES:</string>
+			</array>
+			<key>Name</key>
+			<string>Headphones</string>
+		</dict>
+
+
+		<key>as.gif</key>
+		<dict>
+			<key>Equivalents</key>
+			<array>
+				<string>:KISSED:</string>
+			</array>
+			<key>Name</key>
+			<string>Kissed</string>
+		</dict>
+
+
+		<key>at.gif</key>
+		<dict>
+			<key>Equivalents</key>
+			<array>
+				<string>:-!</string>
+				<string>:!</string>
+				<string>:SICK:</string>
+			</array>
+			<key>Name</key>
+			<string>Sick</string>
+		</dict>
+
+
+		<key>au.gif</key>
+		<dict>
+			<key>Equivalents</key>
+			<array>
+				<string>:TIRED:</string>
+			</array>
+			<key>Name</key>
+			<string>Tired</string>
+		</dict>
+
+
+		<key>av.gif</key>
+		<dict>
+			<key>Equivalents</key>
+			<array>
+				<string>:STOP:</string>
+			</array>
+			<key>Name</key>
+			<string>Stop</string>
+		</dict>
+
+
+		<key>aw.gif</key>
+		<dict>
+			<key>Equivalents</key>
+			<array>
+				<string>:KISSING:</string>
+			</array>
+			<key>Name</key>
+			<string>Kissing</string>
+		</dict>
+
+
+		<key>ax.gif</key>
+		<dict>
+			<key>Equivalents</key>
+			<array>
+				<string>@}->--</string>
+				<string>@}->-</string>
+				<string>:ROSE:</string>
+			</array>
+			<key>Name</key>
+			<string>Rose</string>
+		</dict>
+
+
+		<key>ay.gif</key>
+		<dict>
+			<key>Equivalents</key>
+			<array>
+				<string>:THUMBS UP:</string>
+			</array>
+			<key>Name</key>
+			<string>Thumbs Up</string>
+		</dict>
+
+
+		<key>az.gif</key>
+		<dict>
+			<key>Equivalents</key>
+			<array>
+				<string>:DRINK:</string>
+			</array>
+			<key>Name</key>
+			<string>Drink</string>
+		</dict>
+
+
+		<key>ba.gif</key>
+		<dict>
+			<key>Equivalents</key>
+			<array>
+				<string>:IN LOVE:</string>
+			</array>
+			<key>Name</key>
+			<string>In Love</string>
+		</dict>
+
+
+		<key>bb.gif</key>
+		<dict>
+			<key>Equivalents</key>
+			<array>
+				<string>@=</string>
+				<string>:BOMB:</string>
+			</array>
+			<key>Name</key>
+			<string>Bomb</string>
+		</dict>
+
+
+		<key>bc.gif</key>
+		<dict>
+			<key>Equivalents</key>
+			<array>
+				<string>:HELP:</string>
+			</array>
+			<key>Name</key>
+			<string>Help</string>
+		</dict>
+
+
+		<key>bd.gif</key>
+		<dict>
+			<key>Equivalents</key>
+			<array>
+				<string>\m/</string>
+				<string>:ROCK ON:</string>
+			</array>
+			<key>Name</key>
+			<string>Rock On</string>
+		</dict>
+
+
+		<key>be.gif</key>
+		<dict>
+			<key>Equivalents</key>
+			<array>
+				<string>%)</string>
+				<string>:CONFUSED:</string>
+			</array>
+			<key>Name</key>
+			<string>Confused</string>
+		</dict>
+
+
+		<key>bf.gif</key>
+		<dict>
+			<key>Equivalents</key>
+			<array>
+				<string>:OK:</string>
+			</array>
+			<key>Name</key>
+			<string>OK</string>
+		</dict>
+
+
+		<key>bg.gif</key>
+		<dict>
+			<key>Equivalents</key>
+			<array>
+				<string>:WASSUP:</string>
+				<string>:SUP:</string>
+			</array>
+			<key>Name</key>
+			<string>Wassup</string>
+		</dict>
+
+
+		<key>bh.gif</key>
+		<dict>
+			<key>Equivalents</key>
+			<array>
+				<string>:SORRY:</string>
+			</array>
+			<key>Name</key>
+			<string>Sorry</string>
+		</dict>
+
+
+		<key>bi.gif</key>
+		<dict>
+			<key>Equivalents</key>
+			<array>
+				<string>:BRAVO:</string>
+			</array>
+			<key>Name</key>
+			<string>Bravo</string>
+		</dict>
+
+
+		<key>bj.gif</key>
+		<dict>
+			<key>Equivalents</key>
+			<array>
+				<string>:ROFL:</string>
+				<string>:LOL:</string>
+			</array>
+			<key>Name</key>
+			<string>ROLF</string>
+		</dict>
+
+
+		<key>bk.gif</key>
+		<dict>
+			<key>Equivalents</key>
+			<array>
+				<string>:PARDON:</string>
+			</array>
+			<key>Name</key>
+			<string>Pardon</string>
+		</dict>
+
+
+		<key>bl.gif</key>
+		<dict>
+			<key>Equivalents</key>
+			<array>
+				<string>:NO:</string>
+			</array>
+			<key>Name</key>
+			<string>No</string>
+		</dict>
+
+
+		<key>bm.gif</key>
+		<dict>
+			<key>Equivalents</key>
+			<array>
+				<string>:CRAZY:</string>
+			</array>
+			<key>Name</key>
+			<string>Crazy</string>
+		</dict>
+
+
+		<key>bn.gif</key>
+		<dict>
+			<key>Equivalents</key>
+			<array>
+				<string>:DONT_KNOW:</string>
+				<string>:UNKNOWN:</string>
+			</array>
+			<key>Name</key>
+			<string>Don't Know</string>
+		</dict>
+
+
+		<key>bo.gif</key>
+		<dict>
+			<key>Equivalents</key>
+			<array>
+				<string>:DANCE:</string>
+			</array>
+			<key>Name</key>
+			<string>Dance</string>
+		</dict>
+
+
+		<key>bp.gif</key>
+		<dict>
+			<key>Equivalents</key>
+			<array>
+				<string>:YAHOO:</string>
+				<string>:YAHOO!:</string>
+			</array>
+			<key>Name</key>
+			<string>Yahoo</string>
+		</dict>
+
+
+		<key>bq.gif</key>
+		<dict>
+			<key>Equivalents</key>
+			<array>
+				<string>:HI:</string>
+				<string>:PREVED:</string>
+				<string>:PRIVET:</string>
+				<string>:HELLO:</string>
+			</array>
+			<key>Name</key>
+			<string>Hello</string>
+		</dict>
+
+
+		<key>br.gif</key>
+		<dict>
+			<key>Equivalents</key>
+			<array>
+				<string>:BYE:</string>
+			</array>
+			<key>Name</key>
+			<string>Bye</string>
+		</dict>
+
+
+		<key>bs.gif</key>
+		<dict>
+			<key>Equivalents</key>
+			<array>
+				<string>:YES:</string>
+			</array>
+			<key>Name</key>
+			<string>Yes</string>
+		</dict>
+
+
+		<key>bt.gif</key>
+		<dict>
+			<key>Equivalents</key>
+			<array>
+				<string>;D</string>
+				<string>:ACUTE:</string>
+			</array>
+			<key>Name</key>
+			<string>Acute</string>
+		</dict>
+
+
+		<key>bu.gif</key>
+		<dict>
+			<key>Equivalents</key>
+			<array>
+				<string>:WALL:</string>
+				<string>:DASH:</string>
+			</array>
+			<key>Name</key>
+			<string>Wall</string>
+		</dict>
+
+
+		<key>bv.gif</key>
+		<dict>
+			<key>Equivalents</key>
+			<array>
+				<string>:WRITE:</string>
+				<string>:MAIL:</string>
+			</array>
+			<key>Name</key>
+			<string>Write</string>
+		</dict>
+
+
+		<key>bw.gif</key>
+		<dict>
+			<key>Equivalents</key>
+			<array>
+				<string>:SCRATCH:</string>
+			</array>
+			<key>Name</key>
+			<string>Scratch</string>
+		</dict>
+
+	</dict>
+</dict>
+</plist>

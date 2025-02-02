@@ -1,0 +1,159 @@
+# Russian translation of views (all releases)
+# Copyright (c) 2013 by the Russian translation team
+# Generated from files:
+#  views/modules/node/views_handler_field_node_revision_link_revert.inc: n/a
+#  views/modules/node/views_plugin_argument_validate_node.inc: n/a
+#  views/modules/node/views_handler_filter_node_type.inc: n/a
+#  views/modules/node/views_handler_field_node.inc: n/a
+#  views/modules/node/views_handler_argument_node_type.inc: n/a
+#  views/modules/node/views_plugin_row_node_view.inc: n/a
+#  views/modules/node/views_handler_field_history_user_timestamp.inc: n/a
+#  views/modules/node/views_handler_argument_dates_various.inc: n/a
+#  views/modules/node/views_handler_field_node_path.inc: n/a
+#  views/modules/node/views_handler_field_node_revision.inc: n/a
+#  views/modules/node/views_handler_field_node_type.inc: n/a
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: views (all releases)\n"
+"POT-Creation-Date: 2013-05-29 14:21+0400\n"
+"PO-Revision-Date: 2011-05-26 19:03+0400\n"
+"Language-Team: Russian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=((((n%10)==1)&&((n%100)!=11))?(0):(((((n%10)>=2)&&((n%10)<=4))&&(((n%100)<10)||((n%100)>=20)))?(1):2));\n"
+
+#: modules/node/views_handler_field_node_revision_link_revert.inc:30,35,30,34,34,34,37,35,37,34
+msgid "revert"
+msgstr "возврат"
+
+#: modules/node/views_plugin_argument_validate_node.inc:29,28,29,28,29
+msgid "Types"
+msgstr "Типы"
+
+#: modules/node/views_plugin_argument_validate_node.inc:52,51,52,48,54,54,54,51,48,51,54
+msgid "Node ID"
+msgstr "ID материала"
+
+#: modules/node/views_handler_filter_node_type.inc:8,10,8,10
+msgid "Node type"
+msgstr "Тип материала"
+
+#: modules/node/views_handler_field_node.inc:37,36,39,36,39
+msgid "Link this field to its node"
+msgstr "Связать это поле с его материалом"
+
+#: modules/node/views_handler_argument_node_type.inc:29,29,29,29
+msgid "Unknown node type"
+msgstr "Неизвестный тип узла"
+
+#: modules/node/views_plugin_row_node_view.inc:52,52,52,52
+msgid "Full node"
+msgstr "Материал полностью"
+
+#: modules/node/views_handler_field_history_user_timestamp.inc:35,31,35,42,42,42,33,31,33,42
+msgid "Check for new comments as well"
+msgstr ""
+"Проверять также наличие новых "
+"комментариев"
+
+#: modules/node/views_handler_argument_dates_various.inc:173,173,167,175,175,175,173,167,173,175
+msgid "Week @week"
+msgstr "Неделя @week"
+
+#: modules/node/views_plugin_argument_validate_node.inc:32,31,32,31,32
+msgid ""
+"If you wish to validate for specific node types, check them; if none "
+"are checked, all nodes will pass."
+msgstr ""
+"Если хотите проверять материал на "
+"определенный тип, отметьте; Если "
+"ничего не будет выбрано, то все "
+"материалы будут допущены."
+
+#: modules/node/views_plugin_argument_validate_node.inc:37,38,37,38,37
+msgid "Validate user has access to the node"
+msgstr ""
+"Проверять возможность доступа "
+"пользователя к материалу"
+
+#: modules/node/views_plugin_argument_validate_node.inc:53,52,53,49,55,55,55,52,49,52,55
+msgid "Node IDs separated by , or +"
+msgstr "ID материала, разделенные ',' или '+'"
+
+#: modules/node/views_plugin_row_node_view.inc:68,68,68,68
+msgid "Display node comments"
+msgstr "Показывать комментарии к материалу"
+
+#: modules/node/views_plugin_row_node_view.inc:58,58,58,58
+msgid "Build mode"
+msgstr "Режим строительства"
+
+#: modules/node/views_handler_argument_node_type.inc:29,29,35,35,35,35
+msgid "Unknown content type"
+msgstr "Неизвестный тип содержимого"
+
+#: modules/node/views_handler_field_node_path.inc:31,24,31,31,31,31,26,24,26,31
+msgid "Use absolute link (begins with \"http://\")"
+msgstr ""
+"Использовать абсолютный путь (начиная "
+"с \"http://\")"
+
+#: modules/node/views_handler_field_node_path.inc:26,28,26,28
+msgid ""
+"If you want to use this as in \"output this field as link\" in \"link "
+"path\", you must enable this option."
+msgstr ""
+
+#: modules/node/views_handler_field_node_revision.inc:30,34,30,34
+msgid "Link this field to its node revision"
+msgstr ""
+"Сделать это поле ссылкой на редакции "
+"его материала"
+
+#: modules/node/views_handler_field_node_type.inc:22,24,22,24
+msgid "Display field as the node type machine name."
+msgstr ""
+"Отображать поле как машинное имя типа "
+"материала"
+
+#: modules/node/views_plugin_argument_validate_node.inc:42,42,44,44,44,42,42,44
+msgid "Access operation to check"
+msgstr ""
+
+#: modules/node/views_handler_field_node.inc:38,38,39,39,39,39
+msgid "Link this field to the original piece of content"
+msgstr ""
+
+#: modules/node/views_handler_field_node_path.inc:33,33,33,33,33,33
+msgid ""
+"Enable this option to output an absolute link. Required if you want to "
+"use the path as a link destination (as in \"output this field as a "
+"link\" above)."
+msgstr ""
+
+#: modules/node/views_handler_field_node_revision.inc:33,33,39,39,39,39
+msgid "Link this field to its content revision"
+msgstr ""
+
+#: modules/node/views_handler_field_node_type.inc:24,24,29,29,29,29
+msgid "Display field as the content type machine name."
+msgstr ""
+
+#: modules/node/views_plugin_argument_validate_node.inc:32,32,34,34,34,34
+msgid "Choose one or more content types to validate with."
+msgstr ""
+
+#: modules/node/views_plugin_argument_validate_node.inc:37,37,39,39,39,39
+msgid "Validate user has access to the content"
+msgstr ""
+
+#: modules/node/views_plugin_argument_validate_node.inc:50,50,52,52,52,52
+msgid "Filter value format"
+msgstr ""
+
+#: modules/node/views_plugin_row_node_view.inc:61,61,62,62,62,62
+msgid "Display comments"
+msgstr "Показать комментарии"
+

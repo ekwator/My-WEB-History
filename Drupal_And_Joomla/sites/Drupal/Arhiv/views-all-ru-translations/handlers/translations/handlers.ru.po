@@ -1,0 +1,2084 @@
+# Russian translation of views (all releases)
+# Copyright (c) 2013 by the Russian translation team
+# Generated from files:
+#  views/handlers/views_handler_filter.inc: n/a
+#  views/handlers/views_handler_filter_many_to_one.inc: n/a
+#  views/handlers/views_handler_field_date.inc: n/a
+#  views/handlers/views_handler_field_numeric.inc: n/a
+#  views/handlers/views_handler_field.inc: n/a
+#  views/handlers/views_handler_filter_in_operator.inc: n/a
+#  views/handlers/views_handler_sort_date.inc: n/a
+#  views/handlers/views_handler_argument_string.inc: n/a
+#  views/handlers/views_handler_argument.inc: n/a
+#  views/handlers/views_handler_field_boolean.inc: n/a
+#  views/handlers/views_handler_argument_numeric.inc: n/a
+#  views/handlers/views_handler_filter_string.inc: n/a
+#  views/handlers/views_handler_filter_numeric.inc: n/a
+#  views/handlers/views_handler_relationship.inc: n/a
+#  views/handlers/views_handler_sort.inc: n/a
+#  views/handlers/views_handler_sort_formula.inc: n/a
+#  views/handlers/views_handler_filter_date.inc: n/a
+#  views/handlers/views_handler_argument_many_to_one.inc: n/a
+#  views/handlers/views_handler_field_math.inc: n/a
+#  views/handlers/views_handler_argument_null.inc: n/a
+#  views/handlers/views_handler_argument_date.inc: n/a
+#  views/handlers/views_handler_filter_boolean_operator.inc: n/a
+#  views/handlers/views_handler_field_counter.inc: n/a
+#  views/handlers/views_handler_area.inc: n/a
+#  views/handlers/views_handler_field_serialized.inc: n/a
+#  views/handlers/views_handler_area_view.inc: n/a
+#  views/handlers/views_handler_field_time_interval.inc: n/a
+#  views/handlers/views_handler_area_text.inc: n/a
+#  views/handlers/views_handler_relationship_groupwise_max.inc: n/a
+#  views/handlers/views_handler_area_result.inc: n/a
+#  views/handlers/views_handler_field_machine_name.inc: n/a
+#  views/handlers/views_handler_field_contextual_links.inc: n/a
+#  views/handlers/views_handler_filter_combine.inc: n/a
+#  views/handlers/views_handler_sort_menu_hierarchy.inc: n/a
+#  views/handlers/views_handler_filter_entity_bundle.inc: n/a
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: views (all releases)\n"
+"POT-Creation-Date: 2013-05-29 14:21+0400\n"
+"PO-Revision-Date: 2013-03-13 17:01+0400\n"
+"Language-Team: Russian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=((((n%10)==1)&&((n%100)!=11))?(0):(((((n%10)>=2)&&((n%10)<=4))&&(((n%100)<10)||((n%100)>=20)))?(1):2));\n"
+
+#: handlers/views_handler_filter.inc:316,316,476,476,476,476
+msgid "Required"
+msgstr "Обязательный"
+
+#: handlers/views_handler_filter_many_to_one.inc:55,40,55,38,60,60,60,42,38,42,60
+msgid "and"
+msgstr "и"
+
+#: handlers/views_handler_field_date.inc:25,25,25,25
+msgid "Short date format"
+msgstr "Краткий формат даты"
+
+#: handlers/views_handler_field_date.inc:26,26,26,26
+msgid "Medium date format"
+msgstr "Средний формат даты"
+
+#: handlers/views_handler_field_date.inc:27,27,27,27
+msgid "Long date format"
+msgstr "Полный формат даты"
+
+#: handlers/views_handler_field_numeric.inc:88,86,88,94,94,94,86,86,86,94
+msgid "Prefix"
+msgstr "Префикс"
+
+#: handlers/views_handler_field_numeric.inc:94,92,94,100,100,100,92,92,92,100
+msgid "Suffix"
+msgstr "Суффикс"
+
+#: handlers/views_handler_field.inc:826,652,826,361,852,852,852,652,361,652,852
+msgid "Maximum length"
+msgstr "Максимальная длина"
+
+#: handlers/views_handler_field_numeric.inc:57,57,57,57
+msgid "Thousands separator"
+msgstr "Разделитель тысяч"
+
+#: handlers/views_handler_filter_in_operator.inc:154,154,160,160,160,160
+msgid "Select all"
+msgstr "Выделить все"
+
+#: handlers/views_handler_field_date.inc:27,23,27,34,34,34,23,23,23,34
+msgid "Date format"
+msgstr "Формат даты"
+
+#: handlers/views_handler_filter.inc:849,898,849,898,849,898,849,898
+msgid "Select"
+msgstr "Выбрать"
+
+#: handlers/views_handler_field.inc:754,585,754,294,780,780,780,585,294,585,780
+msgid "Target"
+msgstr "Цель"
+
+#: handlers/views_handler_sort_date.inc:31,31,36,36,36,31,31,31,36
+msgid "Month"
+msgstr "Месяц"
+
+#: handlers/views_handler_sort_date.inc:32,32,37,37,37,32,32,32,37
+msgid "Year"
+msgstr "Год"
+
+#: handlers/views_handler_sort_date.inc:30,30,35,35,35,30,30,30,35
+msgid "Day"
+msgstr "День"
+
+#: handlers/views_handler_filter_in_operator.inc:22,22,14,28,28,28,23,14,23,28
+msgid "Options"
+msgstr "Опции"
+
+#: handlers/views_handler_field.inc:642,478,642,206,668,668,668,478,206,478,668
+msgid "Text"
+msgstr "Текст"
+
+#: handlers/views_handler_sort_date.inc:29,29,34,34,34,29,29,29,34
+msgid "Hour"
+msgstr "Час"
+
+#: handlers/views_handler_sort_date.inc:28,28,33,33,33,28,28,28,33
+msgid "Minute"
+msgstr "Минута"
+
+#: handlers/views_handler_sort_date.inc:27,27,32,32,32,27,27,27,32
+msgid "Second"
+msgstr "Секунда"
+
+#: handlers/views_handler_argument_string.inc:61,68,61,67,66,66,66,68,67,68,66
+msgid "Case"
+msgstr "Регистр"
+
+#: handlers/views_handler_filter_many_to_one.inc:47,32,47,30,52,52,52,34,30,34,52
+msgid "or"
+msgstr "или"
+
+#: handlers/views_handler_argument.inc:253,258,288,253,258,288,262,267,297,262,267,297,262,267,297,262,267,297
+msgid "Override title"
+msgstr "Заменить заголовок"
+
+#: handlers/views_handler_field_date.inc:56,56,56,56
+msgid "Timezone"
+msgstr "Часовой пояс"
+
+#: handlers/views_handler_field_numeric.inc:38,40,38,44,44,44,40,40,40,44
+msgid "Precision"
+msgstr "Точность"
+
+#: handlers/views_handler_field_boolean.inc:49,49,48,54,54,55,50,48,50,58,58
+msgid "Output format"
+msgstr "Формат поля"
+
+#: handlers/views_handler_filter_in_operator.inc:91,91,72,97,97,97,92,72,92,97
+msgid "in"
+msgstr "в"
+
+#: handlers/views_handler_argument.inc:239,239,248,248,248,248
+msgid "Exceptions"
+msgstr "Исключение"
+
+#: handlers/views_handler_argument_numeric.inc:49,49,50,50,50,50
+msgid "Exclude"
+msgstr "Исключить"
+
+#: handlers/views_handler_filter.inc:846,895,846,895,846,895,846,895
+msgid "Widget type"
+msgstr "Тип виджета"
+
+#: handlers/views_handler_argument.inc:131,128,131,128,131
+msgid "Breadcrumb"
+msgstr "\"Хлебные крошки\""
+
+#: handlers/views_handler_field_date.inc:30,29,30,37,37,37,29,29,29,37
+msgid "Time ago"
+msgstr "Назад"
+
+#: handlers/views_handler_filter_string.inc:83,83,88,88,88,84,83,84,88
+msgid "Does not contain"
+msgstr "Не содержит"
+
+#: handlers/views_handler_filter_numeric.inc:27,27,25,32,32,32,29,25,29,32
+msgid "Is less than"
+msgstr "Меньше, чем"
+
+#: handlers/views_handler_filter_numeric.inc:33,33,31,38,38,38,35,31,35,38
+msgid "Is less than or equal to"
+msgstr "Меньше, либо равно"
+
+#: handlers/views_handler_filter_numeric.inc:51,51,49,56,56,56,53,49,53,56
+msgid "Is greater than or equal to"
+msgstr "Больше, или равно"
+
+#: handlers/views_handler_filter_numeric.inc:57,57,55,62,62,62,59,55,59,62
+msgid "Is greater than"
+msgstr "Больше, чем"
+
+#: handlers/views_handler_filter_string.inc:151,139,152,139,152
+msgid "Case sensitive"
+msgstr "Учитывать регистр"
+
+#: handlers/views_handler_filter.inc:500,500,1073,1073,1073,1073
+msgid "<Any>"
+msgstr "Любой"
+
+#: handlers/views_handler_field_boolean.inc:55,55,54,60,60,61,56,54,56,87,87
+msgid "Reverse"
+msgstr "Инвертировать"
+
+#: handlers/views_handler_field.inc:658,495,658,223,684,684,684,495,223,495,684
+msgid "Link path"
+msgstr "Путь ссылки"
+
+#: handlers/views_handler_filter.inc:550,550,550,550
+msgid "User roles"
+msgstr "Роли пользователя"
+
+#: handlers/views_handler_relationship.inc:88,88,91,91,91,91
+msgid "Identifier"
+msgstr "Идентификатор"
+
+#: handlers/views_handler_field_date.inc:42,41,42,38,49,49,49,41,38,41,49
+msgid "Custom date format"
+msgstr "Пользовательский формат даты"
+
+#: handlers/views_handler_field_boolean.inc:56,56,55,61,61,62,57,55,57,88,88
+msgid "If checked, true will be displayed as false."
+msgstr ""
+"Если отметить, то 'правда' будет "
+"отображаться как 'ложь'"
+
+#: handlers/views_handler_sort.inc:51,51,37,59,59,59,51,37,51,59
+msgid "asc"
+msgstr "возр."
+
+#: handlers/views_handler_sort.inc:55,55,41,63,63,63,55,41,55,63
+msgid "desc"
+msgstr "убыв."
+
+#: handlers/views_handler_sort_formula.inc:23,23,23
+msgid "views_handler_sort_formula missing default: @formula"
+msgstr ""
+"в views_handler_sort_formula отсутствует значение "
+"по умолчанию: @formula"
+
+#: handlers/views_handler_filter_in_operator.inc:97,97,78,103,103,103,98,78,98,103
+msgid "Is not one of"
+msgstr "Не:"
+
+#: handlers/views_handler_argument.inc:146,143,146,143,146
+msgid "Action to take if argument is not present"
+msgstr "Если аргумента нет, то"
+
+#: handlers/views_handler_argument.inc:161,158,161,158,161
+msgid ""
+"If this value is received as an argument, the argument will be "
+"ignored; i.e, \"all values\""
+msgstr ""
+"Если аргумент равен этому значению, то "
+"аргумент будет игнорирован (как \"все "
+"значения\")"
+
+#: handlers/views_handler_argument.inc:167,164,167,164,167
+msgid "Wildcard title"
+msgstr "Подстановочный заголовок"
+
+#: handlers/views_handler_argument.inc:170,167,170,167,170
+msgid "The title to use for the wildcard in substitutions elsewhere."
+msgstr ""
+"Заголовок, который будет использован "
+"для подстановки где-нибудь."
+
+#: handlers/views_handler_argument.inc:312,257,312,257,312
+msgid "Display all values"
+msgstr "Показать все значения"
+
+#: handlers/views_handler_argument.inc:322,267,322,267,322
+msgid "Display empty text"
+msgstr "Показать пустой текст"
+
+#: handlers/views_handler_filter.inc:349,244,349,305,516,516,516,244,305,244,516
+msgid "Operator identifier"
+msgstr "Идентификатор оператора"
+
+#: handlers/views_handler_filter.inc:383,290,383,324,562,819,869,562,819,869,562,819,869,290,324,290,562,819,869
+msgid "Filter identifier"
+msgstr "Идентификатор фильтра"
+
+#: handlers/views_handler_filter.inc:385,292,385,326,564,821,871,564,821,871,564,821,871,292,326,292,564,821,871
+msgid ""
+"This will appear in the URL after the ? to identify this filter. "
+"Cannot be blank."
+msgstr ""
+"Появляется в URL после ? для "
+"идентификации этого фильтра. Не может "
+"быть пустым."
+
+#: handlers/views_handler_filter.inc:310,344,834,889,834,889,834,889,310,344,310,834,889
+msgid ""
+"This exposed filter is optional and will have added options to allow "
+"it not to be set."
+msgstr ""
+"Этот открытый фильтр может быть "
+"необязательным."
+
+#: handlers/views_handler_filter.inc:317,351,323,351,323
+msgid "Force single"
+msgstr "Только один"
+
+#: handlers/views_handler_filter.inc:318,352,324,352,324
+msgid "Force this exposed filter to accept only one option."
+msgstr ""
+"Разрешает этому открытому фильтру "
+"принимать только одну настройку."
+
+#: handlers/views_handler_filter.inc:324,358,855,904,855,904,855,904,330,358,330,855,904
+msgid "Remember"
+msgstr "Помнить настройки"
+
+#: handlers/views_handler_filter.inc:325,359,856,905,856,905,856,905,331,359,331,856,905
+msgid "Remember the last setting the user gave this filter."
+msgstr ""
+"Запоминать последние настройки "
+"пользователя для этого фильтра."
+
+#: handlers/views_handler_filter_numeric.inc:63,63,61,68,68,68,65,61,65,68
+msgid "Is between"
+msgstr "Между"
+
+#: handlers/views_handler_filter_numeric.inc:69,69,67,74,74,74,71,67,71,74
+msgid "Is not between"
+msgstr "Не между"
+
+#: handlers/views_handler_filter.inc:1019,1019,1019,1019
+msgid "Add another item"
+msgstr "Добавить ещё"
+
+#: handlers/views_handler_field_numeric.inc:59,59,65,65,65,65
+msgid "Decimal"
+msgstr "Десятичное число"
+
+#: handlers/views_handler_field.inc:412,187,412,187,412
+msgid ""
+"The label for this field that will be displayed to end users if the "
+"style requires it."
+msgstr ""
+"Метка этого поля, которая будет "
+"отображаться пользователям, если "
+"стиль требует этого."
+
+#: handlers/views_handler_filter_string.inc:42,42,47,47,47,43,42,43,47
+msgid "contains"
+msgstr "содержит"
+
+#: handlers/views_handler_relationship.inc:90,79,90,79,90
+msgid ""
+"The label for this relationship that will be displayed only "
+"administratively."
+msgstr ""
+"Метка для этого отношения, которая "
+"буду отображаться только "
+"административно."
+
+#: handlers/views_handler_relationship.inc:96,96,84,99,99,99,96,84,96,99
+msgid "Require this relationship"
+msgstr "Эта связь обязательна"
+
+#: handlers/views_handler_relationship.inc:97,85,97,85,97
+msgid ""
+"If required, items that do not contain this relationship will not "
+"appear."
+msgstr ""
+"Элементы, у которых нет этой связи, не "
+"будут показываться."
+
+#: handlers/views_handler_sort_date.inc:34,34,39,39,39,34,34,34,39
+msgid ""
+"The granularity is the smallest unit to use when determining whether "
+"two dates are the same; for example, if the granularity is \"Year\" "
+"then all dates in 1999, regardless of when they fall in 1999, will be "
+"considered the same date."
+msgstr ""
+"Степень детализации - это наименьшая "
+"единица при определении совпадают ли "
+"две даты; например, если степень "
+"детализации \"Год\", тогда все даты в 1999 "
+"году, независимо от того, когда именно "
+"они произошли в 1999 году, будут "
+"рассматриваться как одна дата."
+
+#: handlers/views_handler_filter_string.inc:47,47,52,52,52,48,47,48,52
+msgid "Contains any word"
+msgstr "Содержит любое слово"
+
+#: handlers/views_handler_filter_string.inc:48,48,53,53,53,49,48,49,53
+msgid "has word"
+msgstr "содержит слово"
+
+#: handlers/views_handler_filter_string.inc:53,53,58,58,58,54,53,54,58
+msgid "Contains all words"
+msgstr "Содержит все слова"
+
+#: handlers/views_handler_filter_string.inc:54,54,59,59,59,55,54,55,59
+msgid "has all"
+msgstr "содержит все"
+
+#: handlers/views_handler_filter_string.inc:59,59,64,64,64,60,59,60,64
+msgid "Starts with"
+msgstr "Начинается с"
+
+#: handlers/views_handler_filter_string.inc:60,60,65,65,65,61,60,61,65
+msgid "begins"
+msgstr "начинается"
+
+#: handlers/views_handler_filter_string.inc:71,71,76,76,76,72,71,72,76
+msgid "Ends with"
+msgstr "Оканчивается на"
+
+#: handlers/views_handler_filter_string.inc:72,72,77,77,77,73,72,73,77
+msgid "ends"
+msgstr "оканчивается"
+
+#: handlers/views_handler_filter_string.inc:84,84,89,89,89,85,84,85,89
+msgid "!has"
+msgstr "!has"
+
+#: handlers/views_handler_filter_numeric.inc:29,29,27,34,34,34,31,27,31,34
+msgid "<"
+msgstr "<"
+
+#: handlers/views_handler_filter_numeric.inc:35,35,33,40,40,40,37,33,37,40
+msgid "<="
+msgstr "<="
+
+#: handlers/views_handler_filter_numeric.inc:53,53,51,58,58,58,55,51,55,58
+msgid ">="
+msgstr ">="
+
+#: handlers/views_handler_filter_numeric.inc:59,59,57,64,64,64,61,57,61,64
+msgid ">"
+msgstr ">"
+
+#: handlers/views_handler_filter_numeric.inc:65,65,63,70,70,70,67,63,67,70
+msgid "between"
+msgstr "между"
+
+#: handlers/views_handler_filter_numeric.inc:71,71,69,76,76,76,73,69,73,76
+msgid "not between"
+msgstr "не между"
+
+#: handlers/views_handler_filter_numeric.inc:187,218,187,174,192,192,192,220,174,220,192
+msgid "Min"
+msgstr "Мин"
+
+#: handlers/views_handler_filter_numeric.inc:193,224,193,180,198,198,198,226,180,226,198
+msgid "And max"
+msgstr "И макс."
+
+#: handlers/views_handler_filter_numeric.inc:267,316,267,252,275,275,275,318,252,318,275
+msgid "@min and @max"
+msgstr "@min и @max"
+
+#: handlers/views_handler_filter_date.inc:25,23,25,30,30,30,25,23,25,30
+msgid "Value type"
+msgstr "Тип значения"
+
+#: handlers/views_handler_filter_date.inc:27,25,27,32,32,32,27,25,27,32
+msgid ""
+"A date in any machine readable format. CCYY-MM-DD HH:MM:SS is "
+"preferred."
+msgstr ""
+"Дата в любом машиночитаемом формате. "
+"Предпочтительный формат: CCYY-MM-DD HH:MM:SS."
+
+#: handlers/views_handler_filter_date.inc:78,84,88,76,82,86,78,84,88,83,89,93,83,89,93,83,89,93,78,84,88,76,82,86,78,84,88,83,89,93
+msgid "Invalid date format."
+msgstr "Неверный формат даты."
+
+#: handlers/views_handler_filter_many_to_one.inc:54,39,54,37,59,59,59,41,37,41,59
+msgid "Is all of"
+msgstr "Все:"
+
+#: handlers/views_handler_filter_many_to_one.inc:62,47,62,45,67,67,67,49,45,49,67
+msgid "Is none of"
+msgstr "Кроме:"
+
+#: handlers/views_handler_argument_string.inc:44,45,44,49,49,49,45,44,45,49
+msgid "Glossary mode"
+msgstr "Словарный режим"
+
+#: handlers/views_handler_argument_string.inc:46,45,46,45,46
+msgid ""
+"Glossary mode applies a limit to the number of characters used in the "
+"argument, which allows the summary view to act as a glossary."
+msgstr ""
+"Словарный режим применяется для "
+"ограничения числа сиволов, "
+"используемых в аргументе. позволяя "
+"краткому представлению быть словарем."
+
+#: handlers/views_handler_argument_string.inc:52,59,52,58,57,57,57,59,58,59,57
+msgid "Character limit"
+msgstr "Ограничение символов"
+
+#: handlers/views_handler_argument_string.inc:60,59,60,59,60
+msgid ""
+"How many characters of the argument to filter against. If set to 1, "
+"all fields starting with the letter in the argument would be matched."
+msgstr ""
+"Сколько символов аргумента будет "
+"использоваться в фильтре. Если "
+"установить 1, все поля, начинающиеся с "
+"первой буквы агумента будут допущены."
+
+#: handlers/views_handler_argument_string.inc:69,68,69,68,69
+msgid "When printing the argument result, how to transform the case."
+msgstr ""
+"При отображении результата аргумента, "
+"как изменять регистр."
+
+#: handlers/views_handler_argument_string.inc:76,82,76,81,81,81,81,82,81,82,81
+msgid "Case in path"
+msgstr "Регистр в адресной строке"
+
+#: handlers/views_handler_argument_string.inc:91,96,91,95,96,96,96,96,95,96
+msgid "Transform spaces to dashes in URL"
+msgstr "Превращать пробелы в тире"
+
+#: handlers/views_handler_field_numeric.inc:58,58,64,64,64,64
+msgid "Space"
+msgstr "Пробел"
+
+#: handlers/views_handler_argument_many_to_one.inc:47,47,47,47
+msgid ""
+"If selected, users can enter multiple arguments in the form of 1+2+3 "
+"(for OR) or 1,2,3 (for AND)."
+msgstr ""
+"Если выбрано, пользователи могут "
+"вводить составные аргументы в виде 1+2+3 "
+"(для ИЛИ) или 1,2,3 (для И)."
+
+#: handlers/views_handler_argument.inc:337,198,337,195,346,346,346,198,195,198,346
+msgid "Validator"
+msgstr "Проверка"
+
+#: handlers/views_handler_argument.inc:248,238,248,238,248
+msgid "Action to take if argument does not validate"
+msgstr "Если аргумент некорректен, то"
+
+#: handlers/views_handler_argument.inc:317,262,317,262,317
+msgid "Hide view / Page not found (404)"
+msgstr ""
+"Скрыть представление / Страница не "
+"найдена (404)"
+
+#: handlers/views_handler_argument.inc:355,286,355,286,355
+msgid "Provide default argument"
+msgstr "Подставить аргумент по умолчанию"
+
+#: handlers/views_handler_argument.inc:405,329,405,329,405
+msgid "Default argument type"
+msgstr "Тип аргумента по умолчанию"
+
+#: handlers/views_handler_field_numeric.inc:32,34,32,38,38,38,34,34,34,38
+msgid "Round"
+msgstr "Круглый"
+
+#: handlers/views_handler_field_numeric.inc:33,35,33,39,39,39,35,35,35,39
+msgid "If checked, the number will be rounded."
+msgstr "Если выбран, число округляется"
+
+#: handlers/views_handler_field_numeric.inc:40,42,40,46,46,46,42,42,42,46
+msgid "Specify how many digits to print after the decimal point."
+msgstr ""
+"Сколько цифр выводить после "
+"десятичной запятой."
+
+#: handlers/views_handler_field_numeric.inc:46,49,46,52,52,52,49,49,49,52
+msgid "Decimal point"
+msgstr "Десятичный разделитель"
+
+#: handlers/views_handler_field_numeric.inc:48,51,48,54,54,54,51,51,51,54
+msgid "What single character to use as a decimal point."
+msgstr ""
+"Какой символ использовать в качестве "
+"десятичной запятой."
+
+#: handlers/views_handler_field_numeric.inc:63,59,63,69,69,69,59,59,59,69
+msgid "What single character to use as the thousands separator."
+msgstr ""
+"Какой символ использовать в качестве "
+"разделителя тысяч."
+
+#: handlers/views_handler_field_numeric.inc:90,88,90,96,96,96,88,88,88,96
+msgid "Text to put before the number, such as currency symbol."
+msgstr ""
+"Текст для вывода перед числом, "
+"например, символ валюты."
+
+#: handlers/views_handler_field_numeric.inc:96,94,96,102,102,102,94,94,94,102
+msgid "Text to put after the number, such as currency symbol."
+msgstr ""
+"Текст для вывода после числа, "
+"например, символ валюты."
+
+#: handlers/views_handler_field_math.inc:22,22,28,28,28,22,22,22,28
+msgid "Expression"
+msgstr "Выражение"
+
+#: handlers/views_handler_filter.inc:399,341,399,375,578,596,578,596,578,596,347,375,347,578,596
+msgid "This identifier is not allowed."
+msgstr "Идентификатор недопустим."
+
+#: handlers/views_handler_argument_null.inc:22,20,22,28,28,28,22,20,22,28
+msgid "Fail basic validation if any argument is given"
+msgstr ""
+"Провалить проверку, если будет "
+"получен любой аргумент"
+
+#: handlers/views_handler_argument_null.inc:24,22,24,30,30,30,24,22,24,30
+msgid ""
+"By checking this field, you can use this to make sure views with more "
+"arguments than necessary fail validation."
+msgstr ""
+"Представление с большим количеством "
+"аргументов, чем необходимо, не пройдет "
+"проверку.."
+
+#: handlers/views_handler_argument_numeric.inc:36,36,36,36
+msgid "Exclude the argument"
+msgstr "Исключить аргумент"
+
+#: handlers/views_handler_argument_numeric.inc:37,37,37,37
+msgid ""
+"If selected, the numbers entered in the argument will be excluded "
+"rather than limiting the view."
+msgstr ""
+"Если выбран, числа введенные в "
+"аргумент, будут скорее исключены, чем "
+"ограничат просмотр."
+
+#: handlers/views_handler_field.inc:709,535,709,244,735,735,735,535,244,535,735
+msgid "Link class"
+msgstr "Класс ссылки"
+
+#: handlers/views_handler_filter_in_operator.inc:66,66,48,72,72,72,67,48,67,72
+msgid "Limit list to selected items"
+msgstr ""
+"Ограничить список выбранными "
+"элементами"
+
+#: handlers/views_handler_argument_date.inc:28,28,35,35,35,28,28,28,35
+msgid "Current date"
+msgstr "Текущая дата"
+
+#: handlers/views_handler_field.inc:483,388,483,191,509,509,509,388,191,388,509
+msgid "Exclude from display"
+msgstr "Исключить из вывода"
+
+#: handlers/views_handler_field.inc:193,193
+msgid ""
+"Check this box to not display this field, but still load it in the "
+"view.  Use this option to not show a grouping field in each record, or "
+"when doing advanced theming."
+msgstr ""
+"Выберите настройку, чтобы не "
+"отображать это поле, но загружать его "
+"в представлении. Используйте эту "
+"настройку чтобы не отображать "
+"групповое поле в каждой записи, или "
+"при использовании особой темы."
+
+#: handlers/views_handler_filter.inc:237,298,237,298,237
+msgid "Unlock operator"
+msgstr "Разблокировать оператор"
+
+#: handlers/views_handler_filter.inc:238,255,299,238,255,299,238,255
+msgid "When checked, the operator will be exposed to the user"
+msgstr ""
+"Если отметить, то оператор будет "
+"открыт польователю"
+
+#: handlers/views_handler_filter.inc:351,246,351,307,518,518,518,246,307,246,518
+msgid "This will appear in the URL after the ? to identify this operator."
+msgstr ""
+"Он будет отображаться в URL после '?' для "
+"обозначения фильтра. Не может быть "
+"пустым."
+
+#: handlers/views_handler_field.inc:718,545,718,744,744,744,545,545,744
+msgid "Title text"
+msgstr "Текст в Title"
+
+#: handlers/views_handler_argument.inc:193,190,193,190,193
+msgid "Validator options"
+msgstr "Настройки проверки"
+
+#: handlers/views_handler_argument.inc:388,319,388,319,388
+msgid "Provide default argument options"
+msgstr "Настройки аргумента по умолчанию"
+
+#: handlers/views_handler_field.inc:878,878,904,904,904,904
+msgid "More link path"
+msgstr ""
+
+#: handlers/views_handler_argument.inc:124,121,124,121,124
+msgid ""
+"The title to use when this argument is present. It will override the "
+"title of the view and titles from previous arguments. You can use "
+"percent substitution here to replace with argument titles. Use \"%1\" "
+"for the first argument, \"%2\" for the second, etc."
+msgstr ""
+"Заголовок использует этот аргумент, "
+"если он присутствует. Он заменит "
+"заголовок представления и заголовок "
+"из из предыдущих аргументов. Вы можете "
+"использовать процент, чтобы заменить "
+"строку заголовка аргументом. "
+"Используйте \"%1\" для первого "
+"аргумента, \"%2\" для второго и т.д."
+
+#: handlers/views_handler_argument_date.inc:29,29,36,36,36,29,29,29,36
+msgid "Current node's creation time"
+msgstr "Время создания текущего материала"
+
+#: handlers/views_handler_argument_date.inc:30,30,37,37,37,30,30,30,37
+msgid "Current node's update time"
+msgstr "Время обновления текущего материала"
+
+#: handlers/views_handler_filter.inc:395,336,395,370,574,592,574,592,574,592,342,370,342,574,592
+msgid "The identifier is required if the filter is exposed."
+msgstr ""
+"Идентификатор необходим, если фильтр "
+"раскрыт."
+
+#: handlers/views_handler_filter_string.inc:153,141,154,141,154
+msgid ""
+"Case sensitive filters may be faster. MySQL might ignore case "
+"sensitivity."
+msgstr ""
+"Регистрозависимые фильтры могут "
+"оказаться быстрее. MySQL может "
+"игнорировать регистрозависимость."
+
+#: handlers/views_handler_filter.inc:848,897,848,897,848,897,848,897
+msgid "Radios"
+msgstr "Радиокнопка"
+
+#: handlers/views_handler_field.inc:636,472,636,200,662,662,662,472,200,472,662
+msgid "Rewrite the output of this field"
+msgstr "Заменить выводимое полем значение"
+
+#: handlers/views_handler_field.inc:473,201,473,201,473
+msgid ""
+"If checked, you can alter the output of this field by specifying a "
+"string of text with replacement tokens that can use any existing field "
+"output."
+msgstr ""
+"При активации этого режима вы "
+"напрямую указываете формат "
+"выдаваемого полем значения. Внутри "
+"него вы можете выводить значения "
+"других полей (в том числе исключённых "
+"из вывода, либо его собственное, каким "
+"оно должно было выводиться "
+"первоначально)."
+
+#: handlers/views_handler_field.inc:645,481,645,209,671,671,671,481,209,481,671
+msgid ""
+"The text to display for this field. You may include HTML. You may "
+"enter data from this view as per the \"Replacement patterns\" below."
+msgstr ""
+"Введите текст, отображаемый полем. Вы "
+"можете использовать HTML, а также "
+"подстановочные шаблоны, указанные "
+"ниже."
+
+#: handlers/views_handler_field.inc:653,490,653,218,679,679,679,490,218,490,679
+msgid "Output this field as a link"
+msgstr "Выводить это поле в виде ссылки"
+
+#: handlers/views_handler_field.inc:654,491,654,219,680,680,680,491,219,491,680
+msgid ""
+"If checked, this field will be made into a link. The destination must "
+"be given below."
+msgstr ""
+"Если включено, это поле будет "
+"преобразовано в ссылку. Путь ссылки "
+"должен быть указан ниже."
+
+#: handlers/views_handler_field.inc:661,498,661,226,687,687,687,498,226,498,687
+msgid ""
+"The Drupal path or absolute URL for this link. You may enter data from "
+"this view as per the \"Replacement patterns\" below."
+msgstr ""
+"Внутренний путь страницы Drupal, либо "
+"абсолютная URL-ссылка. Для формирования "
+"ссылки Вы можете использовать "
+"указанные ниже подстановочные "
+"шаблоны."
+
+#: handlers/views_handler_field.inc:254,254
+msgid "Alt text"
+msgstr "Alt текст"
+
+#: handlers/views_handler_field.inc:257,257
+msgid ""
+"Text to place as \"alt\" text which most browsers display as a tooltip "
+"when hovering over the link."
+msgstr ""
+"Текст, в \"alt\", который многие браузеры "
+"отображают в качестве всплывающих "
+"подсказок при наведении мыши."
+
+#: handlers/views_handler_field.inc:736,565,736,274,762,762,762,565,274,565,762
+msgid "Prefix text"
+msgstr "Prefix текст"
+
+#: handlers/views_handler_field.inc:739,568,739,277,765,765,765,568,277,568,765
+msgid "Any text to display before this link. You may include HTML."
+msgstr ""
+"Любой текст, добавляемый перед "
+"ссылкой. Можно использовать HTML."
+
+#: handlers/views_handler_field.inc:745,575,745,284,771,771,771,575,284,575,771
+msgid "Suffix text"
+msgstr "Suffix текст"
+
+#: handlers/views_handler_field.inc:748,578,748,287,774,774,774,578,287,578,774
+msgid "Any text to display after this link. You may include HTML."
+msgstr ""
+"Любой текст, добавляемый после ссылки. "
+"Можно использовать HTML."
+
+#: handlers/views_handler_field.inc:782,614,782,323,808,808,808,614,323,614,808
+msgid ""
+"<p>You must add some additional fields to this display before using "
+"this field. These fields may be marked as <em>Exclude from "
+"display</em> if you prefer. Note that due to rendering order, you "
+"cannot use fields that come after this field; if you need a field not "
+"listed here, rearrange your fields.</p>"
+msgstr ""
+"<p>Вы должны добавить некоторые "
+"дополнительные поля для этого дисплея "
+"перед использованием этого поля. Эти "
+"поля могут быть помечены как "
+"<em>Исключить из показа</em>. Обратите "
+"внимание, что из-за порядок "
+"отображения, вы не можете "
+"использовать поля, которые идут после "
+"этих полей, если вам нужно поле, не "
+"перечисленное здесь, изменить порядок "
+"ваших полей</p>."
+
+#: handlers/views_handler_field.inc:820,646,820,355,846,846,846,646,355,646,846
+msgid "Trim this field to a maximum length"
+msgstr ""
+"Установить для этого поля "
+"максимальную длину"
+
+#: handlers/views_handler_field.inc:647,356,647,356,647
+msgid "If checked, this field be trimmed to a maximum length in characters."
+msgstr ""
+"Если выбрано, поле будет обрезано по "
+"максимальной длине."
+
+#: handlers/views_handler_field.inc:837,664,837,373,863,863,863,664,373,664,863
+msgid "Trim only on a word boundary"
+msgstr "Обрезать только на границе слова"
+
+#: handlers/views_handler_field.inc:838,665,838,374,864,864,864,665,374,665,864
+msgid ""
+"If checked, this field be trimmed only on a word boundary. This is "
+"guaranteed to be the maximum characters stated or less. If there are "
+"no word boundaries this could trim a field to nothing."
+msgstr ""
+"Если выбрано, значение поле будет "
+"обрезано по границе слова. Поэтому "
+"количество символов гарантированно "
+"будет больше указанного выше. Если от "
+"начала и до границы обрезки значение "
+"поля представляет собой одно длинное "
+"слово, оно может быть обрезано до "
+"пустого поля."
+
+#: handlers/views_handler_field.inc:847,675,847,384,873,873,873,675,384,675,873
+msgid "Add an ellipsis"
+msgstr "Добавить многоточие"
+
+#: handlers/views_handler_field.inc:848,676,848,385,874,874,874,676,385,676,874
+msgid "If checked, a \"...\" will be added if a field was trimmed."
+msgstr ""
+"При выборе этого флажка будет "
+"добавлено \"...\" в конце обрезанного "
+"поля."
+
+#: handlers/views_handler_field.inc:890,686,890,395,916,916,916,686,395,686,916
+msgid "Field can contain HTML"
+msgstr "Поле может содержать HTML"
+
+#: handlers/views_handler_field.inc:891,687,891,396,917,917,917,687,396,687,917
+msgid ""
+"If checked, HTML corrector will be run to ensure tags are properly "
+"closed after trimming."
+msgstr ""
+"Если этот флажок выбран, после обрезки "
+"поля будет запущен HTML корректор, "
+"который правильно закроет все "
+"открытые в начале теги."
+
+#: handlers/views_handler_filter_in_operator.inc:67,67,49,73,73,73,68,49,68,73
+msgid ""
+"If checked, the only items presented to the user will be the ones "
+"selected here."
+msgstr ""
+"Если отмечено, пользователю будут "
+"доступны только выбранные здесь "
+"элементы."
+
+#: handlers/views_handler_sort.inc:45,45,53,53,53,45,45,53
+msgid "Exposed"
+msgstr "Раскрытый"
+
+#: handlers/views_handler_field_date.inc:31,30,31,38,38,38,30,30,30,38
+msgid "Time ago (with \"ago\" appended)"
+msgstr "Время назад (\"назад\" будет добавлено)"
+
+#: handlers/views_handler_field_numeric.inc:57,57,63,63,63,63
+msgid "Comma"
+msgstr "Запятая"
+
+#: handlers/views_handler_field.inc:900,697,900,406,926,926,926,697,406,697,926
+msgid "Strip HTML tags"
+msgstr "Удалить HTML-теги."
+
+#: handlers/views_handler_field.inc:901,698,901,407,927,927,927,698,407,698,927
+msgid "If checked, all HTML tags will be stripped."
+msgstr ""
+"В положении влючено все HTML-теги будут "
+"удалены."
+
+#: handlers/views_handler_filter_boolean_operator.inc:117,113,121,113,121
+msgid "You must select a value unless this is an optional exposed filter."
+msgstr ""
+"Вы обязаны выбрать значение, кроме тех "
+"случаев, когда это необязательный "
+"раскрытый фильтр."
+
+#: handlers/views_handler_filter_in_operator.inc:98,98,79,104,104,104,99,79,99,104
+msgid "not in"
+msgstr "не в"
+
+#: handlers/views_handler_filter_many_to_one.inc:63,48,63,46,68,68,68,50,46,50,68
+msgid "not"
+msgstr "нет"
+
+#: handlers/views_handler_field.inc:712,538,712,247,738,738,738,538,247,538,738
+msgid "The CSS class to apply to the link."
+msgstr "CSS класс, применённый к этой ссылке."
+
+#: handlers/views_handler_field.inc:1465,1187,1464,821,1590,1590,1590,1192,821,1192,1590
+msgid "File size display"
+msgstr "Отобразить размер файла"
+
+#: handlers/views_handler_field.inc:1468,1190,1467,824,1593,1593,1593,1195,824,1195,1593
+msgid "Formatted (in KB or MB)"
+msgstr "В заданном формате (в KB или MB)"
+
+#: handlers/views_handler_field.inc:1469,1191,1468,825,1594,1594,1594,1196,825,1196,1594
+msgid "Raw bytes"
+msgstr "В байтах"
+
+#: handlers/views_handler_field_date.inc:33,31,33,31,33
+msgid "Time span (future dates start with - )"
+msgstr ""
+"Временной интервал (будущие даты "
+"начинаются с -)"
+
+#: handlers/views_handler_field_date.inc:36,35,36,32,43,43,43,35,32,35,43
+msgid "Time span (with \"ago/hence\" appended)"
+msgstr ""
+"Временной диапазон (с добавленным "
+"\"назад/с этого момента\")"
+
+#: handlers/views_handler_sort.inc:172,123,172,180,180,180,123,123,180
+msgid "Sort descending"
+msgstr "Сортировать по убыванию"
+
+#: handlers/views_handler_sort.inc:171,122,171,179,179,179,122,122,179
+msgid "Sort ascending"
+msgstr "Сортировать по возрастанию"
+
+#: handlers/views_handler_argument_string.inc:83,82,83,82,83
+msgid ""
+"When printing url paths, how to transform the case of the argument. Do "
+"not use this unless with Postgres as it uses case sensitive "
+"comparisons."
+msgstr ""
+
+#: handlers/views_handler_field.inc:757,588,757,297,783,783,783,588,297,588,783
+msgid ""
+"Target of the link, such as _blank, _parent or an iframe's name. This "
+"field is rarely used."
+msgstr ""
+"Целевое окно (target) ссылки. Например, "
+"_blank, _parent или название фрейма. Редко "
+"используется."
+
+#: handlers/views_handler_field.inc:417,417
+msgid "If the field is empty, display this text instead."
+msgstr ""
+"При пустом значении поля будет "
+"выводиться указанный здесь текст."
+
+#: handlers/views_handler_field.inc:948,741,948,422,974,974,974,741,422,741,974
+msgid "Count the number 0 as empty"
+msgstr ""
+"Обрабатывать число 0 как пустое "
+"значение"
+
+#: handlers/views_handler_field.inc:743,424,743,424,743
+msgid "If the field contains the number zero, display the empty text instead"
+msgstr ""
+"Если значением поля является ноль, оно "
+"будет обработано как поле с пустым "
+"значением."
+
+#: handlers/views_handler_field.inc:956,748,956,429,982,982,982,748,429,748,982
+msgid "Hide if empty"
+msgstr "Скрыть при пустом значении"
+
+#: handlers/views_handler_field_counter.inc:18,15,18,23,23,23,20,15,20,23
+msgid "Starting value"
+msgstr "Начальное значение"
+
+#: handlers/views_handler_field_counter.inc:20,17,20,25,25,25,22,17,22,25
+msgid "Specify the number the counter should start at."
+msgstr ""
+"Укажите число, с которого должен "
+"стартовать счетчик."
+
+#: handlers/views_handler_filter_string.inc:89,89,94,94,94,90,90,94
+msgid "Length is shorter than"
+msgstr "Длина короче, чем"
+
+#: handlers/views_handler_filter_string.inc:90,90,95,95,95,91,91,95
+msgid "shorter than"
+msgstr "короче, чем"
+
+#: handlers/views_handler_filter_string.inc:95,95,100,100,100,96,96,100
+msgid "Length is longer than"
+msgstr "Длина которого более"
+
+#: handlers/views_handler_filter_string.inc:96,96,101,101,101,97,97,101
+msgid "longer than"
+msgstr "больше чем"
+
+#: handlers/views_handler_argument_string.inc:52,51,52,51,52
+msgid "Ignore case"
+msgstr "Игнорировать регистр"
+
+#: handlers/views_handler_field.inc:829,655,829,364,855,855,855,655,364,655,855
+msgid "The maximum number of characters this field can be."
+msgstr ""
+"Максимальное количество символов "
+"этой области может быть."
+
+#: handlers/views_handler_filter_string.inc:65,65,70,70,70,66,65,66,70
+msgid "Does not start with"
+msgstr "Не начинается с"
+
+#: handlers/views_handler_filter_string.inc:66,66,71,71,71,67,66,67,71
+msgid "not_begins"
+msgstr "not_begins"
+
+#: handlers/views_handler_filter_string.inc:77,77,82,82,82,78,77,78,82
+msgid "Does not end with"
+msgstr "Не оканчивается с"
+
+#: handlers/views_handler_filter_string.inc:78,78,83,83,83,79,78,79,83
+msgid "not_ends"
+msgstr "not_ends"
+
+#: handlers/views_handler_filter.inc:403,345,403,379,582,600,582,600,582,600,351,379,351,582,600
+msgid "This identifier is used by another handler."
+msgstr ""
+"Этот идентификатор используется "
+"другим обработчиком."
+
+#: handlers/views_handler_argument.inc:133,130,133,130,133
+msgid ""
+"The Breadcrumb title to use when this argument is present. If no "
+"breadcrumb is set here, default Title values will be used, see "
+"\"Title\" for percent substitutions."
+msgstr ""
+
+#: handlers/views_handler_argument.inc:341,341,341
+msgid "Summary, sorted by number of records ascending"
+msgstr ""
+"Суммарная информация, сортированная "
+"по номеру записи в возрастающем "
+"порядке."
+
+#: handlers/views_handler_argument.inc:348,348,348
+msgid "Summary, sorted by number of records descending"
+msgstr ""
+"Суммарная информация, сортированная "
+"по номеру записи в убывающем порядке."
+
+#: handlers/views_handler_area.inc:53,51,53,73,73,73,51,51,73
+msgid "The label for this area that will be displayed only administratively."
+msgstr ""
+"Метка для этой области, которая будет "
+"отображаться только администраторам."
+
+#: handlers/views_handler_field.inc:127,101,127,97,142,142,142,101,97,101,142
+msgid ""
+"Handler @handler tried to add additional_field @identifier but @table "
+"could not be added!"
+msgstr ""
+"Обработчик @handler попытался добавить "
+"дополнительное поле @identifier, но @table не "
+"может быть добавлено!"
+
+#: handlers/views_handler_field_math.inc:23,23,23
+msgid ""
+"Enter mathematical expressions such as 2 + 2 or sqrt(5). You my assign "
+"variables and create mathematical functions and evaluate them. Use the "
+"; to separate these. For example: f(x) = x + 2; f(2)."
+msgstr ""
+"Введите математическое выражение, "
+"такое как 2 + 2 или sqrt(5). Вы можете "
+"присваивать переменные, создавать "
+"математические функции и определять "
+"их. Используйте ; для их разделения. "
+"Например: f(x) = x + 2; f(2)."
+
+#: handlers/views_handler_argument_string.inc:53,52,53,52,53
+msgid ""
+"Ignore case allows for doing database searches without case "
+"sensitivity. MySQL already works in lower-case mode, so MySQL users "
+"should leave this unchecked to improve performance."
+msgstr ""
+
+#: handlers/views_handler_field.inc:669,507,669,235,695,695,695,507,235,507,695
+msgid "Use absolute path"
+msgstr "Использовать абсолютный путь"
+
+#: handlers/views_handler_field_numeric.inc:68,64,68,74,74,74,64,64,64,74
+msgid "Format plural"
+msgstr "Формат множественного числа"
+
+#: handlers/views_handler_field_numeric.inc:69,65,69,75,75,75,65,65,65,75
+msgid "If checked, special handling will be used for plurality."
+msgstr ""
+"Если отмечено, для множественных "
+"чисел будет использован специальный "
+"обработчик."
+
+#: handlers/views_handler_field_numeric.inc:74,70,74,80,80,80,70,70,70,80
+msgid "Singular form"
+msgstr "Единичная форма"
+
+#: handlers/views_handler_field_numeric.inc:76,72,76,82,82,82,72,72,72,82
+msgid "Text to use for the singular form."
+msgstr ""
+"Текст для использования в единичной "
+"форме."
+
+#: handlers/views_handler_field_numeric.inc:81,78,81,87,87,87,78,78,78,87
+msgid "Plural form"
+msgstr "Множественная форма"
+
+#: handlers/views_handler_field_numeric.inc:83,80,83,89,89,89,80,80,80,89
+msgid ""
+"Text to use for the plural form, @count will be replaced with the "
+"value."
+msgstr ""
+"Текст для использования во "
+"множественной форме. @count будет "
+"заменен соответствующим значением."
+
+#: handlers/views_handler_argument.inc:344,202,344,199,353,353,353,202,199,202,353
+msgid "- Basic validation -"
+msgstr "- Базовая проверка -"
+
+#: handlers/views_handler_field.inc:785,617,785,326,617,326,617
+msgid ""
+"<p>The following tokens are available for this field. Note that due to "
+"rendering order, you cannot use fields that come after this field; if "
+"you need a field not listed here, rearrange your fields.\n"
+"If you would like to have the characters %5B and %5D please use the "
+"html entity codes '%5B' or  '%5D' or they will get replaced with empty "
+"space.</p>"
+msgstr ""
+
+#: handlers/views_handler_filter_date.inc:28,26,28,33,33,33,28,26,28,33
+msgid "An offset from the current time such as \"!example1\" or \"!example2\""
+msgstr ""
+"Смещение от текущего времени такие "
+"как \"!example1\" или \"!example2\""
+
+#: handlers/views_handler_field.inc:390,390,390
+msgid ""
+"Check this box to not display this field, but still load it in the "
+"view. Use this option to not show a grouping field in each record, or "
+"when doing advanced theming, or when you want to use this field as a "
+"token in other fields."
+msgstr ""
+
+#: handlers/views_handler_field.inc:504,394,504,530,530,530,394,394,530
+msgid "HTML element"
+msgstr "HTML элемент"
+
+#: handlers/views_handler_field.inc:398,398,398
+msgid ""
+"Most styles provide wrappers for fields. If the chosen style supports "
+"wrappers, wrap the field in this HTML element. The default will "
+"usually be either DIV or SPAN."
+msgstr ""
+
+#: handlers/views_handler_field.inc:402,402,402
+msgid "Element class"
+msgstr "Класс элемента"
+
+#: handlers/views_handler_field.inc:403,403,403
+msgid ""
+"The class to provide on the wrapper element. You may enter data from "
+"this view as per the \"Replacement patterns\" used in \"Rewrite the "
+"output of this field\"."
+msgstr ""
+
+#: handlers/views_handler_field.inc:544,416,544,570,570,570,416,416,570
+msgid "Label HTML element"
+msgstr "Метка HTML элемента"
+
+#: handlers/views_handler_field.inc:420,420,420
+msgid "What HTML Element type to use to wrap the label."
+msgstr ""
+
+#: handlers/views_handler_field.inc:424,424,424
+msgid "Label class"
+msgstr "Класс метки"
+
+#: handlers/views_handler_field.inc:425,425,425
+msgid "The class to provide on the label wrapper element."
+msgstr ""
+
+#: handlers/views_handler_field.inc:473,432,473,499,499,499,432,432,499
+msgid "Place a colon after the label"
+msgstr ""
+
+#: handlers/views_handler_field.inc:434,434,434
+msgid ""
+"If the label is to be inline with the value, place a colon between "
+"them. Not valid for styles such as table where the label is not placed "
+"with the value."
+msgstr ""
+
+#: handlers/views_handler_field.inc:583,438,583,609,609,609,438,438,609
+msgid "Wrapper HTML element"
+msgstr "Обёртка HTML элемента"
+
+#: handlers/views_handler_field.inc:442,442,442
+msgid ""
+"What HTML Element type to use to wrap the field (and the label). This "
+"is not supported by some styles such as tables."
+msgstr ""
+
+#: handlers/views_handler_field.inc:447,447,447
+msgid "The class to provide on the wrapper element."
+msgstr "Класс предоставляет обертку элемента."
+
+#: handlers/views_handler_field.inc:618,454,618,644,644,644,454,454,644
+msgid "Add default classes"
+msgstr "Добавить классы по умолчанию"
+
+#: handlers/views_handler_field.inc:620,456,620,646,646,646,456,456,646
+msgid ""
+"Use default Views classes to identify the field, field label and field "
+"content."
+msgstr ""
+
+#: handlers/views_handler_field.inc:464,464,464
+msgid "Rewriting"
+msgstr "Перезапись"
+
+#: handlers/views_handler_field.inc:729,729,729
+msgid "Empty field behavior"
+msgstr "Поведение при пустом поле"
+
+#: handlers/views_handler_field.inc:727,555,727,264,753,753,753,555,264,555,753
+msgid "Rel Text"
+msgstr "Rel текст"
+
+#: handlers/views_handler_field.inc:730,558,730,267,756,756,756,558,267,558,756
+msgid ""
+"Include Rel attribute for use in lightbox2 or other javascript "
+"utility."
+msgstr ""
+"Включить Rel атрибут для использования "
+"в lightbox2 или других JavaScript утилитах."
+
+#: handlers/views_handler_field.inc:907,709,907,933,933,933,709,709,933
+msgid "Preserve certain tags"
+msgstr "Сохранить определенные метки"
+
+#: handlers/views_handler_field.inc:908,710,908,934,934,934,710,710,934
+msgid ""
+"List the tags that need to be preserved during the stripping process. "
+"example &quot;&lt;p&gt; &lt;br&gt;&quot; which will preserve all p and "
+"br elements"
+msgstr ""
+
+#: handlers/views_handler_field_date.inc:32,31,32,39,39,39,31,31,39
+msgid "Time hence"
+msgstr ""
+
+#: handlers/views_handler_field_date.inc:33,32,33,40,40,40,32,32,40
+msgid "Time hence (with \"hence\" appended)"
+msgstr ""
+
+#: handlers/views_handler_field_date.inc:34,34,34
+msgid "Time span (past dates start with - )"
+msgstr ""
+
+#: handlers/views_handler_field_date.inc:68,66,68,84,84,84,66,66,84
+msgid "%time hence"
+msgstr ""
+
+#: handlers/views_handler_field.inc:924,720,924,950,950,950,720,720,950
+msgid "Convert newlines to HTML &lt;br&gt; tags"
+msgstr "Преобразование строк в HTML &lt;br&gt; теги"
+
+#: handlers/views_handler_field.inc:925,721,925,951,951,951,721,721,951
+msgid ""
+"If checked, all newlines chars (e.g. \\n"
+") are converted into HTML &lt;br&gt; tags."
+msgstr ""
+"Если отмечено, все символы новой "
+"строки (например, \\n"
+") преобразуются в HTML-теги <br>."
+
+#: handlers/views_handler_field.inc:685,525,685,711,711,711,525,525,711
+msgid "External server URL"
+msgstr "URL внешнего сервера"
+
+#: handlers/views_handler_field.inc:687,527,687,713,713,713,527,527,713
+msgid ""
+"Links to an external server using a full URL: e.g. "
+"'http://www.example.com' or 'www.example.com'."
+msgstr ""
+"Ссылки на внешний сервер использует "
+"полный URL: напрю \"http://www.example.com\" или "
+"www.example.com."
+
+#: handlers/views_handler_filter.inc:254,254,254
+msgid "Limit operators"
+msgstr ""
+
+#: handlers/views_handler_filter.inc:261,261,261
+msgid ""
+"Restrict which operators will be available to select in the exposed "
+"operator form."
+msgstr ""
+
+#: handlers/views_handler_filter.inc:267,267,267
+msgid "Limit the exposed operators"
+msgstr ""
+
+#: handlers/views_handler_filter.inc:271,271,271
+msgid ""
+"Select which operators will be available to select in the exposed "
+"operator form. If none is selected, all the operators listed here will "
+"be used."
+msgstr ""
+
+#: handlers/views_handler_argument.inc:617,617,634,634,634,634
+msgid "Number of records"
+msgstr "Количесто записей"
+
+#: handlers/views_handler_field_date.inc:34,34,41,41,41,41
+msgid "Time span (future dates have \"-\" prepended)"
+msgstr ""
+
+#: handlers/views_handler_field_date.inc:35,35,42,42,42,42
+msgid "Time span (past dates have \"-\" prepended)"
+msgstr ""
+
+#: handlers/views_handler_field_serialized.inc:24,19,24,29,29,29,24,24,29
+msgid ""
+"How should the serialized data be displayed. You can choose a custom "
+"array/object key or a print_r on the full output."
+msgstr ""
+
+#: handlers/views_handler_field_serialized.inc:26,21,26,31,31,31,26,26,31
+msgid "Full data (unserialized)"
+msgstr "Полная дата (десериализованная)"
+
+#: handlers/views_handler_field_serialized.inc:27,22,27,32,32,32,27,27,32
+msgid "Full data (serialized)"
+msgstr "Полная дата (сериализованная)"
+
+#: handlers/views_handler_field_serialized.inc:28,23,28,33,33,33,28,28,33
+msgid "A certain key"
+msgstr ""
+
+#: handlers/views_handler_field_serialized.inc:34,29,34,39,39,39,34,34,39
+msgid "Which key should be displayed"
+msgstr ""
+
+#: handlers/views_handler_field_serialized.inc:43,39,43,48,48,48,44,44,48
+msgid "You have to enter a key if you want to display a key of the data."
+msgstr ""
+
+#: handlers/views_handler_area_view.inc:35,35,36,36,36,36
+msgid "View to insert"
+msgstr "Представление  для вставки"
+
+#: handlers/views_handler_area_view.inc:37,37,38,38,38,38
+msgid "The view to insert into this area."
+msgstr ""
+"Представление для вставки в эту "
+"область."
+
+#: handlers/views_handler_area_view.inc:45,45,46,46,46,46
+msgid ""
+"If checked, this view will receive the same contextual filters as its "
+"parent."
+msgstr ""
+"Если отмечено, это представление "
+"получит такой же контекстуальные "
+"фильтры, как его родитель."
+
+#: handlers/views_handler_area_view.inc:69,69,70,70,70,70
+msgid "Recursion detected in view @view display @display."
+msgstr ""
+"Обнаружена рекурсия в представлении "
+"@view дисплее @display."
+
+#: handlers/views_handler_argument.inc:246,246,255,255,255,255
+msgid "Exception value"
+msgstr "Исключаемое значение"
+
+#: handlers/views_handler_argument.inc:249,249,258,258,258,258
+msgid ""
+"If this value is received, the filter will be ignored; i.e, \"all "
+"values\""
+msgstr ""
+"Если это значение получено, фильтр "
+"будет проигнорировано, то есть \"все "
+"значения\""
+
+#: handlers/views_handler_argument.inc:262,297,262,297,271,306,271,306,271,306,271,306
+msgid ""
+"Override the view and other argument titles. Use \"%1\" for the first "
+"argument, \"%2\" for the second, etc."
+msgstr ""
+
+#: handlers/views_handler_argument.inc:294,294,303,303,303,303
+msgid "Provide title"
+msgstr "Обеспечить заголовок"
+
+#: handlers/views_handler_argument.inc:306,306,315,315,315,315
+msgid "Override breadcrumb"
+msgstr "Переопределить навигационную цепочку"
+
+#: handlers/views_handler_argument.inc:312,312,321,321,321,321
+msgid "Provide breadcrumb"
+msgstr "Обеспечить навигационную цепочку"
+
+#: handlers/views_handler_argument.inc:315,315,324,324,324,324
+msgid ""
+"Enter a breadcrumb name you would like to use. See \"Title\" for "
+"percent substitutions."
+msgstr ""
+
+#: handlers/views_handler_argument.inc:324,324,333,333,333,333
+msgid "Specify validation criteria"
+msgstr "Указать критерии валидации"
+
+#: handlers/views_handler_argument.inc:394,394,404,404,404,404
+msgid "Action to take if filter value does not validate"
+msgstr ""
+
+#: handlers/views_handler_argument.inc:481,481,491,491,491,491
+msgid "Display all results for the specified field"
+msgstr ""
+"Показать все результаты для "
+"указанного поля"
+
+#: handlers/views_handler_argument.inc:486,486,496,496,496,496
+msgid "Provide default value"
+msgstr "Обеспечить значение по умолчанию"
+
+#: handlers/views_handler_argument.inc:513,513,528,528,528,528
+msgid "Show \"Page not found\""
+msgstr "Показать \"Страница не найдена\""
+
+#: handlers/views_handler_argument.inc:499,499,509,509,509,509
+msgid "Display a summary"
+msgstr "Показать итог"
+
+#: handlers/views_handler_argument.inc:506,506,516,516,516,516
+msgid "Display contents of \"No results found\""
+msgstr ""
+"Показать содержание \"Результатов не "
+"найдено\""
+
+#: handlers/views_handler_argument.inc:1182,1182,1210,1210,1210,1210
+msgid "Default sort"
+msgctxt "Sort order"
+msgstr "Сортировка по умолчанию"
+
+#: handlers/views_handler_argument_date.inc:92,92,99,99,99,99
+msgid "Date"
+msgctxt "Sort order"
+msgstr "Дата"
+
+#: handlers/views_handler_argument_numeric.inc:50,50,51,51,51,51
+msgid ""
+"If selected, the numbers entered for the filter will be excluded "
+"rather than limiting the view."
+msgstr ""
+
+#: handlers/views_handler_argument_string.inc:45,45,50,50,50,50
+msgid ""
+"Glossary mode applies a limit to the number of characters used in the "
+"filter value, which allows the summary view to act as a glossary."
+msgstr ""
+
+#: handlers/views_handler_argument_string.inc:53,53,58,58,58,58
+msgid ""
+"How many characters of the filter value to filter against. If set to "
+"1, all fields starting with the first letter in the filter value would "
+"be matched."
+msgstr ""
+
+#: handlers/views_handler_argument_string.inc:62,62,67,67,67,67
+msgid ""
+"When printing the title and summary, how to transform the case of the "
+"filter value."
+msgstr ""
+
+#: handlers/views_handler_argument_string.inc:77,77,82,82,82,82
+msgid ""
+"When printing url paths, how to transform the case of the filter "
+"value. Do not use this unless with Postgres as it uses case sensitive "
+"comparisons."
+msgstr ""
+
+#: handlers/views_handler_argument_string.inc:242,242,235,235,235,235
+msgid "Alphabetical"
+msgctxt "Sort order"
+msgstr "По алфавиту"
+
+#: handlers/views_handler_field.inc:508,508,534,534,534,534
+msgid "Choose the HTML element to wrap around this field, e.g. H1, H2, etc."
+msgstr ""
+
+#: handlers/views_handler_field.inc:517,556,596,517,556,596,543,582,622,543,582,622,543,582,622,543,582,622
+msgid "Create a CSS class"
+msgstr "Создать CSS класс"
+
+#: handlers/views_handler_field.inc:457,457,483,483,483,483
+msgid "Create a label"
+msgstr "Создать метку"
+
+#: handlers/views_handler_field.inc:458,458,484,484,484,484
+msgid "Enable to create a label for this field."
+msgstr ""
+
+#: handlers/views_handler_field.inc:548,548,574,574,574,574
+msgid "Choose the HTML element to wrap around this label, e.g. H1, H2, etc."
+msgstr ""
+
+#: handlers/views_handler_field.inc:485,485,511,511,511,511
+msgid ""
+"Enable to load this field as hidden. Often used to group fields, or to "
+"use as token in another field."
+msgstr ""
+
+#: handlers/views_handler_field.inc:625,625,651,651,651,651
+msgid "Rewrite results"
+msgstr ""
+
+#: handlers/views_handler_field.inc:637,637,663,663,663,663
+msgid ""
+"Enable to override the output of this field with custom text or "
+"replacement tokens."
+msgstr ""
+
+#: handlers/views_handler_field.inc:821,821,847,847,847,847
+msgid "Enable to trim the field to a maximum length of characters"
+msgstr ""
+
+#: handlers/views_handler_field.inc:940,940,966,966,966,966
+msgid "No results text"
+msgstr ""
+
+#: handlers/views_handler_field.inc:950,950,976,976,976,976
+msgid ""
+"Enable to display the \"no results text\" if the field contains the "
+"number 0."
+msgstr ""
+
+#: handlers/views_handler_filter.inc:275,275,435,435,435,435
+msgid "This filter is not exposed. Expose it to allow the users to change it."
+msgstr ""
+
+#: handlers/views_handler_filter.inc:280,280,440,440,440,440
+msgid "Expose filter"
+msgstr ""
+
+#: handlers/views_handler_filter.inc:287,287,447,447,447,447
+msgid ""
+"This filter is exposed. If you hide it, users will not be able to "
+"change it."
+msgstr ""
+
+#: handlers/views_handler_filter.inc:292,292,452,452,452,452
+msgid "Hide filter"
+msgstr "Скрыть фильтр"
+
+#: handlers/views_handler_filter.inc:342,342,509,509,509,509
+msgid "Expose operator"
+msgstr ""
+
+#: handlers/views_handler_filter.inc:343,343,510,510,510,510
+msgid "Allow the user to choose the operator."
+msgstr ""
+"Разрешить пользователю выбор "
+"оператора."
+
+#: handlers/views_handler_filter.inc:368,368,535,839,535,839,535,839,535,839
+msgid "Allow multiple selections"
+msgstr "Разрешить множественный выбор"
+
+#: handlers/views_handler_filter.inc:369,369,536,840,536,840,536,840,536,840
+msgid "Enable to allow users to select multiple items."
+msgstr ""
+"Включить, чтобы пользователю выбрать "
+"несколько элементов."
+
+#: handlers/views_handler_filter.inc:375,375,542,542,542,542
+msgid "Remember the last selection"
+msgstr "Помнить последний выбор"
+
+#: handlers/views_handler_filter.inc:376,376,543,543,543,543
+msgid "Enable to remember the last selection made by the user."
+msgstr ""
+"Включить, чтобы помнить последний "
+"выбор, сделанный пользователем."
+
+#: handlers/views_handler_filter_boolean_operator.inc:121,121,127,127,127,127
+msgid "You must select a value unless this is an non-required exposed filter."
+msgstr ""
+
+#: handlers/views_handler_relationship.inc:97,97,100,100,100,100
+msgid "Enable to hide items that do not contain this relationship"
+msgstr ""
+
+#: handlers/views_handler_sort.inc:101,101,109,109,109,109
+msgid "This sort is not exposed. Expose it to allow the users to change it."
+msgstr ""
+
+#: handlers/views_handler_sort.inc:106,106,114,114,114,114
+msgid "Expose sort"
+msgstr ""
+
+#: handlers/views_handler_sort.inc:113,113,121,121,121,121
+msgid ""
+"This sort is exposed. If you hide it, users will not be able to change "
+"it."
+msgstr ""
+
+#: handlers/views_handler_sort.inc:118,118,126,126,126,126
+msgid "Hide sort"
+msgstr "Скрыть сортировку"
+
+#: handlers/views_handler_argument.inc:536,395,536,551,551,551,395,395,551
+msgid "Skip default argument for view URL"
+msgstr ""
+"Пропустить аргумент по умолчанию для "
+"URL представления"
+
+#: handlers/views_handler_argument.inc:538,397,538,553,553,553,397,397,553
+msgid ""
+"Select whether to include this default argument when constructing the "
+"URL for this view. Skipping default arguments is useful e.g. in the "
+"case of feeds."
+msgstr ""
+"Выберите, следует ли включать этот "
+"аргумент по умолчанию при построении "
+"URL для этого представления. Пропуск "
+"аргументов по умолчанию полезно "
+"например, в случае лент."
+
+#: handlers/views_handler_field.inc:677,516,677,703,703,703,516,516,703
+msgid "Replace spaces with dashes"
+msgstr "Заменить пробелы тире"
+
+#: handlers/views_handler_field_time_interval.inc:22,22,28,28,28,22,22,28
+msgid "How many different units to display in the string."
+msgstr ""
+
+#: handlers/views_handler_filter_numeric.inc:124,126,126
+msgid "Include NULL rows"
+msgstr ""
+
+#: handlers/views_handler_filter_numeric.inc:126,128,128
+msgid "Treats NULL as zero (0)."
+msgstr ""
+
+#: handlers/views_handler_argument.inc:494,494,504,504,504,504
+msgid "Hide view"
+msgstr "Скрыть представление"
+
+#: handlers/views_handler_field.inc:526,565,605,526,565,605,552,591,631,552,591,631,552,591,631,552,591,631
+msgid ""
+"You may use token substitutions from the rewriting section in this "
+"class."
+msgstr ""
+
+#: handlers/views_handler_field_numeric.inc:54,54,60,60,60,60
+msgid "Thousands marker"
+msgstr ""
+
+#: handlers/views_handler_field.inc:917,703,917,943,943,943,703,703,943
+msgid "Remove whitespace"
+msgstr "Удалить пробелы"
+
+#: handlers/views_handler_field.inc:918,704,918,944,944,944,704,704,944
+msgid ""
+"If checked, all whitespaces at the beginning and the end of the output "
+"will be removed."
+msgstr ""
+
+#: handlers/views_handler_field.inc:499,499,525,525,525,525
+msgid "Customize field HTML"
+msgstr "Настроить HTML поля"
+
+#: handlers/views_handler_field.inc:539,539,565,565,565,565
+msgid "Customize label HTML"
+msgstr "Настроить HTML метки"
+
+#: handlers/views_handler_area_text.inc:36,35,36,37,37,37,35,35,37
+msgid "Use replacement tokens from the first row"
+msgstr ""
+"Использовать замещающие маркеры для "
+"первой строки"
+
+#: handlers/views_handler_field.inc:431,431
+msgid ""
+"Enable to hide this field if it is empty. Note that the field label or "
+"rewritten output may still be displayed. To hide labels, check the "
+"style or row style settings for empty fields. To hide rewritten "
+"content, check the Hide rewriting if empty checkbox."
+msgstr ""
+
+#: handlers/views_handler_field.inc:964,756,964,990,990,990,756,756,990
+msgid "Hide rewriting if empty"
+msgstr ""
+
+#: handlers/views_handler_field.inc:966,758,966,992,992,992,758,758,992
+msgid "Do not display rewritten content if this field is empty."
+msgstr ""
+
+#: handlers/views_handler_field_date.inc:42,39,42,39,42
+msgid ""
+"If \"Custom\", see <a "
+"href=\"http://us.php.net/manual/en/function.date.php\" "
+"target=\"_blank\">the PHP docs</a> for date formats. If \"Time ago\", "
+"enter the number of different time units to display, which defaults to "
+"2."
+msgstr ""
+
+#: handlers/views_handler_field.inc:578,578,604,604,604,604
+msgid "Customize field and label wrapper HTML"
+msgstr ""
+
+#: handlers/views_handler_field.inc:587,587,613,613,613,613
+msgid ""
+"Choose the HTML element to wrap around this field and label, e.g. H1, "
+"H2, etc. This may not be used if the field and label are not rendered "
+"together, such as with a table."
+msgstr ""
+
+#: handlers/views_handler_filter.inc:268,268,428,428,428,428
+msgid "Expose this filter to visitors, to allow them to change it"
+msgstr ""
+
+#: handlers/views_handler_sort.inc:94,94,102,102,102,102
+msgid "Expose this sort to visitors, to allow them to change it"
+msgstr ""
+
+#: handlers/views_handler_relationship_groupwise_max.inc:100,100,100,100,100,100
+msgid "Representative sort order"
+msgstr ""
+
+#: handlers/views_handler_relationship_groupwise_max.inc:108,108,108,108,108,108
+msgid "Subquery namespace"
+msgstr ""
+
+#: handlers/views_handler_relationship_groupwise_max.inc:109,109,109,109,109,109
+msgid ""
+"Advanced. Enter a namespace for the subquery used by this "
+"relationship."
+msgstr ""
+
+#: handlers/views_handler_relationship_groupwise_max.inc:136,136,136,136,136,136
+msgid "Representative view"
+msgstr ""
+
+#: handlers/views_handler_relationship_groupwise_max.inc:139,139,139,139,139,139
+msgid ""
+"Advanced. Use another view to generate the relationship subquery. This "
+"allows you to use filtering and more than one sort. If you pick a view "
+"here, the sort options above are ignored. Your view must have the ID "
+"of its base as its only field, and should have some kind of sorting."
+msgstr ""
+
+#: handlers/views_handler_relationship_groupwise_max.inc:144,144,144,144,144,144
+msgid "Generate subquery each time view is run."
+msgstr ""
+
+#: handlers/views_handler_relationship_groupwise_max.inc:146,146,146,146,146,146
+msgid ""
+"Will re-generate the subquery for this relationship every time the "
+"view is run, instead of only when these options are saved. Use for "
+"testing if you are making changes elsewhere. WARNING: seriously "
+"impairs performance."
+msgstr ""
+
+#: handlers/views_handler_field.inc:694,694,720,720,720,720
+msgid "Transform the case"
+msgstr ""
+
+#: handlers/views_handler_field.inc:695,695,721,721,721,721
+msgid ""
+"When printing url paths, how to transform the case of the filter "
+"value."
+msgstr ""
+
+#: handlers/views_handler_relationship.inc:90,90,93,93,93,93
+msgid ""
+"Edit the administrative label displayed when referencing this "
+"relationship from filters, etc."
+msgstr ""
+
+#: handlers/views_handler_field_date.inc:43,43
+msgid ""
+"If \"Custom\", see <a "
+"href=\"http://us.php.net/manual/en/function.date.php\" "
+"target=\"_blank\">the PHP docs</a> for date formats. Otherwise, enter "
+"the number of different time units to display, which defaults to 2."
+msgstr ""
+
+#: handlers/views_handler_field.inc:942,736,942,968,968,736,736
+msgid ""
+"Provide text to display if this field returns no results. You may "
+"include HTML. You may enter data from this view as per the "
+"\"Replacement patterns\" in the \"Rewrite Results\" section below."
+msgstr ""
+
+#: handlers/views_handler_filter_in_operator.inc:386,401,386,395,395,395,402,402,395
+msgid "The operator is invalid on filter: @filter."
+msgstr ""
+
+#: handlers/views_handler_filter_in_operator.inc:409,424,409,418,418,418,425,425,418
+msgid "No valid values found on filter: @filter."
+msgstr ""
+
+#: handlers/views_handler_filter_in_operator.inc:413,428,413,422,422,422,429,429,422
+msgid "The value @value is not an array for @operator on filter: @filter"
+msgstr ""
+
+#: handlers/views_handler_relationship_groupwise_max.inc:90,90,90,90,90,90
+msgid "Representative sort criteria"
+msgstr ""
+
+#: handlers/views_handler_relationship_groupwise_max.inc:95,95,95,95,95,95
+msgid ""
+"The sort criteria is applied to the data brought in by the "
+"relationship to determine how a representative item is obtained for "
+"each row. For example, to show the most recent node for each user, "
+"pick 'Content: Updated date'."
+msgstr ""
+
+#: handlers/views_handler_relationship_groupwise_max.inc:101,101,101,101,101,101
+msgid "The ordering to use for the sort criteria selected above."
+msgstr ""
+
+#: handlers/views_handler_field.inc:436,436
+msgid "Do not rewrite if empty"
+msgstr "Не переписывать, если пусто"
+
+#: handlers/views_handler_field_numeric.inc:60,60,66,66,66,66
+msgid "Apostrophe"
+msgstr "Апостроф"
+
+#: handlers/views_handler_field.inc:721,548,721,747,747,747,548,548,747
+msgid ""
+"Text to place as \"title\" text which most browsers display as a "
+"tooltip when hovering over the link."
+msgstr ""
+
+#: handlers/views_handler_field.inc:958,750,958,984,984,984,750,750,984
+msgid ""
+"Enable to hide this field if it is empty. Note that the field label or "
+"rewritten output may still be displayed. To hide labels, check the "
+"style or row style settings for empty fields. To hide rewritten "
+"content, check the \"Hide rewriting if empty\" checkbox."
+msgstr ""
+
+#: handlers/views_handler_area_view.inc:31,31,32,32,32,32
+msgid "-Select-"
+msgstr "-Выбрать-"
+
+#: handlers/views_handler_area_result.inc:45,45,46,46,46,46
+msgid ""
+"You may use HTML code in this field. The following tokens are "
+"supported:"
+msgstr ""
+"Вы можете использовать HTML-код в этом "
+"поле. Поддерживаются следующие "
+"маркеры:"
+
+#: handlers/views_handler_filter.inc:384,395,384,395,384,395,384,395
+msgid "Grouped filters"
+msgstr "Групповой фильтр"
+
+#: handlers/views_handler_field_machine_name.inc:47,47,52,52,52,52
+msgid "Display field as machine name."
+msgstr ""
+
+#: handlers/views_handler_field.inc:857,857,883,883,883,883
+msgid "Add a read-more link if output is trimmed."
+msgstr ""
+
+#: handlers/views_handler_field.inc:858,858,884,884,884,884
+msgid ""
+"If checked, a read-more link will be added at the end of the trimmed "
+"output"
+msgstr ""
+
+#: handlers/views_handler_field.inc:869,869,895,895,895,895
+msgid ""
+"The text which will be displayed on the more link. You may enter data "
+"from this view as per the \"Replacement patterns\" above."
+msgstr ""
+
+#: handlers/views_handler_field.inc:880,880,906,906,906,906
+msgid ""
+"The path which is used for the more link. You may enter data from this "
+"view as per the \"Replacement patterns\" above."
+msgstr ""
+
+#: handlers/views_handler_field_contextual_links.inc:20,30,30,30,30
+msgid "Fields to be included as contextual links."
+msgstr ""
+
+#: handlers/views_handler_field_contextual_links.inc:26,36,36,36,36
+msgid "Include destination"
+msgstr ""
+
+#: handlers/views_handler_field_contextual_links.inc:27,37,37,37,37
+msgid ""
+"Include a \"destination\" parameter in the link to return the user to "
+"the original view upon completing the contextual action."
+msgstr ""
+
+#: handlers/views_handler_field.inc:811,811,811,811
+msgid ""
+"<p>The following tokens are available for this field. Note that due to "
+"rendering order, you cannot use fields that come after this field; if "
+"you need a field not listed here, rearrange your fields.\n"
+"If you would like to have the characters '[' and ']' please use the "
+"html entity codes '%5B' or  '%5D' or they will get replaced with empty "
+"space.</p>"
+msgstr ""
+
+#: handlers/views_handler_filter_combine.inc:39,39,39,39
+msgid "Choose fields to combine for filtering"
+msgstr ""
+
+#: handlers/views_handler_filter_combine.inc:40,40,40,40
+msgid "This filter doesn't work for very special field handlers."
+msgstr ""
+
+#: handlers/views_handler_filter_combine.inc:47,47,47,47
+msgid "You have to add some fields to be able to use this filter."
+msgstr ""
+
+#: handlers/views_handler_argument.inc:521,521,521,521
+msgid "Display \"Access Denied\""
+msgstr "Показ \"Доступ запрещён\""
+
+#: handlers/views_handler_sort_menu_hierarchy.inc:30,30,30,25,25,30
+msgid "Sort within each hierarchy level"
+msgstr ""
+
+#: handlers/views_handler_sort_menu_hierarchy.inc:31,31,31,26,26,31
+msgid ""
+"Enable this to sort the items within each level of the hierarchy by "
+"weight and title.  Warning: this may produce a slow query."
+msgstr ""
+
+#: handlers/views_handler_field_math.inc:29,29,29,23,23,29
+msgid ""
+"Enter mathematical expressions such as 2 + 2 or sqrt(5). You may "
+"assign variables and create mathematical functions and evaluate them. "
+"Use the ; to separate these. For example: f(x) = x + 2; f(2)."
+msgstr ""
+
+#: handlers/views_handler_field_date.inc:29,29,29,29
+msgid "@date_format format"
+msgstr "@date_format формат"
+
+#: handlers/views_handler_field_date.inc:50,50,50,50
+msgid ""
+"If \"Custom\", see the <a href=\"@url\" target=\"_blank\">PHP "
+"manual</a> for date formats. Otherwise, enter the number of different "
+"time units to display, which defaults to 2."
+msgstr ""
+
+#: handlers/views_handler_filter_entity_bundle.inc:63,63,63,63
+msgid "@entity types"
+msgstr "@entity типы"
+
+#: handlers/views_handler_field_date.inc:57,57,57,57
+msgid "Timezone to be used for date output."
+msgstr ""
+
+#: handlers/views_handler_field_date.inc:58,58,58,58
+msgid "- Default site/user timezone -"
+msgstr ""
+
+#: handlers/views_handler_filter.inc:551,551,551,551
+msgid ""
+"Remember exposed selection only for the selected user role(s). If you "
+"select no roles, the exposed data will never be stored."
+msgstr ""
+
+#: handlers/views_handler_filter.inc:373,373,373,373
+msgid ""
+"Grouped filters allow a choice between predefined operator|value "
+"pairs."
+msgstr ""
+
+#: handlers/views_handler_filter.inc:379,379,379,379
+msgid "Filter type to expose"
+msgstr ""
+
+#: handlers/views_handler_filter.inc:383,404,383,404,383,404,383,404
+msgid "Single filter"
+msgstr "Единичный фильтр"
+
+#: handlers/views_handler_filter.inc:851,900,851,900,851,900,851,900
+msgid ""
+"Select which kind of widget will be used to render the group of "
+"filters"
+msgstr ""
+
+#: handlers/views_handler_field.inc:968,968
+msgid ""
+"Provide text to display if this field contains an empty result. You "
+"may include HTML. You may enter data from this view as per the "
+"\"Replacement patterns\" in the \"Rewrite Results\" section below."
+msgstr ""
+
+#: handlers/views_handler_field_boolean.inc:65,65
+msgid "Custom output for TRUE"
+msgstr ""
+
+#: handlers/views_handler_field_boolean.inc:76,76
+msgid "Custom output for FALSE"
+msgstr ""
+

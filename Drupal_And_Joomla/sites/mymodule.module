@@ -1,0 +1,155 @@
+<?php
+//Неиспользуемое поле title мы скрываем и при сохранении будем менять значение на имя пользователя используя код в модуле
+function mymodule_form_alter(&$form, $form_state, $form_id) {
+  if ('profile_node_form' == $form_id) {
+    $form['title']['#type'] = 'value';
+    $form['title']['#required'] = FALSE;
+  }
+}
+function mymodule_nodeapi(&$node, $op, $a3 = NULL, $a4 = NULL) {
+  if ($node->type == 'profile' && $op == 'presave') {
+    $node->title = $node->name;
+  }
+}
+
+//Темизация Privatemsg
+//удалим с помощью хука список участников беседы
+function mymodule_privatemsg_view_messages_alter(&$content) {
+  unset($content['participants']);
+}
+function mymodule_preprocess_privatemsg_view(&$vars) {
+  $message = $vars['message'];
+  // загружаем профиль
+  $profile = content_profile_load('profile', $message['author']->uid);
+
+  // выводим фото пользователя
+  if ($profile->field_profile_photo[0]['fid']) {
+    $photo = theme('imagecache', 'photo-50x50', $profile->field_profile_photo[0]['filepath']);
+  }
+  else {
+    $photo = theme('imagecache', 'photo-50x50', 'sites/default/files/profile_photos/default.png');
+  }
+  // добавляем для неё переменную в шаблон privatemsg-view.tpl.php
+  $vars['author_picture'] = l($photo, 'user/'. $message['author']->uid, array('html' => TRUE));
+}
+
+
+
+//Темизация профиля
+//1.Перекрытие стандартного шаблона пользователя
+function mymodule_menu_alter(&$items) {
+  $items['user/%user_uid_optional']['page callback'] = 'mymodule_user_view';
+}
+// в отличии от стандартной, здесь нет загрузки стандартного профиля
+function mymodule_user_view($account) {
+  drupal_set_title(check_plain($account->name));
+  return theme('user_profile', $account);
+}
+// убераем стандартные preprocess функции профиля
+function mymodule_theme_registry_alter(&$theme_registry) {
+  $theme_registry['user_profile']['preprocess functions'] = array('mymodule_preprocess_user_profile');
+}
+//добавляем preproсess функцию
+function mymodule_preprocess_user_profile(&$variables) {
+  global $user;
+
+  $account = $variables['account'];
+  // загружаем профиль пользователя из content_profile
+  $profile = content_profile_load('profile', $account->uid);
+  $profile = node_build_content($profile);
+  $variables['profile'] = $profile;
+  // создаем переменные для простых полей
+  $variables['profile_name'] = $profile->field_profile_name[0]['safe'];
+  $variables['profile_lastname'] = $profile->field_profile_lastname[0]['safe'];
+
+  // день рождения
+  if ($profile->field_profile_birthday[0]['value']) {
+    $date = date_convert($profile->field_profile_birthday[0]['value'], 'datetime', 'datestamp');
+    $variables['profile_birthday'] = format_date($date, 'custom', 'j F Y', NULL, 'ru');
+  }
+  $variables['profile_shoppoint'] = $profile->field_profile_shoppoint[0]['safe'];
+  
+  $variables['profile_phone'] = $profile->field_profile_phone[0]['safe'];
+  $variables['profile_icq'] = $profile->field_profile_icq[0]['safe'];
+  $variables['profile_email'] = $profile->field_profile_email[0]['safe'];  
+  
+  // переменная для отображаемого имени пользователя
+  if ($variables['profile_name'] && $variables['profile_lastname']) {
+    $variables['display_name'] = $variables['profile_name'] .' '. $variables['profile_lastname'];
+  }
+  elseif ($variables['profile_name']) {
+    $variables['display_name'] = $variables['profile_name'];
+  }
+  else {
+    $variables['display_name'] = $account->name;
+  }
+  // меняем заголовок страницы
+  drupal_set_title($variables['display_name']);
+
+  if ($profile->field_profile_photo[0]['filepath']) {
+    $variables['profile_photo'] = theme('image', $profile->field_profile_photo[0]['filepath']);
+  }
+  else {
+    // если пользователь не загрузил фотографию, покажем стандартную
+    $variables['profile_photo'] = theme('image', 'sites/default/files/pictures/default_user.png');
+  }
+
+  $user_actions = array();
+
+  if ($user->uid == $account->uid) {
+    // Редактировать страницу
+    $user_actions[] = l('Редактировать страницу', "user/$account->uid/profile/profile", array('query' => drupal_get_destination()));
+    
+    // Редактировать страницу
+    if ($profile->field_profile_photo[0]['filepath']) {
+      $user_actions[] = l('Изменить фотографию', "user/$account->uid/profile/profile", array('query' => drupal_get_destination(), 'fragment' => 'tabset-tab-5'));
+    }
+    else {
+      $user_actions[] = l('Загрузить фотографию', "user/$account->uid/profile/profile", array('query' => drupal_get_destination(), 'fragment' => 'tabset-tab-5'));
+    }
+  }
+  // Отправить сообщение
+  if (module_exists('privatemsg')) {
+    if ($user->uid != $account->uid) {
+      if ($url = privatemsg_get_link(array($account))) {
+        $user_actions[] = l('Отправить сообщение', $url, array('query' => drupal_get_destination()));
+      }
+    }
+  }
+}
+//Меню пользователя
+function mymodule_block($op = 'list', $delta = 0, $edit = array()) {
+  if ('list' == $op) {
+    $blocks['user-menu'] = array(
+      'info' => t('User menu'),
+      'cache' => BLOCK_NO_CACHE,
+    );
+
+    return $blocks;
+  }
+  elseif ('view' == $op) {
+    $block = array();
+    switch ($delta) {
+      case 'user-menu':
+        $block = mymodule_block_user_menu();
+        break;
+    }
+    return $block;
+  }
+}
+
+function mymodule_block_user_menu() {
+  global $user;
+  $links = array();
+
+  $links[] = l('Моя Страница', 'user/'. $user->uid);
+  $links[] = l('Настройки аккаунта', 'user/'. $user->uid .'/edit');
+
+  if (!empty($links)) {
+    $block['content'] = theme('item_list', $links);
+  }
+
+  return $block;
+}
+
+// $Id$

@@ -1,0 +1,42 @@
+/** "Skip to Main Content" link
+---------------------------------
+*  This link useful for both visually impaired people and those with mobility impairments
+*  who cannot use a mouse.
+*/
+
+#skip-nav { display: none; }
+
+#skip-nav a, #skip-nav a:hover, #skip-nav a:visited {
+  position: absolute;
+  left: 0;
+  top: -500px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+#skip-nav a:active, #skip-nav a:focus {
+  position: static;
+  width: auto;
+  height: auto;
+}
+
+/** Rollover edit links for blocks
+----------------------------*/
+
+div.block {
+  position: relative;
+}
+div.block div.edit {
+  display: none;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 40;
+  border: 1px solid #eee;
+  padding: 0 2px;
+  font-size: 11px;
+  background-color: #fff;
+}
+div.block:hover div.edit {
+  display: block;
+}

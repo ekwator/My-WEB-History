@@ -1,0 +1,128 @@
+# Russian translation of ctools (all releases)
+# Copyright (c) 2013 by the Russian translation team
+# Generated from files:
+#  ctools/page_manager/plugins/task_handlers/http_response.inc: n/a
+#  http_response.inc,v 1.1.2.1 2010/08/06 18:23:11 merlinofchaos
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: ctools (all releases)\n"
+"POT-Creation-Date: 2013-05-29 14:25+0400\n"
+"PO-Revision-Date: 2011-08-15 11:52+0400\n"
+"Language-Team: Russian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=((((n%10)==1)&&((n%100)!=11))?(0):(((((n%10)>=2)&&((n%10)<=4))&&(((n%100)<10)||((n%100)>=20)))?(1):2));\n"
+
+#: page_manager/plugins/task_handlers/http_response.inc:76,22,76,22,23,77,22,76,22,76,22,76,22,76,23,77,22,76,22,76,22,76,22,76
+msgid "General"
+msgstr "Основные"
+
+#: page_manager/plugins/task_handlers/http_response.inc:71,71,72,71,71,71,71,72,71,71
+msgid "Panel settings"
+msgstr ""
+
+#: page_manager/plugins/task_handlers/http_response.inc:227,176,227,176,182,233,176,227,176,227,176,227,176,227,182,233,176,227,176,227,176,227,176,227,177,228
+msgid "Response code"
+msgstr ""
+
+#: page_manager/plugins/task_handlers/http_response.inc:75,64,32,27,75,64,32,27,28,33,65,76,27,32,64,75,27,32,64,75,27,32,64,75,27,32,64,75,28,33,65,76,27,32,64,75,27,32,64,75,27,32,64,75,27,32,64,75
+msgid "Selection rules"
+msgstr "Правила выбора"
+
+#: page_manager/plugins/task_handlers/http_response.inc:210,210,93,17,210,93,17,18,94,216,17,93,17,93,210,17,93,210,17,93,210,18,94,216,17,93,210,17,93,210,17,93,210,17,93,210,211
+msgid "HTTP response code"
+msgstr ""
+
+#: page_manager/plugins/task_handlers/http_response.inc:28,28,29,28,28,28,28,29,28,28,28,28
+msgid ""
+"Control the criteria used to decide whether or not this variant is "
+"used."
+msgstr ""
+"Управление критериями, определяющими, "
+"использовать ли этот вариант."
+
+#: page_manager/plugins/task_handlers/http_response.inc:45,45,46,45,45,45,45,46,45,45,45,45
+msgid ""
+"Add additional context objects to this variant that can be used by the "
+"content."
+msgstr ""
+"Добавление в этому варианту "
+"дополнительных контекстов, которые "
+"можно будет использовать в содержимом "
+"страницы."
+
+#: page_manager/plugins/task_handlers/http_response.inc:136,136,142,136,136,136,136,142,136,136,137
+msgid "This panel will be selected if @conditions."
+msgstr "Эта панель будет выбрана, если @conditions."
+
+#: page_manager/plugins/task_handlers/http_response.inc:139,139,145,139,139,139,139,145,139,139,140
+msgid "This panel will always be selected."
+msgstr "Эта панель всегда выбрана."
+
+#: page_manager/plugins/task_handlers/http_response.inc:168,168,174,168,168,168,168,174,168,168,168,168,169
+msgid "Selection rule"
+msgstr "Правило выбора"
+
+#: page_manager/plugins/task_handlers/http_response.inc:185,185,185,191,185,185,185,191,185,185,186
+msgid "Panel: @title"
+msgstr "Панель: @title"
+
+#: page_manager/plugins/task_handlers/http_response.inc:223,223,223,229,223,223,223,229,223,223,223,223,224
+msgid "Administrative title of this variant."
+msgstr ""
+"Заголовок этого варианта, "
+"отображаемый на страницах управления."
+
+#: page_manager/plugins/task_handlers/http_response.inc:23,23,24,23,23,23,23,24,23,23,23,23
+msgid "Change general settings for this variant."
+msgstr ""
+
+#: page_manager/plugins/task_handlers/http_response.inc:108,108,109,108,108,108,108,109,108,108,108,108,109
+msgid "404 Page not found"
+msgstr "404 Страница не найдена"
+
+#: page_manager/plugins/task_handlers/http_response.inc:109,109,110,109,109,109,109,110,109,109,109,109,108
+msgid "403 Access denied"
+msgstr ""
+
+#: page_manager/plugins/task_handlers/http_response.inc:110,110,111,110,110,110,110,111,110,110,110,110,111
+msgid "301 Redirect"
+msgstr ""
+
+#: page_manager/plugins/task_handlers/http_response.inc:236,236,242,236,236,236,236,242,236,236,236,236,237
+msgid "Redirect destination"
+msgstr ""
+
+#: page_manager/plugins/task_handlers/http_response.inc:240,239,246,240,239,240,239,239,239,246,239,240,239,240
+msgid ""
+"Enter the path to redirect to. You may use keyword substitutions from "
+"contexts. You can use external urls (http://www.example.com/foo) or "
+"internal urls (node/1)."
+msgstr ""
+
+#: page_manager/plugins/task_handlers/http_response.inc:71,71,71,71
+msgid "HTTP Response settings"
+msgstr ""
+
+#: page_manager/plugins/task_handlers/http_response.inc:136,136,136,136
+msgid "This task will be selected if @conditions."
+msgstr ""
+
+#: page_manager/plugins/task_handlers/http_response.inc:139,139,139,139
+msgid "This task will always be selected."
+msgstr ""
+
+#: page_manager/plugins/task_handlers/http_response.inc:184,184,184,184
+msgid "HTTP Response"
+msgstr ""
+
+#: page_manager/plugins/task_handlers/http_response.inc:185,185,185,185
+msgid "HTTP Response: @title"
+msgstr ""
+
+#: page_manager/plugins/task_handlers/http_response.inc:110
+msgid "410 Gone"
+msgstr ""
+

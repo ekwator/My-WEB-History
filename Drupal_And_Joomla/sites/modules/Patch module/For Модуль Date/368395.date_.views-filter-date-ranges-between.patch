@@ -1,0 +1,44 @@
+Index: includes/date_api_filter_handler.inc
+===================================================================
+RCS file: /cvs/drupal-contrib/contributions/modules/date/includes/date_api_filter_handler.inc,v
+retrieving revision 1.1.2.47
+diff -u -p -r1.1.2.47 date_api_filter_handler.inc
+--- includes/date_api_filter_handler.inc	12 Aug 2010 22:32:58 -0000	1.1.2.47
++++ includes/date_api_filter_handler.inc	31 Oct 2010 15:20:12 -0000
+@@ -428,8 +428,34 @@ class date_api_filter_handler extends vi
+         $sql_parts = array();
+         switch ($this->operator) {
+           case 'between':
+-            $sql_parts[] = $this->date_filter('min', $query_field, '>=');
+-            $sql_parts[] = $this->date_filter('max', $query_field, '<=');
++            // If the date field is a CCK field, and is not the 'to' value,
++            // then we also need to consider the 'to' value so events that
++            // overlap the given period are in the result.
++            // The check on related_fields checks that we actually have a
++            // CCK 'value2' field available.
++            if (substr($field['fullname'], -1, 0) != '2' && $field['fullname'] != $field['related_fields'][1]) {
++              $to_field_fullname = $field['related_fields'][1];
++              if ($to_field_fullname != $field['fullname']) {
++                $fields = date_api_fields($this->definition['base']);
++                $fields = $fields['name'];
++                if (array_key_exists($to_field_fullname, $fields) && $to_field = $fields[$to_field_fullname]) {
++                  $date_handler = new date_sql_handler();
++                  $date_handler->construct($to_field['sql_type'], date_default_timezone_name());
++                  $date_handler->granularity = $this->options['granularity'];
++                  date_views_set_timezone($date_handler, $this->view, $to_field);
++                  $query_field_to = array('field' => $to_field, 'date_handler' => $date_handler);
++                  // We need:
++                  //  query field to  >= given min value
++                  //  query field     <= given max value
++                  $sql_parts[] = $this->date_filter('min', $query_field_to, '>=');
++                  $sql_parts[] = $this->date_filter('max', $query_field, '<=');
++                }
++              }
++            }
++            else {
++              $sql_parts[] = $this->date_filter('min', $query_field, '>=');
++              $sql_parts[] = $this->date_filter('max', $query_field, '<=');
++            }
+             $sql = implode(' AND ', array_filter($sql_parts));
+             break;
+           case 'not between':

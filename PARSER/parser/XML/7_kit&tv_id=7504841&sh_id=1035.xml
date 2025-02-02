@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<euroauto-export>
+  <request>
+    <creation-time>2012-10-31 08:43:58 GMT+0400</creation-time>
+    <status>
+      <code>10</code>
+      <message>NO DATA</message>
+    </status>
+    <get>kit</get>
+    <tv_id>7504841</tv_id>
+    <sh_id>1035</sh_id>
+  </request>
+</euroauto-export>

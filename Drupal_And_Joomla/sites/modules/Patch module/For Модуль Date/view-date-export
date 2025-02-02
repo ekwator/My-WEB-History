@@ -1,0 +1,58 @@
+<?php
+/**
+* Rewrite the view that is supposed to show events across a time range to ensure
+* it includes events with a begin or end date outside of the range, but which partially fall within it.
+* Long term events, starting in Sept, ending in Nov, should still be listed when someone asks
+* what is happening between Oct 12th - 15th?
+*
+* I tried for several hours to find solutions in d.o issues, but this is what I have to do.
+* Like any views_query_alter, this is likely to implode if anyone messes with the view ever again.
+* dman 2011-09-07
+*/
+function sparks_misc_views_query_alter(&$view, &$query) {
+  if ($view->name != 'events') {return;}
+  #dpm($query);
+  // Pick apart the clauses to find the from and to dates defining the search range.
+  // These were not given to us as args. Boo.
+  // note that either date is optional, so they may not both be there every time.
+  $start_range = $end_range = 0;
+  foreach ($query->where['date']['clauses'] as $clause) {
+    if (preg_match('/ > /', $clause) && preg_match('/\d\d\d\d\-\d\d\-\d\d/', $clause, $matches) ) {
+      $start_range = $matches[0];
+    }
+    if (preg_match('/ <= /', $clause) && preg_match('/\d\d\d\d\-\d\d\-\d\d/', $clause, $matches) ) {
+      $end_range = $matches[0];
+    }
+  }
+  // Start re-inventing the clauses.
+  $clauses = array();
+
+  // note that .field_date_value and .field_date_value2 are the nodes from and two dates.
+
+  if (!empty($start_range) && !empty($end_range)) {
+    // Either the begin date is between the defined range
+    $clauses[] = "(DATE_FORMAT(STR_TO_DATE(node_data_field_date.field_date_value, '%Y-%m-%%dT%T'), '%Y-%m-%%d') >= '$start_range' AND DATE_FORMAT(STR_TO_DATE(node_data_field_date.field_date_value, '%Y-%m-%%dT%T'), '%Y-%m-%%d') <= '$end_range')";
+    // Or the end date is between the range
+    $clauses[] = "(DATE_FORMAT(STR_TO_DATE(node_data_field_date.field_date_value2, '%Y-%m-%%dT%T'), '%Y-%m-%%d') >= '$start_range' AND DATE_FORMAT(STR_TO_DATE(node_data_field_date.field_date_value2, '%Y-%m-%%dT%T'), '%Y-%m-%%d') <= '$end_range')";
+    // or they straddle it
+     $clauses[] = "(DATE_FORMAT(STR_TO_DATE(node_data_field_date.field_date_value, '%Y-%m-%%dT%T'), '%Y-%m-%%d') < '$start_range' AND DATE_FORMAT(STR_TO_DATE(node_data_field_date.field_date_value2, '%Y-%m-%%dT%T'), '%Y-%m-%%d') > '$end_range')";
+  }
+  else {
+    // not both ends or the range were defined. Deal with that.
+    if ($start_range) {
+      // Only the start is defined, so list everythin that ends after then (this will include anything that starts)
+      $clauses[] = "(DATE_FORMAT(STR_TO_DATE(node_data_field_date.field_date_value2, '%Y-%m-%%dT%T'), '%Y-%m-%%d') >= '$start_range' )";
+    }
+    if ($end_range) {
+      // Only the end is defined, so show anything that begins before then;
+       $clauses[] = "(DATE_FORMAT(STR_TO_DATE(node_data_field_date.field_date_value, '%Y-%m-%%dT%T'), '%Y-%m-%%d') >= '$end_range' )";
+    }
+    // if neither range was defined, then there are no clauses and we make no changes.
+  }
+  if (! empty($clauses)) {
+    $query->where['date']['clauses'] = $clauses;
+    $query->where['date']['type'] = 'OR';
+  }
+  #dpm(get_defined_vars());
+}
+?>

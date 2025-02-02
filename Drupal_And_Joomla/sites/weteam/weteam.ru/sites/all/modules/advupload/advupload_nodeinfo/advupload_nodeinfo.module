@@ -1,0 +1,171 @@
+<?php
+/**
+ * Submodule for advanced upload pages, to add node information form 
+ * with textarea for short body description text and select form components for current 
+ * node taxonomy tags clicking set info button
+ * Main module file
+ * (c) Ilya V. Azarov, 2011. Advanced image upload module for images/multimedia/etc.
+ */
+/*
+ * Implementation of hook_menu
+ */
+function advupload_nodeinfo_menu() {
+  $items = array();
+  $items['admin/settings/advupload/advupload-nodeinfo'] = array(
+    'title' => 'Select node input format',
+    'description' => 'Select input format for upload form.',
+    'page callback' => 'drupal_get_form',
+    'page arguments' => array('advupload_nodeinfo_admin_settings'),
+    'access callback' => 'user_access',
+    'access arguments' => array('administer advupload module settings'),
+    'type' => MENU_LOCAL_TASK,
+    'weight' => 50,
+    'file' => 'advupload_nodeinfo.admin.inc',
+  );
+  return $items;
+}
+/*
+ * Implementation of hook_advupload_pages
+ */
+function advupload_nodeinfo_advupload_pages($type, $uptype) {
+  if($uptype == 'multinode') {
+    $mpath = drupal_get_path('module', 'advupload_nodeinfo');
+    drupal_add_css($mpath .'/css/advupload_nodeinfo.css', 'module');
+    drupal_add_js($mpath .'/js/advupload_nodeinfo.js', 'module', 'footer');
+    $form = array();
+    $node = new stdClass();
+    $node->type = $type;
+    module_load_include('inc', 'node', 'node.pages');
+    $form = array();
+    $form['advupload_nodeinfo'] = array(
+      '#type' => 'fieldset',
+      '#title' => t('Enter new node description'),
+      '#prefix' => '<div id="advupload-nodeinfo-modal" class="advupload-nodeinfo-modal"><a class="close-modal">&#215;</a><div id="advupload-nodeinfo-modal-internal">',
+      '#suffix' => '</div></div>', 
+      '#weight' => 100,
+      'advupload_nodeinfo_title' => array(
+        '#name' => 'advupload_nodeinfo_title',
+        '#id' => 'advupload_nodeinfo_title_input',
+        '#title' => t('Node title'),
+        '#description' => t('Enter node title here'),
+        '#type' => 'textfield',
+        '#default_value' => '',
+        '#maxlength' => 128,
+        '#size' => 40,
+        '#weight' => -100,
+      ),
+      'advupload_nodeinfo_body' => array(
+        '#name' => 'advupload_nodeinfo_body',
+        '#id' => 'advupload_nodeinfo_body_input',
+        '#title' => t('Node content'),
+        '#description' => t('Enter node content here. Note that there default filter format to enter that.'),
+        '#type' => 'textarea',
+        '#default_value' => '',
+        '#size' => 20,
+        '#rows' => 4,
+        '#weight' => 100
+      ),
+      'advupload_nodeinfo_submit' => array(
+        '#name' => 'advupload_nodeinfo_submit_button',
+        '#id' => 'advupload_nodeinfo_submit',
+        '#default_value' => t('Set values'),
+        '#type' => 'submit',
+        '#weight' => 10000,
+        '#prefix' => '<span class="advupload-nodeinfo-submit-wrapper">',
+        '#suffix' => '</span>',
+      ),
+    );
+    // hack around taxonomy module
+    $form['#node'] = $node;
+    // now look at vocabularies info according type $type
+    $form['type'] = array(
+      '#type' => 'hidden',
+      '#value' => $type,
+    );
+    if (module_exists('taxonomy') ) {
+      taxonomy_form_alter($form, array(), $type . '_node_form');
+      // cleanup keys we do not need
+      if (isset($form['taxonomy'] ) && count($form['taxonomy'] ) ) {
+        $allowed_keys = array(
+          '#type', '#title', '#description', '#default_value',
+          '#value', '#options',
+          '#weight', '#maxlength', '#multiple'
+        );
+        foreach($form['taxonomy'] as $key => $value) {
+          if(is_numeric($key) ) {
+            foreach($value as $key1 => $f1) {
+              if(!in_array($key1, $allowed_keys) ) {
+                unset($form['taxonomy'][$key][$key1] );
+              }
+            }
+            $form['taxonomy'] [$key] ['#id'] = 'advupload_nodeinfo_taxonomy_select_' . $key;
+            $form['taxonomy'] [$key] ['#name'] = 'advupload_nodeinfo_taxonomy_select_input_' . $key;
+          }
+        }
+        if (isset($form['taxonomy'] ['tags'] ) && count($form['taxonomy'] ['tags']) ) {
+          foreach($form['taxonomy'] ['tags'] as $key => $value) {
+            if(is_numeric($key) ) {
+              foreach($value as $key1 => $f1) {
+                if(!in_array($key1, $allowed_keys) ) {
+                  unset($form['taxonomy']['tags'][$key][$key1] );
+                }
+              }
+              $form['taxonomy'] ['tags'] [$key] ['#size'] = 20;
+              $form['taxonomy'] ['tags'] [$key] ['#id'] = 'advupload_nodeinfo_taxonomy_tag_' . $key;
+              $form['taxonomy'] ['tags'] [$key] ['#name'] = 'advupload_nodeinfo_taxonomy_tag_input_' . $key;
+            }
+          }
+        }
+        $form['advupload_nodeinfo']['advupload_nodeinfo_taxonomy'] = $form['taxonomy'];
+        unset($form['taxonomy'] );
+      }
+    }
+    unset($form['type'] );
+    unset($form['#node'] );
+    
+    _advupload_add_custom_form_values(
+      'advupload_nodeinfo', 
+      array('html' => drupal_render($form['advupload_nodeinfo'] ), 'weight' => 100)
+    );
+  }
+}
+/*
+ * Implementation of hook_advupload_prenodesave
+ */
+function advupload_nodeinfo_advupload_prenodesave($node, $addfields) {
+  if (isset($addfields['advupload_nodeinfo_body_input'] ) ) {
+    $node->teaser = '';
+    $node->body = $addfields['advupload_nodeinfo_body_input'];
+    $node->format = variable_get('advupload_nodeinfo_filter_format', FILTER_FORMAT_DEFAULT);
+  }
+  // going by 'advupload_nodeinfo_taxonomy_tag_% and 
+  // 'advupload_nodeinfo_taxonomy_select_%
+  $terms = array();
+  foreach ($addfields as $key => $value) {
+    $matches = array();
+    if (preg_match('#^advupload_nodeinfo_taxonomy_tag_([\d]+)$#', $key, $matches) ) {
+      $vid = $matches[1];
+      $vocabulary = taxonomy_vocabulary_load($vid);
+      if (empty($vocabulary->tags)) {} else {
+        $terms['tags'][$vid] = $value;
+      }
+    }
+    if (preg_match('#^advupload_nodeinfo_taxonomy_select_([\d]+)$#', $key, $matches) ) {
+      $vid = $matches[1];
+      $tids = explode(',', $value);
+      foreach($tids as $key1 => $tid) {
+        if (!is_numeric($tid) ) {
+          unset($tids[$key1] );
+        }
+      }
+      $terms[$vid] = $tids;
+    }
+  }
+  $node->taxonomy = $terms;
+}
+/*
+ * Implementation of hook_advupload_postnodesave()
+ */
+function advupload_nodeinfo_advupload_postnodesave($node, $addfields) {
+}
+

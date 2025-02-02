@@ -1,0 +1,106 @@
+ 
+<?PHP
+/**
+ * @name    HTML Parser Class
+ * @package MyCMS System
+ * @version 1.0
+ * @author  Nikitin Vadim <nikitin.vadim@gmail.com>
+ */
+ 
+class parser {
+   
+    // Array for error messages
+    var $error = array();
+   
+    // Array for redefined messages
+    var $vars = array();
+   
+    // Pointer to parsing file
+    var $tpl_file;
+   
+    // Pointer to file output
+    var $template;
+   
+    // Error message inline style
+    var $line_1 = null;
+    var $line_2 = null;
+ 
+    /**
+     * Parser class construct
+     *
+     * @return $error array
+     */
+    function parser()
+    {
+        // Define error messages
+        $this->error[0] = "MyCMS System :: Server needs to update!";
+        $this->error[1] = "MyCMS System :: HTML template not found!";
+       
+        // Check for existen function
+        if (!@function_exists("file_get_contents")) {
+                $this->halt( $this->error[0] );
+                return false;
+        }
+        return $this->error;
+    }
+   
+          /**
+           * Set defined variables
+           *
+           * @param string $key
+           * @param string $var
+           * @return $vars array
+           */
+        function set_tpl($key, $var)
+        {
+                $this->vars[$key] = $var;
+                return $this->vars;
+        }
+   
+        /**
+         * Choose template file. Generate an error if not exist.
+         *
+         * @return $template string
+         */
+        function get_tpl()
+        {
+                if(empty($this->tpl_file) || !file_exists($this->tpl_file)) {
+                        $this->halt( $this->error[1] );
+                } else {
+                        $this->template = file_get_contents($this->tpl_file);
+                }
+                return $this->template;
+        }
+   
+        /**
+         * Parse HTML template and print it to screen
+         *
+         * @return null
+         */
+        function tpl_parse()
+        {
+                // Redefine markers in HTML template
+            foreach($this->vars as $find => $replace) {
+                $this->template = str_replace($find, $replace, $this->template);
+        }
+       
+        // Print it to screen
+        echo $this->template;
+        }
+   
+        /**
+         * If an error were generated, display it
+         *
+         * @param string $msg
+         */
+    function halt($msg)
+    {
+        $init = "<b>MyCMS System Info</b> <br />rn";
+        $this->line_1 = "<div align="center" style="font-family:Courier;font-size:12px;"> rnt";
+        $this->line_2 = "rn</div>";
+       
+        // Display error message and stop script
+        die($this->line_1.$init.$msg.$this->line2);
+    }
+};
+?>

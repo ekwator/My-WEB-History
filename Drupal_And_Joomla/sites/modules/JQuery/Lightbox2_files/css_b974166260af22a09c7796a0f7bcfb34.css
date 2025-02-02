@@ -1,0 +1,1986 @@
+.node-unpublished {
+	BACKGROUND-COLOR: #fff4f4
+}
+.preview .node {
+	BACKGROUND-COLOR: #ffffea
+}
+#node-admin-filter UL {
+	PADDING-BOTTOM: 0px; LIST-STYLE-TYPE: none; MARGIN: 0px; PADDING-LEFT: 0px; WIDTH: 100%; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+#node-admin-buttons {
+	FLOAT: left; MARGIN-LEFT: 0.5em; CLEAR: right
+}
+TD.revision-current {
+	BACKGROUND: #ffc
+}
+.node-form .form-text {
+	WIDTH: 95%; DISPLAY: block
+}
+.node-form .container-inline .form-text {
+	WIDTH: auto; DISPLAY: inline
+}
+.node-form .standard {
+	CLEAR: both
+}
+.node-form TEXTAREA {
+	WIDTH: 95%; DISPLAY: block
+}
+.node-form .attachments FIELDSET {
+	DISPLAY: block; FLOAT: none
+}
+.terms-inline {
+	DISPLAY: inline
+}
+FIELDSET {
+	PADDING-BOTTOM: 0.5em; PADDING-LEFT: 0.5em; PADDING-RIGHT: 0.5em; MARGIN-BOTTOM: 1em; PADDING-TOP: 0.5em
+}
+FORM {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+HR {
+	BORDER-BOTTOM: gray 1px solid; BORDER-LEFT: gray 1px solid; HEIGHT: 1px; BORDER-TOP: gray 1px solid; BORDER-RIGHT: gray 1px solid
+}
+IMG {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; BORDER-TOP: 0px; BORDER-RIGHT: 0px
+}
+TABLE {
+	BORDER-COLLAPSE: collapse
+}
+TH {
+	BORDER-BOTTOM: #ccc 3px solid; TEXT-ALIGN: left; PADDING-RIGHT: 1em
+}
+.clear-block:after {
+	DISPLAY: block; HEIGHT: 0px; VISIBILITY: hidden; CLEAR: both; CONTENT: "."
+}
+.clear-block {
+	DISPLAY: inline-block
+}
+* HTML .clear-block {
+	HEIGHT: 1%
+}
+.clear-block {
+	DISPLAY: block
+}
+BODY.drag {
+	CURSOR: move
+}
+TH.active IMG {
+	DISPLAY: inline
+}
+TR.even {
+	BORDER-BOTTOM: #ccc 1px solid; PADDING-BOTTOM: 0.1em; BACKGROUND-COLOR: #eee; PADDING-LEFT: 0.6em; PADDING-RIGHT: 0.6em; PADDING-TOP: 0.1em
+}
+TR.odd {
+	BORDER-BOTTOM: #ccc 1px solid; PADDING-BOTTOM: 0.1em; BACKGROUND-COLOR: #eee; PADDING-LEFT: 0.6em; PADDING-RIGHT: 0.6em; PADDING-TOP: 0.1em
+}
+TR.drag {
+	BACKGROUND-COLOR: #fffff0
+}
+TR.drag-previous {
+	BACKGROUND-COLOR: #ffd
+}
+TD.active {
+	BACKGROUND-COLOR: #ddd
+}
+TD.checkbox {
+	TEXT-ALIGN: center
+}
+TH.checkbox {
+	TEXT-ALIGN: center
+}
+TBODY {
+	BORDER-TOP: #ccc 1px solid
+}
+TBODY TH {
+	BORDER-BOTTOM: #ccc 1px solid
+}
+THEAD TH {
+	BORDER-BOTTOM: #ccc 3px solid; TEXT-ALIGN: left; PADDING-RIGHT: 1em
+}
+.breadcrumb {
+	PADDING-BOTTOM: 0.5em
+}
+DIV.indentation {
+	PADDING-BOTTOM: 0.42em; MARGIN: -0.4em 0.2em -0.4em -0.4em; PADDING-LEFT: 0.6em; WIDTH: 20px; PADDING-RIGHT: 0px; FLOAT: left; HEIGHT: 1.7em; PADDING-TOP: 0.42em
+}
+DIV.tree-child {
+	BACKGROUND: url(/misc/tree.png) no-repeat 11px center
+}
+DIV.tree-child-last {
+	BACKGROUND: url(/misc/tree-bottom.png) no-repeat 11px center
+}
+DIV.tree-child-horizontal {
+	BACKGROUND: url(/misc/tree.png) no-repeat -11px center
+}
+.error {
+	COLOR: #e55
+}
+DIV.error {
+	BORDER-BOTTOM: #d77 1px solid; BORDER-LEFT: #d77 1px solid; BORDER-TOP: #d77 1px solid; BORDER-RIGHT: #d77 1px solid
+}
+DIV.error {
+	PADDING-BOTTOM: 2px; PADDING-LEFT: 2px; PADDING-RIGHT: 2px; BACKGROUND: #fcc; COLOR: #200; PADDING-TOP: 2px
+}
+TR.error {
+	PADDING-BOTTOM: 2px; PADDING-LEFT: 2px; PADDING-RIGHT: 2px; BACKGROUND: #fcc; COLOR: #200; PADDING-TOP: 2px
+}
+.warning {
+	COLOR: #e09010
+}
+DIV.warning {
+	BORDER-BOTTOM: #f0c020 1px solid; BORDER-LEFT: #f0c020 1px solid; BORDER-TOP: #f0c020 1px solid; BORDER-RIGHT: #f0c020 1px solid
+}
+DIV.warning {
+	PADDING-BOTTOM: 2px; PADDING-LEFT: 2px; PADDING-RIGHT: 2px; BACKGROUND: #ffd; COLOR: #220; PADDING-TOP: 2px
+}
+TR.warning {
+	PADDING-BOTTOM: 2px; PADDING-LEFT: 2px; PADDING-RIGHT: 2px; BACKGROUND: #ffd; COLOR: #220; PADDING-TOP: 2px
+}
+.ok {
+	COLOR: #008000
+}
+DIV.ok {
+	BORDER-BOTTOM: #00aa00 1px solid; BORDER-LEFT: #00aa00 1px solid; BORDER-TOP: #00aa00 1px solid; BORDER-RIGHT: #00aa00 1px solid
+}
+DIV.ok {
+	PADDING-BOTTOM: 2px; PADDING-LEFT: 2px; PADDING-RIGHT: 2px; BACKGROUND: #dfd; COLOR: #020; PADDING-TOP: 2px
+}
+TR.ok {
+	PADDING-BOTTOM: 2px; PADDING-LEFT: 2px; PADDING-RIGHT: 2px; BACKGROUND: #dfd; COLOR: #020; PADDING-TOP: 2px
+}
+.item-list .icon {
+	PADDING-LEFT: 0.25em; FLOAT: right; COLOR: #555; CLEAR: right
+}
+.item-list .title {
+	FONT-WEIGHT: bold
+}
+.item-list UL {
+	PADDING-BOTTOM: 0px; MARGIN: 0px 0px 0.75em; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+.item-list UL LI {
+	PADDING-BOTTOM: 0px; LIST-STYLE-TYPE: disc; MARGIN: 0px 0px 0.25em 1.5em; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+OL.task-list LI.active {
+	FONT-WEIGHT: bold
+}
+.form-item {
+	MARGIN-TOP: 1em; MARGIN-BOTTOM: 1em
+}
+TR.odd .form-item {
+	MARGIN-TOP: 0px; WHITE-SPACE: nowrap; MARGIN-BOTTOM: 0px
+}
+TR.even .form-item {
+	MARGIN-TOP: 0px; WHITE-SPACE: nowrap; MARGIN-BOTTOM: 0px
+}
+TR.merge-down {
+	BORDER-BOTTOM-WIDTH: 0px !important
+}
+TR.merge-down TD {
+	BORDER-BOTTOM-WIDTH: 0px !important
+}
+TR.merge-down TH {
+	BORDER-BOTTOM-WIDTH: 0px !important
+}
+TR.merge-up {
+	BORDER-TOP-WIDTH: 0px !important
+}
+TR.merge-up TD {
+	BORDER-TOP-WIDTH: 0px !important
+}
+TR.merge-up TH {
+	BORDER-TOP-WIDTH: 0px !important
+}
+.form-item INPUT.error {
+	BORDER-BOTTOM: red 2px solid; BORDER-LEFT: red 2px solid; BORDER-TOP: red 2px solid; BORDER-RIGHT: red 2px solid
+}
+.form-item TEXTAREA.error {
+	BORDER-BOTTOM: red 2px solid; BORDER-LEFT: red 2px solid; BORDER-TOP: red 2px solid; BORDER-RIGHT: red 2px solid
+}
+.form-item SELECT.error {
+	BORDER-BOTTOM: red 2px solid; BORDER-LEFT: red 2px solid; BORDER-TOP: red 2px solid; BORDER-RIGHT: red 2px solid
+}
+.form-item .description {
+	FONT-SIZE: 0.85em
+}
+.form-item LABEL {
+	DISPLAY: block; FONT-WEIGHT: bold
+}
+.form-item LABEL.option {
+	DISPLAY: inline; FONT-WEIGHT: normal
+}
+.form-checkboxes {
+	MARGIN: 1em 0px
+}
+.form-radios {
+	MARGIN: 1em 0px
+}
+.form-checkboxes .form-item {
+	MARGIN-TOP: 0.4em; MARGIN-BOTTOM: 0.4em
+}
+.form-radios .form-item {
+	MARGIN-TOP: 0.4em; MARGIN-BOTTOM: 0.4em
+}
+.marker {
+	COLOR: #f00
+}
+.form-required {
+	COLOR: #f00
+}
+.more-link {
+	TEXT-ALIGN: right
+}
+.more-help-link {
+	TEXT-ALIGN: right; FONT-SIZE: 0.85em
+}
+.nowrap {
+	WHITE-SPACE: nowrap
+}
+.item-list .pager {
+	TEXT-ALIGN: center; CLEAR: both
+}
+.item-list .pager LI {
+	BACKGROUND-IMAGE: none; PADDING-BOTTOM: 0.5em; LIST-STYLE-TYPE: none; PADDING-LEFT: 0.5em; PADDING-RIGHT: 0.5em; DISPLAY: inline; PADDING-TOP: 0.5em
+}
+.pager-current {
+	FONT-WEIGHT: bold
+}
+.tips {
+	PADDING-BOTTOM: 0px; MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px; FONT-SIZE: 0.9em; PADDING-TOP: 0px
+}
+DL.multiselect DD.b {
+	WIDTH: 14em; FONT-FAMILY: inherit; FONT-SIZE: inherit
+}
+DL.multiselect DD.b .form-item {
+	WIDTH: 14em; FONT-FAMILY: inherit; FONT-SIZE: inherit
+}
+DL.multiselect DD.b SELECT {
+	WIDTH: 14em; FONT-FAMILY: inherit; FONT-SIZE: inherit
+}
+DL.multiselect DD.a {
+	WIDTH: 10em
+}
+DL.multiselect DD.a .form-item {
+	WIDTH: 10em
+}
+DL.multiselect DT {
+	PADDING-BOTTOM: 0px; LINE-HEIGHT: 1.75em; MARGIN: 0px 1em 0px 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FLOAT: left; PADDING-TOP: 0px
+}
+DL.multiselect DD {
+	PADDING-BOTTOM: 0px; LINE-HEIGHT: 1.75em; MARGIN: 0px 1em 0px 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FLOAT: left; PADDING-TOP: 0px
+}
+DL.multiselect .form-item {
+	MARGIN: 0px; HEIGHT: 1.75em
+}
+.container-inline DIV {
+	DISPLAY: inline
+}
+.container-inline LABEL {
+	DISPLAY: inline
+}
+UL.primary {
+	BORDER-BOTTOM: #bbb 1px solid; PADDING-BOTTOM: 0px; LINE-HEIGHT: normal; LIST-STYLE-TYPE: none; MARGIN: 5px; PADDING-LEFT: 1em; PADDING-RIGHT: 0px; BORDER-COLLAPSE: collapse; WHITE-SPACE: nowrap; HEIGHT: auto; LIST-STYLE-IMAGE: none; PADDING-TOP: 0px
+}
+UL.primary LI {
+	DISPLAY: inline
+}
+UL.primary LI A {
+	BORDER-BOTTOM: #bbb 1px; BORDER-LEFT: #bbb 1px solid; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: #ddd; PADDING-LEFT: 1em; PADDING-RIGHT: 1em; HEIGHT: auto; BORDER-TOP: #bbb 1px solid; MARGIN-RIGHT: 0.5em; BORDER-RIGHT: #bbb 1px solid; TEXT-DECORATION: none; PADDING-TOP: 0px
+}
+UL.primary LI.active A {
+	BORDER-BOTTOM: #fff 1px solid; BORDER-LEFT: #bbb 1px solid; BACKGROUND-COLOR: #fff; BORDER-TOP: #bbb 1px solid; BORDER-RIGHT: #bbb 1px solid
+}
+UL.primary LI A:hover {
+	BORDER-BOTTOM-COLOR: #eee; BACKGROUND-COLOR: #eee; BORDER-TOP-COLOR: #ccc; BORDER-RIGHT-COLOR: #ccc; BORDER-LEFT-COLOR: #ccc
+}
+UL.secondary {
+	BORDER-BOTTOM: #bbb 1px solid; PADDING-BOTTOM: 0.5em; MARGIN: 5px; PADDING-LEFT: 1em; PADDING-RIGHT: 1em; PADDING-TOP: 0.5em
+}
+UL.secondary LI {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 1em; PADDING-RIGHT: 1em; DISPLAY: inline; BORDER-RIGHT: #ccc 1px solid; PADDING-TOP: 0px
+}
+UL.secondary A {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; TEXT-DECORATION: none; PADDING-TOP: 0px
+}
+UL.secondary A.active {
+	BORDER-BOTTOM: #999 4px solid
+}
+#autocomplete {
+	Z-INDEX: 100; BORDER-BOTTOM: 1px solid; POSITION: absolute; BORDER-LEFT: 1px solid; OVERFLOW: hidden; BORDER-TOP: 1px solid; BORDER-RIGHT: 1px solid
+}
+#autocomplete UL {
+	PADDING-BOTTOM: 0px; LIST-STYLE-TYPE: none; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; LIST-STYLE-IMAGE: none; PADDING-TOP: 0px
+}
+#autocomplete LI {
+	WHITE-SPACE: pre; BACKGROUND: #fff; COLOR: #000; CURSOR: default
+}
+#autocomplete LI.selected {
+	BACKGROUND: #0072b9; COLOR: #fff
+}
+HTML.js INPUT.form-autocomplete {
+	BACKGROUND-IMAGE: url(/misc/throbber.gif); BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: 100% 2px
+}
+HTML.js INPUT.throbbing {
+	BACKGROUND-POSITION: 100% -18px
+}
+HTML.js FIELDSET.collapsed {
+	BORDER-RIGHT-WIDTH: 0px; MARGIN-BOTTOM: 0px; BORDER-BOTTOM-WIDTH: 0px; HEIGHT: 1em; BORDER-LEFT-WIDTH: 0px
+}
+HTML.js FIELDSET.collapsed * {
+	DISPLAY: none
+}
+HTML.js FIELDSET.collapsed LEGEND {
+	DISPLAY: block
+}
+HTML.js FIELDSET.collapsible LEGEND A {
+	PADDING-LEFT: 15px; BACKGROUND: url(/misc/menu-expanded.png) no-repeat 5px 75%
+}
+HTML.js FIELDSET.collapsed LEGEND A {
+	BACKGROUND-IMAGE: url(/misc/menu-collapsed.png); BACKGROUND-POSITION: 5px 50%
+}
+* HTML.js FIELDSET.collapsed LEGEND {
+	DISPLAY: inline
+}
+* HTML.js FIELDSET.collapsed LEGEND * {
+	DISPLAY: inline
+}
+* HTML.js FIELDSET.collapsed TABLE * {
+	DISPLAY: inline
+}
+HTML.js FIELDSET.collapsible {
+	POSITION: relative
+}
+HTML.js FIELDSET.collapsible LEGEND A {
+	DISPLAY: block
+}
+HTML.js FIELDSET.collapsible .fieldset-wrapper {
+	OVERFLOW: auto
+}
+.resizable-textarea {
+	WIDTH: 95%
+}
+.resizable-textarea .grippie {
+	BORDER-BOTTOM: #ddd 1px solid; BORDER-LEFT: #ddd 1px solid; BACKGROUND: url(/misc/grippie.png) #eee no-repeat center 2px; HEIGHT: 9px; OVERFLOW: hidden; BORDER-TOP: #ddd 0px solid; CURSOR: s-resize; BORDER-RIGHT: #ddd 1px solid
+}
+HTML.js .resizable-textarea TEXTAREA {
+	WIDTH: 100%; DISPLAY: block; MARGIN-BOTTOM: 0px
+}
+.draggable A.tabledrag-handle {
+	PADDING-BOTTOM: 0.42em; MARGIN: -0.4em 0px -0.4em -0.5em; PADDING-LEFT: 0.5em; PADDING-RIGHT: 1.5em; FLOAT: left; HEIGHT: 1.7em; CURSOR: move; TEXT-DECORATION: none; PADDING-TOP: 0.42em
+}
+A.tabledrag-handle:hover {
+	TEXT-DECORATION: none
+}
+A.tabledrag-handle .handle {
+	MARGIN-TOP: 4px; WIDTH: 13px; BACKGROUND: url(/misc/draggable.png) no-repeat 0px 0px; HEIGHT: 13px
+}
+A.tabledrag-handle-hover .handle {
+	BACKGROUND-POSITION: 0px -20px
+}
+.joined + .grippie {
+	BACKGROUND-POSITION: center 1px; MARGIN-BOTTOM: -2px; HEIGHT: 5px
+}
+.teaser-checkbox {
+	PADDING-TOP: 1px
+}
+DIV.teaser-button-wrapper {
+	MARGIN: 0px; PADDING-RIGHT: 5%; FLOAT: right
+}
+.teaser-checkbox DIV.form-item {
+	PADDING-BOTTOM: 0px; MARGIN: 0px 5% 0px 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FLOAT: right; PADDING-TOP: 0px
+}
+TEXTAREA.teaser {
+	DISPLAY: none
+}
+HTML.js .no-js {
+	DISPLAY: none
+}
+.progress {
+	FONT-WEIGHT: bold
+}
+.progress .bar {
+	BORDER-BOTTOM: #00375a 1px solid; BORDER-LEFT: #00375a 1px solid; MARGIN: 0px 0.2em; BACKGROUND: url(/misc/progress.gif) #fff; HEIGHT: 1.5em; BORDER-TOP: #00375a 1px solid; BORDER-RIGHT: #00375a 1px solid
+}
+.progress .filled {
+	BORDER-BOTTOM: #004a73 0.5em solid; WIDTH: 0%; BACKGROUND: #0072b9; HEIGHT: 1em
+}
+.progress .percentage {
+	FLOAT: right
+}
+.progress-disabled {
+	FLOAT: left
+}
+.ahah-progress {
+	FLOAT: left
+}
+.ahah-progress .throbber {
+	MARGIN: 2px; WIDTH: 15px; BACKGROUND: url(/misc/throbber.gif) no-repeat 0px -18px; FLOAT: left; HEIGHT: 15px
+}
+TR .ahah-progress .throbber {
+	MARGIN: 0px 2px
+}
+.ahah-progress-bar {
+	WIDTH: 16em
+}
+#first-time STRONG {
+	PADDING-BOTTOM: 0.5em; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; DISPLAY: block; PADDING-TOP: 1.5em
+}
+TR.selected TD {
+	BACKGROUND: #ffc
+}
+TABLE.sticky-header {
+	MARGIN-TOP: 0px; BACKGROUND: #fff
+}
+.install#clean-url {
+	DISPLAY: none
+}
+HTML.js .js-hide {
+	DISPLAY: none
+}
+#system-modules DIV.incompatible {
+	FONT-WEIGHT: bold
+}
+#system-themes-form DIV.incompatible {
+	FONT-WEIGHT: bold
+}
+SPAN.password-strength {
+	VISIBILITY: hidden
+}
+INPUT.password-field {
+	MARGIN-RIGHT: 10px
+}
+DIV.password-description {
+	PADDING-BOTTOM: 0px; MARGIN: 4px 0px 0px; PADDING-LEFT: 2px; PADDING-RIGHT: 2px; MAX-WIDTH: 500px; FONT-SIZE: 0.85em; PADDING-TOP: 0px
+}
+DIV.password-description UL {
+	MARGIN-BOTTOM: 0px
+}
+.password-parent {
+	MARGIN: 0px
+}
+INPUT.password-confirm {
+	MARGIN-RIGHT: 10px
+}
+.confirm-parent {
+	MARGIN: 5px 0px 0px
+}
+SPAN.password-confirm {
+	VISIBILITY: hidden
+}
+SPAN.password-confirm SPAN {
+	FONT-WEIGHT: normal
+}
+UL.menu {
+	BORDER-BOTTOM: medium none; TEXT-ALIGN: left; BORDER-LEFT: medium none; LIST-STYLE-TYPE: none; BORDER-TOP: medium none; LIST-STYLE-IMAGE: none; BORDER-RIGHT: medium none
+}
+UL.menu LI {
+	MARGIN: 0px 0px 0px 0.5em
+}
+LI.expanded {
+	PADDING-BOTTOM: 0px; LIST-STYLE-TYPE: circle; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0.5em; LIST-STYLE-IMAGE: url(/misc/menu-expanded.png); PADDING-TOP: 0.2em
+}
+LI.collapsed {
+	PADDING-BOTTOM: 0px; LIST-STYLE-TYPE: disc; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0.5em; LIST-STYLE-IMAGE: url(/misc/menu-collapsed.png); PADDING-TOP: 0.2em
+}
+LI.leaf {
+	PADDING-BOTTOM: 0px; LIST-STYLE-TYPE: square; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0.5em; LIST-STYLE-IMAGE: url(/misc/menu-leaf.png); PADDING-TOP: 0.2em
+}
+LI A.active {
+	COLOR: #000
+}
+TD.menu-disabled {
+	BACKGROUND: #ccc
+}
+UL.links {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+UL.inline.links {
+	DISPLAY: inline
+}
+UL.links LI {
+	PADDING-BOTTOM: 0px; LIST-STYLE-TYPE: none; PADDING-LEFT: 0.5em; PADDING-RIGHT: 0.5em; DISPLAY: inline; PADDING-TOP: 0px
+}
+.block UL {
+	PADDING-BOTTOM: 0.25em; MARGIN: 0px; PADDING-LEFT: 1em; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+#permissions TD.module {
+	FONT-WEIGHT: bold
+}
+#permissions TD.permission {
+	PADDING-LEFT: 1.5em
+}
+#access-rules .access-type {
+	FLOAT: left; MARGIN-RIGHT: 1em
+}
+#access-rules .rule-type {
+	FLOAT: left; MARGIN-RIGHT: 1em
+}
+#access-rules .access-type .form-item {
+	MARGIN-TOP: 0px
+}
+#access-rules .rule-type .form-item {
+	MARGIN-TOP: 0px
+}
+#access-rules .mask {
+	CLEAR: both
+}
+#user-login-form {
+	TEXT-ALIGN: center
+}
+#user-admin-filter UL {
+	PADDING-BOTTOM: 0px; LIST-STYLE-TYPE: none; MARGIN: 0px; PADDING-LEFT: 0px; WIDTH: 100%; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+#user-admin-buttons {
+	FLOAT: left; MARGIN-LEFT: 0.5em; CLEAR: right
+}
+#user-admin-settings FIELDSET .description {
+	PADDING-BOTTOM: 0.5em; FONT-SIZE: 0.85em
+}
+.profile {
+	MARGIN: 1em 0px; CLEAR: both
+}
+.profile .picture {
+	MARGIN: 0px 1em 1em 0px; FLOAT: right
+}
+.profile H3 {
+	BORDER-BOTTOM: #ccc 1px solid
+}
+.profile DL {
+	MARGIN: 0px 0px 1.5em
+}
+.profile DT {
+	MARGIN: 0px 0px 0.2em; FONT-WEIGHT: bold
+}
+.profile DD {
+	MARGIN: 0px 0px 1em
+}
+.field .field-label {
+	FONT-WEIGHT: bold
+}
+.field .field-label-inline {
+	FONT-WEIGHT: bold
+}
+.field .field-label-inline-first {
+	FONT-WEIGHT: bold
+}
+.field .field-label-inline {
+	DISPLAY: inline
+}
+.field .field-label-inline-first {
+	DISPLAY: inline
+}
+.field .field-label-inline {
+	VISIBILITY: hidden
+}
+.node-form .content-multiple-table TD.content-multiple-drag {
+	WIDTH: 30px; PADDING-RIGHT: 0px
+}
+.node-form .content-multiple-table TD.content-multiple-drag A.tabledrag-handle {
+	PADDING-RIGHT: 0.5em
+}
+.node-form .content-add-more .form-submit {
+	MARGIN: 0px
+}
+.content-multiple-remove-button {
+	BORDER-BOTTOM: #c2c9ce 1px solid; PADDING-BOTTOM: 0px; MARGIN: 2px 0px 1px; PADDING-LEFT: 0px; WIDTH: 16px; PADDING-RIGHT: 0px; DISPLAY: block; BACKGROUND: url(/sites/all/modules/cck/images/remove.png) no-repeat 0px 0px; FLOAT: right; HEIGHT: 14px; BORDER-RIGHT: #c2c9ce 1px solid; PADDING-TOP: 0px
+}
+.content-multiple-remove-button:hover {
+	BACKGROUND-POSITION: 0px -14px
+}
+.content-multiple-removed-row .content-multiple-remove-button {
+	BACKGROUND-POSITION: 0px -28px
+}
+.content-multiple-removed-row .content-multiple-remove-button:hover {
+	BACKGROUND-POSITION: 0px -42px
+}
+HTML.js .content-multiple-removed-row {
+	BACKGROUND-COLOR: #ffffcc
+}
+.content-multiple-weight-header {
+	TEXT-ALIGN: center
+}
+.content-multiple-remove-header {
+	TEXT-ALIGN: center
+}
+.content-multiple-remove-cell {
+	TEXT-ALIGN: center
+}
+.content-multiple-table TD.delta-order {
+	TEXT-ALIGN: center
+}
+HTML.js .content-multiple-weight-header {
+	DISPLAY: none
+}
+HTML.js .content-multiple-remove-header SPAN {
+	DISPLAY: none
+}
+HTML.js .content-multiple-table TD.delta-order {
+	DISPLAY: none
+}
+HTML.js .content-multiple-remove-checkbox {
+	DISPLAY: none
+}
+.node-form .number {
+	WIDTH: auto; DISPLAY: inline
+}
+.node-form .text {
+	WIDTH: auto
+}
+.form-item #autocomplete .reference-autocomplete {
+	WHITE-SPACE: normal
+}
+.form-item #autocomplete .reference-autocomplete LABEL {
+	DISPLAY: inline; FONT-WEIGHT: normal
+}
+#content-field-overview-form .advanced-help-link {
+	MARGIN: 4px 4px 0px 0px
+}
+#content-display-overview-form .advanced-help-link {
+	MARGIN: 4px 4px 0px 0px
+}
+#content-field-overview-form .label-group {
+	FONT-WEIGHT: bold
+}
+#content-display-overview-form .label-group {
+	FONT-WEIGHT: bold
+}
+#content-copy-export-form .label-group {
+	FONT-WEIGHT: bold
+}
+TABLE#content-field-overview .label-add-new-field {
+	FLOAT: left
+}
+TABLE#content-field-overview .label-add-existing-field {
+	FLOAT: left
+}
+TABLE#content-field-overview .label-add-new-group {
+	FLOAT: left
+}
+TABLE#content-field-overview TR.content-add-new .tabledrag-changed {
+	DISPLAY: none
+}
+TABLE#content-field-overview TR.content-add-new .description {
+	MARGIN-BOTTOM: 0px
+}
+TABLE#content-field-overview .content-new {
+	PADDING-BOTTOM: 0.5em; FONT-WEIGHT: bold
+}
+.advanced-help-topic H3 {
+	MARGIN: 1em 0px 0.5em
+}
+.advanced-help-topic H4 {
+	MARGIN: 1em 0px 0.5em
+}
+.advanced-help-topic H5 {
+	MARGIN: 1em 0px 0.5em
+}
+.advanced-help-topic H6 {
+	MARGIN: 1em 0px 0.5em
+}
+.advanced-help-topic DD {
+	MARGIN-BOTTOM: 0.5em
+}
+.advanced-help-topic SPAN.code {
+	PADDING-BOTTOM: 1px; BACKGROUND-COLOR: #edf1f3; PADDING-LEFT: 1px; PADDING-RIGHT: 1px; FONT-FAMILY: "Bitstream Vera Sans Mono", Monaco, "Lucida Console", monospace; FONT-SIZE: 0.9em; PADDING-TOP: 1px
+}
+.advanced-help-topic .content-border {
+	BORDER-BOTTOM: #aaa 1px solid; BORDER-LEFT: #aaa 1px solid; BORDER-TOP: #aaa 1px solid; BORDER-RIGHT: #aaa 1px solid
+}
+.ctools-locked {
+	BORDER-BOTTOM: red 1px solid; BORDER-LEFT: red 1px solid; PADDING-BOTTOM: 1em; PADDING-LEFT: 1em; PADDING-RIGHT: 1em; COLOR: red; BORDER-TOP: red 1px solid; BORDER-RIGHT: red 1px solid; PADDING-TOP: 1em
+}
+.ctools-owns-lock {
+	BORDER-BOTTOM: #f0c020 1px solid; BORDER-LEFT: #f0c020 1px solid; PADDING-BOTTOM: 1em; PADDING-LEFT: 1em; PADDING-RIGHT: 1em; BACKGROUND: #ffffdd 0px 0px; BORDER-TOP: #f0c020 1px solid; BORDER-RIGHT: #f0c020 1px solid; PADDING-TOP: 1em
+}
+A.ctools-ajaxing {
+	PADDING-RIGHT: 18px !important; BACKGROUND: url(/sites/all/modules/ctools/images/status-active.gif) no-repeat right center
+}
+INPUT.ctools-ajaxing {
+	PADDING-RIGHT: 18px !important; BACKGROUND: url(/sites/all/modules/ctools/images/status-active.gif) no-repeat right center
+}
+BUTTON.ctools-ajaxing {
+	PADDING-RIGHT: 18px !important; BACKGROUND: url(/sites/all/modules/ctools/images/status-active.gif) no-repeat right center
+}
+SELECT.ctools-ajaxing {
+	PADDING-RIGHT: 18px !important; BACKGROUND: url(/sites/all/modules/ctools/images/status-active.gif) no-repeat right center
+}
+DIV.ctools-ajaxing {
+	WIDTH: 18px; BACKGROUND: url(/sites/all/modules/ctools/images/status-active.gif) no-repeat center center; FLOAT: left
+}
+DIV#fancy_login_login_box {
+	DISPLAY: none; -moz-border-radius: 5px; -webkit-border-radius: 5px; -khtml-border-radius: 5px
+}
+#fancy_login_close_button {
+	BORDER-BOTTOM: #999 1px solid; BORDER-LEFT: #999 1px solid; BACKGROUND-COLOR: #f00; MARGIN-TOP: 3px; PADDING-LEFT: 3px; PADDING-RIGHT: 3px; FLOAT: right; COLOR: #fff; FONT-SIZE: 15px; BORDER-TOP: #999 1px solid; FONT-WEIGHT: bold; MARGIN-RIGHT: -10px; BORDER-RIGHT: #999 1px solid
+}
+#fancy_login_close_button:hover {
+	BACKGROUND-COLOR: #fff; COLOR: #f00; TEXT-DECORATION: none
+}
+#fancy_login_login_box #edit-name-wrapper {
+	MARGIN-TOP: 0px; CLEAR: both
+}
+#fancy_login_ajax_loader {
+	DISPLAY: none
+}
+#ssl_icon {
+	POSITION: relative; WIDTH: 50px; FLOAT: right; HEIGHT: 50px
+}
+#ssl_icon:hover #ssl_login_popup {
+	DISPLAY: block
+}
+#ssl_icon IMG {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+#ssl_login_popup {
+	POSITION: absolute; WIDTH: 100px; BOTTOM: 32px; DISPLAY: none; BACKGROUND: url(/sites/all/modules/fancy_login/images/popup.png) no-repeat; HEIGHT: 75px; RIGHT: -84px
+}
+#ssl_login_popup P {
+	LINE-HEIGHT: normal; MARGIN-TOP: 75px; HEIGHT: 0px; OVERFLOW: hidden
+}
+.ssl_icon_above .form-text {
+	WIDTH: 100px
+}
+#user-login .form-text {
+	WIDTH: 100px
+}
+#user-pass .form-text {
+	WIDTH: 100px
+}
+UL.jquerymenu LI.parent {
+	BACKGROUND-IMAGE: none; LIST-STYLE-TYPE: none; LIST-STYLE-IMAGE: none
+}
+UL.jquerymenu LI.closed UL {
+	DISPLAY: none
+}
+UL.jquerymenu LI SPAN.parent {
+	POSITION: absolute; MARGIN-TOP: 6px; WIDTH: 9px; HEIGHT: 9px; MARGIN-LEFT: -15px
+}
+.ie UL.jquerymenu LI SPAN.parent {
+	MARGIN-TOP: 4px
+}
+UL.jquerymenu LI.parent SPAN.closed {
+	BACKGROUND-IMAGE: url(/sites/all/modules/jquerymenu/images/plus.png); BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: left top
+}
+UL.jquerymenu LI.parent SPAN.open {
+	BACKGROUND-IMAGE: url(/sites/all/modules/jquerymenu/images/minus.png); BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: left top
+}
+UL.jquerymenu LI.parent SPAN.parent {
+	CURSOR: pointer
+}
+UL.jquerymenu LI .jqm_link_edit {
+	POSITION: absolute; MARGIN-TOP: 2px; WIDTH: 45px; DISPLAY: none; MARGIN-LEFT: -40px
+}
+.toc {
+	BORDER-BOTTOM: #b5c9d8 1px solid; TEXT-ALIGN: left; BORDER-LEFT: #b5c9d8 1px solid; BACKGROUND-COLOR: #f9f9f9; FONT-SIZE: 95%; BORDER-TOP: #b5c9d8 1px solid; BORDER-RIGHT: #b5c9d8 1px solid
+}
+.content .toc {
+	MAX-WIDTH: 50%
+}
+.block .toc {
+	MAX-WIDTH: 100%
+}
+.toc-title {
+	TEXT-ALIGN: center; FONT-WEIGHT: bold
+}
+.toc-list {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 10px; PADDING-TOP: 0px
+}
+.toc-toggle-message {
+	
+}
+.toc UL {
+	LIST-STYLE-TYPE: none; LIST-STYLE-IMAGE: none
+}
+.toc-number {
+	DISPLAY: block; FLOAT: left; MARGIN-LEFT: -30px
+}
+.toc-back-to-top {
+	TEXT-ALIGN: right; FONT-STYLE: italic; PADDING-RIGHT: 25px; BACKGROUND: url(/sites/all/modules/tableofcontents/back-to-top.gif) no-repeat 100% 50%
+}
+#forum .description {
+	MARGIN: 0.5em; FONT-SIZE: 0.9em
+}
+#forum TD.created {
+	WHITE-SPACE: nowrap
+}
+#forum TD.posts {
+	WHITE-SPACE: nowrap
+}
+#forum TD.topics {
+	WHITE-SPACE: nowrap
+}
+#forum TD.last-reply {
+	WHITE-SPACE: nowrap
+}
+#forum TD.replies {
+	WHITE-SPACE: nowrap
+}
+#forum TD.pager {
+	WHITE-SPACE: nowrap
+}
+#forum TD.posts {
+	TEXT-ALIGN: center
+}
+#forum TD.topics {
+	TEXT-ALIGN: center
+}
+#forum TD.replies {
+	TEXT-ALIGN: center
+}
+#forum TD.pager {
+	TEXT-ALIGN: center
+}
+#forum TR TD.forum {
+	BACKGROUND-IMAGE: url(/misc/forum-default.png); PADDING-LEFT: 25px; BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: 2px 2px
+}
+#forum TR.new-topics TD.forum {
+	BACKGROUND-IMAGE: url(/misc/forum-new.png)
+}
+#forum DIV.indent {
+	MARGIN-LEFT: 20px
+}
+.forum-topic-navigation {
+	BORDER-BOTTOM: #888 1px solid; TEXT-ALIGN: center; PADDING-BOTTOM: 0.5em; PADDING-LEFT: 0.5em; PADDING-RIGHT: 0.5em; BORDER-TOP: #888 1px solid; PADDING-TOP: 0.5em
+}
+.forum-topic-navigation .topic-previous {
+	TEXT-ALIGN: right; WIDTH: 46%; FLOAT: left
+}
+.forum-topic-navigation .topic-next {
+	TEXT-ALIGN: left; WIDTH: 46%; FLOAT: right
+}
+.views-exposed-form .views-exposed-widget {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 1em; FLOAT: left; PADDING-TOP: 0.5em
+}
+.views-exposed-form .views-exposed-widget .form-submit {
+	MARGIN-TOP: 1.6em
+}
+.views-exposed-form .form-item {
+	MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px
+}
+.views-exposed-form .form-submit {
+	MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px
+}
+.views-exposed-form LABEL {
+	FONT-WEIGHT: bold
+}
+.views-exposed-widgets {
+	MARGIN-BOTTOM: 0.5em
+}
+.views-align-left {
+	TEXT-ALIGN: left
+}
+.views-align-right {
+	TEXT-ALIGN: right
+}
+.views-align-center {
+	TEXT-ALIGN: center
+}
+HTML.js A.views-throbbing {
+	PADDING-RIGHT: 18px; BACKGROUND: url(/sites/all/modules/views/images/status-active.gif) no-repeat right center
+}
+HTML.js SPAN.views-throbbing {
+	PADDING-RIGHT: 18px; BACKGROUND: url(/sites/all/modules/views/images/status-active.gif) no-repeat right center
+}
+DIV.view DIV.views-admin-links {
+	MARGIN-TOP: 1em; FONT-SIZE: xx-small; MARGIN-RIGHT: 1em
+}
+.block DIV.view DIV.views-admin-links {
+	MARGIN-TOP: 0px
+}
+DIV.view DIV.views-admin-links UL {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+DIV.view DIV.views-admin-links LI {
+	Z-INDEX: 201; PADDING-BOTTOM: 2px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+DIV.view DIV.views-admin-links LI A {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; COLOR: #ccc; PADDING-TOP: 0px
+}
+DIV.view DIV.views-admin-links LI A:before {
+	CONTENT: "["
+}
+DIV.view DIV.views-admin-links LI A:after {
+	CONTENT: "]"
+}
+DIV.view DIV.views-admin-links-hover A {
+	COLOR: #000
+}
+DIV.view DIV.views-admin-links:hover A {
+	COLOR: #000
+}
+DIV.view DIV.views-admin-links-hover {
+	BACKGROUND: none transparent scroll repeat 0% 0%
+}
+DIV.view DIV.views-admin-links:hover {
+	BACKGROUND: none transparent scroll repeat 0% 0%
+}
+DIV.view DIV.views-hide {
+	DISPLAY: none
+}
+DIV.view DIV.views-hide-hover {
+	Z-INDEX: 200; POSITION: absolute; DISPLAY: block
+}
+DIV.view:hover DIV.views-hide {
+	Z-INDEX: 200; POSITION: absolute; DISPLAY: block
+}
+DIV.view:hover DIV.views-hide {
+	MARGIN-TOP: -1.5em
+}
+.views-view-grid TBODY {
+	BORDER-TOP: medium none
+}
+* {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+A:link {
+	COLOR: #006699; TEXT-DECORATION: none
+}
+A:visited {
+	COLOR: #006699; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #000000; text-shadow: #a0a0a0 1px 1px 1px
+}
+A:active {
+	COLOR: #000000; text-shadow: #a0a0a0 1px 1px 1px
+}
+A IMG {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; BORDER-TOP: 0px; BORDER-RIGHT: 0px; text-shadow: none
+}
+ACRONYM {
+	CURSOR: help
+}
+ABBR {
+	CURSOR: help
+}
+SPAN.caps {
+	CURSOR: help
+}
+ACRONYM {
+	BORDER-BOTTOM: #000000 1px dotted
+}
+ABBR {
+	BORDER-BOTTOM: #000000 1px dotted
+}
+BODY {
+	FONT: 100% Arial, Helvetica; BACKGROUND: #ffffff; COLOR: #646464
+}
+DL {
+	MARGIN: 5px 0px; CLEAR: both
+}
+DT {
+	MARGIN: 10px 0px 0px; FONT: bold 1em Georgia, Arial, "Times New Roman"; CLEAR: both
+}
+DL DD {
+	MARGIN: 0px 0px 0px 10px; CLEAR: both
+}
+FIELDSET {
+	BORDER-BOTTOM: #c8dbea 1px solid; BORDER-LEFT: #c8dbea 1px solid; BORDER-TOP: #c8dbea 1px solid; BORDER-RIGHT: #c8dbea 1px solid
+}
+HR {
+	BORDER-BOTTOM: inherit; BORDER-LEFT: inherit; BACKGROUND-COLOR: #000000; MARGIN: 10px 0px; HEIGHT: 1px; BORDER-TOP: inherit; BORDER-RIGHT: inherit
+}
+LI {
+	MARGIN-LEFT: 30px
+}
+.tabs LI {
+	MARGIN-LEFT: 0px
+}
+P {
+	MARGIN: 15px 0px
+}
+H1 {
+	COLOR: #646464
+}
+H2 {
+	COLOR: #646464
+}
+H3 {
+	COLOR: #646464
+}
+H4 {
+	COLOR: #646464
+}
+H1 {
+	FONT: 1.5em Georgia, "Times New Roman"
+}
+H2 {
+	BORDER-BOTTOM: #646464 1px solid; FONT: 1.5em Georgia, "Times New Roman"
+}
+H3 {
+	FONT: 1.41em Georgia, "Times New Roman"; MARGIN-BOTTOM: 3px
+}
+H4 {
+	FONT: 1.4em Georgia, "Times New Roman"
+}
+H6 {
+	COLOR: #ffffff
+}
+#content H1 A {
+	PADDING-BOTTOM: 3px; BACKGROUND-COLOR: #ebebeb; PADDING-LEFT: 0px; WIDTH: 100%; PADDING-RIGHT: 0px; DISPLAY: block; PADDING-TOP: 3px
+}
+#content H2 {
+	MARGIN-BOTTOM: 15px
+}
+#content H3 {
+	MARGIN-BOTTOM: 15px
+}
+#content H4 {
+	MARGIN-BOTTOM: 15px
+}
+BLOCKQUOTE {
+	PADDING-BOTTOM: 10px; LINE-HEIGHT: 1.5em; MARGIN: 10px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; PADDING-TOP: 10px
+}
+#page BLOCKQUOTE {
+	BACKGROUND-COLOR: #eeeeee; FONT-FAMILY: monospace; FONT-SIZE: 12px
+}
+#page CODE {
+	FONT-FAMILY: monospace; COLOR: #000000; FONT-SIZE: 12px
+}
+DIV.codeblock {
+	BORDER-BOTTOM: #cccccc 1px solid; TEXT-ALIGN: left; BORDER-LEFT: #cccccc 1px solid; PADDING-BOTTOM: 2px; PADDING-LEFT: 2px; PADDING-RIGHT: 2px; FONT-FAMILY: monospace; MARGIN-BOTTOM: 15px; BACKGROUND: #eeeeee; OVERFLOW: auto; BORDER-TOP: #cccccc 1px solid; BORDER-RIGHT: #cccccc 1px solid; PADDING-TOP: 2px
+}
+.div-geshifilter {
+	BORDER-BOTTOM: #cccccc 1px solid; BORDER-LEFT: #cccccc 1px solid; PADDING-BOTTOM: 2px; PADDING-LEFT: 2px; WIDTH: 100%; PADDING-RIGHT: 2px; DISPLAY: block; FONT-FAMILY: monospace; MARGIN-BOTTOM: 15px; BACKGROUND: #eeeeee; OVERFLOW: auto; BORDER-TOP: #cccccc 1px solid; BORDER-RIGHT: #cccccc 1px solid; PADDING-TOP: 2px
+}
+#page BLOCKQUOTE BLOCKQUOTE {
+	BACKGROUND-COLOR: #dae7f1
+}
+#page .comment BLOCKQUOTE {
+	BORDER-BOTTOM: #c8dbea 1px solid; BACKGROUND-COLOR: #dae7f1; BORDER-TOP: #c8dbea 1px solid
+}
+#page .comment BLOCKQUOTE BLOCKQUOTE {
+	BACKGROUND-COLOR: #edf3f8
+}
+#head {
+	PADDING-BOTTOM: 0px; MARGIN: 8px auto 0px; PADDING-LEFT: 0px; WIDTH: 960px; PADDING-RIGHT: 0px; FONT-SIZE: 0.7em; OVERFLOW: hidden; PADDING-TOP: 0px
+}
+#page {
+	PADDING-BOTTOM: 10px; MARGIN: 0px auto; PADDING-LEFT: 10px; WIDTH: 940px; PADDING-RIGHT: 10px; BACKGROUND: #ececec; FONT-SIZE: 0.7em; PADDING-TOP: 10px
+}
+#navbar {
+	PADDING-BOTTOM: 0px; MARGIN: 8px auto 0px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; BACKGROUND: url(/sites/all/themes/arthemia/images/navbar.png) #2c2c2c; TEXT-DECORATION: none; PADDING-TOP: 0px
+}
+#navbar A {
+	TEXT-DECORATION: none
+}
+#page-bar UL {
+	Z-INDEX: 10; LIST-STYLE-TYPE: none; LIST-STYLE-IMAGE: none
+}
+#page-bar LI {
+	LIST-STYLE-TYPE: none; DISPLAY: block; FLOAT: left; CURSOR: pointer; LIST-STYLE-IMAGE: none; BORDER-RIGHT: #333 1px solid
+}
+#page-bar LI:hover {
+	BACKGROUND: #006699
+}
+#page-bar LI A:hover {
+	BACKGROUND: #006699
+}
+#page-bar A {
+	PADDING-BOTTOM: 9px; MARGIN: 0px; PADDING-LEFT: 16px; PADDING-RIGHT: 16px; DISPLAY: block; COLOR: #ffffff; FONT-SIZE: 13px; PADDING-TOP: 9px
+}
+#page-bar A:visited {
+	PADDING-BOTTOM: 9px; MARGIN: 0px; PADDING-LEFT: 16px; PADDING-RIGHT: 16px; DISPLAY: block; COLOR: #ffffff; FONT-SIZE: 13px; PADDING-TOP: 9px
+}
+#page-bar LI {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FLOAT: left; PADDING-TOP: 0px
+}
+#page-bar LI LI {
+	PADDING-BOTTOM: 0px; TEXT-TRANSFORM: none; MARGIN: 0px; PADDING-LEFT: 0px; WIDTH: 122px; PADDING-RIGHT: 0px; FLOAT: left; PADDING-TOP: 0px
+}
+#page-bar LI LI A {
+	PADDING-BOTTOM: 5px; MARGIN: 0px; PADDING-LEFT: 18px; WIDTH: 122px; PADDING-RIGHT: 10px; BACKGROUND: url(/sites/all/themes/arthemia/images/extlink.png) #2c2c2c no-repeat 5px 7px; FLOAT: none; COLOR: #cccccc; BORDER-TOP: #c0c0c0 1px solid; PADDING-TOP: 5px
+}
+#page-bar LI LI A:link {
+	PADDING-BOTTOM: 5px; MARGIN: 0px; PADDING-LEFT: 18px; WIDTH: 122px; PADDING-RIGHT: 10px; BACKGROUND: url(/sites/all/themes/arthemia/images/extlink.png) #2c2c2c no-repeat 5px 7px; FLOAT: none; COLOR: #cccccc; BORDER-TOP: #c0c0c0 1px solid; PADDING-TOP: 5px
+}
+#page-bar LI LI A:visited {
+	PADDING-BOTTOM: 5px; MARGIN: 0px; PADDING-LEFT: 18px; WIDTH: 122px; PADDING-RIGHT: 10px; BACKGROUND: url(/sites/all/themes/arthemia/images/extlink.png) #2c2c2c no-repeat 5px 7px; FLOAT: none; COLOR: #cccccc; BORDER-TOP: #c0c0c0 1px solid; PADDING-TOP: 5px
+}
+#page-bar LI LI A:hover {
+	PADDING-BOTTOM: 5px; PADDING-LEFT: 18px; PADDING-RIGHT: 10px; PADDING-TOP: 5px
+}
+#page-bar LI LI A:active {
+	PADDING-BOTTOM: 5px; PADDING-LEFT: 18px; PADDING-RIGHT: 10px; PADDING-TOP: 5px
+}
+#page-bar LI UL {
+	POSITION: absolute; WIDTH: 10em; DISPLAY: none
+}
+#page-bar LI:hover UL {
+	DISPLAY: block
+}
+.field {
+	PADDING-BOTTOM: 2px; PADDING-LEFT: 2px; PADDING-RIGHT: 2px; BACKGROUND: #ffffff; FONT-SIZE: 1em; PADDING-TOP: 2px
+}
+#searchform {
+	TEXT-ALIGN: right; WIDTH: 194px; FLOAT: right; MARGIN-RIGHT: 10px; PADDING-TOP: 8px
+}
+#logo {
+	MARGIN-TOP: -2px; WIDTH: 350px; FLOAT: left
+}
+#banner-region {
+	FLOAT: right
+}
+#sitename {
+	FLOAT: left; HEIGHT: 20px; FONT-SIZE: 2em
+}
+#tagline {
+	MARGIN-TOP: 5px; COLOR: #333333; CLEAR: left; FONT-SIZE: 1em
+}
+#top {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+#headline {
+	PADDING-BOTTOM: 10px; LINE-HEIGHT: 1.5em; MARGIN: 0px 0px 10px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; BACKGROUND: #ffffff; FLOAT: left; FONT-SIZE: 1.05em; PADDING-TOP: 10px
+}
+.with-featured {
+	WIDTH: 590px
+}
+.no-featured {
+	WIDTH: 920px
+}
+#featured {
+	PADDING-BOTTOM: 9px; PADDING-LEFT: 10px; WIDTH: 300px; PADDING-RIGHT: 10px; MARGIN-BOTTOM: 10px; BACKGROUND: #ffffff; FLOAT: right; PADDING-TOP: 10px
+}
+#featured .clearfloat {
+	MARGIN-TOP: 7px; MARGIN-BOTTOM: 8px
+}
+#middle {
+	PADDING-BOTTOM: 10px; MARGIN: 0px 0px 10px; PADDING-LEFT: 10px; WIDTH: 920px; PADDING-RIGHT: 10px; BACKGROUND: #ffffff; FLOAT: right; PADDING-TOP: 10px
+}
+#bottom {
+	MARGIN-TOP: 10px; WIDTH: 940px; DISPLAY: table
+}
+#headline P {
+	PADDING-BOTTOM: 15px
+}
+#headline P {
+	MARGIN: 0px
+}
+#featured P {
+	MARGIN: 0px
+}
+#content {
+	PADDING-BOTTOM: 10px; LINE-HEIGHT: 1.5em; MIN-HEIGHT: 400px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; BACKGROUND: #ffffff; FLOAT: right; FONT-SIZE: 1.05em; PADDING-TOP: 10px
+}
+#content-top {
+	MARGIN-BOTTOM: 10px
+}
+#content-bottom {
+	MARGIN-TOP: 10px
+}
+.with-sidebar {
+	WIDTH: 650px
+}
+.no-sidebar {
+	WIDTH: 920px
+}
+#content .submitted {
+	
+}
+#content .submitted-span {
+	FONT-SIZE: 90%
+}
+#content .content {
+	FONT-FAMILY: Verdana, "DejaVu Sans", Sans
+}
+.node .content {
+	MARGIN-TOP: 10px
+}
+#content .content P {
+	MARGIN-TOP: 0px
+}
+#content .content .clearfloat {
+	BORDER-BOTTOM: #cccccc 1px dotted; MARGIN: 10px 0px
+}
+#content .content UL {
+	MARGIN: 0px 0px 15px 15px
+}
+#content .content OL {
+	MARGIN: 0px 0px 15px 15px
+}
+#content .content UL UL {
+	MARGIN: 0px
+}
+#content .content OL UL {
+	MARGIN: 0px
+}
+#content .content LI {
+	LIST-STYLE-TYPE: disc
+}
+#content .content OL LI {
+	LIST-STYLE: inherit
+}
+#content .content .related {
+	TEXT-ALIGN: right; BORDER-TOP: grey 1px dotted
+}
+#content .content LI UL LI {
+	MARGIN-LEFT: 20px
+}
+.content .links {
+	PADDING-LEFT: 20px
+}
+.links LI {
+	MARGIN-LEFT: 0px !important
+}
+#content TABLE {
+	BORDER-BOTTOM: #ebebeb 1px solid; BORDER-LEFT: #ebebeb 1px solid; PADDING-BOTTOM: 0px; MARGIN: 0px 0px 10px; PADDING-LEFT: 0px; WIDTH: 100%; PADDING-RIGHT: 0px; BORDER-COLLAPSE: separate; BORDER-TOP: #ebebeb 1px solid; BORDER-RIGHT: #ebebeb 1px solid; PADDING-TOP: 0px
+}
+#content TABLE TH {
+	PADDING-BOTTOM: 2px; LINE-HEIGHT: 1.5em; BACKGROUND-COLOR: #ebebeb; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; COLOR: #464646; PADDING-TOP: 2px
+}
+#content TABLE.system-status-report TH {
+	PADDING-LEFT: 26px
+}
+#content TABLE TH {
+	
+}
+.topics {
+	
+}
+.posts {
+	
+}
+.last-reply {
+	
+}
+.created {
+	
+}
+#content TABLE TD {
+	PADDING-BOTTOM: 2px; LINE-HEIGHT: 1.5em; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; PADDING-TOP: 2px
+}
+#content TR.odd {
+	BACKGROUND-COLOR: #ffffff
+}
+#content TR.even {
+	BACKGROUND-COLOR: #ebebeb
+}
+.node {
+	BORDER-BOTTOM: #cccccc 1px dotted; MARGIN-BOTTOM: 20px
+}
+.node-form TEXTAREA {
+	HEIGHT: 158px
+}
+TEXTAREA.teaser {
+	HEIGHT: 100px
+}
+.node-unpublished {
+	BACKGROUND-COLOR: #cccccc
+}
+.messages {
+	PADDING-BOTTOM: 5px; MARGIN: 10px 0px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; PADDING-TOP: 5px
+}
+.status {
+	BORDER-BOTTOM: #005825 1px solid; BORDER-LEFT: #005825 1px solid; BACKGROUND-COLOR: #bce7c6; COLOR: #005825; BORDER-TOP: #005825 1px solid; BORDER-RIGHT: #005825 1px solid
+}
+#sidebar {
+	MARGIN: 0px; WIDTH: 250px; FLOAT: left; FONT-SIZE: 1.05em
+}
+#sidebar A {
+	DISPLAY: block
+}
+#sidebar H3 {
+	PADDING-BOTTOM: 3px; MARGIN: 10px 0px 5px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; FONT: bold 1.4em Arial; BACKGROUND: #006699; COLOR: #ffffff; PADDING-TOP: 3px
+}
+#sidebar H3 A {
+	COLOR: #ffffff
+}
+#sidebar .content {
+	FONT-SIZE: 1.1em
+}
+#sidebar .content H3 {
+	FONT: 1.2em Arial; BACKGROUND: #aaaaaa
+}
+#sidebar .block {
+	PADDING-BOTTOM: 0px; MARGIN: 0px -20px 10px 0px; PADDING-LEFT: 0px; WIDTH: 270px; PADDING-RIGHT: 0px; BACKGROUND: #ffffff; FLOAT: right; PADDING-TOP: 0px
+}
+#sidebar UL {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 8px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+#sidebar #block-user-0 LI {
+	BORDER-BOTTOM: medium none; PADDING-BOTTOM: 2px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BACKGROUND: none transparent scroll repeat 0% 0%; PADDING-TOP: 2px
+}
+.poll {
+	PADDING-BOTTOM: 5px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; PADDING-TOP: 5px
+}
+.poll .title {
+	MARGIN-BOTTOM: 10px; FONT-WEIGHT: bold
+}
+.menu LI.expanded {
+	
+}
+.menu LI.collapsed {
+	
+}
+.menu LI.leaf {
+	
+}
+#sidebar UL.menu LI {
+	BACKGROUND: url(/sites/all/themes/arthemia/images/sub.png) no-repeat 0px 4px
+}
+#sidebar UL.menu LI.collapsed {
+	BACKGROUND-IMAGE: url(/sites/all/themes/arthemia/images/plus.png); BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: 0px 6px
+}
+#sidebar UL.menu LI.expanded {
+	BACKGROUND: url(/sites/all/themes/arthemia/images/minus.png) no-repeat 0px 6px
+}
+#sidebar LI {
+	BORDER-BOTTOM: #cccccc 1px dotted; PADDING-BOTTOM: 2px; LIST-STYLE-TYPE: none; MARGIN: 0px; PADDING-LEFT: 13px; PADDING-RIGHT: 0px; DISPLAY: block; BACKGROUND: url(/sites/all/themes/arthemia/images/sub.png) no-repeat 0px 4px; LIST-STYLE-IMAGE: none; PADDING-TOP: 2px
+}
+.comment {
+	PADDING-BOTTOM: 0px; BACKGROUND-COLOR: #f6f6f6; MARGIN: 10px 0px 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+.comment .author-data {
+	TEXT-ALIGN: center; LINE-HEIGHT: 1em; WIDTH: 120px; FLOAT: left; HEIGHT: 100%
+}
+.comment .author-data DIV {
+	MARGIN-TOP: 5px
+}
+#comments .comment .author-data .user-member {
+	MARGIN-TOP: 12px
+}
+.comment .comment-main {
+	BORDER-LEFT: #a0a0a0 1px solid; MIN-HEIGHT: 200px; HEIGHT: auto !important; MARGIN-LEFT: 120px
+}
+.comment .content {
+	PADDING-BOTTOM: 10px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; PADDING-TOP: 10px
+}
+.comment-header {
+	BORDER-BOTTOM: #a0a0a0 1px solid; PADDING-BOTTOM: 0px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; BORDER-TOP: #a0a0a0 1px solid; PADDING-TOP: 0px
+}
+.comment-header .submitted {
+	FLOAT: left
+}
+.comment-header .submitted A {
+	COLOR: #000000; text-shadow: 1px 1px 1px #A0A0A0
+}
+.comment-header .comment-link {
+	FLOAT: right
+}
+.comment .new {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; FLOAT: right; COLOR: #cc0000; PADDING-TOP: 0px
+}
+.comment .links {
+	TEXT-ALIGN: right; WIDTH: 100%; DISPLAY: block; FLOAT: left; CLEAR: both; BORDER-TOP: #a0a0a0 1px solid
+}
+.comment .links A {
+	COLOR: #000000
+}
+.comment .links UL {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; PADDING-TOP: 0px
+}
+.comment .fff {
+	BACKGROUND-COLOR: #ffffff
+}
+.comment-unpublished {
+	BACKGROUND-COLOR: #cccccc
+}
+#footer-region {
+	PADDING-BOTTOM: 10px; MARGIN: 0px auto; PADDING-LEFT: 10px; WIDTH: 940px; PADDING-RIGHT: 10px; BACKGROUND: url(/sites/all/themes/arthemia/images/bottombar.png) #2c2c2c no-repeat 50% bottom; COLOR: #cccccc; FONT-SIZE: 0.7em; PADDING-TOP: 10px
+}
+#footer-left {
+	PADDING-BOTTOM: 10px; PADDING-LEFT: 10px; WIDTH: 280px; PADDING-RIGHT: 10px; FLOAT: left; PADDING-TOP: 10px
+}
+#footer-middle {
+	PADDING-BOTTOM: 10px; PADDING-LEFT: 10px; WIDTH: 280px; PADDING-RIGHT: 10px; FLOAT: left; PADDING-TOP: 10px
+}
+#footer-middle {
+	MARGIN-LEFT: 17px
+}
+#footer-right {
+	PADDING-BOTTOM: 10px; PADDING-LEFT: 10px; WIDTH: 280px; PADDING-RIGHT: 10px; FLOAT: right; PADDING-TOP: 10px
+}
+#footer-region A {
+	DISPLAY: block; COLOR: #ffffff
+}
+#footer-region A {
+	TEXT-DECORATION: none
+}
+#footer-region UL {
+	PADDING-BOTTOM: 0px; MARGIN: 5px 0px 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+#footer-region LI {
+	PADDING-BOTTOM: 5px; LIST-STYLE-TYPE: none; MARGIN: 0px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; DISPLAY: block; BORDER-TOP: #cccccc 1px dotted; LIST-STYLE-IMAGE: none; PADDING-TOP: 5px
+}
+#footer-region LI:hover {
+	BACKGROUND: #006699; COLOR: #ffffff
+}
+#footer-region LI:first-child {
+	BORDER-TOP: #ffffff 0px dotted
+}
+#footer-region H3 {
+	TEXT-TRANSFORM: lowercase; MARGIN: 0px; LETTER-SPACING: -0.05em; FONT-SIZE: 1.5em; FONT-WEIGHT: bold
+}
+#footer-region H3 {
+	COLOR: #ffffff
+}
+#footer-message {
+	PADDING-BOTTOM: 10px; MARGIN: 0px auto; WIDTH: 960px; FONT-SIZE: 0.6em; PADDING-TOP: 10px
+}
+.clearfloat:after {
+	DISPLAY: block; HEIGHT: 0px; VISIBILITY: hidden; CLEAR: both; CONTENT: "."
+}
+.clearfloat {
+	DISPLAY: inline-block
+}
+* HTML .clearfloat {
+	HEIGHT: 1%
+}
+* + HTML .clearfloat {
+	HEIGHT: 1%
+}
+.clearfloat {
+	DISPLAY: block
+}
+.item-list .pager {
+	TEXT-ALIGN: center; CLEAR: both; FONT-SIZE: 97%
+}
+.pager UL {
+	PADDING-BOTTOM: 0px !important; MARGIN: 10px 0px; PADDING-LEFT: 0px !important; PADDING-RIGHT: 0px !important; FONT-SIZE: 0.82em; PADDING-TOP: 0px !important
+}
+.pager LI {
+	BACKGROUND-IMAGE: none !important; BORDER-BOTTOM: #cccccc 1px solid; BORDER-LEFT: #cccccc 1px solid; PADDING-BOTTOM: 0px !important; BACKGROUND-COLOR: #eeeeee; MARGIN: 10px 0px; PADDING-LEFT: 3px !important; PADDING-RIGHT: 3px !important; COLOR: #006699; BORDER-TOP: #cccccc 1px solid; BORDER-RIGHT: #cccccc 1px solid; TEXT-DECORATION: none; PADDING-TOP: 0px !important
+}
+.pager-current {
+	BACKGROUND-IMAGE: none !important; BORDER-BOTTOM: #cccccc 1px solid; BORDER-LEFT: #cccccc 1px solid; PADDING-BOTTOM: 0px !important; BACKGROUND-COLOR: #eeeeee; MARGIN: 10px 0px; PADDING-LEFT: 3px !important; PADDING-RIGHT: 3px !important; COLOR: #006699; BORDER-TOP: #cccccc 1px solid; BORDER-RIGHT: #cccccc 1px solid; TEXT-DECORATION: none; PADDING-TOP: 0px !important
+}
+.pager LI .pager-current P {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; FONT-WEIGHT: bold; PADDING-TOP: 0px
+}
+.pager LI .pager-first {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+.pager LI .pager-previous {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+.pager LI .pager-next {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+.pager LI .pager-last {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+.pager LI A {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; COLOR: #006699; PADDING-TOP: 0px
+}
+.pager LI:hover {
+	
+}
+.pager LI A:hover {
+	TEXT-DECORATION: none
+}
+#tracker A {
+	WIDTH: 100%; DISPLAY: block
+}
+#tracker .pager A {
+	WIDTH: auto; DISPLAY: inline
+}
+#tracker .odd A {
+	FLOAT: left
+}
+#tracker .even A {
+	FLOAT: left
+}
+#tracker .odd .replies A {
+	FLOAT: none
+}
+#tracker .even .replies A {
+	FLOAT: none
+}
+.block .pager LI {
+	FLOAT: none
+}
+.style-alignleft {
+	MARGIN: 5px 5px 0px; FLOAT: left; OVERFLOW: auto
+}
+.style-alignleft A:hover {
+	COLOR: #000000; text-shadow: none
+}
+A:active {
+	COLOR: #000000; text-shadow: none
+}
+.style-aligncenter {
+	TEXT-ALIGN: center; MARGIN: 15px 0px; OVERFLOW: auto
+}
+.style-aligncenter A:hover {
+	COLOR: #000000; text-shadow: none
+}
+A:active {
+	COLOR: #000000; text-shadow: none
+}
+.style-alignright {
+	MARGIN: 0px 0px 0px 10px; FLOAT: right; OVERFLOW: auto
+}
+.style-alignright A:hover {
+	COLOR: #000000; text-shadow: none
+}
+A:active {
+	COLOR: #000000; text-shadow: none
+}
+.style-markergreen {
+	COLOR: #07a000
+}
+.style-markerred {
+	COLOR: #ff0000
+}
+.style-key {
+	BORDER-BOTTOM: rgb(255,255,255) 0.15em outset; BORDER-LEFT: rgb(255,255,255) 0.15em outset; PADDING-BOTTOM: 0pt; LINE-HEIGHT: 1.5em; OUTLINE-STYLE: solid; OUTLINE-COLOR: rgb(187,187,187); PADDING-LEFT: 2pt; OUTLINE-WIDTH: 1px; PADDING-RIGHT: 2pt; WHITE-SPACE: nowrap; BACKGROUND: rgb(221,221,221); FONT-SIZE: smaller; BORDER-TOP: rgb(255,255,255) 0.15em outset; BORDER-RIGHT: rgb(255,255,255) 0.15em outset; PADDING-TOP: 0pt
+}
+.style-button {
+	BORDER-BOTTOM: rgb(255,255,255) 0.15em outset; BORDER-LEFT: rgb(255,255,255) 0.15em outset; PADDING-BOTTOM: 0pt; LINE-HEIGHT: 1.5em; OUTLINE-STYLE: solid; OUTLINE-COLOR: rgb(187,187,187); PADDING-LEFT: 2pt; OUTLINE-WIDTH: 1px; PADDING-RIGHT: 2pt; WHITE-SPACE: nowrap; BACKGROUND: rgb(221,221,221); FONT-SIZE: smaller; BORDER-TOP: rgb(255,255,255) 0.15em outset; BORDER-RIGHT: rgb(255,255,255) 0.15em outset; PADDING-TOP: 0pt
+}
+.style-link {
+	BORDER-BOTTOM: rgb(255,255,255) 0.15em outset; BORDER-LEFT: rgb(255,255,255) 0.15em outset; PADDING-BOTTOM: 0pt; LINE-HEIGHT: 1.5em; OUTLINE-STYLE: solid; OUTLINE-COLOR: rgb(187,187,187); PADDING-LEFT: 2pt; OUTLINE-WIDTH: 1px; PADDING-RIGHT: 2pt; WHITE-SPACE: nowrap; BACKGROUND: rgb(221,221,221); FONT-SIZE: smaller; BORDER-TOP: rgb(255,255,255) 0.15em outset; BORDER-RIGHT: rgb(255,255,255) 0.15em outset; PADDING-TOP: 0pt
+}
+.style-api {
+	FONT-FAMILY: monospace; COLOR: black; FONT-SIZE: 12px
+}
+.style-path {
+	FONT-FAMILY: monospace; COLOR: black; FONT-SIZE: 12px
+}
+.field .field-label {
+	FONT-WEIGHT: normal
+}
+.field .field-label-inline {
+	FONT-WEIGHT: normal
+}
+.field .field-label-inline-first {
+	FONT-WEIGHT: normal
+}
+.field-field-guidesource {
+	BACKGROUND-COLOR: #ebebeb; MARGIN: 0px 0px 10px; FONT-SIZE: 11px
+}
+.field-field-guidesource .field-label-inline-first {
+	FONT-WEIGHT: normal
+}
+.field-field-guidesource A {
+	COLOR: #545454
+}
+.field-field-guidesource A:hover {
+	COLOR: #000000
+}
+.field-field-articlesource {
+	BACKGROUND-COLOR: #ebebeb; MARGIN: 0px 0px 10px; FONT-SIZE: 11px
+}
+.field-label-inline-first.field-field-articlesource {
+	FONT-WEIGHT: normal
+}
+.field-field-articlesource A {
+	COLOR: #545454
+}
+.field-field-articlesource A:hover {
+	COLOR: #000000
+}
+.field-field-projectpage {
+	BACKGROUND-COLOR: #ebebeb; MARGIN-BOTTOM: 10px; CLEAR: both
+}
+.field-field-projectpage .field-label-inline-first {
+	FONT-WEIGHT: normal
+}
+.field-field-projectdepend {
+	BACKGROUND-COLOR: #ebebeb; MARGIN: 0px 0px 10px; FONT-SIZE: 11px
+}
+.field-field-projectdepend .field-label-inline-first {
+	FONT-WEIGHT: normal
+}
+.field-field-projectdepend A {
+	COLOR: #545454
+}
+.field-field-projectdepend A:hover {
+	COLOR: #000000
+}
+.field-field-sitesource {
+	BACKGROUND-COLOR: #ebebeb; MARGIN: 0px 0px 10px; FONT-SIZE: 11px
+}
+.field-label-inline-first.field-field-sitesource {
+	FONT-WEIGHT: normal
+}
+.field-field-sitesource A {
+	COLOR: #545454
+}
+.field-field-sitesource A:hover {
+	COLOR: #000000
+}
+.field-field-snippetsource {
+	BACKGROUND-COLOR: #ebebeb; MARGIN: 0px 0px 10px; FONT-SIZE: 11px
+}
+.field-label-inline-first.field-field-snippetsource {
+	FONT-WEIGHT: normal
+}
+.field-field-snippetsource A {
+	COLOR: #545454
+}
+.field-field-snippetsource A:hover {
+	COLOR: #000000
+}
+.field-field-videosource {
+	BACKGROUND-COLOR: #ebebeb; MARGIN: 0px 0px 10px; FONT-SIZE: 11px
+}
+.field-field-videosource .field-label-inline-first {
+	FONT-WEIGHT: normal
+}
+.field-field-videosource A {
+	COLOR: #545454
+}
+.field-field-videosource A:hover {
+	COLOR: #000000
+}
+.field-field-booksource {
+	BACKGROUND-COLOR: #ebebeb; FONT-SIZE: 11px
+}
+.field-field-booksource A {
+	COLOR: #545454
+}
+.field-field-booksource A:hover {
+	COLOR: #000000
+}
+.field-field-bookmore {
+	BACKGROUND-COLOR: #ebebeb
+}
+.field-field-bookmore A {
+	COLOR: #545454
+}
+.field-field-bookmore A:hover {
+	COLOR: #000000
+}
+.views-exposed-form .views-exposed-widget .form-submit {
+	MARGIN: 0px; FLOAT: left
+}
+.view-release .views-field-created {
+	WIDTH: 85px
+}
+.view-project .views-field-title {
+	WIDTH: 150px
+}
+.view-project .view-header A {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 1px; PADDING-RIGHT: 1px; PADDING-TOP: 0px
+}
+.view-project .form-select {
+	WIDTH: 500px; HEIGHT: 150px
+}
+.view-snippet .form-select {
+	WIDTH: 500px; HEIGHT: 90px
+}
+.view-book #edit-tid-wrapper .form-select {
+	WIDTH: 157px
+}
+.view-book #edit-tid-1-wrapper .form-select {
+	WIDTH: 157px
+}
+.view-video .views-widget #edit-tid-3 {
+	WIDTH: 285px
+}
+.view-video .views-widget #edit-tid-1 {
+	HEIGHT: 90px
+}
+.view-site .form-item .form-select {
+	WIDTH: 500px; HEIGHT: 90px
+}
+.view-site .views-field-created {
+	WIDTH: 85px
+}
+.view-article .form-select {
+	WIDTH: 500px; HEIGHT: 90px
+}
+.view-article .views-field-created {
+	WIDTH: 85px
+}
+.view-content TABLE .views-field-title A {
+	WIDTH: 100%; DISPLAY: block
+}
+.view-solution .views-field-teaser {
+	WIDTH: 80px
+}
+TABLE P {
+	MARGIN: 0px
+}
+.breadcrumb {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+#forum TD.title A {
+	DISPLAY: block
+}
+#aggregator #trackback-url {
+	DISPLAY: none
+}
+#aggregator .feed-item-body P A {
+	DISPLAY: none
+}
+#content .node .taxonomy {
+	BACKGROUND-COLOR: #ebebeb; MARGIN: 0px; DISPLAY: none; FONT-FAMILY: verdana
+}
+#content .node .taxonomy A {
+	
+}
+#content .node .taxonomy A:hover {
+	COLOR: #000000
+}
+#edit-taxonomy-2 {
+	WIDTH: 100%
+}
+#edit-taxonomy-6 {
+	WIDTH: 100%
+}
+#edit-taxonomy-8 {
+	WIDTH: 100%; HEIGHT: 250px
+}
+#edit-taxonomy-tags-9 {
+	WIDTH: 99%
+}
+#edit-taxonomy-13 {
+	WIDTH: 100%
+}
+#edit-taxonomy-15 {
+	WIDTH: 100%
+}
+#edit-nodewords-description {
+	WIDTH: 104%
+}
+#edit-nodewords-keywords {
+	WIDTH: 99%
+}
+#edit-field-projectdepend-nid-nid {
+	WIDTH: 651px; HEIGHT: 166px
+}
+#edit-field-projectpage-0-url {
+	WIDTH: 646px
+}
+#edit-title {
+	WIDTH: 645px
+}
+#edit-teaser-js {
+	WIDTH: 645px
+}
+#edit-body {
+	WIDTH: 645px
+}
+#page-bar LI LI {
+	BACKGROUND: url(/sites/all/themes/arthemia/images/sub.png) no-repeat 0px 0px
+}
+.toc {
+	BORDER-BOTTOM: #b5c9d8 1px solid; TEXT-ALIGN: left; BORDER-LEFT: #b5c9d8 1px solid; BACKGROUND-COLOR: #f9f9f9; MAX-WIDTH: 100%; FONT-SIZE: 95%; BORDER-TOP: #b5c9d8 1px solid; BORDER-RIGHT: #b5c9d8 1px solid
+}
+.toc-list {
+	PADDING-BOTTOM: 10px; PADDING-LEFT: 0px; PADDING-RIGHT: 10px; PADDING-TOP: 0px
+}
+.toc-list LI A {
+	DISPLAY: block
+}
+.toc-back-to-top {
+	TEXT-ALIGN: right; FONT-STYLE: normal; MARGIN: -5px -25px 15px 0px; BACKGROUND: none transparent scroll repeat 0% 0%; FONT-SIZE: 10px
+}
+.toc-back-to-top A {
+	TEXT-DECORATION: underline
+}
+.content .toc {
+	MAX-WIDTH: 100%; MARGIN-BOTTOM: 10px
+}
+#content .content .toc OL {
+	MARGIN: 0px 0px 0px 15px
+}
+.warning {
+	MARGIN-BOTTOM: 10px
+}
+#block-block-8 .content {
+	PADDING-BOTTOM: 1px; BACKGROUND-COLOR: #ebebeb; PADDING-LEFT: 5px; PADDING-RIGHT: 1px; PADDING-TOP: 1px
+}
+#profile .profile {
+	BORDER-BOTTOM: #7f98a7 1px solid; BORDER-LEFT: #7f98a7 1px solid; MARGIN: 5px 10px 5px 0px; WIDTH: 48%; FLOAT: left; HEIGHT: 110px; CLEAR: none; OVERFLOW: hidden; BORDER-TOP: #7f98a7 1px solid; BORDER-RIGHT: #7f98a7 1px solid
+}
+#profile .profile .picture A IMG {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 2px; PADDING-RIGHT: 0px; PADDING-TOP: 8px
+}
+#profile .profile .field {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 2px; WIDTH: 200px; PADDING-RIGHT: 2px; HEIGHT: 20px; CLEAR: none; OVERFLOW: hidden; PADDING-TOP: 0px
+}
+#profile .profile .field P {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+#profile .profile .name {
+	FONT-WEIGHT: bold
+}
+#profile .profile .name A {
+	PADDING-BOTTOM: 2px; PADDING-LEFT: 2px; PADDING-RIGHT: 2px; PADDING-TOP: 2px
+}
+#views-exposed-form-video-page-1 #edit-tid-1-wrapper .form-select {
+	WIDTH: 250px; HEIGHT: 35px
+}
+#views-exposed-form-video-page-1 .views-exposed-widget .form-submit {
+	MARGIN-TOP: 5px
+}
+SELECT.multiselect_unsel {
+	WIDTH: 336px
+}
+#multiselect_labels #label_selected {
+	MARGIN-RIGHT: 59px
+}
+UL.jquerymenu LI.parent SPAN.closed {
+	BACKGROUND-ATTACHMENT: scroll; BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: 0px 4px
+}
+UL.jquerymenu LI.parent SPAN.open {
+	BACKGROUND-ATTACHMENT: scroll; BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: 0px 4px
+}
+UL.jquerymenu LI SPAN.parent {
+	MARGIN-TOP: 0px; HEIGHT: 15px; MARGIN-LEFT: -13px
+}
+.user-signature {
+	PADDING-BOTTOM: 3px; MARGIN: 0px -10px -10px; PADDING-LEFT: 3px; PADDING-RIGHT: 3px; BORDER-TOP: #cccccc 1px solid; PADDING-TOP: 3px
+}
+.comment_reply {
+	DISPLAY: none
+}
+.comment .links .comment_reply {
+	DISPLAY: none
+}
+.comment .links .comment_reply A {
+	DISPLAY: none
+}
+.comment .links .comment_reply UL {
+	DISPLAY: none
+}
+UL.links LI .comment_reply {
+	DISPLAY: none
+}
+.yashare-auto-init {
+	TEXT-ALIGN: right; MARGIN: 10px 0px 0px -6px
+}
+#block-fancy_login-0 A {
+	PADDING-LEFT: 20px
+}
+DIV#fancy_login_login_box {
+	FONT-SIZE: 95%
+}
+DIV#fancy_login_login_box .item-list {
+	MARGIN-TOP: 12px
+}
+.gsc-search-box TABLE {
+	BORDER-COLLAPSE: inherit
+}
+#twtr-widget-1 .twtr-tweet A {
+	DISPLAY: inline
+}
+.progress .bar {
+	MARGIN: 0px; HEIGHT: auto
+}
+.form-required {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 5px; PADDING-RIGHT: 3px; BACKGROUND: url(/sites/all/themes/arthemia/images/required-input.png) #ffffff no-repeat 99% 50%; FLOAT: left; PADDING-TOP: 0px
+}
+INPUT.required {
+	BACKGROUND: url(/sites/all/themes/arthemia/images/required.png) #ffffff no-repeat 99% 50%
+}
+INPUT.required#edit-pass {
+	BACKGROUND: url(/sites/all/themes/arthemia/images/required-password.png) #ffffff no-repeat 99% 50%
+}
+.marker {
+	FLOAT: right; FONT-SIZE: 90%
+}
+.resizable-textarea {
+	WIDTH: auto
+}
+.category {
+	BORDER-TOP: medium none
+}
+.error {
+	COLOR: #ff0000
+}
+.category {
+	PADDING-BOTTOM: 10px; MARGIN: 0px; PADDING-LEFT: 10px; WIDTH: 164px; PADDING-RIGHT: 10px; BACKGROUND: #fff; FLOAT: left; BORDER-TOP: #333 8px solid; PADDING-TOP: 5px
+}
+.category P {
+	MARGIN: 0px
+}
+#cat-1 {
+	BORDER-TOP: #333333 8px solid
+}
+#cat-3 {
+	BORDER-TOP: #333333 8px solid
+}
+#cat-5 {
+	BORDER-TOP: #333333 8px solid
+}
+#cat-2 {
+	BORDER-TOP: #3c78a7 8px solid
+}
+#cat-4 {
+	BORDER-TOP: #3c78a7 8px solid
+}
+.category SPAN.cat_title {
+	TEXT-TRANSFORM: lowercase; MARGIN: 0px; LETTER-SPACING: -0.05em; FONT-SIZE: 1.5em; FONT-WEIGHT: bold
+}
+.category A {
+	DISPLAY: block; BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #333
+}
+.category A:visited {
+	DISPLAY: block; BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #333
+}
+.category A:hover {
+	TEXT-DECORATION: none
+}
+#cat-1:hover {
+	BACKGROUND: #333333; COLOR: #fff
+}
+#cat-1:hover A {
+	BACKGROUND: #333333; COLOR: #fff
+}
+#cat-3:hover {
+	BACKGROUND: #333333; COLOR: #fff
+}
+#cat-3:hover A {
+	BACKGROUND: #333333; COLOR: #fff
+}
+#cat-5:hover {
+	BACKGROUND: #333333; COLOR: #fff
+}
+#cat-5:hover A {
+	BACKGROUND: #333333; COLOR: #fff
+}
+#cat-2:hover {
+	BACKGROUND: #3c78a7; COLOR: #fff
+}
+#cat-2:hover A {
+	BACKGROUND: #3c78a7; COLOR: #fff
+}
+#cat-4:hover {
+	BACKGROUND: #3c78a7; COLOR: #fff
+}
+#cat-4:hover A {
+	BACKGROUND: #3c78a7; COLOR: #fff
+}
+#aggregator .feed-source .feed-title {
+	MARGIN-TOP: 0px
+}
+#aggregator .feed-source .feed-image IMG {
+	MARGIN-BOTTOM: 0.75em
+}
+#aggregator .feed-source .feed-icon {
+	DISPLAY: block; FLOAT: right
+}
+#aggregator .feed-item {
+	MARGIN-BOTTOM: 1.5em
+}
+#aggregator .feed-item-body {
+	FONT-FAMILY: Verdana, "DejaVu Sans", Sans
+}
+#aggregator .feed-item-body UL {
+	MARGIN-BOTTOM: 15px
+}
+#aggregator .feed-item-body OL {
+	MARGIN-BOTTOM: 15px
+}
+#aggregator .feed-item-body LI {
+	LINE-HEIGHT: 1.7em; LIST-STYLE-TYPE: square
+}
+#aggregator .feed-item-categories {
+	FONT-SIZE: 0.9em
+}
+#aggregator TD {
+	VERTICAL-ALIGN: bottom
+}
+#aggregator TD.categorize-item {
+	WHITE-SPACE: nowrap
+}
+#aggregator .categorize-item .news-item .body {
+	MARGIN-TOP: 0px
+}
+#aggregator .categorize-item H3 {
+	MARGIN-TOP: 0px; FONT: 1.8em Georgia, "Times New Roman"; MARGIN-BOTTOM: 1em
+}

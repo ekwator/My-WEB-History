@@ -1,0 +1,97 @@
+# Russian translation of views (all releases)
+# Copyright (c) 2013 by the Russian translation team
+# Generated from files:
+#  views/modules/search/views_handler_filter_search.inc: n/a
+#  views/modules/search/views_plugin_row_search_view.inc: n/a
+#  views/modules/search/views_handler_field_search_score.inc: n/a
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: views (all releases)\n"
+"POT-Creation-Date: 2013-05-29 14:21+0400\n"
+"PO-Revision-Date: 2010-04-13 14:09+0400\n"
+"Language-Team: Russian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=((((n%10)==1)&&((n%100)!=11))?(0):(((((n%10)>=2)&&((n%10)<=4))&&(((n%100)<10)||((n%100)>=20)))?(1):2));\n"
+
+#: modules/search/views_handler_filter_search.inc:59,61,59,61
+msgid ""
+"You must include at least one positive keyword with @count characters "
+"or more."
+msgstr ""
+"Необходимо указать хотя бы одно не "
+"исключающее ключевое слово, "
+"содержащее не менее @count символов."
+
+#: modules/search/views_handler_filter_search.inc:54,41,54,59,59,59,43,41,77,43,77,54,41,54,59,59,59,43,41,77,43,77
+msgid "Enter the terms you wish to search for."
+msgstr "Введите ключевые слова для поиска."
+
+#: modules/search/views_handler_filter_search.inc:63,65,63,65
+msgid ""
+"Search for either of the two terms with uppercase <strong>OR</strong>. "
+"For example, <strong>cats OR dogs</strong>."
+msgstr ""
+"Поиск для любого из двух терминов с "
+"набранным в верхнем регистре "
+"<strong>OR</strong>. Например, <strong>кошки OR "
+"собаки</strong>."
+
+#: modules/search/views_handler_filter_search.inc:37,28,37,22,42,42,42,30,22,60,30,60
+msgid "On empty input"
+msgstr "Пустой ввод"
+
+#: modules/search/views_handler_filter_search.inc:40,18,40,25,45,45,45,20,25,63,20,63
+msgid "Show All"
+msgstr "Показать Все"
+
+#: modules/search/views_handler_filter_search.inc:41,19,41,26,46,46,46,21,26,64,21,64
+msgid "Show None"
+msgstr "Не показывать ничего"
+
+#: modules/search/views_plugin_row_search_view.inc:22,22,23,23,23,22,22,22,23
+msgid "Display score"
+msgstr ""
+
+#: modules/search/views_handler_field_search_score.inc:21,20,21,27,27,27,22,20,22,27
+msgid "No alternate"
+msgstr "Не чередовать"
+
+#: modules/search/views_handler_field_search_score.inc:28,27,28,34,34,34,29,27,29,34
+msgid "Alternative sort"
+msgstr "Альтернативная сортировка"
+
+#: modules/search/views_handler_field_search_score.inc:36,35,36,42,42,42,37,35,37,42
+msgid "Alternate sort order"
+msgstr "Альтернативный порядок сортировки"
+
+#: modules/search/views_handler_filter_search.inc:71,71,76,76,76,94,94
+msgid ""
+"You must include at least one positive keyword with 1 character or "
+"more."
+msgid_plural ""
+"You must include at least one positive keyword with @count characters "
+"or more."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: modules/search/views_handler_field_search_score.inc:29,28,29,35,35,35,30,28,30,35
+msgid ""
+"Pick an alternative default table sort field to use when the search "
+"score field is unavailable."
+msgstr ""
+
+#: modules/search/views_handler_filter_search.inc:47,47
+msgid "Remove search score"
+msgstr ""
+
+#: modules/search/views_handler_filter_search.inc:48,48
+msgid ""
+"Check this box to remove the search score from the query. This can "
+"help reduce help reduce duplicate search results when using this "
+"filter."
+msgstr ""
+

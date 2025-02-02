@@ -1,0 +1,459 @@
+# Russian translation of date (all releases)
+# Copyright (c) 2012 by the Russian translation team
+# Generated from files:
+#  date/date_tools/date_tools.wizard.inc: n/a
+#  date/date_tools/date_tools.module: n/a
+#  date/date_tools/date_tools.event.inc: n/a
+#  date_tools.event.inc,v 1.1.2.1 2010/03/08 23:39:42 karens
+#  date/date_tools/date_tools.change_type.inc: n/a
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: date (all releases)\n"
+"POT-Creation-Date: 2012-08-17 04:37-0400\n"
+"PO-Revision-Date: 2011-05-21 15:47-0400\n"
+"Language-Team: Russian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=((((n%10)==1)&&((n%100)!=11))?(0):(((((n%10)>=2)&&((n%10)<=4))&&(((n%100)<10)||((n%100)>=20)))?(1):2));\n"
+
+#: date_tools/date_tools.wizard.inc:63,70,67,70,70,64,67,70,70,67
+msgid "Advanced options"
+msgstr "Дополнительные настройки"
+
+#: date_tools/date_tools.module:133,134,133,133
+msgid "Operations"
+msgstr "Действия"
+
+#: date_tools/date_tools.wizard.inc:248,252,249,252,252
+msgid "Content"
+msgstr "Содержимое"
+
+#: date_tools/date_tools.wizard.inc:8,15,12,15,15,9,12,15,15,12
+msgid "Content type"
+msgstr "Тип содержимого"
+
+#: date_tools/date_tools.wizard.inc:257,261,258,261,261
+msgid "Views"
+msgstr "Представления"
+
+#: date_tools/date_tools.wizard.inc:280,284,281,284,284
+msgid "disabled"
+msgstr "отключено"
+
+#: date_tools/date_tools.wizard.inc:268,272,269,272,272
+msgid "enabled"
+msgstr "включено"
+
+#: date_tools/date_tools.module:133,134,133,133
+msgid "Content Type"
+msgstr "Тип контента"
+
+#: date_tools/date_tools.wizard.inc:115,133,119,134,133,116,119,133,133,119
+msgid ""
+"The machine-readable name must contain only lowercase letters, "
+"numbers, and underscores."
+msgstr ""
+"Машинное имя может содержать только "
+"буквы в нижнем регистре, цифры и знаки "
+"подчёркивания."
+
+#: date_tools/date_tools.event.inc:108,112,109,112,112
+msgid "Node Title"
+msgstr "Заголовок Материала"
+
+#: date_tools/date_tools.wizard.inc:250,254,251,254,254
+msgid "Calendar iCal"
+msgstr "Календарь iCal"
+
+#: date_tools/date_tools.wizard.inc:258,262,259,262,262
+msgid "Views UI"
+msgstr "Views UI"
+
+#: date_tools/date_tools.wizard.inc:253,257,254,257,257
+msgid "Calendar Popup"
+msgstr "Всплывающий календарь"
+
+#: date_tools/date_tools.module:43,53,53,53,44,43,53,53,43
+msgid "About"
+msgstr "O"
+
+#: date_tools/date_tools.module:9,10,9,9
+msgid "Tools for creating and importing dates and calendars."
+msgstr ""
+"Инструменты для создания и импорта "
+"дат и календарей"
+
+#: date_tools/date_tools.module:17,18,17,17
+msgid "The following modules are required for the wizard to work:"
+msgstr ""
+"Данные модули необходимы для работы "
+"мастера настроек:"
+
+#: date_tools/date_tools.module:22,23,22,22
+msgid ""
+"Only a limited set of options are displayed here to make this easy to "
+"set up. Once the date has been created you will be able to make other "
+"changes to the date settings and add other fields to your new content "
+"type on the Manage fields screen, and make changes to the calendar on "
+"the Views edit page."
+msgstr ""
+
+#: date_tools/date_tools.module:108,109,108,108
+msgid ""
+"Dates and calendars can be complicated to set up. The !date_wizard "
+"makes it easy to create a simple date content type and related "
+"calendar."
+msgstr ""
+
+#: date_tools/date_tools.wizard.inc:13,20,17,20,20,14,17,20,20,17
+msgid "Content type name"
+msgstr "Имя типа контента"
+
+#: date_tools/date_tools.wizard.inc:19,26,23,26,26,20,23,26,26,23
+msgid "Content type label"
+msgstr "Метка типа контента"
+
+#: date_tools/date_tools.wizard.inc:24,31,28,31,31,25,28,31,31,28
+msgid "A date content type that is linked to a Views calendar."
+msgstr ""
+
+#: date_tools/date_tools.wizard.inc:25,32,29,32,32,26,29,32,32,29
+msgid "Content type description"
+msgstr "Описания типа контента"
+
+#: date_tools/date_tools.wizard.inc:36,43,40,43,43,37,40,43,43,40
+msgid "Date field name"
+msgstr "Имя поля Даты"
+
+#: date_tools/date_tools.wizard.inc:37,44,41,44,44,38,41,44,44,41
+msgid ""
+"Machine-readable name. Allowed values: (a-z, 0-9, _) Must not be an "
+"existing field name."
+msgstr ""
+
+#: date_tools/date_tools.wizard.inc:43,50,47,50,50,44,47,50,50,47
+msgid "Date field label"
+msgstr "Подпись поля даты"
+
+#: date_tools/date_tools.wizard.inc:44,51,48,51,51,45,48,51,51,48
+msgid "The human-readable label for this field."
+msgstr "Машинно-читаемая метка этого поля."
+
+#: date_tools/date_tools.wizard.inc:69,83,73,83,83,70,73,83,83,73
+msgid "Date field type"
+msgstr "Тип поля даты"
+
+#: date_tools/date_tools.wizard.inc:50,57,54,57,57,51,54,57,57,54
+msgid "Date widget type"
+msgstr "Тип виджета даты"
+
+#: date_tools/date_tools.wizard.inc:83,103,87,103,103,84,87,103,103,87
+msgid "Date timezone handling"
+msgstr "Управление часовым поясом"
+
+#: date_tools/date_tools.wizard.inc:56,63,60,63,63,57,60,63,63,60
+msgid "Show repeating date options"
+msgstr ""
+"Показать настройки повторяющийся "
+"даты"
+
+#: date_tools/date_tools.wizard.inc:90,110,94,110,110,91,94,110,110,94
+msgid "Create a calendar for this date field"
+msgstr ""
+"Создать календарь для данного поля "
+"даты"
+
+#: date_tools/date_tools.wizard.inc:97,101,98,101,101
+msgid "Add calendar blocks to the current theme"
+msgstr ""
+"Добавить блоки календаря к текущей "
+"теме"
+
+#: date_tools/date_tools.wizard.inc:129,133,130,133,133
+msgid "Change the calendar as needed and save the view."
+msgstr ""
+
+#: date_tools/date_tools.wizard.inc:251,255,252,255,255
+msgid "Date Repeat"
+msgstr "Date Repeat"
+
+#: date_tools/date_tools.wizard.inc:255,259,256,259,259
+msgid "Optionwidgets"
+msgstr "Optionwidgets"
+
+#: date_tools/date_tools.wizard.inc:256,260,257,260,260
+msgid "Nodereference"
+msgstr "Nodereference"
+
+#: date_tools/date_tools.event.inc:26,30,27,30,30
+msgid ""
+"Create a new CCK content type to import your events into, or, if you "
+"do not want to create new nodes for your events, add a date field to "
+"the existing event type. Make sure the target content type has a date "
+"field that has an optional or required To date so it can accept the "
+"From date and To date of the event. If your source event has its own "
+"timezone field, make sure you set the target date timezone handling to "
+"'date'. Test the target type by trying to create a node manually and "
+"make sure all the right options are available in the form before "
+"attempting an import."
+msgstr ""
+
+#: date_tools/date_tools.event.inc:26,30,27,30,30
+msgid ""
+"The import will create new nodes and trigger all related hooks, so you "
+"may want to turn off automatic email messaging for this node type "
+"while performing the import!"
+msgstr ""
+
+#: date_tools/date_tools.event.inc:236,246,240,250,235,245,240,250,240,250
+msgid "date_tools"
+msgstr "date_tools"
+
+#: date_tools/date_tools.event.inc:236,240,235,240,240
+msgid "!type: %title has been created."
+msgstr "!type: %title был создан."
+
+#: date_tools/date_tools.event.inc:246,250,245,250,250
+msgid "!type: %title has been updated."
+msgstr "!type: %title был обновлен."
+
+#: date_tools/date_tools.event.inc:107,111,108,111,111
+msgid "1 event has been converted."
+msgid_plural "@count events have been converted."
+msgstr[0] "1 событие было конвертировано."
+msgstr[1] "@count события было конвертировано."
+msgstr[2] "@count событий было конвертировано."
+
+#: date_tools/date_tools.module:53,54,53,53
+msgid "Easy creation of date content types and calendars."
+msgstr ""
+"Простое создание полей даты и "
+"календарей."
+
+#: date_tools/date_tools.module:74,75,74,74
+msgid "Event import"
+msgstr "Импорт событий"
+
+#: date_tools/date_tools.event.inc:108,112,109,112,112
+msgid "Original Node ID"
+msgstr "Исходный ID материала"
+
+#: date_tools/date_tools.event.inc:108,112,109,112,112
+msgid "New Node ID"
+msgstr "Новый ID материала"
+
+#: date_tools/date_tools.wizard.inc:118,139,122,140,139,119,122,139,139,122
+msgid "This field name already exists."
+msgstr "Это имя поля уже существует."
+
+#: date_tools/date_tools.module:20,21,20,20
+msgid ""
+"Fill out the following form to auto-create a date content type, with a "
+"datetime field and matching pre-configured calendar. A calendar and "
+"upcoming events block will be created, an ical feed will be added to "
+"the calendar, and the mini calendar, calendar legend, and upcoming "
+"events blocks will be added to the sidebar of the default theme. Nodes "
+"created from this new content type will include a link to the "
+"calendar, and the calendar will have a link to the 'add new date' "
+"form. If the Signup module is enabled, Signups will also be enabled "
+"for this field. You can also add new date fields to an existing "
+"content type by entering the existing content type name instead of "
+"creating a new one."
+msgstr ""
+
+#: date_tools/date_tools.module:122,123,122,122
+msgid ""
+"The calendar %view is a default calendar created for the content type "
+"%type_name."
+msgstr ""
+
+#: date_tools/date_tools.module:123,124,123,123
+msgid "remove !view"
+msgstr "удалить !view"
+
+#: date_tools/date_tools.module:151,152,151,151
+msgid "Are you sure you want to remove the view %view?"
+msgstr ""
+"Вы уверены, что хотите удалить "
+"отображение %view?"
+
+#: date_tools/date_tools.module:169,170,169,169
+msgid "Removed calendar %calendar."
+msgstr "Удален календарь %calendar."
+
+#: date_tools/date_tools.wizard.inc:14,21,18,21,21,15,18,21,21,18
+msgid ""
+"Machine-readable name. Allowed values: (a-z, 0-9, _). If this is not "
+"an existing content type, the content type will be created."
+msgstr ""
+
+#: date_tools/date_tools.wizard.inc:20,27,24,27,27,21,24,27,27,24
+msgid ""
+"The human-readable name for this content type. Only needed when "
+"creating a new content type."
+msgstr ""
+"Человеко-понятное имя для данного "
+"типа материала. Необходимо только при "
+"создании нового типа материалов."
+
+#: date_tools/date_tools.wizard.inc:26,33,30,33,33,27,30,33,33,30
+msgid ""
+"A description for the content type. Only needed when creating a new "
+"content type."
+msgstr ""
+"Описание для типа контента. Нужно, "
+"только когда создается новый тип "
+"контента."
+
+#: date_tools/date_tools.wizard.inc:70,84,74,84,84,71,74,84,84,74
+msgid ""
+"The recommend type is Datetime, except for historical dates or dates "
+"with only year or month granularity. Older or incomplete dates should "
+"use the Date type (an ISO date)."
+msgstr ""
+
+#: date_tools/date_tools.wizard.inc:84,104,88,104,104,85,88,104,104,88
+msgid ""
+"Timezone handling should be set to 'none' for granularity without time "
+"elements."
+msgstr ""
+
+#: date_tools/date_tools.wizard.inc:112,130,116,131,130,113,116,130,130,116
+msgid ""
+"This content type name already exists, adding new field to existing "
+"content type."
+msgstr ""
+
+#: date_tools/date_tools.wizard.inc:121,145,125,146,145,122,125,145,145,125
+msgid "Timezone handling must be none for granularity without time."
+msgstr ""
+
+#: date_tools/date_tools.module:84,85,84,84
+msgid "Remove calendar"
+msgstr "Удалить календарь"
+
+#: date_tools/date_tools.module:29,30,29,29
+msgid "administer date tools"
+msgstr "Управление инструментами даты"
+
+#: date_tools/date_tools.module:92,92,92,92,92
+msgid ""
+"Dates and calendars can be complicated to set up. The !date_wizard "
+"makes it easy to create a simple date content type and related "
+"calendar. "
+msgstr ""
+
+#: date_tools/date_tools.module:62,62,62,62,62
+msgid "Easy creation of date content types and calendars. "
+msgstr ""
+
+#: date_tools/date_tools.change_type.inc:20,31,24,31,31,21,24,31,31,24
+msgid "Field @label (@field_name)"
+msgstr "Поле @label (@field_name)"
+
+#: date_tools/date_tools.change_type.inc:24,35,28,35,35,25,28,35,35,28
+msgid "There are no date fields in this database."
+msgstr "В данное базе данных нет полей даты."
+
+#: date_tools/date_tools.change_type.inc:32,43,36,43,43,33,36,43,43,36
+msgid "The date field which whose type should be changed."
+msgstr ""
+
+#: date_tools/date_tools.change_type.inc:39,50,43,50,50,40,43,50,50,43
+msgid "The type of date to change the field to."
+msgstr ""
+
+#: date_tools/date_tools.change_type.inc:40,51,44,51,51,41,44,51,51,44
+msgid "New type:"
+msgstr "Новый тип:"
+
+#: date_tools/date_tools.change_type.inc:52,68,56,68,68,53,56,68,68,56
+msgid ""
+"The current type is the same as the chosen type. There is nothing to "
+"change."
+msgstr ""
+
+#: date_tools/date_tools.change_type.inc:92,164,113,181,96,168,113,181,113,181,93,165,96,168,113,181,113,181,96,168
+msgid "The field @field_name has been changed from @old_type to @new_type."
+msgstr ""
+"Тип поля @field_name был изменен с @old_type на "
+"@new_type."
+
+#: date_tools/date_tools.module:12,17,17,17,13,12,17,17,12
+msgid ""
+"Change a date field from one type to another. Very experimental, use "
+"at your own risk!"
+msgstr ""
+
+#: date_tools/date_tools.module:35,35,35,35,35
+msgid "Administer date tools"
+msgstr ""
+
+#: date_tools/date_tools.wizard.inc:96,96,96,96,96
+msgid "Year range"
+msgstr ""
+
+#: date_tools/date_tools.change_type.inc:17,17,17,17,17
+msgid "This operation does not yet work for the Drupal 7 version."
+msgstr ""
+
+#: date_tools/date_tools.wizard.inc:180,185,180,180,180
+msgid "Your content type @name has been created."
+msgstr ""
+
+#: date_tools/date_tools.wizard.inc:272,277,272,272,272
+msgid "Your date field @name has been created."
+msgstr ""
+
+#: date_tools/date_tools.wizard.inc:97,97,97,97,97
+msgid ""
+"Range of allowed years, oldest to newest. '-1:+1 means oldest date is "
+"one year back, newest is one year forward from current year."
+msgstr ""
+
+#: date_tools/date_tools.wizard.inc:136,137,136,136,136
+msgid ""
+"The content type name must be no more than 12 characters long when "
+"using it to create a calendar and blocks."
+msgstr ""
+
+#: date_tools/date_tools.wizard.inc:142,143,142,142,142
+msgid "The field name must be no more than 26 characters long."
+msgstr ""
+
+#: date_tools/date_tools.wizard.inc:77,77,77,77,77
+msgid "Display a matching second date field as a 'End date'."
+msgstr ""
+
+#: date_tools/date_tools.module:14,14,14,14,14
+msgid "<h2>Tools for Dates and Calendars</h2>"
+msgstr ""
+
+#: date_tools/date_tools.module:21,21,21,21,21
+msgid ""
+"Fill out the following form to auto-create a date content type, with a "
+"datetime field and matching pre-configured calendar. If the calendar "
+"module is enabled and the option to create a calendar is chosen, a "
+"calendar and upcoming events block will be created, an ical feed will "
+"be added to the calendar. Nodes created from this new content type "
+"will include a link to the calendar, and the calendar will have a link "
+"to the 'add new date' form. You can also add new date fields to an "
+"existing content type by entering the existing content type name "
+"instead of creating a new one."
+msgstr ""
+
+#: date_tools/date_tools.module:23,23,23,23,23
+msgid ""
+"Only a limited set of options are displayed here to make this easy to "
+"set up. Once the date has been created you will be able to make other "
+"changes to the date settings and add other fields to your new content "
+"type on the Manage fields screen. You can also make changes to the "
+"calendar on the Views edit page."
+msgstr ""
+
+#: date_tools/date_tools.module:48,54,48,54,48,54,48,54,48,54
+msgid "Date Wizard and other tools to manage and create dates and calendars. "
+msgstr ""
+

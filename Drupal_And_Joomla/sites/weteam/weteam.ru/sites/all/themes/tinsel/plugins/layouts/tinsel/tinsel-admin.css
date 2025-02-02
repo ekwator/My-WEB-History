@@ -1,0 +1,46 @@
+/* $Id: tinsel-admin.css,v 1.1 2010/01/11 06:37:09 merlinofchaos Exp $ */
+
+.tinsel .panel-col-top,
+.tinsel .panel-col-bottom {
+  width: 100%;
+  clear: both;
+}
+
+.tinsel .panel-col-top .inside {
+  margin-bottom: .5em;
+}
+
+.tinsel .panel-col-first {
+  float: left;
+  width: 25%;
+}
+
+.tinsel .panel-col .inside {
+  margin: 0 .5em 1em .5em;
+}
+
+.tinsel .panel-col {
+  float: left;
+  width: 50%;
+}
+
+.tinsel .panel-col .inside {
+  margin: 0 .5em 1em .5em;
+}
+
+.tinsel .panel-col-last {
+  float: left;
+  width: 25%;
+}
+
+.tinsel .panel-col-last .inside {
+  margin: 0 0 1em .5em;
+}
+
+.tinsel .panel-separator {
+  margin: 0 0 1em 0;
+}
+
+.tinsel .center-wrapper {
+  margin-top: 1em;
+}

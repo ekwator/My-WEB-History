@@ -1,0 +1,113 @@
+/** Clear Floats Without Structural Markup: 
+---------------------------------
+*  http://www.positioniseverything.net/easyclearing.html
+*/
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+.clearfix { display: inline-block; }
+
+/* Hides from IE-mac \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* End hide from IE-mac */
+
+
+/** "Skip to Main Content" link
+---------------------------------
+*  This link useful for both visually impaired people and those with mobility impairments
+*  who cannot use a mouse.
+*/
+
+#skip-nav { display: none; }
+
+#skip-nav a, #skip-nav a:hover, #skip-nav a:visited {
+  position: absolute;
+  left: 0;
+  top: -500px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+#skip-nav a:active, #skip-nav a:focus {
+  position: static;
+  width: auto;
+  height: auto;
+}
+
+/* bug fix with views 2 edit links */
+
+div.view div.views-admin-links {
+	width:auto;
+}
+
+/** Rollover edit links for blocks
+----------------------------*/
+
+div.block {
+  position: relative;
+}
+div.block div.edit {
+  display: none;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 40;
+  border: 1px solid #eee;
+  padding: 0 2px;
+  font-size: 11px;
+  background-color: #fff;
+}
+div.block:hover div.edit {
+  display: block;
+}
+
+/** Messages - reloaded to override RESET.css
+----------------------------*/
+
+.messages {
+  margin:0 0 10px 0;
+  padding:10px;
+  background-color:#EDFFED;
+  border:1px solid #04A107;
+  color:#04A107 !important;
+}
+.error {
+  color: #e55;
+}
+div.error {
+  border: 1px solid #d77;
+}
+div.error, tr.error {
+  background: #fcc;
+  color: #200;
+  padding: 2px;
+}
+.warning {
+  color: #e09010;
+}
+div.warning {
+  border: 1px solid #f0c020;
+}
+div.warning, tr.warning {
+  background: #ffd;
+  color: #220;
+  padding: 2px;
+}
+.ok {
+  color: #008000;
+}
+div.ok {
+  border: 1px solid #00aa00;
+}
+div.ok, tr.ok {
+  background: #dfd;
+  color: #020;
+  padding: 2px;
+}

@@ -1,0 +1,213 @@
+.cse .gsc-control-cse {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; WIDTH: auto; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+.gsc-control-cse {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; WIDTH: auto; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+.cse .gsc-branding {
+	DISPLAY: none
+}
+.gsc-branding {
+	DISPLAY: none
+}
+.cse .gsc-control-cse DIV {
+	
+}
+.gsc-control-cse DIV {
+	
+}
+.cse .gsc-control-cse {
+	BORDER-BOTTOM: #ffffff; BORDER-LEFT: #ffffff; BACKGROUND-COLOR: #ffffff; BORDER-TOP: #ffffff; BORDER-RIGHT: #ffffff
+}
+.gsc-control-cse {
+	BORDER-BOTTOM: #ffffff; BORDER-LEFT: #ffffff; BACKGROUND-COLOR: #ffffff; BORDER-TOP: #ffffff; BORDER-RIGHT: #ffffff
+}
+.cse .gsc-control-cse:after {
+	DISPLAY: block; HEIGHT: 0px; VISIBILITY: hidden; CLEAR: both; CONTENT: "."
+}
+.gsc-control-cse:after {
+	DISPLAY: block; HEIGHT: 0px; VISIBILITY: hidden; CLEAR: both; CONTENT: "."
+}
+.cse .gsc-resultsHeader {
+	
+}
+.gsc-resultsHeader {
+	
+}
+.cse INPUT.gsc-search-button {
+	BORDER-BOTTOM: #666666 1px outset; BORDER-LEFT: #666666 1px outset; BACKGROUND-COLOR: #cecece; FONT-FAMILY: inherit; COLOR: #000000; BORDER-TOP: #666666 1px outset; BORDER-RIGHT: #666666 1px outset; -moz-border-radius: 2px; -webkit-border-radius: 2px; text-shadow: 0 1px 2px #FFFFFF; border-radius: 2px
+}
+INPUT.gsc-search-button {
+	BORDER-BOTTOM: #666666 1px outset; BORDER-LEFT: #666666 1px outset; BACKGROUND-COLOR: #cecece; FONT-FAMILY: inherit; COLOR: #000000; BORDER-TOP: #666666 1px outset; BORDER-RIGHT: #666666 1px outset; -moz-border-radius: 2px; -webkit-border-radius: 2px; text-shadow: 0 1px 2px #FFFFFF; border-radius: 2px
+}
+.cse .gsc-tabhInactive.gsc-tabHeader {
+	BORDER-BOTTOM: medium none; BORDER-LEFT: #e9e9e9 1px solid; BACKGROUND-COLOR: #e9e9e9; COLOR: #666666; BORDER-TOP: #e9e9e9 1px solid; BORDER-RIGHT: #e9e9e9 1px solid
+}
+.gsc-tabhInactive.gsc-tabHeader {
+	BORDER-BOTTOM: medium none; BORDER-LEFT: #e9e9e9 1px solid; BACKGROUND-COLOR: #e9e9e9; COLOR: #666666; BORDER-TOP: #e9e9e9 1px solid; BORDER-RIGHT: #e9e9e9 1px solid
+}
+.cse .gsc-tabhActive.gsc-tabHeader {
+	BORDER-BOTTOM: medium none; BORDER-LEFT: #e9e9e9 1px solid; BACKGROUND-COLOR: #ffffff; BORDER-TOP: #ff9900 2px solid; BORDER-RIGHT: #e9e9e9 1px solid
+}
+.gsc-tabhActive.gsc-tabHeader {
+	BORDER-BOTTOM: medium none; BORDER-LEFT: #e9e9e9 1px solid; BACKGROUND-COLOR: #ffffff; BORDER-TOP: #ff9900 2px solid; BORDER-RIGHT: #e9e9e9 1px solid
+}
+.cse .gsc-tabsArea {
+	BORDER-BOTTOM: #e9e9e9 1px solid; MARGIN-TOP: 1em
+}
+.gsc-tabsArea {
+	BORDER-BOTTOM: #e9e9e9 1px solid; MARGIN-TOP: 1em
+}
+.cse .gsc-result.gsc-webResult {
+	BORDER-BOTTOM: #ffffff 1px solid; BORDER-LEFT: #ffffff 1px solid; PADDING-BOTTOM: 0.25em; PADDING-LEFT: 0.25em; PADDING-RIGHT: 0.25em; MARGIN-BOTTOM: 1em; BORDER-TOP: #ffffff 1px solid; BORDER-RIGHT: #ffffff 1px solid; PADDING-TOP: 0.25em
+}
+.gsc-result.gsc-webResult {
+	BORDER-BOTTOM: #ffffff 1px solid; BORDER-LEFT: #ffffff 1px solid; PADDING-BOTTOM: 0.25em; PADDING-LEFT: 0.25em; PADDING-RIGHT: 0.25em; MARGIN-BOTTOM: 1em; BORDER-TOP: #ffffff 1px solid; BORDER-RIGHT: #ffffff 1px solid; PADDING-TOP: 0.25em
+}
+.gsc-imageResult-column {
+	BORDER-BOTTOM: #ffffff 1px solid; BORDER-LEFT: #ffffff 1px solid; PADDING-BOTTOM: 0.25em; PADDING-LEFT: 0.25em; PADDING-RIGHT: 0.25em; MARGIN-BOTTOM: 1em; BORDER-TOP: #ffffff 1px solid; BORDER-RIGHT: #ffffff 1px solid; PADDING-TOP: 0.25em
+}
+.gsc-imageResult-classic {
+	BORDER-BOTTOM: #ffffff 1px solid; BORDER-LEFT: #ffffff 1px solid; PADDING-BOTTOM: 0.25em; PADDING-LEFT: 0.25em; PADDING-RIGHT: 0.25em; MARGIN-BOTTOM: 1em; BORDER-TOP: #ffffff 1px solid; BORDER-RIGHT: #ffffff 1px solid; PADDING-TOP: 0.25em
+}
+.cse .gsc-result.gsc-webResult:hover {
+	BORDER-BOTTOM: #ffffff 1px solid; BORDER-LEFT: #ffffff 1px solid; BORDER-TOP: #ffffff 1px solid; BORDER-RIGHT: #ffffff 1px solid
+}
+.gsc-result.gsc-webResult:hover {
+	BORDER-BOTTOM: #ffffff 1px solid; BORDER-LEFT: #ffffff 1px solid; BORDER-TOP: #ffffff 1px solid; BORDER-RIGHT: #ffffff 1px solid
+}
+.gsc-results .gsc-imageResult-classic:hover {
+	BORDER-BOTTOM: #ffffff 1px solid; BORDER-LEFT: #ffffff 1px solid; BORDER-TOP: #ffffff 1px solid; BORDER-RIGHT: #ffffff 1px solid
+}
+.gsc-results .gsc-imageResult-column:hover {
+	BORDER-BOTTOM: #ffffff 1px solid; BORDER-LEFT: #ffffff 1px solid; BORDER-TOP: #ffffff 1px solid; BORDER-RIGHT: #ffffff 1px solid
+}
+.cse .gs-promotion {
+	BORDER-BOTTOM: #336699 1px solid; BORDER-LEFT: #336699 1px solid; BACKGROUND-COLOR: #ffffff; BORDER-TOP: #336699 1px solid; BORDER-RIGHT: #336699 1px solid
+}
+.gs-promotion {
+	BORDER-BOTTOM: #336699 1px solid; BORDER-LEFT: #336699 1px solid; BACKGROUND-COLOR: #ffffff; BORDER-TOP: #336699 1px solid; BORDER-RIGHT: #336699 1px solid
+}
+.cse .gs-promotion .gs-promotion-image {
+	
+}
+.gs-promotion .gs-promotion-image {
+	
+}
+.cse .gs-promotion A.gs-title:link {
+	COLOR: #0000cc
+}
+.gs-promotion A.gs-title:link {
+	COLOR: #0000cc
+}
+.cse .gs-promotion A.gs-title:link * {
+	COLOR: #0000cc
+}
+.gs-promotion A.gs-title:link * {
+	COLOR: #0000cc
+}
+.cse .gs-promotion .gs-snippet A:link {
+	COLOR: #0000cc
+}
+.gs-promotion .gs-snippet A:link {
+	COLOR: #0000cc
+}
+.cse .gs-promotion A.gs-title:visited {
+	COLOR: #0000cc
+}
+.gs-promotion A.gs-title:visited {
+	COLOR: #0000cc
+}
+.cse .gs-promotion A.gs-title:visited * {
+	COLOR: #0000cc
+}
+.gs-promotion A.gs-title:visited * {
+	COLOR: #0000cc
+}
+.cse .gs-promotion .gs-snippet A:visited {
+	COLOR: #0000cc
+}
+.gs-promotion .gs-snippet A:visited {
+	COLOR: #0000cc
+}
+.cse .gs-promotion A.gs-title:hover {
+	COLOR: #0000cc
+}
+.gs-promotion A.gs-title:hover {
+	COLOR: #0000cc
+}
+.cse .gs-promotion A.gs-title:hover * {
+	COLOR: #0000cc
+}
+.gs-promotion A.gs-title:hover * {
+	COLOR: #0000cc
+}
+.cse .gs-promotion .gs-snippet A:hover {
+	COLOR: #0000cc
+}
+.gs-promotion .gs-snippet A:hover {
+	COLOR: #0000cc
+}
+.cse .gs-promotion A.gs-title:active {
+	COLOR: #0000cc
+}
+.gs-promotion A.gs-title:active {
+	COLOR: #0000cc
+}
+.cse .gs-promotion A.gs-title:active * {
+	COLOR: #0000cc
+}
+.gs-promotion A.gs-title:active * {
+	COLOR: #0000cc
+}
+.cse .gs-promotion .gs-snippet A:active {
+	COLOR: #0000cc
+}
+.gs-promotion .gs-snippet A:active {
+	COLOR: #0000cc
+}
+.cse .gs-promotion .gs-snippet {
+	COLOR: #000000
+}
+.gs-promotion .gs-snippet {
+	COLOR: #000000
+}
+.cse .gs-promotion .gs-title .gs-promotion-title-right {
+	COLOR: #000000
+}
+.gs-promotion .gs-title .gs-promotion-title-right {
+	COLOR: #000000
+}
+.cse .gs-promotion .gs-title .gs-promotion-title-right * {
+	COLOR: #000000
+}
+.gs-promotion .gs-title .gs-promotion-title-right * {
+	COLOR: #000000
+}
+.cse .gs-promotion .gs-visibleUrl {
+	COLOR: #008000
+}
+.gs-promotion .gs-visibleUrl {
+	COLOR: #008000
+}
+.gsc-completion-selected {
+	BACKGROUND: #d5e2ff
+}
+.gsc-completion-container {
+	BORDER-BOTTOM: #666666 1px solid; POSITION: absolute; BORDER-LEFT: #666666 1px solid; FONT-FAMILY: Arial, sans-serif; BACKGROUND: white; MARGIN-LEFT: 0px; FONT-SIZE: 13px; BORDER-TOP: #666666 1px solid; MARGIN-RIGHT: 0px; BORDER-RIGHT: #666666 1px solid
+}
+.gs-webResult DIV.gs-visibleUrl-short {
+	DISPLAY: none
+}
+.gs-webResult DIV.gs-visibleUrl-long {
+	DISPLAY: block
+}
+FORM.gsc-search-box {
+	MARGIN: 0px
+}
+TABLE.gsc-search-box {
+	MARGIN-BOTTOM: 0px
+}
+INPUT.gsc-input {
+	MARGIN-RIGHT: 300px
+}

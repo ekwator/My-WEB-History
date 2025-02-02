@@ -1,0 +1,80 @@
+# Russian translation of views (all releases)
+# Copyright (c) 2013 by the Russian translation team
+# Generated from files:
+#  views/theme/views-ui-edit-tab.tpl.php: n/a
+#  views/theme/theme.inc: n/a
+#  views/theme/views-ui-edit-item.tpl.php: n/a
+#  views/theme/views-ui-edit-view.tpl.php: n/a
+#  views/theme/views-ui-list-views.tpl.php: n/a
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: views (all releases)\n"
+"POT-Creation-Date: 2013-05-29 14:21+0400\n"
+"PO-Revision-Date: 2010-04-14 14:05+0400\n"
+"Language-Team: Russian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=((((n%10)==1)&&((n%100)!=11))?(0):(((((n%10)>=2)&&((n%10)<=4))&&(((n%100)<10)||((n%100)>=20)))?(1):2));\n"
+
+#: theme/views-ui-edit-tab.tpl.php:33,33,33
+msgid "View settings"
+msgstr "Настройки представления"
+
+#: theme/theme.inc:91,105,93,105,93
+msgid "Edit this view"
+msgstr "Редактировать это представление"
+
+#: theme/views-ui-edit-item.tpl.php:33,33,33,33,33,33,33,33
+msgid "None defined"
+msgstr "Не определено"
+
+#: theme/views-ui-edit-view.tpl.php:15,15,16,16,16,15,15,15,16
+msgid "New view"
+msgstr "Новое представление"
+
+#: theme/views-ui-edit-view.tpl.php:17,17,18,18,18,17,17,17,18
+msgid "Changed view"
+msgstr "Измененный вид"
+
+#: theme/views-ui-edit-view.tpl.php:22,22,23,23,23,22,22,22,23
+msgid "View %name, displaying items of type <strong>@base</strong>."
+msgstr ""
+"Представление %name, отображающее "
+"элементы типа <strong>@base</strong>."
+
+#: theme/theme.inc:999,905,996,682,1041,1041,1060,906,682,1054,906,1054
+msgid "‹‹"
+msgstr "‹‹"
+
+#: theme/theme.inc:1011,910,1008,687,1053,1053,1072,911,687,1066,911,1066
+msgid "››"
+msgstr "››"
+
+#: theme/theme.inc:1029,923,1026,700,1071,1071,1090,924,700,1084,924,1084
+msgid "@current of @max"
+msgstr "@current из @max"
+
+#: theme/views-ui-list-views.tpl.php:16,16,16
+msgid "<em>@type</em> @base view: <strong>@view</strong>"
+msgstr ""
+"<em>@type</em> @base представление: "
+"<strong>@view</strong>"
+
+#: theme/views-ui-list-views.tpl.php:26,26,26
+msgid "Title: @title"
+msgstr "Заголовок: @title"
+
+#: theme/views-ui-list-views.tpl.php:29,29,29
+msgid "Path: !path"
+msgstr "Путь: !path"
+
+#: theme/views-ui-edit-view.tpl.php:41,41,42,42,42,41,41,41,42
+msgid "Live preview"
+msgstr "Предварительный просмотр"
+
+#: theme/views-ui-edit-item.tpl.php:31,31,31,31,31,31,31,31
+msgid "The style selected does not utilize fields."
+msgstr "Выбранный стиль не использует поля."
+

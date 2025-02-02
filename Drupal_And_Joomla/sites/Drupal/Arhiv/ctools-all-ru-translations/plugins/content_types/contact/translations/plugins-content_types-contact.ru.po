@@ -1,0 +1,47 @@
+# Russian translation of ctools (all releases)
+# Copyright (c) 2013 by the Russian translation team
+# Generated from files:
+#  ctools/plugins/content_types/contact/contact.inc: n/a
+#  contact.inc,v 1.1.2.2 2010/01/29 20:18:25 merlinofchaos
+#  ctools/plugins/content_types/contact/user_contact.inc: n/a
+#  user_contact.inc,v 1.1.2.2 2010/01/29 20:18:25 merlinofchaos
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: ctools (all releases)\n"
+"POT-Creation-Date: 2013-05-29 14:25+0400\n"
+"PO-Revision-Date: 2011-01-06 11:51+0300\n"
+"Language-Team: Russian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=((((n%10)==1)&&((n%100)!=11))?(0):(((((n%10)>=2)&&((n%10)<=4))&&(((n%100)<10)||((n%100)>=20)))?(1):2));\n"
+
+#: plugins/content_types/contact/contact.inc:59,10,59,10,59,11,11,59,10,58,59,58,10,59,10,59,10,59,11,10,59,10,58,10,59,10,58
+msgid "Contact form"
+msgstr "Форма контактов"
+
+#: plugins/content_types/contact/contact.inc:28,28,29,29,28,28,28,28,29,28,28,28,28
+msgid "Contact"
+msgstr "Обратная связь"
+
+#: plugins/content_types/contact/user_contact.inc:65,10,65,10,65,11,11,65,10,64,65,64,10,65,10,65,10,65,11,10,65,10,64,10,65,10,64,65,10,65,10,65,11,11,65,10,64,65,64,10,65,10,65,10,65,11,10,65,10,64,10,65,10,64
+msgid "User contact form"
+msgstr ""
+"Форма контактной информации о "
+"пользователе"
+
+#: plugins/content_types/contact/contact.inc:12,12,13,13,12,12,12,12,13,12,12,12,12
+msgid ""
+"The site contact form that allows users to send a message to site "
+"administrators."
+msgstr ""
+
+#: plugins/content_types/contact/user_contact.inc:12,12,13,13,12,12,12,12,13,12,12,12,12
+msgid "The site contact form that allows users to contact other users."
+msgstr ""
+
+#: plugins/content_types/contact/user_contact.inc:34,34,35,35,34,34,34,34,35,34,34,34,34
+msgid "Contact @name"
+msgstr "Контакт @name"
+

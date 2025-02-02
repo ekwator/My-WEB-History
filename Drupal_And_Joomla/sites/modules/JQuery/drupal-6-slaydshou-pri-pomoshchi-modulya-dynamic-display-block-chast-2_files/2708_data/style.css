@@ -1,0 +1,20 @@
+* {margin: 0; padding: 0; border: 0; outline: 0; font-size: 100%; vertical-align: baseline;	background: transparent;} body {line-height: 1;overflow: hidden; font-family: Tahoma, Verdana, Arial}ol, ul, ol li, ul li {list-style: none}
+#main{position: relative;overflow: hidden}
+#nav, #footer, #arrow {position: absolute; z-index: 99; width: 100%;}
+#arrow{top:40%}
+    .left{float: left; cursor: pointer;}
+    .right {float: right; cursor: pointer}
+#footer {bottom: -1px; width: 101%; margin-right: -1px; text-align: center; font-weight: 500;height: 35px;line-height: 35px; }
+#nav{bottom: 45px; left:50%;}
+#nav a {display: block; float: left; height: 12px; overflow: hidden;}
+#nav a.active {}
+#slids li {position: relative;}
+.img {text-align: center;}
+.img img{margin: 0; border: 0;}
+.header { padding: 10px; margin-bottom: 10px; overflow: hidden;text-transform: uppercase}
+.header h3 a, .header h3 a:link, .header h3 a:hover{text-decoration: none}
+.description { text-align: center;  padding: 10px; overflow: hidden; color: #333; position: absolute; z-index: 99999;}
+#nav {display: none;}
+@-moz-document url-prefix(){.img img {
+    border:1px solid transparent;
+}}

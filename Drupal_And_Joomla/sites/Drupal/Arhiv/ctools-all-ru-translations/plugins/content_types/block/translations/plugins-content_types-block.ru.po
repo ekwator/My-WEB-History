@@ -1,0 +1,59 @@
+# Russian translation of ctools (all releases)
+# Copyright (c) 2013 by the Russian translation team
+# Generated from files:
+#  ctools/plugins/content_types/block/block.inc: n/a
+#  block.inc,v 1.9.2.7 2010/05/18 17:44:17 sdboyer
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: ctools (all releases)\n"
+"POT-Creation-Date: 2013-05-29 14:25+0400\n"
+"PO-Revision-Date: 2010-04-25 13:39+0400\n"
+"Language-Team: Russian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=((((n%10)==1)&&((n%100)!=11))?(0):(((((n%10)>=2)&&((n%10)<=4))&&(((n%100)<10)||((n%100)>=20)))?(1):2));\n"
+
+#: plugins/content_types/block/block.inc:128,128,128,115,115,114,114,128,170,174,482,114,482,484,114,484,115,168,538,114,484,114,168,538,172,542,114,547
+msgid "Configure block"
+msgstr "Настроить блок"
+
+#: plugins/content_types/block/block.inc:20,20,21,21,20,20,20,20,21,20,20,20,20
+msgid "Block"
+msgstr "Блок"
+
+#: plugins/content_types/block/block.inc:399,286,399,286,392,312,312,392,311,391,286,399,311,391,286,399,328,441,332,445,272,411,272,411,272,411,312,392,326,465,272,411,311,391,326,465,330,469,311,391,335,474
+msgid "Menus"
+msgstr "Меню"
+
+#: plugins/content_types/block/block.inc:441,441,443,443,497,443,497,501,506
+msgid "User login"
+msgstr "Вход в систему"
+
+#: plugins/content_types/block/block.inc:323,385,357,333,328,323,293,385,357,333,328,323,293,416,383,359,354,349,319,319,349,354,359,383,416,318,348,353,358,382,415,293,328,333,357,385,318,348,353,358,382,415,293,323,328,333,357,385,335,365,370,375,399,427,339,369,374,379,403,431,279,309,314,319,397,279,309,314,319,365,397,279,309,314,319,365,397,319,349,354,359,383,416,363,368,373,419,451,279,309,314,319,365,397,318,348,353,358,382,415,333,363,368,373,419,451,337,367,372,377,423,455,318,348,353,358,382,415,342,428,460
+msgid "Activity"
+msgstr "Активность"
+
+#: plugins/content_types/block/block.inc:348,348,374,374,373,348,373,348,390,394,334,334,334,374,388,334,373,388,392,373,397
+msgid "Feeds"
+msgstr "Лента"
+
+#: plugins/content_types/block/block.inc:228,228,254,254,253,228,253,228,270,274,214,214,214,254,268,214,253,268,272,253
+msgid "Deleted/missing block @module-@delta"
+msgstr ""
+
+#: plugins/content_types/block/block.inc:299
+msgid "No title"
+msgstr "Без названия"
+
+#: plugins/content_types/block/block.inc:115,116,116,115,116,115,115
+msgid ""
+"Configure this block's 'block settings' in administer >> site building "
+">> blocks"
+msgstr ""
+
+#: plugins/content_types/block/block.inc:353,353,353,353,395,399,339,339,339,393,339,393,397,402
+msgid "Custom blocks"
+msgstr ""
+

@@ -1,0 +1,25 @@
+# Russian translation of views (all releases)
+# Copyright (c) 2013 by the Russian translation team
+# Generated from files:
+#  views/modules/locale/views_handler_argument_locale_group.inc: n/a
+#  views/modules/locale/views_handler_filter_locale_version.inc: n/a
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: views (all releases)\n"
+"POT-Creation-Date: 2013-05-29 14:21+0400\n"
+"PO-Revision-Date: 2009-10-17 11:14+0400\n"
+"Language-Team: Russian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=((((n%10)==1)&&((n%100)!=11))?(0):(((((n%10)>=2)&&((n%10)<=4))&&(((n%100)<10)||((n%100)>=20)))?(1):2));\n"
+
+#: modules/locale/views_handler_argument_locale_group.inc:33,31,33,38,38,38,33,31,33,38
+msgid "Unknown group"
+msgstr "Неизвестная группа"
+
+#: modules/locale/views_handler_filter_locale_version.inc:13,11,13,18,18,18,13,11,13,18
+msgid "Current installed version"
+msgstr "Текущая установленная версия"
+

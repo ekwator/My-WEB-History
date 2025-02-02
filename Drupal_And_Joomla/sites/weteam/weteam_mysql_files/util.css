@@ -1,0 +1,99 @@
+@charset "utf-8";
+/**
+ * Вспомогательные классы
+ */
+body {
+    text-align: left;
+}
+
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+.clearfix {
+	display: inline-block;
+}
+html[xmlns] .clearfix {
+	display: block;
+}
+* html .clearfix {
+	height: 1%;
+}
+
+.clearer {
+    clear: both;
+    width: 100%;
+    overflow: hidden;
+}
+
+.ftl {
+    float: left;
+}
+.ftr {
+    float: right;
+}
+.txl {
+    text-align: left;
+}
+.txr {
+    text-align: right;
+}
+
+.hidden {
+    display: none !important;
+}
+
+
+strong {
+    font-weight: bold;
+}
+
+
+.ajax-spin {
+    background: white url(../i/ajax-spin.gif) 0 0 no-repeat;
+    padding: 0 !important;
+    width: 17px;
+    height: 17px;
+    text-indent: -9999px;
+    overflow: hidden;
+    position: absolute;
+}
+
+
+dl.tabs dt {
+    float: left;
+    position: relative;
+    line-height: 1.8em;
+    padding: 0 1em;
+    margin-right: 0.5em;
+    cursor: pointer;
+    border: 1px solid #78AF20;
+}
+dl.tabs dd {
+    display: none;
+    float: right;
+    width: 100%;
+    position: relative;
+    margin: 2.3em 0 0 -100%;
+}
+dl.tabs dt.active {
+    background: #78AF20;
+    color: white;
+    cursor: default;
+}
+dl.tabs dd.active {
+    display: block;
+}
+
+dl.tabs dt.reload-btn {
+    background: url("../i/reload.gif") no-repeat center center;
+    float: right;
+    margin-right: 0;
+    padding: 0;
+    width: 1.8em;
+    height: 1.8em;
+}

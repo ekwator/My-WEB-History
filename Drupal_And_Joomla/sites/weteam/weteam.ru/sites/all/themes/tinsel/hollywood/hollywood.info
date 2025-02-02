@@ -1,0 +1,13 @@
+; $Id: hollywood.info,v 1.1 2010/01/11 06:37:09 merlinofchaos Exp $
+name = Hollywood
+description = Panels Everywhere conversion of Minelli, the sub-theme of Garland.
+core = 6.x
+base theme = tinsel
+stylesheets[all][] = hollywood.css
+
+; Information added by drupal.org packaging script on 2010-07-27
+version = "6.x-1.1"
+core = "6.x"
+project = "tinsel"
+datestamp = "1280189419"
+

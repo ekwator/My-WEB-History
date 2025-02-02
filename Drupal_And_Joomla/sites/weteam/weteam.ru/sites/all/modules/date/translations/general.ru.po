@@ -1,0 +1,904 @@
+# Russian translation of date (all releases)
+# Copyright (c) 2012 by the Russian translation team
+# Generated from files:
+#  date/date/date.module: n/a
+#  date/date/date_admin.inc: n/a
+#  date.module,v 1.61.2.4.2.74 2010/11/29 18:22:00 karens
+#  date/date_api.admin.inc: n/a
+#  date/date_locale/date_locale.module: n/a
+#  date_api.admin.inc,v 1.1.2.3 2010/08/12 18:40:48 karens
+#  date_locale.module,v 1.1.2.1 2009/01/25 13:03:13 karens
+#  date/date_tools/date_tools.event.inc: n/a
+#  date/date_tools/date_tools.module: n/a
+#  date_copy.module,v 1.9.2.11 2008/11/28 13:19:20 karens
+#  date/date_copy/date_copy.module: n/a
+#  date_tools.event.inc,v 1.1.2.1 2010/03/08 23:39:42 karens
+#  date/date_migrate/date_migrate_example/date_migrate_example.features.inc: n/a
+#  date/date_migrate/date_migrate_example/date_migrate_example.migrate.inc: n/a
+#  date/date_tools/date_tools.wizard.inc: n/a
+#  date_admin.inc,v 1.40.2.3.2.43 2010/12/28 16:37:37 karens
+#  date/date_admin.inc: n/a
+#  date/date_repeat_field/date_repeat_field.module: n/a
+#  date/date_views/includes/date_views_argument_handler_simple.inc: n/a
+#  date/date_views/includes/date_views_filter_handler_simple.inc: n/a
+#  date/date_api.module: n/a
+#  date/date_repeat/date_repeat.module: n/a
+#  date/date/date.install: n/a
+#  date.install,v 1.37.2.5.2.34 2010/04/13 19:46:52 karens
+#  date/date.field.inc: n/a
+#  date/date_api/date_api.module: n/a
+#  date_api.module,v 1.64.2.5.2.121 2011/01/01 00:29:04 karens
+#  date/date_php4/date_php4.module: n/a
+#  date_php4.module,v 1.4.6.5 2008/10/05 17:05:20 karens
+#  date/date_api.info: n/a
+#  date/date/date.info: n/a
+#  date/date_locale/date_locale.info: n/a
+#  date/date_php4/date_php4.info: n/a
+#  date/date_popup/date_popup.info: n/a
+#  date/date_repeat/date_repeat.info: n/a
+#  date/date_timezone/date_timezone.info: n/a
+#  date/date_tools/date_tools.info: n/a
+#  date/date.info: n/a
+#  date/date_all_day/date_all_day.info: n/a
+#  date/date_api/date_api.info: n/a
+#  date/date_context/date_context.info: n/a
+#  date/date_migrate/date_migrate.info: n/a
+#  date/date_repeat_field/date_repeat_field.info: n/a
+#  date/date_views/date_views.info: n/a
+#  date_copy.info,v 1.1 2007/08/31 13:37:36 karens
+#  date/date_copy/date_copy.info: n/a
+#  date_api.info,v 1.6 2008/02/18 19:32:28 karens
+#  date.info,v 1.3 2008/02/18 19:32:28 karens
+#  date_locale.info,v 1.1.2.2 2009/05/10 11:11:14 karens
+#  date_php4.info,v 1.3 2008/02/18 19:32:28 karens
+#  date_timezone.info,v 1.3.4.1 2008/06/27 14:14:01 karens
+#  date/date_tools/date_tools.change_type.inc: n/a
+#  date/theme/theme.inc: n/a
+#  date/date_views/theme/theme.inc: n/a
+#  theme.inc,v 1.1.4.38 2010/11/20 13:25:54 karens
+#  date/date.theme: n/a
+#  date_views.inc,v 1.26.2.56 2009/03/27 10:26:27 karens
+#  date/date/date_views.inc: n/a
+#  date/date_api_sql.inc: n/a
+#  date/includes/date_api_argument_handler.inc: n/a
+#  date/date_api/date_api_sql.inc: n/a
+#  date_api_sql.inc,v 1.9.2.3.2.39 2010/08/12 18:37:07 karens
+#  date_api_argument_handler.inc,v 1.1.2.48 2011/01/03 02:39:15 karens
+#  date/date/date_elements.inc: n/a
+#  date/includes/date_api_filter_handler.inc: n/a
+#  date_elements.inc,v 1.46.2.2.2.70 2010/12/29 14:11:50 karens
+#  date_api_filter_handler.inc,v 1.1.2.52 2010/12/28 15:32:56 karens
+#  date.theme,v 1.2.2.39 2009/05/10 21:51:56 karens
+#  date/date/date.theme: n/a
+#  date/date_api/theme/theme.inc: n/a
+#  date/date.tokens.inc: n/a
+#  date/date_views/includes/date_views_argument_handler.inc: n/a
+#  date/date_views/includes/date_views_filter_handler.inc: n/a
+#  date/date_api_elements.inc: n/a
+#  date/date_repeat/date_repeat_form.inc: n/a
+#  date/includes/date_api.views.inc: n/a
+#  date/date_context/date_context.module: n/a
+#  date/date_migrate/date_migrate_example/date_migrate_example.features.field.inc: n/a
+#  date/date_views/includes/date_views.views.inc: n/a
+#  date_api.views.inc,v 1.1.2.12 2010/08/12 14:13:59 karens
+#  date/date_popup/date_popup.module: n/a
+#  date/date.module: n/a
+#  date/date_api/date_api.install: n/a
+#  date/date/date_handler_field_multiple.inc: n/a
+#  date_handler_field_multiple.inc,v 1.1.2.14 2010/03/05 12:02:31 karens
+#  date/date_timezone/date_timezone.install: n/a
+#  date/date_timezone/date_timezone.module: n/a
+#  date_timezone.install,v 1.7.2.2.2.7 2010/02/28 14:23:04 karens
+#  date/date_api/date_api_elements.inc: n/a
+#  date_api_elements.inc,v 1.49.2.1.2.59 2010/12/29 14:11:50 karens
+#  date/date_views/date_views.module: n/a
+#  date/date_api_ical.inc: n/a
+#  date/date_api/date_api_ical.inc: n/a
+#  date_api_ical.inc,v 1.35.4.34 2010/10/26 10:21:36 karens
+#  date/date_elements.inc: n/a
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: date (all releases)\n"
+"POT-Creation-Date: 2012-08-17 04:37-0400\n"
+"PO-Revision-Date: 2011-02-28 18:17-0500\n"
+"Language-Team: Russian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=((((n%10)==1)&&((n%100)!=11))?(0):(((((n%10)>=2)&&((n%10)<=4))&&(((n%100)<10)||((n%100)>=20)))?(1):2));\n"
+
+#: date/date.module:234,128,127,234,234,234; date/date_admin.inc:439,438
+msgid "Default"
+msgstr "По умолчанию"
+
+#: date_api.admin.inc:152,154,152,152; date_locale/date_locale.module:251,252,251,251
+msgid "Configuration saved."
+msgstr "Настройки сохранены."
+
+#: date_tools/date_tools.event.inc:43,66,47,70,44,67,47,70,47,70; date_tools/date_tools.module:64,65,64,64; date_copy/date_copy.module:39,38
+msgid "Import"
+msgstr "Импорт"
+
+#: date_migrate/date_migrate_example/date_migrate_example.features.inc:18,18,18,18; date_migrate/date_migrate_example/date_migrate_example.migrate.inc:35,35,35,35; date_copy/date_copy.module:449,559,448,558
+msgid "Title"
+msgstr "Заголовок"
+
+#: date_tools/date_tools.module:133,134,133,133; date_migrate/date_migrate_example/date_migrate_example.migrate.inc:36,36,36,36; date_tools/date_tools.wizard.inc:367,372,367,367,367
+msgid "Description"
+msgstr "Описание"
+
+#: date_api.admin.inc:170,204,172,208,170,204,170,204; date_locale/date_locale.module:213,214,213,213; date_tools/date_tools.module:154,155,154,154
+msgid "Cancel"
+msgstr "Отменить"
+
+#: date/date_admin.inc:352,351,350,353,352,352; date_tools/date_tools.wizard.inc:75,75,75,75,75
+msgid "Optional"
+msgstr "Необязательно"
+
+#: date/date_admin.inc:352,351,350,353,352,352; date_admin.inc:478,460,478,481,478,486; date_tools/date_tools.wizard.inc:75,75,75,75,75
+msgid "Required"
+msgstr "Обязательный"
+
+#: date_api.admin.inc:169,203,171,207,169,203,169,203; date_tools/date_tools.module:153,154,153,153
+msgid "This action cannot be undone."
+msgstr "Это действие нельзя будет отменить.."
+
+#: date_tools/date_tools.event.inc:63,67,64,67,67; date_tools/date_tools.wizard.inc:55,89,95,62,109,59,93,99,62,109,62,109,56,90,96,59,93,99,62,109,62,109,59,93,99; date_repeat_field/date_repeat_field.module:606,597,606,606; date_views/includes/date_views_argument_handler_simple.inc:167,164,167,173,173; date_views/includes/date_views_filter_handler_simple.inc:214,214,214,220,220; date_copy/date_copy.module:515,514
+msgid "Yes"
+msgstr "Да"
+
+#: date_tools/date_tools.event.inc:63,67,64,67,67; date_tools/date_tools.wizard.inc:55,89,95,62,109,59,93,99,62,109,62,109,56,90,96,59,93,99,62,109,62,109,59,93,99; date_repeat_field/date_repeat_field.module:606,597,606,606; date_views/includes/date_views_argument_handler_simple.inc:167,164,167,173,173; date_views/includes/date_views_filter_handler_simple.inc:214,214,214,220,220; date_copy/date_copy.module:515,514
+msgid "No"
+msgstr "Нет"
+
+#: date_api.module:181,180; date_repeat/date_repeat.module:65,64
+msgid "Wednesday"
+msgstr "Среда"
+
+#: date_api.module:181,180; date_repeat/date_repeat.module:66,65
+msgid "Thursday"
+msgstr "Четверг"
+
+#: date_api.module:181,180; date_repeat/date_repeat.module:67,66
+msgid "Friday"
+msgstr "Пятница"
+
+#: date_api.module:182,181; date_repeat/date_repeat.module:68,67
+msgid "Saturday"
+msgstr "Суббота"
+
+#: date_api.module:180,179; date_repeat/date_repeat.module:62,61
+msgid "Sunday"
+msgstr "Воскресенье"
+
+#: date_api.module:180,179; date_repeat/date_repeat.module:63,62
+msgid "Monday"
+msgstr "Понедельник"
+
+#: date_api.module:180,179; date_repeat/date_repeat.module:64,63
+msgid "Tuesday"
+msgstr "Вторник"
+
+#: date/date.install:224,225,224,224; date/date.module:138,137
+msgid "Timestamp"
+msgstr "Временной штамп"
+
+#: date.field.inc:14,14,14,14; date_api/date_api.module:104,104,104,104
+msgid "Date and time"
+msgstr "Дата и время"
+
+#: date_api.module:809,563,562,804,809,809; date_api/date_api.module:1685,1673,1685,1685,1693
+msgid "!time ago"
+msgstr "!time назад"
+
+#: date_api.admin.inc:170,204,172,208,170,204,170,204; date_tools/date_tools.module:154,155,154,154
+msgid "Remove"
+msgstr "Удалить"
+
+#: date_locale/date_locale.module:208,209,208,208; date_php4/date_php4.module:53,57,56,54,53,53; date_tools/date_tools.wizard.inc:103,116,107,116,116,104,107,116,116,107
+msgid "Save"
+msgstr "Сохранить"
+
+#: date_tools/date_tools.event.inc:298,302,297,302,302; date_copy/date_copy.module:118,117
+msgid "Add"
+msgstr "Добавить"
+
+#: date.field.inc:33,32,33,33; date_admin.inc:127,109,127,130,127,128
+msgid "Plain"
+msgstr "Простой"
+
+#: date/date_admin.inc:177,163,162,178,177,177; date_admin.inc:364,368,346,350,364,368,367,371,364,368,372,376
+msgid "Above"
+msgstr "Выше"
+
+#: date_api.info:0,0,0,0,0; date/date.info:0,0,0,0,0; date_locale/date_locale.info:0,0,0,0; date_php4/date_php4.info:0,0,0,0,0; date_popup/date_popup.info:0,0,0,0,0,0; date_repeat/date_repeat.info:0,0,0,0,0,0; date_timezone/date_timezone.info:0,0,0,0,0; date_tools/date_tools.info:0,0,0,0,0,0; date.info:0,0,0,0; date_all_day/date_all_day.info:0,0,0,0; date_api/date_api.info:0,0,0,0; date_context/date_context.info:0,0,0,0; date_migrate/date_migrate.info:0,0,0,0; date_repeat_field/date_repeat_field.info:0,0,0,0; date_views/date_views.info:0,0,0,0; date_copy/date_copy.info:0,0
+msgid "Date/Time"
+msgstr "Дата/Время"
+
+#: date_tools/date_tools.change_type.inc:42,53,46,53,53,43,46,53,53,46; date_tools/date_tools.module:91,92,91,91
+msgid "Change"
+msgstr "Изменить"
+
+#: date_tools/date_tools.wizard.inc:249,253,250,253,253; date_tools/date_tools.module:133,134,133,133
+msgid "Calendar"
+msgstr "Календарь"
+
+#: theme/theme.inc:118,123,119,123,123; date_views/theme/theme.inc:185,185,185,185
+msgid "Week of @date"
+msgstr "Неделя @date"
+
+#: date_tools/date_tools.event.inc:356,360,355,360,360; date_copy/date_copy.module:176,175
+msgid "Description field"
+msgstr "Поле описания"
+
+#: date/date_admin.inc:433,470,469,434,433,433; date_admin.inc:591,573,591,594,591,599
+msgid "Site's time zone"
+msgstr "Выберите часовой пояс"
+
+#: date/date_admin.inc:434,471,470,435,434,434; date_admin.inc:592,574,592,595,592,600
+msgid "Date's time zone"
+msgstr "Часовой пояс"
+
+#: date/date_admin.inc:437,474,473,438,437,437; date_admin.inc:595,577,595,598,595,603
+msgid "No time zone conversion"
+msgstr "Не часового пояса по умолчанию"
+
+#: date/date_admin.inc:223,208,207,224,223,223; date.field.inc:292,282,292,289,289; date.theme:365,343,365,344,344,350
+msgid "Select list"
+msgstr "Выпадающий список"
+
+#: date/date_admin.inc:223,208,207,224,223,223; date.field.inc:296,286,296,293,293; date.theme:365,343,365,344,344,350
+msgid "Text field"
+msgstr "Текстовая строка"
+
+#: date/date_admin.inc:241,226,225,242,241,241; date_admin.inc:551,533,551,554,551,559
+msgid "Dates without hours granularity must not use any timezone handling."
+msgstr ""
+"Даты без часов не должны использовать "
+"временные зоны."
+
+#: date/date_admin.inc:351,350,349,352,351,351; date/date_views.inc:185,184
+msgid "To Date"
+msgstr "До даты"
+
+#: date_api_sql.inc:685,696,688,695,696,688,688; date/date_admin.inc:357,364,363,358,357,357; date_tools/date_tools.wizard.inc:76,90,80,90,90,77,80,90,90,80; includes/date_api_argument_handler.inc:81,86,66,86,86; date_api/date_api_sql.inc:938,938,938,938; date_views/includes/date_views_argument_handler_simple.inc:135,132,135,141,141
+msgid "Granularity"
+msgstr "Степень детализации"
+
+#: date/date_admin.inc:379,387,386,380,379,379; date_admin.inc:490,472,490,493,490,498
+msgid "Time zone handling"
+msgstr "Обработка часового пояса"
+
+#: date_api.module:424,425,424,424; date/date_admin.inc:424,423; date/date.module:130,129
+msgid "Long"
+msgstr "Полный"
+
+#: date_api.module:425,426,425,425; date/date_admin.inc:429,428; date/date.module:132,131
+msgid "Medium"
+msgstr "Средний"
+
+#: date_api.module:426,427,426,426; date/date_admin.inc:434,433; date/date.module:134,133
+msgid "Short"
+msgstr "Краткий"
+
+#: date/date_admin.inc:276,277,278,279,277,278,279,280,276,277,278,279,276,277,278,279; date/date_elements.inc:320,341,340,321,320,320; includes/date_api_filter_handler.inc:279,283,265,283,283
+msgid "From date"
+msgstr "Дата начала"
+
+#: date/date.install:226,227,226,226; date/date.module:136,135
+msgid "ISO"
+msgstr "ISO"
+
+#: date/date.install:223,224,223,223; date/date.module:142,141; date_copy/date_copy.module:57,56
+msgid "iCal"
+msgstr "iCal"
+
+#: theme/theme.inc:394,399,395,399,411,411; date/date.theme:140,139; date_api/theme/theme.inc:215
+msgid "ongoing"
+msgstr "непрерывный"
+
+#: date.tokens.inc:26,26,26,26; date_tools/date_tools.wizard.inc:76,76,76,76,76
+msgid "End Date"
+msgstr "Дата окончания"
+
+#: includes/date_api_argument_handler.inc:117,122,102,122,122; includes/date_api_filter_handler.inc:156,160,142,160,160; date_views/includes/date_views_argument_handler.inc:61,61,61,61; date_views/includes/date_views_filter_handler.inc:107,107,107,107
+msgid "Method"
+msgstr "Метод"
+
+#: includes/date_api_filter_handler.inc:97,101,83,101,101; date_views/includes/date_views_filter_handler_simple.inc:170,170,170,176,176
+msgid "Select"
+msgstr "Выбрать"
+
+#: date_tools/date_tools.event.inc:281,343,285,347,280,342,285,347,285,347; date_copy/date_copy.module:102,163,101,162
+msgid ""
+"There are no date fields in this database to import the data into. "
+"Please add a date field to the desired node types and be sure to "
+"indicate it uses both a \"from\" and a \"to\" date."
+msgstr ""
+
+#: date_tools/date_tools.event.inc:285,289,284,289,289; date_copy/date_copy.module:106,105
+msgid "Target type"
+msgstr "Тип цели"
+
+#: date_tools/date_tools.event.inc:39,285,43,289,40,284,43,289,43,289; date_copy/date_copy.module:106,492,105,491
+msgid "Source type"
+msgstr "Тип источника"
+
+#: date_tools/date_tools.change_type.inc:30,41,34,41,41,31,34,41,41,34; date_tools/date_tools.event.inc:349,353,348,353,353; date_tools/date_tools.wizard.inc:30,37,34,37,37,31,34,37,37,34; date_copy/date_copy.module:169,168
+msgid "Date field"
+msgstr "Поле даты"
+
+#: date_tools/date_tools.event.inc:351,355,350,355,355; date_copy/date_copy.module:171,170
+msgid "The field which will contain the source dates in target content type."
+msgstr ""
+
+#: date_tools/date_tools.event.inc:358,362,357,362,362; date_copy/date_copy.module:178,177
+msgid ""
+"The text or body field which will contain the source description in "
+"the target content type."
+msgstr ""
+
+#: date_tools/date_tools.event.inc:364,368,363,368,368; date_copy/date_copy.module:184,183
+msgid "Url field"
+msgstr "Url поле"
+
+#: date_tools/date_tools.event.inc:366,370,365,370,370; date_copy/date_copy.module:186,185
+msgid ""
+"The text or link field which will contain the source url in the target "
+"content type."
+msgstr ""
+
+#: date_tools/date_tools.event.inc:371,375,370,375,375; date_copy/date_copy.module:191,190
+msgid "Location field"
+msgstr "Поле местоположения"
+
+#: date_tools/date_tools.event.inc:373,377,372,377,377; date_copy/date_copy.module:193,192
+msgid ""
+"The text field which will contain the source location text in the "
+"target content type."
+msgstr ""
+
+#: date_tools/date_tools.event.inc:378,382,377,382,382; date_copy/date_copy.module:198,197
+msgid "Uid field"
+msgstr "Uid поле"
+
+#: date_tools/date_tools.event.inc:380,384,379,384,384; date_copy/date_copy.module:200,199
+msgid ""
+"The text field which will contain the source uid in the target content "
+"type."
+msgstr ""
+
+#: date_tools/date_tools.event.inc:59,63,60,63,63; date_copy/date_copy.module:337,511,336,510
+msgid "!type Fields"
+msgstr "!type поля"
+
+#: date_tools/date_tools.event.inc:10,14,11,14,14; date_copy/date_copy.module:464,463
+msgid ""
+"There is no event table in this database. No event import options are "
+"available."
+msgstr ""
+"Отсутствует таблица событий в базе "
+"данных. Настройки импорта событий "
+"недоступны."
+
+#: date_tools/date_tools.event.inc:33,37,34,37,37; date_copy/date_copy.module:486,485
+msgid ""
+"There are no event nodes in this database. No event import options are "
+"available."
+msgstr ""
+
+#: date_tools/date_tools.event.inc:63,67,64,67,67; date_copy/date_copy.module:515,514
+msgid "Delete original event?"
+msgstr "Удалить оригинальное событие?"
+
+#: date_tools/date_tools.event.inc:63,67,64,67,67; date_copy/date_copy.module:515,514
+msgid ""
+"Should the original entry be deleted once it has been copied to the "
+"new content type? If so, be sure to back up your database first."
+msgstr ""
+
+#: date_tools/date_tools.event.inc:64,68,65,68,68; date_copy/date_copy.module:516,515
+msgid "Limit"
+msgstr "Лимит"
+
+#: date_tools/date_tools.event.inc:64,68,65,68,68; date_copy/date_copy.module:516,515
+msgid "The maximum number of nodes to convert in this pass."
+msgstr ""
+"Максимальное колличество материалов "
+"для преобразования за этот раз."
+
+#: date_tools/date_tools.event.inc:65,69,66,69,69; date_copy/date_copy.module:517,516
+msgid "Starting nid"
+msgstr "Чачальный id материала (nid)"
+
+#: date_tools/date_tools.event.inc:65,69,66,69,69; date_copy/date_copy.module:517,516
+msgid "Convert nodes with nids greater than or equal to this number."
+msgstr ""
+"Преобразовать материалы с ID (nid) "
+"большим или равным данному числу."
+
+#: date_tools/date_tools.event.inc:111,115,112,115,115; date_copy/date_copy.module:562,561
+msgid "No events have been converted."
+msgstr "Ни одно событие небыло преобразовано."
+
+#: date_admin.inc:293,275,293,296,293,301; date_views/includes/date_views_argument_handler_simple.inc:99,96,99,105,105
+msgid "Custom format"
+msgstr "Пользовательский формат"
+
+#: date/date.install:225,226,225,225; date/date.module:140,139
+msgid "Feed"
+msgstr "Лента"
+
+#: date/date_admin.inc:177,163,162,178,177,177; date_admin.inc:364,368,346,350,364,368,367,371,364,368,372,376
+msgid "None"
+msgstr "Нет"
+
+#: date_tools/date_tools.event.inc:240,250,244,254,239,249,244,254,244,254; date_copy/date_copy.module:432,689,699,431,688,698
+msgid "view"
+msgstr "просмотреть"
+
+#: date/date_admin.inc:352,328,351,327,350,353,352,352; date_tools/date_tools.wizard.inc:75,75,75,75,75
+msgid "Never"
+msgstr "Никогда"
+
+#: date_api_elements.inc:764,763; date_api_sql.inc:505,504; date_api.module:437,436; date/date_views.inc:167,166; date_repeat/date_repeat_form.inc:133,132
+msgid "Month"
+msgstr "Месяц"
+
+#: date/date.info:0,0,0,0,0; date_tools/date_tools.wizard.inc:18,42,245,25,49,22,46,249,25,49,25,49,19,43,246,22,46,249,25,49,25,49,22,46,249; includes/date_api.views.inc:129,140,130,141,129,140,129,140; date.tokens.inc:21,21,21,21; date.info:0,0,0,0; date_context/date_context.module:45,45,45,45; date_migrate/date_migrate_example/date_migrate_example.features.field.inc:671,671,671,671; date_views/includes/date_views.views.inc:96,108,96,108,96,108,96,108; date/date_views.inc:156,155
+msgid "Date"
+msgstr "Дата"
+
+#: date_api_elements.inc:761,760; date_api_sql.inc:505,504; date_api.module:437,436; date/date_views.inc:162,161
+msgid "Year"
+msgstr "Год"
+
+#: date_api_elements.inc:767,766; date_api_sql.inc:505,504; date_api.module:437,436; date/date_views.inc:174,173
+msgid "Day"
+msgstr "День"
+
+#: date_tools/date_tools.wizard.inc:254,258,255,258,258; includes/date_api_filter_handler.inc:98,102,84,102,102; date_views/includes/date_views_filter_handler_simple.inc:171,171,171,177,177
+msgid "Text"
+msgstr "Текст"
+
+#: date_tools/date_tools.event.inc:341,345,340,345,345; date_copy/date_copy.module:161,160
+msgid "body"
+msgstr "текст"
+
+#: date_api_elements.inc:770,769; date_api_sql.inc:506,505; date_api.module:438,437
+msgid "Hour"
+msgstr "Час"
+
+#: date_api_elements.inc:773,772; date_api_sql.inc:506,505; date_api.module:438,437
+msgid "Minute"
+msgstr "Минута"
+
+#: date_api_elements.inc:776,775; date_api_sql.inc:506,505; date_api.module:438,437; date_repeat/date_repeat.module:90,89
+msgid "Second"
+msgstr "Секунда"
+
+#: date/date_admin.inc:281,282,283,284,282,283,284,285,281,282,283,284,281,282,283,284; date/date_elements.inc:322,343,342,323,322,322; includes/date_api_filter_handler.inc:282,286,268,286,286
+msgid "To date"
+msgstr "Дата окончания"
+
+#: date/date_admin.inc:71,77,68,86,67,85,72,78,71,77,71,77; date_popup/date_popup.module:328,271,349,270,325,351,355,355; date_admin.inc:186,208,168,190,186,208,189,211,186,208,194,216
+msgid "Now"
+msgstr "Сейчас"
+
+#: date_tools/date_tools.event.inc:108,112,109,112,112; date.module:540,545,540,540; date_views/includes/date_views_filter_handler_simple.inc:295,295,295,301,301
+msgid "Start date"
+msgstr "Дата начала"
+
+#: date_tools/date_tools.event.inc:108,112,109,112,112; date.module:555,554,555,549,549; date_views/includes/date_views_filter_handler_simple.inc:299,299,299,305,305
+msgid "End date"
+msgstr "Дата окончания"
+
+#: date/date_admin.inc:177,163,162,178,177,177; date_admin.inc:364,346,364,367,364,372
+msgid "Within"
+msgstr "Внутри"
+
+#: theme/theme.inc:357,362,358,362,374,374; date_api/theme/theme.inc:154,154,154,154; date_api_elements.inc:782,781
+msgid "Timezone"
+msgstr "Часовой пояс"
+
+#: date_api.info:0,0,0,0,0; date_tools/date_tools.wizard.inc:246,250,247,250,250; date_api/date_api.module:122,122,122,122; date_api/date_api.install:43,51,43,51,43,51,43,51; date_api/date_api.info:0,0,0,0
+msgid "Date API"
+msgstr "Date API"
+
+#: date/date_handler_field_multiple.inc:50,48,50,50; date/date_views.inc:34,33
+msgid "Group multiple values"
+msgstr "Группировать множественные значения"
+
+#: includes/date_api_argument_handler.inc:119,124,104,124,124; includes/date_api_filter_handler.inc:158,162,144,162,162; date_views/includes/date_views_argument_handler.inc:63,63,63,63; date_views/includes/date_views_filter_handler.inc:109,109,109,109
+msgid "OR"
+msgstr "ИЛИ"
+
+#: includes/date_api_argument_handler.inc:119,124,104,124,124; includes/date_api_filter_handler.inc:158,162,144,162,162; date_views/includes/date_views_argument_handler.inc:63,63,63,63; date_views/includes/date_views_filter_handler.inc:109,109,109,109
+msgid "AND"
+msgstr "И"
+
+#: date_repeat/date_repeat_form.inc:69,68,70,69,69; date_repeat_field/date_repeat_field.module:254,245,254,254
+msgid "Repeat"
+msgstr "Повторение"
+
+#: date.field.inc:25,25,25,25; date_admin.inc:97,97,100,97
+msgid "Time ago"
+msgstr "Назад"
+
+#: date_api.info:0,0,0,0,0; date_api/date_api.info:0,0,0,0
+msgid "A Date API that can be used by other modules."
+msgstr ""
+"Date API, может использоваться сторонними "
+"модулями."
+
+#: date/date_admin.inc:24,25,24,25,24,24; date_admin.inc:245,227,245,248,245,253
+msgid "The Strtotime default value is invalid."
+msgstr ""
+"Значение по умолчанию для strtotime задано "
+"неверно"
+
+#: date/date_admin.inc:71,77,68,86,67,85,72,78,71,77,71,77; date_admin.inc:186,208,168,190,186,208,189,211,186,208,194,216
+msgid "Relative"
+msgstr "Относительное"
+
+#: date/date_admin.inc:83,74,73,84,83,83; date_admin.inc:191,173,191,194,191,199
+msgid "strtotime"
+msgstr "strtotime"
+
+#: date/date_admin.inc:179,165,164,180,179,179; date_admin.inc:375,357,375,378,375,383
+msgid "Position of date part labels"
+msgstr "Положение меток части даты"
+
+#: date/date_admin.inc:435,472,471,436,435,435; date_admin.inc:593,575,593,596,593,601
+msgid "User's time zone"
+msgstr "Часовой пояс пользователя"
+
+#: date_php4/date_php4.module:28,31,30,29,28,28; date_php4/date_php4.info:0,0,0,0,0
+msgid "Date PHP4"
+msgstr "Date PHP4"
+
+#: date_popup/date_popup.info:0,0,0,0,0,0; date_tools/date_tools.wizard.inc:252,256,253,256,256; date_popup/date_popup.module:675,674,675,675,675,687
+msgid "Date Popup"
+msgstr "Date Popup"
+
+#: date_timezone/date_timezone.install:45,49,44,46,49,49; date_timezone/date_timezone.module:21,20
+msgid "The Date Timezone module requires you to !link."
+msgstr ""
+
+#: date_timezone/date_timezone.install:45,49,44,46,49,49; date_timezone/date_timezone.module:21,20
+msgid "set the site timezone name"
+msgstr "указать имя часового пояса"
+
+#: date_timezone/date_timezone.info:0,0,0,0,0; date_tools/date_tools.wizard.inc:247,251,248,251,251
+msgid "Date Timezone"
+msgstr "Date Timezone"
+
+#: includes/date_api_filter_handler.inc:405,409,384,409,413,413; date_views/includes/date_views_filter_handler.inc:155,155,155,155; date_views/includes/date_views_filter_handler_simple.inc:480,480,480,486,486
+msgid "@min and @max"
+msgstr "@min и @max"
+
+#: theme/theme.inc:389,394,390,394,406,406; date/date.theme:135,134; date_api/theme/theme.inc:211
+msgid "!time from now"
+msgstr "!time от текущего момента"
+
+#: date_api_elements.inc:487,518,517,519,487,487; date_api/date_api_elements.inc:384,697,384,696,384,697,384,697; date_popup/date_popup.module:492,491,492,492,492,504
+msgid "A valid date is required for %title."
+msgstr "Верная дата необходима для %title"
+
+#: date/date.module:122,122,122,122; date.field.inc:256,246,256,253,253
+msgid ""
+"Store a date in the database as an ISO date, recommended for "
+"historical or partial dates."
+msgstr ""
+
+#: date/date.module:130,130,130,130; date.field.inc:249,239,249,246,246
+msgid ""
+"Store a date in the database as a datetime field, recommended for "
+"complete dates and times that may need timezone conversion."
+msgstr ""
+
+#: date_api_elements.inc:149,158,157,150,149,149; date_popup/date_popup.module:315,356,336,377,312,349,338,379,342,383,342,383; date_api/date_api_elements.inc:323,324,323,323
+msgid "Format: @date"
+msgstr "Формат: @date"
+
+#: includes/date_api.views.inc:134,145,135,146,134,145,134,145; date_views/date_views.module:289,295,287,293,289,295,289,295; date_views/includes/date_views.views.inc:101,113,101,113,101,113,101,113
+msgid "Undated"
+msgstr "Без даты"
+
+#: includes/date_api_argument_handler.inc:109,114,94,114,114; includes/date_api_filter_handler.inc:148,152,134,152,152; date_views/includes/date_views_argument_handler.inc:53,53,53,53; date_views/includes/date_views_filter_handler.inc:98,98,98,98
+msgid "Date field(s)"
+msgstr "Поле(я) даты"
+
+#: includes/date_api_argument_handler.inc:121,126,106,126,126; includes/date_api_filter_handler.inc:160,164,146,164,164; date_views/includes/date_views_filter_handler.inc:111,111,111,111
+msgid ""
+"Method of handling multiple date fields in the same query. Return "
+"items that have any matching date field (date = field_1 OR field_2), "
+"or only those with matches in all selected date fields (date = field_1 "
+"AND field_2)."
+msgstr ""
+
+#: includes/date_api_argument_handler.inc:133,138,118,138,138; date_views/includes/date_views_argument_handler.inc:85,85,85,85
+msgid "You must select at least one date field for this argument."
+msgstr ""
+"Вы должны выбрать как минимум одно "
+"поле даты для данного аргумента."
+
+#: includes/date_api.views.inc:77,84,78,85,77,84,77,84; date_views/includes/date_views.views.inc:43,50,43,50,43,50,43,50
+msgid "Date browser"
+msgstr "Календарь"
+
+#: includes/date_api.views.inc:78,79,78,78; date_views/includes/date_views.views.inc:44,44,44,44
+msgid ""
+"Date back/next navigation to attach to other displays. Requires the "
+"Date argument."
+msgstr ""
+
+#: includes/date_api.views.inc:100,101,100,100; date_views/includes/date_views.views.inc:68,68,68,68
+msgid "Date browser style"
+msgstr ""
+
+#: includes/date_api.views.inc:101,102,101,101; date_views/includes/date_views.views.inc:69,69,69,69
+msgid "Creates back/next navigation."
+msgstr "Создать назад/вперед навигацию."
+
+#: includes/date_api_argument_handler.inc:86,91,71,91,91; date_views/includes/date_views_argument_handler_simple.inc:140,137,140,146,146
+msgid ""
+"Select the type of date value to be used in defaults, summaries, and "
+"navigation. For example, a granularity of 'month' will set the default "
+"date to the current month, summarize by month in summary views, and "
+"link to the next and previous month when using date navigation."
+msgstr ""
+
+#: date/date_admin.inc:624,625,624,624; date_admin.inc:41,41,41,44,41
+msgid "Show @count value(s)"
+msgstr "Показать @count значение(я)"
+
+#: date/date.module:29,30,29,29,29,29; date_repeat_field/date_repeat_field.module:140,80,94,137,80,94,140,80,94,140,80,94
+msgid "Repeats"
+msgstr "Повторять"
+
+#: includes/date_api_filter_handler.inc:167,171,153,171,171; date_views/includes/date_views_filter_handler.inc:118,118,118,118
+msgid "You must select at least one date field for this filter."
+msgstr ""
+"Вы должны выбрать как минимум одно "
+"поле даты для данного фильтра."
+
+#: includes/date_api_filter_handler.inc:380,384,359,384,388,388; date_views/includes/date_views_filter_handler.inc:130,130,130,130
+msgid "Missing date fields!"
+msgstr "Поля даты не найдены!"
+
+#: includes/date_api_filter_handler.inc:399,403,378,403,407,407; date_views/includes/date_views_filter_handler.inc:149,149,149,149
+msgid "(@field) <strong>Exposed</strong> @widget @format"
+msgstr "(@field) <strong>Раскрыто</strong> @widget @format"
+
+#: includes/date_api_filter_handler.inc:99,103,85,103,103; date_views/includes/date_views_filter_handler_simple.inc:172,172,172,178,178
+msgid "Popup"
+msgstr "Всплывающее окно"
+
+#: date_api_ical.inc:97,106,112,133,86,95,101,122,85,94,100,121,98,107,113,134,97,106,112,133,101,110,116,138,101,110,116,138; date_api/date_api_ical.inc:101,110,116,138,101,110,116,138,101,110,116,138,101,110,116,138
+msgid "date ical"
+msgstr "Дата для iCal"
+
+#: date_tools/date_tools.event.inc:290,294,289,294,294; date_copy/date_copy.module:111,110
+msgid ""
+"Only content types with date fields appear in this list as possible "
+"target types."
+msgstr ""
+
+#: date_tools/date_tools.event.inc:299,303,298,303,303; date_copy/date_copy.module:119,118
+msgid ""
+"If your desired target type does not already have a date field, follow "
+"this link and select a content type to add a date field to that type."
+msgstr ""
+
+#: date_tools/date_tools.event.inc:305,309,304,309,309; date_copy/date_copy.module:125,124
+msgid "Add new date field"
+msgstr "Добавить новое поле даты"
+
+#: date_api.module:595,499,498,590,595,595; date_api/date_api.module:1543,1531,1543,1543,1551
+msgid "!timezone"
+msgstr "!timezone"
+
+#: includes/date_api_argument_handler.inc:90,95,75,95,95; includes/date_api_filter_handler.inc:130,134,116,134,134; date_views/includes/date_views_argument_handler_simple.inc:144,141,144,150,150
+msgid "Date year range"
+msgstr "Диапазон годов даты"
+
+#: date_api_ical.inc:133,134,133,138,138; date_api/date_api_ical.inc:138,138,138,138
+msgid "Invalid calendar file."
+msgstr "Неверный файл календаря"
+
+#: date_api_ical.inc:97,98,97,101,101; date_api/date_api_ical.inc:101,101,101,101
+msgid "HTTP Request Error importing %filename: @error"
+msgstr ""
+"Ошибка HTTP запроса при импорте %filename: "
+"@error"
+
+#: date_api_ical.inc:106,107,106,110,110; date_api/date_api_ical.inc:110,110,110,110
+msgid "Failed to open file: %filename"
+msgstr "Ошибка при открытии файла: %filename"
+
+#: date_api_ical.inc:112,113,112,116,116; date_api/date_api_ical.inc:116,116,116,116
+msgid "Invalid calendar file: %filename"
+msgstr "Неверный файл календаря: %filename"
+
+#: date/date_admin.inc:122,123,122,122; date_admin.inc:296,278,296,299,296,304
+msgid "Custom input format"
+msgstr "Свой формат ввода"
+
+#: date/date.module:450,450,450,450; date_api/date_api.module:68,68,68,68
+msgid ""
+"Complete documentation for the Date and Date API modules is available "
+"at <a href=\"@link\">http://drupal.org/node/92460</a>."
+msgstr ""
+
+#: date_tools/date_tools.module:108,52,92,61,92,61,92,61,109,53,108,52,92,61,92,61,108,52; date_api/date_api.module:62,62,62,62
+msgid "Date wizard"
+msgstr "Помощник Даты"
+
+#: date_tools/date_tools.module:36,47,47,47,37,36,47,47,36; date_tools/date_tools.info:0,0,0,0,0,0
+msgid "Date Tools"
+msgstr "Инструменты даты"
+
+#: date_tools/date_tools.module:37,44,38,45,37,44,37,44; date_tools/date_tools.info:0,0,0,0,0,0
+msgid "Tools to import and auto-create dates and calendars."
+msgstr ""
+"Инструменты для импорта и "
+"автоматического создания дат и "
+"календарей."
+
+#: includes/date_api_argument_handler.inc:93,98,78,98,98; includes/date_api_filter_handler.inc:133,137,119,137,137
+msgid ""
+"Set the allowable minimum and maximum year range for this argument, "
+"either a -X:+X offset from the current year, like '-3:+3' or an "
+"absolute minimum and maximum year, like '2005:2010'. When the argument "
+"is set to a date outside the range, the page will be returned as 'Page "
+"not found (404)'."
+msgstr ""
+
+#: date_api_elements.inc:490,522,490,490; date_api/date_api_elements.inc:390,390,390,390
+msgid "%title is invalid."
+msgstr "%title ошибочный."
+
+#: date/date_elements.inc:530,535,524,535,535; date_elements.inc:602,589,602,602
+msgid "There are errors in @field_name value #@delta:"
+msgstr ""
+
+#: date/date_elements.inc:533,538,527,538,538; date_elements.inc:605,592,605,605
+msgid "There are errors in @field_name:"
+msgstr "В поле @field_name есть ошибки:"
+
+#: date/date_admin.inc:698,699,698,698; date_repeat_field/date_repeat_field.module:685,711,676,702,685,711,685,711
+msgid "Hide repeat rule"
+msgstr "Скрыть правило повторения"
+
+#: date/date_elements.inc:476,469,481,468,477,481,481; date_elements.inc:544,531,544,544
+msgid "The dates are invalid."
+msgstr "Даты заданы неверно"
+
+#: includes/date_api.views.inc:130,141,131,142,130,141,130,141; date_views/includes/date_views.views.inc:97,109,97,109,97,109,97,109
+msgid "Date (!base_table)"
+msgstr "Дата (!base_table)"
+
+#: includes/date_api.views.inc:142,143,142,142; date_views/includes/date_views.views.inc:110,110,110,110
+msgid "Filter any Views !base_table date field."
+msgstr ""
+
+#: theme/theme.inc:63,68,64,68,68; date_views/theme/theme.inc:117,117,117,117
+msgid "Navigate to previous year"
+msgstr "Перейти к предыдущему году"
+
+#: theme/theme.inc:64,69,65,69,69; date_views/theme/theme.inc:118,118,118,118
+msgid "Navigate to next year"
+msgstr "Перейти к следующему году"
+
+#: theme/theme.inc:67,72,68,72,72; date_views/theme/theme.inc:121,121,121,121
+msgid "Navigate to previous month"
+msgstr "Перейти к предыдущему месяцу"
+
+#: theme/theme.inc:68,73,69,73,73; date_views/theme/theme.inc:122,122,122,122
+msgid "Navigate to next month"
+msgstr "Перейти к следующему месяцу"
+
+#: theme/theme.inc:71,76,72,76,76; date_views/theme/theme.inc:125,125,125,125
+msgid "Navigate to previous week"
+msgstr "Перейти к предыдущей неделе"
+
+#: theme/theme.inc:72,77,73,77,77; date_views/theme/theme.inc:126,126,126,126
+msgid "Navigate to next week"
+msgstr "Перейти к следующей неделе"
+
+#: theme/theme.inc:75,80,76,80,80; date_views/theme/theme.inc:129,129,129,129
+msgid "Navigate to previous day"
+msgstr "К предыдущему дню"
+
+#: theme/theme.inc:76,81,77,81,81; date_views/theme/theme.inc:130,130,130,130
+msgid "Navigate to next day"
+msgstr "К следующему дню"
+
+#: theme/theme.inc:124,129,125,129,129; date_views/theme/theme.inc:191,191,191,191
+msgid "View full page month"
+msgstr "Посмотреть полную страницу месяца"
+
+#: date_api.module:2530,2533,2528,2533,2539,2539; date_api/date_api.module:2489,2473,2489,2489,2497
+msgid "Use ISO-8601 week numbers"
+msgstr ""
+"Использовать номер недель по "
+"стандарту ISO-8601"
+
+#: date_api.module:2532,2535,2530,2535,2541,2541; date_api/date_api.module:2491,2475,2491,2491,2499
+msgid "IMPORTANT! If checked, First day of week MUST be set to Monday"
+msgstr ""
+"ВАЖНО! Если отмечено, первый день "
+"недели ДОЛЖЕН быть понедельником"
+
+#: date_api.module:2543,2546,2542,2546,2552,2552; date_api/date_api.module:2502,2486,2502,2502,2510
+msgid ""
+"When using ISO-8601 week numbers, the first day of the week must be "
+"set to Monday."
+msgstr ""
+"При использовании номеров недель по "
+"стандарту ISO-8601, первый день недели "
+"должен быть понедельником."
+
+#: date_api/date_api_sql.inc:689,689,689,689; date_api/date_api.module:1419,1407,1419,1419,1427; date_api/theme/theme.inc:105,105,105,105
+msgid "Year"
+msgctxt "datetime"
+msgstr "Год"
+
+#: date_api/date_api_sql.inc:690,690,690,690; date_api/date_api.module:1420,1408,1420,1420,1428; date_api/theme/theme.inc:112,112,112,112
+msgid "Month"
+msgctxt "datetime"
+msgstr "Месяц"
+
+#: date_api/date_api_sql.inc:691,691,691,691; date_api/date_api.module:1421,1409,1421,1421,1429; date_api/theme/theme.inc:119,119,119,119
+msgid "Day"
+msgctxt "datetime"
+msgstr "День"
+
+#: date_api/date_api_sql.inc:692,692,692,692; date_api/date_api.module:1422,1410,1422,1422,1430; date_api/theme/theme.inc:126,126,126,126
+msgid "Hour"
+msgctxt "datetime"
+msgstr "Час"
+
+#: date_api/date_api_sql.inc:693,693,693,693; date_api/date_api.module:1423,1411,1423,1423,1431; date_api/theme/theme.inc:133,133,133,133
+msgid "Minute"
+msgctxt "datetime"
+msgstr "Минут"
+
+#: date_api/date_api_sql.inc:694,694,694,694; date_api/date_api.module:1424,1412,1424,1424,1432; date_api/theme/theme.inc:140,140,140,140
+msgid "Second"
+msgctxt "datetime"
+msgstr "Секунд"
+
+#: includes/date_api_argument_handler.inc:136,141,121,141,141; includes/date_api_filter_handler.inc:170,174,156,174,174; date_views/includes/date_views_argument_handler_simple.inc:179,176,179,185,185; date_views/includes/date_views_filter_handler_simple.inc:223,223,223,229,229
+msgid ""
+"Date year range must be in the format -9:+9, 2005:2010, -9:2010, or "
+"2005:+9"
+msgstr ""
+
+#: date_api/date_api_elements.inc:378,690,378,689,378,690,378,690; date_popup/date_popup.module:481,480,481,481,481,493
+msgid "The value input for field %field is invalid:"
+msgstr ""
+
+#: date_api/date_api_elements.inc:703,702,703,703; date_popup/date_popup.module:487,486,487,487,487,499
+msgid "The value input for field %field is invalid."
+msgstr ""
+
+#: date_views/includes/date_views_argument_handler_simple.inc:165,162,165,171,171; date_views/includes/date_views_filter_handler_simple.inc:212,212,212,218,218
+msgid "Add multiple value identifier"
+msgstr ""
+
+#: date_views/includes/date_views_argument_handler_simple.inc:168,165,168,174,174; date_views/includes/date_views_filter_handler_simple.inc:215,215,215,221,221
+msgid ""
+"Add an identifier to the view to show which multiple value date fields "
+"meet the filter criteria. Note: This option may introduce duplicate "
+"values into the view. Required when using multiple value fields in a "
+"Calendar or any time you want the node view of multiple value dates to "
+"display only the values that match the view filters."
+msgstr ""
+
+#: date.field.inc:167,157,167,164,164; date.theme:298,277,298,277,277
+msgid "!start-date to !end-date"
+msgstr ""
+

@@ -1,0 +1,247 @@
+# Russian translation of date (all releases)
+# Copyright (c) 2012 by the Russian translation team
+# Generated from files:
+#  date/date_views/includes/date_views_plugin_pager.inc: n/a
+#  date/date_views/includes/date_views_filter_handler_simple.inc: n/a
+#  date/date_views/includes/date_views_argument_handler.inc: n/a
+#  date/date_views/includes/date_views_argument_handler_simple.inc: n/a
+#  date/date_views/includes/date_views.views.inc: n/a
+#  date/date_views/includes/date_views_filter_handler.inc: n/a
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: date (all releases)\n"
+"POT-Creation-Date: 2012-08-17 04:37-0400\n"
+"PO-Revision-Date: 2011-05-30 04:26-0400\n"
+"Language-Team: Russian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=((((n%10)==1)&&((n%100)!=11))?(0):(((((n%10)>=2)&&((n%10)<=4))&&(((n%100)<10)||((n%100)>=20)))?(1):2));\n"
+
+#: date_views/includes/date_views_plugin_pager.inc:100,100,100,100
+msgid "Top"
+msgstr "Верх"
+
+#: date_views/includes/date_views_plugin_pager.inc:100,100,100,100
+msgid "Bottom"
+msgstr "Низ"
+
+#: date_views/includes/date_views_plugin_pager.inc:100,100,100,100
+msgid "Both"
+msgstr "Оба"
+
+#: date_views/includes/date_views_plugin_pager.inc:98,98,98,98
+msgid "Pager position"
+msgstr "Расположение разрыва"
+
+#: date_views/includes/date_views_filter_handler_simple.inc:352,357,352,357,352,357,358,363,358,363
+msgid "Select a date"
+msgstr "Выберите дату"
+
+#: date_views/includes/date_views_plugin_pager.inc:108,108,108,108
+msgid "Pager"
+msgstr "Навигатор"
+
+#: date_views/includes/date_views_plugin_pager.inc:108,108,108
+msgid "Clean"
+msgstr ""
+
+#: date_views/includes/date_views_argument_handler.inc:58,58,58,58
+msgid "Select one or more date fields to filter with this argument."
+msgstr ""
+
+#: date_views/includes/date_views_argument_handler_simple.inc:98,95,98,104,104
+msgid "Default format"
+msgstr "Формат по умолчанию"
+
+#: date_views/includes/date_views_filter_handler_simple.inc:304,304,304,310,310
+msgid "Relative date"
+msgstr ""
+
+#: date_views/includes/date_views.views.inc:98,98,98,98
+msgid ""
+"Filter any Views !base_table date field by a date argument, using any "
+"common ISO date/period format (i.e. YYYY, YYYY-MM, YYYY-MM-DD, "
+"YYYY-W99, YYYY-MM-DD--P3M, P90D, etc). "
+msgstr ""
+
+#: date_views/includes/date_views_argument_handler_simple.inc:147,144,147,153,153
+msgid ""
+"Set the allowable minimum and maximum year range for this argument, "
+"either a -X:+X offset from the current year, like '-3:+3' or an "
+"absolute minimum and maximum year, like '2005:2010' . When the "
+"argument is set to a date outside the range, the page will be returned "
+"as 'Page not found (404)' ."
+msgstr ""
+
+#: date_views/includes/date_views_argument_handler.inc:65,65,65,65
+msgid ""
+"Method of handling multiple date fields in the same query. Return "
+"items that have any matching date field (date = field_1 OR field_2), "
+"or only those with matches in all selected date fields (date = field_1 "
+"AND field_2). "
+msgstr ""
+
+#: date_views/includes/date_views_argument_handler_simple.inc:133,130,133,139,139
+msgid "Week"
+msgctxt "datetime"
+msgstr "Неделя"
+
+#: date_views/includes/date_views_filter_handler.inc:103,103,103,103
+msgid "Select date field(s) to filter."
+msgstr ""
+
+#: date_views/includes/date_views_filter_handler_simple.inc:473,473,473,479,479
+msgid "<strong>Exposed</strong> @widget @format"
+msgstr ""
+
+#: date_views/includes/date_views.views.inc:57,57,57,57
+msgid "Page by date"
+msgstr ""
+
+#: date_views/includes/date_views.views.inc:58,58,58,58
+msgid "Page using the value of a date field."
+msgstr ""
+
+#: date_views/includes/date_views_plugin_pager.inc:69,69,69,69
+msgid "Position: @position, format: @format."
+msgstr ""
+
+#: date_views/includes/date_views_plugin_pager.inc:91,91,91,91
+msgid "Date identifier"
+msgstr ""
+
+#: date_views/includes/date_views_plugin_pager.inc:101,101,101,101
+msgid ""
+"Where to place the date pager, on the top, bottom, or both top and "
+"bottom of the content."
+msgstr ""
+
+#: date_views/includes/date_views_plugin_pager.inc:106,106,106,106
+msgid "Link format"
+msgstr ""
+
+#: date_views/includes/date_views_plugin_pager.inc:109,109,109
+msgid ""
+"The format for pager link urls. With the Pager format, the links look "
+"like 'calendar/?date=2020-05'. The Clean format links look like "
+"'calendar/2020-05'. The Clean format links look nicer but the Pager "
+"format links are likely to work better if the calendar is used in "
+"blocks or panels."
+msgstr ""
+
+#: date_views/includes/date_views_plugin_pager.inc:93,93,93,93
+msgid ""
+"The query identifier to use when fetching date data from in the URL. "
+"Note that if you have more than one display in the same view that uses "
+"the date pager (like a page and a block), the pager id must be "
+"different for each one or both will change when the pager value "
+"changes."
+msgstr ""
+
+#: date_views/includes/date_views_argument_handler_simple.inc:152,149,152,158,158
+msgid "Dates to compare"
+msgstr ""
+
+#: date_views/includes/date_views_argument_handler_simple.inc:154,151,154,160,160
+msgid "Only this field"
+msgstr ""
+
+#: date_views/includes/date_views_argument_handler_simple.inc:154,151,154,160,160
+msgid "Start/End date range"
+msgstr ""
+
+#: date_views/includes/date_views_argument_handler_simple.inc:155,152,155,161,161
+msgid ""
+"If selected the view will check if any value starting with the 'Start' "
+"date and ending with the 'End' date matches the view criteria. "
+"Otherwise the view will be limited to the specifically selected "
+"fields. Comparing to the whole Start/End range is the recommended "
+"setting when using this filter in a Calendar. When using the Start/End "
+"option, it is not necessary to add both the Start and End fields to "
+"the filter, either one will do."
+msgstr ""
+
+#: date_views/includes/date_views_filter_handler_simple.inc:296,296,296,302,302
+msgid "Relative start date"
+msgstr ""
+
+#: date_views/includes/date_views_filter_handler_simple.inc:300,300,300,306,306
+msgid "Relative end date"
+msgstr ""
+
+#: date_views/includes/date_views_filter_handler_simple.inc:377,377,377,383,383
+msgid ""
+"Relative dates are computed when the view is displayed. Examples: now, "
+"now +1 day, 12AM today, Monday next week. <a "
+"href=\"@relative_format\">More examples of relative date formats in "
+"the PHP documentation</a>."
+msgstr ""
+
+#: date_views/includes/date_views_filter_handler_simple.inc:409,409,409,415,415
+msgid "Relative start date not specified."
+msgstr ""
+
+#: date_views/includes/date_views_filter_handler_simple.inc:423,423,423,429,429
+msgid "Relative end date not specified."
+msgstr ""
+
+#: date_views/includes/date_views_filter_handler_simple.inc:439,439,439,445,445
+msgid "Relative date not specified."
+msgstr ""
+
+#: date_views/includes/date_views_filter_handler_simple.inc:194,194,194,200,200
+msgid "Date selection form element"
+msgstr ""
+
+#: date_views/includes/date_views_filter_handler_simple.inc:200,200,200,206,206
+msgid "Filter granularity"
+msgstr ""
+
+#: date_views/includes/date_views_plugin_pager.inc:89,89,89,89
+msgid ""
+"This pager works together with a Date or Content date field contextual "
+"filter. If a Date filter has been added to the view, this pager will "
+"provide back/next paging to match the granularity of that filter (i.e. "
+"paging by year, month, week, or day). The filter must also be "
+"configured to use a DATE default value. If there is no Date contextual "
+"filter on this view, or if it has not been set to use a default date, "
+"the pager will not appear."
+msgstr ""
+
+#: date_views/includes/date_views_argument_handler_simple.inc:120,117,120,126,126
+msgid "Custom summary date format"
+msgstr ""
+
+#: date_views/includes/date_views_argument_handler_simple.inc:106,103,106,112,112
+msgid "Date format options"
+msgstr ""
+
+#: date_views/includes/date_views_argument_handler_simple.inc:109,106,109,115,115
+msgid ""
+"The date format used in titles and summary links for this argument. "
+"The default format is based on the granularity of the filter, i.e. "
+"month: @example_month, day: @example_day."
+msgstr ""
+
+#: date_views/includes/date_views_argument_handler_simple.inc:122,119,122,128,128
+msgid ""
+"A custom format for the title and summary date format. Define a php "
+"date format string like 'm-d-Y H:i' (see <a "
+"href=\"@link\">http://php.net/date</a> for more details)."
+msgstr ""
+
+#: date_views/includes/date_views_plugin_pager.inc:108,108
+msgid "Clean URL"
+msgstr ""
+
+#: date_views/includes/date_views_plugin_pager.inc:109,109
+msgid ""
+"The format for pager link urls. With the Pager format, the links look "
+"like 'calendar/?date=2020-05'. The Clean URL format links look like "
+"'calendar/2020-05'. The Clean format links look nicer but the Pager "
+"format links are likely to work better if the calendar is used in "
+"blocks or panels."
+msgstr ""
+

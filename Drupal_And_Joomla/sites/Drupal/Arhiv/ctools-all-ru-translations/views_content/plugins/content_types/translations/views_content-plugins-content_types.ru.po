@@ -1,0 +1,437 @@
+# Russian translation of ctools (all releases)
+# Copyright (c) 2013 by the Russian translation team
+# Generated from files:
+#  ctools/views_content/plugins/content_types/views.inc: n/a
+#  views.inc,v 1.11.2.11 2010/07/23 06:08:39 merlinofchaos
+#  ctools/views_content/plugins/content_types/views_row.inc: n/a
+#  ctools/views_content/plugins/content_types/views_panes.inc: n/a
+#  views_panes.inc,v 1.14.2.15 2010/08/20 21:20:40 merlinofchaos
+#  views_panes.inc,v 1.14.2.14 2010/07/23 21:47:21 merlinofchaos
+#  ctools/views_content/plugins/content_types/views_attachments.inc: n/a
+#  views_attachments.inc,v 1.1.2.1 2010/07/20 00:17:09 merlinofchaos
+#  ctools/views_content/plugins/content_types/views_empty.inc: n/a
+#  views_empty.inc,v 1.1.2.1 2010/07/20 00:17:09 merlinofchaos
+#  ctools/views_content/plugins/content_types/views_exposed.inc: n/a
+#  views_exposed.inc,v 1.1.2.1 2010/07/20 00:17:09 merlinofchaos
+#  ctools/views_content/plugins/content_types/views_feed.inc: n/a
+#  views_feed.inc,v 1.1.2.1 2010/07/20 00:17:09 merlinofchaos
+#  ctools/views_content/plugins/content_types/views_footer.inc: n/a
+#  views_footer.inc,v 1.1.2.1 2010/07/20 00:17:09 merlinofchaos
+#  ctools/views_content/plugins/content_types/views_header.inc: n/a
+#  views_header.inc,v 1.1.2.1 2010/07/20 00:17:09 merlinofchaos
+#  ctools/views_content/plugins/content_types/views_pager.inc: n/a
+#  views_pager.inc,v 1.1.2.1 2010/07/20 00:17:09 merlinofchaos
+#  views_row.inc,v 1.1.2.3 2010/08/27 16:20:30 merlinofchaos
+#  views_row.inc,v 1.1.2.2 2010/07/21 17:37:04 merlinofchaos
+#  ctools/views_content/plugins/content_types/views_view.inc: n/a
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: ctools (all releases)\n"
+"POT-Creation-Date: 2013-05-29 14:25+0400\n"
+"PO-Revision-Date: 2010-11-23 18:32+0300\n"
+"Language-Team: Russian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=((((n%10)==1)&&((n%100)!=11))?(0):(((((n%10)>=2)&&((n%10)<=4))&&(((n%100)<10)||((n%100)>=20)))?(1):2));\n"
+
+#: views_content/plugins/content_types/views.inc:10,10,11,11,10,10,10,10,11,10,10,10,10
+msgid "All views"
+msgstr "Все представления"
+
+#: views_content/plugins/content_types/views.inc:390,386,389,389,388,386,388,386,386,386,390,389,390,388,390,388
+msgid "Override URL"
+msgstr "Аннулируйте URL"
+
+#: views_content/plugins/content_types/views.inc:392,388,391,391,390,388,390,388,388,388,392,391,392,390,392,390
+msgid ""
+"If this is set, override the View URL; this can sometimes be useful to "
+"set to the panel URL"
+msgstr ""
+"Если установлен, аннулируйте Вид URL; "
+"это может иногда быть полезным, чтобы "
+"устанавливать на панель URL"
+
+#: views_content/plugins/content_types/views_row.inc:231,231,231,231,231
+msgid "Show all"
+msgstr "Показать все"
+
+#: views_content/plugins/content_types/views.inc:297,297,296,296,295,297,295,297,297,297,301,296,301,295,301,295
+msgid "Link title to view"
+msgstr ""
+
+#: views_content/plugins/content_types/views.inc:303,303,302,302,301,303,301,303,303,303,307,302,307,301,307,301
+msgid "Provide a \"more\" link that links to the view"
+msgstr ""
+
+#: views_content/plugins/content_types/views.inc:302,304,304,303,303,304,302,304,304,304,308,303,308,302,308,302
+msgid ""
+"This is independent of any more link that may be provided by the view "
+"itself; if you see two more links, turn this one off. Views will only "
+"provide a more link if using the \"block\" type, however, so if using "
+"embed, use this one."
+msgstr ""
+
+#: views_content/plugins/content_types/views.inc:357,355,356,356,355,355,355,355,359,356,359,355,359,355
+msgid "Num posts"
+msgstr ""
+
+#: views_content/plugins/content_types/views.inc:374,370,373,373,372,370,372,370,370,370,374,373,374,372,374,372
+msgid "Send arguments"
+msgstr ""
+
+#: views_content/plugins/content_types/views_panes.inc:459,464,461,452,460,464,460,464,465,465,465,461,454,454,460,454,460
+msgid "Override path"
+msgstr ""
+
+#: views_content/plugins/content_types/views_panes.inc:381,376,381,377,368,376,376,381,382,382,382,377,371,371,376,371,376
+msgid "Link title to page"
+msgstr ""
+
+#: views_content/plugins/content_types/views_panes.inc:441,446,443,434,442,446,442,446,447,447,447,443,436,436,442,436,442
+msgid "Num items"
+msgstr ""
+
+#: views_content/plugins/content_types/views_panes.inc:443,448,445,436,444,448,444,448,449,449,449,445,438,438,444,438,444
+msgid "Select the number of items to display, or 0 to display all results."
+msgstr ""
+
+#: views_content/plugins/content_types/views_panes.inc:452,457,454,445,453,457,453,457,458,458,458,454,447,447,453,447,453
+msgid "Enter the number of items to skip; enter 0 to skip no items."
+msgstr ""
+
+#: views_content/plugins/content_types/views_panes.inc:461,466,463,454,462,466,462,466,467,467,467,463,456,456,462,456,462
+msgid ""
+"If this is set, override the View URL path; this can sometimes be "
+"useful to set to the panel URL."
+msgstr ""
+
+#: views_content/plugins/content_types/views_panes.inc:91
+msgid "@view: @display"
+msgstr "@view: @display"
+
+#: views_content/plugins/content_types/views.inc:25,25,26,26,25,25,25,25,26,25,25,25,25
+msgid "Select display"
+msgstr ""
+
+#: views_content/plugins/content_types/views.inc:28,28,29,29,28,28,28,28,29,28,28,28,28
+msgid "Configure view"
+msgstr "Конфигурировать представление"
+
+#: views_content/plugins/content_types/views.inc:248,248,249,249,248,248,248,248,252,249,252,248,252,248
+msgid "Choose which display of this view you wish to use."
+msgstr ""
+
+#: views_content/plugins/content_types/views.inc:275,275,274,274,273,275,273,275,275,275,279,274,279,273,279,273
+msgid "Configure view @view (@display)"
+msgstr ""
+
+#: views_content/plugins/content_types/views.inc:420,416,419,419,418,416,418,416,416,416,420,419,420,418,420,418
+msgid "View: @name"
+msgstr "Представление: @name"
+
+#: views_content/plugins/content_types/views.inc:434,430,433,433,432,430,432,432,432,432,436,433,436,432,436,432
+msgid "View information"
+msgstr "Информация о представлении"
+
+#: views_content/plugins/content_types/views.inc:437,433,436,436,435,433,435,435,435,435,439,436,439,435,439,435
+msgid "Using display @display."
+msgstr "Используется вид: @display."
+
+#: views_content/plugins/content_types/views.inc:458,454,457,457,456,454,456,456,456,456,460,457,460,456,460,456
+msgid "Argument @arg using context @context converted into @converter"
+msgstr ""
+"Аргумент \"@arg\", использующий контекст "
+"\"@context\", преобразованный в \"@converter\""
+
+#: views_content/plugins/content_types/views.inc:466,462,465,465,464,462,464,464,464,464,468,465,468,464,468,464
+msgid "@count items displayed."
+msgstr "Отображается @count объектов."
+
+#: views_content/plugins/content_types/views.inc:464,468,464,467,467,466,466,466,466,466,470,467,470,466,470,466
+msgid "With pager."
+msgstr "Есть навигатор."
+
+#: views_content/plugins/content_types/views.inc:467,471,467,470,470,469,469,469,469,469,473,470,473,469,473,469
+msgid "Without pager."
+msgstr ""
+
+#: views_content/plugins/content_types/views.inc:471,475,471,474,474,473,473,473,473,473,477,474,477,473,477,473
+msgid "Skipping first @count results"
+msgstr ""
+
+#: views_content/plugins/content_types/views.inc:474,478,474,477,477,476,476,476,476,476,480,477,480,476,480,476
+msgid "With more link."
+msgstr ""
+
+#: views_content/plugins/content_types/views.inc:477,481,477,480,480,479,479,479,479,479,483,480,483,479,483,479
+msgid "With feed icon."
+msgstr ""
+
+#: views_content/plugins/content_types/views.inc:480,484,480,483,483,482,482,482,482,482,486,483,486,482,486,482
+msgid "Sending arguments."
+msgstr ""
+
+#: views_content/plugins/content_types/views.inc:483,487,483,486,486,485,485,485,485,485,489,486,489,485,489,485
+msgid "Using arguments: @args"
+msgstr ""
+
+#: views_content/plugins/content_types/views.inc:486,490,486,489,489,488,488,488,488,488,492,489,492,488,492,488
+msgid "Using url: @url"
+msgstr ""
+
+#: views_content/plugins/content_types/views_panes.inc:389,384,389,385,376,384,384,389,390,390,390,385,379,379,384,379,384
+msgid "Provide a \"more\" link."
+msgstr ""
+
+#: views_content/plugins/content_types/views.inc:314,316,316,315,315,316,314,316,316,316,320,315,320,314,320,314
+msgid "Custom pager settings"
+msgstr ""
+
+#: views_content/plugins/content_types/views.inc:319,321,321,320,320,321,319,321,321,321,325,320,325,319,325,319
+msgid "Use different pager settings from view settings"
+msgstr ""
+
+#: views_content/plugins/content_types/views.inc:328,328,327,327,326,328,326,328,328,328,332,327,332,326,332,326
+msgid ""
+"<strong>Warning: </strong> This view has AJAX enabled. Overriding the "
+"pager settings will work initially, but when the view is updated via "
+"AJAX, the original settings will be used. You should not override "
+"pager settings on Views with the AJAX setting enabled."
+msgstr ""
+
+#: views_content/plugins/content_types/views.inc:367,364,366,366,365,364,365,364,364,364,368,366,368,365,368,365
+msgid "The number of items to skip and not display."
+msgstr ""
+
+#: views_content/plugins/content_types/views.inc:376,372,375,375,374,372,374,372,372,372,376,375,376,374,376,374
+msgid ""
+"Select this to send all arguments from the panel directly to the view. "
+"If checked, the panel arguments will come after any context arguments "
+"above and precede any additional arguments passed in through the "
+"Arguments field below. Note that arguments do not include the base "
+"URL; only values after the URL or set as placeholders are considered "
+"arguments."
+msgstr ""
+
+#: views_content/plugins/content_types/views.inc:384,380,383,383,382,380,382,380,380,380,384,383,384,382,384,382
+msgid ""
+"Additional arguments to send to the view as if they were part of the "
+"URL in the form of arg1/arg2/arg3. You may use %0, %1, ..., %N to grab "
+"arguments from the URL. Or use @0, @1, @2, ..., @N to use arguments "
+"passed into the panel. Note: use these values only as a last resort. "
+"In future versions of Panels these may go away."
+msgstr ""
+
+#: views_content/plugins/content_types/views_panes.inc:464,469,466,457,465,469,465,469,470,470,470,466,459,459,465,459,465
+msgid "You may use substitutions in this path."
+msgstr ""
+
+#: views_content/plugins/content_types/views_panes.inc:388,383,388,384,375,383,383,388,389,389,389,384,378,378,383,378,383
+msgid ""
+"The text of this link will be \"@more\". This setting can only be "
+"modified on the View configuration."
+msgstr ""
+
+#: views_content/plugins/content_types/views_attachments.inc:9,9,10,10,9,9,9,9,10,9,9,9,9
+msgid "View attachment"
+msgstr ""
+
+#: views_content/plugins/content_types/views_attachments.inc:12,12,12,13,13,12,12,12,13,12,12,12,12
+msgid "Display the attachments on a view context."
+msgstr ""
+
+#: views_content/plugins/content_types/views_attachments.inc:51,51,52,52,51,51,51,51,52,51,51,51,51
+msgid "\"Before\" attachment"
+msgstr "\"Перед\" вложением"
+
+#: views_content/plugins/content_types/views_attachments.inc:52,52,53,53,52,52,52,52,53,52,52,52,52
+msgid "\"After\" attachment"
+msgstr "\"После\" вложения"
+
+#: views_content/plugins/content_types/views_attachments.inc:60,62,62,61,61,62,60,62,62,62,61,62,60,62,60
+msgid "You must select at least one attachment to display."
+msgstr ""
+
+#: views_content/plugins/content_types/views_attachments.inc:74,74,73,73,72,74,72,74,74,74,73,74,72,74,72
+msgid "\"@context\" attachment"
+msgstr ""
+
+#: views_content/plugins/content_types/views_empty.inc:9,9,10,10,9,9,9,9,10,9,9,9,9
+msgid "View empty text"
+msgstr ""
+
+#: views_content/plugins/content_types/views_empty.inc:12,12,12,13,13,12,12,12,13,12,12,12,12
+msgid "Display the view empty text if there are no results."
+msgstr ""
+
+#: views_content/plugins/content_types/views_empty.inc:53,51,52,52,52,52,53,52,52,52,52,53,52,53
+msgid "\"@context\" empty text"
+msgstr ""
+
+#: views_content/plugins/content_types/views_exposed.inc:9,9,9,10,10,9,9,9,10,9,9,9,9
+msgid "View exposed widgets"
+msgstr ""
+
+#: views_content/plugins/content_types/views_exposed.inc:12,12,13,13,12,12,12,12,13,12,12,12,12
+msgid "Display the view exposed widgets if there are no results."
+msgstr ""
+
+#: views_content/plugins/content_types/views_exposed.inc:51,52,50,52,52,50,51,50,50,50,52,50,51,50,51
+msgid "\"@context\" exposed widgets"
+msgstr ""
+
+#: views_content/plugins/content_types/views_feed.inc:9,9,10,10,9,9,9,9,10,9,9,9,9
+msgid "View feed icon"
+msgstr ""
+
+#: views_content/plugins/content_types/views_feed.inc:12,12,12,13,13,12,12,12,13,12,12,12,12
+msgid "Display the view feed icon if there are no results."
+msgstr ""
+
+#: views_content/plugins/content_types/views_feed.inc:51,50,52,52,51,50,51,50,50,50,52,50,51,50,51
+msgid "\"@context\" feed icon"
+msgstr ""
+
+#: views_content/plugins/content_types/views_footer.inc:9,9,10,10,9,9,9,9,10,9,9,9,9
+msgid "View footer"
+msgstr ""
+
+#: views_content/plugins/content_types/views_footer.inc:12,12,13,13,12,12,12,12,13,12,12,12,12
+msgid "Display the view footer if there are no results."
+msgstr ""
+
+#: views_content/plugins/content_types/views_footer.inc:51,50,52,52,51,50,51,50,50,50,52,50,51,50,51
+msgid "\"@context\" footer"
+msgstr ""
+
+#: views_content/plugins/content_types/views_header.inc:9,9,10,10,9,9,9,9,10,9,9,9,9
+msgid "View header"
+msgstr ""
+
+#: views_content/plugins/content_types/views_header.inc:12,12,13,13,12,12,12,12,13,12,12,12,12
+msgid "Display the view header if there are no results."
+msgstr ""
+
+#: views_content/plugins/content_types/views_header.inc:51,50,52,52,51,50,51,50,50,50,52,50,51,50,51
+msgid "\"@context\" header"
+msgstr ""
+
+#: views_content/plugins/content_types/views_pager.inc:9,9,10,10,9,9,9,9,10,9,9,9,9
+msgid "View pager"
+msgstr ""
+
+#: views_content/plugins/content_types/views_pager.inc:12,12,13,13,12,12,12,12,13,12,12,12,12
+msgid "Display the view pager if there are no results."
+msgstr ""
+
+#: views_content/plugins/content_types/views_pager.inc:51,52,51,52,52,51,51,51,52,51,51,51,51
+msgid "\"@context\" pager"
+msgstr ""
+
+#: views_content/plugins/content_types/views_row.inc:9,9,10,10,9,9,9,9,10,9,9,9,9
+msgid "View row"
+msgstr ""
+
+#: views_content/plugins/content_types/views_row.inc:12,12,13,13,12,12,13,12,12
+msgid "Display one or more rows from a loaded view context."
+msgstr ""
+
+#: views_content/plugins/content_types/views_row.inc:24,20,24,20,25,21,25,21,20,24,20,24,20,24,20,24,21,25,20,24,20,24,20,24,20,24
+msgid "Select context"
+msgstr ""
+
+#: views_content/plugins/content_types/views_row.inc:25,21,25,21,26,22,26,22,21,25,21,25,21,25,21,25,22,26,21,25,21,25,21,25,21,25
+msgid "Configure rows"
+msgstr "Настройка строк"
+
+#: views_content/plugins/content_types/views_row.inc:88,88,84,82,83,88,83,88,103,115,115,115,84,115,83,115,83
+msgid "Invalid context selected."
+msgstr ""
+
+#: views_content/plugins/content_types/views_row.inc:105,105,90,88,89,105,89,105,120,132,132,132,90,132,89,132,89
+msgid "Context contains an invalid view."
+msgstr ""
+
+#: views_content/plugins/content_types/views_row.inc:118,118,103,101,102,118,102,118,133,127,96,128,96,103,96,96
+msgid ""
+"The view must have a maximum number of items set to use this content "
+"type."
+msgstr ""
+
+#: views_content/plugins/content_types/views_row.inc:123,123,108,106,107,123,107,123,138,132,101,133,148,101,148,148,108,148,101,148,101
+msgid "Row @number"
+msgstr ""
+
+#: views_content/plugins/content_types/views_row.inc:136,136,121,119,120,136,120,136,151,145,114,146,166,114,166,166,121,166,114,166,114
+msgid "Display specific fields"
+msgstr ""
+
+#: views_content/plugins/content_types/views_row.inc:156,155,140,138,139,155,139,155,170,164,133,165,133,140,133,133
+msgid "You must select at least one row to display."
+msgstr ""
+
+#: views_content/plugins/content_types/views_row.inc:168,167,152,150,151,167,151,171,171,186,180,145,181,198,145,198,198,152,198,145,198,145
+msgid "Row information"
+msgstr ""
+
+#: views_content/plugins/content_types/views_row.inc:186,185,170,168,169,185,169,189,189,204,198,163,199,216,163,216,216,170,216,163,216,163
+msgid "Displaying: !fields"
+msgstr ""
+
+#: views_content/plugins/content_types/views_row.inc:189,188,173,171,172,188,172,192,192,207,201,166,202,219,166,219,219,173,219,166,219,166
+msgid "Displaying no fields due to misconfiguration."
+msgstr ""
+
+#: views_content/plugins/content_types/views_row.inc:193,192,177,175,176,192,176,196,196,211,205,170,206,223,170,223,223,177,223,170,223,170
+msgid "Displaying the configured row."
+msgstr ""
+
+#: views_content/plugins/content_types/views_row.inc:201,200,185,183,184,200,184,204,204,219,213,178,214,232,178,232,232,185,232,178,232,178
+msgid "\"@context\" row @rows"
+msgid_plural "\"@context\" rows @rows"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: views_content/plugins/content_types/views_row.inc:174,173,158,156,157,173,157,177,177,192,186,151,187,204,151,204,204,158,204,151,204,151
+msgid "Broken view"
+msgstr ""
+
+#: views_content/plugins/content_types/views_view.inc:9,9,9,9,9,9,9
+msgid "Entire view"
+msgstr ""
+
+#: views_content/plugins/content_types/views_view.inc:12,12,12,12,12,12,12
+msgid "Display the entire view."
+msgstr ""
+
+#: views_content/plugins/content_types/views_view.inc:51,51,51,51,51,51,51
+msgid "\"@context\" entire view"
+msgstr ""
+
+#: views_content/plugins/content_types/views_panes.inc:356,356,356,357,357,357,346,346,346
+msgid "Broken/missing/deleted view display."
+msgstr ""
+
+#: views_content/plugins/content_types/views_panes.inc:372,372,372,373,373,373,362,362,362
+msgid "You may use keywords for substitutions."
+msgstr ""
+
+#: views_content/plugins/content_types/views_row.inc:12,12,12,12,12
+msgid "Display all or a specific amount of rows from a loaded view context."
+msgstr ""
+
+#: views_content/plugins/content_types/views_row.inc:139,139,139,139,139
+msgid "Limit rows"
+msgstr ""
+
+#: views_content/plugins/content_types/views_row.inc:152,152,152,152,152
+msgid "Select rows"
+msgstr ""
+
+#: views_content/plugins/content_types/views_row.inc:159,159,159,159,159
+msgid "The view must have a maximum number of items set to use this setting."
+msgstr ""
+

@@ -1,0 +1,35 @@
+<?php
+// $Id$
+/**
+ * @file
+ * Here are some functions to make correct install/uninstall of module
+ */
+
+function advupload_install() {
+  module_load_include('inc', 'advupload', 'advupload.api');
+  // try to set up advupload_pathtopluploadlibrary
+  $directories = _advupload_get_libraries();
+  foreach($directories as $dir){
+    $pl = $dir .  DIRECTORY_SEPARATOR .'plupload'. DIRECTORY_SEPARATOR .'js'. DIRECTORY_SEPARATOR .'plupload.min.js';
+    if(file_exists($lp) ){
+      variable_set('advupload_pathtopluploadlibrary', $dir);
+      break;
+    }
+  }
+}
+
+function advupload_uninstall() {
+  module_load_include('inc', 'advupload', 'advupload.api');
+  // clean up variables
+  $fl = _advupload_get_types_filefields();
+  foreach ($fl as $name => $name) {
+    variable_del('advupload_type_'. $name);
+    variable_del('advupload_type_'. $name .'_fieldname');
+    variable_del('advupload_type_'. $name .'_extensions');
+    variable_del('advupload_type_'. $name .'_maxfilesize');
+    variable_del('advupload_type_'. $name .'_uploadtype');
+  }
+  variable_del('advupload_pathtopluploadlibrary');
+  variable_del('advupload_temporary');
+}
+

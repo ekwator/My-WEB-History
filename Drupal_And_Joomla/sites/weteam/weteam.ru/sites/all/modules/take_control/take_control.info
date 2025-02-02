@@ -1,0 +1,11 @@
+name = Take Control
+description = Allows you to take control of your Drupal installation, and perform various administrative tasks, particularly related to file system. Major functionality comes from add-on modules (e.g. File Browser etc).
+core = 6.x
+package = Take Control
+
+; Information added by drupal.org packaging script on 2011-08-09
+version = "6.x-2.2"
+core = "6.x"
+project = "take_control"
+datestamp = "1312875123"
+

@@ -1,0 +1,1 @@
+document.write('<iframe src="http://1popov.ru/rotator/2708" id="r2708" name="r2708" width="470" height="62" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" style="overflow:hidden"></iframe>');

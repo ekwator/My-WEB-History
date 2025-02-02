@@ -1,0 +1,1717 @@
+# Russian translation of drupal (6.19)
+# Copyright (c) 2010 by the Russian translation team
+# Generated from files:
+#  install.php,v 1.113.2.12 2010/05/09 14:13:31 dries
+#  taxonomy.admin.inc,v 1.22.2.4 2010/05/28 16:16:45 goba
+#  locale.inc,v 1.174.2.14 2010/08/11 19:42:26 goba
+#  filter.admin.inc,v 1.8.2.1 2008/02/12 14:25:34 goba
+#  menu.admin.inc,v 1.26.2.7 2010/06/02 12:56:20 goba
+#  profile.admin.inc,v 1.8.2.2 2010/03/01 10:20:28 goba
+#  system.admin.inc,v 1.63.2.14 2010/03/01 10:20:28 goba
+#  system.module,v 1.585.2.54 2010/08/11 20:35:48 goba
+#  install.inc,v 1.56.2.4 2009/02/16 10:25:02 goba
+#  common.inc,v 1.756.2.96 2010/08/11 20:35:47 goba
+#  blogapi.module,v 1.115.2.5 2008/10/08 20:12:17 goba
+#  upload.admin.inc,v 1.7 2008/01/10 20:22:57 goba
+#  database.mysql.inc,v 1.89.2.2 2010/02/01 16:32:10 goba
+#  database.mysqli.inc,v 1.54.2.2 2010/02/01 16:32:10 goba
+#  file.inc,v 1.121.2.13 2010/08/11 17:40:55 goba
+#  system.install,v 1.238.2.24 2010/08/06 10:54:12 goba
+#  form.inc,v 1.265.2.34 2010/08/06 11:02:49 goba
+#  filter.module,v 1.204.2.16 2010/08/06 11:20:12 goba
+#  user.module,v 1.892.2.27 2010/08/06 11:58:09 goba
+#  forum-submitted.tpl.php,v 1.3 2007/08/07 08:39:35 goba
+#  translation.pages.inc,v 1.2.2.1 2008/09/30 10:50:43 goba
+#  block.admin.inc,v 1.14.2.5 2008/11/24 06:00:02 dries
+#  book.admin.inc,v 1.8.2.3 2008/10/22 19:26:01 goba
+#  comment.module,v 1.617.2.17 2010/08/11 20:35:47 goba
+#  contact.admin.inc,v 1.3.2.1 2009/12/16 20:47:10 goba
+#  content_types.inc,v 1.50.2.3 2009/09/14 11:51:23 goba
+#  node.pages.inc,v 1.28.2.4 2009/04/27 11:35:01 goba
+#  path.admin.inc,v 1.7.2.1 2008/11/22 10:49:15 dries
+#  user.admin.inc,v 1.18.2.2 2010/03/01 11:15:38 goba
+#  locale.module,v 1.212.2.10 2010/03/04 00:15:28 goba
+#  statistics.admin.inc,v 1.6.2.2 2010/06/02 12:14:48 goba
+#  upload.module,v 1.197.2.7 2010/08/11 20:35:48 goba
+#  aggregator.admin.inc,v 1.7.2.1 2008/04/25 21:11:57 goba
+#  block-admin-display-form.tpl.php,v 1.3 2008/01/16 22:57:26 goba
+#  comment.admin.inc,v 1.4.2.3 2010/01/28 10:15:11 goba
+#  dblog.admin.inc,v 1.6.2.1 2008/09/17 05:47:53 goba
+#  node.admin.inc,v 1.19.2.3 2009/06/08 16:45:34 goba
+#  openid.pages.inc,v 1.5.2.2 2009/09/16 19:34:14 goba
+#  statistics.pages.inc,v 1.2.2.1 2009/04/27 12:08:29 goba
+#  search.module,v 1.250.2.11 2010/08/06 11:18:01 goba
+#  search.info,v 1.4 2007/06/08 05:50:55 dries
+#  menu.install,v 1.9.2.1 2009/01/06 15:46:37 goba
+#  pager.inc,v 1.63.2.1 2009/07/01 20:51:55 goba
+#  book-navigation.tpl.php,v 1.1 2007/11/04 14:29:09 goba
+#  theme.inc,v 1.415.2.27 2010/03/01 10:02:01 goba
+#  batch.inc,v 1.14.2.1 2010/08/06 11:52:19 goba
+#  unicode.inc,v 1.29.2.1 2010/06/30 09:04:38 goba
+#  aggregator.module,v 1.374.2.6 2010/05/28 16:06:59 goba
+#  contact.module,v 1.103.2.2 2009/11/06 07:36:34 goba
+#  block.module,v 1.299.2.4 2009/10/06 12:13:01 goba
+#  book.module,v 1.454.2.6 2009/02/25 11:47:37 goba
+#  forum.module,v 1.448.2.8 2010/03/01 11:32:00 goba
+#  node.module,v 1.947.2.26 2010/08/06 11:41:13 goba
+#  path.module,v 1.138.2.3 2008/11/22 10:49:15 dries
+#  taxonomy.module,v 1.414.2.16 2010/08/06 11:10:57 goba
+#  update.module,v 1.17.2.6 2009/12/16 17:30:00 goba
+#  menu.module,v 1.157.2.6 2009/04/27 12:50:13 goba
+#  aggregator-item.tpl.php,v 1.1 2007/09/13 08:02:38 goba
+#  aggregator.pages.inc,v 1.12.2.1 2008/08/16 21:13:48 dries
+#  forum.admin.inc,v 1.8.2.1 2009/05/26 08:13:00 goba
+#  profile.module,v 1.236.2.3 2009/01/12 10:09:19 goba
+#  aggregator.info,v 1.4 2007/06/08 05:50:53 dries
+#  blog.info,v 1.5 2007/06/08 05:50:53 dries
+#  blogapi.info,v 1.4 2007/06/08 05:50:53 dries
+#  book.info,v 1.5 2007/07/30 18:20:21 dries
+#  color.info,v 1.3 2007/06/08 05:50:54 dries
+#  comment.info,v 1.4 2007/06/08 05:50:54 dries
+#  contact.info,v 1.4 2007/06/08 05:50:54 dries
+#  dblog.info,v 1.2 2007/06/08 05:50:54 dries
+#  forum.info,v 1.6 2007/06/08 05:50:54 dries
+#  help.info,v 1.4 2007/06/08 05:50:54 dries
+#  locale.info,v 1.6 2007/11/05 08:43:48 goba
+#  menu.info,v 1.4 2007/06/08 05:50:55 dries
+#  openid.info,v 1.2 2007/06/22 22:26:43 unconed
+#  path.info,v 1.4 2007/06/08 05:50:55 dries
+#  php.info,v 1.2 2007/06/08 05:50:55 dries
+#  ping.info,v 1.4 2007/06/08 05:50:55 dries
+#  poll.info,v 1.4 2007/06/08 05:50:55 dries
+#  profile.info,v 1.4 2007/06/08 05:50:55 dries
+#  statistics.info,v 1.4 2007/06/08 05:50:56 dries
+#  syslog.info,v 1.2 2007/06/08 05:50:56 dries
+#  taxonomy.info,v 1.4 2007/06/08 05:50:56 dries
+#  throttle.info,v 1.4 2007/06/08 05:50:57 dries
+#  tracker.info,v 1.5 2007/07/04 10:54:26 goba
+#  translation.info,v 1.1 2007/06/15 18:40:14 goba
+#  trigger.info,v 1.1 2007/09/11 14:50:05 goba
+#  update.info,v 1.1 2007/07/11 15:15:40 dries
+#  upload.info,v 1.4 2007/06/08 05:50:57 dries
+#  statistics.module,v 1.272.2.2 2010/06/02 12:14:48 goba
+#  block.info,v 1.4 2007/06/08 05:50:53 dries
+#  throttle.module,v 1.83 2007/12/14 18:08:49 goba
+#  search.admin.inc,v 1.4 2008/01/08 10:35:42 goba
+#  trigger.admin.inc,v 1.5.2.1 2010/08/11 20:35:48 goba
+#  user.pages.inc,v 1.11.2.3 2010/06/02 12:03:07 goba
+#  filter.info,v 1.4 2007/06/08 05:50:54 dries
+#  node.info,v 1.4 2007/06/08 05:50:55 dries
+#  system.info,v 1.4 2007/06/08 05:50:56 dries
+#  user.info,v 1.4 2007/06/08 05:50:57 dries
+#  blog.module,v 1.297.2.4 2009/02/25 12:21:53 goba
+#  color.module,v 1.39.2.2 2009/05/16 16:09:21 dries
+#  comment.pages.inc,v 1.2.2.2 2009/07/01 20:51:55 goba
+#  update.settings.inc,v 1.3.2.1 2009/04/29 17:17:21 goba
+#  trigger.module,v 1.13.2.4 2010/06/30 09:38:50 goba
+#  template.php,v 1.16.2.3 2010/05/11 09:41:22 goba
+#  contact.pages.inc,v 1.6.2.2 2009/04/27 14:48:21 goba
+#  tracker.pages.inc,v 1.5 2007/11/28 10:29:20 dries
+#  forum.install,v 1.16.2.2 2009/01/06 15:46:37 goba
+#  poll.module,v 1.263.2.5 2010/05/11 12:40:43 goba
+#  menu.inc,v 1.255.2.34 2010/02/01 18:00:49 goba
+#  maintenance-page.tpl.php,v 1.2.2.1 2009/04/30 00:13:31 goba
+#  page.tpl.php,v 1.11.2.2 2010/08/06 11:13:42 goba
+#  taxonomy.pages.inc,v 1.9.2.1 2009/04/27 11:49:05 goba
+#  page.tpl.php,v 1.28.2.1 2009/04/30 00:13:31 goba
+#  chameleon.theme,v 1.76.2.1 2009/04/30 00:13:31 goba
+#  page.tpl.php,v 1.25.2.2 2009/04/30 00:13:31 goba
+#  poll.pages.inc,v 1.4 2007/12/14 09:50:41 goba
+#  poll-bar.tpl.php,v 1.2 2007/08/07 08:39:35 goba
+#  profile.pages.inc,v 1.2 2007/12/08 14:06:22 goba
+#  dblog.module,v 1.21.2.3 2010/03/01 10:26:48 goba
+#  tracker.module,v 1.154.2.1 2008/04/09 21:11:51 goba
+#  default.profile,v 1.22 2007/12/17 12:43:34 goba
+#  update.report.inc,v 1.10.2.6 2009/11/06 07:26:21 goba
+#  openid.module,v 1.19.2.11 2010/08/11 20:35:48 goba
+#  color.inc,v 1.4 2007/12/14 17:00:14 goba
+#  bluemarine.info,v 1.4 2007/06/08 05:50:57 dries
+#  system.js,v 1.14.2.2 2009/07/21 08:59:12 goba
+#  syslog.module,v 1.14.2.2 2008/07/24 06:52:43 dries
+#  chameleon.info,v 1.4 2007/07/01 23:27:31 goba
+#  marvin.info,v 1.4 2007/06/08 05:50:57 dries
+#  garland.info,v 1.5 2007/07/01 23:27:32 goba
+#  minnelli.info,v 1.7 2007/12/04 20:58:44 goba
+#  pushbutton.info,v 1.4 2007/06/08 05:50:58 dries
+#  update.fetch.inc,v 1.7.2.7 2009/07/21 08:59:12 goba
+#  mail.inc,v 1.8.2.8 2010/06/02 12:07:24 goba
+#  forum-list.tpl.php,v 1.4 2007/08/30 18:58:12 goba
+#  actions.inc,v 1.8.2.13 2010/08/11 20:35:47 goba
+#  image.inc,v 1.24 2008/01/28 16:05:17 goba
+#  help.module,v 1.78.2.1 2008/04/09 21:11:48 goba
+#  poll-results-block.tpl.php,v 1.2 2007/08/02 20:08:53 dries
+#  poll-results.tpl.php,v 1.2 2007/08/07 08:39:35 goba
+#  blog.pages.inc,v 1.6.2.3 2009/09/14 15:08:00 goba
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: drupal (6.19)\n"
+"POT-Creation-Date: 2010-11-23 21:40+0300\n"
+"PO-Revision-Date: 2010-11-21 14:27+0300\n"
+"Language-Team: Russian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=((((n%10)==1)&&((n%100)!=11))?(0):(((((n%10)>=2)&&((n%10)<=4))&&(((n%100)<10)||((n%100)>=20)))?(1):2));\n"
+
+#: install.php:289; modules/taxonomy/taxonomy.admin.inc:676
+msgid "Advanced options"
+msgstr "Дополнительные настройки"
+
+#: includes/locale.inc:61; modules/filter/filter.admin.inc:351,155; modules/menu/menu.admin.inc:51; modules/profile/profile.admin.inc:44; modules/system/system.admin.inc:771,283,259; modules/system/system.module:1073
+msgid "Save configuration"
+msgstr "Сохранить конфигурацию"
+
+#: install.php:942,930; includes/install.inc:728
+msgid "Currently using !item !version"
+msgstr "Сейчас используется !item !version"
+
+#: includes/common.inc:361; modules/system/system.admin.inc:1651
+msgid ""
+"@site is currently under maintenance. We should be back shortly. Thank "
+"you for your patience."
+msgstr ""
+"Сайт @site сейчас на техническом "
+"обслуживании. Скоро он заработает "
+"вновь. Благодарим вас за терпение."
+
+#: includes/common.inc:1255; modules/blogapi/blogapi.module:749,739; modules/upload/upload.admin.inc:145,136,107,98
+msgid "MB"
+msgstr "МБ"
+
+#: includes/database.mysql.inc:32; includes/database.mysqli.inc:35
+msgid "Your MySQL Server is too old. Drupal requires at least MySQL %version."
+msgstr ""
+"Ваш сервер MySQL устарел. Drupal требует как "
+"минимум MySQL версии %version."
+
+#: includes/file.inc:109; modules/system/system.install:198
+msgid "The directory %directory does not exist."
+msgstr "Каталог %directory не существует."
+
+#: includes/form.inc:715,709; modules/filter/filter.module:546
+msgid ""
+"An illegal choice has been detected. Please contact the site "
+"administrator."
+msgstr ""
+"Была обнаружена ошибка. Пожалуйста "
+"свяжитесь с администратором сайта."
+
+#: includes/form.inc:716; modules/filter/filter.module:547
+msgid "Illegal choice %choice in %name element."
+msgstr "Недопустимый выбор %choice в элементе %name."
+
+#: includes/form.inc:1609; modules/user/user.module:1285,670
+msgid "Password"
+msgstr "Пароль"
+
+#: includes/locale.inc:517; modules/blogapi/blogapi.module:259; modules/filter/filter.module:466; modules/forum/forum-submitted.tpl.php:27; modules/translation/translation.pages.inc:48
+msgid "n/a"
+msgstr "н/д"
+
+#: includes/locale.inc:2077,89; modules/block/block.admin.inc:85; modules/book/book.admin.inc:238; modules/comment/comment.module:826; modules/contact/contact.admin.inc:16; modules/filter/filter.admin.inc:35; modules/menu/menu.admin.inc:101; modules/node/content_types.inc:32; modules/node/node.pages.inc:560; modules/path/path.admin.inc:44; modules/profile/profile.admin.inc:31; modules/system/system.module:1393; modules/user/user.admin.inc:899
+msgid "delete"
+msgstr "удалить"
+
+#: install.php:1088; includes/locale.inc:93; modules/comment/comment.module:553; modules/locale/locale.module:264; modules/menu/menu.admin.inc:294,177; modules/statistics/statistics.admin.inc:185; modules/system/system.admin.inc:2213,2024,1669,1516,1340,1332,1300; modules/system/system.install:282; modules/upload/upload.module:224; modules/user/user.admin.inc:439,421
+msgid "Enabled"
+msgstr "Включено"
+
+#: includes/locale.inc:93; modules/filter/filter.admin.inc:69; modules/system/system.admin.inc:2213
+msgid "Default"
+msgstr "По умолчанию"
+
+#: includes/locale.inc:2062,93; modules/aggregator/aggregator.admin.inc:27,38; modules/block/block-admin-display-form.tpl.php:47; modules/book/book.admin.inc:218,17; modules/comment/comment.admin.inc:58; modules/contact/contact.admin.inc:18; modules/dblog/dblog.admin.inc:170,62; modules/filter/filter.admin.inc:69; modules/menu/menu.admin.inc:180; modules/node/content_types.inc:15; modules/node/node.admin.inc:561; modules/node/node.pages.inc:530; modules/openid/openid.pages.inc:42; modules/path/path.admin.inc:32; modules/profile/profile.admin.inc:152; modules/statistics/statistics.admin.inc:82,17; modules/statistics/statistics.pages.inc:48,16; modules/system/system.admin.inc:2213; modules/system/system.module:1384; modules/taxonomy/taxonomy.admin.inc:612,93; modules/translation/translation.pages.inc:27; modules/user/user.admin.inc:958,921,894,139
+msgid "Operations"
+msgstr "Действия"
+
+#: includes/locale.inc:169; modules/locale/locale.module:88
+msgid "Add language"
+msgstr "Добавить язык"
+
+#: includes/locale.inc:655; modules/locale/locale.module:140
+msgid "Import"
+msgstr "Импорт"
+
+#: includes/locale.inc:758,739; modules/locale/locale.module:148
+msgid "Export"
+msgstr "Экспорт"
+
+#: includes/locale.inc:592,565; modules/locale/locale.module:132; modules/search/search.module:169,1072,1052,159; modules/search/search.info:0
+msgid "Search"
+msgstr "Найти"
+
+#: includes/locale.inc:2062,576,503; modules/locale/locale.module:276,249,230; modules/node/node.admin.inc:559; modules/path/path.admin.inc:36; modules/translation/translation.pages.inc:27
+msgid "Language"
+msgstr "Язык"
+
+#: includes/locale.inc:578; modules/locale/locale.module:250
+msgid "All languages"
+msgstr "Все языки"
+
+#: includes/locale.inc:2076,89; modules/aggregator/aggregator.admin.inc:30,41; modules/book/book.admin.inc:237; modules/comment/comment.admin.inc:71; modules/comment/comment.module:841,830; modules/contact/contact.admin.inc:16; modules/menu/menu.admin.inc:98; modules/node/content_types.inc:28; modules/node/node.admin.inc:496; modules/path/path.admin.inc:44; modules/profile/profile.admin.inc:30; modules/taxonomy/taxonomy.admin.inc:773,769,401,207,203; modules/translation/translation.pages.inc:38; modules/user/user.admin.inc:899,194; modules/user/user.module:2374,1451
+msgid "edit"
+msgstr "изменить"
+
+#: modules/menu/menu.install:12; modules/user/user.module:748,698
+msgid "Navigation"
+msgstr "Навигация"
+
+#: includes/pager.inc:396; modules/book/book-navigation.tpl.php:40
+msgid "Go to previous page"
+msgstr "На предыдущую страницу"
+
+#: includes/pager.inc:397; modules/book/book-navigation.tpl.php:46
+msgid "Go to next page"
+msgstr "На следующую страницу"
+
+#: includes/theme.inc:1482; modules/comment/comment.module:1719,1694
+msgid "new"
+msgstr "новое"
+
+#: includes/theme.inc:1660; modules/user/user.module:832
+msgid "View user profile."
+msgstr "Информация о пользователе."
+
+#: includes/theme.inc:1681; modules/comment/comment.module:1456,1354,1345; modules/node/node.pages.inc:186; modules/system/system.admin.inc:1169; modules/system/system.module:1826; modules/user/user.module:829
+msgid "Anonymous"
+msgstr "Гость"
+
+#: includes/batch.inc:101; includes/unicode.inc:86
+msgid "Error"
+msgstr "Ошибка"
+
+#: modules/aggregator/aggregator.module:99; modules/contact/contact.module:59
+msgid "Add category"
+msgstr "Добавить категорию"
+
+#: modules/aggregator/aggregator.admin.inc:190; modules/aggregator/aggregator.module:108
+msgid "Remove items"
+msgstr "Удалить пункты"
+
+#: modules/aggregator/aggregator.module:124; modules/block/block.module:128; modules/book/book.module:86; modules/contact/contact.module:53; modules/filter/filter.module:79; modules/forum/forum.module:101; modules/locale/locale.module:83; modules/node/node.module:1462,1431; modules/path/path.module:62; modules/system/system.module:326,322,284; modules/taxonomy/taxonomy.module:179,121; modules/update/update.module:137; modules/upload/upload.module:526; modules/user/user.module:1020,968
+msgid "List"
+msgstr "Список"
+
+#: modules/aggregator/aggregator.module:129; modules/book/book.module:90; modules/contact/contact.module:84; modules/forum/forum.module:124; modules/menu/menu.module:71; modules/taxonomy/taxonomy.admin.inc:152; modules/update/update.module:144
+msgid "Settings"
+msgstr "Настройки"
+
+#: modules/aggregator/aggregator-item.tpl.php:42; modules/aggregator/aggregator.module:151
+msgid "Categories"
+msgstr "Категории"
+
+#: modules/aggregator/aggregator.module:157; modules/node/node.module:1488
+msgid "RSS feed"
+msgstr "RSS-лента"
+
+#: modules/aggregator/aggregator.pages.inc:292; modules/aggregator/aggregator.module:164
+msgid "OPML feed"
+msgstr "материал OPML"
+
+#: modules/aggregator/aggregator.module:180,209; modules/node/node.module:1534; modules/user/user.module:1075
+msgid "View"
+msgstr "Просмотр"
+
+#: modules/aggregator/aggregator.pages.inc:227; modules/aggregator/aggregator.module:185,214
+msgid "Categorize"
+msgstr "Разбить по категориям"
+
+#: modules/aggregator/aggregator.module:193,222; modules/filter/filter.module:122; modules/locale/locale.module:96; modules/system/system.module:290
+msgid "Configure"
+msgstr "Настроить"
+
+#: modules/aggregator/aggregator.admin.inc:224,224; modules/block/block.admin.inc:39,39; modules/book/book.module:412,412; modules/system/system.admin.inc:1288,1288; modules/taxonomy/taxonomy.admin.inc:696,696
+msgid "none"
+msgstr "нет"
+
+#: modules/aggregator/aggregator.admin.inc:228; modules/filter/filter.module:687
+msgid "Allowed HTML tags"
+msgstr "Допускаются только следующие HTML теги"
+
+#: modules/aggregator/aggregator.admin.inc:27,38,63,263; modules/book/book.admin.inc:218; modules/filter/filter.module:220; modules/menu/menu.admin.inc:422; modules/node/content_types.inc:58; modules/node/node.admin.inc:557; modules/node/node.module:590; modules/profile/profile.admin.inc:221,147; modules/statistics/statistics.admin.inc:150; modules/translation/translation.pages.inc:27
+msgid "Title"
+msgstr "Заголовок"
+
+#: modules/aggregator/aggregator.admin.inc:269; modules/forum/forum.admin.inc:126,45; modules/menu/menu.admin.inc:428,287; modules/node/content_types.inc:103,15; modules/system/system.admin.inc:2114,2030,1757; modules/system/system.module:1504,1383; modules/taxonomy/taxonomy.admin.inc:670,129; modules/upload/upload.module:526
+msgid "Description"
+msgstr "Описание"
+
+#: modules/aggregator/aggregator.admin.inc:70; modules/profile/profile.module:550,42; modules/statistics/statistics.admin.inc:144; modules/system/system.module:1882
+msgid "URL"
+msgstr "URL"
+
+#: modules/aggregator/aggregator.admin.inc:30; modules/aggregator/aggregator.pages.inc:482; modules/comment/comment.module:396; modules/statistics/statistics.admin.inc:125; modules/user/user.admin.inc:193
+msgid "@time ago"
+msgstr "@time назад"
+
+#: modules/aggregator/aggregator.admin.inc:30; modules/aggregator/aggregator.pages.inc:485; modules/user/user.admin.inc:193
+msgid "never"
+msgstr "никогда"
+
+#: modules/aggregator/aggregator.admin.inc:161,174,325,338; modules/aggregator/aggregator.pages.inc:16; modules/aggregator/aggregator.module:607,641,646,715
+msgid "aggregator"
+msgstr "сбор новостей"
+
+#: modules/aggregator/aggregator.pages.inc:363; modules/node/node.module:1727
+msgid "read more"
+msgstr "подробнее"
+
+#: modules/aggregator/aggregator.admin.inc:30,41; modules/aggregator/aggregator.module:925
+msgid "1 item"
+msgid_plural "@count items"
+msgstr[0] "@count пункт"
+msgstr[1] "@count пункта"
+msgstr[2] "@count[2] пунктов"
+
+#: modules/aggregator/aggregator.info:0
+msgid "Aggregates syndicated content (RSS, RDF, and Atom feeds)."
+msgstr ""
+"Собирает воедино содержимое "
+"информационных лент (RSS, RDF, или Atom)."
+
+#: modules/aggregator/aggregator.info:0; modules/blog/blog.info:0; modules/blogapi/blogapi.info:0; modules/book/book.info:0; modules/color/color.info:0; modules/comment/comment.info:0; modules/contact/contact.info:0; modules/dblog/dblog.info:0; modules/forum/forum.info:0; modules/help/help.info:0; modules/locale/locale.info:0; modules/menu/menu.info:0; modules/openid/openid.info:0; modules/path/path.info:0; modules/php/php.info:0; modules/ping/ping.info:0; modules/poll/poll.info:0; modules/profile/profile.info:0; modules/search/search.info:0; modules/statistics/statistics.info:0; modules/syslog/syslog.info:0; modules/taxonomy/taxonomy.info:0; modules/throttle/throttle.info:0; modules/tracker/tracker.info:0; modules/translation/translation.info:0; modules/trigger/trigger.info:0; modules/update/update.info:0; modules/upload/upload.info:0
+msgid "Core - optional"
+msgstr "Ядро - дополнительные"
+
+#: install.php:1088; modules/block/block.admin.inc:363; modules/comment/comment.module:585,553,501; modules/locale/locale.module:264; modules/statistics/statistics.admin.inc:185; modules/statistics/statistics.module:257; modules/system/system.admin.inc:1669,1516,1340,1332,1314,1300,1283; modules/system/system.install:60; modules/upload/upload.module:224; modules/user/user.admin.inc:439,421
+msgid "Disabled"
+msgstr "Отключено"
+
+#: modules/block/block-admin-display-form.tpl.php:41; modules/block/block.info:0
+msgid "Block"
+msgstr "Блок"
+
+#: includes/locale.inc:93; modules/block/block-admin-display-form.tpl.php:43; modules/book/book.admin.inc:218; modules/book/book.module:387; modules/contact/contact.admin.inc:58; modules/filter/filter.admin.inc:362; modules/forum/forum.admin.inc:134,52; modules/menu/menu.admin.inc:321,179; modules/menu/menu.module:417; modules/node/node.module:1334; modules/profile/profile.admin.inc:265,150; modules/taxonomy/taxonomy.admin.inc:705,171,90; modules/upload/upload.module:526
+msgid "Weight"
+msgstr "Вес"
+
+#: modules/block/block-admin-display-form.tpl.php:45; modules/system/system.admin.inc:2026; modules/throttle/throttle.module:11; modules/throttle/throttle.info:0
+msgid "Throttle"
+msgstr "Регулятор"
+
+#: includes/locale.inc:941,417; modules/aggregator/aggregator.admin.inc:191; modules/block/block.admin.inc:334; modules/comment/comment.admin.inc:248,189; modules/contact/contact.admin.inc:138; modules/filter/filter.admin.inc:252; modules/forum/forum.admin.inc:168; modules/node/node.admin.inc:613,73; modules/node/node.pages.inc:594,574,509; modules/profile/profile.admin.inc:375; modules/search/search.admin.inc:14; modules/system/system.admin.inc:1089,848; modules/system/system.module:1584,1202; modules/taxonomy/taxonomy.admin.inc:913,878,843; modules/trigger/trigger.admin.inc:77; modules/user/user.admin.inc:879; modules/user/user.pages.inc:328; modules/user/user.module:1920
+msgid "Cancel"
+msgstr "Отменить"
+
+#: modules/block/block.info:0
+msgid "Controls the boxes that are displayed around the main content."
+msgstr ""
+"Управляет блоками, которые "
+"расположены вокруг области с основным "
+"содержимым."
+
+#: modules/block/block.info:0; modules/filter/filter.info:0; modules/node/node.info:0; modules/system/system.info:0; modules/user/user.info:0
+msgid "Core - required"
+msgstr "Ядро - обязательное"
+
+#: modules/blog/blog.module:51; modules/blog/blog.info:0
+msgid "Blog"
+msgstr "Блог"
+
+#: modules/blog/blog.info:0
+msgid "Enables keeping easily and regularly updated user web pages or blogs."
+msgstr ""
+"Позволяет создавать легко и регулярно "
+"обновляемые пользователями страницы "
+"или блоги."
+
+#: modules/blogapi/blogapi.info:0
+msgid ""
+"Allows users to post content using applications that support XML-RPC "
+"blog APIs."
+msgstr ""
+"Позволяет пользователям публиковать "
+"материалы на сайте с помощью внешних "
+"приложений с поддержкой API для XML-RPC."
+
+#: modules/book/book.admin.inc:60,44; modules/book/book.module:57
+msgid "Add child page"
+msgstr "Добавить дочернюю страницу"
+
+#: modules/book/book.admin.inc:218; modules/forum/forum.admin.inc:131,50
+msgid "Parent"
+msgstr "Родитель"
+
+#: modules/color/color.module:230; modules/comment/comment.pages.inc:60; modules/comment/comment.module:1399,1396,1392; modules/node/node.pages.inc:405,243
+msgid "Preview"
+msgstr "Предпросмотр"
+
+#: modules/color/color.module:286; modules/node/content_types.inc:325,306,279,208; modules/system/system.admin.inc:554,263; modules/system/system.module:1107,1097,1074; modules/update/update.settings.inc:94
+msgid "Reset to defaults"
+msgstr "Установки по умолчанию"
+
+#: modules/color/color.info:0
+msgid "Allows the user to change the color scheme of certain themes."
+msgstr ""
+"Позволяет пользователям менять "
+"раскраску тем оформления."
+
+#: modules/comment/comment.module:198; modules/trigger/trigger.module:67; themes/garland/template.php:57
+msgid "Comments"
+msgstr "Комментарии"
+
+#: modules/comment/comment.module:560; modules/node/node.admin.inc:54
+msgid "Optional"
+msgstr "Необязательно"
+
+#: modules/comment/comment.module:560; modules/node/node.admin.inc:54; modules/taxonomy/taxonomy.admin.inc:166
+msgid "Required"
+msgstr "Обязательный"
+
+#: modules/comment/comment.admin.inc:110; modules/comment/comment.module:708
+msgid "Comment: updated %subject."
+msgstr "Комментарии: обновлен \"%subject\"."
+
+#: modules/comment/comment.admin.inc:40; modules/node/node.admin.inc:464; modules/user/user.admin.inc:158
+msgid "Update options"
+msgstr "Обновить параметры"
+
+#: modules/comment/comment.admin.inc:48; modules/node/node.admin.inc:479; modules/user/user.admin.inc:173,114
+msgid "Update"
+msgstr "Обновить"
+
+#: modules/comment/comment.admin.inc:54; modules/comment/comment.module:1362; modules/contact/contact.pages.inc:187,55; modules/forum/forum.module:305; modules/system/system.module:1653; modules/user/user.admin.inc:401,376,351,326,306,286,266
+msgid "Subject"
+msgstr "Тема"
+
+#: modules/comment/comment.admin.inc:55; modules/node/node.admin.inc:557; modules/tracker/tracker.pages.inc:65
+msgid "Author"
+msgstr "Автор"
+
+#: modules/comment/comment.admin.inc:57; modules/statistics/statistics.pages.inc:13
+msgid "Time"
+msgstr "Время"
+
+#: modules/comment/comment.admin.inc:114; modules/node/node.admin.inc:424,372; modules/user/user.admin.inc:223
+msgid "The update has been performed."
+msgstr "Обновление было выполнено."
+
+#: modules/aggregator/aggregator.admin.inc:189; modules/comment/comment.admin.inc:188; modules/contact/contact.admin.inc:138; modules/menu/menu.admin.inc:468; modules/node/content_types.inc:391; modules/node/node.admin.inc:612; modules/node/node.pages.inc:594,507; modules/system/system.module:1193; modules/user/user.admin.inc:877; modules/user/user.module:1919
+msgid "This action cannot be undone."
+msgstr "Это действие нельзя будет отменить."
+
+#: modules/comment/comment.module:1193; modules/node/node.module:809
+msgid "You have to specify a valid date."
+msgstr "Вы должны задать правильную дату."
+
+#: modules/comment/comment.module:1309,1293; modules/node/node.pages.inc:181
+msgid "Authored by"
+msgstr "Автор"
+
+#: modules/comment/comment.module:1356,1348,1317; modules/user/user.admin.inc:810,754
+msgid "E-mail"
+msgstr "E-Mail"
+
+#: modules/comment/comment.module:1356,1348,1321; modules/profile/profile.module:341
+msgid ""
+"The content of this field is kept private and will not be shown "
+"publicly."
+msgstr ""
+"Содержание этого поля является "
+"приватным и не предназначено к показу."
+
+#: modules/comment/comment.module:1333; modules/node/node.pages.inc:190
+msgid "Authored on"
+msgstr "Время создания"
+
+#: modules/comment/comment.module:1335; modules/node/node.admin.inc:557; modules/translation/translation.pages.inc:27; modules/user/user.admin.inc:917,135; modules/user/user.module:1517
+msgid "Status"
+msgstr "Статус"
+
+#: modules/comment/comment.module:1335; modules/node/content_types.inc:157; modules/node/node.pages.inc:210; modules/translation/translation.pages.inc:40
+msgid "Published"
+msgstr "Опубликовано"
+
+#: modules/comment/comment.module:1335; modules/translation/translation.pages.inc:40
+msgid "Not published"
+msgstr "Не опубликовано"
+
+#: modules/comment/comment.module:1354,1345,1339; modules/contact/contact.pages.inc:43
+msgid "Your name"
+msgstr "Ваше имя"
+
+#: modules/comment/comment.module:1374; modules/comment/comment.info:0
+msgid "Comment"
+msgstr "Комментарий"
+
+#: includes/locale.inc:472; modules/comment/comment.module:1633
+msgid "Save settings"
+msgstr "Сохранить настройки"
+
+#: modules/comment/comment.module:1871; modules/forum/forum.admin.inc:204
+msgid "Date - newest first"
+msgstr "По дате - сначала новые"
+
+#: modules/comment/comment.module:1872; modules/forum/forum.admin.inc:204
+msgid "Date - oldest first"
+msgstr "По дате - сначала старые"
+
+#: modules/comment/comment.module:625,419; modules/node/node.module:144
+msgid "1 comment"
+msgid_plural "@count comments"
+msgstr[0] "@count комментарий"
+msgstr[1] "@count комментария"
+msgstr[2] "@count[2] комментариев"
+
+#: modules/comment/comment.info:0
+msgid "Allows users to comment on and discuss published content."
+msgstr ""
+"Позволяет пользователям "
+"комментировать и обсуждать "
+"опубликованные материалы."
+
+#: modules/contact/contact.module:100,93; modules/contact/contact.info:0
+msgid "Contact"
+msgstr "Форма контактов"
+
+#: modules/contact/contact.admin.inc:64,16; modules/upload/upload.admin.inc:80; modules/user/user.module:2234
+msgid "Yes"
+msgstr "Да"
+
+#: modules/contact/contact.admin.inc:64,16; modules/upload/upload.admin.inc:80; modules/user/user.module:2235
+msgid "No"
+msgstr "Нет"
+
+#: modules/contact/contact.admin.inc:40,18; modules/contact/contact.pages.inc:67; modules/profile/profile.admin.inc:214,149
+msgid "Category"
+msgstr "Категория"
+
+#: modules/contact/contact.admin.inc:63,18; modules/system/system.admin.inc:2155
+msgid "Selected"
+msgstr "Выбрано"
+
+#: modules/contact/contact.admin.inc:83; modules/profile/profile.admin.inc:302
+msgid "You must enter a category."
+msgstr "Вы должны указать категорию."
+
+#: modules/contact/contact.admin.inc:157; modules/contact/contact.pages.inc:41
+msgid "You can leave a message using the contact form below."
+msgstr ""
+"Вы можете оставить сообщение, "
+"используя форму контактов, "
+"расположенную ниже."
+
+#: modules/contact/contact.pages.inc:192,81; modules/dblog/dblog.admin.inc:158,108,60; modules/system/system.module:1806,1660
+msgid "Message"
+msgstr "Сообщение"
+
+#: modules/contact/contact.pages.inc:200,95; modules/system/system.module:1336
+msgid "Send e-mail"
+msgstr "Отправить почту"
+
+#: modules/contact/contact.info:0
+msgid "Enables the use of both personal and site-wide contact forms."
+msgstr ""
+"Позволяет использовать формы для "
+"отправки сообщений (общую для всего "
+"сайта и персональные)."
+
+#: modules/filter/filter.admin.inc:81; modules/filter/filter.module:83
+msgid "Add input format"
+msgstr "Добавить формат ввода"
+
+#: modules/filter/filter.module:225,224,223,222,221,220; modules/system/system.module:0
+msgid "Header"
+msgstr "Заголовок"
+
+#: modules/filter/filter.admin.inc:362,102,69; modules/node/content_types.inc:72,15; modules/profile/profile.admin.inc:147; modules/system/system.admin.inc:2213,2155,2113,2028,1136; modules/taxonomy/taxonomy.admin.inc:612,88; modules/trigger/trigger.admin.inc:238; modules/user/user.admin.inc:958
+msgid "Name"
+msgstr "Название"
+
+#: modules/filter/filter.admin.inc:110,69; modules/user/user.admin.inc:918,136; modules/user/user.module:998,1542
+msgid "Roles"
+msgstr "Роли"
+
+#: modules/filter/filter.admin.inc:146; modules/filter/filter.module:603
+msgid "More information about formatting options"
+msgstr "Подробнее о форматировании"
+
+#: modules/filter/filter.admin.inc:153; modules/filter/filter.module:527
+msgid "Formatting guidelines"
+msgstr "Инструкции по форматированию"
+
+#: modules/filter/filter.info:0
+msgid "Handles the filtering of content in preparation for display."
+msgstr ""
+"Производит фильтрацию содержания при "
+"подготовке его к показу."
+
+#: modules/forum/forum.module:93,86; modules/forum/forum.install:115,27
+msgid "Forums"
+msgstr "Форумы"
+
+#: modules/forum/forum.admin.inc:276; modules/taxonomy/taxonomy.admin.inc:695
+msgid "root"
+msgstr "корень"
+
+#: modules/forum/forum.module:560,560; modules/tracker/tracker.pages.inc:65,65
+msgid "Replies"
+msgstr "Ответов"
+
+#: modules/forum/forum.module:823,761; modules/tracker/tracker.pages.inc:48
+msgid "1 new"
+msgid_plural "@count new"
+msgstr[0] "@count новый"
+msgstr[1] "@count новых"
+msgstr[2] "@count[2] новых"
+
+#: modules/forum/forum.info:0
+msgid "Enables threaded discussions about general topics."
+msgstr ""
+"Позволяет проводить обсуждения с "
+"разбивкой по темам."
+
+#: modules/help/help.info:0
+msgid "Manages the display of online help."
+msgstr "Управляет показом онлайновой справки."
+
+#: modules/taxonomy/taxonomy.module:112; modules/taxonomy/taxonomy.info:0; modules/trigger/trigger.module:76
+msgid "Taxonomy"
+msgstr "Таксономия"
+
+#: modules/locale/locale.module:111; modules/system/system.module:1214
+msgid "Confirm"
+msgstr "Подтвердить"
+
+#: modules/locale/locale.module:0; modules/system/system.admin.inc:1524
+msgid "Wednesday"
+msgstr "Среда"
+
+#: modules/locale/locale.module:0; modules/system/system.admin.inc:1524
+msgid "Thursday"
+msgstr "Четверг"
+
+#: modules/locale/locale.module:0; modules/system/system.admin.inc:1524
+msgid "Friday"
+msgstr "Пятница"
+
+#: modules/locale/locale.module:0; modules/system/system.admin.inc:1524
+msgid "Saturday"
+msgstr "Суббота"
+
+#: modules/locale/locale.module:0; modules/system/system.admin.inc:1524
+msgid "Sunday"
+msgstr "Воскресенье"
+
+#: modules/locale/locale.module:0; modules/system/system.admin.inc:1524
+msgid "Monday"
+msgstr "Понедельник"
+
+#: modules/locale/locale.module:0; modules/system/system.admin.inc:1524
+msgid "Tuesday"
+msgstr "Вторник"
+
+#: modules/menu/menu.admin.inc:231; modules/menu/menu.module:367
+msgid "Menu settings"
+msgstr "Параметры меню"
+
+#: modules/book/book.module:349; modules/menu/menu.admin.inc:313; modules/menu/menu.module:407
+msgid "Parent item"
+msgstr "Родительский пункт"
+
+#: modules/menu/menu.admin.inc:324; modules/menu/menu.module:420
+msgid ""
+"Optional. In the menu, the heavier items will sink and the lighter "
+"items will be positioned nearer the top."
+msgstr ""
+"Опционально. Более тяжелые пункты в "
+"меню будут опускаться вниз, а легкие "
+"подниматься наверх."
+
+#: modules/menu/menu.admin.inc:275,259; modules/path/path.info:0
+msgid "Path"
+msgstr "Адрес"
+
+#: modules/dblog/dblog.admin.inc:325,295; modules/menu/menu.admin.inc:593; modules/node/node.admin.inc:328,250; modules/path/path.admin.inc:212; modules/user/user.admin.inc:111,82
+msgid "Reset"
+msgstr "Сбросить"
+
+#: modules/menu/menu.admin.inc:584,502; modules/node/content_types.inc:404
+msgid "menu"
+msgstr "меню"
+
+#: modules/menu/menu.info:0
+msgid "Allows administrators to customize the site navigation menu."
+msgstr ""
+"Позволяет администраторам "
+"настраивать меню на сайте."
+
+#: modules/dblog/dblog.admin.inc:223,138,58; modules/node/content_types.inc:95,81,15; modules/node/node.admin.inc:557; modules/profile/profile.admin.inc:147; modules/taxonomy/taxonomy.admin.inc:88; modules/tracker/tracker.pages.inc:65
+msgid "Type"
+msgstr "Тип"
+
+#: modules/node/content_types.inc:59; modules/node/node.module:597; modules/user/user.admin.inc:407,382,357,332,312,292,272
+msgid "Body"
+msgstr "Содержимое"
+
+#: modules/node/content_types.inc:69; modules/taxonomy/taxonomy.admin.inc:658,118
+msgid "Identification"
+msgstr "Идентификация"
+
+#: modules/node/content_types.inc:158; modules/node/node.pages.inc:215
+msgid "Promoted to front page"
+msgstr "Помещать на главную"
+
+#: modules/node/content_types.inc:159; modules/node/node.pages.inc:220
+msgid "Sticky at top of lists"
+msgstr "Закреплять вверху списков"
+
+#: modules/node/content_types.inc:160; modules/node/node.pages.inc:158
+msgid "Create new revision"
+msgstr "Создать новую редакцию"
+
+#: modules/node/node.module:1475,1422,1148; modules/system/system.module:0; modules/trigger/trigger.module:49
+msgid "Content"
+msgstr "Содержимое"
+
+#: modules/node/node.admin.inc:73,23; modules/node/node.module:1445
+msgid "Rebuild permissions"
+msgstr "Обновить права доступа"
+
+#: modules/node/node.admin.inc:35; modules/poll/poll.module:250
+msgid "Unlimited"
+msgstr "Не ограничено"
+
+#: modules/node/node.module:1455; modules/taxonomy/taxonomy.admin.inc:145,141
+msgid "Content types"
+msgstr "Типы содержимого"
+
+#: modules/node/node.admin.inc:313,247; modules/user/user.admin.inc:98,73
+msgid "Refine"
+msgstr "Отбор"
+
+#: modules/node/node.admin.inc:325,249; modules/user/user.admin.inc:108,78
+msgid "Undo"
+msgstr "Отмена"
+
+#: modules/node/node.admin.inc:286; modules/user/user.admin.inc:1002
+msgid "and"
+msgstr "и"
+
+#: modules/node/node.admin.inc:286; modules/user/user.admin.inc:1002
+msgid "where"
+msgstr "где"
+
+#: modules/node/node.admin.inc:292; modules/user/user.admin.inc:1008
+msgid "is"
+msgstr "есть"
+
+#: modules/node/node.admin.inc:582; modules/tracker/tracker.pages.inc:62
+msgid "No posts available."
+msgstr "Материалы отсутствуют."
+
+#: modules/node/node.admin.inc:613; modules/user/user.module:1920
+msgid "Delete all"
+msgstr "Удалить всё"
+
+#: includes/menu.inc:1535; modules/blog/blog.module:109; modules/book/book.module:625; modules/comment/comment.pages.inc:53; modules/forum/forum.module:647,198; modules/system/maintenance-page.tpl.php:42,35,34; modules/system/page.tpl.php:108,101,100; modules/taxonomy/taxonomy.pages.inc:40; themes/bluemarine/page.tpl.php:20,19; themes/chameleon/chameleon.theme:42; themes/pushbutton/page.tpl.php:27,21
+msgid "Home"
+msgstr "Главная"
+
+#: modules/node/node.info:0
+msgid "Allows content to be submitted to the site and displayed on pages."
+msgstr ""
+"Позволяет добавлять материалы и "
+"отображать их на страницах сайта."
+
+#: modules/path/path.admin.inc:31; modules/system/system.info:0
+msgid "System"
+msgstr "Система"
+
+#: modules/path/path.info:0
+msgid "Allows users to rename URLs."
+msgstr "Позволяет переименовывать ссылки."
+
+#: modules/ping/ping.info:0
+msgid "Alerts other sites when your site has been updated."
+msgstr ""
+"Оповещает другие сайты при обновлении "
+"вашего сайта."
+
+#: modules/poll/poll.module:172,147; modules/poll/poll.info:0
+msgid "Poll"
+msgstr "Опрос"
+
+#: modules/poll/poll.module:251; modules/user/user.module:1519
+msgid "Active"
+msgstr "Активный"
+
+#: modules/poll/poll.pages.inc:35; modules/poll/poll.module:562
+msgid "Vote"
+msgstr "Голосовать"
+
+#: modules/poll/poll.pages.inc:34; modules/statistics/statistics.admin.inc:80
+msgid "Visitor"
+msgstr "Посетитель"
+
+#: modules/poll/poll-bar.tpl.php:25; modules/poll/poll.pages.inc:20
+msgid "1 vote"
+msgid_plural "@count votes"
+msgstr[0] "@count голос"
+msgstr[1] "@count голоса"
+msgstr[2] "@count[2] голосов"
+
+#: modules/poll/poll.info:0
+msgid ""
+"Allows your site to capture votes on different topics in the form of "
+"multiple choice questions."
+msgstr ""
+"Позволяет проводить на сайте опрос по "
+"различным темам, с возможностью "
+"выбора нескольких вариантов ответа "
+"одновременно."
+
+#: modules/profile/profile.pages.inc:102; modules/profile/profile.module:80
+msgid "User list"
+msgstr "Список пользователей"
+
+#: modules/profile/profile.info:0
+msgid "Supports configurable user profiles."
+msgstr ""
+"Поддерживает настраиваемые анкетные "
+"данные (профили) пользователей."
+
+#: modules/search/search.info:0
+msgid "Enables site-wide keyword searching."
+msgstr ""
+"Позволяет проводить на сайте поиск по "
+"ключевым словам."
+
+#: modules/dblog/dblog.module:79; modules/statistics/statistics.module:127
+msgid "Details"
+msgstr "Подробности"
+
+#: modules/statistics/statistics.admin.inc:188; modules/statistics/statistics.module:136
+msgid "Access log settings"
+msgstr "Настройки журнала доступа"
+
+#: modules/statistics/statistics.module:155; modules/tracker/tracker.module:46
+msgid "Track"
+msgstr "Следить"
+
+#: modules/dblog/dblog.admin.inc:154; modules/statistics/statistics.admin.inc:154; modules/statistics/statistics.pages.inc:14
+msgid "Referrer"
+msgstr "Источник отсылки"
+
+#: modules/dblog/dblog.admin.inc:146,61; modules/statistics/statistics.admin.inc:162,16; modules/statistics/statistics.pages.inc:15; modules/user/user.info:0
+msgid "User"
+msgstr "Пользователь"
+
+#: modules/dblog/dblog.admin.inc:166; modules/statistics/statistics.admin.inc:166; modules/user/user.admin.inc:821
+msgid "Hostname"
+msgstr "Имя хоста"
+
+#: modules/statistics/statistics.admin.inc:14; modules/statistics/statistics.pages.inc:46
+msgid "Timestamp"
+msgstr "Дата/время"
+
+#: modules/statistics/statistics.admin.inc:51,15; modules/statistics/statistics.pages.inc:47; profiles/default/default.profile:100
+msgid "Page"
+msgstr "Страница"
+
+#: modules/statistics/statistics.info:0
+msgid "Logs access statistics for your site."
+msgstr ""
+"Журнал статистики доступа к вашему "
+"сайту."
+
+#: modules/system/system.admin.inc:166; modules/system/system.module:265
+msgid "Administration theme"
+msgstr "Тема админки"
+
+#: modules/system/system.module:276; modules/update/update.report.inc:221
+msgid "Themes"
+msgstr "Темы оформления"
+
+#: modules/system/system.module:314; modules/update/update.report.inc:220
+msgid "Modules"
+msgstr "Модули"
+
+#: modules/system/system.admin.inc:2112,1088,1043; modules/system/system.module:337,331
+msgid "Uninstall"
+msgstr "Удалить"
+
+#: install.php:1020; modules/system/system.module:380
+msgid "Site information"
+msgstr "О сайте"
+
+#: modules/system/system.admin.inc:1234; modules/system/system.module:388
+msgid "Error reporting"
+msgstr "Сообщения об ошибках"
+
+#: modules/system/system.module:411; modules/system/system.install:184
+msgid "File system"
+msgstr "Файловая система"
+
+#: install.php:1086; modules/system/system.admin.inc:1667; modules/system/system.module:458
+msgid "Clean URLs"
+msgstr "Чистые ссылки"
+
+#: modules/system/system.module:499; modules/system/system.install:36
+msgid "PHP"
+msgstr "PHP"
+
+#: modules/system/system.admin.inc:1501; modules/system/system.module:559
+msgid "Locale settings"
+msgstr "Языковые настройки"
+
+#: modules/system/system.admin.inc:215; modules/system/system.module:713
+msgid "Screenshot for %theme theme"
+msgstr "Скриншот для темы %theme"
+
+#: modules/system/system.admin.inc:215; modules/system/system.module:713
+msgid "no screenshot"
+msgstr "скриншот отсутствует"
+
+#: install.php:1057; modules/system/system.admin.inc:1143; modules/user/user.module:1494
+msgid "E-mail address"
+msgstr "E-mail адрес"
+
+#: install.php:1077; modules/system/system.admin.inc:1506
+msgid "Default time zone"
+msgstr "Часовой пояс по умолчанию"
+
+#: modules/system/system.admin.inc:556; modules/system/system.module:1108
+msgid "The configuration options have been reset to their default values."
+msgstr ""
+"Настройки сброшены к значениям по "
+"умолчанию."
+
+#: modules/system/system.admin.inc:936,562,313; modules/system/system.module:1111
+msgid "The configuration options have been saved."
+msgstr "Конфигурация сохранена"
+
+#: modules/system/system.admin.inc:702; modules/update/update.report.inc:192
+msgid "Depends on: !dependencies"
+msgstr "Зависит от: !dependencies"
+
+#: modules/system/system.admin.inc:725; modules/update/update.report.inc:202
+msgid "Required by: !required"
+msgstr "Требуется для: !required"
+
+#: install.php:1025; modules/system/system.admin.inc:385
+msgid "Site name"
+msgstr "Название сайта"
+
+#: modules/system/system.install:232; modules/update/update.report.inc:84; modules/update/update.module:284
+msgid "Up to date"
+msgstr "Обновлено"
+
+#: modules/system/system.install:242; modules/update/update.module:274
+msgid "Out of date"
+msgstr "Устаревшее"
+
+#: modules/system/system.info:0
+msgid "Handles general site configuration for administrators."
+msgstr ""
+"Отображает основные настройки сайта "
+"для администраторов."
+
+#: modules/taxonomy/taxonomy.info:0
+msgid "Enables the categorization of content."
+msgstr ""
+"Позволяет упорядочить материалы по "
+"категориям."
+
+#: modules/throttle/throttle.module:104; modules/user/user.module:792,789
+msgid "1 user"
+msgid_plural "@count users"
+msgstr[0] "@count пользователь"
+msgstr[1] "@count пользователя"
+msgstr[2] "@count[2] пользователей"
+
+#: modules/throttle/throttle.info:0
+msgid "Handles the auto-throttling mechanism, to control site congestion."
+msgstr ""
+"Поддерживает механизм "
+"авто-регулятора для контроля нагрузки "
+"на сайт."
+
+#: modules/tracker/tracker.info:0
+msgid "Enables tracking of recent posts for users."
+msgstr ""
+"Позволяет пользователям следить за "
+"изменениями на сайте."
+
+#: modules/blogapi/blogapi.module:726; modules/upload/upload.admin.inc:86
+msgid "Default permitted file extensions"
+msgstr ""
+"Допустимые по умолчанию расширения "
+"файлов"
+
+#: modules/blogapi/blogapi.module:729; modules/upload/upload.admin.inc:89
+msgid ""
+"Default extensions that users can upload. Separate extensions with a "
+"space and do not include the leading dot."
+msgstr ""
+"Расширения файлов, разрешенные для "
+"загрузки на сайт. Разделяйте "
+"расширения пробелами и не указывайте "
+"точку."
+
+#: modules/blogapi/blogapi.module:734; modules/upload/upload.admin.inc:93
+msgid "Default maximum file size per upload"
+msgstr ""
+"Максимальный размер загружаемого "
+"файла по умолчанию"
+
+#: modules/blogapi/blogapi.module:744; modules/upload/upload.admin.inc:102
+msgid "Default total file size per user"
+msgstr ""
+"Общий объем файлов для каждого "
+"пользователя"
+
+#: modules/blogapi/blogapi.module:748; modules/upload/upload.admin.inc:106
+msgid "The default maximum size of all files a user can have on the site."
+msgstr ""
+"Начальное значение объема файлов, "
+"максимально доступного для загрузки "
+"пользователем."
+
+#: modules/blogapi/blogapi.module:752; modules/upload/upload.admin.inc:110,17
+msgid "Your PHP settings limit the maximum file size per upload to %size."
+msgstr ""
+"Настройки PHP ограничивают максимально "
+"возможный размер загружаемого файла "
+"значением в %size Mбайт."
+
+#: modules/blogapi/blogapi.module:760; modules/upload/upload.admin.inc:118
+msgid "Settings for @role"
+msgstr "Настройки для @role"
+
+#: modules/blogapi/blogapi.module:766; modules/upload/upload.admin.inc:124
+msgid "Permitted file extensions"
+msgstr "Разрешенные расширения файлов"
+
+#: modules/blogapi/blogapi.module:769; modules/upload/upload.admin.inc:127
+msgid ""
+"Extensions that users in this role can upload. Separate extensions "
+"with a space and do not include the leading dot."
+msgstr ""
+"Расширения, которые пользователи "
+"данной роли могут закачивать. "
+"Разделяйте расширения пробелами, не "
+"указывая точку."
+
+#: modules/blogapi/blogapi.module:773; modules/upload/upload.admin.inc:131
+msgid "Maximum file size per upload"
+msgstr "Максимальный размер файла для закачки"
+
+#: modules/blogapi/blogapi.module:781; modules/upload/upload.admin.inc:140
+msgid "Total file size per user"
+msgstr "Общий размер файлов для пользователя"
+
+#: modules/upload/upload.info:0
+msgid "Allows users to upload and attach files to content."
+msgstr ""
+"Позволяет пользователям закачивать и "
+"прикреплять файлы к материалам сайта."
+
+#: modules/trigger/trigger.module:58; modules/user/user.module:960,579
+msgid "Users"
+msgstr "Пользователи"
+
+#: modules/user/user.admin.inc:919,137; modules/user/user.module:634
+msgid "Member for"
+msgstr "Время участия"
+
+#: install.php:1049; modules/node/node.module:2720,2711; modules/user/user.admin.inc:916,799,754,134; modules/user/user.module:1486,1277,664
+msgid "Username"
+msgstr "Имя пользователя"
+
+#: modules/user/user.pages.inc:125; modules/user/user.module:918,1290,676
+msgid "Log in"
+msgstr "Вход"
+
+#: modules/user/user.admin.inc:13; modules/user/user.module:924,2504,680
+msgid "Create new account"
+msgstr "Регистрация"
+
+#: modules/user/user.admin.inc:726; modules/user/user.module:1025
+msgid "Add rule"
+msgstr "Добавить правило"
+
+#: modules/user/user.pages.inc:347,278,349,280; modules/user/user.module:2352,1839
+msgid "Detected malicious attempt to alter protected user fields."
+msgstr ""
+"Обнаружена попытка изменить "
+"защищенные поля учётной записи."
+
+#: modules/user/user.admin.inc:572; modules/user/user.pages.inc:363,297
+msgid "The changes have been saved."
+msgstr "Изменения сохранены."
+
+#: modules/user/user.admin.inc:591; modules/user/user.module:2016
+msgid "@module module"
+msgstr "модуль @module"
+
+#: modules/openid/openid.module:476; modules/user/user.admin.inc:243
+msgid "Only site administrators can create new user accounts."
+msgstr ""
+"Только администраторы могут "
+"создавать новые учетные записи "
+"пользователей."
+
+#: modules/user/user.info:0
+msgid "Manages the user registration and login system."
+msgstr ""
+"Управляет регистрацией и "
+"авторизацией на сайте."
+
+#: includes/common.inc:3685; modules/dblog/dblog.admin.inc:37; modules/update/update.report.inc:65,53
+msgid "warning"
+msgstr "предупреждение"
+
+#: themes/garland/color/color.inc:9; themes/garland/minnelli/color/color.inc:9
+msgid "Ash"
+msgstr "Зола"
+
+#: themes/garland/color/color.inc:10; themes/garland/minnelli/color/color.inc:10
+msgid "Aquamarine"
+msgstr "Аквамарин"
+
+#: themes/garland/color/color.inc:11; themes/garland/minnelli/color/color.inc:11
+msgid "Belgian Chocolate"
+msgstr "Бельгийский шоколад"
+
+#: themes/bluemarine/bluemarine.info:0; themes/garland/color/color.inc:12; themes/garland/minnelli/color/color.inc:12
+msgid "Bluemarine"
+msgstr "Bluemarine"
+
+#: themes/garland/color/color.inc:13; themes/garland/minnelli/color/color.inc:13
+msgid "Citrus Blast"
+msgstr "Цитрусовый взрыв"
+
+#: themes/garland/color/color.inc:14; themes/garland/minnelli/color/color.inc:14
+msgid "Cold Day"
+msgstr "Холодный день"
+
+#: themes/garland/color/color.inc:15,15,15; themes/garland/minnelli/color/color.inc:15,15,15
+msgid "Greenbeam"
+msgstr "Greenbeam"
+
+#: themes/garland/color/color.inc:16; themes/garland/minnelli/color/color.inc:16
+msgid "Mediterrano"
+msgstr "Средиземноморский"
+
+#: themes/garland/color/color.inc:17; themes/garland/minnelli/color/color.inc:17
+msgid "Mercury"
+msgstr "Ртуть"
+
+#: themes/garland/color/color.inc:18; themes/garland/minnelli/color/color.inc:18
+msgid "Nocturnal"
+msgstr "Ночной"
+
+#: themes/garland/color/color.inc:19; themes/garland/minnelli/color/color.inc:19
+msgid "Olivia"
+msgstr "Оливковый"
+
+#: themes/garland/color/color.inc:20; themes/garland/minnelli/color/color.inc:20
+msgid "Pink Plastic"
+msgstr "Розовый пластик"
+
+#: themes/garland/color/color.inc:21; themes/garland/minnelli/color/color.inc:21
+msgid "Shiny Tomato"
+msgstr "Блестящий томат"
+
+#: themes/garland/color/color.inc:22; themes/garland/minnelli/color/color.inc:22
+msgid "Teal Top"
+msgstr "Teal Top"
+
+#: modules/aggregator/aggregator.admin.inc:99,113,272,286; modules/comment/comment.module:1393,1392; modules/contact/contact.admin.inc:72; modules/forum/forum.admin.inc:145,58; modules/menu/menu.admin.inc:433,326; modules/node/node.pages.inc:237; modules/system/system.module:1533; modules/taxonomy/taxonomy.admin.inc:760,715,414,185,37; modules/user/user.pages.inc:257
+msgid "Save"
+msgstr "Сохранить"
+
+#: includes/locale.inc:2062; modules/locale/locale.module:76,592
+msgid "Languages"
+msgstr "Языки"
+
+#: modules/system/system.module:603; modules/user/user.module:2226
+msgid "Medium"
+msgstr "Средний"
+
+#: includes/form.inc:2461; modules/node/node.admin.inc:357
+msgid "Processing"
+msgstr "Обработка..."
+
+#: modules/openid/openid.pages.inc:64,42; modules/openid/openid.info:0
+msgid "OpenID"
+msgstr "OpenID"
+
+#: install.php:1051; modules/user/user.module:1489
+msgid ""
+"Spaces are allowed; punctuation is not allowed except for periods, "
+"hyphens, and underscores."
+msgstr ""
+"Ваше имя пользователя; не применяйте в "
+"нем знаков пунктуации за исключением "
+"точек, знаков переноса и "
+"подчеркивания."
+
+#: install.php:737; modules/system/system.admin.inc:1684; modules/system/system.js:0
+msgid "Your server has been successfully tested to support this feature."
+msgstr ""
+"Ваш сервер был успешно протестирован "
+"и может использовать эту функцию"
+
+#: install.php:737; modules/system/system.js:0
+msgid ""
+"Your system configuration does not currently support this feature. The "
+"<a href=\"http://drupal.org/node/15365\">handbook page on Clean "
+"URLs</a> has additional troubleshooting information."
+msgstr ""
+"Конфигурация вашей системы на данный "
+"момент не поддерживает этой функции. "
+"Дополнительная информация доступна "
+"на <a href=\"http://drupal.org/node/15365\">страницы "
+"документации о Clean URLs</a>."
+
+#: install.php:737; modules/system/system.js:0
+msgid "Testing clean URLs..."
+msgstr "Тестирование чистых URL-ов..."
+
+#: install.php:1089; modules/system/system.admin.inc:1670
+msgid ""
+"This option makes Drupal emit \"clean\" URLs (i.e. without "
+"<code>?q=</code> in the URL)."
+msgstr ""
+"Эта настройка позволяет Drupal "
+"использовать \"чистые\" ссылки (т.е. без "
+"<code>?q=</code> в ссылках)."
+
+#: includes/common.inc:3681; modules/dblog/dblog.admin.inc:41
+msgid "emergency"
+msgstr "аварийное"
+
+#: includes/common.inc:3682; modules/dblog/dblog.admin.inc:40
+msgid "alert"
+msgstr "предупреждение"
+
+#: includes/common.inc:3683; modules/dblog/dblog.admin.inc:39
+msgid "critical"
+msgstr "критическая"
+
+#: includes/file.inc:136; modules/user/user.pages.inc:347,278; modules/user/user.module:2352,1839
+msgid "security"
+msgstr "безопасность"
+
+#: includes/form.inc:716,710; modules/filter/filter.module:547
+msgid "form"
+msgstr "форма"
+
+#: modules/book/book.admin.inc:36; modules/book/book.module:43
+msgid "add content to books"
+msgstr "добавлять материалы в подшивки"
+
+#: modules/book/book.admin.inc:36; modules/book/book.module:43
+msgid "administer book outlines"
+msgstr "управлять подшивками"
+
+#: modules/book/book.info:0
+msgid "Allows users to structure site pages in a hierarchy or outline."
+msgstr ""
+"Предоставляет пользователям "
+"возможность собирать материалы и "
+"страницы сайта в коллекции и иерархии."
+
+#: modules/comment/comment.module:2142; modules/node/node.module:2746
+msgid "Keywords"
+msgstr "Ключевые слова"
+
+#: modules/dblog/dblog.module:46; modules/dblog/dblog.info:0
+msgid "Database logging"
+msgstr "Отчеты в базе данных"
+
+#: modules/dblog/dblog.info:0
+msgid "Logs and records system events to the database."
+msgstr ""
+"Регистрирует и записывает системные "
+"события в базу данных."
+
+#: modules/locale/locale.module:278; modules/node/node.admin.inc:494,224,159
+msgid "Language neutral"
+msgstr "Нейтральный по отношению к языку"
+
+#: modules/menu/menu.admin.inc:280; modules/menu/menu.module:394
+msgid "Menu link title"
+msgstr "Название ссылки в меню"
+
+#: modules/menu/menu.admin.inc:363; modules/path/path.admin.inc:143
+msgid ""
+"The path '@link_path' is either invalid or you do not have access to "
+"it."
+msgstr ""
+"Ссылка '@link_path' введена неправильно или "
+"у Вас нет доступа к этому ресурсу."
+
+#: modules/menu/menu.admin.inc:388; modules/menu/menu.module:311
+msgid "There was an error saving the menu link."
+msgstr "Ошибка при сохранении пункта меню."
+
+#: modules/openid/openid.info:0
+msgid "Allows users to log into your site using OpenID."
+msgstr "Позволяет входить на ваш сайт по OpenID."
+
+#: modules/php/php.info:0
+msgid "Allows embedded PHP code/snippets to be evaluated."
+msgstr ""
+"Позволяет внедрение кода PHP на "
+"страницах."
+
+#: modules/statistics/statistics.admin.inc:129,97,64,33; modules/statistics/statistics.pages.inc:60,29
+msgid "No statistics available."
+msgstr "Нет статистики."
+
+#: modules/syslog/syslog.module:31; modules/syslog/syslog.info:0
+msgid "Syslog"
+msgstr "Системный журнал"
+
+#: modules/syslog/syslog.info:0
+msgid "Logs and records system events to syslog."
+msgstr ""
+"Регистрирует и записывает события в "
+"системный журнал."
+
+#: modules/menu/menu.install:13; modules/system/system.admin.inc:392
+msgid "Primary links"
+msgstr "Основные ссылки"
+
+#: modules/menu/menu.install:14; modules/system/system.admin.inc:393
+msgid "Secondary links"
+msgstr "Дополнительные ссылки"
+
+#: modules/translation/translation.info:0
+msgid "Allows content to be translated into different languages."
+msgstr ""
+"Позволяет переводить содержимое "
+"сайта на различные языки."
+
+#: modules/trigger/trigger.admin.inc:164; modules/trigger/trigger.module:416
+msgid "Choose an action"
+msgstr "Выберите действие"
+
+#: modules/trigger/trigger.info:0
+msgid ""
+"Enables actions to be fired on certain system events, such as when new "
+"content is created."
+msgstr ""
+"Включает действия, которые будет "
+"запущены при возникновении обычных "
+"событий системы, например создание "
+"нового материала."
+
+#: modules/update/update.info:0
+msgid ""
+"Checks the status of available updates for Drupal and your installed "
+"modules and themes."
+msgstr ""
+"Проверяет статус доступных "
+"обновлений для Drupal и ваших "
+"установленных модулей и тем."
+
+#: themes/bluemarine/bluemarine.info:0
+msgid "Table-based multi-column theme with a marine and ash color scheme."
+msgstr ""
+"Табличная многоколоночная тема с "
+"морской и пепельной цветовыми "
+"схемами."
+
+#: themes/chameleon/chameleon.info:0
+msgid "Minimalist tabled theme with light colors."
+msgstr ""
+"Минималистская табличная тема со "
+"светлыми цветами."
+
+#: themes/chameleon/marvin/marvin.info:0
+msgid "Boxy tabled theme in all grays."
+msgstr "Табличная тема в серых тонах."
+
+#: themes/garland/garland.info:0
+msgid "Tableless, recolorable, multi-column, fluid width theme (default)."
+msgstr ""
+"Бестабличная, с изменяемыми цветам, "
+"многоколоночная тема изменяемой "
+"ширины (по умолчанию)."
+
+#: themes/garland/minnelli/minnelli.info:0
+msgid "Tableless, recolorable, multi-column, fixed width theme."
+msgstr ""
+"Бестабличная, с изменяемыми цветами, "
+"многоколоночная тема фиксированной "
+"ширины."
+
+#: themes/pushbutton/pushbutton.info:0
+msgid "Tabled, multi-column theme in blue and orange tones."
+msgstr ""
+"Табличная, многоколоночная тема в "
+"голубых и оранжевых тонах."
+
+#: modules/book/book.admin.inc:17; modules/book/book.module:418; modules/book/book.info:0
+msgid "Book"
+msgstr "Подшивка"
+
+#: modules/blogapi/blogapi.module:300,238; modules/book/book.admin.inc:130; modules/comment/comment.admin.inc:285,279,110; modules/comment/comment.module:793,771,708; modules/forum/forum.admin.inc:177; modules/node/node.pages.inc:601,587,466,462; modules/node/node.module:983
+msgid "content"
+msgstr "содержимое"
+
+#: modules/aggregator/aggregator.admin.inc:174,338; modules/blogapi/blogapi.module:300,238; modules/book/book.admin.inc:236,130; modules/comment/comment.admin.inc:110; modules/comment/comment.module:771,708; modules/contact/contact.admin.inc:121,115; modules/node/content_types.inc:335; modules/node/node.pages.inc:457; modules/profile/profile.admin.inc:388,346; modules/update/update.fetch.inc:85,82
+msgid "view"
+msgstr "просмотреть"
+
+#: includes/locale.inc:941,417; modules/aggregator/aggregator.admin.inc:102,142,275,306; modules/block/block.admin.inc:334; modules/comment/comment.admin.inc:247; modules/contact/contact.admin.inc:138; modules/filter/filter.admin.inc:252; modules/forum/forum.admin.inc:168,148,60,10; modules/menu/menu.admin.inc:469,402,266; modules/node/content_types.inc:393; modules/node/node.admin.inc:120; modules/node/node.pages.inc:594,508,250; modules/node/node.module:1548,1518; modules/openid/openid.pages.inc:47; modules/profile/profile.admin.inc:375; modules/system/system.module:1584; modules/taxonomy/taxonomy.admin.inc:877,842,749,720,220,187; modules/upload/upload.module:526; modules/user/user.admin.inc:878; modules/user/user.pages.inc:328,261; modules/user/user.module:1081
+msgid "Delete"
+msgstr "Удалить"
+
+#: modules/system/system.module:1597; modules/user/user.pages.inc:149,113,75; modules/user/user.module:2374,1648,1451,1397,1382
+msgid "user"
+msgstr "пользователь"
+
+#: modules/filter/filter.module:116; modules/node/node.module:1538,1514; modules/user/user.module:1091
+msgid "Edit"
+msgstr "Редактировать"
+
+#: modules/menu/menu.info:0
+msgid "Menu"
+msgstr "Меню"
+
+#: modules/user/user.admin.inc:178; modules/user/user.module:2032
+msgid "blocked"
+msgstr "блокирован"
+
+#: modules/user/user.admin.inc:178; modules/user/user.module:2032
+msgid "active"
+msgstr "активен"
+
+#: includes/mail.inc:134; modules/contact/contact.admin.inc:148,121,115; modules/contact/contact.pages.inc:231,146
+msgid "mail"
+msgstr "почта"
+
+#: modules/dblog/dblog.admin.inc:318,306,290; modules/filter/filter.info:0; modules/node/node.admin.inc:312,247; modules/path/path.admin.inc:206; modules/user/user.admin.inc:98,73
+msgid "Filter"
+msgstr "Фильтр"
+
+#: includes/file.inc:234,122; modules/system/system.module:1291
+msgid "file system"
+msgstr "файловая система"
+
+#: modules/upload/upload.info:0
+msgid "Upload"
+msgstr "Загрузить"
+
+#: modules/forum/forum-list.tpl.php:37; modules/forum/forum.info:0
+msgid "Forum"
+msgstr "Форум"
+
+#: modules/block/block.admin.inc:83; modules/filter/filter.admin.inc:34; modules/system/system.admin.inc:225; modules/system/system.module:1392
+msgid "configure"
+msgstr "настроить"
+
+#: modules/menu/menu.admin.inc:73; modules/menu/menu.module:245
+msgid "disabled"
+msgstr "отключено"
+
+#: modules/dblog/dblog.admin.inc:142,59; modules/statistics/statistics.admin.inc:158
+msgid "Date"
+msgstr "Дата"
+
+#: includes/actions.inc:396,388,353,331,85; modules/trigger/trigger.admin.inc:87
+msgid "actions"
+msgstr "действия"
+
+#: includes/common.inc:3684; modules/dblog/dblog.admin.inc:38; modules/system/system.module:1758,1724; modules/update/update.report.inc:59
+msgid "error"
+msgstr "ошибка"
+
+#: includes/common.inc:663; includes/image.inc:95; includes/menu.inc:2356; includes/unicode.inc:151,184
+msgid "php"
+msgstr "php"
+
+#: modules/comment/comment.module:2127,2106,2083; modules/node/node.module:2771,2691,2681,2672,2663,2654,2645,2636,2627; modules/system/system.module:1755; modules/user/user.module:2320,2310
+msgid "action"
+msgstr "действие"
+
+#: modules/help/help.module:14; modules/help/help.info:0
+msgid "Help"
+msgstr "Помощь"
+
+#: modules/node/node.admin.inc:133; modules/user/user.module:2029
+msgid "status"
+msgstr "состояние"
+
+#: modules/statistics/statistics.admin.inc:29; modules/statistics/statistics.pages.inc:56,25
+msgid "details"
+msgstr "подробности"
+
+#: modules/trigger/trigger.admin.inc:77; modules/trigger/trigger.module:115
+msgid "Unassign"
+msgstr "Снять"
+
+#: modules/statistics/statistics.info:0
+msgid "Statistics"
+msgstr "Статистика"
+
+#: modules/system/system.module:0; themes/chameleon/chameleon.info:0; themes/chameleon/marvin/marvin.info:0
+msgid "Left sidebar"
+msgstr "Левая колонка"
+
+#: modules/system/system.module:0; themes/chameleon/chameleon.info:0; themes/chameleon/marvin/marvin.info:0
+msgid "Right sidebar"
+msgstr "Правая колонка"
+
+#: modules/profile/profile.info:0
+msgid "Profile"
+msgstr "Профиль"
+
+#: modules/node/node.info:0
+msgid "Node"
+msgstr "Материал"
+
+#: install.php:1098; modules/system/system.install:285
+msgid "Update notifications"
+msgstr "Сообщение об обновлениях"
+
+#: modules/blogapi/blogapi.module:800; modules/blogapi/blogapi.info:0
+msgid "Blog API"
+msgstr "API для блогов"
+
+#: modules/locale/locale.info:0
+msgid ""
+"Adds language handling functionality and enables the translation of "
+"the user interface to languages other than English."
+msgstr ""
+"Добавляет поддержу языков и позволяет "
+"переводить пользовательский "
+"интерфейс на языки отличные от "
+"английского."
+
+#: modules/contact/contact.pages.inc:63; modules/forum/forum.module:387; modules/taxonomy/taxonomy.module:436
+msgid "- Please choose -"
+msgstr "- Пожалуйста выберите -"
+
+#: includes/database.mysql.inc:26; includes/database.mysqli.inc:29
+msgid "MySQL database"
+msgstr "База данных MySQL"
+
+#: includes/form.inc:586; modules/upload/upload.module:580
+msgid ""
+"Validation error, please try again. If this error persists, please "
+"contact the site administrator."
+msgstr ""
+"Ошибка при проверке значения, "
+"пожалуйста повторите. Если ошибка "
+"повторится, сообщите администратору "
+"сайта."
+
+#: modules/aggregator/aggregator.info:0
+msgid "Aggregator"
+msgstr "Сбор новостей"
+
+#: modules/color/color.info:0
+msgid "Color"
+msgstr "Цвет"
+
+#: modules/locale/locale.info:0
+msgid "Locale"
+msgstr "Язык"
+
+#: modules/ping/ping.info:0
+msgid "Ping"
+msgstr "Ping"
+
+#: modules/tracker/tracker.info:0
+msgid "Tracker"
+msgstr "Изменения"
+
+#: themes/garland/color/color.inc:8; themes/garland/minnelli/color/color.inc:8
+msgid "Blue Lagoon (Default)"
+msgstr "Голубая лагуна (По умолчанию)"
+
+#: modules/update/update.info:0
+msgid "Update status"
+msgstr "Состояние обновления"
+
+#: modules/php/php.info:0
+msgid "PHP filter"
+msgstr "Фильтр PHP"
+
+#: modules/poll/poll-results-block.tpl.php:26; modules/poll/poll-results.tpl.php:24
+msgid "Total votes: @votes"
+msgstr "Всего голосов: @votes"
+
+#: modules/translation/translation.info:0
+msgid "Content translation"
+msgstr "Перевод содержания"
+
+#: modules/trigger/trigger.info:0
+msgid "Trigger"
+msgstr "Триггер"
+
+#: themes/chameleon/chameleon.info:0
+msgid "Chameleon"
+msgstr "Chameleon"
+
+#: themes/chameleon/marvin/marvin.info:0
+msgid "Marvin"
+msgstr "Marvin"
+
+#: themes/garland/garland.info:0
+msgid "Garland"
+msgstr "Garland"
+
+#: themes/garland/minnelli/minnelli.info:0
+msgid "Minnelli"
+msgstr "Minnelli"
+
+#: themes/pushbutton/pushbutton.info:0
+msgid "Pushbutton"
+msgstr "Кнопка"
+
+#: modules/menu/menu.admin.inc:316; modules/menu/menu.module:410
+msgid ""
+"The maximum depth for an item and all its children is fixed at "
+"!maxdepth. Some menu items may not be available as parents if "
+"selecting them would exceed this limit."
+msgstr ""
+"Максимальная глубина для пункта и его "
+"дочерних пунктов равна !maxdepth. "
+"Некоторые пункты меню могут быть "
+"недоступны в качестве родительских, "
+"если их выбор превысит этот предел."
+
+#: install.php:1033; modules/system/system.admin.inc:1145
+msgid ""
+"The <em>From</em> address in automated e-mails sent during "
+"registration and new password requests, and other notifications. (Use "
+"an address ending in your site's domain to help prevent this e-mail "
+"being flagged as spam.)"
+msgstr ""
+"<em>Исходящий</em> адрес e-mail для "
+"автоматической отправки писем при "
+"регистрации, запроса нового пароля и "
+"других уведомлений. (Используйте "
+"адрес, связанный с вашим доменом, "
+"чтобы избежать попадания писем в спам)"
+
+#: modules/menu/menu.admin.inc:339; modules/system/system.admin.inc:1199
+msgid ""
+"The menu system stores system paths only, but will use the URL alias "
+"for display. %link_path has been stored as %normal_path"
+msgstr ""
+"Система меню сохраняет только "
+"системные пути, но использует "
+"синонимы URL для показа. %link_path был "
+"сохранён как %normal_path"
+
+#: modules/comment/comment.module:1669; modules/openid/openid.module:468; modules/user/user.module:2368,1447
+msgid "Error saving user account."
+msgstr "Ошибка сохранения учетной записи."
+
+#: modules/update/update.report.inc:75; modules/update/update.module:268
+msgid "Revoked!"
+msgstr "Аннулирован!"
+
+#: modules/blog/blog.pages.inc:91; modules/blog/blog.module:109
+msgid "!name's blog"
+msgstr "Блог !name"
+

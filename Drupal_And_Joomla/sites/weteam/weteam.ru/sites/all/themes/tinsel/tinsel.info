@@ -1,0 +1,41 @@
+; $Id: tinsel.info,v 1.2 2010/02/03 01:59:00 merlinofchaos Exp $
+name = Tinsel
+description = Panels Everywhere conversion of Garland
+core = 6.x
+engine = phptemplate
+
+regions[left] = Left sidebar
+regions[right] = Right sidebar
+regions[content] = Content
+regions[header] = Header
+regions[footer] = Footer
+
+regions[pane_date_new] = Pane date new
+regions[pane_events] = Pane events
+regions[pane_user_hit] = Pane user hit
+regions[pane_news] = Pane news
+regions[pane_realname] = Pane realname
+regions[pane_exit] = Pane exit
+regions[pane_navigation] = Pane navigation
+regions[pane_main] = Pane main
+regions[pane_forum] = Pane forum
+regions[pane_guest] = Pane guest
+regions[pane_message] = Pane message
+regions[pane_about] = Pane about
+
+stylesheets[all][] = tinsel.css
+stylesheets[print][] = print.css
+
+; We support layout plugins
+plugins[panels][layouts] = plugins/layouts
+
+; We provide default page manager pages for our site template
+api[page_manager][pages_default][version] = 1
+api[page_manager][pages_default][path] = pages
+
+; Information added by drupal.org packaging script on 2010-07-27
+version = "6.x-1.1"
+core = "6.x"
+project = "tinsel"
+datestamp = "1280189419"
+

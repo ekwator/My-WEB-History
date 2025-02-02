@@ -1,0 +1,654 @@
+# Russian translation of ctools (all releases)
+# Copyright (c) 2013 by the Russian translation team
+# Generated from files:
+#  ctools/plugins/access/path_visibility.inc: n/a
+#  path_visibility.inc,v 1.1.2.1 2010/02/23 20:58:38 merlinofchaos
+#  ctools/plugins/access/string_length.inc: n/a
+#  string_length.inc,v 1.1.2.2 2009/12/18 02:28:21 merlinofchaos
+#  ctools/plugins/access/theme.inc: n/a
+#  theme.inc,v 1.1.2.4 2010/07/22 22:38:11 merlinofchaos
+#  ctools/plugins/access/perm.inc: n/a
+#  perm.inc,v 1.6.2.3 2010/07/14 01:30:19 merlinofchaos
+#  ctools/plugins/access/front.inc: n/a
+#  ctools/plugins/access/term_vocabulary.inc: n/a
+#  term_vocabulary.inc,v 1.4.2.4 2010/07/14 01:30:19 merlinofchaos
+#  ctools/plugins/access/string_equal.inc: n/a
+#  string_equal.inc,v 1.1.2.3 2009/12/29 05:44:04 merlinofchaos
+#  ctools/plugins/access/php.inc: n/a
+#  php.inc,v 1.1.2.4 2010/07/15 20:41:17 merlinofchaos
+#  ctools/plugins/access/node_language.inc: n/a
+#  node_language.inc,v 1.7.2.3 2010/07/14 01:30:19 merlinofchaos
+#  ctools/plugins/access/node_type.inc: n/a
+#  node_type.inc,v 1.7.2.2 2009/11/13 00:44:16 merlinofchaos
+#  ctools/plugins/access/node_access.inc: n/a
+#  node_access.inc,v 1.7.2.2 2009/11/13 00:44:16 merlinofchaos
+#  ctools/plugins/access/site_language.inc: n/a
+#  site_language.inc,v 1.6.2.3 2010/07/14 01:30:19 merlinofchaos
+#  ctools/plugins/access/role.inc: n/a
+#  role.inc,v 1.7.2.3 2010/07/14 01:30:19 merlinofchaos
+#  ctools/plugins/access/compare_users.inc: n/a
+#  compare_users.inc,v 1.3.2.2 2009/11/13 00:44:16 merlinofchaos
+#  ctools/plugins/access/term.inc: n/a
+#  term.inc,v 1.1.2.4 2009/11/13 00:44:16 merlinofchaos
+#  term.inc,v 1.1.2.6 2010/10/15 22:44:31 merlinofchaos
+#  ctools/plugins/access/context_exists.inc: n/a
+#  context_exists.inc,v 1.1.2.3 2010/02/23 21:09:32 merlinofchaos
+#  ctools/plugins/access/term_parent.inc: n/a
+#  term_parent.inc,v 1.1.2.2 2010/07/15 19:13:16 merlinofchaos
+#  term_parent.inc,v 1.1.2.3 2010/08/20 21:05:17 merlinofchaos
+#  ctools/plugins/access/entity_bundle.inc: n/a
+#  ctools/plugins/access/term_has_parent.inc: n/a
+#  ctools/plugins/access/entity_field_value.inc: n/a
+#  ctools/plugins/access/node_status.inc: n/a
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: ctools (all releases)\n"
+"POT-Creation-Date: 2013-05-29 14:25+0400\n"
+"PO-Revision-Date: 2011-08-09 12:43+0400\n"
+"Language-Team: Russian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=((((n%10)==1)&&((n%100)!=11))?(0):(((((n%10)>=2)&&((n%10)<=4))&&(((n%100)<10)||((n%100)>=20)))?(1):2));\n"
+
+#: plugins/access/path_visibility.inc:39,39,39,40,40,39,39,39,40,39,39,39,39
+msgid ""
+"Enter one page per line as Drupal paths. The '*' character is a "
+"wildcard. Example paths are %blog for the blog page and %blog-wildcard "
+"for every personal blog. %front is the front page."
+msgstr ""
+"Вводите по одному внутреннему пути "
+"Drupal на строку. Символ '*' заменяет любое "
+"количество символов. Например, "
+"введите %blog для обзорной страницы "
+"блогов, %blog-wildcard для всех персональных "
+"блогов. %front - главная страница."
+
+#: plugins/access/string_length.inc:31,31,32,32,31,31,31,31,32,31,31,31,31
+msgid "Less than"
+msgstr "Меньше чем"
+
+#: plugins/access/theme.inc:33,33,34,34,33,33,33,33,34,33,33,33,33
+msgid "Themes"
+msgstr "Темы оформления"
+
+#: plugins/access/perm.inc:39,41,41,40,40,41,39,41,41,41,40,41,39,41,39
+msgid "Permission"
+msgstr "Разрешения"
+
+#: plugins/access/path_visibility.inc:37,37,37,38,38,37,37,37,38,37,37,37,37
+msgid "Paths"
+msgstr "Пути"
+
+#: plugins/access/front.inc:13,13,13,13,13,13,13,13
+msgid "Front page"
+msgstr "Главная страница"
+
+#: plugins/access/term_vocabulary.inc:35,35,36,36,35,35,35,35,36,35,35,35,35
+msgid "Vocabularies"
+msgstr "Словари"
+
+#: plugins/access/string_length.inc:29,29,30,30,29,29,29,29,30,29,29,29,29
+msgid "Equal to"
+msgstr "Равно"
+
+#: plugins/access/string_equal.inc:28,28,29,29,28,28,28,28,29,28,28,28,28
+msgid "Regular expression"
+msgstr "Регулярное выражение"
+
+#: plugins/access/php.inc:13,39,13,39,13,40,14,14,40,39,13,39,13,39,13,39,14,40,13,39,13,39,13,39,13,39
+msgid "PHP Code"
+msgstr "PHP-Код"
+
+#: plugins/access/string_equal.inc:43,43,44,44,43,43,43,43,44,43,43,43,43
+msgid "Case sensitive"
+msgstr "Учитывать регистр"
+
+#: plugins/access/node_language.inc:94,32,95,32,95,32,95,33,33,95,95,94,32,95,32,95,32,95,33,32,95,32,94,32,95,32,94
+msgid "No language"
+msgstr "Нет языка"
+
+#: plugins/access/php.inc:63,63,63,63,62,63,62,63,63,63,63,62,63,62
+msgid "No description"
+msgstr "Нет описания"
+
+#: plugins/access/string_length.inc:28,28,29,29,28,28,28,28,29,28,28,28,28
+msgid "Greater than or equal to"
+msgstr "Больше или равно"
+
+#: plugins/access/front.inc:45,44,44,45,45,45,44,45,44
+msgid "The front page"
+msgstr ""
+
+#: plugins/access/node_type.inc:14,14,14,15,15,14,14,14,15,14,14,14,14
+msgid "Control access by node_type."
+msgstr ""
+
+#: plugins/access/node_type.inc:37,37,37,38,38,37,37,37,38,37,37,37,37
+msgid "Only the checked node types will be valid."
+msgstr ""
+
+#: plugins/access/perm.inc:14,14,14,15,15,14,14,14,15,14,14,14,14
+msgid "Control access by permission string."
+msgstr ""
+
+#: plugins/access/perm.inc:41,43,43,42,42,43,41,43,43,43,42,43,41,43,41
+msgid ""
+"Only users with the selected permission flag will be able to access "
+"this."
+msgstr ""
+"Доступ получат только пользователи, "
+"имеющие указанное разрешение."
+
+#: plugins/access/perm.inc:63,67,67,64,64,67,63,67,67,67,64,67,63,67,63
+msgid "Error, unset permission"
+msgstr ""
+
+#: plugins/access/node_access.inc:14,14,14,15,15,14,14,14,15,14,14,14,14
+msgid "Control access with built in Drupal node access test."
+msgstr ""
+
+#: plugins/access/node_access.inc:37,37,37,38,38,37,37,37,38,37,37,37,37
+msgid "Create nodes of the same type"
+msgstr ""
+
+#: plugins/access/node_access.inc:39,39,39,40,40,39,39,39,40,39,39,39,39
+msgid ""
+"Using built in Drupal node access rules, determine if the user can "
+"perform the selected operation on the node."
+msgstr ""
+
+#: plugins/access/node_access.inc:76,77,77,77,77,77,76,77,77,77,77,76,77,76
+msgid "@user can view @node."
+msgstr "@user может просматривать @node."
+
+#: plugins/access/node_access.inc:79,80,80,80,80,80,79,80,80,80,80,79,80,79
+msgid "@user can edit @node."
+msgstr "@user может редактировать @node."
+
+#: plugins/access/node_access.inc:82,83,83,83,83,83,82,83,83,83,83,82,83,82
+msgid "@user can delete @node."
+msgstr "@user может удалить @node."
+
+#: plugins/access/node_access.inc:85,86,86,86,86,86,85,86,86,86,86,85,86,85
+msgid "@user can create nodes of the same type as @node."
+msgstr ""
+
+#: plugins/access/node_language.inc:15,15,15,16,16,15,15,15,16,15,15,15,15
+msgid "Control access by node language."
+msgstr ""
+
+#: plugins/access/node_language.inc:92,30,93,30,93,30,93,31,31,93,93,92,30,93,30,93,30,93,31,30,93,30,92,30,93,30,92
+msgid "Current site language"
+msgstr "Текущий язык сайта"
+
+#: plugins/access/node_language.inc:39,39,39,40,40,39,39,39,40,39,39,39,39
+msgid "Pass only if the node is in one of the selected languages."
+msgstr ""
+
+#: plugins/access/site_language.inc:36,36,37,37,36,36,36,36,37,36,36,36,36
+msgid ""
+"Pass only if the current site language is one of the selected "
+"languages."
+msgstr ""
+"Критерий выполняется, только если "
+"текущим языком сайта у пользователя "
+"выбран один из указанных выше."
+
+#: plugins/access/role.inc:13,13,13,14,14,13,13,13,14,13,13,13,13
+msgid "User: role"
+msgstr "Пользователь: роль"
+
+#: plugins/access/site_language.inc:14,14,14,15,15,14,14,14,15,14,14,14,14
+msgid "User: language"
+msgstr "Пользователь: язык"
+
+#: plugins/access/site_language.inc:15,15,16,16,15,15,15,15,16,15,15,15,15
+msgid "Control access by the language the user or site currently uses."
+msgstr ""
+
+#: plugins/access/compare_users.inc:14,14,14,15,15,14,14,14,15,14,14,14,14
+msgid "Compare two users (logged-in user and user being viewed, for example)"
+msgstr ""
+
+#: plugins/access/compare_users.inc:22,22,22,23,23,22,22,22,23,22,22,22,22
+msgid "First User"
+msgstr "Первый пользователь"
+
+#: plugins/access/compare_users.inc:23,23,23,24,24,23,23,23,24,23,23,23,23
+msgid "Second User"
+msgstr "Второй пользователь"
+
+#: plugins/access/compare_users.inc:34,34,34,35,35,34,34,34,35,34,34,34,34
+msgid ""
+"Grant access based on comparison of the two user contexts. For "
+"example, to grant access to a user to view their own profile, choose "
+"\"logged in user\" and \"user being viewed\" and say \"grant access if "
+"equal\". When they're the same, access will be granted."
+msgstr ""
+
+#: plugins/access/compare_users.inc:39,39,39,40,40,39,39,39,40,39,39,39,39
+msgid "Grant access if user contexts are"
+msgstr ""
+
+#: plugins/access/compare_users.inc:13,13,13,14,14,13,13,13,14,13,13,13,13
+msgid "User: compare"
+msgstr "Пользователь: сравнить"
+
+#: plugins/access/compare_users.inc:69,68,69,69,69,69,68,69,69,69,69,68,69,68
+msgid "@id1 @comp @id2"
+msgstr "@id1 @comp @id2"
+
+#: plugins/access/node_access.inc:13,13,13,14,14,13,13,13,14,13,13,13,13
+msgid "Node: accessible"
+msgstr "Материал: доступность"
+
+#: plugins/access/node_language.inc:14,14,14,15,15,14,14,14,15,14,14,14,14
+msgid "Node: language"
+msgstr "Материал: язык"
+
+#: plugins/access/node_language.inc:108,109,109,109,109,109,108,109,109,109,109,108,109,108
+msgid "@identifier is in any language"
+msgstr ""
+
+#: plugins/access/node_language.inc:111,112,112,112,112,112,111,112,112,112,112,111,112,111
+msgid "@identifier language is \"@languages\""
+msgid_plural "@identifier language is one of \"@languages\""
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: plugins/access/node_type.inc:13,13,13,14,14,13,13,13,14,13,13,13,13
+msgid "Node: type"
+msgstr "Материал: тип"
+
+#: plugins/access/node_type.inc:94,95,103,95,95,103,94,103,103,103,95,103,94,103,94
+msgid "@identifier is any node type"
+msgstr ""
+
+#: plugins/access/perm.inc:13,13,13,14,14,13,13,13,14,13,13,13,13
+msgid "User: permission"
+msgstr "Пользователь: разрешение"
+
+#: plugins/access/perm.inc:66,71,71,67,67,71,66,71,71,71,67,71,66,71,66
+msgid "@identifier has \"@perm\""
+msgstr "@identifier имеет разрешение \"@perm\""
+
+#: plugins/access/role.inc:77,77,77,77,76,77,76,77,77,77,77,76,77,76
+msgid "@identifier has role \"@roles\""
+msgid_plural "@identifier has one of \"@roles\""
+msgstr[0] "@identifier имеет роль \"@roles\""
+msgstr[1] "@identifier имеет одну из ролей: @roles"
+msgstr[2] "@identifier имеет одну из ролей: @roles"
+
+#: plugins/access/site_language.inc:82,82,82,82,81,82,81,82,82,82,82,81,82,81
+msgid "Site language is any language"
+msgstr ""
+"У пользователя выбран любой язык "
+"сайта"
+
+#: plugins/access/site_language.inc:85,85,85,85,85,84,84,85,85,85,85,84,85,84
+msgid "Site language is \"@languages\""
+msgid_plural "Site language is one of \"@languages\""
+msgstr[0] ""
+"Язык интерфейса у пользователя - "
+"\"@languages\""
+msgstr[1] ""
+"Язык интерфейса у пользователя - один "
+"из следующих: @languages"
+msgstr[2] ""
+"Язык интерфейса у пользователя - один "
+"из следующих: @languages"
+
+#: plugins/access/term_vocabulary.inc:13,13,14,14,13,13,13,13,14,13,13,13,13
+msgid "Taxonomy: vocabulary"
+msgstr ""
+
+#: plugins/access/term_vocabulary.inc:82,82,82,82,81,82,81,82,82,82,82,81,82,81
+msgid "@identifier is any vocabulary"
+msgstr ""
+
+#: plugins/access/term_vocabulary.inc:85,85,85,85,84,85,84,85,85,85,85,84,85,84
+msgid "@identifier vocabulary is \"@vids\""
+msgid_plural "@identifier vocabulary is one of \"@vids\""
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: plugins/access/php.inc:14,14,14,15,15,14,14,14,15,14,14,14,14
+msgid "Control access through arbitrary PHP code."
+msgstr ""
+
+#: plugins/access/php.inc:33,33,34,34,33,33,33,33,34,33,33,33,33
+msgid "Administrative desc"
+msgstr "Административное описание"
+
+#: plugins/access/php.inc:35,35,36,36,35,35,35,35,36,35,35,35,35
+msgid "A description for this test for administrative purposes."
+msgstr ""
+"Описание этого условия, которое будут "
+"видеть администраторы."
+
+#: plugins/access/php.inc:41,41,42,42,41,41,41,41,42,41,41,41,41
+msgid ""
+"Access will be granted if the following PHP code returns "
+"<code>TRUE</code>. Do not include &lt;?php ?&gt;. Note that executing "
+"incorrect PHP-code can break your Drupal site. All contexts will be "
+"available in the <em>$contexts</em> variable."
+msgstr ""
+"Условие будет выполняться, если "
+"введённый здесь PHP-код вернёт значение "
+"<code>TRUE</code>. Не должен содержать "
+"разделители &lt;?php ?&gt;. Имейте в виду, "
+"что выполнение некорректного PHP-кода "
+"может нарушить работу вашего сайта. "
+"Все контексты доступны через "
+"переменную <em>$contexts</em>."
+
+#: plugins/access/php.inc:46,46,47,47,46,46,46,46,47,46,46,46,46
+msgid "You do not have sufficient permissions to edit PHP code."
+msgstr ""
+
+#: plugins/access/term.inc:13,13,14,14,13,13,13,13,14,13,13,13,13
+msgid "Taxonomy: term"
+msgstr ""
+
+#: plugins/access/term.inc:14,14,15,15,14,14,14,14,15,14,14,14,14
+msgid "Control access by a specific term."
+msgstr ""
+
+#: plugins/access/term.inc:147,124,147,147,146,124,146,124,124,124,147,124,146,124,146
+msgid "@term can be the term \"@terms\""
+msgid_plural "@term can be one of these terms: @terms"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: plugins/access/context_exists.inc:9,9,9,10,10,9,9,9,10,9,9,9,9
+msgid "Context exists"
+msgstr "Существует контекст"
+
+#: plugins/access/context_exists.inc:10,10,10,11,11,10,10,10,11,10,10,10,10
+msgid "Control access by whether or not a context exists and contains data."
+msgstr ""
+
+#: plugins/access/context_exists.inc:24,24,24,25,25,24,24,24,25,24,24,24,24
+msgid ""
+"Check to see if the context exists (contains data) or does not exist "
+"(contains no data). For example, if a context is optional and the path "
+"does not contain an argument for that context, it will not exist."
+msgstr ""
+"Выберите поведение критерия: он "
+"выполняется, если указанный контекст "
+"существует (содержит некоторые "
+"данные) либо если он отсутствует "
+"(имеет пустое значение). Например, если "
+"контекст является необязательным, и "
+"путь страницы не содержит "
+"соответствующего ему аргумента, "
+"контекст будет обозначен как "
+"отсутствующий."
+
+#: plugins/access/context_exists.inc:25,25,25,26,26,25,25,25,26,25,25,25,25
+msgid "Doesn't exist"
+msgstr "Отсутствует"
+
+#: plugins/access/context_exists.inc:45,46,46,46,46,46,45,46,46,46,46,45,46,45
+msgid "@identifier exists"
+msgstr "@identifier существует"
+
+#: plugins/access/context_exists.inc:48,49,49,49,49,49,48,49,49,49,49,48,49,48
+msgid "@identifier does not exist"
+msgstr "@identifier не существует"
+
+#: plugins/access/string_equal.inc:9,9,10,10,9,9,9,9,10,9,9,9,9
+msgid "String: comparison"
+msgstr "Строка: сравнение"
+
+#: plugins/access/string_equal.inc:10,10,11,11,10,10,10,10,11,10,10,10,10
+msgid "Control access by string match."
+msgstr ""
+
+#: plugins/access/string_equal.inc:32,32,33,33,32,32,32,32,33,32,32,32,32
+msgid ""
+"If using a regular expression, you should enclose the pattern in "
+"slashes like so: <em>/foo/</em>. If you need to compare against "
+"slashes you can use another character to enclose the pattern, such as "
+"@. See <a "
+"href=\"http://www.php.net/manual/en/reference.pcre.pattern.syntax.php\">PHP "
+"regex documentation</a> for more."
+msgstr ""
+
+#: plugins/access/string_equal.inc:85,85,85,85,84,85,84,85,85,85,85,84,85,84
+msgid "@identifier is \"@value\""
+msgstr "@identifier - \"@value\""
+
+#: plugins/access/string_equal.inc:87,87,87,87,86,87,86,87,87,87,87,86,87,86
+msgid "@identifier is not \"@value\""
+msgstr "@identifier не \"@value\""
+
+#: plugins/access/string_equal.inc:89,89,89,89,88,89,88,89,89,89,89,88,89,88
+msgid "@identifier matches \"@value\""
+msgstr ""
+
+#: plugins/access/string_length.inc:10,10,11,11,10,10,10,10,11,10,10,10,10
+msgid "String: length"
+msgstr "Строка: длина"
+
+#: plugins/access/string_length.inc:11,11,12,12,11,11,11,11,12,11,11,11,11
+msgid "Control access by length of string context."
+msgstr ""
+
+#: plugins/access/string_length.inc:30,30,31,31,30,30,30,30,31,30,30,30,30
+msgid "Not equal to"
+msgstr ""
+
+#: plugins/access/string_length.inc:38,38,39,39,38,38,38,38,39,38,38,38,38
+msgid "Length of string"
+msgstr ""
+
+#: plugins/access/string_length.inc:41,41,42,42,41,41,41,41,42,41,41,41,41
+msgid "Access/visibility will be granted based on string context length."
+msgstr ""
+
+#: plugins/access/string_length.inc:77,77,77,77,76,77,76,77,77,77,77,76,77,76
+msgid "@identifier must be @comp @length characters"
+msgstr ""
+
+#: plugins/access/string_equal.inc:29,29,30,30,29,29,29,29,30,29,29,29,29
+msgid "Not equal to regular expression"
+msgstr ""
+
+#: plugins/access/string_equal.inc:91,91,91,91,90,91,90,91,91,91,91,90,91,90
+msgid "@identifier does not match \"@value\""
+msgstr ""
+
+#: plugins/access/theme.inc:13,13,14,14,13,13,13,13,14,13,13,13,13
+msgid "Current theme"
+msgstr "Текущая тема оформления"
+
+#: plugins/access/theme.inc:14,14,15,15,14,14,14,14,15,14,14,14,14
+msgid "Control access by checking which theme is in use."
+msgstr ""
+
+#: plugins/access/theme.inc:35,35,36,36,35,35,35,35,36,35,35,35,35
+msgid "This will only be accessed if the current theme is the selected theme."
+msgstr ""
+"Критерий выполняется, если текущая "
+"тема сайта - одна из выбранных выше."
+
+#: plugins/access/theme.inc:65,65,65,65,64,65,64,65,65,65,65,64,65,64
+msgid "Error, unset theme"
+msgstr ""
+
+#: plugins/access/theme.inc:69,69,69,69,68,69,68,69,69,69,69,68,69,68
+msgid "Current theme is \"@theme\""
+msgstr "Текущая тема оформления - \"@theme\""
+
+#: plugins/access/path_visibility.inc:9,9,9,10,10,9,9,9,10,9,9,9,9
+msgid "String: URL path"
+msgstr "Строка: Адрес URL"
+
+#: plugins/access/path_visibility.inc:10,10,10,11,11,10,10,10,11,10,10,10,10
+msgid "Control access by the current path."
+msgstr ""
+
+#: plugins/access/path_visibility.inc:23,23,23,24,24,23,23,23,24,23,23,23,23
+msgid "Note: if no context is chosen, the current page path will be used."
+msgstr ""
+"Примечание: если контекст не выбран, "
+"будет использован текущий адрес "
+"страницы."
+
+#: plugins/access/path_visibility.inc:29,29,29,30,30,29,29,29,30,29,29,29,29
+msgid "Allow access on the following pages"
+msgstr ""
+"Критерий выполняется для следующих "
+"страниц"
+
+#: plugins/access/path_visibility.inc:30,30,30,31,31,30,30,30,31,30,30,30,30
+msgid "Allow access on all pages except the following pages"
+msgstr ""
+"Критерий выполняется для всех "
+"страниц, кроме следующих"
+
+#: plugins/access/path_visibility.inc:80,81,81,81,81,81,80,81,81,81,81,80,81,80
+msgid "Current path"
+msgstr "Текущий путь"
+
+#: plugins/access/path_visibility.inc:82,83,83,83,83,83,82,83,83,83,83,82,83,82
+msgid "@identifier is \"@paths\""
+msgid_plural "@identifier type is one of \"@paths\""
+msgstr[0] "@identifier - \"@paths\""
+msgstr[1] "@identifier - один из следующих: @paths"
+msgstr[2] "@identifier - один из следующих: @paths"
+
+#: plugins/access/path_visibility.inc:85,86,86,86,86,86,85,86,86,86,86,85,86,85
+msgid "@identifier is not \"@paths\""
+msgid_plural "@identifier type is not one of \"@paths\""
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: plugins/access/term_vocabulary.inc:14,14,15,15,14,14,14,14,15,14,14,14,14
+msgid "Control access by vocabulary."
+msgstr ""
+
+#: plugins/access/term_vocabulary.inc:37,37,38,38,37,37,37,37,38,37,37,37,37
+msgid "Only the checked vocabularies will be valid."
+msgstr ""
+
+#: plugins/access/term_parent.inc:13,13,14,14,13,13,13,13,14,13,13,13,13
+msgid "Taxonomy: parent term"
+msgstr ""
+
+#: plugins/access/term_parent.inc:14,14,15,15,14,14,14,14,15,14,14,14,14
+msgid "Control access by existence of a parent term."
+msgstr ""
+
+#: plugins/access/term_parent.inc:42,42,43,43,42,42,42,42,43,42,42,42,42
+msgid ""
+"Select the vocabulary for this form. If there exists a parent term in "
+"that vocabulary, this access check will succeed."
+msgstr ""
+
+#: plugins/access/term_parent.inc:85,85,85,85,84,85,84,85,85,85,85,84,85,84
+msgid "\"@term\" has parent in vocabulary \"@vocab\""
+msgstr ""
+
+#: plugins/access/entity_bundle.inc:14,14,14,14,14,14,14,14,13
+msgid "Entity: bundle"
+msgstr ""
+
+#: plugins/access/entity_bundle.inc:15,15,15,15,15,15,15,15,14
+msgid "Control access by entity bundle."
+msgstr ""
+
+#: plugins/access/entity_bundle.inc:35,35,35,35,35,35,35,35,34
+msgid "@entity: Bundle"
+msgstr ""
+
+#: plugins/access/entity_bundle.inc:59,59,59,59,59,59,59,59,58
+msgid "Entity Bundle"
+msgstr ""
+
+#: plugins/access/entity_bundle.inc:62,62,62,62,62,62,62,62,61
+msgid "Only the checked entity bundles will be valid."
+msgstr ""
+
+#: plugins/access/entity_bundle.inc:121,121,121,121,132,132,132,132,132,131
+msgid "@identifier is any bundle"
+msgstr ""
+
+#: plugins/access/term_has_parent.inc:12,12,12,12,12,12,12
+msgid "Taxonomy: term has parent(s)"
+msgstr ""
+
+#: plugins/access/term_has_parent.inc:13,13,13,13,13,13,13
+msgid "Control access if a term belongs to a specific parent term."
+msgstr ""
+
+#: plugins/access/term_has_parent.inc:81,81,81,81,81,81,81
+msgid "Include these term(s) as candidates?"
+msgstr ""
+
+#: plugins/access/term_has_parent.inc:82,82,82,82,82,82,82
+msgid ""
+"When this rule is evaluated, should the term(s) you select be included "
+"as candidates for access?"
+msgstr ""
+
+#: plugins/access/term_has_parent.inc:156,156,156,167,167,167,167,167
+msgid "@term can have the parent \"@terms\""
+msgid_plural "@term can have one of these parents: @terms"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: plugins/access/node_type.inc:111,111,111,111,111,111,111
+msgid "Missing/ deleted type \"@types\""
+msgid_plural "Missing/ deleted type is one of \"@types\""
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: plugins/access/entity_bundle.inc:124,124,135,135,135,135,135,134
+msgid "@identifier is bundle \"@types\""
+msgid_plural "@identifier bundle is one of \"@types\""
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: plugins/access/entity_bundle.inc:121,121,121,121,121,120
+msgid "Error, misconfigured entity_bundle access plugin"
+msgstr ""
+
+#: plugins/access/entity_field_value.inc:9,9,9,9,9
+msgid "(Custom) Entity: Field Value"
+msgstr ""
+
+#: plugins/access/entity_field_value.inc:10,10,10,10,10
+msgid "Control access by entity field value."
+msgstr ""
+
+#: plugins/access/entity_field_value.inc:67,67,67,67,67
+msgid "@entity @type: @field Field"
+msgstr ""
+
+#: plugins/access/front.inc:14,14,14,14,14,14,14,14
+msgid "Is this the front page."
+msgstr ""
+
+#: plugins/access/node_status.inc:13,13,13,13,13
+msgid "Node: (un)published"
+msgstr ""
+
+#: plugins/access/node_status.inc:14,14,14,14,14
+msgid "Control access by the nodes published status."
+msgstr ""
+
+#: plugins/access/node_status.inc:31,31,31,31,31
+msgid "Returns true if the nodes status is \"published\"."
+msgstr ""
+

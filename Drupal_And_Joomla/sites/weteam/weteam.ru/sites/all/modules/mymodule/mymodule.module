@@ -1,0 +1,115 @@
+<?php
+// $Id$
+function mymodule_perm() {
+  return array('administer anonymous masseges', 'administer wish masseges','write anonymous masseges','write wish masseges');
+} // function mymodule_perm()
+
+function mymodule_menu() {
+  $items = array();
+  $items['anonymous-msg/new'] = array(
+    'title' => t('Create Anonymous Masseges'),
+    'page callback' => 'drupal_get_form',
+    'page arguments' => array('mymodule_form'),
+    'access arguments' => array('write anonymous masseges'),
+  );
+  $items['anonymous-msg'] = array(
+    'title' => t('Anonymous Masseges'),
+    'page callback' => 'mymodule_menu_msg_list',
+    'access arguments' => array('administer anonymous masseges'),
+  );
+  $items['wish-msg/new'] = array(
+    'title' => t('Create Wish Masseges'),
+    'page callback' => 'drupal_get_form',
+    'page arguments' => array('mymodule_wish_form'),
+    'access arguments' => array('write wish masseges'),
+  );
+  $items['wish-msg'] = array(
+    'title' => t('Wish Masseges'),
+    'page callback' => 'mymodule_menu_wish_list',
+    'access arguments' => array('administer wish masseges'),
+  );
+
+  return $items;
+}
+
+function mymodule_form() {
+  $form = array();
+  $form['msg'] = array(
+    '#title' => t('Уважаемый пользователь, здесь Вы можете поделится своими мыслями с руководителем компании.<br>Обращаем Ваше внимание на то, что информация об отправителе полностью анонимна.<br> От Гость'),
+    '#type' => 'textarea',
+  );
+  $form['submit'] = array(
+    '#type' => 'submit',
+    '#value' => t('Send Massege'),
+    '#weight' => 40,
+  );
+  $form['#validate'] = array('mymodule_form_validate');
+
+  return $form;
+}
+
+function mymodule_wish_form() {
+  $form = array();
+  $form['msg'] = array(
+    '#title' => t('Уважаемый пользователь, здесь Вы можете выразить свои пожелания,<br>от своего имени, руководителю компании.<br> От Вашего имени'),
+    '#type' => 'textarea',
+  );
+  $form['submit'] = array(
+    '#type' => 'submit',
+    '#value' => t('Send Massege'),
+    '#weight' => 40,
+  );
+  $form['#validate'] = array('mymodule_wish_form_validate');
+
+  return $form;
+}
+
+function mymodule_form_submit($form, &$form_state) {
+  $result = db_query("INSERT INTO {anonymous_msg} (msg) VALUE ('%s')", $form['msg']['#value']);
+  if ($result) {
+    drupal_set_message(t('Messages sent.'));
+  }
+}
+
+function mymodule_wish_form_submit($form, &$form_state) {
+  global $user;
+  $result = db_query("INSERT INTO {wish_msg} (msg, uid) VALUE ('%s', '%d')", $form['msg']['#value'], $user->uid);
+  if ($result) {
+    drupal_set_message(t('Wish messages sent.'));
+  }
+}
+
+function mymodule_form_validate($form, &$form_state) {
+  if (empty($form['msg']['#value'])) {
+     form_set_error('msg', t('The field is empty!'));
+  }
+}
+
+function mymodule_menu_msg_list() {
+  $output = '';
+  $select = db_query_range("SELECT `msg` FROM {anonymous_msg} ORDER BY `mid` DESC", 0, 15);
+  while($row = db_fetch_array($select)) {
+    $profile = t('Anonymous');
+    $output .= '<p>' . '<b>' . $profile . '</b><br>' . $row['msg'] . '</p>';
+  }
+
+  return $output;
+}
+
+function mymodule_menu_wish_list() {
+  $output = '';
+  $select = db_query_range("SELECT * FROM {wish_msg} ORDER BY `mid` DESC", 0, 15);
+  while($row = db_fetch_array($select)) {
+    $user = user_load($row['uid']);
+    if (!empty($user->firstname) || !empty($user->lastname)) {
+      $name = $user->firstname . ' ' . $user->lastname;
+    }
+    else {
+      $name = $user->realname;
+    }
+    if (!empty($user->uid)) {$profile = l($name, 'user/' . $user->uid);} else {$profile = t('Anonymous');}
+    $output .= '<p>' . '<b>' . $profile . '</b><br>' . $row['msg'] . '</p>';
+  }
+
+  return $output;
+}

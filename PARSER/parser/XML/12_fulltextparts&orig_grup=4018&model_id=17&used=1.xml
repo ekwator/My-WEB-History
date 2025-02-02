@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<euroauto-export>
+  <request>
+    <creation-time>2012-10-31 08:52:15 GMT+0400</creation-time>
+    <status>
+      <code>0</code>
+      <message>ok</message>
+    </status>
+    <get>fulltextparts</get>
+    <model_id>17</model_id>
+    <orig_grup>4018</orig_grup>
+    <used>1</used>
+  </request>
+  <parts>
+    <part>
+      <sh_id>1037</sh_id>
+      <firm_name>Audi</firm_name>
+      <model>100/200 [44] 1983-1991;V8 1988-1994</model>
+      <part_name>Амортизатор капота</part_name>
+      <comment>ДО 91ГОДА</comment>
+      <price>220</price>
+      <netto_price>190</netto_price>
+      <wear>100</wear>
+      <tv_id>1016990</tv_id>
+      <kit_id>0</kit_id>
+      <kit_title>0</kit_title>
+      <images/>
+      <tp>0</tp>
+    </part>
+    <part>
+      <sh_id>1037</sh_id>
+      <firm_name>Audi</firm_name>
+      <model>100/200 [44] 1983-1991;V8 1988-1994</model>
+      <part_name>Амортизатор капота</part_name>
+      <comment>ДО 91ГОДА</comment>
+      <price>220</price>
+      <netto_price>190</netto_price>
+      <wear>100</wear>
+      <tv_id>1016993</tv_id>
+      <kit_id>0</kit_id>
+      <kit_title>0</kit_title>
+      <images/>
+      <tp>0</tp>
+    </part>
+    <part>
+      <sh_id>1037</sh_id>
+      <firm_name>Audi</firm_name>
+      <model>100/200 [44] 1983-1991;V8 1988-1994</model>
+      <part_name>Амортизатор капота</part_name>
+      <comment/>
+      <price>220</price>
+      <netto_price>190</netto_price>
+      <wear>100</wear>
+      <tv_id>1055711</tv_id>
+      <kit_id>0</kit_id>
+      <kit_title>0</kit_title>
+      <images/>
+      <tp>0</tp>
+    </part>
+    <part>
+      <sh_id>1039</sh_id>
+      <firm_name>Audi</firm_name>
+      <model>100/200 [44] 1983-1991;V8 1988-1994</model>
+      <part_name>Амортизатор капота</part_name>
+      <comment>443823359В</comment>
+      <price>220</price>
+      <netto_price>190</netto_price>
+      <wear>100</wear>
+      <tv_id>6030256</tv_id>
+      <kit_id>0</kit_id>
+      <kit_title>0</kit_title>
+      <images/>
+      <tp>0</tp>
+    </part>
+    <part>
+      <sh_id>1039</sh_id>
+      <firm_name>Audi</firm_name>
+      <model>100/200 [44] 1983-1991;V8 1988-1994</model>
+      <part_name>Амортизатор капота</part_name>
+      <comment>443823359В</comment>
+      <price>220</price>
+      <netto_price>190</netto_price>
+      <wear>100</wear>
+      <tv_id>6030258</tv_id>
+      <kit_id>0</kit_id>
+      <kit_title>0</kit_title>
+      <images/>
+      <tp>0</tp>
+    </part>
+    <part>
+      <sh_id>1039</sh_id>
+      <firm_name>Audi</firm_name>
+      <model>100/200 [44] 1983-1991;V8 1988-1994</model>
+      <part_name>Амортизатор капота</part_name>
+      <comment>443823359В</comment>
+      <price>220</price>
+      <netto_price>190</netto_price>
+      <wear>100</wear>
+      <tv_id>6030259</tv_id>
+      <kit_id>0</kit_id>
+      <kit_title>0</kit_title>
+      <images/>
+      <tp>0</tp>
+    </part>
+    <part>
+      <sh_id>1039</sh_id>
+      <firm_name>Audi</firm_name>
+      <model>100/200 [44] 1983-1991;V8 1988-1994</model>
+      <part_name>Амортизатор капота</part_name>
+      <comment>443823359В</comment>
+      <price>220</price>
+      <netto_price>190</netto_price>
+      <wear>100</wear>
+      <tv_id>6030260</tv_id>
+      <kit_id>0</kit_id>
+      <kit_title>0</kit_title>
+      <images/>
+      <tp>0</tp>
+    </part>
+    <part>
+      <sh_id>1039</sh_id>
+      <firm_name>Audi</firm_name>
+      <model>100/200 [44] 1983-1991;V8 1988-1994</model>
+      <part_name>Амортизатор капота</part_name>
+      <comment>443823359В</comment>
+      <price>220</price>
+      <netto_price>190</netto_price>
+      <wear>100</wear>
+      <tv_id>6030264</tv_id>
+      <kit_id>0</kit_id>
+      <kit_title>0</kit_title>
+      <images/>
+      <tp>0</tp>
+    </part>
+    <part>
+      <sh_id>1039</sh_id>
+      <firm_name>Audi</firm_name>
+      <model>100/200 [44] 1983-1991;V8 1988-1994</model>
+      <part_name>Амортизатор капота</part_name>
+      <comment>443823359В</comment>
+      <price>220</price>
+      <netto_price>190</netto_price>
+      <wear>100</wear>
+      <tv_id>6030265</tv_id>
+      <kit_id>0</kit_id>
+      <kit_title>0</kit_title>
+      <images/>
+      <tp>0</tp>
+    </part>
+    <part>
+      <sh_id>1039</sh_id>
+      <firm_name>Audi</firm_name>
+      <model>100/200 [44] 1983-1991;V8 1988-1994</model>
+      <part_name>Амортизатор капота</part_name>
+      <comment>443823359В</comment>
+      <price>220</price>
+      <netto_price>190</netto_price>
+      <wear>100</wear>
+      <tv_id>6030266</tv_id>
+      <kit_id>0</kit_id>
+      <kit_title>0</kit_title>
+      <images/>
+      <tp>0</tp>
+    </part>
+    <part>
+      <sh_id>1039</sh_id>
+      <firm_name>Audi</firm_name>
+      <model>100/200 [44] 1983-1991;V8 1988-1994</model>
+      <part_name>Амортизатор капота</part_name>
+      <comment>443823359B</comment>
+      <price>220</price>
+      <netto_price>190</netto_price>
+      <wear>100</wear>
+      <tv_id>6118085</tv_id>
+      <kit_id>0</kit_id>
+      <kit_title>0</kit_title>
+      <images/>
+      <tp>0</tp>
+    </part>
+    <part>
+      <sh_id>1039</sh_id>
+      <firm_name>Audi</firm_name>
+      <model>100/200 [44] 1983-1991;V8 1988-1994</model>
+      <part_name>Амортизатор капота</part_name>
+      <comment>443823359B</comment>
+      <price>220</price>
+      <netto_price>190</netto_price>
+      <wear>100</wear>
+      <tv_id>6118086</tv_id>
+      <kit_id>0</kit_id>
+      <kit_title>0</kit_title>
+      <images/>
+      <tp>0</tp>
+    </part>
+    <part>
+      <sh_id>1039</sh_id>
+      <firm_name>Audi</firm_name>
+      <model>100/200 [44] 1983-1991;V8 1988-1994</model>
+      <part_name>Амортизатор капота</part_name>
+      <comment>443823359В</comment>
+      <price>220</price>
+      <netto_price>190</netto_price>
+      <wear>100</wear>
+      <tv_id>6311362</tv_id>
+      <kit_id>0</kit_id>
+      <kit_title>0</kit_title>
+      <images>
+        <image>http://partner.euroauto.ru/lib/merge_image.php?src=p1039_6311362_01.jpg&amp;tp=1039&amp;site=euroauto.ru</image>
+      </images>
+      <tp>1039</tp>
+    </part>
+    <part>
+      <sh_id>1039</sh_id>
+      <firm_name>Audi</firm_name>
+      <model>100/200 [44] 1983-1991;V8 1988-1994</model>
+      <part_name>Амортизатор капота</part_name>
+      <comment>443823359В</comment>
+      <price>220</price>
+      <netto_price>190</netto_price>
+      <wear>100</wear>
+      <tv_id>6311363</tv_id>
+      <kit_id>0</kit_id>
+      <kit_title>0</kit_title>
+      <images>
+        <image>http://partner.euroauto.ru/lib/merge_image.php?src=p1039_6311363_01.jpg&amp;tp=1039&amp;site=euroauto.ru</image>
+      </images>
+      <tp>1039</tp>
+    </part>
+  </parts>
+</euroauto-export>

@@ -1,0 +1,101 @@
+# Russian translation of date (all releases)
+# Copyright (c) 2012 by the Russian translation team
+# Generated from files:
+#  date/date_repeat_field/date_repeat_field.module: n/a
+#  date/date_repeat_field/date_repeat_field.info: n/a
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: date (all releases)\n"
+"POT-Creation-Date: 2012-08-17 04:37-0400\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Language-Team: Russian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=((((n%10)==1)&&((n%100)!=11))?(0):(((((n%10)>=2)&&((n%10)<=4))&&(((n%100)<10)||((n%100)>=20)))?(1):2));\n"
+
+#: date_repeat_field/date_repeat_field.module:112,112,112,112
+msgid "View Repeating Dates"
+msgstr ""
+
+#: date_repeat_field/date_repeat_field.module:684,708,675,699,684,708,684,708
+msgid "Show repeat rule"
+msgstr ""
+
+#: date_repeat_field/date_repeat_field.module:681,672,681,681
+msgid "Repeat rule:"
+msgstr ""
+
+#: date_repeat_field/date_repeat_field.module:604,595,604,604
+msgid "Repeating date"
+msgstr ""
+
+#: date_repeat_field/date_repeat_field.module:608,599,608,608
+msgid ""
+"Repeating dates use an 'Unlimited' number of values. Instead of the "
+"'Add more' button, they include a form to select when and how often "
+"the date should repeat."
+msgstr ""
+
+#: date_repeat_field/date_repeat_field.module:113,113,113,113
+msgid "Allow user to see a page with all the times a date repeats."
+msgstr ""
+
+#: date_repeat_field/date_repeat_field.module:655,646,655,655
+msgid "Expanded"
+msgctxt "Date repeat"
+msgstr ""
+
+#: date_repeat_field/date_repeat_field.module:656,647,656,656
+msgid "Collapsed"
+msgctxt "Date repeat"
+msgstr ""
+
+#: date_repeat_field/date_repeat_field.module:658,649,658,658
+msgid "Repeat display"
+msgctxt "Date repeat"
+msgstr ""
+
+#: date_repeat_field/date_repeat_field.module:659,650,659,659
+msgid ""
+"Should the repeat options form start out expanded or collapsed? Set to "
+"'Collapsed' to make those options less obtrusive."
+msgctxt "Date repeat"
+msgstr ""
+
+#: date_repeat_field/date_repeat_field.module:326,317,326,326
+msgid "Missing value in 'Range of repeat'. (UNTIL)."
+msgctxt "Date repeat"
+msgstr ""
+
+#: date_repeat_field/date_repeat_field.module:329,320,329,329
+msgid "Missing value in 'Range of repeat': Year (UNTIL)"
+msgctxt "Date repeat"
+msgstr ""
+
+#: date_repeat_field/date_repeat_field.module:330,321,330,330
+msgid "Missing value in 'Range of repeat': Month (UNTIL)"
+msgctxt "Date repeat"
+msgstr ""
+
+#: date_repeat_field/date_repeat_field.module:331,322,331,331
+msgid "Missing value in 'Range of repeat': Day (UNTIL)"
+msgctxt "Date repeat"
+msgstr ""
+
+#: date_repeat_field/date_repeat_field.module:338,329,338,338
+msgid "Missing value in 'Range of repeat'. (COUNT)."
+msgctxt "Date repeat"
+msgstr ""
+
+#: date_repeat_field/date_repeat_field.info:0,0,0,0
+msgid "Date Repeat Field"
+msgstr ""
+
+#: date_repeat_field/date_repeat_field.info:0,0,0,0
+msgid ""
+"Creates the option of Repeating date fields and manages Date fields "
+"that use the Date Repeat API."
+msgstr ""
+

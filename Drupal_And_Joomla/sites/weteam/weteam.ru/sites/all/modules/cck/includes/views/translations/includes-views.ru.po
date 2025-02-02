@@ -1,0 +1,47 @@
+# Russian translation of cck (all releases)
+# Copyright (c) 2012 by the Russian translation team
+# Generated from file: cck/includes/views/content.views.inc: n/a
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: cck (all releases)\n"
+"POT-Creation-Date: 2012-08-17 04:30-0400\n"
+"PO-Revision-Date: 2009-12-18 03:06-0500\n"
+"Language-Team: Russian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=((((n%10)==1)&&((n%100)!=11))?(0):(((((n%10)>=2)&&((n%10)<=4))&&(((n%100)<10)||((n%100)>=20)))?(1):2));\n"
+
+#: includes/views/content.views.inc:264,265
+msgid "Appears in: @types"
+msgstr "Отображается в: @types"
+
+#: includes/views/content.views.inc:286,335,287,336
+msgid "<No value>"
+msgstr "<Нет значения>"
+
+#: includes/views/content.views.inc:252,268,253,269
+msgid "@label (!name)"
+msgstr "@label (!name)"
+
+#: includes/views/content.views.inc:256,257
+msgid "@label (!name) - !column"
+msgstr "@label (!name) - !column"
+
+#: includes/views/content.views.inc:257,258
+msgid "@label-truncated - !column"
+msgstr "@label-truncated - !column"
+
+#: includes/views/content.views.inc:309,310
+msgid "@label (!name) - delta"
+msgstr "@label (!name) - дельта"
+
+#: includes/views/content.views.inc:310,311
+msgid "@label-truncated - delta"
+msgstr "@label-truncated - дельта"
+
+#: includes/views/content.views.inc:317,318
+msgid "Delta - Appears in: @types"
+msgstr "Дельта - отображается в: @types"
+

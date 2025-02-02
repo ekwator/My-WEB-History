@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"><meta charset="utf-8"><title></title>
+<link rel="stylesheet" href="2708_data/reset.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="2708_data/style.css" type="text/css" media="screen, projection"><link rel="stylesheet" href="2708_data/sky.css" type="text/css" media="screen, projection">
+<script src="2708_data/jquery-1.js"></script><script src="2708_data/jquery_002.js"></script><script src="2708_data/jquery.js"></script>
+<style>body, #main, #slids li{width:470px; height: 62px;}
+#nav {margin-left: -12px;} 
+#preloader{width:470px; height: 62px;}
+#main {display: none;}
+             
+</style>
+<!--[if lte IE 6]> 
+<style>#nav{display: none;} </style>
+<script src="js/iepng.js"></script>
+<![endif]--> 
+<script>
+$(function(){
+    $('#slids').cycle({
+    fx:'fade',timeout: 5000,speed : 500        }).cycle('pause');
+$.preLoadImages(
+     ['http://evgeniipopov.com/rotator/discs/3/sky468x60.jpg','http://evgeniipopov.com/rotator/discs/11/sky468x60.jpg']
+     ,function(){movie()}
+);  
+     }); 
+function  movie()
+{
+    $('#main').show();  
+    $('#footer a').attr('href', $('#slids li').eq(0).find('a').attr('href'))  ;    
+    $('#preloader').hide();
+    $('#slids').cycle('resume');      
+}       
+</script>
+</head>
+<body onload="movie()">
+<div style="opacity: 0.8; display: none;" id="preloader">
+<img src="2708_data/ajax-loader.gif" alt="Загрузка..." width="32">
+</div>
+<div style="display: block;" id="main" class="mainhor"> 
+<div id="nav" style="display: none;"><a class="active" href="#"></a><a class="" href="#"></a></div>
+    <ul style="position: relative; width: 470px; height: 62px;" id="slids">
+            <li style="position: absolute; top: 0px; left: 0px; display: block; z-index: 3; opacity: 1; width: 470px; height: 62px;">
+                <div class="img">                    
+                    <a href="http://1popov.ru/c/4659/disc3?referer=http%3A%2F%2Fwww.stepgt.com%2Fcontent%2Fdrupal-6-ustanovka-nivo-slider-chast-2&amp;ip=79.140.26.164" target="_parent _blank">
+                        <img src="2708_data/sky468x60.jpg" alt="" height="60" width="468">
+                    </a>
+                </div>                
+            </li>
+            <li style="position: absolute; top: 0px; left: 0px; display: none; z-index: 2; opacity: 0; width: 470px; height: 62px;">
+                <div class="img">                    
+                    <a href="http://1popov.ru/c/4659/disc11?referer=http%3A%2F%2Fwww.stepgt.com%2Fcontent%2Fdrupal-6-ustanovka-nivo-slider-chast-2&amp;ip=79.140.26.164" target="_parent _blank">
+                        <img src="2708_data/sky468x60_002.jpg" alt="" height="60" width="468">
+                    </a>
+                </div>                
+            </li>
+    </ul><pre>Array
+(
+    [0] =&gt; white
+    [1] =&gt; beige
+    [2] =&gt; sky
+    [3] =&gt; gold
+    [4] =&gt; green
+    [5] =&gt; black
+)
+</pre>                
+</div> 
+
+
+</body></html>

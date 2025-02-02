@@ -1,0 +1,53 @@
+# Russian translation of date (all releases)
+# Copyright (c) 2012 by the Russian translation team
+# Generated from files:
+#  date/date_locale/date_locale.module: n/a
+#  date_locale.module,v 1.1.2.1 2009/01/25 13:03:13 karens
+#  date/date_locale/date_locale.info: n/a
+#  date_locale.info,v 1.1.2.2 2009/05/10 11:11:14 karens
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: date (all releases)\n"
+"POT-Creation-Date: 2012-08-17 04:37-0400\n"
+"PO-Revision-Date: 2010-08-04 22:46-0400\n"
+"Language-Team: Russian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=((((n%10)==1)&&((n%100)!=11))?(0):(((((n%10)>=2)&&((n%10)<=4))&&(((n%100)<10)||((n%100)>=20)))?(1):2));\n"
+
+#: date_locale/date_locale.module:159,160,159,159
+msgid "Search"
+msgstr "Найти"
+
+#: date_locale/date_locale.module:151,152,151,151
+msgid "Language"
+msgstr "Язык"
+
+#: date_locale/date_locale.module:175,176,175,175
+msgid "Date format settings for %language_name"
+msgstr ""
+"Настройки формата отображения для "
+"%language_name"
+
+#: date_locale/date_locale.module:44,45,44,44
+msgid "Locale date settings"
+msgstr "Настройки локали даты"
+
+#: date_locale/date_locale.module:45,46,45,45
+msgid "Configure date formats for each locale"
+msgstr ""
+"Настроить форматы даты для каждой "
+"локали"
+
+#: date_locale/date_locale.info:0,0,0,0
+msgid "Date Locale"
+msgstr "Локаль даты"
+
+#: date_locale/date_locale.info:0,0,0,0
+msgid ""
+"Allows the site admin to configure multiple formats for date/time "
+"display to tailor dates for a specific locale or audience."
+msgstr ""
+

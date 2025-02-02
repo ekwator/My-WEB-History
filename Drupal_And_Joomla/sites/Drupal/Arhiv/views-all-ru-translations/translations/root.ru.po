@@ -1,0 +1,1557 @@
+# Russian translation of views (all releases)
+# Copyright (c) 2013 by the Russian translation team
+# Generated from files:
+#  views/views.module: n/a
+#  views/views_ui.module: n/a
+#  views/views_rss.module: n/a
+#  views/views_theme_wizard.module: n/a
+#  views/views.install: n/a
+#  views/views.info: n/a
+#  views/views_rss.info: n/a
+#  views/views_theme_wizard.info: n/a
+#  views/views_ui.info: n/a
+#  views/views.tokens.inc: n/a
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: views (all releases)\n"
+"POT-Creation-Date: 2013-05-29 14:21+0400\n"
+"PO-Revision-Date: 2013-01-17 14:30+0400\n"
+"Language-Team: Russian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=((((n%10)==1)&&((n%100)!=11))?(0):(((((n%10)>=2)&&((n%10)<=4))&&(((n%100)<10)||((n%100)>=20)))?(1):2));\n"
+
+#: views.module:1653,1654
+msgid "never"
+msgstr "никогда"
+
+#: views_ui.module:541,542
+msgid "Are you sure you want to delete %title?"
+msgstr "Вы уверены, что хотите удалить %title?"
+
+#: views_ui.module:247,321,248,322
+msgid "Actions"
+msgstr "Действия"
+
+#: views.module:1380,1381
+msgid "<All>"
+msgstr "<Все>"
+
+#: views.module:1661,1662
+msgid "As Short Date"
+msgstr "Как краткая дата"
+
+#: views.module:1662,1663
+msgid "As Medium Date"
+msgstr "Как средняя дата"
+
+#: views.module:1663,1664
+msgid "As Long Date"
+msgstr "Как длинная дата"
+
+#: views.module:1664,1665
+msgid "As Custom Date"
+msgstr "Как Дополнительная Дата"
+
+#: views.module:1665,1666
+msgid "As Time Ago"
+msgstr "В виде \"тому назад\""
+
+#: views.module:1674,1675
+msgid "Granularity: minute"
+msgstr "Детализация: минута"
+
+#: views.module:1675,1676
+msgid "Granularity: hour"
+msgstr "Детализация: час"
+
+#: views.module:1676,1677
+msgid "Granularity: day"
+msgstr "Детализация: день"
+
+#: views.module:1677,1678
+msgid "Granularity: month"
+msgstr "Детализация: месяц"
+
+#: views.module:1678,1679
+msgid "Granularity: year"
+msgstr "Детализация: год"
+
+#: views.module:1784,1785
+msgid "Is All Of"
+msgstr "Все:"
+
+#: views.module:1784,1791,1785,1792
+msgid "Is One Of"
+msgstr "Любые:"
+
+#: views.module:1784,1791,1785,1792
+msgid "Is None Of"
+msgstr "Кроме:"
+
+#: views.module:1798,1805,1919,1799,1806,1920
+msgid "Is Equal To"
+msgstr "Равно"
+
+#: views.module:1798,1805,1799,1806
+msgid "Is Not Equal To"
+msgstr "Не равно"
+
+#: views.module:1805,1806
+msgid "Is Greater Than"
+msgstr "Больше, Чем"
+
+#: views.module:1805,1806
+msgid "Is Greater Than Or Equals"
+msgstr "Больше или Равно"
+
+#: views.module:1805,1806
+msgid "Is Less Than Or Equals"
+msgstr "Меньше или Равно"
+
+#: views.module:1805,1806
+msgid "Is Less Than"
+msgstr "Меньше, Чем"
+
+#: views.module:1837,1838
+msgid "List View"
+msgstr "Вид Списка"
+
+#: views.module:1844,1845
+msgid "Table View"
+msgstr "Табличный Вид"
+
+#: views.module:1852,1853
+msgid "Teaser List"
+msgstr "Список аннотаций"
+
+#: views.module:1857,1858
+msgid "Full Nodes"
+msgstr "Полные материалы"
+
+#: views.module:1919,1920
+msgid "Contains Any Word"
+msgstr "Включает Одно из Слов"
+
+#: views.module:1919,1920
+msgid "Contains All Words"
+msgstr "Включает все слова"
+
+#: views.module:1919,1920
+msgid "Starts With"
+msgstr "Начинается с"
+
+#: views.module:1919,1920
+msgid "Ends With"
+msgstr "Заканчивается на"
+
+#: views.module:1919,1920
+msgid "Does Not Contain"
+msgstr "Не Содержит"
+
+#: views.module:2047,2048
+msgid "@filter must have a value!"
+msgstr "Нужно задать значение для @filter!"
+
+#: views.module:2110,2111
+msgid ""
+"The \"Value\" can either be a date in the format: CCYY-MM-DD HH:MM:SS "
+"or the word \"now\" to use the current time. You may enter a positive "
+"or negative number in the \"Option\" field that will represent the "
+"amount of seconds that will be added or substracted to the time; this "
+"is most useful when combined with \"now\". If you have the jscalendar "
+"module from jstools installed, you can use a popup date picker here."
+msgstr ""
+"\"Значение\" может быть как датой в "
+"формате: CCYY-MM-DD HH:MM:SS, так и словом  \"now\", "
+"которое обозначает текущее время. Вы "
+"можете ввести положительное или "
+"отрицательное число в поле "
+"\"Параметры\", которое будет отображать "
+"количество секунд, которое будет "
+"добавлено или вычтено из времени; это "
+"особенно полезно, когда сочетается с "
+"\"now\". Если у вас установлен модуль "
+"jscalendar из jstools, то вы можете "
+"использовать всплывающее окно для "
+"указания даты."
+
+#: views.module:286,288,287,152,288,152,288,286,288,287,152,288,152,288
+msgid "access all views"
+msgstr "доступ ко всем представлениям"
+
+#: views_rss.module:25,26
+msgid "RSS: RSS Feed Selector"
+msgstr "RSS: Выбор Ленты RSS"
+
+#: views_rss.module:28,29
+msgid ""
+"This argument specifies a specific RSS feed selector; it will only "
+"select RSS feeds, unlike the built-in selector which can select "
+"pluggable feeds. You may enter the title the feed will advertise in "
+"the title field here, and the description of the feed in the option "
+"field here."
+msgstr ""
+"Этот аргумент определяет специфичный "
+"отборщик RSS-ленты. Он только выбирает "
+"RSS-ленты, в отличии от встроенного "
+"отборщика, который может отбирать "
+"подключаемые ленты. Вы можете ввести "
+"заголовок ленты в поле для заголовка и "
+"описание ленты в соответствующем "
+"поле."
+
+#: views_theme_wizard.module:47,48
+msgid ""
+"<p>The views theming wizard generates code that you can use in your "
+"phptemplate theme to help you customize the output of a view. Simply "
+"select a theme and it will generate code for your template.php as well "
+"as template files for the individual views.</p><p>At this time this "
+"code assumes your view is a <b>list type view</b>! It may not generate "
+"effective code for other types of views. Future versions of this "
+"program will be smarter, and give more options, but this wizard is "
+"still a huge start.</p>"
+msgstr ""
+"<p>Мастер темизации видов создает код, "
+"который можно использовать в ваших "
+"темах phptemplate, который поможет вам "
+"настроить вывод вида. Выберите тему и "
+"мастер сгенерирует код для template.php, а "
+"также шаблоны для отдельных "
+"видов.</p><p>На данный момент этот код "
+"получает ваше представление в виде "
+"<b>списка типов вида!</b>! Он не может "
+"генерировать эффективный код для "
+"других типов представлений. "
+"Поледующие версии данной программы "
+"будут более изящными и будут "
+"предоставлять больше возможностей. "
+"Пока этот мастер в стадии развития.</p>"
+
+#: views_theme_wizard.module:62,63
+msgid "Select a view"
+msgstr "Выберите представление"
+
+#: views_theme_wizard.module:67,73,102,68,74,103
+msgid "Select Theme Type"
+msgstr "Выберите Тип Темы"
+
+#: views_theme_wizard.module:78,88,79,89
+msgid "List Theme Fields"
+msgstr "Поля Списка Тем"
+
+#: views_theme_wizard.module:92,93
+msgid ""
+"This is a list of all the theme functions you can use to override "
+"individual field displays"
+msgstr ""
+"Список всех функций тем, которые вы "
+"можете использовать для добавления "
+"отображений индивидуальных полей"
+
+#: views_theme_wizard.module:97,98
+msgid "This is a basic theme function"
+msgstr "Это основная функция темы"
+
+#: views_theme_wizard.module:123,124
+msgid "Generate Theme"
+msgstr "Создать тему"
+
+#: views_theme_wizard.module:138,139
+msgid "This code goes in your template.php file"
+msgstr ""
+"Этот код нужно поместить в ваш файл "
+"template.php"
+
+#: views_theme_wizard.module:143,144
+msgid "This code goes in a file named views-list-@s.tpl.php"
+msgstr ""
+"Этот код помещается в файл с названием "
+"views-list-@s.tpl.php"
+
+#: views_theme_wizard.module:148,149
+msgid "This code goes in a file named views-list-@s.css"
+msgstr ""
+"Этот код  нужно поместить в файл "
+"views-list-@s.css"
+
+#: views_theme_wizard.module:175,176
+msgid "Simple List"
+msgstr "Простой список"
+
+#: views_theme_wizard.module:176,177
+msgid "Grouped List"
+msgstr "Сгрупированный список"
+
+#: views_theme_wizard.module:177,178
+msgid "Nested Tree"
+msgstr "Древовидный"
+
+#: views_theme_wizard.module:191,192
+msgid "Select the field on which to group"
+msgstr ""
+"Выберите поле, по которому "
+"производить группировку"
+
+#: views_theme_wizard.module:204,205
+msgid "Select the field to use as the ID for each row (usually nid)"
+msgstr ""
+"Выберите поле, которое используется "
+"как ID для каждой строки (обычно nid)"
+
+#: views_theme_wizard.module:209,210
+msgid "Select the field that refers to the parent node by the ID field"
+msgstr ""
+"Выберите поле, которое ссылается на "
+"родительский материал по ID поля"
+
+#: views_ui.module:16,17
+msgid ""
+"This screen shows all of the views that are currently defined in your "
+"system. The default views are provided by Views and other modules and "
+"are automatically available. If a customized view of the same name "
+"exists, it will be used in place of a default view."
+msgstr ""
+"Здесь отображены все представления, "
+"которые на данный момент определены "
+"на вашем сайте. Представления по "
+"умолчанию предоставлены модулем Views и "
+"другими модулями, они доступны "
+"автоматически. Если присутствует "
+"произвольно определенное "
+"представление с таким же именем, то "
+"оно используется вместо "
+"представления по умолчанию."
+
+#: views_ui.module:22,23
+msgid "Please see !s or the views documentation on drupal.org for help here."
+msgstr ""
+"Если вам нужна помощь, то, пожалуйста, "
+"посмотрите !s или документацию по Views "
+"на drupal.org."
+
+#: views_ui.module:22,23
+msgid "the views help page"
+msgstr "страница помощи  по представлениям"
+
+#: views_ui.module:24,25
+msgid ""
+"You may cut & paste this view into an import function on another "
+"system. The view will only work if all modules required by the view "
+"are installed on the target location."
+msgstr ""
+"Вы можете скопировать это "
+"представление и вставить через "
+"функцию импорта на другой системе. Это "
+"представление будет работать только "
+"если все требуемые  модули "
+"установлены в целевой системе."
+
+#: views_ui.module:33,34
+msgid ""
+"<p>A view retrieves some number of nodes from the database and "
+"displays them in a variety of formats.</p>"
+msgstr ""
+"<p>Представление получает некоторое "
+"число материалов из базы данных и "
+"отображает их в разнообразных "
+"форматах.</p>"
+
+#: views_ui.module:34,35
+msgid ""
+"<h3>View Types</h3>\n"
+"    <dl>\n"
+"      <dt><em>List View</em></dt><dd>A List View provides the data for "
+"each node retrieved in the form of an unordered list. Each item in the "
+"Fields section will be displayed; the Title will be displayed as a "
+"label. The order the items appear in the Fields list is the order the "
+"items will appear in the output. Leaving the title blank will cause "
+"the field to appear with no label (which is desirable in lists that "
+"just display titles, for example).</dd>\n"
+"      <dt><em>Table View</em></dt><dd>A Table View provides the data "
+"for each node as one row of a table. The Fields selected in the Fields "
+"list will be displayed in the order they are listed. The title column "
+"will be shown in the header. If you set the field to 'sortable' then "
+"the header will be click-sortable; be careful here as click-sorts will "
+"be processed after built-in sort criteria, and built-in sort criteria "
+"can easily make click-sorts invalid. If using click-sorts, choose a "
+"field to be the default sort; otherwise the first field presented will "
+"be the default sort.</dd>\n"
+"      <dt><em>Teaser List</em></dt><dd>A Teaser List will simply "
+"present the teaser of each node retrieved.</dd>\n"
+"      <dt><em>Full Nodes</em></dt><dd>This will show the full content "
+"of each node retrieved.</dd>\n"
+"      <dt><em>Random Teaser</em></dt><dd>This will show a single "
+"random teaser.</dd>\n"
+"      <dt><em>Random Node</em></dt><dd>This will show a single random "
+"node's full view.</dd>\n"
+"    </dl>"
+msgstr ""
+"<h3>Типы представлений</h3>\r\n"
+"    <dl>\r\n"
+"      <dt><b>Список</b></dt><dd>Список "
+"отображает данные каждого материала в "
+"форме неупорядоченного списка. Каждый "
+"элемент в разделе \"Поля\" будет "
+"отображаться, а заголовок будет "
+"использоваться как подпись. При "
+"выводе элементы будут показаны в том "
+"же порядке, в котором находятся поля в "
+"этом разделе. Если поле заголовка "
+"оставлено пустым, при выводе поле "
+"будет без заголовка (что желательно "
+"при отображении списков, в которых "
+"только заглавия, например).</dd>\r\n"
+"      <dt><b>Таблица</b></dt><dd>Таблица "
+"отображает данные каждого материала в "
+"виде строки таблицы. Элементы из "
+"раздела \"Поля\" будут отображаться в "
+"том порядке, в каком они даны в этом "
+"разделе. Заголовки будут отображаться "
+"над таблицей. Если сортировка "
+"включена, то нажатием на заголовок "
+"пользователь сможет сортировать "
+"таблицу. Будьте осторожны: сортировка "
+"по нажатию на заголовок производится "
+"<strong>после</strong> сортировки по "
+"встроенным критериям, и эти критерии "
+"легко могут сделать сортировку по "
+"нажатию неправильной. Если "
+"используется сортировка по нажатию, "
+"выберите поле сортировки по "
+"умолчанию, иначе таким полем будет "
+"назначено первое из полей.</dd>\r\n"
+"      <dt><b>Список аннотаций</b></dt><dd>Просто "
+"выводит сопроводительные надписи "
+"полученных материалов.</dd>\r\n"
+"      <dt><b>Полные "
+"материалы</b></dt><dd>Выводит всё "
+"содержимое полученных "
+"материалов.</dd>\r\n"
+"      <dt><b>Случайная "
+"аннотация</b></dt><dd>Выводит одну "
+"случайную аннотацию.</dd>\r\n"
+"      <dt><b>Случайный "
+"материал</b></dt><dd>Выводит всё "
+"содержимое одного случайного "
+"материала.</dd>\r\n"
+"    </dl>"
+
+#: views_ui.module:45,46
+msgid "<h3>Fields</h3>\n"
+msgstr "<h3>Поля</h3>\n"
+
+#: views_ui.module:46,47
+msgid ""
+"<p>When using List or Table view, it is necessary to choose which "
+"fields will be displayed to the user.</p><dl>\n"
+msgstr ""
+"<p>При использовании вида Списка или "
+"Таблицы необходимо выбрать, какие "
+"поля будут показаны "
+"пользователю.</p><dl>\n"
+
+#: views_ui.module:53,54
+msgid "<h3>Arguments</h3>\n"
+msgstr "<h3>Аргументы</h3>\n"
+
+#: views_ui.module:54,55
+msgid ""
+"<p>Arguments can be passed to the View through the URL, in order to "
+"create views that are configurable by the user. This is very useful to "
+"create views for taxonomy, or to sort by user. When using arguments, "
+"substitution is performed on the title. %1 will represent argument 1, "
+"%2 will represent argument 2. Each argument has a title field; this "
+"title is used if providing a summary view (which can matter because "
+"the argument is missing which could result in confusing phrases such "
+"as 'view for')</p><dl>\n"
+msgstr ""
+"<p>Для создания представлений, "
+"настраиваемых пользователем, "
+"аргументы могут передаваться по "
+"ссылке. Это полезно при создании "
+"представлений для таксономии. При "
+"использовании аргументов "
+"производится подстановка в заголовке. "
+"%1 будет представлять первый аргумент, "
+"а %2 - второй. Каждый аргумент имеет "
+"поле заголовка. Этот заголовок "
+"используется, когда отображается "
+"сводный вид (это важно, поскольку, если "
+"аргумент потерян, это приведет к "
+"путанице фраз типа \"представление "
+"для\").</p><dl>\r\n"
+
+#: views_ui.module:61,62
+msgid "<h3>Filters</h3>\n"
+msgstr "<h3>Фильтры</h3>\n"
+
+#: views_ui.module:62,63
+msgid ""
+"<p>Views may be filtered to restrict the view on a number of "
+"criteria.</p><dl>\n"
+msgstr ""
+"<p>Представления могут иметь  фильтры, "
+"чтобы ограничивать показ при "
+"определенных критериях.</p><dl>\r\n"
+
+#: views_ui.module:69,70
+msgid "<h3>Sorting Critera</h3>\n"
+msgstr "<h3>Критерии сортировки</h3>\n"
+
+#: views_ui.module:70,71
+msgid ""
+"<p>The result set may be sorted on any of the following "
+"criteria.</p><dl>\n"
+msgstr ""
+"<p>Результирующий набор может быть "
+"отсортирован по любому из "
+"перечисленных ниже критериев.</p><dl>\n"
+
+#: views_ui.module:98,27,99,27,27,27
+msgid ""
+"Views are customized lists of content on your system; they are highly "
+"configurable and give you control over how lists of content are "
+"presented."
+msgstr ""
+"Представления являются "
+"настраиваемыми списками содержимого  "
+"в вашей системе; практически во всем "
+"они конфигурируемы и предоставляют "
+"контроль над тем как представлено "
+"содержимое."
+
+#: views_ui.module:117,49,118,49,49,49
+msgid "Tools"
+msgstr "Инструменты"
+
+#: views_ui.module:219,266,220,267
+msgid "No Page View"
+msgstr ""
+"Не создавать страницы для "
+"представления"
+
+#: views_ui.module:247,321,248,322
+msgid "Provides"
+msgstr "Предоставляет"
+
+#: views_ui.module:251,324,252,325
+msgid "<p>No views have currently been defined.</p>"
+msgstr ""
+"<p>На данный момент нет определенных "
+"представлений.</>"
+
+#: views_ui.module:259,260
+msgid ""
+"<p>Below are system default views; if you edit one of these, a view "
+"will be created that will override any system use of the view.</p>"
+msgstr ""
+"<p>Ниже находятся системные "
+"представления по умолчанию. Если вы "
+"изменяете один из них, будет создано "
+"новое представление, которое "
+"перекроет представление по умолчанию. "
+"Система будет использовать вновь "
+"созданное представление.</p>"
+
+#: views_ui.module:321,322
+msgid "Default view"
+msgstr "Представление по умолчанию"
+
+#: views_ui.module:332,333
+msgid ""
+"<p>Occasionally, something or other can cause the Views cache to "
+"contain stale data; this is particularly true after module updates and "
+"sometimes true after taxonomy and profile updates. If you are having "
+"problems with Views creating malformed queries, the first thing you "
+"should always do is clear the Views cache to see if that is the "
+"problem.</p>"
+msgstr ""
+"<p>Иногда что-то может привести к тому, "
+"что кэш представлений будет содержать "
+"устаревшие данные. Это возможно после "
+"обновления модуля или иногда после "
+"обновления таксономии или профиля. "
+"Если у вас возникли проблемы и  "
+"создаются неправильные запросы, "
+"первое, что вам нужно сделать, это "
+"обновить кэш , чтобы убедиться, что "
+"проблема не в этом.</p>"
+
+#: views_ui.module:337,344,338,345
+msgid "Clear views cache"
+msgstr "Очистить кэш"
+
+#: views_ui.module:407,408
+msgid "Import View Code"
+msgstr "Импортировать код представления"
+
+#: views_ui.module:410,411
+msgid "Cut and paste the results of an Export View here."
+msgstr ""
+"Вырезать и вставить результаты "
+"экспорта представления сюда."
+
+#: views_ui.module:435,478,500,436,479,501
+msgid "Add a View"
+msgstr "Добавить представление"
+
+#: views_ui.module:441,442
+msgid "You don't seem to have the following requirements: "
+msgstr ""
+"Нет соответствия следующим "
+"требованиям: "
+
+#: views_ui.module:445,446
+msgid "Unable to get a view out of that."
+msgstr "Невозможно получить представление."
+
+#: views_ui.module:524,525
+msgid "Edit view %n"
+msgstr "Редактировать представление  %n"
+
+#: views_ui.module:593,594
+msgid "Return Page Not Found"
+msgstr "Страница возврата не найдена"
+
+#: views_ui.module:594,595
+msgid "Display All Values"
+msgstr "Отобразить все Значения"
+
+#: views_ui.module:595,596
+msgid "Summary, unsorted"
+msgstr "Сводка, без сортировки"
+
+#: views_ui.module:598,599
+msgid "Summary, sorted as view"
+msgstr ""
+"Сводка, сортировка как у "
+"представления"
+
+#: views_ui.module:599,600
+msgid "Use Empty Text"
+msgstr ""
+"Использовать текст при пустом "
+"представлении"
+
+#: views_ui.module:701,771,1653,702,772,1654
+msgid "Add Filter"
+msgstr "Добавить фильтр"
+
+#: views_ui.module:705,772,706,773
+msgid "Add Criteria"
+msgstr "Добавить критерий"
+
+#: views_ui.module:709,770,1641,710,771,1642
+msgid "Add Argument"
+msgstr "Добавить аргумент"
+
+#: views_ui.module:721,722
+msgid "Expose Filter"
+msgstr "Открыть фильтр"
+
+#: views_ui.module:776,777
+msgid ""
+"You have modified this view; changes will not be recorded until you "
+"Save the form."
+msgstr ""
+"Вы изменили это представление. "
+"Изменения не будут записаны до "
+"сохранения формы."
+
+#: views_ui.module:803,804
+msgid "Basic Information"
+msgstr "Основная информация"
+
+#: views_ui.module:812,813
+msgid ""
+"The unique identifier of the view; it is only important for overridden "
+"views and views that modules or themes will need to use. Only "
+"alphanumeric and _ allowed here"
+msgstr ""
+"Уникальный идентификатор "
+"представления; он важен только для "
+"переопределенных представлений и тех "
+"представлений, которые используются в "
+"модулях и темах. Допускаются только  "
+"латинские буквы, цифры и символ "
+"подчеркивания."
+
+#: views_ui.module:821,822
+msgid ""
+"Only the checked roles will be able to see this view in any form; if "
+"no roles are checked, access will not be restricted."
+msgstr ""
+"Только пользователи с ролями, которые "
+"отмечены, смогут видеть это "
+"представление в любой форме. Если ни "
+"одна из ролей не отмечена, доступ не "
+"будет ограничен."
+
+#: views_ui.module:830,831
+msgid "A description of the view for the admin list."
+msgstr ""
+"Описание представления для "
+"администратора"
+
+#: views_ui.module:844,845
+msgid "Provide Page View"
+msgstr ""
+"Предоставить страницу для "
+"представления"
+
+#: views_ui.module:847,848
+msgid ""
+"If checked this view will be provided as a page. If not checked, the "
+"fields in this group will be ignored."
+msgstr ""
+"Если выбрано, это представления будет "
+"отображаться на отдельной странице. "
+"Если не выбрано, поля в этой группе "
+"будут проигнорированы."
+
+#: views_ui.module:856,857
+msgid ""
+"Enter the URL to use for this view in the form of 'dir/dir'. Do not "
+"begin or end the URL with a /. Example: 'view/tracker'. This is "
+"required if providing a page view. You can also add $arg as a "
+"placeholder for arguments passed in the URL, for example "
+"'user/$arg/tracker' or 'node/$arg/related'. Note that any arguments "
+"listed here will be required, even if they are listed as optional "
+"below. You do not need to list arguments at the end of the path. Do "
+"not try to use URLs such as taxonomy/term/$arg."
+msgstr ""
+"Введите URL, который будет "
+"использоваться для этого "
+"представления в формате 'dir/dir'. Не "
+"ставьте слеш (/) вначале и в конце URL. "
+"Например, 'view/tracker'. Это необходимо, "
+"если выбрано отображение "
+"представления на отдельной "
+"странице.Вы можете также добавить $arg "
+"как заполнитель для аргументов идущих "
+"в URL, например 'user/$arg/tracker' или  "
+"'node/$arg/related'. Обратите внимание, что "
+"любые аргументы из этого списка будут "
+"обязательными, даже, если они указаны "
+"как не обязательные ниже. Вам не нужно "
+"добавлять в список аргументы в конце "
+"пути. Не пытайтесь использовать URL "
+"вроде таких: taxonomy/term/$arg."
+
+#: views_ui.module:861,1050,862,1051
+msgid "View Type"
+msgstr "Тип представления"
+
+#: views_ui.module:864,1053,865,1054
+msgid "How the nodes should be displayed to the user."
+msgstr ""
+"Выберите, как показывать материалы  "
+"пользователю."
+
+#: views_ui.module:873,874
+msgid ""
+"The title that be shown at the top of the view. May be blank. This "
+"title ignores arguments; if you want your title to take arguments into "
+"account, use the \"title\" field in the arguments section."
+msgstr ""
+"Заголовок, который будет отображаться "
+"сверху данного представления. Может "
+"быть пустым. Этот заголовок "
+"игнорирует аргументы; если вы хотите "
+"разместить заголовок с "
+"использованием аргументов, "
+"используйте поле \"Заголовок\" в "
+"разделе \"Аргументы\"."
+
+#: views_ui.module:878,879
+msgid "Use Pager"
+msgstr "Постранично"
+
+#: views_ui.module:881,882
+msgid ""
+"If checked this query may be multiple pages. If not checked this query "
+"will be one page."
+msgstr ""
+"Если включено, запрос может быть "
+"разделен на несколько страниц."
+
+#: views_ui.module:885,886
+msgid "Breadcrumb trail should not include \"Home\""
+msgstr "Не включать \"Главную страницу\""
+
+#: views_ui.module:888,889
+msgid ""
+"If checked the breadcrumb trail for this page will discard \"Home\". "
+"Usually you will not set this, but this is used for the Front Page "
+"View, where it IS Home and should not leave a trail to itself."
+msgstr ""
+"Если отмечено, \"Главная страница\" не "
+"будет включена в путь. Обычно этот "
+"флаг ставить не нужно, кроме случая с "
+"главной страницей, чтобы она не "
+"ссылалась сама на себя."
+
+#: views_ui.module:892,893
+msgid "Nodes per Page"
+msgstr "Материалов на страницу"
+
+#: views_ui.module:896,897
+msgid ""
+"The number of nodes to display per page. If 0, all nodes will be "
+"displayed. If not using a pager, this will be the maximum number of "
+"nodes in the list."
+msgstr ""
+"Количество материалов, отображаемых "
+"на странице. Если указано 0, будут "
+"отображены все материалы. Если "
+"навигатор не используется, то это "
+"число определяет максимальное "
+"количество материалов в списке."
+
+#: views_ui.module:926,1128,927,1129
+msgid ""
+"Text to display at the bottom of the view. May contain an explanation "
+"or links or whatever you like. Optional."
+msgstr ""
+"Текст для отображения снизу "
+"представления. Может содержать "
+"разъяснения или какие-либо ссылки. Не "
+"обязательно для заполнения."
+
+#: views_ui.module:935,936
+msgid "Empty Text"
+msgstr "Пустой текст"
+
+#: views_ui.module:942,943
+msgid "Text to display if a view returns no nodes. Optional."
+msgstr ""
+"Текст, отображаемый, когда "
+"представление не содержит ни одного "
+"материала. Не обязательно для "
+"заполнения."
+
+#: views_ui.module:956,957
+msgid "Provide Menu"
+msgstr "Предоставить меню"
+
+#: views_ui.module:959,960
+msgid ""
+"If checked this view be given a menu entry in the Drupal menu system. "
+"If not checked the data in this group will be ignored."
+msgstr ""
+"Если включено, то представлению будет "
+"присвоен пункт меню в системе меню "
+"Drupal. Если отключено, поля в этой группе "
+"будут проигнорированы."
+
+#: views_ui.module:964,965
+msgid "Provide Menu as Tab"
+msgstr "Предоставить меню как вкладки"
+
+#: views_ui.module:967,968
+msgid ""
+"If checked this view's menu entry will be provided as a tab rather "
+"than in the main menu system."
+msgstr ""
+"Если включено, пункт меню "
+"представления будет представлен, как "
+"закладка."
+
+#: views_ui.module:972,1016,973,1017
+msgid "Tab Weight"
+msgstr "Вес закладки"
+
+#: views_ui.module:975,976
+msgid ""
+"If this is a menu tab, select the weight; lower numbers will be "
+"further to the left."
+msgstr ""
+"Если это закладка, выберите вес. Чем "
+"меньше число, тем ближе к левому краю "
+"расположена закладка."
+
+#: views_ui.module:980,981
+msgid "Menu Title"
+msgstr "Заголовок меню"
+
+#: views_ui.module:984,985
+msgid ""
+"Enter the title to use for the menu entry or tab. If blank, the page "
+"title will be used."
+msgstr ""
+"Введите заголовок для пункта меню или "
+"закладки. Если пусто, будет "
+"использоваться заголовок страницы."
+
+#: views_ui.module:991,992
+msgid "Default Menu Tab"
+msgstr "Меню"
+
+#: views_ui.module:996,997
+msgid "Make Default Menu Tab"
+msgstr "Сделать вкладку меню по умолчанию"
+
+#: views_ui.module:999,1000
+msgid ""
+"If checked this view's menu entry will be provided as a tab, and will "
+"be the default tab for that URL path. For example, if the URL is "
+"'tracker/all' and it is set as the default menu tab, it will be put "
+"into the menu as 'tracker' and 'tracker/all' will be the default tab. "
+"The following settings allow you to customize the parent item, for "
+"example 'tracker'. For tabs to work properly, one tab in the group "
+"must be set as the default."
+msgstr ""
+"Если выбрано, то  меню для "
+"представления будет представлено в "
+"виде закладки, и будет вкладкой по "
+"умолчанию для этого пути URL. Например, "
+"если URL это 'tracker/all' и он установлен как "
+"вкладка меню по умолчанию, то он будет "
+"помещён в меню как  'tracker',  и 'tracker/all' "
+"будет вкладкой по умолчанию. "
+"Следующие настройки позволяют вам "
+"настроить родительский пункт меню, "
+"например 'tracker'. Для корректной работы "
+"вкладок нужно, чтобы одна вкладка из "
+"группы была установлена как вкладка "
+"по умолчанию."
+
+#: views_ui.module:1004,1028,1005,1029
+msgid "Parent Menu Item Type"
+msgstr "Тип пункта родительского меню"
+
+#: views_ui.module:1007,1028,1008,1029
+msgid "Tab"
+msgstr "Вкладка"
+
+#: views_ui.module:1009,1010
+msgid "Already exists (don't create)"
+msgstr "Уже существует (не создавать)"
+
+#: views_ui.module:1011,1012
+msgid ""
+"Select type of parent item to use for this default menu tab. You can "
+"either specify the parent should be a tab (the default), a normal menu "
+"item, or to use the menu item that already exists at the specified "
+"URL. For example, if the URL for the default tab is 'tracker/all', "
+"then 'tracker' would already have to be a valid menu item to use this "
+"final choice."
+msgstr ""
+"Выберите тип родительского пункта, "
+"чтобы использовать для этой вкладки "
+"меню по умолчанию. Вы можете либо "
+"указать, должен ли родитель быть "
+"вкладкой (по умолчанию), обычным "
+"пунктом меню, либо  использовать пункт "
+"меню, который уже существует в "
+"указанном URL. Например, если URL для "
+"вкладки по умолчанию 'tracker/all', то 'tracker' "
+"может уже быть правильным пунктом "
+"меню, который можно использовать."
+
+#: views_ui.module:1019,1020
+msgid ""
+"If the parent menu item is a tab, select the weight; lower numbers "
+"will be further to the left."
+msgstr ""
+"Если родительский пункт меню является "
+"вкладкой, выберите вес. Меньшие номера "
+"будут ближе к левому краю."
+
+#: views_ui.module:1024,1025
+msgid "Parent Menu Item Title"
+msgstr "Заголовок  пункта родительского меню"
+
+#: views_ui.module:1028,1029
+msgid ""
+"If the Parent Menu Item is being defined by this view (if you set the "
+"%type_field to either %tab or %menu), you can specify its title here.  "
+"If blank, the menu title will be used if that is defined, or the page "
+"title if not."
+msgstr ""
+"Если  пункт родительского меню "
+"определяется в этом представлении "
+"(если вы установили %type_field в %tab или %menu), "
+"вы можете задать его заголовок здесь. "
+"Если не задано, будет использован "
+"заголовок меню, если он задан. Иначе "
+"используется заголовок страницы."
+
+#: views_ui.module:1042,1043
+msgid "Provide Block"
+msgstr "Предоставить блок"
+
+#: views_ui.module:1045,1046
+msgid ""
+"If checked this view will be provided as a block. If checked title may "
+"not be blank."
+msgstr ""
+"Если включено, это представление "
+"будет представлять из себя блок. В "
+"этом случае заголовок не может быть "
+"пустым."
+
+#: views_ui.module:1062,1063
+msgid "The title that will be shown at the top of the block. May be blank."
+msgstr ""
+"Заголовок, отображаемый сверху блока. "
+"Может быть пустым."
+
+#: views_ui.module:1067,1068
+msgid "Nodes per Block"
+msgstr "Материалов на блок"
+
+#: views_ui.module:1071,1072
+msgid ""
+"If using a block, the maximum number of items to display in the block. "
+"Pagers are not used in blocks."
+msgstr ""
+"Если используется блок, максимальное "
+"число элементов для отображения в "
+"блоке. В блоках не используются "
+"навигаторы."
+
+#: views_ui.module:1077,1078
+msgid "[More] Link?"
+msgstr "Ссылка [подробнее]?"
+
+#: views_ui.module:1080,1081
+msgid ""
+"If using a view as both a page and a block, display a more link in the "
+"block that links to the view URL?"
+msgstr ""
+"Если представление используется как в "
+"виде  страницы, так и в виде  блока, "
+"добавлять ли ссылку [Далее] в блок, "
+"который ссылается на URL представления?"
+
+#: views_ui.module:1091,1092
+msgid "Use Page Header"
+msgstr "Использовать заголовок страницы"
+
+#: views_ui.module:1094,1095
+msgid ""
+"If checked, use the Page Header for block view instead. If so, you "
+"should leave the Block Header blank."
+msgstr ""
+"Если включено, используйте для вида "
+"блока шапку страницы. В этом случае вы "
+"должны оставить шапку блока пустой."
+
+#: views_ui.module:1116,1117
+msgid "Use Page Footer"
+msgstr "Использовать подвал страницы"
+
+#: views_ui.module:1119,1120
+msgid ""
+"If checked, use the page footer for block view instead. If so, you "
+"should leave the block footer blank."
+msgstr ""
+"Если включено, используйте для вида "
+"блока подвал страницы. В этом случае "
+"вы должны оставить подвал блока "
+"пустым."
+
+#: views_ui.module:1141,1142
+msgid "Use Page empty"
+msgstr "Использовать \"пустой текст\" страницы"
+
+#: views_ui.module:1144,1145
+msgid ""
+"If checked, use the Page Empty Text for block view instead. If so, you "
+"should leave the block empty text blank."
+msgstr ""
+"Если включено, используйте для вида "
+"блока \"пустой текст\" страницы. В этом "
+"случае вы должны оставить \"пустой "
+"текст\" блока пустым."
+
+#: views_ui.module:1153,1154
+msgid "Text to display if a view results in no nodes. Optional."
+msgstr ""
+"Текст, отображаемый, если "
+"представление не содержит ни одного "
+"материала. Не обязательно для "
+"заполнения."
+
+#: views_ui.module:1164,1165
+msgid "Argument Handling Code"
+msgstr "Код для обработки аргументов."
+
+#: views_ui.module:1169,1170
+msgid "Argument Code"
+msgstr "Код аргумента"
+
+#: views_ui.module:1173,1174
+msgid ""
+"Advanced Usage Only: PHP code that returns a custom array of arguments "
+"for the view. Should not include &lt;?php ?&gt; delimiters."
+msgstr ""
+"Только для специалистов: PHP-код, "
+"выдающий массив аргументов для "
+"представления. Не должен содержать  "
+"разделители &lt;?php ?&gt;."
+
+#: views_ui.module:1174,1175
+msgid ""
+"For more information, please see the <a href=\"!arg\">Argument "
+"Handling Code documentation</a> in the Drupal handbook."
+msgstr ""
+"Чтобы получить больше информации, "
+"пожалуйста, читайте <a "
+"href=\"!arg\">Документацию кода обработки "
+"аргументов</a> в справочнике Drupal."
+
+#: views_ui.module:1593,1594
+msgid "Delete this item."
+msgstr "Удалить этот элемент."
+
+#: views_ui.module:1594,1595
+msgid "Move this item up."
+msgstr "Переместить элемент вверх."
+
+#: views_ui.module:1595,1596
+msgid "Move this item down."
+msgstr "Переместить элемент вниз."
+
+#: views_ui.module:1596,1597
+msgid "Top"
+msgstr "Верх"
+
+#: views_ui.module:1596,1597
+msgid "Move this item to the top."
+msgstr "Переместить элемент на самый верх."
+
+#: views_ui.module:1597,1598
+msgid "Bottom"
+msgstr "Низ"
+
+#: views_ui.module:1597,1598
+msgid "Move this item to the bottom."
+msgstr "Переместить элемент в самый низ."
+
+#: views_ui.module:1629,1630
+msgid "Handler"
+msgstr "Обработчик"
+
+#: views_ui.module:1629,1639,1651,1674,1630,1640,1652,1675
+msgid "Option"
+msgstr "Опции"
+
+#: views_ui.module:1629,1630
+msgid "Default Sort"
+msgstr "Сортировка по умолчанию"
+
+#: views_ui.module:1632,1633
+msgid ""
+"Fields are only meaningful with List view and Table View; they allow "
+"you to choose which fields are presented and in what order."
+msgstr ""
+"Поля значимы только для списков и "
+"таблиц. Можно выбрать, какие поля "
+"показываются и в каком порядке."
+
+#: views_ui.module:1639,1640
+msgid "Argument Type"
+msgstr "Тип аргумента"
+
+#: views_ui.module:1639,1640
+msgid "Wildcard Sub"
+msgstr "Подгрупповой символ"
+
+#: views_ui.module:1645,1646
+msgid ""
+"Arguments are parsed directly from the URL. They are not necessary to "
+"any given view, but allow flexibility."
+msgstr ""
+"Аргументы извлекаются напрямую из "
+"ссылки. Они не являются необходимыми "
+"для любого вида, но обеспечивают "
+"гибкость."
+
+#: views_ui.module:1655,1656
+msgid ""
+"Filters allow you to select a subset of all the nodes to display. All "
+"Filters are ANDed together."
+msgstr ""
+"Фильтры позволяют вам выбрать "
+"подмножество всех документов для "
+"отображения. Все фильтры объединены "
+"пересечением (AND)."
+
+#: views_ui.module:1662,1663
+msgid "Filter settings Default"
+msgstr "Установки по умолчанию фильтра"
+
+#: views_ui.module:1662,1663
+msgid "Force Single"
+msgstr ""
+"Позволить выбирать только одно "
+"значение"
+
+#: views_ui.module:1662,1663
+msgid "Lock Operator"
+msgstr "Запретить действия"
+
+#: views_ui.module:1667,1668
+msgid ""
+"Exposed filters will be presented to the viewer. If not set required, "
+"then filters will include a \"&lt;None&gt;\" Value if possible. If set "
+"default, filters will default as set here, otherwise filter settings "
+"will be ignored. If Lock Operator is set, no operator will be made "
+"available to the user."
+msgstr ""
+"Открытые фильтры будут видны для "
+"просматривающего.Если не установлено, "
+"то в фильтрах будет выбрано значение "
+"\"&lt;None&gt;\" , если возможно.Если "
+"установлено значение по умолчанию, то "
+"фильтры будут показаны, как настроено "
+"здесь,в  противном случае настройки "
+"фильтра игнорируются. Если установлен "
+"флаг \"Запретить действия\", никакие "
+"действия будут недоступны "
+"пользователю."
+
+#: views_ui.module:398,1668,1669,398,410,410,410,410
+msgid "Exposed Filters"
+msgstr "Открытые фильтры"
+
+#: views_ui.module:1677,1678
+msgid "Sort Criteria"
+msgstr "Критерий сортировки"
+
+#: views_ui.module:1719,1720
+msgid "This view currently has no %s defined."
+msgstr ""
+"Не определено для данного "
+"представления:  %s."
+
+#: views_ui.module:1723,1724
+msgid "Ops"
+msgstr "Действия"
+
+#: views_ui.module:1754,1755
+msgid ""
+"Another user has modified this view, unable to save. You can get this "
+"error by using the Back button to re-edit a view after saving one; if "
+"you do this, be sure to Reload before making any changes!"
+msgstr ""
+"Другой пользователь изменил это "
+"представление, поэтому сохранение "
+"невозможно. Вы можете получить эту "
+"ошибку при использовании кнопки "
+"браузера \"Назад\" для повторного "
+"изменения вида после его сохранения. "
+"Если так, обязательно обновляйте "
+"страницу, прежде чем вносить "
+"какие-либо изменения."
+
+#: views_ui.module:1760,1761
+msgid "View name is required."
+msgstr "Требуется название представления."
+
+#: views_ui.module:1771,1772
+msgid "View name already in use."
+msgstr ""
+"Указанное имя представления уже "
+"используется."
+
+#: views_ui.module:1776,1777
+msgid "Nodes per page cannot be 0 if using the pager."
+msgstr ""
+"При использовании навигатора не может "
+"быть 0 материалов на страницу."
+
+#: views_ui.module:1781,1782
+msgid "If being used as a block, Nodes Per Block must be positive."
+msgstr ""
+"Когда используется в качестве блока, "
+"число документов на блок должно быть "
+"положительным."
+
+#: views_ui.module:1853,1854
+msgid "View successfully saved."
+msgstr "Представление успешно сохранено."
+
+#: views_ui.module:1856,1857
+msgid "View successfully added."
+msgstr "Представление успешно добавлено."
+
+#: views_ui.module:1881,1882
+msgid "List and Table types require at least one field."
+msgstr ""
+"Типы Список и Таблица  требуют по "
+"крайней мере одно поле."
+
+#: views_ui.module:1889,1890
+msgid "You can only set on Default Sort on one field."
+msgstr ""
+"Вы только можете установить  виде по "
+"умолчанию на одном поле."
+
+#: views_ui.module:1921,1922
+msgid "View '%vid' not found."
+msgstr "Представление '%vid' не найдено."
+
+#: views.install:260,261
+msgid "The installation of views module was unsuccessful."
+msgstr "Установка модуля views не удалась."
+
+#: views.info:0
+msgid "The views module creates customized views of node lists."
+msgstr ""
+"Модуль views создает дополнительное "
+"представление списков материалов."
+
+#: views_rss.info:0
+msgid "RSS plugin for the views feed selector argument."
+msgstr "RSS плагин для аргумента лент."
+
+#: views_theme_wizard.info:0
+msgid "The views theme wizard helps create stub theming for views."
+msgstr ""
+"Мастер темизации модуля Views помогает "
+"создавать фрагмент кода темизации для "
+"Views."
+
+#: views_ui.info:0
+msgid "The Views UI module allows you to create and edit views."
+msgstr ""
+"Модуль Views UI позволяет создавать и "
+"редактировать представления."
+
+#: views_ui.module:713,769,1630,714,770,1631
+msgid "Add Field"
+msgstr "Добавить поле"
+
+#: views_ui.module:1676,1677
+msgid "Add criteria"
+msgstr "Добавить критерий"
+
+#: views.module:2338,2334,2410,2410,2410,2412,2412
+msgid "..."
+msgstr "..."
+
+#: views_ui.module:484,484,496,496,496,496
+msgid "Add new"
+msgstr "Добавить новый"
+
+#: views.module:12,13
+msgid ""
+"The views module creates customized views of node lists. You may need "
+"to activate the Views UI module to get to the user administration "
+"pages."
+msgstr ""
+"Модуль views создает дополнительное "
+"представление списков материалов. Вам "
+"нужно включить модуль Views UI для "
+"доступа к страницам управления."
+
+#: views_rss.module:9,10
+msgid "Views RSS: RSS feed"
+msgstr "Views RSS: лента RSS"
+
+#: views_theme_wizard.module:8,9
+msgid "Theme wizard"
+msgstr "Мастер тем"
+
+#: views_ui.module:14,15
+msgid ""
+"You may import a view by cut-and-pasting the results of an export "
+"view. If the import is successful you will be taken to the Add View "
+"page with all of the settings of the imported view.."
+msgstr ""
+"Вы можете импортировать "
+"представление с помощью вырезания и "
+"вставки результатов экспортирования "
+"представления. Если импортирование "
+"прошло успешно, то вы будуте "
+"перемещены на страницу Добавить "
+"представление, где будут указаны все "
+"настройки импортированного "
+"представления."
+
+#: views.install:257,258
+msgid "Views module installed tables successfully."
+msgstr ""
+"Таблицы модуля views установлены "
+"успешно."
+
+#: views_rss.info:0
+msgid "Views RSS"
+msgstr "Views RSS"
+
+#: views_theme_wizard.info:0
+msgid "Views Theme Wizard"
+msgstr "Мастер темизации Views"
+
+#: views_ui.info:0,0,0,0,0,0,0,0
+msgid "Views UI"
+msgstr "Views UI"
+
+#: views_ui.module:70,83,88,70,83,88,70,83,88,70,83,88
+msgid "Delete view"
+msgstr "Удалить вид"
+
+#: views.info:0,0,0,0,0,0,0,0
+msgid "Create customized lists and queries from your database."
+msgstr ""
+"Позволяет создавать списки и запросы "
+"из базы данных сайта."
+
+#: views_ui.info:0,0,0,0,0,0,0,0
+msgid ""
+"Administrative interface to views. Without this module, you cannot "
+"create or edit your views."
+msgstr ""
+"Интерфейс для создания/изменения "
+"представлений. Без этого модуля вы не "
+"можете создавать или изменять свои "
+"представления."
+
+#: views_ui.module:64,64,64,64,64,64,64,64
+msgid "Convert stored Views 1 views."
+msgstr ""
+"Конвертировать сохраненные "
+"представления из версии 1."
+
+#: views_ui.module:76,76,76,76
+msgid "Convert view"
+msgstr "Конвертировать вид"
+
+#: views_ui.module:175,163,175,163,175
+msgid ""
+"The converter will make a best-effort attempt to convert a Views 1 "
+"view to Views 2. This conversion is not reliable; you will very likely "
+"have to make adjustments to your view to get it to match. You can "
+"import Views 1 views through the normal Import tab."
+msgstr ""
+"Этот конвертер попытается как можно "
+"лучше конвертировать представление "
+"Views 1 во Views 2. Это преобразование "
+"ненадежно; вполне вероятно, что вам "
+"придется вносить исправления вручную. "
+"Импортировать представления Views 1 "
+"можно с помощью обычной вкладки "
+"Импорт."
+
+#: views.module:314,303,314,167,366,366,366,303,167,303,368,368
+msgid "Ajax callback for view loading."
+msgstr "Ajax вызов, для загрузки представления."
+
+#: views.module:1329,1032,1325,825,1399,1399,1399,1037,825,1037,1401,1401
+msgid "Skipping broken view @view"
+msgstr "Пропуск неисправного вида @view"
+
+#: views.module:1162,880,1158,695,1232,1232,1232,885,695,885,1234,1234
+msgid "Broken handler @table.@field"
+msgstr "Неисправный обработчик @table.@field"
+
+#: views_ui.module:399,400
+msgid "Import a View"
+msgstr "Импорт представления"
+
+#: views_ui.module:316,287,316,262,328,328,328,287,262,287,328
+msgid "Changes cannot be made to a locked view."
+msgstr ""
+"Нельзя вносить изменения в "
+"заблокированный вид."
+
+#: views.module:291,291,343,343,343,343
+msgid "Access the views administration pages."
+msgstr ""
+"Доступ к страницам управления "
+"представлениями"
+
+#: views.module:295,295,347,347,347,348,348
+msgid "Bypass access control when accessing views."
+msgstr ""
+"Обход контроля доступа при обращении "
+"к представлениям"
+
+#: views_ui.module:420,420,432,432,432,432
+msgid "Attachment before"
+msgstr "Вложение перед"
+
+#: views_ui.module:424,424,436,436,436,436
+msgid "Attachment after"
+msgstr "Вложение после"
+
+#: views.module:294,294,346,346,346,347,347
+msgid "Bypass views access control"
+msgstr "Обход контроля доступа представленим"
+
+#: views_ui.module:478,499,478,499,490,511,490,511,490,511,490,511
+msgid "Edit @section"
+msgstr "Редактировать @section"
+
+#: views_ui.module:771,771,783,783,783,783
+msgid "Edit this view to add a display."
+msgstr ""
+"Изменить это представление, чтобы "
+"добавить дисплей."
+
+#: views_ui.module:38,38,30,30,30,30
+msgid "Add view from template"
+msgstr "Добавить представление из шаблона"
+
+#: views.module:1442,1438,1514,1514,1514,1516,1516
+msgid "@view : @display"
+msgstr "@view : @display"
+
+#: views.module:1445,1441,1517,1517,1517,1519,1519
+msgid "View: @view - Display: @display"
+msgstr "Представление: @view - Дисплей: @display"
+
+#: views_ui.module:156,156
+msgid "Fields used in views"
+msgstr "Поля используемые в представлении"
+
+#: views_ui.module:157,157,154,154,154,154
+msgid "Overview of fields used in all views."
+msgstr ""
+"Обзор полей, используемых во всех "
+"представлениях."
+
+#: views.tokens.inc:14,14,14,14,14,14
+msgid "Tokens related to views."
+msgstr "Маркеры, связанные с представлением."
+
+#: views.tokens.inc:19,19,19,19,19,19
+msgid "The human-readable name of the view."
+msgstr "Человеко читаемое имя представления."
+
+#: views.tokens.inc:23,23,23,23,23,23
+msgid "The description of the view."
+msgstr "Описание этого представления."
+
+#: views.tokens.inc:27,27,27,27,27,27
+msgid "The machine-readable name of the view."
+msgstr "Машинное имя представления."
+
+#: views.tokens.inc:31,31,31,31,31,31
+msgid "The title of current display of the view."
+msgstr ""
+"Заголовок текущего дисплея в "
+"представлении."
+
+#: views.tokens.inc:35,35,35,35,35,35
+msgid "The URL of the view."
+msgstr "URL адрес представления."
+
+#: views_ui.module:162,162,162,162
+msgid "Views plugins"
+msgstr "Плагин представления"
+
+#: views_ui.module:163,163,163,163
+msgid "Overview of plugins used in all views."
+msgstr ""
+
+#: views_ui.module:153,153,153,153
+msgid "Used in views"
+msgstr "Используется в представлении"
+

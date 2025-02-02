@@ -1,0 +1,226 @@
+# Russian translation of drupal (6.26)
+# Copyright (c) 2012 by the Russian translation team
+# Generated from files:
+#  drupal-6.26/modules/blog/blog.module: n/a
+#  drupal-6.26/modules/blog/blog.pages.inc: n/a
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: drupal (6.26)\n"
+"POT-Creation-Date: 2012-08-14 02:56-0400\n"
+"PO-Revision-Date: 2010-11-29 14:34-0500\n"
+"Language-Team: Russian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=((((n%10)==1)&&((n%100)!=11))?(0):(((((n%10)>=2)&&((n%10)<=4))&&(((n%100)<10)||((n%100)>=20)))?(1):2));\n"
+
+#: modules/blog/blog.module:52
+msgid "View recent blog entries"
+msgstr "Просмотреть последние записи в блоге"
+
+#: modules/blog/blog.pages.inc:14
+msgid "@name's blog"
+msgstr "Блог пользователя - @name"
+
+#: modules/blog/blog.pages.inc:19,19
+msgid "Post new blog entry."
+msgstr "Добавить новую запись в блог."
+
+#: modules/blog/blog.pages.inc:22
+msgid "You are not allowed to post a new blog entry."
+msgstr ""
+"Вы не можете добавлять новые записи в "
+"блог."
+
+#: modules/blog/blog.pages.inc:46
+msgid "RSS - !title"
+msgstr "RSS - !title"
+
+#: modules/blog/blog.pages.inc:80
+msgid "RSS - blogs"
+msgstr "RSS - блоги"
+
+#: modules/blog/blog.module:108,138,153,162
+msgid "Blogs"
+msgstr "Блоги"
+
+#: modules/blog/blog.module:145
+msgid "My blog"
+msgstr "Мой блог"
+
+#: modules/blog/blog.module:197,206
+msgid "Recent blog posts"
+msgstr "Последние записи в блогах"
+
+#: modules/blog/blog.module:205
+msgid "Read the latest blog entries."
+msgstr "Читать последние записи в блогах."
+
+#: modules/blog/blog.module:16
+msgid ""
+"A <em>blog entry</em> is a single post to an online journal, or "
+"<em>blog</em>."
+msgstr ""
+"<em>Запись блога</em> - это опубликованное "
+"личное сообщение в <em>блоге</em> (на "
+"сайте) доступное для прочтения и "
+"комментирования другими "
+"пользователями."
+
+#: modules/blog/blog.module:14
+msgid "Blog entry"
+msgstr "Запись в блог"
+
+#: modules/blog/blog.module:64
+msgid ""
+"The blog module allows registered users to maintain an online journal, "
+"or <em>blog</em>. Blogs are made up of individual <em>blog "
+"entries</em>, and the blog entries are most often displayed in "
+"descending order by creation time."
+msgstr ""
+"Модуль blog позволяет "
+"зарегистрированным пользователям "
+"содержать сетевой журнал или "
+"<em>блог</em>. Блог состоит из личных "
+"<em>записей блога</em> и чаще всего эти "
+"записи отображаются в обратном "
+"хронологическом порядке (последняя "
+"запись сверху)."
+
+#: modules/blog/blog.module:65
+msgid ""
+"There is an (optional) <em>Blogs</em> menu item added to the "
+"Navigation menu, which displays all blogs available on your site, and "
+"a <em>My blog</em> item displaying the current user's blog entries. "
+"The <em>Blog entry</em> menu item under <em>Create content</em> allows "
+"new blog entries to be created."
+msgstr ""
+"В меню Навигации существует "
+"(настраиваемый по желанию) пункт меню "
+"<em>Блоги</em>, который отображает все "
+"блоги доступные на вашем сайте и пункт "
+"меню <em>Мой блог</em> показывающий "
+"записи блога текущего "
+"пользователя.Пункт меню <em>Запись в "
+"блог</em> под ссылкой <em>Добавить...</em> "
+"позволяет создавать новую запись в "
+"блоге."
+
+#: modules/blog/blog.module:66
+msgid ""
+"Each blog entry is displayed with an automatic link to other blogs "
+"created by the same user. By default, blog entries have comments "
+"enabled and are automatically promoted to the site front page. The "
+"blog module also creates a <em>Recent blog posts</em> block that may "
+"be enabled at the <a href=\"@blocks\">blocks administration page</a>."
+msgstr ""
+"В каждой записи блога автоматически "
+"показывается ссылка на другие записи "
+"в блоге созданные пользователем. По "
+"умолчанию, включена возможность "
+"комментировать записи блога и "
+"автоматическое размещение записи на "
+"заглавной странице сайта. Модуль Blog "
+"также создаёт блок <em>Последние записи "
+"блога</em> который может быть включен на "
+"<a href=\"@blocks\">странице "
+"администрирования блоков</a>."
+
+#: modules/blog/blog.module:67
+msgid ""
+"When using the aggregator module an automatic <em>blog it</em> icon is "
+"displayed next to the items in a feed's <em>latest items</em> block. "
+"Clicking this icon populates a <em>blog entry</em> with a title (the "
+"title of the feed item) and body (a link to the source item on its "
+"original site and illustrative content suitable for use in a block "
+"quote). Blog authors can use this feature to easily comment on items "
+"of interest that appear in aggregator feeds from other sites. To use "
+"this feature, be sure to <a href=\"@modules\">enable</a> the "
+"aggregator module, <a href=\"@feeds\">add and configure</a> a feed "
+"from another site, and <a href=\"@blocks\">position</a> the feed's "
+"<em>latest items</em> block."
+msgstr ""
+"При использовании модуля Aggregator "
+"автоматически отображается значок "
+"<em>добавить в блог</em> рядом с новостями "
+"в блоке новостной ленты <em>'последние "
+"новости ленты'</em>. При нажатии на этот "
+"значок заполняется <em>запись в "
+"блоге</em> с названием (название новости "
+"новостной ленты) и содержанием (ссылка "
+"на источник события на оригинальном "
+"сайте и пояснительным содержанием, в "
+"виде годным, для использования "
+"цитатой). Авторы блогов могут "
+"использовать эту функцию, чтобы легко "
+"комментировать интересные новостные "
+"события, появляющиеся в новостной "
+"ленте с других сайтов. Для "
+"использования этой функции, "
+"убедитесь, что <a href=\"@modules\">включен</a> "
+"модуль Agregator, <a href=\"@feeds\">добавлены и "
+"настроены</a> новостные ленты с других "
+"сайтов и <a href=\"@blocks\">правильно "
+"расположен</a> блок новостной ленты "
+"<em>'последние новости ленты'</em>."
+
+#: modules/blog/blog.module:68
+msgid ""
+"For more information, see the online handbook entry for <a "
+"href=\"@blog\">Blog module</a>."
+msgstr ""
+"Дополнительные сведения смотрите в "
+"онлайновом руководстве <a href=\"@blog\">Blog "
+"module</a>."
+
+#: modules/blog/blog.module:25
+msgid "create blog entries"
+msgstr "создавать записи в блоге"
+
+#: modules/blog/blog.module:25
+msgid "delete own blog entries"
+msgstr "удалять свои записи в блоге"
+
+#: modules/blog/blog.module:25
+msgid "delete any blog entry"
+msgstr "удалять любую запись в блогах"
+
+#: modules/blog/blog.module:25
+msgid "edit own blog entries"
+msgstr "редактировать свои записи в блоге"
+
+#: modules/blog/blog.module:25
+msgid "edit any blog entry"
+msgstr "редактировать любую запись в блогах"
+
+#: modules/blog/blog.pages.inc:40,40
+msgid "You have not created any blog entries."
+msgstr "Вы не имеете записей в блоге."
+
+#: modules/blog/blog.pages.inc:43
+msgid "!author has not created any blog entries."
+msgstr "!author ещё не добавил записей в блог."
+
+#: modules/blog/blog.pages.inc:61
+msgid "Create new blog entry."
+msgstr "Добавить новую запись в блог."
+
+#: modules/blog/blog.pages.inc:78
+msgid "No blog entries have been created."
+msgstr "В блоге нет записей."
+
+#: modules/blog/blog.module:52,125
+msgid "Read !username's latest blog entries."
+msgstr ""
+"Читать последние записи в блоге "
+"пользователя !username."
+
+#: modules/blog/blog.module:123
+msgid "!username's blog"
+msgstr "Блог пользователя - !username"
+
+#: modules/blog/blog.pages.inc:105
+msgid "!site_name blogs"
+msgstr "!site_name блоги"
+

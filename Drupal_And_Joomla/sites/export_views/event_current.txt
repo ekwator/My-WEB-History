@@ -1,0 +1,189 @@
+$view = new view;
+$view->name = 'events';
+$view->description = 'События пользователя';
+$view->tag = 'Блок материала';
+$view->base_table = 'node';
+$view->core = 6;
+$view->api_version = '2';
+$view->disabled = FALSE; /* Edit this to true to make a default view disabled initially */
+$handler = $view->new_display('default', 'События пользователя', 'default');
+$handler->override_option('fields', array(
+  'title' => array(
+    'label' => '',
+    'alter' => array(
+      'alter_text' => 0,
+      'text' => '',
+      'make_link' => 0,
+      'path' => '',
+      'absolute' => 0,
+      'link_class' => '',
+      'alt' => '',
+      'rel' => '',
+      'prefix' => '',
+      'suffix' => '',
+      'target' => '',
+      'help' => '',
+      'trim' => 0,
+      'max_length' => '',
+      'word_boundary' => 1,
+      'ellipsis' => 1,
+      'html' => 0,
+      'strip_tags' => 0,
+    ),
+    'empty' => '',
+    'hide_empty' => 0,
+    'empty_zero' => 0,
+    'hide_alter_empty' => 1,
+    'link_to_node' => 1,
+    'exclude' => 0,
+    'id' => 'title',
+    'table' => 'node',
+    'field' => 'title',
+    'relationship' => 'none',
+  ),
+  'field_event_date_value' => array(
+    'label' => 'Дата события',
+    'alter' => array(
+      'alter_text' => 0,
+      'text' => '',
+      'make_link' => 0,
+      'path' => '',
+      'absolute' => 0,
+      'link_class' => '',
+      'alt' => '',
+      'rel' => '',
+      'prefix' => '',
+      'suffix' => '',
+      'target' => '',
+      'help' => '',
+      'trim' => 0,
+      'max_length' => '',
+      'word_boundary' => 1,
+      'ellipsis' => 1,
+      'html' => 0,
+      'strip_tags' => 0,
+    ),
+    'empty' => '',
+    'hide_empty' => 0,
+    'empty_zero' => 0,
+    'hide_alter_empty' => 1,
+    'link_to_node' => 0,
+    'label_type' => 'widget',
+    'format' => 'default',
+    'multiple' => array(
+      'multiple_number' => '',
+      'multiple_from' => '',
+      'multiple_to' => '',
+      'group' => 1,
+    ),
+    'repeat' => array(
+      'show_repeat_rule' => 'show',
+    ),
+    'fromto' => array(
+      'fromto' => 'both',
+    ),
+    'exclude' => 1,
+    'id' => 'field_event_date_value',
+    'table' => 'node_data_field_event_date',
+    'field' => 'field_event_date_value',
+    'relationship' => 'none',
+  ),
+  'field_event_user_uid' => array(
+    'label' => 'Пользователь',
+    'alter' => array(
+      'alter_text' => 0,
+      'text' => '',
+      'make_link' => 0,
+      'path' => '',
+      'absolute' => 0,
+      'link_class' => '',
+      'alt' => '',
+      'rel' => '',
+      'prefix' => '',
+      'suffix' => '',
+      'target' => '',
+      'help' => '',
+      'trim' => 0,
+      'max_length' => '',
+      'word_boundary' => 1,
+      'ellipsis' => 1,
+      'html' => 0,
+      'strip_tags' => 0,
+    ),
+    'empty' => '',
+    'hide_empty' => 0,
+    'empty_zero' => 0,
+    'hide_alter_empty' => 1,
+    'link_to_node' => 0,
+    'label_type' => 'widget',
+    'format' => 'default',
+    'multiple' => array(
+      'group' => TRUE,
+      'multiple_number' => '',
+      'multiple_from' => '',
+      'multiple_reversed' => FALSE,
+    ),
+    'exclude' => 1,
+    'id' => 'field_event_user_uid',
+    'table' => 'node_data_field_event_user',
+    'field' => 'field_event_user_uid',
+    'relationship' => 'none',
+  ),
+));
+$handler->override_option('filters', array(
+  'type' => array(
+    'operator' => 'in',
+    'value' => array(
+      'event' => 'event',
+    ),
+    'group' => '0',
+    'exposed' => FALSE,
+    'expose' => array(
+      'operator' => FALSE,
+      'label' => '',
+    ),
+    'id' => 'type',
+    'table' => 'node',
+    'field' => 'type',
+    'relationship' => 'none',
+  ),
+  'status' => array(
+    'operator' => '=',
+    'value' => '1',
+    'group' => '0',
+    'exposed' => FALSE,
+    'expose' => array(
+      'operator' => FALSE,
+      'label' => '',
+    ),
+    'id' => 'status',
+    'table' => 'node',
+    'field' => 'status',
+    'relationship' => 'none',
+  ),
+  'uid_current' => array(
+    'operator' => '=',
+    'value' => '1',
+    'group' => '0',
+    'exposed' => FALSE,
+    'expose' => array(
+      'operator' => FALSE,
+      'label' => '',
+    ),
+    'id' => 'uid_current',
+    'table' => 'users',
+    'field' => 'uid_current',
+    'relationship' => 'none',
+  ),
+));
+$handler->override_option('access', array(
+  'type' => 'none',
+));
+$handler->override_option('cache', array(
+  'type' => 'none',
+));
+$handler->override_option('title', 'Обязательно сегодня:');
+$handler->override_option('items_per_page', 3);
+$handler = $view->new_display('block', 'Блок', 'block_1');
+$handler->override_option('block_description', '');
+$handler->override_option('block_caching', -1);

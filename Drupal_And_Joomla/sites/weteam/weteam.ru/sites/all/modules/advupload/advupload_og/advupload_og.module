@@ -1,0 +1,69 @@
+<?php
+/**
+ * @file
+ * Main module file.
+ * (c) Ilya V. Azarov, brainstorm@brainstorm.name, 2010
+ */
+/* 
+ * Implementation of hook_advupload_pages()
+ * see og_form_alter as howto 
+ */
+function advupload_og_advupload_pages($type, $uptype) {
+  if (og_is_group_post_type($type)) {
+    if (!empty($_GET['gids']) ) {
+      $form_state['og_gids'] = $_GET['gids'];
+    }
+    $form = array();
+    og_form_add_og_audience($form, $form_state);
+    if (module_exists('og_access') ) {
+      $node = new stdClass();
+      $node->type = $type;
+      $node->og_public = 1;
+      og_access_alter_nongroup_form($form, $form_state, $node);
+    }
+    if (isset($form['og_nodeapi']['visible'] ) ) {
+      if (isset($form['og_nodeapi']['#title'] ) ) {
+        $form['og_nodeapi']['#title'] = t('Select groups you want create nodes in');
+      };
+      foreach($form['og_nodeapi']['visible'] as $key => $value) {
+        unset($form['og_nodeapi']['visible'][$key] );
+        $form['og_nodeapi']['visible']['node_' . $key] = $value;
+      }
+      // now try render that
+      drupal_prepare_form($type . '_node_form', $form, $form_state);
+      drupal_process_form($type . '_node_form', $form, $form_state);
+      $formrender =  drupal_render($form['og_nodeapi'] );
+      $formrender .= '<input type="hidden" id="node-og-groups-string" name="node_og_groups_string" value="" />';
+      $formrender .= '<input type="hidden" id="node-og-public-string" name="node_og_public_string" value="" />';
+      _advupload_add_custom_form_values(
+        'advupload_og', array('html' => $formrender, 'weight' => 100)
+      );
+      $mpath = drupal_get_path('module', 'advupload_og');
+      drupal_add_css($mpath .'/css/advupload_og.css', 'module');
+      drupal_add_js($mpath .'/js/advupload_og.js', 'module', 'footer');
+    } 
+  }
+}
+/*
+ * Implementation of hook_advupload_prenodesave()
+ */
+function advupload_og_advupload_prenodesave(&$node, $addfields) {
+  if(og_is_group_post_type($node->type) ) {
+    if (isset($addfields['og_public'] ) && isset($addfields['og_groups_string'] ) ) {
+      $fields = array();
+      $fields['og_public'] = (@intval($addfields['og_public_string'] ) ? TRUE : FALSE);
+      $nums = explode(',', $addfields['og_groups_string']);
+      $fields['og_groups'] = array();
+      if (count($nums) ) {
+        foreach($nums as $num){
+          $num = @intval($num);
+          if ($num) {
+            $fields['og_groups'][$num] = $num;
+          }
+        }
+      }
+      $node->og_public = $fields['og_public'];
+      $node->og_groups = $fields['og_groups'];
+    }
+  }
+}

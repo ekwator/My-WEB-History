@@ -1,0 +1,3503 @@
+<?xml version="1.0" encoding="utf-8"?>
+<euroauto-export>
+  <groups>
+    <group>
+      <grup_id>1</grup_id>
+      <grup_name>Двигатель</grup_name>
+      <part_id>1485</part_id>
+      <part_name>Абсорбер (фильтр угольный)</part_name>
+    </group>
+    <group>
+      <grup_id>1</grup_id>
+      <grup_name>Двигатель</grup_name>
+      <part_id>1134</part_id>
+      <part_name>Бачок расширительный</part_name>
+    </group>
+    <group>
+      <grup_id>1</grup_id>
+      <grup_name>Двигатель</grup_name>
+      <part_id>1397</part_id>
+      <part_name>Блок двигателя</part_name>
+    </group>
+    <group>
+      <grup_id>1</grup_id>
+      <grup_name>Двигатель</grup_name>
+      <part_id>1396</part_id>
+      <part_name>Вал балансирный</part_name>
+    </group>
+    <group>
+      <grup_id>1</grup_id>
+      <grup_name>Двигатель</grup_name>
+      <part_id>1307</part_id>
+      <part_name>Воздуховод</part_name>
+    </group>
+    <group>
+      <grup_id>1</grup_id>
+      <grup_name>Двигатель</grup_name>
+      <part_id>1642</part_id>
+      <part_name>Воздуховод радиатора левый</part_name>
+    </group>
+    <group>
+      <grup_id>1</grup_id>
+      <grup_name>Двигатель</grup_name>
+      <part_id>1667</part_id>
+      <part_name>Воздуховод радиатора нижний</part_name>
+    </group>
+    <group>
+      <grup_id>1</grup_id>
+      <grup_name>Двигатель</grup_name>
+      <part_id>1641</part_id>
+      <part_name>Воздуховод радиатора правый</part_name>
+    </group>
+    <group>
+      <grup_id>1</grup_id>
+      <grup_name>Двигатель</grup_name>
+      <part_id>1095</part_id>
+      <part_name>Втулка направл. масляного щупа</part_name>
+    </group>
+    <group>
+      <grup_id>1</grup_id>
+      <grup_name>Двигатель</grup_name>
+      <part_id>1009</part_id>
+      <part_name>Головка блока</part_name>
+    </group>
+    <group>
+      <grup_id>1</grup_id>
+      <grup_name>Двигатель</grup_name>
+      <part_id>1043</part_id>
+      <part_name>Гофра воздуховода</part_name>
+    </group>
+    <group>
+      <grup_id>1</grup_id>
+      <grup_name>Двигатель</grup_name>
+      <part_id>1404</part_id>
+      <part_name>Двигатель</part_name>
+    </group>
+    <group>
+      <grup_id>1</grup_id>
+      <grup_name>Двигатель</grup_name>
+      <part_id>1122</part_id>
+      <part_name>Демпфер ролика-натяжителя</part_name>
+    </group>
+    <group>
+      <grup_id>1</grup_id>
+      <grup_name>Двигатель</grup_name>
+      <part_id>1133</part_id>
+      <part_name>Диффузор вентилятора</part_name>
+    </group>
+    <group>
+      <grup_id>1</grup_id>
+      <grup_name>Двигатель</grup_name>
+      <part_id>1314</part_id>
+      <part_name>Заслонка дроссельная механическая</part_name>
+    </group>
+    <group>
+      <grup_id>1</grup_id>
+      <grup_name>Двигатель</grup_name>
+      <part_id>1258</part_id>
+      <part_name>Интеркулер</part_name>
+    </group>
+    <group>
+      <grup_id>1</grup_id>
+      <grup_name>Двигатель</grup_name>
+      <part_id>1814</part_id>
+      <part_name>Клапан вакуумный</part_name>
+    </group>
+    <group>
+      <grup_id>1</grup_id>
+      <grup_name>Двигатель</grup_name>
+      <part_id>1354</part_id>
+      <part_name>Клапан вентиляции картерных газов</part_name>
+    </group>
+    <group>
+      <grup_id>1</grup_id>
+      <grup_name>Двигатель</grup_name>
+      <part_id>1680</part_id>
+      <part_name>Клапан воздушный</part_name>
+    </group>
+    <group>
+      <grup_id>1</grup_id>
+      <grup_name>Двигатель</grup_name>
+      <part_id>1339</part_id>
+      <part_name>Клапан отопителя</part_name>
+    </group>
+    <group>
+      <grup_id>1</grup_id>
+      <grup_name>Двигатель</grup_name>
+      <part_id>1012</part_id>
+      <part_name>Клапан отсечки топлива</part_name>
+    </group>
+    <group>
+      <grup_id>1</grup_id>
+      <grup_name>Двигатель</grup_name>
+      <part_id>1812</part_id>
+      <part_name>Клапан перепускной</part_name>
+    </group>
+    <group>
+      <grup_id>1</grup_id>
+      <grup_name>Двигатель</grup_name>
+      <part_id>1426</part_id>
+      <part_name>Клапан рециркуляции выхлопных газов</part_name>
+    </group>
+    <group>
+      <grup_id>1</grup_id>
+      <grup_name>Двигатель</grup_name>
+      <part_id>2494</part_id>
+      <part_name>Клапан топливный</part_name>
+    </group>
+    <group>
+      <grup_id>1</grup_id>
+      <grup_name>Двигатель</grup_name>
+      <part_id>1178</part_id>
+      <part_name>Кожух ремня ГРМ</part_name>
+    </group>
+    <group>
+      <grup_id>1</grup_id>
+      <grup_name>Двигатель</grup_name>
+      <part_id>1357</part_id>
+      <part_name>Коленвал</part_name>
+    </group>
+    <group>
+      <grup_id>1</grup_id>
+      <grup_name>Двигатель</grup_name>
+      <part_id>1013</part_id>
+      <part_name>Коллектор впускной</part_name>
+    </group>
+    <group>
+      <grup_id>1</grup_id>
+      <grup_name>Двигатель</grup_name>
+      <part_id>1014</part_id>
+      <part_name>Коллектор выпускной</part_name>
+    </group>
+    <group>
+      <grup_id>1</grup_id>
+      <grup_name>Двигатель</grup_name>
+      <part_id>1255</part_id>
+      <part_name>Корпус воздушного фильтра</part_name>
+    </group>
+    <group>
+      <grup_id>1</grup_id>
+      <grup_name>Двигатель</grup_name>
+      <part_id>1398</part_id>
+      <part_name>Корпус масляного фильтра</part_name>
+    </group>
+    <group>
+      <grup_id>1</grup_id>
+      <grup_name>Двигатель</grup_name>
+      <part_id>1421</part_id>
+      <part_name>Корпус термостата</part_name>
+    </group>
+    <group>
+      <grup_id>1</grup_id>
+      <grup_name>Двигатель</grup_name>
+      <part_id>1321</part_id>
+      <part_name>Кронштейн генератора</part_name>
+    </group>
+    <group>
+      <grup_id>1</grup_id>
+      <grup_name>Двигатель</grup_name>
+      <part_id>1376</part_id>
+      <part_name>Кронштейн масляного фильтра</part_name>
+    </group>
+    <group>
+      <grup_id>1</grup_id>
+      <grup_name>Двигатель</grup_name>
+      <part_id>1093</part_id>
+      <part_name>Кронштейн ролика-натяжителя руч. ремня</part_name>
+    </group>
+    <group>
+      <grup_id>1</grup_id>
+      <grup_name>Двигатель</grup_name>
+      <part_id>1381</part_id>
+      <part_name>Кронштейн термомуфты</part_name>
+    </group>
+    <group>
+      <grup_id>1</grup_id>
+      <grup_name>Двигатель</grup_name>
+      <part_id>1125</part_id>
+      <part_name>Крыльчатка</part_name>
+    </group>
+    <group>
+      <grup_id>1</grup_id>
+      <grup_name>Двигатель</grup_name>
+      <part_id>1361</part_id>
+      <part_name>Крышка вентиляции картер. газов</part_name>
+    </group>
+    <group>
+      <grup_id>1</grup_id>
+      <grup_name>Двигатель</grup_name>
+      <part_id>1325</part_id>
+      <part_name>Крышка головки блока (клапанная)</part_name>
+    </group>
+    <group>
+      <grup_id>1</grup_id>
+      <grup_name>Двигатель</grup_name>
+      <part_id>1366</part_id>
+      <part_name>Крышка двигателя передняя</part_name>
+    </group>
+    <group>
+      <grup_id>1</grup_id>
+      <grup_name>Двигатель</grup_name>
+      <part_id>1226</part_id>
+      <part_name>Крышка коленвала задняя</part_name>
+    </group>
+    <group>
+      <grup_id>1</grup_id>
+      <grup_name>Двигатель</grup_name>
+      <part_id>1534</part_id>
+      <part_name>Крышка коленвала передняя</part_name>
+    </group>
+    <group>
+      <grup_id>1</grup_id>
+      <grup_name>Двигатель</grup_name>
+      <part_id>1096</part_id>
+      <part_name>Крышка маслозаливной горловины</part_name>
+    </group>
+    <group>
+      <grup_id>1</grup_id>
+      <grup_name>Двигатель</grup_name>
+      <part_id>1605</part_id>
+      <part_name>Крышка масляного фильтра</part_name>
+    </group>
+    <group>
+      <grup_id>1</grup_id>
+      <grup_name>Двигатель</grup_name>
+      <part_id>1099</part_id>
+      <part_name>Крышка расширительного бачка</part_name>
+    </group>
+    <group>
+      <grup_id>1</grup_id>
+      <grup_name>Двигатель</grup_name>
+      <part_id>1320</part_id>
+      <part_name>Крышка термостата</part_name>
+    </group>
+    <group>
+      <grup_id>1</grup_id>
+      <grup_name>Двигатель</grup_name>
+      <part_id>1615</part_id>
+      <part_name>Маслозаборник</part_name>
+    </group>
+    <group>
+      <grup_id>1</grup_id>
+      <grup_name>Двигатель</grup_name>
+      <part_id>1183</part_id>
+      <part_name>Маховик</part_name>
+    </group>
+    <group>
+      <grup_id>1</grup_id>
+      <grup_name>Двигатель</grup_name>
+      <part_id>1708</part_id>
+      <part_name>Механизм изменения длины впускного коллектора</part_name>
+    </group>
+    <group>
+      <grup_id>1</grup_id>
+      <grup_name>Двигатель</grup_name>
+      <part_id>1698</part_id>
+      <part_name>Механизм изменения фаз ГРМ</part_name>
+    </group>
+    <group>
+      <grup_id>1</grup_id>
+      <grup_name>Двигатель</grup_name>
+      <part_id>1022</part_id>
+      <part_name>Насос водяной (помпа)</part_name>
+    </group>
+    <group>
+      <grup_id>1</grup_id>
+      <grup_name>Двигатель</grup_name>
+      <part_id>1699</part_id>
+      <part_name>Насос воздушный</part_name>
+    </group>
+    <group>
+      <grup_id>1</grup_id>
+      <grup_name>Двигатель</grup_name>
+      <part_id>1023</part_id>
+      <part_name>Насос масляный</part_name>
+    </group>
+    <group>
+      <grup_id>1</grup_id>
+      <grup_name>Двигатель</grup_name>
+      <part_id>1425</part_id>
+      <part_name>Натяжитель ремня</part_name>
+    </group>
+    <group>
+      <grup_id>1</grup_id>
+      <grup_name>Двигатель</grup_name>
+      <part_id>1027</part_id>
+      <part_name>Натяжитель цепи</part_name>
+    </group>
+    <group>
+      <grup_id>1</grup_id>
+      <grup_name>Двигатель</grup_name>
+      <part_id>1221</part_id>
+      <part_name>Ось коромысел</part_name>
+    </group>
+    <group>
+      <grup_id>1</grup_id>
+      <grup_name>Двигатель</grup_name>
+      <part_id>1029</part_id>
+      <part_name>Патрубок</part_name>
+    </group>
+    <group>
+      <grup_id>1</grup_id>
+      <grup_name>Двигатель</grup_name>
+      <part_id>1225</part_id>
+      <part_name>Патрубок воздушного фильтра</part_name>
+    </group>
+    <group>
+      <grup_id>1</grup_id>
+      <grup_name>Двигатель</grup_name>
+      <part_id>1136</part_id>
+      <part_name>Патрубок интеркулера</part_name>
+    </group>
+    <group>
+      <grup_id>1</grup_id>
+      <grup_name>Двигатель</grup_name>
+      <part_id>2234</part_id>
+      <part_name>Патрубок отопителя</part_name>
+    </group>
+    <group>
+      <grup_id>1</grup_id>
+      <grup_name>Двигатель</grup_name>
+      <part_id>1847</part_id>
+      <part_name>Патрубок радиатора</part_name>
+    </group>
+    <group>
+      <grup_id>1</grup_id>
+      <grup_name>Двигатель</grup_name>
+      <part_id>1282</part_id>
+      <part_name>Поддон масляный двигателя</part_name>
+    </group>
+    <group>
+      <grup_id>1</grup_id>
+      <grup_name>Двигатель</grup_name>
+      <part_id>1408</part_id>
+      <part_name>Поршень с шатуном</part_name>
+    </group>
+    <group>
+      <grup_id>1</grup_id>
+      <grup_name>Двигатель</grup_name>
+      <part_id>1413</part_id>
+      <part_name>Пыльник двигателя боковой левый</part_name>
+    </group>
+    <group>
+      <grup_id>1</grup_id>
+      <grup_name>Двигатель</grup_name>
+      <part_id>1412</part_id>
+      <part_name>Пыльник двигателя боковой правый</part_name>
+    </group>
+    <group>
+      <grup_id>1</grup_id>
+      <grup_name>Двигатель</grup_name>
+      <part_id>1998</part_id>
+      <part_name>Пыльник двигателя центральный</part_name>
+    </group>
+    <group>
+      <grup_id>1</grup_id>
+      <grup_name>Двигатель</grup_name>
+      <part_id>1257</part_id>
+      <part_name>Радиатор масляный</part_name>
+    </group>
+    <group>
+      <grup_id>1</grup_id>
+      <grup_name>Двигатель</grup_name>
+      <part_id>1944</part_id>
+      <part_name>Радиатор системы EGR</part_name>
+    </group>
+    <group>
+      <grup_id>1</grup_id>
+      <grup_name>Двигатель</grup_name>
+      <part_id>1174</part_id>
+      <part_name>Рамка воздушного фильтра</part_name>
+    </group>
+    <group>
+      <grup_id>1</grup_id>
+      <grup_name>Двигатель</grup_name>
+      <part_id>1049</part_id>
+      <part_name>Распредвал</part_name>
+    </group>
+    <group>
+      <grup_id>1</grup_id>
+      <grup_name>Двигатель</grup_name>
+      <part_id>1422</part_id>
+      <part_name>Распредвал впускной</part_name>
+    </group>
+    <group>
+      <grup_id>1</grup_id>
+      <grup_name>Двигатель</grup_name>
+      <part_id>1423</part_id>
+      <part_name>Распредвал выпускной</part_name>
+    </group>
+    <group>
+      <grup_id>1</grup_id>
+      <grup_name>Двигатель</grup_name>
+      <part_id>1252</part_id>
+      <part_name>Расходомер воздуха (массметр)</part_name>
+    </group>
+    <group>
+      <grup_id>1</grup_id>
+      <grup_name>Двигатель</grup_name>
+      <part_id>1388</part_id>
+      <part_name>Регулятор давления топлива</part_name>
+    </group>
+    <group>
+      <grup_id>1</grup_id>
+      <grup_name>Двигатель</grup_name>
+      <part_id>1262</part_id>
+      <part_name>Резонатор воздушного фильтра</part_name>
+    </group>
+    <group>
+      <grup_id>1</grup_id>
+      <grup_name>Двигатель</grup_name>
+      <part_id>1407</part_id>
+      <part_name>Рейка топливная (рампа)</part_name>
+    </group>
+    <group>
+      <grup_id>1</grup_id>
+      <grup_name>Двигатель</grup_name>
+      <part_id>1060</part_id>
+      <part_name>Ролик дополнительный руч. ремня</part_name>
+    </group>
+    <group>
+      <grup_id>1</grup_id>
+      <grup_name>Двигатель</grup_name>
+      <part_id>1135</part_id>
+      <part_name>Ролик руч.ремня с кронштейном</part_name>
+    </group>
+    <group>
+      <grup_id>1</grup_id>
+      <grup_name>Двигатель</grup_name>
+      <part_id>2237</part_id>
+      <part_name>Ролик-натяжитель</part_name>
+    </group>
+    <group>
+      <grup_id>1</grup_id>
+      <grup_name>Двигатель</grup_name>
+      <part_id>1057</part_id>
+      <part_name>Ролик-натяжитель ремня ГРМ</part_name>
+    </group>
+    <group>
+      <grup_id>1</grup_id>
+      <grup_name>Двигатель</grup_name>
+      <part_id>1059</part_id>
+      <part_name>Ролик-натяжитель ручейкового ремня</part_name>
+    </group>
+    <group>
+      <grup_id>1</grup_id>
+      <grup_name>Двигатель</grup_name>
+      <part_id>1363</part_id>
+      <part_name>Скоба</part_name>
+    </group>
+    <group>
+      <grup_id>1</grup_id>
+      <grup_name>Двигатель</grup_name>
+      <part_id>1113</part_id>
+      <part_name>Термомуфта</part_name>
+    </group>
+    <group>
+      <grup_id>1</grup_id>
+      <grup_name>Двигатель</grup_name>
+      <part_id>1068</part_id>
+      <part_name>Термостат</part_name>
+    </group>
+    <group>
+      <grup_id>1</grup_id>
+      <grup_name>Двигатель</grup_name>
+      <part_id>1300</part_id>
+      <part_name>ТНВД</part_name>
+    </group>
+    <group>
+      <grup_id>1</grup_id>
+      <grup_name>Двигатель</grup_name>
+      <part_id>1478</part_id>
+      <part_name>ТННД</part_name>
+    </group>
+    <group>
+      <grup_id>1</grup_id>
+      <grup_name>Двигатель</grup_name>
+      <part_id>1851</part_id>
+      <part_name>Тройник вентиляции картерных газов</part_name>
+    </group>
+    <group>
+      <grup_id>1</grup_id>
+      <grup_name>Двигатель</grup_name>
+      <part_id>1856</part_id>
+      <part_name>Трубка вентиляционная</part_name>
+    </group>
+    <group>
+      <grup_id>1</grup_id>
+      <grup_name>Двигатель</grup_name>
+      <part_id>1405</part_id>
+      <part_name>Трубка картерных газов</part_name>
+    </group>
+    <group>
+      <grup_id>1</grup_id>
+      <grup_name>Двигатель</grup_name>
+      <part_id>1544</part_id>
+      <part_name>Трубка масляная</part_name>
+    </group>
+    <group>
+      <grup_id>1</grup_id>
+      <grup_name>Двигатель</grup_name>
+      <part_id>1098</part_id>
+      <part_name>Трубка охлажд. жидкости металлическая</part_name>
+    </group>
+    <group>
+      <grup_id>1</grup_id>
+      <grup_name>Двигатель</grup_name>
+      <part_id>2362</part_id>
+      <part_name>Трубка системы рециркуляции (EGR)</part_name>
+    </group>
+    <group>
+      <grup_id>1</grup_id>
+      <grup_name>Двигатель</grup_name>
+      <part_id>1157</part_id>
+      <part_name>Трубка ТНВД</part_name>
+    </group>
+    <group>
+      <grup_id>1</grup_id>
+      <grup_name>Двигатель</grup_name>
+      <part_id>1297</part_id>
+      <part_name>Трубка турбины</part_name>
+    </group>
+    <group>
+      <grup_id>1</grup_id>
+      <grup_name>Двигатель</grup_name>
+      <part_id>1071</part_id>
+      <part_name>Турбина</part_name>
+    </group>
+    <group>
+      <grup_id>1</grup_id>
+      <grup_name>Двигатель</grup_name>
+      <part_id>1190</part_id>
+      <part_name>Уплотнительная втулка инж. форсунки</part_name>
+    </group>
+    <group>
+      <grup_id>1</grup_id>
+      <grup_name>Двигатель</grup_name>
+      <part_id>1079</part_id>
+      <part_name>Фланец / тройник</part_name>
+    </group>
+    <group>
+      <grup_id>1</grup_id>
+      <grup_name>Двигатель</grup_name>
+      <part_id>1449</part_id>
+      <part_name>Фланец двигателя системы охлаждения</part_name>
+    </group>
+    <group>
+      <grup_id>1</grup_id>
+      <grup_name>Двигатель</grup_name>
+      <part_id>1279</part_id>
+      <part_name>Форсунка дизельная механическая</part_name>
+    </group>
+    <group>
+      <grup_id>1</grup_id>
+      <grup_name>Двигатель</grup_name>
+      <part_id>1280</part_id>
+      <part_name>Форсунка дизельная электрическая</part_name>
+    </group>
+    <group>
+      <grup_id>1</grup_id>
+      <grup_name>Двигатель</grup_name>
+      <part_id>1081</part_id>
+      <part_name>Форсунка инжекторная электрическая</part_name>
+    </group>
+    <group>
+      <grup_id>1</grup_id>
+      <grup_name>Двигатель</grup_name>
+      <part_id>1441</part_id>
+      <part_name>Форсунка масляная</part_name>
+    </group>
+    <group>
+      <grup_id>1</grup_id>
+      <grup_name>Двигатель</grup_name>
+      <part_id>1087</part_id>
+      <part_name>Шестерня коленвала</part_name>
+    </group>
+    <group>
+      <grup_id>1</grup_id>
+      <grup_name>Двигатель</grup_name>
+      <part_id>1402</part_id>
+      <part_name>Шестерня привода масляного насоса</part_name>
+    </group>
+    <group>
+      <grup_id>1</grup_id>
+      <grup_name>Двигатель</grup_name>
+      <part_id>1088</part_id>
+      <part_name>Шестерня промежуточного вала</part_name>
+    </group>
+    <group>
+      <grup_id>1</grup_id>
+      <grup_name>Двигатель</grup_name>
+      <part_id>1089</part_id>
+      <part_name>Шестерня распредвала</part_name>
+    </group>
+    <group>
+      <grup_id>1</grup_id>
+      <grup_name>Двигатель</grup_name>
+      <part_id>1301</part_id>
+      <part_name>Шестерня цепи ГРМ</part_name>
+    </group>
+    <group>
+      <grup_id>1</grup_id>
+      <grup_name>Двигатель</grup_name>
+      <part_id>1115</part_id>
+      <part_name>Шкив коленвала</part_name>
+    </group>
+    <group>
+      <grup_id>1</grup_id>
+      <grup_name>Двигатель</grup_name>
+      <part_id>1463</part_id>
+      <part_name>Шкив термомуфты</part_name>
+    </group>
+    <group>
+      <grup_id>1</grup_id>
+      <grup_name>Двигатель</grup_name>
+      <part_id>1290</part_id>
+      <part_name>Шкив ТНВД</part_name>
+    </group>
+    <group>
+      <grup_id>1</grup_id>
+      <grup_name>Двигатель</grup_name>
+      <part_id>1261</part_id>
+      <part_name>Шланг системы охлаждения</part_name>
+    </group>
+    <group>
+      <grup_id>1</grup_id>
+      <grup_name>Двигатель</grup_name>
+      <part_id>1356</part_id>
+      <part_name>Шланг топливный</part_name>
+    </group>
+    <group>
+      <grup_id>1</grup_id>
+      <grup_name>Двигатель</grup_name>
+      <part_id>1200</part_id>
+      <part_name>Щуп масляный</part_name>
+    </group>
+    <group>
+      <grup_id>2</grup_id>
+      <grup_name>Колёсные диски, покрышки</grup_name>
+      <part_id>4254</part_id>
+      <part_name>Диск колесный железо</part_name>
+    </group>
+    <group>
+      <grup_id>2</grup_id>
+      <grup_name>Колёсные диски, покрышки</grup_name>
+      <part_id>1813</part_id>
+      <part_name>Диск колесный легкосплавный</part_name>
+    </group>
+    <group>
+      <grup_id>2</grup_id>
+      <grup_name>Колёсные диски, покрышки</grup_name>
+      <part_id>1910</part_id>
+      <part_name>Диски колесные легкосплавные (к-кт)</part_name>
+    </group>
+    <group>
+      <grup_id>2</grup_id>
+      <grup_name>Колёсные диски, покрышки</grup_name>
+      <part_id>1024</part_id>
+      <part_name>Шина</part_name>
+    </group>
+    <group>
+      <grup_id>3</grup_id>
+      <grup_name>Кузов внутри</grup_name>
+      <part_id>3021</part_id>
+      <part_name>Бак топливный</part_name>
+    </group>
+    <group>
+      <grup_id>3</grup_id>
+      <grup_name>Кузов внутри</grup_name>
+      <part_id>3187</part_id>
+      <part_name>Бардачок</part_name>
+    </group>
+    <group>
+      <grup_id>3</grup_id>
+      <grup_name>Кузов внутри</grup_name>
+      <part_id>3084</part_id>
+      <part_name>Бачок омывателя лобового стекла</part_name>
+    </group>
+    <group>
+      <grup_id>3</grup_id>
+      <grup_name>Кузов внутри</grup_name>
+      <part_id>3236</part_id>
+      <part_name>Блок педалей</part_name>
+    </group>
+    <group>
+      <grup_id>3</grup_id>
+      <grup_name>Кузов внутри</grup_name>
+      <part_id>3262</part_id>
+      <part_name>Дефлектор воздушный</part_name>
+    </group>
+    <group>
+      <grup_id>3</grup_id>
+      <grup_name>Кузов внутри</grup_name>
+      <part_id>3175</part_id>
+      <part_name>Заглушка</part_name>
+    </group>
+    <group>
+      <grup_id>3</grup_id>
+      <grup_name>Кузов внутри</grup_name>
+      <part_id>1805</part_id>
+      <part_name>Замок двери задней левой</part_name>
+    </group>
+    <group>
+      <grup_id>3</grup_id>
+      <grup_name>Кузов внутри</grup_name>
+      <part_id>1797</part_id>
+      <part_name>Замок двери задней правой</part_name>
+    </group>
+    <group>
+      <grup_id>3</grup_id>
+      <grup_name>Кузов внутри</grup_name>
+      <part_id>2171</part_id>
+      <part_name>Замок двери передней левой</part_name>
+    </group>
+    <group>
+      <grup_id>3</grup_id>
+      <grup_name>Кузов внутри</grup_name>
+      <part_id>2175</part_id>
+      <part_name>Замок двери передней правой</part_name>
+    </group>
+    <group>
+      <grup_id>3</grup_id>
+      <grup_name>Кузов внутри</grup_name>
+      <part_id>3098</part_id>
+      <part_name>Зеркало заднего вида</part_name>
+    </group>
+    <group>
+      <grup_id>3</grup_id>
+      <grup_name>Кузов внутри</grup_name>
+      <part_id>3198</part_id>
+      <part_name>Испаритель кондиционера</part_name>
+    </group>
+    <group>
+      <grup_id>3</grup_id>
+      <grup_name>Кузов внутри</grup_name>
+      <part_id>3065</part_id>
+      <part_name>Коврик багажника</part_name>
+    </group>
+    <group>
+      <grup_id>3</grup_id>
+      <grup_name>Кузов внутри</grup_name>
+      <part_id>1489</part_id>
+      <part_name>Кожух</part_name>
+    </group>
+    <group>
+      <grup_id>3</grup_id>
+      <grup_name>Кузов внутри</grup_name>
+      <part_id>1750</part_id>
+      <part_name>Кожух радиатора</part_name>
+    </group>
+    <group>
+      <grup_id>3</grup_id>
+      <grup_name>Кузов внутри</grup_name>
+      <part_id>2433</part_id>
+      <part_name>Козырек солнцезащитный (внутри)</part_name>
+    </group>
+    <group>
+      <grup_id>3</grup_id>
+      <grup_name>Кузов внутри</grup_name>
+      <part_id>3134</part_id>
+      <part_name>Консоль</part_name>
+    </group>
+    <group>
+      <grup_id>3</grup_id>
+      <grup_name>Кузов внутри</grup_name>
+      <part_id>3237</part_id>
+      <part_name>Корпус отопителя</part_name>
+    </group>
+    <group>
+      <grup_id>3</grup_id>
+      <grup_name>Кузов внутри</grup_name>
+      <part_id>3230</part_id>
+      <part_name>Кронштейн кондиционера</part_name>
+    </group>
+    <group>
+      <grup_id>3</grup_id>
+      <grup_name>Кузов внутри</grup_name>
+      <part_id>3169</part_id>
+      <part_name>Кронштейн крепления запасного колеса</part_name>
+    </group>
+    <group>
+      <grup_id>3</grup_id>
+      <grup_name>Кузов внутри</grup_name>
+      <part_id>3173</part_id>
+      <part_name>Кронштейн осушителя</part_name>
+    </group>
+    <group>
+      <grup_id>3</grup_id>
+      <grup_name>Кузов внутри</grup_name>
+      <part_id>3097</part_id>
+      <part_name>Крышка бачка омывателя</part_name>
+    </group>
+    <group>
+      <grup_id>3</grup_id>
+      <grup_name>Кузов внутри</grup_name>
+      <part_id>1771</part_id>
+      <part_name>Крючок для одежды</part_name>
+    </group>
+    <group>
+      <grup_id>3</grup_id>
+      <grup_name>Кузов внутри</grup_name>
+      <part_id>1947</part_id>
+      <part_name>Крючок открывания двери левой</part_name>
+    </group>
+    <group>
+      <grup_id>3</grup_id>
+      <grup_name>Кузов внутри</grup_name>
+      <part_id>1948</part_id>
+      <part_name>Крючок открывания двери правой</part_name>
+    </group>
+    <group>
+      <grup_id>3</grup_id>
+      <grup_name>Кузов внутри</grup_name>
+      <part_id>1671</part_id>
+      <part_name>Крючок солнцезащитного козырька</part_name>
+    </group>
+    <group>
+      <grup_id>3</grup_id>
+      <grup_name>Кузов внутри</grup_name>
+      <part_id>1835</part_id>
+      <part_name>Накладка (кузов внутри)</part_name>
+    </group>
+    <group>
+      <grup_id>3</grup_id>
+      <grup_name>Кузов внутри</grup_name>
+      <part_id>3209</part_id>
+      <part_name>Накладка декоративная</part_name>
+    </group>
+    <group>
+      <grup_id>3</grup_id>
+      <grup_name>Кузов внутри</grup_name>
+      <part_id>1776</part_id>
+      <part_name>Накладка порога (внутренняя)</part_name>
+    </group>
+    <group>
+      <grup_id>3</grup_id>
+      <grup_name>Кузов внутри</grup_name>
+      <part_id>4325</part_id>
+      <part_name>Обшивка багажника</part_name>
+    </group>
+    <group>
+      <grup_id>3</grup_id>
+      <grup_name>Кузов внутри</grup_name>
+      <part_id>2391</part_id>
+      <part_name>Обшивка двери багажника</part_name>
+    </group>
+    <group>
+      <grup_id>3</grup_id>
+      <grup_name>Кузов внутри</grup_name>
+      <part_id>4442</part_id>
+      <part_name>Обшивка двери задней левой</part_name>
+    </group>
+    <group>
+      <grup_id>3</grup_id>
+      <grup_name>Кузов внутри</grup_name>
+      <part_id>4190</part_id>
+      <part_name>Обшивка двери задней правой</part_name>
+    </group>
+    <group>
+      <grup_id>3</grup_id>
+      <grup_name>Кузов внутри</grup_name>
+      <part_id>4444</part_id>
+      <part_name>Обшивка двери передней левой</part_name>
+    </group>
+    <group>
+      <grup_id>3</grup_id>
+      <grup_name>Кузов внутри</grup_name>
+      <part_id>4443</part_id>
+      <part_name>Обшивка двери передней правой</part_name>
+    </group>
+    <group>
+      <grup_id>3</grup_id>
+      <grup_name>Кузов внутри</grup_name>
+      <part_id>3218</part_id>
+      <part_name>Обшивка крышки багажника</part_name>
+    </group>
+    <group>
+      <grup_id>3</grup_id>
+      <grup_name>Кузов внутри</grup_name>
+      <part_id>4338</part_id>
+      <part_name>Обшивка потолка</part_name>
+    </group>
+    <group>
+      <grup_id>3</grup_id>
+      <grup_name>Кузов внутри</grup_name>
+      <part_id>4339</part_id>
+      <part_name>Обшивка стойки</part_name>
+    </group>
+    <group>
+      <grup_id>3</grup_id>
+      <grup_name>Кузов внутри</grup_name>
+      <part_id>3144</part_id>
+      <part_name>Осушитель системы кондиционирования</part_name>
+    </group>
+    <group>
+      <grup_id>3</grup_id>
+      <grup_name>Кузов внутри</grup_name>
+      <part_id>2192</part_id>
+      <part_name>Ответная часть ремня безопасности</part_name>
+    </group>
+    <group>
+      <grup_id>3</grup_id>
+      <grup_name>Кузов внутри</grup_name>
+      <part_id>3117</part_id>
+      <part_name>Панель приборов</part_name>
+    </group>
+    <group>
+      <grup_id>3</grup_id>
+      <grup_name>Кузов внутри</grup_name>
+      <part_id>3042</part_id>
+      <part_name>Педаль газа</part_name>
+    </group>
+    <group>
+      <grup_id>3</grup_id>
+      <grup_name>Кузов внутри</grup_name>
+      <part_id>14279</part_id>
+      <part_name>Пепельница задняя (в консоль)</part_name>
+    </group>
+    <group>
+      <grup_id>3</grup_id>
+      <grup_name>Кузов внутри</grup_name>
+      <part_id>14246</part_id>
+      <part_name>Пепельница передняя</part_name>
+    </group>
+    <group>
+      <grup_id>3</grup_id>
+      <grup_name>Кузов внутри</grup_name>
+      <part_id>3202</part_id>
+      <part_name>Петля двери задней левой верхняя</part_name>
+    </group>
+    <group>
+      <grup_id>3</grup_id>
+      <grup_name>Кузов внутри</grup_name>
+      <part_id>3203</part_id>
+      <part_name>Петля двери задней левой нижняя</part_name>
+    </group>
+    <group>
+      <grup_id>3</grup_id>
+      <grup_name>Кузов внутри</grup_name>
+      <part_id>3201</part_id>
+      <part_name>Петля двери задней правой верхняя</part_name>
+    </group>
+    <group>
+      <grup_id>3</grup_id>
+      <grup_name>Кузов внутри</grup_name>
+      <part_id>3204</part_id>
+      <part_name>Петля двери задней правой нижняя</part_name>
+    </group>
+    <group>
+      <grup_id>3</grup_id>
+      <grup_name>Кузов внутри</grup_name>
+      <part_id>3200</part_id>
+      <part_name>Петля двери передней левой верхняя</part_name>
+    </group>
+    <group>
+      <grup_id>3</grup_id>
+      <grup_name>Кузов внутри</grup_name>
+      <part_id>3205</part_id>
+      <part_name>Петля двери передней левой нижняя</part_name>
+    </group>
+    <group>
+      <grup_id>3</grup_id>
+      <grup_name>Кузов внутри</grup_name>
+      <part_id>3009</part_id>
+      <part_name>Петля двери передней правой верхняя</part_name>
+    </group>
+    <group>
+      <grup_id>3</grup_id>
+      <grup_name>Кузов внутри</grup_name>
+      <part_id>3206</part_id>
+      <part_name>Петля двери передней правой нижняя</part_name>
+    </group>
+    <group>
+      <grup_id>3</grup_id>
+      <grup_name>Кузов внутри</grup_name>
+      <part_id>1582</part_id>
+      <part_name>Петля крышки багажника</part_name>
+    </group>
+    <group>
+      <grup_id>3</grup_id>
+      <grup_name>Кузов внутри</grup_name>
+      <part_id>3132</part_id>
+      <part_name>Плафон салонный</part_name>
+    </group>
+    <group>
+      <grup_id>3</grup_id>
+      <grup_name>Кузов внутри</grup_name>
+      <part_id>1852</part_id>
+      <part_name>Подлокотник</part_name>
+    </group>
+    <group>
+      <grup_id>3</grup_id>
+      <grup_name>Кузов внутри</grup_name>
+      <part_id>1132</part_id>
+      <part_name>Подстаканник</part_name>
+    </group>
+    <group>
+      <grup_id>3</grup_id>
+      <grup_name>Кузов внутри</grup_name>
+      <part_id>1780</part_id>
+      <part_name>Подушка безопасности боковая (в сиденье)</part_name>
+    </group>
+    <group>
+      <grup_id>3</grup_id>
+      <grup_name>Кузов внутри</grup_name>
+      <part_id>1705</part_id>
+      <part_name>Подушка безопасности боковая (шторка)</part_name>
+    </group>
+    <group>
+      <grup_id>3</grup_id>
+      <grup_name>Кузов внутри</grup_name>
+      <part_id>3259</part_id>
+      <part_name>Подушка безопасности в рулевое колесо</part_name>
+    </group>
+    <group>
+      <grup_id>3</grup_id>
+      <grup_name>Кузов внутри</grup_name>
+      <part_id>3194</part_id>
+      <part_name>Подушка безопасности пассажирская (в торпедо)</part_name>
+    </group>
+    <group>
+      <grup_id>3</grup_id>
+      <grup_name>Кузов внутри</grup_name>
+      <part_id>1546</part_id>
+      <part_name>Пол багажника</part_name>
+    </group>
+    <group>
+      <grup_id>3</grup_id>
+      <grup_name>Кузов внутри</grup_name>
+      <part_id>3036</part_id>
+      <part_name>Полка</part_name>
+    </group>
+    <group>
+      <grup_id>3</grup_id>
+      <grup_name>Кузов внутри</grup_name>
+      <part_id>1046</part_id>
+      <part_name>Радиатор кондиционера (конденсер)</part_name>
+    </group>
+    <group>
+      <grup_id>3</grup_id>
+      <grup_name>Кузов внутри</grup_name>
+      <part_id>3017</part_id>
+      <part_name>Радиатор основной</part_name>
+    </group>
+    <group>
+      <grup_id>3</grup_id>
+      <grup_name>Кузов внутри</grup_name>
+      <part_id>3015</part_id>
+      <part_name>Радиатор отопителя</part_name>
+    </group>
+    <group>
+      <grup_id>3</grup_id>
+      <grup_name>Кузов внутри</grup_name>
+      <part_id>3171</part_id>
+      <part_name>Рамка</part_name>
+    </group>
+    <group>
+      <grup_id>3</grup_id>
+      <grup_name>Кузов внутри</grup_name>
+      <part_id>14212</part_id>
+      <part_name>Рамка магнитолы</part_name>
+    </group>
+    <group>
+      <grup_id>3</grup_id>
+      <grup_name>Кузов внутри</grup_name>
+      <part_id>3115</part_id>
+      <part_name>Рамка салонного фильтра</part_name>
+    </group>
+    <group>
+      <grup_id>3</grup_id>
+      <grup_name>Кузов внутри</grup_name>
+      <part_id>3193</part_id>
+      <part_name>Ремень безопасности</part_name>
+    </group>
+    <group>
+      <grup_id>3</grup_id>
+      <grup_name>Кузов внутри</grup_name>
+      <part_id>3192</part_id>
+      <part_name>Ремень безопасности с пиропатроном</part_name>
+    </group>
+    <group>
+      <grup_id>3</grup_id>
+      <grup_name>Кузов внутри</grup_name>
+      <part_id>3258</part_id>
+      <part_name>Рулевое колесо для AIR BAG (без AIR BAG)</part_name>
+    </group>
+    <group>
+      <grup_id>3</grup_id>
+      <grup_name>Кузов внутри</grup_name>
+      <part_id>3181</part_id>
+      <part_name>Рулевое колесо с AIR BAG</part_name>
+    </group>
+    <group>
+      <grup_id>3</grup_id>
+      <grup_name>Кузов внутри</grup_name>
+      <part_id>1513</part_id>
+      <part_name>Ручка внутренняя потолочная</part_name>
+    </group>
+    <group>
+      <grup_id>3</grup_id>
+      <grup_name>Кузов внутри</grup_name>
+      <part_id>1951</part_id>
+      <part_name>Ручка двери внутренняя левая</part_name>
+    </group>
+    <group>
+      <grup_id>3</grup_id>
+      <grup_name>Кузов внутри</grup_name>
+      <part_id>3168</part_id>
+      <part_name>Ручка двери внутренняя правая</part_name>
+    </group>
+    <group>
+      <grup_id>3</grup_id>
+      <grup_name>Кузов внутри</grup_name>
+      <part_id>1968</part_id>
+      <part_name>Ручка двери задней внутренняя левая</part_name>
+    </group>
+    <group>
+      <grup_id>3</grup_id>
+      <grup_name>Кузов внутри</grup_name>
+      <part_id>1969</part_id>
+      <part_name>Ручка двери задней внутренняя правая</part_name>
+    </group>
+    <group>
+      <grup_id>3</grup_id>
+      <grup_name>Кузов внутри</grup_name>
+      <part_id>1966</part_id>
+      <part_name>Ручка двери передней внутренняя левая</part_name>
+    </group>
+    <group>
+      <grup_id>3</grup_id>
+      <grup_name>Кузов внутри</grup_name>
+      <part_id>1967</part_id>
+      <part_name>Ручка двери передней внутренняя правая</part_name>
+    </group>
+    <group>
+      <grup_id>3</grup_id>
+      <grup_name>Кузов внутри</grup_name>
+      <part_id>3044</part_id>
+      <part_name>Ручка стеклоподъемника</part_name>
+    </group>
+    <group>
+      <grup_id>3</grup_id>
+      <grup_name>Кузов внутри</grup_name>
+      <part_id>3245</part_id>
+      <part_name>Салон в сборе</part_name>
+    </group>
+    <group>
+      <grup_id>3</grup_id>
+      <grup_name>Кузов внутри</grup_name>
+      <part_id>3243</part_id>
+      <part_name>Сиденья к-кт</part_name>
+    </group>
+    <group>
+      <grup_id>3</grup_id>
+      <grup_name>Кузов внутри</grup_name>
+      <part_id>3023</part_id>
+      <part_name>Стеклоподъемник механ. задний левый</part_name>
+    </group>
+    <group>
+      <grup_id>3</grup_id>
+      <grup_name>Кузов внутри</grup_name>
+      <part_id>3022</part_id>
+      <part_name>Стеклоподъемник механ. задний правый</part_name>
+    </group>
+    <group>
+      <grup_id>3</grup_id>
+      <grup_name>Кузов внутри</grup_name>
+      <part_id>3185</part_id>
+      <part_name>Стеклоподъемник электр. задний левый</part_name>
+    </group>
+    <group>
+      <grup_id>3</grup_id>
+      <grup_name>Кузов внутри</grup_name>
+      <part_id>3186</part_id>
+      <part_name>Стеклоподъемник электр. задний правый</part_name>
+    </group>
+    <group>
+      <grup_id>3</grup_id>
+      <grup_name>Кузов внутри</grup_name>
+      <part_id>3068</part_id>
+      <part_name>Стеклоподъемник электр. передний левый</part_name>
+    </group>
+    <group>
+      <grup_id>3</grup_id>
+      <grup_name>Кузов внутри</grup_name>
+      <part_id>3127</part_id>
+      <part_name>Стеклоподъемник электр. передний правый</part_name>
+    </group>
+    <group>
+      <grup_id>3</grup_id>
+      <grup_name>Кузов внутри</grup_name>
+      <part_id>3228</part_id>
+      <part_name>Торпедо</part_name>
+    </group>
+    <group>
+      <grup_id>3</grup_id>
+      <grup_name>Кузов внутри</grup_name>
+      <part_id>3059</part_id>
+      <part_name>Трапеция стеклоочистителей</part_name>
+    </group>
+    <group>
+      <grup_id>3</grup_id>
+      <grup_name>Кузов внутри</grup_name>
+      <part_id>3180</part_id>
+      <part_name>Трос открывания багажника</part_name>
+    </group>
+    <group>
+      <grup_id>3</grup_id>
+      <grup_name>Кузов внутри</grup_name>
+      <part_id>3081</part_id>
+      <part_name>Трос открывания капота</part_name>
+    </group>
+    <group>
+      <grup_id>3</grup_id>
+      <grup_name>Кузов внутри</grup_name>
+      <part_id>3188</part_id>
+      <part_name>Трубка кондиционера</part_name>
+    </group>
+    <group>
+      <grup_id>3</grup_id>
+      <grup_name>Кузов внутри</grup_name>
+      <part_id>2178</part_id>
+      <part_name>Уплотнитель (внутри)</part_name>
+    </group>
+    <group>
+      <grup_id>3</grup_id>
+      <grup_name>Кузов внутри</grup_name>
+      <part_id>1744</part_id>
+      <part_name>Уплотнитель багажника</part_name>
+    </group>
+    <group>
+      <grup_id>3</grup_id>
+      <grup_name>Кузов внутри</grup_name>
+      <part_id>3010</part_id>
+      <part_name>Чехол кулисы</part_name>
+    </group>
+    <group>
+      <grup_id>3</grup_id>
+      <grup_name>Кузов внутри</grup_name>
+      <part_id>2085</part_id>
+      <part_name>Шторка багажника</part_name>
+    </group>
+    <group>
+      <grup_id>3</grup_id>
+      <grup_name>Кузов внутри</grup_name>
+      <part_id>2024</part_id>
+      <part_name>Шумоизоляция капота</part_name>
+    </group>
+    <group>
+      <grup_id>3</grup_id>
+      <grup_name>Кузов внутри</grup_name>
+      <part_id>3211</part_id>
+      <part_name>Ящик передней консоли</part_name>
+    </group>
+    <group>
+      <grup_id>4</grup_id>
+      <grup_name>Кузов наружные элементы</grup_name>
+      <part_id>1897</part_id>
+      <part_name>Амортизатор двери багажника</part_name>
+    </group>
+    <group>
+      <grup_id>4</grup_id>
+      <grup_name>Кузов наружные элементы</grup_name>
+      <part_id>4018</part_id>
+      <part_name>Амортизатор капота</part_name>
+    </group>
+    <group>
+      <grup_id>4</grup_id>
+      <grup_name>Кузов наружные элементы</grup_name>
+      <part_id>4007</part_id>
+      <part_name>Амортизатор крышки багажника</part_name>
+    </group>
+    <group>
+      <grup_id>4</grup_id>
+      <grup_name>Кузов наружные элементы</grup_name>
+      <part_id>4035</part_id>
+      <part_name>Бампер задний</part_name>
+    </group>
+    <group>
+      <grup_id>4</grup_id>
+      <grup_name>Кузов наружные элементы</grup_name>
+      <part_id>4102</part_id>
+      <part_name>Бампер передний</part_name>
+    </group>
+    <group>
+      <grup_id>4</grup_id>
+      <grup_name>Кузов наружные элементы</grup_name>
+      <part_id>4019</part_id>
+      <part_name>Болт колесный</part_name>
+    </group>
+    <group>
+      <grup_id>4</grup_id>
+      <grup_name>Кузов наружные элементы</grup_name>
+      <part_id>2152</part_id>
+      <part_name>Болт крепления запасного колеса</part_name>
+    </group>
+    <group>
+      <grup_id>4</grup_id>
+      <grup_name>Кузов наружные элементы</grup_name>
+      <part_id>4380</part_id>
+      <part_name>Брызговик передний правый</part_name>
+    </group>
+    <group>
+      <grup_id>4</grup_id>
+      <grup_name>Кузов наружные элементы</grup_name>
+      <part_id>1161</part_id>
+      <part_name>Воздухозаборник (наружный)</part_name>
+    </group>
+    <group>
+      <grup_id>4</grup_id>
+      <grup_name>Кузов наружные элементы</grup_name>
+      <part_id>4358</part_id>
+      <part_name>Вставка замка багажника</part_name>
+    </group>
+    <group>
+      <grup_id>4</grup_id>
+      <grup_name>Кузов наружные элементы</grup_name>
+      <part_id>4154</part_id>
+      <part_name>Дверь багажника</part_name>
+    </group>
+    <group>
+      <grup_id>4</grup_id>
+      <grup_name>Кузов наружные элементы</grup_name>
+      <part_id>4397</part_id>
+      <part_name>Дверь багажника со стеклом</part_name>
+    </group>
+    <group>
+      <grup_id>4</grup_id>
+      <grup_name>Кузов наружные элементы</grup_name>
+      <part_id>4201</part_id>
+      <part_name>Дверь задняя левая</part_name>
+    </group>
+    <group>
+      <grup_id>4</grup_id>
+      <grup_name>Кузов наружные элементы</grup_name>
+      <part_id>4277</part_id>
+      <part_name>Дверь задняя правая</part_name>
+    </group>
+    <group>
+      <grup_id>4</grup_id>
+      <grup_name>Кузов наружные элементы</grup_name>
+      <part_id>4172</part_id>
+      <part_name>Дверь передняя левая</part_name>
+    </group>
+    <group>
+      <grup_id>4</grup_id>
+      <grup_name>Кузов наружные элементы</grup_name>
+      <part_id>4321</part_id>
+      <part_name>Дверь передняя правая</part_name>
+    </group>
+    <group>
+      <grup_id>4</grup_id>
+      <grup_name>Кузов наружные элементы</grup_name>
+      <part_id>4086</part_id>
+      <part_name>Замок багажника</part_name>
+    </group>
+    <group>
+      <grup_id>4</grup_id>
+      <grup_name>Кузов наружные элементы</grup_name>
+      <part_id>4238</part_id>
+      <part_name>Замок капота</part_name>
+    </group>
+    <group>
+      <grup_id>4</grup_id>
+      <grup_name>Кузов наружные элементы</grup_name>
+      <part_id>1523</part_id>
+      <part_name>Защита антигравийная</part_name>
+    </group>
+    <group>
+      <grup_id>4</grup_id>
+      <grup_name>Кузов наружные элементы</grup_name>
+      <part_id>4037</part_id>
+      <part_name>Зеркало левое электрическое</part_name>
+    </group>
+    <group>
+      <grup_id>4</grup_id>
+      <grup_name>Кузов наружные элементы</grup_name>
+      <part_id>4038</part_id>
+      <part_name>Зеркало правое электрическое</part_name>
+    </group>
+    <group>
+      <grup_id>4</grup_id>
+      <grup_name>Кузов наружные элементы</grup_name>
+      <part_id>4004</part_id>
+      <part_name>Капот</part_name>
+    </group>
+    <group>
+      <grup_id>4</grup_id>
+      <grup_name>Кузов наружные элементы</grup_name>
+      <part_id>4390</part_id>
+      <part_name>Кронштейн заднего бампера левый</part_name>
+    </group>
+    <group>
+      <grup_id>4</grup_id>
+      <grup_name>Кузов наружные элементы</grup_name>
+      <part_id>4391</part_id>
+      <part_name>Кронштейн заднего бампера правый</part_name>
+    </group>
+    <group>
+      <grup_id>4</grup_id>
+      <grup_name>Кузов наружные элементы</grup_name>
+      <part_id>4189</part_id>
+      <part_name>Кронштейн крепления крыла</part_name>
+    </group>
+    <group>
+      <grup_id>4</grup_id>
+      <grup_name>Кузов наружные элементы</grup_name>
+      <part_id>4448</part_id>
+      <part_name>Кронштейн усилителя заднего бампера левый</part_name>
+    </group>
+    <group>
+      <grup_id>4</grup_id>
+      <grup_name>Кузов наружные элементы</grup_name>
+      <part_id>4449</part_id>
+      <part_name>Кронштейн усилителя заднего бампера правый</part_name>
+    </group>
+    <group>
+      <grup_id>4</grup_id>
+      <grup_name>Кузов наружные элементы</grup_name>
+      <part_id>4369</part_id>
+      <part_name>Кронштейн усилителя переднего бампера левый</part_name>
+    </group>
+    <group>
+      <grup_id>4</grup_id>
+      <grup_name>Кузов наружные элементы</grup_name>
+      <part_id>4368</part_id>
+      <part_name>Кронштейн усилителя переднего бампера правый</part_name>
+    </group>
+    <group>
+      <grup_id>4</grup_id>
+      <grup_name>Кузов наружные элементы</grup_name>
+      <part_id>4110</part_id>
+      <part_name>Крыло заднее левое</part_name>
+    </group>
+    <group>
+      <grup_id>4</grup_id>
+      <grup_name>Кузов наружные элементы</grup_name>
+      <part_id>4109</part_id>
+      <part_name>Крыло заднее правое</part_name>
+    </group>
+    <group>
+      <grup_id>4</grup_id>
+      <grup_name>Кузов наружные элементы</grup_name>
+      <part_id>4005</part_id>
+      <part_name>Крыло переднее левое</part_name>
+    </group>
+    <group>
+      <grup_id>4</grup_id>
+      <grup_name>Кузов наружные элементы</grup_name>
+      <part_id>4006</part_id>
+      <part_name>Крыло переднее правое</part_name>
+    </group>
+    <group>
+      <grup_id>4</grup_id>
+      <grup_name>Кузов наружные элементы</grup_name>
+      <part_id>4258</part_id>
+      <part_name>Крыша</part_name>
+    </group>
+    <group>
+      <grup_id>4</grup_id>
+      <grup_name>Кузов наружные элементы</grup_name>
+      <part_id>4310</part_id>
+      <part_name>Крышка багажника</part_name>
+    </group>
+    <group>
+      <grup_id>4</grup_id>
+      <grup_name>Кузов наружные элементы</grup_name>
+      <part_id>4062</part_id>
+      <part_name>Крышка корпуса зеркала левого</part_name>
+    </group>
+    <group>
+      <grup_id>4</grup_id>
+      <grup_name>Кузов наружные элементы</grup_name>
+      <part_id>4016</part_id>
+      <part_name>Крышка топливного бака</part_name>
+    </group>
+    <group>
+      <grup_id>4</grup_id>
+      <grup_name>Кузов наружные элементы</grup_name>
+      <part_id>4362</part_id>
+      <part_name>Крышка фары левой</part_name>
+    </group>
+    <group>
+      <grup_id>4</grup_id>
+      <grup_name>Кузов наружные элементы</grup_name>
+      <part_id>4378</part_id>
+      <part_name>Крышка форсунки омывателя</part_name>
+    </group>
+    <group>
+      <grup_id>4</grup_id>
+      <grup_name>Кузов наружные элементы</grup_name>
+      <part_id>1854</part_id>
+      <part_name>Кузовной элемент</part_name>
+    </group>
+    <group>
+      <grup_id>4</grup_id>
+      <grup_name>Кузов наружные элементы</grup_name>
+      <part_id>4437</part_id>
+      <part_name>Локер задний левый</part_name>
+    </group>
+    <group>
+      <grup_id>4</grup_id>
+      <grup_name>Кузов наружные элементы</grup_name>
+      <part_id>4438</part_id>
+      <part_name>Локер задний правый</part_name>
+    </group>
+    <group>
+      <grup_id>4</grup_id>
+      <grup_name>Кузов наружные элементы</grup_name>
+      <part_id>4066</part_id>
+      <part_name>Локер передний левый</part_name>
+    </group>
+    <group>
+      <grup_id>4</grup_id>
+      <grup_name>Кузов наружные элементы</grup_name>
+      <part_id>4067</part_id>
+      <part_name>Локер передний правый</part_name>
+    </group>
+    <group>
+      <grup_id>4</grup_id>
+      <grup_name>Кузов наружные элементы</grup_name>
+      <part_id>4316</part_id>
+      <part_name>Лонжерон передний левый</part_name>
+    </group>
+    <group>
+      <grup_id>4</grup_id>
+      <grup_name>Кузов наружные элементы</grup_name>
+      <part_id>4317</part_id>
+      <part_name>Лонжерон передний правый</part_name>
+    </group>
+    <group>
+      <grup_id>4</grup_id>
+      <grup_name>Кузов наружные элементы</grup_name>
+      <part_id>4371</part_id>
+      <part_name>Люк в сборе электрический</part_name>
+    </group>
+    <group>
+      <grup_id>4</grup_id>
+      <grup_name>Кузов наружные элементы</grup_name>
+      <part_id>4297</part_id>
+      <part_name>Лючок бензобака</part_name>
+    </group>
+    <group>
+      <grup_id>4</grup_id>
+      <grup_name>Кузов наружные элементы</grup_name>
+      <part_id>4305</part_id>
+      <part_name>Молдинг заднего стекла</part_name>
+    </group>
+    <group>
+      <grup_id>4</grup_id>
+      <grup_name>Кузов наружные элементы</grup_name>
+      <part_id>4132</part_id>
+      <part_name>Молдинг задней левой двери</part_name>
+    </group>
+    <group>
+      <grup_id>4</grup_id>
+      <grup_name>Кузов наружные элементы</grup_name>
+      <part_id>4131</part_id>
+      <part_name>Молдинг задней правой двери</part_name>
+    </group>
+    <group>
+      <grup_id>4</grup_id>
+      <grup_name>Кузов наружные элементы</grup_name>
+      <part_id>4184</part_id>
+      <part_name>Молдинг крыши левый</part_name>
+    </group>
+    <group>
+      <grup_id>4</grup_id>
+      <grup_name>Кузов наружные элементы</grup_name>
+      <part_id>4296</part_id>
+      <part_name>Молдинг крыши правый</part_name>
+    </group>
+    <group>
+      <grup_id>4</grup_id>
+      <grup_name>Кузов наружные элементы</grup_name>
+      <part_id>4029</part_id>
+      <part_name>Молдинг лобового стекла</part_name>
+    </group>
+    <group>
+      <grup_id>4</grup_id>
+      <grup_name>Кузов наружные элементы</grup_name>
+      <part_id>4135</part_id>
+      <part_name>Молдинг переднего правого крыла</part_name>
+    </group>
+    <group>
+      <grup_id>4</grup_id>
+      <grup_name>Кузов наружные элементы</grup_name>
+      <part_id>4168</part_id>
+      <part_name>Молдинг передней левой двери</part_name>
+    </group>
+    <group>
+      <grup_id>4</grup_id>
+      <grup_name>Кузов наружные элементы</grup_name>
+      <part_id>4167</part_id>
+      <part_name>Молдинг передней правой двери</part_name>
+    </group>
+    <group>
+      <grup_id>4</grup_id>
+      <grup_name>Кузов наружные элементы</grup_name>
+      <part_id>4335</part_id>
+      <part_name>Накладка (кузов наружние)</part_name>
+    </group>
+    <group>
+      <grup_id>4</grup_id>
+      <grup_name>Кузов наружные элементы</grup_name>
+      <part_id>4176</part_id>
+      <part_name>Накладка двери задней левой</part_name>
+    </group>
+    <group>
+      <grup_id>4</grup_id>
+      <grup_name>Кузов наружные элементы</grup_name>
+      <part_id>4122</part_id>
+      <part_name>Накладка двери задней правой</part_name>
+    </group>
+    <group>
+      <grup_id>4</grup_id>
+      <grup_name>Кузов наружные элементы</grup_name>
+      <part_id>4212</part_id>
+      <part_name>Накладка двери передней левой</part_name>
+    </group>
+    <group>
+      <grup_id>4</grup_id>
+      <grup_name>Кузов наружные элементы</grup_name>
+      <part_id>4211</part_id>
+      <part_name>Накладка двери передней правой</part_name>
+    </group>
+    <group>
+      <grup_id>4</grup_id>
+      <grup_name>Кузов наружные элементы</grup_name>
+      <part_id>4113</part_id>
+      <part_name>Накладка заднего бампера</part_name>
+    </group>
+    <group>
+      <grup_id>4</grup_id>
+      <grup_name>Кузов наружные элементы</grup_name>
+      <part_id>4039</part_id>
+      <part_name>Накладка зеркала</part_name>
+    </group>
+    <group>
+      <grup_id>4</grup_id>
+      <grup_name>Кузов наружные элементы</grup_name>
+      <part_id>3210</part_id>
+      <part_name>Накладка крышки багажника</part_name>
+    </group>
+    <group>
+      <grup_id>4</grup_id>
+      <grup_name>Кузов наружные элементы</grup_name>
+      <part_id>4187</part_id>
+      <part_name>Накладка на порог (наружняя)</part_name>
+    </group>
+    <group>
+      <grup_id>4</grup_id>
+      <grup_name>Кузов наружные элементы</grup_name>
+      <part_id>4385</part_id>
+      <part_name>Накладка стекла заднего левого</part_name>
+    </group>
+    <group>
+      <grup_id>4</grup_id>
+      <grup_name>Кузов наружные элементы</grup_name>
+      <part_id>4386</part_id>
+      <part_name>Накладка стекла заднего правого</part_name>
+    </group>
+    <group>
+      <grup_id>4</grup_id>
+      <grup_name>Кузов наружные элементы</grup_name>
+      <part_id>4383</part_id>
+      <part_name>Накладка стекла переднего левого</part_name>
+    </group>
+    <group>
+      <grup_id>4</grup_id>
+      <grup_name>Кузов наружные элементы</grup_name>
+      <part_id>4384</part_id>
+      <part_name>Накладка стекла переднего правого</part_name>
+    </group>
+    <group>
+      <grup_id>4</grup_id>
+      <grup_name>Кузов наружные элементы</grup_name>
+      <part_id>3107</part_id>
+      <part_name>Накладка стойки</part_name>
+    </group>
+    <group>
+      <grup_id>4</grup_id>
+      <grup_name>Кузов наружные элементы</grup_name>
+      <part_id>1608</part_id>
+      <part_name>Направляющая заднего бампера левая</part_name>
+    </group>
+    <group>
+      <grup_id>4</grup_id>
+      <grup_name>Кузов наружные элементы</grup_name>
+      <part_id>1627</part_id>
+      <part_name>Направляющая заднего бампера правая</part_name>
+    </group>
+    <group>
+      <grup_id>4</grup_id>
+      <grup_name>Кузов наружные элементы</grup_name>
+      <part_id>2183</part_id>
+      <part_name>Направляющая переднего бампера левая</part_name>
+    </group>
+    <group>
+      <grup_id>4</grup_id>
+      <grup_name>Кузов наружные элементы</grup_name>
+      <part_id>2182</part_id>
+      <part_name>Направляющая переднего бампера правая</part_name>
+    </group>
+    <group>
+      <grup_id>4</grup_id>
+      <grup_name>Кузов наружные элементы</grup_name>
+      <part_id>2429</part_id>
+      <part_name>Ответная часть замка багажника</part_name>
+    </group>
+    <group>
+      <grup_id>4</grup_id>
+      <grup_name>Кузов наружные элементы</grup_name>
+      <part_id>2185</part_id>
+      <part_name>Ответная часть замка двери</part_name>
+    </group>
+    <group>
+      <grup_id>4</grup_id>
+      <grup_name>Кузов наружные элементы</grup_name>
+      <part_id>4250</part_id>
+      <part_name>Панель задняя</part_name>
+    </group>
+    <group>
+      <grup_id>4</grup_id>
+      <grup_name>Кузов наружные элементы</grup_name>
+      <part_id>4009</part_id>
+      <part_name>Панель передняя</part_name>
+    </group>
+    <group>
+      <grup_id>4</grup_id>
+      <grup_name>Кузов наружные элементы</grup_name>
+      <part_id>4341</part_id>
+      <part_name>Петля двери багажника</part_name>
+    </group>
+    <group>
+      <grup_id>4</grup_id>
+      <grup_name>Кузов наружные элементы</grup_name>
+      <part_id>4166</part_id>
+      <part_name>Петля капота левая</part_name>
+    </group>
+    <group>
+      <grup_id>4</grup_id>
+      <grup_name>Кузов наружные элементы</grup_name>
+      <part_id>4327</part_id>
+      <part_name>Петля капота правая</part_name>
+    </group>
+    <group>
+      <grup_id>4</grup_id>
+      <grup_name>Кузов наружные элементы</grup_name>
+      <part_id>4152</part_id>
+      <part_name>Поводок стеклоочистителя заднего</part_name>
+    </group>
+    <group>
+      <grup_id>4</grup_id>
+      <grup_name>Кузов наружные элементы</grup_name>
+      <part_id>4314</part_id>
+      <part_name>Поводок стеклоочистителя переднего</part_name>
+    </group>
+    <group>
+      <grup_id>4</grup_id>
+      <grup_name>Кузов наружные элементы</grup_name>
+      <part_id>1664</part_id>
+      <part_name>Поводок стеклоочистителя передний левый</part_name>
+    </group>
+    <group>
+      <grup_id>4</grup_id>
+      <grup_name>Кузов наружные элементы</grup_name>
+      <part_id>1665</part_id>
+      <part_name>Поводок стеклоочистителя передний правый</part_name>
+    </group>
+    <group>
+      <grup_id>4</grup_id>
+      <grup_name>Кузов наружные элементы</grup_name>
+      <part_id>1090</part_id>
+      <part_name>Подкрылок</part_name>
+    </group>
+    <group>
+      <grup_id>4</grup_id>
+      <grup_name>Кузов наружные элементы</grup_name>
+      <part_id>4418</part_id>
+      <part_name>Порог со стойкой левый</part_name>
+    </group>
+    <group>
+      <grup_id>4</grup_id>
+      <grup_name>Кузов наружные элементы</grup_name>
+      <part_id>4419</part_id>
+      <part_name>Порог со стойкой правый</part_name>
+    </group>
+    <group>
+      <grup_id>4</grup_id>
+      <grup_name>Кузов наружные элементы</grup_name>
+      <part_id>1636</part_id>
+      <part_name>Пыльник (кузов наружные)</part_name>
+    </group>
+    <group>
+      <grup_id>4</grup_id>
+      <grup_name>Кузов наружные элементы</grup_name>
+      <part_id>2095</part_id>
+      <part_name>Пыльник двигателя</part_name>
+    </group>
+    <group>
+      <grup_id>4</grup_id>
+      <grup_name>Кузов наружные элементы</grup_name>
+      <part_id>4439</part_id>
+      <part_name>Рамка двери</part_name>
+    </group>
+    <group>
+      <grup_id>4</grup_id>
+      <grup_name>Кузов наружные элементы</grup_name>
+      <part_id>4408</part_id>
+      <part_name>Рейлинги (релинг) к-кт (планки на крышу)</part_name>
+    </group>
+    <group>
+      <grup_id>4</grup_id>
+      <grup_name>Кузов наружные элементы</grup_name>
+      <part_id>4095</part_id>
+      <part_name>Решетка в бампер</part_name>
+    </group>
+    <group>
+      <grup_id>4</grup_id>
+      <grup_name>Кузов наружные элементы</grup_name>
+      <part_id>4022</part_id>
+      <part_name>Решетка в бампер левая</part_name>
+    </group>
+    <group>
+      <grup_id>4</grup_id>
+      <grup_name>Кузов наружные элементы</grup_name>
+      <part_id>4021</part_id>
+      <part_name>Решетка в бампер правая</part_name>
+    </group>
+    <group>
+      <grup_id>4</grup_id>
+      <grup_name>Кузов наружные элементы</grup_name>
+      <part_id>4020</part_id>
+      <part_name>Решетка в бампер центральная</part_name>
+    </group>
+    <group>
+      <grup_id>4</grup_id>
+      <grup_name>Кузов наружные элементы</grup_name>
+      <part_id>4222</part_id>
+      <part_name>Решетка вентиляционная</part_name>
+    </group>
+    <group>
+      <grup_id>4</grup_id>
+      <grup_name>Кузов наружные элементы</grup_name>
+      <part_id>4010</part_id>
+      <part_name>Решетка радиатора</part_name>
+    </group>
+    <group>
+      <grup_id>4</grup_id>
+      <grup_name>Кузов наружные элементы</grup_name>
+      <part_id>4239</part_id>
+      <part_name>Решетка стеклооч. (планка под лобовое стекло)</part_name>
+    </group>
+    <group>
+      <grup_id>4</grup_id>
+      <grup_name>Кузов наружные элементы</grup_name>
+      <part_id>1978</part_id>
+      <part_name>Ручка двери задней наружная</part_name>
+    </group>
+    <group>
+      <grup_id>4</grup_id>
+      <grup_name>Кузов наружные элементы</grup_name>
+      <part_id>1975</part_id>
+      <part_name>Ручка двери задней наружная левая</part_name>
+    </group>
+    <group>
+      <grup_id>4</grup_id>
+      <grup_name>Кузов наружные элементы</grup_name>
+      <part_id>1976</part_id>
+      <part_name>Ручка двери задней наружная правая</part_name>
+    </group>
+    <group>
+      <grup_id>4</grup_id>
+      <grup_name>Кузов наружные элементы</grup_name>
+      <part_id>1724</part_id>
+      <part_name>Ручка двери наружная</part_name>
+    </group>
+    <group>
+      <grup_id>4</grup_id>
+      <grup_name>Кузов наружные элементы</grup_name>
+      <part_id>1973</part_id>
+      <part_name>Ручка двери передней наружная левая</part_name>
+    </group>
+    <group>
+      <grup_id>4</grup_id>
+      <grup_name>Кузов наружные элементы</grup_name>
+      <part_id>1974</part_id>
+      <part_name>Ручка двери передней наружная правая</part_name>
+    </group>
+    <group>
+      <grup_id>4</grup_id>
+      <grup_name>Кузов наружные элементы</grup_name>
+      <part_id>4057</part_id>
+      <part_name>Стекло зеркала электрического левого</part_name>
+    </group>
+    <group>
+      <grup_id>4</grup_id>
+      <grup_name>Кузов наружные элементы</grup_name>
+      <part_id>1903</part_id>
+      <part_name>Сцепное устройство (Фаркоп)</part_name>
+    </group>
+    <group>
+      <grup_id>4</grup_id>
+      <grup_name>Кузов наружные элементы</grup_name>
+      <part_id>4032</part_id>
+      <part_name>Уплотнитель (наружный)</part_name>
+    </group>
+    <group>
+      <grup_id>4</grup_id>
+      <grup_name>Кузов наружные элементы</grup_name>
+      <part_id>4357</part_id>
+      <part_name>Усилитель заднего бампера</part_name>
+    </group>
+    <group>
+      <grup_id>4</grup_id>
+      <grup_name>Кузов наружные элементы</grup_name>
+      <part_id>4052</part_id>
+      <part_name>Усилитель переднего бампера</part_name>
+    </group>
+    <group>
+      <grup_id>4</grup_id>
+      <grup_name>Кузов наружные элементы</grup_name>
+      <part_id>4076</part_id>
+      <part_name>Форсунка омывателя зад стекла</part_name>
+    </group>
+    <group>
+      <grup_id>4</grup_id>
+      <grup_name>Кузов наружные элементы</grup_name>
+      <part_id>4097</part_id>
+      <part_name>Форсунка омывателя лобового стекла</part_name>
+    </group>
+    <group>
+      <grup_id>4</grup_id>
+      <grup_name>Кузов наружные элементы</grup_name>
+      <part_id>4136</part_id>
+      <part_name>Форсунка омывателя фары</part_name>
+    </group>
+    <group>
+      <grup_id>4</grup_id>
+      <grup_name>Кузов наружные элементы</grup_name>
+      <part_id>4216</part_id>
+      <part_name>Шланг воздушный</part_name>
+    </group>
+    <group>
+      <grup_id>4</grup_id>
+      <grup_name>Кузов наружные элементы</grup_name>
+      <part_id>4058</part_id>
+      <part_name>Юбка передняя</part_name>
+    </group>
+    <group>
+      <grup_id>16</grup_id>
+      <grup_name>Кузовные стёкла</grup_name>
+      <part_id>4084</part_id>
+      <part_name>Стекло двери задней левой</part_name>
+    </group>
+    <group>
+      <grup_id>16</grup_id>
+      <grup_name>Кузовные стёкла</grup_name>
+      <part_id>4085</part_id>
+      <part_name>Стекло двери задней правой</part_name>
+    </group>
+    <group>
+      <grup_id>16</grup_id>
+      <grup_name>Кузовные стёкла</grup_name>
+      <part_id>4030</part_id>
+      <part_name>Стекло двери передней левой</part_name>
+    </group>
+    <group>
+      <grup_id>16</grup_id>
+      <grup_name>Кузовные стёкла</grup_name>
+      <part_id>4031</part_id>
+      <part_name>Стекло двери передней правой</part_name>
+    </group>
+    <group>
+      <grup_id>16</grup_id>
+      <grup_name>Кузовные стёкла</grup_name>
+      <part_id>4087</part_id>
+      <part_name>Стекло заднее</part_name>
+    </group>
+    <group>
+      <grup_id>16</grup_id>
+      <grup_name>Кузовные стёкла</grup_name>
+      <part_id>4373</part_id>
+      <part_name>Стекло кузовное глухое левое</part_name>
+    </group>
+    <group>
+      <grup_id>16</grup_id>
+      <grup_name>Кузовные стёкла</grup_name>
+      <part_id>4372</part_id>
+      <part_name>Стекло кузовное глухое правое</part_name>
+    </group>
+    <group>
+      <grup_id>16</grup_id>
+      <grup_name>Кузовные стёкла</grup_name>
+      <part_id>4064</part_id>
+      <part_name>Стекло лобовое (ветровое)</part_name>
+    </group>
+    <group>
+      <grup_id>5</grup_id>
+      <grup_name>Оптика</grup_name>
+      <part_id>5037</part_id>
+      <part_name>Кронштейн фар левый</part_name>
+    </group>
+    <group>
+      <grup_id>5</grup_id>
+      <grup_name>Оптика</grup_name>
+      <part_id>5038</part_id>
+      <part_name>Кронштейн фар правый</part_name>
+    </group>
+    <group>
+      <grup_id>5</grup_id>
+      <grup_name>Оптика</grup_name>
+      <part_id>5006</part_id>
+      <part_name>Повторитель на крыло</part_name>
+    </group>
+    <group>
+      <grup_id>5</grup_id>
+      <grup_name>Оптика</grup_name>
+      <part_id>5107</part_id>
+      <part_name>Повторитель на крыло белый</part_name>
+    </group>
+    <group>
+      <grup_id>5</grup_id>
+      <grup_name>Оптика</grup_name>
+      <part_id>5014</part_id>
+      <part_name>Фара левая</part_name>
+    </group>
+    <group>
+      <grup_id>5</grup_id>
+      <grup_name>Оптика</grup_name>
+      <part_id>5015</part_id>
+      <part_name>Фара правая</part_name>
+    </group>
+    <group>
+      <grup_id>5</grup_id>
+      <grup_name>Оптика</grup_name>
+      <part_id>5024</part_id>
+      <part_name>Фара противотуманная левая</part_name>
+    </group>
+    <group>
+      <grup_id>5</grup_id>
+      <grup_name>Оптика</grup_name>
+      <part_id>5025</part_id>
+      <part_name>Фара противотуманная правая</part_name>
+    </group>
+    <group>
+      <grup_id>5</grup_id>
+      <grup_name>Оптика</grup_name>
+      <part_id>5122</part_id>
+      <part_name>Фонарь задний (стоп сигнал)</part_name>
+    </group>
+    <group>
+      <grup_id>5</grup_id>
+      <grup_name>Оптика</grup_name>
+      <part_id>5018</part_id>
+      <part_name>Фонарь задний левый</part_name>
+    </group>
+    <group>
+      <grup_id>5</grup_id>
+      <grup_name>Оптика</grup_name>
+      <part_id>5021</part_id>
+      <part_name>Фонарь задний правый</part_name>
+    </group>
+    <group>
+      <grup_id>15</grup_id>
+      <grup_name>Пневматическая система</grup_name>
+      <part_id>1618</part_id>
+      <part_name>Клапан пневматический</part_name>
+    </group>
+    <group>
+      <grup_id>15</grup_id>
+      <grup_name>Пневматическая система</grup_name>
+      <part_id>14367</part_id>
+      <part_name>Ресивер воздушный</part_name>
+    </group>
+    <group>
+      <grup_id>15</grup_id>
+      <grup_name>Пневматическая система</grup_name>
+      <part_id>1834</part_id>
+      <part_name>Трубка пластиковая</part_name>
+    </group>
+    <group>
+      <grup_id>8</grup_id>
+      <grup_name>Подвеска двигателя / КПП</grup_name>
+      <part_id>2020</part_id>
+      <part_name>Кронштейн АКПП левый</part_name>
+    </group>
+    <group>
+      <grup_id>8</grup_id>
+      <grup_name>Подвеска двигателя / КПП</grup_name>
+      <part_id>2019</part_id>
+      <part_name>Кронштейн АКПП правый</part_name>
+    </group>
+    <group>
+      <grup_id>8</grup_id>
+      <grup_name>Подвеска двигателя / КПП</grup_name>
+      <part_id>8015</part_id>
+      <part_name>Кронштейн двигателя</part_name>
+    </group>
+    <group>
+      <grup_id>8</grup_id>
+      <grup_name>Подвеска двигателя / КПП</grup_name>
+      <part_id>2295</part_id>
+      <part_name>Кронштейн двигателя задний</part_name>
+    </group>
+    <group>
+      <grup_id>8</grup_id>
+      <grup_name>Подвеска двигателя / КПП</grup_name>
+      <part_id>1928</part_id>
+      <part_name>Кронштейн двигателя левый</part_name>
+    </group>
+    <group>
+      <grup_id>8</grup_id>
+      <grup_name>Подвеска двигателя / КПП</grup_name>
+      <part_id>1997</part_id>
+      <part_name>Кронштейн двигателя передний</part_name>
+    </group>
+    <group>
+      <grup_id>8</grup_id>
+      <grup_name>Подвеска двигателя / КПП</grup_name>
+      <part_id>1927</part_id>
+      <part_name>Кронштейн двигателя правый</part_name>
+    </group>
+    <group>
+      <grup_id>8</grup_id>
+      <grup_name>Подвеска двигателя / КПП</grup_name>
+      <part_id>2018</part_id>
+      <part_name>Кронштейн КПП левый</part_name>
+    </group>
+    <group>
+      <grup_id>8</grup_id>
+      <grup_name>Подвеска двигателя / КПП</grup_name>
+      <part_id>8018</part_id>
+      <part_name>Кронштейн опоры двигателя</part_name>
+    </group>
+    <group>
+      <grup_id>8</grup_id>
+      <grup_name>Подвеска двигателя / КПП</grup_name>
+      <part_id>8012</part_id>
+      <part_name>Опора двигателя</part_name>
+    </group>
+    <group>
+      <grup_id>8</grup_id>
+      <grup_name>Подвеска двигателя / КПП</grup_name>
+      <part_id>8007</part_id>
+      <part_name>Опора двигателя левая</part_name>
+    </group>
+    <group>
+      <grup_id>8</grup_id>
+      <grup_name>Подвеска двигателя / КПП</grup_name>
+      <part_id>8009</part_id>
+      <part_name>Опора двигателя правая</part_name>
+    </group>
+    <group>
+      <grup_id>8</grup_id>
+      <grup_name>Подвеска двигателя / КПП</grup_name>
+      <part_id>8008</part_id>
+      <part_name>Опора КПП</part_name>
+    </group>
+    <group>
+      <grup_id>6</grup_id>
+      <grup_name>Подвеска задних колёс</grup_name>
+      <part_id>6110</part_id>
+      <part_name>Амортизатор задний</part_name>
+    </group>
+    <group>
+      <grup_id>6</grup_id>
+      <grup_name>Подвеска задних колёс</grup_name>
+      <part_id>6150</part_id>
+      <part_name>Балка задняя</part_name>
+    </group>
+    <group>
+      <grup_id>6</grup_id>
+      <grup_name>Подвеска задних колёс</grup_name>
+      <part_id>6136</part_id>
+      <part_name>Болт крепления балки</part_name>
+    </group>
+    <group>
+      <grup_id>6</grup_id>
+      <grup_name>Подвеска задних колёс</grup_name>
+      <part_id>6053</part_id>
+      <part_name>Кронштейн крепления заднего стабилизатора</part_name>
+    </group>
+    <group>
+      <grup_id>6</grup_id>
+      <grup_name>Подвеска задних колёс</grup_name>
+      <part_id>6195</part_id>
+      <part_name>Кулак поворотный задний левый</part_name>
+    </group>
+    <group>
+      <grup_id>6</grup_id>
+      <grup_name>Подвеска задних колёс</grup_name>
+      <part_id>6196</part_id>
+      <part_name>Кулак поворотный задний правый</part_name>
+    </group>
+    <group>
+      <grup_id>6</grup_id>
+      <grup_name>Подвеска задних колёс</grup_name>
+      <part_id>6072</part_id>
+      <part_name>Опора заднего амортизатора</part_name>
+    </group>
+    <group>
+      <grup_id>6</grup_id>
+      <grup_name>Подвеска задних колёс</grup_name>
+      <part_id>6061</part_id>
+      <part_name>Опора заднего редуктора</part_name>
+    </group>
+    <group>
+      <grup_id>6</grup_id>
+      <grup_name>Подвеска задних колёс</grup_name>
+      <part_id>6096</part_id>
+      <part_name>Опора задней пружины верхняя</part_name>
+    </group>
+    <group>
+      <grup_id>6</grup_id>
+      <grup_name>Подвеска задних колёс</grup_name>
+      <part_id>6006</part_id>
+      <part_name>Пружина задняя</part_name>
+    </group>
+    <group>
+      <grup_id>6</grup_id>
+      <grup_name>Подвеска задних колёс</grup_name>
+      <part_id>6191</part_id>
+      <part_name>Редуктор заднего моста</part_name>
+    </group>
+    <group>
+      <grup_id>6</grup_id>
+      <grup_name>Подвеска задних колёс</grup_name>
+      <part_id>6008</part_id>
+      <part_name>Рычаг задний верхний</part_name>
+    </group>
+    <group>
+      <grup_id>6</grup_id>
+      <grup_name>Подвеска задних колёс</grup_name>
+      <part_id>6011</part_id>
+      <part_name>Рычаг задний верхний левый</part_name>
+    </group>
+    <group>
+      <grup_id>6</grup_id>
+      <grup_name>Подвеска задних колёс</grup_name>
+      <part_id>6010</part_id>
+      <part_name>Рычаг задний верхний правый</part_name>
+    </group>
+    <group>
+      <grup_id>6</grup_id>
+      <grup_name>Подвеска задних колёс</grup_name>
+      <part_id>6017</part_id>
+      <part_name>Рычаг задний нижний левый</part_name>
+    </group>
+    <group>
+      <grup_id>6</grup_id>
+      <grup_name>Подвеска задних колёс</grup_name>
+      <part_id>6019</part_id>
+      <part_name>Рычаг задний нижний правый</part_name>
+    </group>
+    <group>
+      <grup_id>6</grup_id>
+      <grup_name>Подвеска задних колёс</grup_name>
+      <part_id>1874</part_id>
+      <part_name>Рычаг задний поперечный</part_name>
+    </group>
+    <group>
+      <grup_id>6</grup_id>
+      <grup_name>Подвеска задних колёс</grup_name>
+      <part_id>6160</part_id>
+      <part_name>Рычаг задний поперечный левый</part_name>
+    </group>
+    <group>
+      <grup_id>6</grup_id>
+      <grup_name>Подвеска задних колёс</grup_name>
+      <part_id>6159</part_id>
+      <part_name>Рычаг задний поперечный правый</part_name>
+    </group>
+    <group>
+      <grup_id>6</grup_id>
+      <grup_name>Подвеска задних колёс</grup_name>
+      <part_id>6028</part_id>
+      <part_name>Стабилизатор задний</part_name>
+    </group>
+    <group>
+      <grup_id>6</grup_id>
+      <grup_name>Подвеска задних колёс</grup_name>
+      <part_id>6029</part_id>
+      <part_name>Стойка заднего стабилизатора</part_name>
+    </group>
+    <group>
+      <grup_id>7</grup_id>
+      <grup_name>Подвеска передних колёс</grup_name>
+      <part_id>7135</part_id>
+      <part_name>Амортизатор передний</part_name>
+    </group>
+    <group>
+      <grup_id>7</grup_id>
+      <grup_name>Подвеска передних колёс</grup_name>
+      <part_id>7202</part_id>
+      <part_name>Балка передняя поперечная</part_name>
+    </group>
+    <group>
+      <grup_id>7</grup_id>
+      <grup_name>Подвеска передних колёс</grup_name>
+      <part_id>2243</part_id>
+      <part_name>Балка подмоторная</part_name>
+    </group>
+    <group>
+      <grup_id>7</grup_id>
+      <grup_name>Подвеска передних колёс</grup_name>
+      <part_id>1731</part_id>
+      <part_name>Кронштейн амортизатора</part_name>
+    </group>
+    <group>
+      <grup_id>7</grup_id>
+      <grup_name>Подвеска передних колёс</grup_name>
+      <part_id>7100</part_id>
+      <part_name>Кронштейн крепления переднего стабилизатора</part_name>
+    </group>
+    <group>
+      <grup_id>7</grup_id>
+      <grup_name>Подвеска передних колёс</grup_name>
+      <part_id>7194</part_id>
+      <part_name>Кулак поворотный передний левый</part_name>
+    </group>
+    <group>
+      <grup_id>7</grup_id>
+      <grup_name>Подвеска передних колёс</grup_name>
+      <part_id>7195</part_id>
+      <part_name>Кулак поворотный передний правый</part_name>
+    </group>
+    <group>
+      <grup_id>7</grup_id>
+      <grup_name>Подвеска передних колёс</grup_name>
+      <part_id>7117</part_id>
+      <part_name>Опора переднего амортизатора верхняя</part_name>
+    </group>
+    <group>
+      <grup_id>7</grup_id>
+      <grup_name>Подвеска передних колёс</grup_name>
+      <part_id>7012</part_id>
+      <part_name>Пружина передняя</part_name>
+    </group>
+    <group>
+      <grup_id>7</grup_id>
+      <grup_name>Подвеска передних колёс</grup_name>
+      <part_id>7192</part_id>
+      <part_name>Редуктор переднего моста</part_name>
+    </group>
+    <group>
+      <grup_id>7</grup_id>
+      <grup_name>Подвеска передних колёс</grup_name>
+      <part_id>7017</part_id>
+      <part_name>Рычаг передний верхний левый</part_name>
+    </group>
+    <group>
+      <grup_id>7</grup_id>
+      <grup_name>Подвеска передних колёс</grup_name>
+      <part_id>7018</part_id>
+      <part_name>Рычаг передний верхний левый задний</part_name>
+    </group>
+    <group>
+      <grup_id>7</grup_id>
+      <grup_name>Подвеска передних колёс</grup_name>
+      <part_id>7019</part_id>
+      <part_name>Рычаг передний верхний левый передний</part_name>
+    </group>
+    <group>
+      <grup_id>7</grup_id>
+      <grup_name>Подвеска передних колёс</grup_name>
+      <part_id>7025</part_id>
+      <part_name>Рычаг передний верхний правый задний</part_name>
+    </group>
+    <group>
+      <grup_id>7</grup_id>
+      <grup_name>Подвеска передних колёс</grup_name>
+      <part_id>7026</part_id>
+      <part_name>Рычаг передний верхний правый передний</part_name>
+    </group>
+    <group>
+      <grup_id>7</grup_id>
+      <grup_name>Подвеска передних колёс</grup_name>
+      <part_id>7068</part_id>
+      <part_name>Рычаг передний нижний</part_name>
+    </group>
+    <group>
+      <grup_id>7</grup_id>
+      <grup_name>Подвеска передних колёс</grup_name>
+      <part_id>7020</part_id>
+      <part_name>Рычаг передний нижний левый</part_name>
+    </group>
+    <group>
+      <grup_id>7</grup_id>
+      <grup_name>Подвеска передних колёс</grup_name>
+      <part_id>7021</part_id>
+      <part_name>Рычаг передний нижний левый задний</part_name>
+    </group>
+    <group>
+      <grup_id>7</grup_id>
+      <grup_name>Подвеска передних колёс</grup_name>
+      <part_id>7022</part_id>
+      <part_name>Рычаг передний нижний левый передний</part_name>
+    </group>
+    <group>
+      <grup_id>7</grup_id>
+      <grup_name>Подвеска передних колёс</grup_name>
+      <part_id>7028</part_id>
+      <part_name>Рычаг передний нижний правый задний</part_name>
+    </group>
+    <group>
+      <grup_id>7</grup_id>
+      <grup_name>Подвеска передних колёс</grup_name>
+      <part_id>7029</part_id>
+      <part_name>Рычаг передний нижний правый передний</part_name>
+    </group>
+    <group>
+      <grup_id>7</grup_id>
+      <grup_name>Подвеска передних колёс</grup_name>
+      <part_id>7032</part_id>
+      <part_name>Стабилизатор передний</part_name>
+    </group>
+    <group>
+      <grup_id>7</grup_id>
+      <grup_name>Подвеска передних колёс</grup_name>
+      <part_id>7047</part_id>
+      <part_name>Стойка переднего стабилизатора</part_name>
+    </group>
+    <group>
+      <grup_id>9</grup_id>
+      <grup_name>Рулевое управление</grup_name>
+      <part_id>9045</part_id>
+      <part_name>Бачок гидроусилителя</part_name>
+    </group>
+    <group>
+      <grup_id>9</grup_id>
+      <grup_name>Рулевое управление</grup_name>
+      <part_id>9055</part_id>
+      <part_name>Кардан рулевой</part_name>
+    </group>
+    <group>
+      <grup_id>9</grup_id>
+      <grup_name>Рулевое управление</grup_name>
+      <part_id>9077</part_id>
+      <part_name>Кожух рулевой колонки верхний</part_name>
+    </group>
+    <group>
+      <grup_id>9</grup_id>
+      <grup_name>Рулевое управление</grup_name>
+      <part_id>9076</part_id>
+      <part_name>Кожух рулевой колонки нижний</part_name>
+    </group>
+    <group>
+      <grup_id>9</grup_id>
+      <grup_name>Рулевое управление</grup_name>
+      <part_id>9094</part_id>
+      <part_name>Колонка рулевая</part_name>
+    </group>
+    <group>
+      <grup_id>9</grup_id>
+      <grup_name>Рулевое управление</grup_name>
+      <part_id>9097</part_id>
+      <part_name>Кронштейн гидроусилителя</part_name>
+    </group>
+    <group>
+      <grup_id>9</grup_id>
+      <grup_name>Рулевое управление</grup_name>
+      <part_id>9012</part_id>
+      <part_name>Насос гидроусилителя</part_name>
+    </group>
+    <group>
+      <grup_id>9</grup_id>
+      <grup_name>Рулевое управление</grup_name>
+      <part_id>9014</part_id>
+      <part_name>Пыльник тяги с г/у</part_name>
+    </group>
+    <group>
+      <grup_id>9</grup_id>
+      <grup_name>Рулевое управление</grup_name>
+      <part_id>1074</part_id>
+      <part_name>Радиатор гидроусилителя</part_name>
+    </group>
+    <group>
+      <grup_id>9</grup_id>
+      <grup_name>Рулевое управление</grup_name>
+      <part_id>9015</part_id>
+      <part_name>Рейка рулевая</part_name>
+    </group>
+    <group>
+      <grup_id>9</grup_id>
+      <grup_name>Рулевое управление</grup_name>
+      <part_id>1855</part_id>
+      <part_name>Трубка гидроусилителя</part_name>
+    </group>
+    <group>
+      <grup_id>9</grup_id>
+      <grup_name>Рулевое управление</grup_name>
+      <part_id>9043</part_id>
+      <part_name>Тяга рулевая</part_name>
+    </group>
+    <group>
+      <grup_id>9</grup_id>
+      <grup_name>Рулевое управление</grup_name>
+      <part_id>9051</part_id>
+      <part_name>Шкив насоса гидроусилителя</part_name>
+    </group>
+    <group>
+      <grup_id>9</grup_id>
+      <grup_name>Рулевое управление</grup_name>
+      <part_id>9059</part_id>
+      <part_name>Шланг гидроусилителя</part_name>
+    </group>
+    <group>
+      <grup_id>10</grup_id>
+      <grup_name>Система выпуска отработанных газов</grup_name>
+      <part_id>10022</part_id>
+      <part_name>Глушитель основной</part_name>
+    </group>
+    <group>
+      <grup_id>10</grup_id>
+      <grup_name>Система выпуска отработанных газов</grup_name>
+      <part_id>10015</part_id>
+      <part_name>Гофра глушителя</part_name>
+    </group>
+    <group>
+      <grup_id>10</grup_id>
+      <grup_name>Система выпуска отработанных газов</grup_name>
+      <part_id>10021</part_id>
+      <part_name>Катализатор</part_name>
+    </group>
+    <group>
+      <grup_id>10</grup_id>
+      <grup_name>Система выпуска отработанных газов</grup_name>
+      <part_id>10028</part_id>
+      <part_name>Кронштейн глушителя</part_name>
+    </group>
+    <group>
+      <grup_id>10</grup_id>
+      <grup_name>Система выпуска отработанных газов</grup_name>
+      <part_id>10025</part_id>
+      <part_name>Приемная труба глушителя</part_name>
+    </group>
+    <group>
+      <grup_id>10</grup_id>
+      <grup_name>Система выпуска отработанных газов</grup_name>
+      <part_id>10008</part_id>
+      <part_name>Резинка подвеса глушителя</part_name>
+    </group>
+    <group>
+      <grup_id>10</grup_id>
+      <grup_name>Система выпуска отработанных газов</grup_name>
+      <part_id>10003</part_id>
+      <part_name>Хомут глушителя</part_name>
+    </group>
+    <group>
+      <grup_id>10</grup_id>
+      <grup_name>Система выпуска отработанных газов</grup_name>
+      <part_id>10037</part_id>
+      <part_name>Экран тепловой</part_name>
+    </group>
+    <group>
+      <grup_id>14</grup_id>
+      <grup_name>Сопутствующие товары</grup_name>
+      <part_id>14203</part_id>
+      <part_name>Антенна</part_name>
+    </group>
+    <group>
+      <grup_id>14</grup_id>
+      <grup_name>Сопутствующие товары</grup_name>
+      <part_id>14272</part_id>
+      <part_name>Антенна электрическая</part_name>
+    </group>
+    <group>
+      <grup_id>14</grup_id>
+      <grup_name>Сопутствующие товары</grup_name>
+      <part_id>1577</part_id>
+      <part_name>Динамик</part_name>
+    </group>
+    <group>
+      <grup_id>14</grup_id>
+      <grup_name>Сопутствующие товары</grup_name>
+      <part_id>14273</part_id>
+      <part_name>Домкрат</part_name>
+    </group>
+    <group>
+      <grup_id>14</grup_id>
+      <grup_name>Сопутствующие товары</grup_name>
+      <part_id>1504</part_id>
+      <part_name>Кронштейн (сопут. товар)</part_name>
+    </group>
+    <group>
+      <grup_id>14</grup_id>
+      <grup_name>Сопутствующие товары</grup_name>
+      <part_id>14346</part_id>
+      <part_name>Магнитола</part_name>
+    </group>
+    <group>
+      <grup_id>14</grup_id>
+      <grup_name>Сопутствующие товары</grup_name>
+      <part_id>2082</part_id>
+      <part_name>Органайзер</part_name>
+    </group>
+    <group>
+      <grup_id>14</grup_id>
+      <grup_name>Сопутствующие товары</grup_name>
+      <part_id>2026</part_id>
+      <part_name>Подсветка</part_name>
+    </group>
+    <group>
+      <grup_id>14</grup_id>
+      <grup_name>Сопутствующие товары</grup_name>
+      <part_id>14355</part_id>
+      <part_name>Проигрыватель CD/DVD</part_name>
+    </group>
+    <group>
+      <grup_id>14</grup_id>
+      <grup_name>Сопутствующие товары</grup_name>
+      <part_id>1824</part_id>
+      <part_name>Сабвуфер</part_name>
+    </group>
+    <group>
+      <grup_id>14</grup_id>
+      <grup_name>Сопутствующие товары</grup_name>
+      <part_id>14215</part_id>
+      <part_name>Фонарь</part_name>
+    </group>
+    <group>
+      <grup_id>14</grup_id>
+      <grup_name>Сопутствующие товары</grup_name>
+      <part_id>14330</part_id>
+      <part_name>Чехол запасного колеса</part_name>
+    </group>
+    <group>
+      <grup_id>11</grup_id>
+      <grup_name>Тормозная система</grup_name>
+      <part_id>11035</part_id>
+      <part_name>Бачок главного тормозного цилиндра</part_name>
+    </group>
+    <group>
+      <grup_id>11</grup_id>
+      <grup_name>Тормозная система</grup_name>
+      <part_id>11003</part_id>
+      <part_name>Диск тормозной задний</part_name>
+    </group>
+    <group>
+      <grup_id>11</grup_id>
+      <grup_name>Тормозная система</grup_name>
+      <part_id>11029</part_id>
+      <part_name>Диск тормозной передний вентилируемый</part_name>
+    </group>
+    <group>
+      <grup_id>11</grup_id>
+      <grup_name>Тормозная система</grup_name>
+      <part_id>11260</part_id>
+      <part_name>Крепление</part_name>
+    </group>
+    <group>
+      <grup_id>11</grup_id>
+      <grup_name>Тормозная система</grup_name>
+      <part_id>1730</part_id>
+      <part_name>Кронштейн троса ручн. тормоза</part_name>
+    </group>
+    <group>
+      <grup_id>11</grup_id>
+      <grup_name>Тормозная система</grup_name>
+      <part_id>11196</part_id>
+      <part_name>Насос вакуумный</part_name>
+    </group>
+    <group>
+      <grup_id>11</grup_id>
+      <grup_name>Тормозная система</grup_name>
+      <part_id>11282</part_id>
+      <part_name>Педаль тормоза</part_name>
+    </group>
+    <group>
+      <grup_id>11</grup_id>
+      <grup_name>Тормозная система</grup_name>
+      <part_id>11276</part_id>
+      <part_name>Пыльник (тормозная)</part_name>
+    </group>
+    <group>
+      <grup_id>11</grup_id>
+      <grup_name>Тормозная система</grup_name>
+      <part_id>11183</part_id>
+      <part_name>Пыльник тормозного диска</part_name>
+    </group>
+    <group>
+      <grup_id>11</grup_id>
+      <grup_name>Тормозная система</grup_name>
+      <part_id>11269</part_id>
+      <part_name>Рычаг стояночного тормоза</part_name>
+    </group>
+    <group>
+      <grup_id>11</grup_id>
+      <grup_name>Тормозная система</grup_name>
+      <part_id>11061</part_id>
+      <part_name>Скоба суппорта заднего</part_name>
+    </group>
+    <group>
+      <grup_id>11</grup_id>
+      <grup_name>Тормозная система</grup_name>
+      <part_id>11060</part_id>
+      <part_name>Скоба суппорта переднего</part_name>
+    </group>
+    <group>
+      <grup_id>11</grup_id>
+      <grup_name>Тормозная система</grup_name>
+      <part_id>11089</part_id>
+      <part_name>Суппорт задний левый</part_name>
+    </group>
+    <group>
+      <grup_id>11</grup_id>
+      <grup_name>Тормозная система</grup_name>
+      <part_id>11090</part_id>
+      <part_name>Суппорт задний правый</part_name>
+    </group>
+    <group>
+      <grup_id>11</grup_id>
+      <grup_name>Тормозная система</grup_name>
+      <part_id>11086</part_id>
+      <part_name>Суппорт передний левый</part_name>
+    </group>
+    <group>
+      <grup_id>11</grup_id>
+      <grup_name>Тормозная система</grup_name>
+      <part_id>11087</part_id>
+      <part_name>Суппорт передний правый</part_name>
+    </group>
+    <group>
+      <grup_id>11</grup_id>
+      <grup_name>Тормозная система</grup_name>
+      <part_id>11014</part_id>
+      <part_name>Трос стояночного тормоза</part_name>
+    </group>
+    <group>
+      <grup_id>11</grup_id>
+      <grup_name>Тормозная система</grup_name>
+      <part_id>11015</part_id>
+      <part_name>Трос стояночного тормоза левый</part_name>
+    </group>
+    <group>
+      <grup_id>11</grup_id>
+      <grup_name>Тормозная система</grup_name>
+      <part_id>11017</part_id>
+      <part_name>Трос стояночного тормоза правый</part_name>
+    </group>
+    <group>
+      <grup_id>11</grup_id>
+      <grup_name>Тормозная система</grup_name>
+      <part_id>11041</part_id>
+      <part_name>Усилитель тормозов вакуумный</part_name>
+    </group>
+    <group>
+      <grup_id>11</grup_id>
+      <grup_name>Тормозная система</grup_name>
+      <part_id>11020</part_id>
+      <part_name>Цилиндр тормозной главный</part_name>
+    </group>
+    <group>
+      <grup_id>11</grup_id>
+      <grup_name>Тормозная система</grup_name>
+      <part_id>1611</part_id>
+      <part_name>Шланг вакуумного усилителя тормоза</part_name>
+    </group>
+    <group>
+      <grup_id>12</grup_id>
+      <grup_name>Трансмиссия</grup_name>
+      <part_id>12219</part_id>
+      <part_name>АКПП (автоматическая коробка переключения передач)</part_name>
+    </group>
+    <group>
+      <grup_id>12</grup_id>
+      <grup_name>Трансмиссия</grup_name>
+      <part_id>12101</part_id>
+      <part_name>Вал карданный</part_name>
+    </group>
+    <group>
+      <grup_id>12</grup_id>
+      <grup_name>Трансмиссия</grup_name>
+      <part_id>12001</part_id>
+      <part_name>Диск сцепления</part_name>
+    </group>
+    <group>
+      <grup_id>12</grup_id>
+      <grup_name>Трансмиссия</grup_name>
+      <part_id>12002</part_id>
+      <part_name>Корзина сцепления</part_name>
+    </group>
+    <group>
+      <grup_id>12</grup_id>
+      <grup_name>Трансмиссия</grup_name>
+      <part_id>12195</part_id>
+      <part_name>Кронштейн КПП</part_name>
+    </group>
+    <group>
+      <grup_id>12</grup_id>
+      <grup_name>Трансмиссия</grup_name>
+      <part_id>12184</part_id>
+      <part_name>Кронштейн редуктора</part_name>
+    </group>
+    <group>
+      <grup_id>12</grup_id>
+      <grup_name>Трансмиссия</grup_name>
+      <part_id>12238</part_id>
+      <part_name>Кулиса КПП</part_name>
+    </group>
+    <group>
+      <grup_id>12</grup_id>
+      <grup_name>Трансмиссия</grup_name>
+      <part_id>12206</part_id>
+      <part_name>МКПП (механическая коробка переключения передач)</part_name>
+    </group>
+    <group>
+      <grup_id>12</grup_id>
+      <grup_name>Трансмиссия</grup_name>
+      <part_id>12148</part_id>
+      <part_name>Наконечник кулисы КПП</part_name>
+    </group>
+    <group>
+      <grup_id>12</grup_id>
+      <grup_name>Трансмиссия</grup_name>
+      <part_id>12008</part_id>
+      <part_name>Подшипник задней ступицы</part_name>
+    </group>
+    <group>
+      <grup_id>12</grup_id>
+      <grup_name>Трансмиссия</grup_name>
+      <part_id>12011</part_id>
+      <part_name>Подшипник передней ступицы</part_name>
+    </group>
+    <group>
+      <grup_id>12</grup_id>
+      <grup_name>Трансмиссия</grup_name>
+      <part_id>12099</part_id>
+      <part_name>Полуось (привод в сборе)</part_name>
+    </group>
+    <group>
+      <grup_id>12</grup_id>
+      <grup_name>Трансмиссия</grup_name>
+      <part_id>2404</part_id>
+      <part_name>Полуось задняя</part_name>
+    </group>
+    <group>
+      <grup_id>12</grup_id>
+      <grup_name>Трансмиссия</grup_name>
+      <part_id>6198</part_id>
+      <part_name>Полуось задняя левая</part_name>
+    </group>
+    <group>
+      <grup_id>12</grup_id>
+      <grup_name>Трансмиссия</grup_name>
+      <part_id>6149</part_id>
+      <part_name>Полуось задняя правая</part_name>
+    </group>
+    <group>
+      <grup_id>12</grup_id>
+      <grup_name>Трансмиссия</grup_name>
+      <part_id>12224</part_id>
+      <part_name>Полуось передняя</part_name>
+    </group>
+    <group>
+      <grup_id>12</grup_id>
+      <grup_name>Трансмиссия</grup_name>
+      <part_id>12225</part_id>
+      <part_name>Полуось передняя левая</part_name>
+    </group>
+    <group>
+      <grup_id>12</grup_id>
+      <grup_name>Трансмиссия</grup_name>
+      <part_id>12226</part_id>
+      <part_name>Полуось передняя правая</part_name>
+    </group>
+    <group>
+      <grup_id>12</grup_id>
+      <grup_name>Трансмиссия</grup_name>
+      <part_id>12056</part_id>
+      <part_name>Пыльник ШРУСа</part_name>
+    </group>
+    <group>
+      <grup_id>12</grup_id>
+      <grup_name>Трансмиссия</grup_name>
+      <part_id>1846</part_id>
+      <part_name>Рукоятка рычага КПП</part_name>
+    </group>
+    <group>
+      <grup_id>12</grup_id>
+      <grup_name>Трансмиссия</grup_name>
+      <part_id>12142</part_id>
+      <part_name>Ступица задняя</part_name>
+    </group>
+    <group>
+      <grup_id>12</grup_id>
+      <grup_name>Трансмиссия</grup_name>
+      <part_id>12027</part_id>
+      <part_name>Ступица передняя</part_name>
+    </group>
+    <group>
+      <grup_id>12</grup_id>
+      <grup_name>Трансмиссия</grup_name>
+      <part_id>12113</part_id>
+      <part_name>Трос КПП</part_name>
+    </group>
+    <group>
+      <grup_id>12</grup_id>
+      <grup_name>Трансмиссия</grup_name>
+      <part_id>12222</part_id>
+      <part_name>Трубка</part_name>
+    </group>
+    <group>
+      <grup_id>12</grup_id>
+      <grup_name>Трансмиссия</grup_name>
+      <part_id>12239</part_id>
+      <part_name>Трубка системы охлаждения АКПП</part_name>
+    </group>
+    <group>
+      <grup_id>12</grup_id>
+      <grup_name>Трансмиссия</grup_name>
+      <part_id>12051</part_id>
+      <part_name>Трубка цилиндра сцепления</part_name>
+    </group>
+    <group>
+      <grup_id>12</grup_id>
+      <grup_name>Трансмиссия</grup_name>
+      <part_id>12036</part_id>
+      <part_name>Тяга кулисы КПП</part_name>
+    </group>
+    <group>
+      <grup_id>12</grup_id>
+      <grup_name>Трансмиссия</grup_name>
+      <part_id>12049</part_id>
+      <part_name>Цилиндр сцепления главный</part_name>
+    </group>
+    <group>
+      <grup_id>13</grup_id>
+      <grup_name>Электрооснащение</grup_name>
+      <part_id>2032</part_id>
+      <part_name>TV тюнер</part_name>
+    </group>
+    <group>
+      <grup_id>13</grup_id>
+      <grup_name>Электрооснащение</grup_name>
+      <part_id>13318</part_id>
+      <part_name>Активатор замка багажника</part_name>
+    </group>
+    <group>
+      <grup_id>13</grup_id>
+      <grup_name>Электрооснащение</grup_name>
+      <part_id>13329</part_id>
+      <part_name>Активатор замка крышки бензобака</part_name>
+    </group>
+    <group>
+      <grup_id>13</grup_id>
+      <grup_name>Электрооснащение</grup_name>
+      <part_id>13375</part_id>
+      <part_name>Блок ABS (насос)</part_name>
+    </group>
+    <group>
+      <grup_id>13</grup_id>
+      <grup_name>Электрооснащение</grup_name>
+      <part_id>13400</part_id>
+      <part_name>Блок кнопок</part_name>
+    </group>
+    <group>
+      <grup_id>13</grup_id>
+      <grup_name>Электрооснащение</grup_name>
+      <part_id>13412</part_id>
+      <part_name>Блок комфорта</part_name>
+    </group>
+    <group>
+      <grup_id>13</grup_id>
+      <grup_name>Электрооснащение</grup_name>
+      <part_id>13284</part_id>
+      <part_name>Блок предохранителей</part_name>
+    </group>
+    <group>
+      <grup_id>13</grup_id>
+      <grup_name>Электрооснащение</grup_name>
+      <part_id>13371</part_id>
+      <part_name>Блок реле</part_name>
+    </group>
+    <group>
+      <grup_id>13</grup_id>
+      <grup_name>Электрооснащение</grup_name>
+      <part_id>1700</part_id>
+      <part_name>Блок управления AIR BAG</part_name>
+    </group>
+    <group>
+      <grup_id>13</grup_id>
+      <grup_name>Электрооснащение</grup_name>
+      <part_id>13360</part_id>
+      <part_name>Блок управления двигателем</part_name>
+    </group>
+    <group>
+      <grup_id>13</grup_id>
+      <grup_name>Электрооснащение</grup_name>
+      <part_id>13418</part_id>
+      <part_name>Блок управления климатической установкой</part_name>
+    </group>
+    <group>
+      <grup_id>13</grup_id>
+      <grup_name>Электрооснащение</grup_name>
+      <part_id>13349</part_id>
+      <part_name>Блок управления стеклоподъемниками</part_name>
+    </group>
+    <group>
+      <grup_id>13</grup_id>
+      <grup_name>Электрооснащение</grup_name>
+      <part_id>13436</part_id>
+      <part_name>Блок электронный</part_name>
+    </group>
+    <group>
+      <grup_id>13</grup_id>
+      <grup_name>Электрооснащение</grup_name>
+      <part_id>13083</part_id>
+      <part_name>Вентилятор радиатора</part_name>
+    </group>
+    <group>
+      <grup_id>13</grup_id>
+      <grup_name>Электрооснащение</grup_name>
+      <part_id>13004</part_id>
+      <part_name>Генератор</part_name>
+    </group>
+    <group>
+      <grup_id>13</grup_id>
+      <grup_name>Электрооснащение</grup_name>
+      <part_id>13368</part_id>
+      <part_name>Гнездо прикуривателя</part_name>
+    </group>
+    <group>
+      <grup_id>13</grup_id>
+      <grup_name>Электрооснащение</grup_name>
+      <part_id>1018</part_id>
+      <part_name>Датчик</part_name>
+    </group>
+    <group>
+      <grup_id>13</grup_id>
+      <grup_name>Электрооснащение</grup_name>
+      <part_id>13007</part_id>
+      <part_name>Датчик ABS задний</part_name>
+    </group>
+    <group>
+      <grup_id>13</grup_id>
+      <grup_name>Электрооснащение</grup_name>
+      <part_id>13008</part_id>
+      <part_name>Датчик ABS передний</part_name>
+    </group>
+    <group>
+      <grup_id>13</grup_id>
+      <grup_name>Электрооснащение</grup_name>
+      <part_id>13378</part_id>
+      <part_name>Датчик AIR BAG</part_name>
+    </group>
+    <group>
+      <grup_id>13</grup_id>
+      <grup_name>Электрооснащение</grup_name>
+      <part_id>13325</part_id>
+      <part_name>Датчик абсолютного давления</part_name>
+    </group>
+    <group>
+      <grup_id>13</grup_id>
+      <grup_name>Электрооснащение</grup_name>
+      <part_id>13082</part_id>
+      <part_name>Датчик вкл.вентилятора 4х конт</part_name>
+    </group>
+    <group>
+      <grup_id>13</grup_id>
+      <grup_name>Электрооснащение</grup_name>
+      <part_id>13011</part_id>
+      <part_name>Датчик включения стопсигнала</part_name>
+    </group>
+    <group>
+      <grup_id>13</grup_id>
+      <grup_name>Электрооснащение</grup_name>
+      <part_id>2415</part_id>
+      <part_name>Датчик давления в шине</part_name>
+    </group>
+    <group>
+      <grup_id>13</grup_id>
+      <grup_name>Электрооснащение</grup_name>
+      <part_id>1198</part_id>
+      <part_name>Датчик давления топлива</part_name>
+    </group>
+    <group>
+      <grup_id>13</grup_id>
+      <grup_name>Электрооснащение</grup_name>
+      <part_id>13013</part_id>
+      <part_name>Датчик детонации</part_name>
+    </group>
+    <group>
+      <grup_id>13</grup_id>
+      <grup_name>Электрооснащение</grup_name>
+      <part_id>13079</part_id>
+      <part_name>Датчик кислородный/Lambdasonde</part_name>
+    </group>
+    <group>
+      <grup_id>13</grup_id>
+      <grup_name>Электрооснащение</grup_name>
+      <part_id>1722</part_id>
+      <part_name>Датчик кондиционера</part_name>
+    </group>
+    <group>
+      <grup_id>13</grup_id>
+      <grup_name>Электрооснащение</grup_name>
+      <part_id>13432</part_id>
+      <part_name>Датчик педали сцепления (круиз контроль)</part_name>
+    </group>
+    <group>
+      <grup_id>13</grup_id>
+      <grup_name>Электрооснащение</grup_name>
+      <part_id>13014</part_id>
+      <part_name>Датчик положения коленвала</part_name>
+    </group>
+    <group>
+      <grup_id>13</grup_id>
+      <grup_name>Электрооснащение</grup_name>
+      <part_id>13347</part_id>
+      <part_name>Датчик положения распредвала</part_name>
+    </group>
+    <group>
+      <grup_id>13</grup_id>
+      <grup_name>Электрооснащение</grup_name>
+      <part_id>1741</part_id>
+      <part_name>Датчик регулировки дорож. просвета</part_name>
+    </group>
+    <group>
+      <grup_id>13</grup_id>
+      <grup_name>Электрооснащение</grup_name>
+      <part_id>13080</part_id>
+      <part_name>Датчик температуры</part_name>
+    </group>
+    <group>
+      <grup_id>13</grup_id>
+      <grup_name>Электрооснащение</grup_name>
+      <part_id>13247</part_id>
+      <part_name>Датчик температуры воздуха</part_name>
+    </group>
+    <group>
+      <grup_id>13</grup_id>
+      <grup_name>Электрооснащение</grup_name>
+      <part_id>13187</part_id>
+      <part_name>Датчик уровня масла</part_name>
+    </group>
+    <group>
+      <grup_id>13</grup_id>
+      <grup_name>Электрооснащение</grup_name>
+      <part_id>13098</part_id>
+      <part_name>Датчик уровня топлива</part_name>
+    </group>
+    <group>
+      <grup_id>13</grup_id>
+      <grup_name>Электрооснащение</grup_name>
+      <part_id>2408</part_id>
+      <part_name>Датчик ускорения</part_name>
+    </group>
+    <group>
+      <grup_id>13</grup_id>
+      <grup_name>Электрооснащение</grup_name>
+      <part_id>13017</part_id>
+      <part_name>Датчик Холла</part_name>
+    </group>
+    <group>
+      <grup_id>13</grup_id>
+      <grup_name>Электрооснащение</grup_name>
+      <part_id>13019</part_id>
+      <part_name>Замок зажигания</part_name>
+    </group>
+    <group>
+      <grup_id>13</grup_id>
+      <grup_name>Электрооснащение</grup_name>
+      <part_id>13423</part_id>
+      <part_name>Заслонка дроссельная электрическая</part_name>
+    </group>
+    <group>
+      <grup_id>13</grup_id>
+      <grup_name>Электрооснащение</grup_name>
+      <part_id>13186</part_id>
+      <part_name>Катушка зажигания</part_name>
+    </group>
+    <group>
+      <grup_id>13</grup_id>
+      <grup_name>Электрооснащение</grup_name>
+      <part_id>3213</part_id>
+      <part_name>Клапан вентиляции топливного бака</part_name>
+    </group>
+    <group>
+      <grup_id>13</grup_id>
+      <grup_name>Электрооснащение</grup_name>
+      <part_id>13232</part_id>
+      <part_name>Клапан электромагнитный</part_name>
+    </group>
+    <group>
+      <grup_id>13</grup_id>
+      <grup_name>Электрооснащение</grup_name>
+      <part_id>13139</part_id>
+      <part_name>Клемма аккумулятора -</part_name>
+    </group>
+    <group>
+      <grup_id>13</grup_id>
+      <grup_name>Электрооснащение</grup_name>
+      <part_id>13140</part_id>
+      <part_name>Клемма аккумулятора +</part_name>
+    </group>
+    <group>
+      <grup_id>13</grup_id>
+      <grup_name>Электрооснащение</grup_name>
+      <part_id>13196</part_id>
+      <part_name>Кнопка аварийной сигнализации</part_name>
+    </group>
+    <group>
+      <grup_id>13</grup_id>
+      <grup_name>Электрооснащение</grup_name>
+      <part_id>13406</part_id>
+      <part_name>Кнопка антипробуксовочной системы</part_name>
+    </group>
+    <group>
+      <grup_id>13</grup_id>
+      <grup_name>Электрооснащение</grup_name>
+      <part_id>13374</part_id>
+      <part_name>Кнопка корректора фар</part_name>
+    </group>
+    <group>
+      <grup_id>13</grup_id>
+      <grup_name>Электрооснащение</grup_name>
+      <part_id>13395</part_id>
+      <part_name>Кнопка круиз контроля</part_name>
+    </group>
+    <group>
+      <grup_id>13</grup_id>
+      <grup_name>Электрооснащение</grup_name>
+      <part_id>13407</part_id>
+      <part_name>Кнопка люка</part_name>
+    </group>
+    <group>
+      <grup_id>13</grup_id>
+      <grup_name>Электрооснащение</grup_name>
+      <part_id>13293</part_id>
+      <part_name>Кнопка многофункциональная</part_name>
+    </group>
+    <group>
+      <grup_id>13</grup_id>
+      <grup_name>Электрооснащение</grup_name>
+      <part_id>13204</part_id>
+      <part_name>Кнопка обогрева заднего стекла</part_name>
+    </group>
+    <group>
+      <grup_id>13</grup_id>
+      <grup_name>Электрооснащение</grup_name>
+      <part_id>13398</part_id>
+      <part_name>Кнопка открывания багажника</part_name>
+    </group>
+    <group>
+      <grup_id>13</grup_id>
+      <grup_name>Электрооснащение</grup_name>
+      <part_id>13297</part_id>
+      <part_name>Кнопка регулировки зеркала</part_name>
+    </group>
+    <group>
+      <grup_id>13</grup_id>
+      <grup_name>Электрооснащение</grup_name>
+      <part_id>13236</part_id>
+      <part_name>Кнопка стеклоподъемника</part_name>
+    </group>
+    <group>
+      <grup_id>13</grup_id>
+      <grup_name>Электрооснащение</grup_name>
+      <part_id>13403</part_id>
+      <part_name>Кнопка центрального замка</part_name>
+    </group>
+    <group>
+      <grup_id>13</grup_id>
+      <grup_name>Электрооснащение</grup_name>
+      <part_id>13021</part_id>
+      <part_name>Коммутатор</part_name>
+    </group>
+    <group>
+      <grup_id>13</grup_id>
+      <grup_name>Электрооснащение</grup_name>
+      <part_id>13354</part_id>
+      <part_name>Компрессор системы кондиционирования</part_name>
+    </group>
+    <group>
+      <grup_id>13</grup_id>
+      <grup_name>Электрооснащение</grup_name>
+      <part_id>2004</part_id>
+      <part_name>Корпус блока предохранителей</part_name>
+    </group>
+    <group>
+      <grup_id>13</grup_id>
+      <grup_name>Электрооснащение</grup_name>
+      <part_id>1598</part_id>
+      <part_name>Крышка</part_name>
+    </group>
+    <group>
+      <grup_id>13</grup_id>
+      <grup_name>Электрооснащение</grup_name>
+      <part_id>13214</part_id>
+      <part_name>Крышка аккумулятора</part_name>
+    </group>
+    <group>
+      <grup_id>13</grup_id>
+      <grup_name>Электрооснащение</grup_name>
+      <part_id>13290</part_id>
+      <part_name>Крышка блока предохранителей</part_name>
+    </group>
+    <group>
+      <grup_id>13</grup_id>
+      <grup_name>Электрооснащение</grup_name>
+      <part_id>13353</part_id>
+      <part_name>Лампа ксеноновая</part_name>
+    </group>
+    <group>
+      <grup_id>13</grup_id>
+      <grup_name>Электрооснащение</grup_name>
+      <part_id>13363</part_id>
+      <part_name>Механизм подрулевой для SRS (ленточный)</part_name>
+    </group>
+    <group>
+      <grup_id>13</grup_id>
+      <grup_name>Электрооснащение</grup_name>
+      <part_id>13430</part_id>
+      <part_name>Моторчик заслонки печки</part_name>
+    </group>
+    <group>
+      <grup_id>13</grup_id>
+      <grup_name>Электрооснащение</grup_name>
+      <part_id>13373</part_id>
+      <part_name>Моторчик люка</part_name>
+    </group>
+    <group>
+      <grup_id>13</grup_id>
+      <grup_name>Электрооснащение</grup_name>
+      <part_id>13229</part_id>
+      <part_name>Моторчик печки</part_name>
+    </group>
+    <group>
+      <grup_id>13</grup_id>
+      <grup_name>Электрооснащение</grup_name>
+      <part_id>13380</part_id>
+      <part_name>Моторчик стеклоочистителя задний</part_name>
+    </group>
+    <group>
+      <grup_id>13</grup_id>
+      <grup_name>Электрооснащение</grup_name>
+      <part_id>13246</part_id>
+      <part_name>Моторчик стеклоочистителя передний</part_name>
+    </group>
+    <group>
+      <grup_id>13</grup_id>
+      <grup_name>Электрооснащение</grup_name>
+      <part_id>13285</part_id>
+      <part_name>Моторчик стеклоподъемника</part_name>
+    </group>
+    <group>
+      <grup_id>13</grup_id>
+      <grup_name>Электрооснащение</grup_name>
+      <part_id>13029</part_id>
+      <part_name>Насос омывателя</part_name>
+    </group>
+    <group>
+      <grup_id>13</grup_id>
+      <grup_name>Электрооснащение</grup_name>
+      <part_id>2317</part_id>
+      <part_name>Насос омывателя фар</part_name>
+    </group>
+    <group>
+      <grup_id>13</grup_id>
+      <grup_name>Электрооснащение</grup_name>
+      <part_id>13078</part_id>
+      <part_name>Насос топливный электрический</part_name>
+    </group>
+    <group>
+      <grup_id>13</grup_id>
+      <grup_name>Электрооснащение</grup_name>
+      <part_id>2042</part_id>
+      <part_name>Переключатель</part_name>
+    </group>
+    <group>
+      <grup_id>13</grup_id>
+      <grup_name>Электрооснащение</grup_name>
+      <part_id>13031</part_id>
+      <part_name>Переключатель поворотов подрулевой</part_name>
+    </group>
+    <group>
+      <grup_id>13</grup_id>
+      <grup_name>Электрооснащение</grup_name>
+      <part_id>13370</part_id>
+      <part_name>Переключатель подрулевой в сборе</part_name>
+    </group>
+    <group>
+      <grup_id>13</grup_id>
+      <grup_name>Электрооснащение</grup_name>
+      <part_id>13110</part_id>
+      <part_name>Переключатель света фар</part_name>
+    </group>
+    <group>
+      <grup_id>13</grup_id>
+      <grup_name>Электрооснащение</grup_name>
+      <part_id>13032</part_id>
+      <part_name>Переключатель стеклоочистителей</part_name>
+    </group>
+    <group>
+      <grup_id>13</grup_id>
+      <grup_name>Электрооснащение</grup_name>
+      <part_id>2206</part_id>
+      <part_name>Плата заднего фонаря левого</part_name>
+    </group>
+    <group>
+      <grup_id>13</grup_id>
+      <grup_name>Электрооснащение</grup_name>
+      <part_id>2205</part_id>
+      <part_name>Плата заднего фонаря правого</part_name>
+    </group>
+    <group>
+      <grup_id>13</grup_id>
+      <grup_name>Электрооснащение</grup_name>
+      <part_id>13303</part_id>
+      <part_name>Прикуриватель</part_name>
+    </group>
+    <group>
+      <grup_id>13</grup_id>
+      <grup_name>Электрооснащение</grup_name>
+      <part_id>13333</part_id>
+      <part_name>Проводка (коса)</part_name>
+    </group>
+    <group>
+      <grup_id>13</grup_id>
+      <grup_name>Электрооснащение</grup_name>
+      <part_id>13218</part_id>
+      <part_name>Резистор отопителя</part_name>
+    </group>
+    <group>
+      <grup_id>13</grup_id>
+      <grup_name>Электрооснащение</grup_name>
+      <part_id>13178</part_id>
+      <part_name>Реле</part_name>
+    </group>
+    <group>
+      <grup_id>13</grup_id>
+      <grup_name>Электрооснащение</grup_name>
+      <part_id>13039</part_id>
+      <part_name>Реле электобензонасоса</part_name>
+    </group>
+    <group>
+      <grup_id>13</grup_id>
+      <grup_name>Электрооснащение</grup_name>
+      <part_id>13249</part_id>
+      <part_name>Сигнал звуковой</part_name>
+    </group>
+    <group>
+      <grup_id>13</grup_id>
+      <grup_name>Электрооснащение</grup_name>
+      <part_id>13437</part_id>
+      <part_name>Сирена сигнализации (штатной)</part_name>
+    </group>
+    <group>
+      <grup_id>13</grup_id>
+      <grup_name>Электрооснащение</grup_name>
+      <part_id>13043</part_id>
+      <part_name>Стартер</part_name>
+    </group>
+    <group>
+      <grup_id>13</grup_id>
+      <grup_name>Электрооснащение</grup_name>
+      <part_id>1218</part_id>
+      <part_name>Усилитель акустической системы</part_name>
+    </group>
+  </groups>
+</euroauto-export>

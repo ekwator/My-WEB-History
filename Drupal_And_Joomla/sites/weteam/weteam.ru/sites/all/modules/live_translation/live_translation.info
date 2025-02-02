@@ -1,0 +1,13 @@
+; $Id: live_translation.info,v 1.2 2009/04/19 02:35:51 brmassa Exp $
+core            = "6.x"
+description     = "Update your translations easily."
+name            = "Live Translation"
+dependencies[]  = locale
+dependencies[]  = update
+
+; Information added by drupal.org packaging script on 2009-06-07
+version = "6.x-1.03"
+core = "6.x"
+project = "live_translation"
+datestamp = "1244345730"
+

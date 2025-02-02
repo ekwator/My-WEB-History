@@ -1,0 +1,306 @@
+# Russian translation of ctools (all releases)
+# Copyright (c) 2013 by the Russian translation team
+# Generated from files:
+#  ctools/plugins/contexts/node_add_form.inc: n/a
+#  node_add_form.inc,v 1.9.2.3 2010/07/20 20:49:21 merlinofchaos
+#  node.inc,v 1.11.2.5 2010/05/20 01:43:03 sdboyer
+#  ctools/plugins/contexts/node.inc: n/a
+#  user.inc,v 1.4.2.6 2010/08/03 18:45:21 merlinofchaos
+#  user.inc,v 1.4.2.5 2010/07/16 20:09:48 merlinofchaos
+#  ctools/plugins/contexts/user.inc: n/a
+#  ctools/plugins/contexts/token.inc: n/a
+#  token.inc,v 1.1.2.2 2010/02/23 21:00:59 merlinofchaos
+#  ctools/plugins/contexts/node_edit_form.inc: n/a
+#  node_edit_form.inc,v 1.10.2.7 2010/07/20 20:49:21 merlinofchaos
+#  ctools/plugins/contexts/user_edit_form.inc: n/a
+#  ctools/plugins/contexts/term.inc: n/a
+#  term.inc,v 1.5.2.4 2010/10/15 21:06:51 merlinofchaos
+#  term.inc,v 1.5.2.3 2010/04/14 20:37:40 merlinofchaos
+#  ctools/plugins/contexts/terms.inc: n/a
+#  terms.inc,v 1.4.2.4 2010/10/15 21:06:51 merlinofchaos
+#  terms.inc,v 1.4.2.3 2010/07/15 19:37:05 merlinofchaos
+#  ctools/plugins/contexts/vocabulary.inc: n/a
+#  vocabulary.inc,v 1.3.2.3 2010/07/05 22:48:34 merlinofchaos
+#  ctools/plugins/contexts/string.inc: n/a
+#  string.inc,v 1.5.2.3 2010/01/29 20:18:26 merlinofchaos
+#  ctools/plugins/contexts/entity.inc: n/a
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: ctools (all releases)\n"
+"POT-Creation-Date: 2013-05-29 14:25+0400\n"
+"PO-Revision-Date: 2010-11-23 18:33+0300\n"
+"Language-Team: Russian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=((((n%10)==1)&&((n%100)!=11))?(0):(((((n%10)>=2)&&((n%10)<=4))&&(((n%100)<10)||((n%100)>=20)))?(1):2));\n"
+
+#: plugins/contexts/node_add_form.inc:78,78,79,79,78,86,86,86,86,79,86,78,86,78
+msgid "Submit @name"
+msgstr "Отправить @name"
+
+#: plugins/contexts/node.inc:166,166,166,166,166,166
+msgid "Node ID"
+msgstr "ID материала"
+
+#: plugins/contexts/user.inc:149,148,148,148,149,148,148
+msgid "User ID"
+msgstr "ID Пользователя"
+
+#: plugins/contexts/user.inc:150,149,149,149,150,149,149
+msgid "User name"
+msgstr "Имя пользователя"
+
+#: plugins/contexts/token.inc:10,9,9,11,11,9,10,9,9,9,11,9,10,9,10
+msgid "Token"
+msgstr "Маркер"
+
+#: plugins/contexts/node_edit_form.inc:14,14,15,15,14,14,14,14,15,14,14,14,14
+msgid "Node edit form"
+msgstr "Форма редактирования материала"
+
+#: plugins/contexts/user_edit_form.inc:14,14,13,13,13,13
+msgid "User edit form"
+msgstr "Форма редактирования пользователя"
+
+#: plugins/contexts/node_add_form.inc:14,14,15,15,14,14,14,14,15,14,14,14,14
+msgid "Node add form"
+msgstr "Форма добавления материала"
+
+#: plugins/contexts/node.inc:167,167,167,167,167,167
+msgid "Node revision ID"
+msgstr "ID ревизии материала"
+
+#: plugins/contexts/term.inc:29,29,28,27,27,29,27,29,29,29,28,29,27,29,27
+msgid "Vocabulary ID"
+msgstr "ID словаря"
+
+#: plugins/contexts/terms.inc:14,14,15,15,14,14,14,14,15,14,14,14,14
+msgid "Taxonomy terms"
+msgstr "Термины таксономии"
+
+#: plugins/contexts/node.inc:16,16,17,17,16,16,16,16,17,16,16,16,16
+msgid "A node object."
+msgstr "Объект материала"
+
+#: plugins/contexts/node_add_form.inc:15,15,15,16,16,15,15,15,16,15,15,15,15
+msgid "A node add form."
+msgstr "Форма добавления материала."
+
+#: plugins/contexts/node_add_form.inc:95,95,105,105,104,95,104,106,106,106,106,106,105,106,106,106,106
+msgid "Select the node type for this form."
+msgstr ""
+
+#: plugins/contexts/node_edit_form.inc:15,15,16,16,15,15,15,15,16,15,15,15,15
+msgid "A node edit form."
+msgstr "Форма редактирования материала."
+
+#: plugins/contexts/term.inc:15,15,16,16,15,15,15,15,16,15,15,15,15
+msgid "A single taxonomy term object."
+msgstr ""
+
+#: plugins/contexts/user.inc:15,15,16,16,15,15,15,15,16,15,15,15,15
+msgid "A single user object."
+msgstr ""
+
+#: plugins/contexts/vocabulary.inc:14,14,15,15,14,14,14,14,15,14,14,14,14
+msgid "Taxonomy vocabulary"
+msgstr "Словарь таксономии"
+
+#: plugins/contexts/vocabulary.inc:15,15,16,16,15,15,15,15,16,15,15,15,15
+msgid "A single taxonomy vocabulary object."
+msgstr ""
+
+#: plugins/contexts/user.inc:74,67,74,67,66,66,66,74,74,74,67,74,66,74,66
+msgid "Select a user"
+msgstr "Выбрать пользователя"
+
+#: plugins/contexts/string.inc:15,15,16,16,15,15,15,15,16,15,15,15,15
+msgid "A context that is just a string."
+msgstr ""
+
+#: plugins/contexts/terms.inc:15,15,16,16,15,15,15,15,16,15,15,15,15
+msgid "Multiple taxonomy terms, as a group."
+msgstr ""
+
+#: plugins/contexts/node.inc:169,169,169,169,169,169
+msgid "Author UID"
+msgstr ""
+
+#: plugins/contexts/string.inc:21,21,22,22,21,21,21,21,22,21,21,21,21
+msgid "Raw string"
+msgstr "Необработанная строка"
+
+#: plugins/contexts/node.inc:26,26,29,29,28,26,28,26,26,26,29,26,28,26,28
+msgid "Enter the node ID of a node for this context."
+msgstr ""
+
+#: plugins/contexts/node_add_form.inc:25,25,25,25,24,25,24,25,25,25,25,24,25,24
+msgid "Enter the node type this context."
+msgstr ""
+
+#: plugins/contexts/node_edit_form.inc:25,25,29,29,28,25,28,25,25,25,29,25,28,25,28
+msgid "Enter the node ID of a node for this argument:"
+msgstr ""
+
+#: plugins/contexts/string.inc:27,27,27,28,28,27,27,27,28,27,27,27,27
+msgid "Enter the string for this context."
+msgstr ""
+
+#: plugins/contexts/term.inc:76,78,82,81,81,78,81,78,78,78,82,78,81,78,81
+msgid ""
+"Currently set to @term. Enter another term if you wish to change the "
+"term."
+msgstr ""
+
+#: plugins/contexts/term.inc:89,91,99,98,98,91,98,91,91,91,99,91,98,91,98
+msgid "Select a term from @vocabulary."
+msgstr ""
+
+#: plugins/contexts/term.inc:107,108,117,116,116,108,116,108,108,108,117,108,116,108,116
+msgid "Reset identifier to term title"
+msgstr ""
+
+#: plugins/contexts/term.inc:108,109,118,117,117,109,117,109,109,109,118,109,117,109,117
+msgid ""
+"If checked, the identifier will be reset to the term name of the "
+"selected term."
+msgstr ""
+
+#: plugins/contexts/term.inc:121,122,131,130,130,122,130,122,122,122,131,122,130,122,130
+msgid "You must select a term."
+msgstr "Вы должны выбрать термин."
+
+#: plugins/contexts/term.inc:132,133,142,141,141,133,141,133,133,133,142,133,141,133,141
+msgid "Invalid term selected."
+msgstr ""
+
+#: plugins/contexts/terms.inc:21,23,24,24,23,22,22,22,22,24,22,23,22,23
+msgid "Term ID of first term"
+msgstr "ID первого термина"
+
+#: plugins/contexts/terms.inc:22,24,25,25,24,23,23,23,23,25,23,24,23,24,22,24,25,25,24,23,23,23,23,25,23,24,23,24
+msgid "Term ID of all term, separated by + or ,"
+msgstr ""
+"ID всех терминов, разделённые запятой "
+"либо знаком \"+\""
+
+#: plugins/contexts/terms.inc:25,23,25,26,26,24,24,24,24,26,24,25,24,25
+msgid "Term name of first term"
+msgstr "Название первого термина"
+
+#: plugins/contexts/terms.inc:27,25,27,28,27,26,26,26,26,28,26,27,26,27
+msgid "Term name of all terms, separated by + or ,"
+msgstr ""
+"Названия всех терминов, разделённые "
+"запятыми либо знаком \"+\""
+
+#: plugins/contexts/terms.inc:29,27,29,30,28,28,28,28,28,30,28,29,28,29
+msgid "Vocabulary ID of first term"
+msgstr "ID словаря первого термина"
+
+#: plugins/contexts/string.inc:22,22,23,23,22,22,22,22,23,22,22,22,22,22,22,23,23,22,22,22,22,23,22,22,22,22
+msgid "HTML-safe string"
+msgstr "HTML-безопасная трока"
+
+#: plugins/contexts/token.inc:10,10,12,12,11,10,11,10,10,10,12,10,11,10,11
+msgid "A context that contains token replacements from token.module."
+msgstr ""
+
+#: plugins/contexts/user.inc:71,64,71,64,63,63,63,71,71,71,64,71,63,71,63
+msgid "Enter the context type"
+msgstr ""
+
+#: plugins/contexts/user.inc:81,74,81,74,73,73,73,81,81,81,74,81,73,81,73
+msgid "Enter a user name"
+msgstr "Ввести имя пользователя"
+
+#: plugins/contexts/user.inc:103,96,97,103,97,96,96,103,103,103,97,103,96,103,96
+msgid "Reset identifier to username"
+msgstr ""
+
+#: plugins/contexts/user.inc:132,127,132,127,126,126,126,132,132,132,127,132,126,132,126
+msgid "Invalid user selected."
+msgstr ""
+
+#: plugins/contexts/term.inc:28,28,27,26,26,28,26,28,28,28,27,28,26,28,26
+msgid "Term Description"
+msgstr ""
+
+#: plugins/contexts/term.inc:27,27,26,25,27,25,27,27,27,26,27,25,27,25
+msgid "Term name, lowercased and spaces converted to dashes"
+msgstr ""
+
+#: plugins/contexts/terms.inc:26,24,26,27,25,25,25,25,27,25,26,25,26
+msgid "Term name of first term, lowercased and spaces converted to dashes"
+msgstr ""
+
+#: plugins/contexts/terms.inc:28,26,28,29,27,27,27,27,29,27,28,27,28
+msgid ""
+"Term name of all terms, separated by + or , and lowercased and spaces "
+"converted to dashes"
+msgstr ""
+
+#: plugins/contexts/entity.inc:16,16,16,16,16,16,16,16
+msgid "Entity object."
+msgstr ""
+
+#: plugins/contexts/entity.inc:24,24,24,24,24,24,24,24
+msgid "Enter the ID of an entity for this context."
+msgstr ""
+
+#: plugins/contexts/entity.inc:43,43,43,43,44,44,44,44,44
+msgid "Creates @entity context from an entity ID."
+msgstr ""
+
+#: plugins/contexts/entity.inc:105,105,105,104,104,108,109,109,109,109,109
+msgid "Enter the title or ID of a @entity entity"
+msgstr ""
+
+#: plugins/contexts/entity.inc:125,119,125,119,119,125,118,124,118,124,122,128,123,129,123,129,123,129,123,129,123,129
+msgid "'%title' [%type id %id]"
+msgstr ""
+
+#: plugins/contexts/entity.inc:128,122,128,122,122,128,121,127,121,127,125,131,126,132,126,132,126,132,126,132,126,132
+msgid "[%type id %id]"
+msgstr ""
+
+#: plugins/contexts/entity.inc:147,147,147,146,146,150,151,151,151,151,151
+msgid "Reset identifier to entity label"
+msgstr ""
+
+#: plugins/contexts/entity.inc:148,148,148,147,147,151,152,152,152,152,152
+msgid ""
+"If checked, the identifier will be reset to the entity label of the "
+"selected entity."
+msgstr ""
+
+#: plugins/contexts/entity.inc:160,160,160,159,159,163,164,164,164,164,164
+msgid "You must select an entity."
+msgstr ""
+
+#: plugins/contexts/entity.inc:191,191,191,190,190,194,195,195,195,195,195
+msgid "Invalid entity selected."
+msgstr ""
+
+#: plugins/contexts/user_edit_form.inc:15,15,14,14,14,14
+msgid "A user edit form."
+msgstr ""
+
+#: plugins/contexts/user_edit_form.inc:25,25,24,24,24,24
+msgid "Enter the user ID of a user for this argument:"
+msgstr ""
+
+#: plugins/contexts/user_edit_form.inc:92,92,89,89,89,89,102
+msgid "Enter the name or UID of a node"
+msgstr ""
+
+#: plugins/contexts/user_edit_form.inc:102,102,99,99,99,99,112
+msgid "'%name' [user id %uid]"
+msgstr ""
+
+#: plugins/contexts/user_edit_form.inc:115,115,112,112,112,112,125
+msgid "Reset identifier to user name"
+msgstr ""
+

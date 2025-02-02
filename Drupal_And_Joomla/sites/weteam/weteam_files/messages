@@ -1,0 +1,56 @@
+
+IHC.namespace("IHC.Provider");
+IHC.Provider.Messages = {
+    ajax: {
+        "timeout": "Время ожидания истекло",
+        "error": "Ошибка на сервере",
+        "notmodified": "Не изменен",
+        "parsererror": "Ошибка в ответе сервера"
+    },
+    supportSaveSubmit: "Формирую запрос",
+    supportCancelSubmit: "Отменяю",
+    replenishmentWrongSum: "Неверная сумма платежа",
+    regSaveSubmit: "Cохраняю",
+    regCancelSubmit: "Отменяю",
+    regEditSaveSubmit: "Cохраняю",
+    regEditCancelSubmit: "Отменяю",
+    hostingOrder: {
+        site: "Сайт",
+        dns: "DNS",
+        update: "Редактировать запись",
+        add: "Добавить запись",
+        deleteButton: "Удалить",
+        addButton: "Добавить",
+        banned: "Сервис заблокирован администраторами",
+        quotesCount: "Всего размещено %d&nbsp;из&nbsp;%d возможных",
+        quotesCountExtra: "Всего размещено %d&nbsp;из&nbsp;%d&nbsp;+&nbsp;%d возможных",
+        quotesSize: ', <span class="quotes-size">использовано %.2f&nbsp;МБ&nbsp;из&nbsp;%.2f МБ%s</span> с учётом директорий data и tmp.',
+        // quotesCountOverhead: " и %d за дополнительную плату",
+        quotesSizeOverhead: " и %.2f МБ за дополнительную плату",
+        deleteConfirm: "Вы действительно хотите удалить этот сайт?"
+    },
+    dnsProductLimit: "За один раз вы можете зарегистрировать %d доменов",
+    domainEditSaveSubmit: "Cохраняю",
+    domainEditCancelSubmit: "Отменяю",
+    dnsZoneEdit: {
+        domain: "Домен",
+        type: "Тип",
+        priority: "Приоритет",
+        value: "Значение",
+        updateButton: "Изменить",
+        deleteButton: "Удалить",
+        addButton: "Добавить",
+        add: "Добавить запись"
+    },
+    dnsZoneConfirmSubmit: "Размещаю зоны",
+    dnsZoneAddSubmit: "Проверяю зоны",
+    dnsZoneAddConfirm: "Вы действительно хотите создать зону без указания IP?",
+    formValidationDefault: "Форма заполнена не полностью или в ней есть ошибки",
+    // форматирование денег
+    formatMoneyShort: "%d руб",    
+    formatMoneyFull: "%d руб %02d коп",
+    // замена кнопки submit на надпись
+    replaceSubmitDefault: "Подождите пожалуйста",
+    dnsProductSaveSubmit: "Проверяю домены",
+    dnsProductCancelSubmit: "Отменяю"
+};

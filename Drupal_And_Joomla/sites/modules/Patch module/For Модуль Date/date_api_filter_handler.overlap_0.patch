@@ -1,0 +1,86 @@
+--- includes/date_api_filter_handler.inc.old	2009-05-12 06:38:28.000000000 -0700
++++ includes/date_api_filter_handler.inc	2009-05-21 02:43:20.000000000 -0700
+@@ -389,7 +389,26 @@
+       $form_state['values'][$this->options['expose']['identifier']] = $default;
+     }
+   }
+-   
++
++  function operators() {
++    $operators = parent::operators();
++    $operators += array(
++      'overlaps' => array(
++        'title' => t('Overlaps with'),
++        'method' => 'dummy',
++        'short' => t('overlap'),
++        'values' => 2,
++      ),
++      'not overlaps' => array(
++        'title' => t('Does not overlap with'),
++        'method' => 'dummy',
++        'short' => t('no overlap'),
++        'values' => 2,
++      ),
++    );
++    return $operators;
++  }
++
+   /**
+    * Custom implementation of query() so we can get the
+    * AND and OR methods in the right places.
+@@ -404,10 +423,12 @@
+         $sql_parts = array();
+         switch ($this->operator) {
+           case 'between':
++          case 'overlaps':
+             $sql_parts[] = $this->date_filter('min', $query_field, '>=');
+             $sql_parts[] = $this->date_filter('max', $query_field, '<=');
+             $sql = implode(' AND ', array_filter($sql_parts));
+             break;
++          case 'not overlaps':
+           case 'not between':
+             $sql_parts[] = $this->date_filter('min', $query_field, '<');
+             $sql_parts[] = $this->date_filter('max', $query_field, '>');
+@@ -465,7 +486,7 @@
+     
+     $range = $this->date_handler->arg_range($value);
+     $year_range = date_range_years($this->options['year_range']);
+-    if ($this->operator != 'not between') {
++    if ($this->operator != 'not between' && $this->operator != 'not overlaps') {
+       switch ($operator) {
+         case '>':
+         case '>=':
+@@ -509,11 +530,24 @@
+         $value = date_format($date, $this->format);
+         break;
+     }
++
++    $target_field = $field['fullname'];
++    if ($field['fromto'][0] != $field['fromto'][1]) {
++      $from_field = $field['related_fields'][0];
++      $to_field = $field['related_fields'][1];
++      if ($this->operator == 'overlaps' || $this->operator == 'not overlaps') {
++        $target_field = $prefix == 'max' ? $from_field : $to_field;
++      }
++      else if ($this->operator == 'between' || $this->operator == 'not between') {
++        $target_field = $prefix == 'min' ? $from_field : $to_field;
++      }
++    }
++
+     if ($this->date_handler->granularity != 'week') {
+-      $sql = $date_handler->sql_where_format($this->format, $field['fullname'], $operator, $value);
++      $sql = $date_handler->sql_where_format($this->format, $target_field, $operator, $value);
+     }
+     else {
+-      $sql = $date_handler->sql_where_date('DATE', $field['fullname'], $operator, $value);
++      $sql = $date_handler->sql_where_date('DATE', $target_field, $operator, $value);
+     }
+     return $sql;
+   }
+@@ -539,4 +573,4 @@
+       }
+     }
+   }
+-}
+\ No newline at end of file
++}

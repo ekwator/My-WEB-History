@@ -1,0 +1,181 @@
+<?php
+/**
+ * Main module file
+ * (c) Ilya V. Azarov, 2011. Advanced image upload module for images/multimedia/etc.
+ */
+
+
+/**
+ * Registry variables naming convention for variable_(set|get):
+ * advupload_pathtopluploadlibrary - path to plupload - library - make them defaut to sites/all/libraries
+ * advupload_temporary temporary directory inside files
+ * advupload_type_typename - 1/0 - type was selected for module usage
+ * advupload_type_typename_fieldname - internal name of filefield/imagefield/videofield for multiupload to
+ * advupload_type_typename_uploadtype - 'onenode' - for 1 node creation, 'multinode'
+ * // next fields only if difficult extract fied info
+ * // this two options - for future releases. dont know - do we need that or no
+ * advupload_type_typename_extensions - extensions for type of files to upload there
+ * advupload_type_typename_maxfilesize - maximum filesize for such upload
+ */
+
+/**
+ * Implementation of hook_perm().
+ */
+function advupload_perm() {
+  static $perm;
+  if (isset($perm)) {
+    return $perm;
+  }
+  $perm = array('administer advupload module settings');
+  module_load_include('inc', 'advupload', 'advupload.api');
+  // now we have array of types => descriptions  for work
+  $fl = _advupload_get_types_filefields();
+  foreach ($fl as $name => $type) {
+    if (variable_get('advupload_type_'. $name, FALSE)) {
+      $perm[] = 'use advanced upload form for '. $name .' node type';
+    }
+  }
+  return $perm;
+}
+
+/**
+ * Implementation of hook_menu().
+ */
+function advupload_menu() {
+  $items = array();
+  // double records - s a template for future release with tabs
+  $items['admin/settings/advupload'] = array(
+    'title' => 'Advupload integration settings',
+    'description' => 'Configure Advanced Upload module.',
+    'page callback' => 'advupload_admin_settings_form',
+    'access callback' => 'user_access',
+    'access arguments' => array('administer advupload module settings'),
+    'type' => MENU_NORMAL_ITEM,
+    'file' => 'advupload.admin.inc',
+  );
+  $items['admin/settings/advupload/general'] = array(
+    'title' => 'Main settings',
+    'description' => 'Configure Advanced Upload module.',
+    'page callback' => 'drupal_get_form',
+    'page arguments' => array('advupload_admin_settings'),
+    'access callback' => 'user_access',
+    'access arguments' => array('administer advupload module settings'),
+    'type' => MENU_DEFAULT_LOCAL_TASK,
+    'weight' => -50,
+    'file' => 'advupload.admin.inc',
+  );
+  /* other items depending on this settings */
+
+  module_load_include('inc', 'advupload', 'advupload.api');
+  $tl    = _advupload_get_types_preset();
+  $tl    = array_keys($tl);
+  $types = node_get_types();
+  if (count($tl)) $items['advupload'] = array(
+    'title' => 'Create node or nodes via bulk upload',
+    'description' => 'Create nodes using bulkupload form',
+    'page callback' => 'advupload_main_page',
+    // use our callback cause off more complex permission check
+    'access callback' => 'advupload_upload_access',
+    'access arguments' => array(),
+    'type' => MENU_NORMAL_ITEM,
+    'weight' => -1,
+    'file' => 'advupload.pages.inc',
+  );
+  if (count($tl)) foreach ($tl as $type) {
+    $uptype = variable_get('advupload_type_'. $type .'_uploadtype', 'multinode');
+    if (($uptype == 'both') || ($uptype == 'multinode')) $items['advupload/'. $type .'_multinode'] = array(
+      'title' => 'Bulk upload files for node type \'!sub\' (For each file add it\'s new node)',
+      'title arguments' => array('!sub' => check_plain($types[$type]->name)),
+      'description' => 'Adding new node for each uploaded file',
+      'page callback' => 'advupload_bulk_upload_page',
+      'page arguments' => array($type, 'multinode'),
+      // use our callback cause off more complex permission check
+      'access callback' => 'advupload_upload_access',
+      'access arguments' => array($type),
+      'type' => MENU_NORMAL_ITEM,
+      'file' => 'advupload.pages.inc',
+    );
+    if (($uptype == 'both') || ($uptype == 'onenode')) $items['advupload/'. $type .'_onenode'] = array(
+      'title' => 'Bulk upload files for node type \'!sub\' (Create only one node for all uploaded files)',
+      'title arguments' => array('!sub' => check_plain($types[$type]->name)),
+      'description' => 'Adding node for all uploaded files and put files there',
+      'page callback' => 'advupload_bulk_upload_page',
+      'page arguments' => array($type, 'onenode'),
+      // use our callback cause off more complex permission check
+      'access callback' => 'advupload_upload_access',
+      'access arguments' => array($type),
+      'type' => MENU_NORMAL_ITEM,
+      'file' => 'advupload.pages.inc',
+    );
+    // now JSON POST answerers
+    // upload handlers
+    $items['advupload/json/nodelist'] = array(
+      'title' => 'JSON handler to get nodelist',
+      'description' => 'Uploader service',
+      'page callback' => 'advupload_json_node_list',
+      'page arguments' => array(),
+      'access callback' => 'advupload_upload_access',
+      'access arguments' => array(),
+      'type' => MENU_CALLBACK,
+      'file' => 'advupload.json.inc',
+    );
+    if (($uptype == 'both') || ($uptype == 'multinode')) $items['advupload/json/upload/multinode/'. $type] = array(
+      'title' => 'JSON handler to make upload files',
+      'description' => 'Uploader',
+      'page callback' => 'advupload_json_upload',
+      'page arguments' => array($type, 'multinode'),
+      'access callback' => 'advupload_upload_access',
+      'access arguments' => array($type),
+      'type' => MENU_CALLBACK,
+      'file' => 'advupload.json.inc',
+    );
+    if (($uptype == 'both') || ($uptype == 'onenode')) $items['advupload/json/upload/onenode/'. $type] = array(
+      'title' => 'JSON handler to make upload files',
+      'description' => 'Uploader',
+      'page callback' => 'advupload_json_upload',
+      'page arguments' => array($type, 'onenode'),
+      'access callback' => 'advupload_upload_access',
+      'access arguments' => array($type),
+      'type' => MENU_CALLBACK,
+      'file' => 'advupload.json.inc',
+    );
+  }
+  return $items;
+}
+
+/**
+ * Implementation of hook_theme()
+ */
+function advupload_theme() {
+  return array(
+    'advupload_add_list' => array(
+      'arguments' => array('content' => NULL),
+      'file' => 'advupload.theme.inc',
+    ),
+    'advupload_json_edit_node_draw' => array(
+      'arguments' => array('nid' => NULL),
+      'file' => 'advupload.theme.inc',
+    ),
+    'typetitle_label' => array(
+      'arguments' => array('type' => NULL),
+      'file' => 'advupload.theme.inc',
+    ),
+  );
+}
+// miscelanous api functions
+function advupload_upload_access($type = NULL) {
+  module_load_include('inc', 'advupload', 'advupload.api');
+  $types = _advupload_get_types_preset();
+  if (count($types)) {
+    if ((!empty($type)) && isset($types[$type])) {
+      return user_access('use advanced upload form for '. $type .' node type');
+    }
+    $types = array_keys($types);
+    $access = FALSE;
+    foreach ($types as $key) $access = $access || user_access('use advanced upload form for '. $key .' node type');
+    return $access;
+  }
+  return FALSE;
+}
+// end of miscelanous api functions
+

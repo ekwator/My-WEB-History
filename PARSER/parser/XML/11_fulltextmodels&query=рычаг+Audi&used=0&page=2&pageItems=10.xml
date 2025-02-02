@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<euroauto-export>
+  <request>
+    <creation-time>2012-10-31 08:51:15 GMT+0400</creation-time>
+    <status>
+      <code>0</code>
+      <message>ok</message>
+    </status>
+    <get>fulltextmodels</get>
+    <query>рычаг Audi</query>
+    <page>2</page>
+    <used>0</used>
+    <pageItems>10</pageItems>
+  </request>
+  <models>
+    <model>
+      <orig_grup>107761</orig_grup>
+      <model_id>0</model_id>
+      <part_name>Рычаг задний поперечный</part_name>
+      <firm_model>Audi A8</firm_model>
+    </model>
+    <model>
+      <orig_grup>308825</orig_grup>
+      <model_id>0</model_id>
+      <part_name>Рычаг передний</part_name>
+      <firm_model>Audi VW A4 [B5] A6 [C5] A8 Passat [B5]</firm_model>
+    </model>
+    <model>
+      <orig_grup>267289</orig_grup>
+      <model_id>0</model_id>
+      <part_name>Рычаг передний верхний</part_name>
+      <firm_model>AUDI Porsche VW Cayenne Q7 Touareg</firm_model>
+    </model>
+    <model>
+      <orig_grup>8485</orig_grup>
+      <model_id>0</model_id>
+      <part_name>Рычаг передний верхний</part_name>
+      <firm_model>Audi A8</firm_model>
+    </model>
+    <model>
+      <orig_grup>518543</orig_grup>
+      <model_id>0</model_id>
+      <part_name>Рычаг передний верхний левый</part_name>
+      <firm_model>Audi Skoda VW A4 [B5] A4 [B6] A6 [C5] Allroad quattro Passat [B5] Superb</firm_model>
+    </model>
+    <model>
+      <orig_grup>902669</orig_grup>
+      <model_id>0</model_id>
+      <part_name>Рычаг передний верхний левый задний</part_name>
+      <firm_model>Audi A4 [B8] A5/S5 Coupe/Sportback A6 [C7,4G]</firm_model>
+    </model>
+    <model>
+      <orig_grup>43767</orig_grup>
+      <model_id>0</model_id>
+      <part_name>Рычаг передний верхний левый задний</part_name>
+      <firm_model>Audi VW A4 [B5] A4 [B6] A6 [C5] A8 Allroad quattro Passat [B5]</firm_model>
+    </model>
+    <model>
+      <orig_grup>266467</orig_grup>
+      <model_id>0</model_id>
+      <part_name>Рычаг передний верхний левый задний</part_name>
+      <firm_model>Audi A6 [C6,4F]</firm_model>
+    </model>
+    <model>
+      <orig_grup>266465</orig_grup>
+      <model_id>0</model_id>
+      <part_name>Рычаг передний верхний левый передний</part_name>
+      <firm_model>Audi A6 [C6,4F]</firm_model>
+    </model>
+    <model>
+      <orig_grup>145048</orig_grup>
+      <model_id>0</model_id>
+      <part_name>Рычаг передний верхний левый передний</part_name>
+      <firm_model>Audi VW A4 [B5] A6 [C5] Allroad quattro Passat [B5]</firm_model>
+    </model>
+  </models>
+  <pagination>
+    <next>3</next>
+    <prev>1</prev>
+    <current>2</current>
+    <total-pages>11</total-pages>
+    <total-items>115</total-items>
+    <items-on-page>10</items-on-page>
+  </pagination>
+</euroauto-export>

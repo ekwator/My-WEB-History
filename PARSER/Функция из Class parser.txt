@@ -1,0 +1,11 @@
+ <?
+function TemplateParse( $tpl , $patterns , $replacements ) {
+   $tpl = file_get_contents($tpl) OR return "Can't read file";
+   echo str_replace($patterns,$replacements,$tpl) OR return "Can't replace";
+   return True;
+}
+ 
+$pat = Array ('{HEADER}','{FOOTER}');
+$rep = Array ('Hello' , 'Word');
+ 
+  echo TemplateParse("abc.tpl" , $pat , $rep )

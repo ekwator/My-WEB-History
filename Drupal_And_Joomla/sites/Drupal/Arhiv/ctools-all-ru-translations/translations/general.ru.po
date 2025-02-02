@@ -1,0 +1,1351 @@
+# Russian translation of ctools (all releases)
+# Copyright (c) 2013 by the Russian translation team
+# Generated from files:
+#  ctools.module,v 1.27.2.41 2010/07/23 21:47:20 merlinofchaos
+#  stylizer.inc,v 1.1.2.12 2010/10/15 20:52:02 merlinofchaos
+#  ctools/includes/stylizer.inc: n/a
+#  ctools/plugins/export_ui/ctools_export_ui.class.php: n/a
+#  ctools/page_manager/plugins/tasks/page.inc: n/a
+#  ctools/page_manager/plugins/task_handlers/http_response.inc: n/a
+#  ctools/page_manager/page_manager.admin.inc: n/a
+#  ctools_export_ui.class.php,v 1.1.2.20 2010/10/15 21:05:55 merlinofchaos
+#  ctools_export_ui.class.php,v 1.1.2.13 2010/07/23 21:47:20 merlinofchaos
+#  page.inc,v 1.17.2.3 2010/01/29 23:06:59 merlinofchaos
+#  page_manager.admin.inc,v 1.27.2.13 2010/07/23 17:41:52 merlinofchaos
+#  page_manager.admin.inc,v 1.27.2.18 2010/10/29 22:40:52 merlinofchaos
+#  http_response.inc,v 1.1.2.1 2010/08/06 18:23:11 merlinofchaos
+#  page.inc,v 1.17.2.4 2010/08/30 22:07:52 merlinofchaos
+#  ctools/plugins/content_types/search/search_form.inc: n/a
+#  ctools/views_content/plugins/content_types/views.inc: n/a
+#  ctools/page_manager/page_manager.module: n/a
+#  ctools/includes/export.inc: n/a
+#  ctools/includes/context-admin.inc: n/a
+#  views.inc,v 1.11.2.11 2010/07/23 06:08:39 merlinofchaos
+#  search_form.inc,v 1.1.2.2 2010/01/29 20:18:25 merlinofchaos
+#  page_manager.module,v 1.17.2.8 2010/07/23 21:47:20 merlinofchaos
+#  context-admin.inc,v 1.9.2.3 2010/07/13 23:55:22 merlinofchaos
+#  export.inc,v 1.19.2.20 2010/07/23 19:44:53 merlinofchaos
+#  export.inc,v 1.19.2.23 2010/08/12 20:48:31 merlinofchaos
+#  ctools/page_manager/plugins/tasks/page.admin.inc: n/a
+#  ctools/stylizer/plugins/export_ui/stylizer_ui.class.php: n/a
+#  ctools/ctools_custom_content/plugins/export_ui/ctools_custom_content_ui.class.php: n/a
+#  stylizer_ui.class.php,v 1.1.2.3 2010/08/20 22:11:40 merlinofchaos
+#  stylizer_ui.class.php,v 1.1.2.2 2010/07/14 23:10:16 merlinofchaos
+#  page.admin.inc,v 1.18.2.11 2010/07/21 17:37:04 merlinofchaos
+#  ctools_custom_content_ui.class.php,v 1.1.2.1 2010/07/14 01:57:42 merlinofchaos
+#  page.admin.inc,v 1.18.2.13 2010/08/30 22:07:52 merlinofchaos
+#  ctools/includes/export-ui.inc: n/a
+#  export-ui.inc,v 1.1.2.6 2010/07/21 23:04:59 merlinofchaos
+#  export-ui.inc,v 1.1.2.9 2010/10/15 21:05:55 merlinofchaos
+#  ctools/bulk_export/bulk_export.module: n/a
+#  bulk_export.module,v 1.3.2.2 2010/07/16 20:38:01 merlinofchaos
+#  ctools/page_manager/plugins/tasks/search.inc: n/a
+#  search.inc,v 1.1.2.3 2010/07/16 00:40:13 merlinofchaos
+#  ctools/plugins/access/node_language.inc: n/a
+#  ctools/plugins/access/site_language.inc: n/a
+#  site_language.inc,v 1.6.2.3 2010/07/14 01:30:19 merlinofchaos
+#  node_language.inc,v 1.7.2.3 2010/07/14 01:30:19 merlinofchaos
+#  ctools/plugins/contexts/string.inc: n/a
+#  ctools/plugins/arguments/string.inc: n/a
+#  ctools/plugins/access/string_length.inc: n/a
+#  ctools/plugins/access/string_equal.inc: n/a
+#  string.inc,v 1.5.2.3 2010/01/29 20:18:26 merlinofchaos
+#  string.inc,v 1.3.2.3 2010/01/29 20:18:25 merlinofchaos
+#  string_length.inc,v 1.1.2.2 2009/12/18 02:28:21 merlinofchaos
+#  string_equal.inc,v 1.1.2.3 2009/12/29 05:44:04 merlinofchaos
+#  ctools/plugins/contexts/user.inc: n/a
+#  ctools/includes/content.menu.inc: n/a
+#  user.inc,v 1.4.2.6 2010/08/03 18:45:21 merlinofchaos
+#  user.inc,v 1.4.2.5 2010/07/16 20:09:48 merlinofchaos
+#  node_author.inc,v 1.1.2.1 2010/01/29 20:18:25 merlinofchaos
+#  content.menu.inc,v 1.2.2.1 2010/05/20 01:43:03 sdboyer
+#  ctools/plugins/content_types/node_context/node_author.inc: n/a
+#  ctools/ctools.module: n/a
+#  ajax.inc,v 1.14.2.11 2010/07/26 21:38:55 merlinofchaos
+#  ctools.module,v 1.27.2.50 2010/10/15 22:11:09 merlinofchaos
+#  ajax.inc,v 1.14.2.14 2010/10/15 20:56:03 merlinofchaos
+#  ctools/includes/ajax.inc: n/a
+#  ctools/page_manager/plugins/tasks/term_view.inc: n/a
+#  term_view.inc,v 1.5.2.1 2010/06/22 14:48:38 merlinofchaos
+#  stylizer.inc,v 1.1.2.10 2010/07/26 17:24:29 merlinofchaos
+#  ctools/views_content/plugins/relationships/user_from_view.inc: n/a
+#  ctools/views_content/plugins/content_types/views_pager.inc: n/a
+#  ctools/views_content/plugins/content_types/views_feed.inc: n/a
+#  ctools/views_content/plugins/content_types/views_exposed.inc: n/a
+#  ctools/views_content/plugins/content_types/views_empty.inc: n/a
+#  ctools/plugins/access/node_access.inc: n/a
+#  ctools/views_content/plugins/relationships/term_from_view.inc: n/a
+#  ctools/views_content/plugins/relationships/node_from_view.inc: n/a
+#  ctools/views_content/plugins/contexts/view.inc: n/a
+#  ctools/views_content/plugins/content_types/views_row.inc: n/a
+#  ctools/views_content/plugins/content_types/views_header.inc: n/a
+#  ctools/views_content/plugins/content_types/views_footer.inc: n/a
+#  ctools/views_content/plugins/content_types/views_attachments.inc: n/a
+#  ctools/views_content/plugins/content_types/views_view.inc: n/a
+#  user_from_view.inc,v 1.1.2.1 2010/07/20 00:17:09 merlinofchaos
+#  term_from_view.inc,v 1.1.2.1 2010/07/20 00:17:09 merlinofchaos
+#  node_from_view.inc,v 1.1.2.1 2010/07/20 00:17:09 merlinofchaos
+#  view.inc,v 1.1.2.3 2010/07/24 17:57:24 merlinofchaos
+#  views_row.inc,v 1.1.2.3 2010/08/27 16:20:30 merlinofchaos
+#  views_pager.inc,v 1.1.2.1 2010/07/20 00:17:09 merlinofchaos
+#  views_header.inc,v 1.1.2.1 2010/07/20 00:17:09 merlinofchaos
+#  views_footer.inc,v 1.1.2.1 2010/07/20 00:17:09 merlinofchaos
+#  views_feed.inc,v 1.1.2.1 2010/07/20 00:17:09 merlinofchaos
+#  views_exposed.inc,v 1.1.2.1 2010/07/20 00:17:09 merlinofchaos
+#  views_empty.inc,v 1.1.2.1 2010/07/20 00:17:09 merlinofchaos
+#  views_attachments.inc,v 1.1.2.1 2010/07/20 00:17:09 merlinofchaos
+#  views_row.inc,v 1.1.2.2 2010/07/21 17:37:04 merlinofchaos
+#  node_access.inc,v 1.7.2.2 2009/11/13 00:44:16 merlinofchaos
+#  ctools/includes/plugins-admin.inc: n/a
+#  ctools/includes/content.inc: n/a
+#  content.inc,v 1.12.2.9 2010/07/26 18:37:03 merlinofchaos
+#  content.inc,v 1.12.2.13 2010/08/19 20:35:03 merlinofchaos
+#  ctools/plugins/content_types/search/search_result.inc: n/a
+#  ctools/plugins/content_types/custom/custom.inc: n/a
+#  ctools/includes/context-access-admin.inc: n/a
+#  search_result.inc,v 1.1.2.4 2010/07/22 22:26:04 merlinofchaos
+#  custom.inc,v 1.9.2.11 2010/07/09 14:37:58 merlinofchaos
+#  context-access-admin.inc,v 1.7.2.2 2010/07/14 23:32:08 merlinofchaos
+#  custom.inc,v 1.9.2.15 2010/10/19 21:27:41 merlinofchaos
+#  ctools/ctools_plugin_example/plugins/contexts/simplecontext.inc: n/a
+#  simplecontext.inc,v 1.1.2.1 2010/01/29 19:54:02 merlinofchaos
+#  ctools/views_content/plugins/views/views_content_plugin_display_panel_pane.inc: n/a
+#  ctools/page_manager/theme/page_manager.theme.inc: n/a
+#  ctools/includes/context.theme.inc: n/a
+#  views_content_plugin_display_panel_pane.inc,v 1.3.2.3 2010/07/09 01:02:24 merlinofchaos
+#  context.theme.inc,v 1.7.2.2 2009/10/27 22:46:00 merlinofchaos
+#  context.theme.inc,v 1.7.2.4 2010/09/10 18:25:13 merlinofchaos
+#  ctools/includes/wizard.inc: n/a
+#  wizard.inc,v 1.12.2.8 2010/07/13 23:55:22 merlinofchaos
+#  wizard.inc,v 1.12.2.9 2010/09/10 18:25:13 merlinofchaos
+#  ctools/plugins/content_types/node/node.inc: n/a
+#  node.inc,v 1.6.2.6 2010/07/26 17:34:20 merlinofchaos
+#  ctools/views_content/plugins/views/views_content_plugin_display_ctools_context.inc: n/a
+#  ctools/ctools_plugin_example/plugins/access/arg_length.inc: n/a
+#  arg_length.inc,v 1.1.2.2 2010/07/14 01:30:19 merlinofchaos
+#  ctools/plugins/content_types/node_form/node_form_input_format.inc: n/a
+#  node_form_input_format.inc,v 1.1.2.2 2010/04/14 21:02:12 merlinofchaos
+#  ctools/plugins/access/path_visibility.inc: n/a
+#  ctools/plugins/content_types/term_context/term_list.inc: n/a
+#  path_visibility.inc,v 1.1.2.1 2010/02/23 20:58:38 merlinofchaos
+#  ctools/plugins/content_types/page/page_logo.inc: n/a
+#  page_logo.inc,v 1.1.2.1 2010/02/08 20:37:11 merlinofchaos
+#  menu.inc,v 1.4.2.1 2010/07/16 00:40:13 merlinofchaos
+#  ctools/includes/menu.inc: n/a
+#  ctools/plugins/content_types/user_context/user_signature.inc: n/a
+#  ctools/plugins/content_types/user_context/user_profile.inc: n/a
+#  ctools/plugins/content_types/user_context/profile_fields.inc: n/a
+#  ctools/plugins/access/role.inc: n/a
+#  ctools/plugins/access/perm.inc: n/a
+#  ctools/plugins/content_types/user_context/user_picture.inc: n/a
+#  ctools/plugins/content_types/contact/user_contact.inc: n/a
+#  ctools/ctools_plugin_example/plugins/access/example_role.inc: n/a
+#  user_signature.inc,v 1.1.2.1 2010/08/05 22:39:41 merlinofchaos
+#  user_profile.inc,v 1.7.2.1 2010/01/29 20:18:26 merlinofchaos
+#  user_picture.inc,v 1.3.2.1 2010/01/29 20:18:26 merlinofchaos
+#  profile_fields.inc,v 1.4.2.1 2010/01/29 20:18:26 merlinofchaos
+#  user_contact.inc,v 1.1.2.2 2010/01/29 20:18:25 merlinofchaos
+#  role.inc,v 1.7.2.3 2010/07/14 01:30:19 merlinofchaos
+#  perm.inc,v 1.6.2.3 2010/07/14 01:30:19 merlinofchaos
+#  example_role.inc,v 1.1.2.2 2010/07/14 01:30:19 merlinofchaos
+#  ctools/plugins/relationships/user_category_edit_form_from_user.inc: n/a
+#  ctools/views_content/plugins/content_types/views_panes.inc: n/a
+#  views_panes.inc,v 1.14.2.15 2010/08/20 21:20:40 merlinofchaos
+#  views_panes.inc,v 1.14.2.14 2010/07/23 21:47:21 merlinofchaos
+#  ctools/plugins/content_types/term_context/term_description.inc: n/a
+#  ctools/plugins/contexts/term.inc: n/a
+#  term.inc,v 1.5.2.4 2010/10/15 21:06:51 merlinofchaos
+#  term_list.inc,v 1.3.2.3 2010/07/15 20:47:14 merlinofchaos
+#  term_description.inc,v 1.1.2.1 2010/01/29 20:18:25 merlinofchaos
+#  term.inc,v 1.5.2.3 2010/04/14 20:37:40 merlinofchaos
+#  ctools/plugins/arguments/term.inc: n/a
+#  term.inc,v 1.6.2.4 2010/07/05 19:22:35 merlinofchaos
+#  ctools/ctools_ajax_sample/ctools_ajax_sample.module: n/a
+#  ctools_ajax_sample.module,v 1.1.2.2 2010/10/15 21:32:07 merlinofchaos
+#  ctools/plugins/content_types/page/page_actions.inc: n/a
+#  ctools/plugins/content_types/entity_context/entity_field.inc: n/a
+#  ctools/plugins/content_types/node_context/node_content.inc: n/a
+#  node_content.inc,v 1.4.2.3 2010/07/26 17:34:20 merlinofchaos
+#  ctools/ctools.install: n/a
+#  ctools/plugins/access/context_exists.inc: n/a
+#  context_exists.inc,v 1.1.2.3 2010/02/23 21:09:32 merlinofchaos
+#  ctools.install,v 1.12.2.7 2010/07/14 01:57:42 merlinofchaos
+#  ctools/stylizer/plugins/export_ui/stylizer.inc: n/a
+#  stylizer.inc,v 1.1.2.2 2010/07/14 23:10:16 merlinofchaos
+#  views_content_plugin_display_ctools_context.inc,v 1.1.2.1 2010/07/20 00:17:09 merlinofchaos
+#  ctools/plugins/content_types/node_context/node_title.inc: n/a
+#  node.inc,v 1.11.2.5 2010/05/20 01:43:03 sdboyer
+#  node_title.inc,v 1.2.2.1 2010/01/29 20:18:25 merlinofchaos
+#  ctools/plugins/contexts/node.inc: n/a
+#  ctools/plugins/content_types/node_context/node_updated.inc: n/a
+#  ctools/plugins/content_types/node_context/node_created.inc: n/a
+#  node_updated.inc,v 1.1.2.2 2010/05/28 00:38:52 sdboyer
+#  node_created.inc,v 1.1.2.1 2010/01/29 20:18:25 merlinofchaos
+#  ctools/plugins/relationships/term_parent.inc: n/a
+#  ctools/plugins/access/term_parent.inc: n/a
+#  ctools/plugins/access/term.inc: n/a
+#  ctools/plugins/access/term_has_parent.inc: n/a
+#  term_parent.inc,v 1.2.2.2 2010/01/29 20:18:26 merlinofchaos
+#  term_parent.inc,v 1.1.2.2 2010/07/15 19:13:16 merlinofchaos
+#  term.inc,v 1.1.2.4 2009/11/13 00:44:16 merlinofchaos
+#  term.inc,v 1.1.2.6 2010/10/15 22:44:31 merlinofchaos
+#  term_parent.inc,v 1.1.2.3 2010/08/20 21:05:17 merlinofchaos
+#  ctools/plugins/contexts/vocabulary.inc: n/a
+#  ctools/plugins/content_types/node_context/node_terms.inc: n/a
+#  ctools/plugins/relationships/terms_from_node.inc: n/a
+#  ctools/plugins/relationships/term_from_node.inc: n/a
+#  ctools/plugins/content_types/vocabulary_context/vocabulary_terms.inc: n/a
+#  ctools/plugins/access/term_vocabulary.inc: n/a
+#  terms_from_node.inc,v 1.1.2.1 2010/02/23 22:09:47 merlinofchaos
+#  term_from_node.inc,v 1.2.2.3 2010/01/29 20:18:26 merlinofchaos
+#  vocabulary.inc,v 1.3.2.3 2010/07/05 22:48:34 merlinofchaos
+#  vocabulary_terms.inc,v 1.3.2.1 2010/01/29 20:18:26 merlinofchaos
+#  node_terms.inc,v 1.1.2.1 2010/05/19 18:12:33 sdboyer
+#  term_vocabulary.inc,v 1.4.2.4 2010/07/14 01:30:19 merlinofchaos
+#  ctools/views_content/views_content.module: n/a
+#  views_content.module,v 1.4.2.3 2010/08/12 20:35:37 merlinofchaos
+#  views_content.module,v 1.4.2.2 2010/07/20 00:17:08 merlinofchaos
+#  ctools/ctools_access_ruleset/ctools_access_ruleset.module: n/a
+#  ctools/stylizer/stylizer.module: n/a
+#  ctools/ctools_custom_content/ctools_custom_content.module: n/a
+#  stylizer.module,v 1.1.2.3 2010/07/23 22:11:53 merlinofchaos
+#  ctools_access_ruleset.module,v 1.1.2.3 2010/07/26 22:09:19 merlinofchaos
+#  ctools_custom_content.module,v 1.1.2.2 2010/07/23 21:47:20 merlinofchaos
+#  ctools/plugins/contexts/node_add_form.inc: n/a
+#  ctools/plugins/access/node_type.inc: n/a
+#  node_add_form.inc,v 1.9.2.3 2010/07/20 20:49:21 merlinofchaos
+#  node_type.inc,v 1.7.2.2 2009/11/13 00:44:16 merlinofchaos
+#  ctools/plugins/content_types/node_context/node_comment_form.inc: n/a
+#  node_comment_form.inc,v 1.1.2.3 2010/07/23 22:56:22 merlinofchaos
+#  ctools/plugins/content_types/comment/comment_reply_form.inc: n/a
+#  ctools/plugins/relationships/user_from_node.inc: n/a
+#  ctools/plugins/relationships/node_edit_form_from_node.inc: n/a
+#  ctools/plugins/relationships/book_parent.inc: n/a
+#  ctools/plugins/content_types/node_context/node_type_desc.inc: n/a
+#  ctools/plugins/content_types/node_context/node_links.inc: n/a
+#  ctools/plugins/content_types/node_context/node_comments.inc: n/a
+#  ctools/plugins/content_types/node_context/node_book_nav.inc: n/a
+#  ctools/plugins/content_types/node_context/node_book_children.inc: n/a
+#  ctools/plugins/content_types/node_context/node_body.inc: n/a
+#  ctools/plugins/content_types/node_context/node_attachments.inc: n/a
+#  user_from_node.inc,v 1.3.2.2 2010/01/29 20:18:26 merlinofchaos
+#  node_edit_form_from_node.inc,v 1.1.2.1 2010/07/05 19:32:04 merlinofchaos
+#  book_parent.inc,v 1.2.2.3 2010/07/20 21:57:27 merlinofchaos
+#  node_type_desc.inc,v 1.1.2.1 2010/01/29 20:18:25 merlinofchaos
+#  node_links.inc,v 1.2.2.1 2010/01/29 20:18:25 merlinofchaos
+#  node_comments.inc,v 1.2.2.5 2010/07/23 17:47:12 merlinofchaos
+#  node_book_nav.inc,v 1.1.2.1 2010/01/29 20:18:25 merlinofchaos
+#  node_body.inc,v 1.2.2.2 2010/07/24 18:01:11 merlinofchaos
+#  node_attachments.inc,v 1.1.2.1 2010/01/29 20:18:25 merlinofchaos
+#  node_comments.inc,v 1.2.2.7 2010/10/29 20:13:15 merlinofchaos
+#  ctools/plugins/access/node_status.inc: n/a
+#  ctools/plugins/contexts/node_edit_form.inc: n/a
+#  ctools/plugins/contexts/entity.inc: n/a
+#  node_edit_form.inc,v 1.10.2.7 2010/07/20 20:49:21 merlinofchaos
+#  ctools/plugins/contexts/user_edit_form.inc: n/a
+#  ctools/plugins/content_types/node_form/node_form_title.inc: n/a
+#  ctools/plugins/content_types/form/entity_form_field.inc: n/a
+#  ctools/plugins/content_types/node_form/node_form_taxonomy.inc: n/a
+#  ctools/plugins/content_types/node_form/node_form_publishing.inc: n/a
+#  ctools/plugins/content_types/node_form/node_form_path.inc: n/a
+#  ctools/plugins/content_types/node_form/node_form_menu.inc: n/a
+#  ctools/plugins/content_types/node_form/node_form_log.inc: n/a
+#  ctools/plugins/content_types/node_form/node_form_comment.inc: n/a
+#  ctools/plugins/content_types/node_form/node_form_buttons.inc: n/a
+#  ctools/plugins/content_types/node_form/node_form_book.inc: n/a
+#  ctools/plugins/content_types/node_form/node_form_author.inc: n/a
+#  ctools/plugins/content_types/node_form/node_form_attachments.inc: n/a
+#  ctools/plugins/content_types/form/form.inc: n/a
+#  node_form_taxonomy.inc,v 1.1.2.2 2010/04/14 21:02:12 merlinofchaos
+#  node_form_publishing.inc,v 1.1.2.2 2010/04/14 21:02:12 merlinofchaos
+#  node_form_path.inc,v 1.1.2.2 2010/04/14 21:02:12 merlinofchaos
+#  node_form_menu.inc,v 1.1.2.2 2010/04/14 21:02:12 merlinofchaos
+#  node_form_log.inc,v 1.1.2.1 2010/01/29 20:18:25 merlinofchaos
+#  node_form_comment.inc,v 1.1.2.2 2010/04/14 21:02:12 merlinofchaos
+#  node_form_buttons.inc,v 1.1.2.2 2010/07/05 19:34:34 merlinofchaos
+#  node_form_book.inc,v 1.1.2.2 2010/04/14 21:02:12 merlinofchaos
+#  node_form_author.inc,v 1.1.2.3 2010/07/05 19:36:17 merlinofchaos
+#  node_form_attachments.inc,v 1.1.2.2 2010/04/14 21:02:12 merlinofchaos
+#  form.inc,v 1.1.2.1 2010/01/29 20:18:25 merlinofchaos
+#  ctools/plugins/content_types/node_form/node_form_language.inc: n/a
+#  ctools/plugins/content_types/page/page_title.inc: n/a
+#  page_title.inc,v 1.1.2.4 2010/07/05 21:14:07 merlinofchaos
+#  ctools/plugins/content_types/page/page_breadcrumb.inc: n/a
+#  page_breadcrumb.inc,v 1.1.2.3 2010/02/03 01:18:58 merlinofchaos
+#  ctools/plugins/content_types/block/block.inc: n/a
+#  block.inc,v 1.9.2.7 2010/05/18 17:44:17 sdboyer
+#  ctools/plugins/cache/simple.inc: n/a
+#  ctools/plugins/relationships/entity_from_schema.inc: n/a
+#  ctools/plugins/relationships/entity_from_field.inc: n/a
+#  ctools/ctools_access_ruleset/plugins/export_ui/ctools_access_ruleset.inc: n/a
+#  ctools_access_ruleset.inc,v 1.1.2.1 2010/07/14 01:33:03 merlinofchaos
+#  ctools/includes/modal.inc: n/a
+#  modal.js,v 1.17.2.14 2010/07/22 22:26:04 merlinofchaos
+#  modal.inc,v 1.7.2.3 2010/06/16 17:32:30 merlinofchaos
+#  modal.inc,v 1.7.2.6 2010/09/08 21:10:12 merlinofchaos
+#  ctools/includes/context.inc: n/a
+#  context.inc,v 1.33.2.15 2010/07/20 22:42:22 merlinofchaos
+#  context.inc,v 1.33.2.17 2010/09/10 17:07:52 merlinofchaos
+#  ctools/views_content/plugins/views/views_content.views.inc: n/a
+#  views_content.views.inc,v 1.2.2.2 2010/10/29 20:13:15 merlinofchaos
+#  views_content.views.inc,v 1.2.2.1 2010/07/20 00:17:09 merlinofchaos
+#  page_manager.install,v 1.7.2.1 2010/06/16 15:42:28 merlinofchaos
+#  ctools/page_manager/page_manager.install: n/a
+#  ctools/plugins/access/compare_users.inc: n/a
+#  compare_users.inc,v 1.3.2.2 2009/11/13 00:44:16 merlinofchaos
+#  ctools/plugins/content_types/contact/contact.inc: n/a
+#  contact.inc,v 1.1.2.2 2010/01/29 20:18:25 merlinofchaos
+#  ctools/includes/language.inc: n/a
+#  ctools/includes/registry.inc: n/a
+#  ctools/includes/plugins.inc: n/a
+#  ctools/page_manager/plugins/tasks/user_view.inc: n/a
+#  ctools/page_manager/plugins/tasks/contact_user.inc: n/a
+#  ctools/page_manager/plugins/tasks/blog_user.inc: n/a
+#  user_view.inc,v 1.3.2.3 2010/07/05 20:20:50 merlinofchaos
+#  contact_user.inc,v 1.1.2.3 2009/12/18 02:34:54 merlinofchaos
+#  blog_user.inc,v 1.1.2.2 2009/10/13 18:12:20 merlinofchaos
+#  ctools/plugins/content_types/page/page_tabs.inc: n/a
+#  ctools/plugins/content_types/page/page_slogan.inc: n/a
+#  ctools/plugins/content_types/page/page_site_name.inc: n/a
+#  ctools/plugins/content_types/page/page_secondary_links.inc: n/a
+#  ctools/plugins/content_types/page/page_primary_links.inc: n/a
+#  ctools/plugins/content_types/page/page_mission.inc: n/a
+#  ctools/plugins/content_types/page/page_messages.inc: n/a
+#  ctools/plugins/content_types/page/page_help.inc: n/a
+#  ctools/plugins/content_types/page/page_footer_message.inc: n/a
+#  ctools/plugins/content_types/page/page_feed_icons.inc: n/a
+#  page_tabs.inc,v 1.1.2.3 2010/02/03 01:18:58 merlinofchaos
+#  page_slogan.inc,v 1.1.2.2 2010/02/02 21:49:21 merlinofchaos
+#  page_site_name.inc,v 1.1.2.1 2010/02/08 20:37:11 merlinofchaos
+#  page_secondary_links.inc,v 1.1.2.1 2010/02/02 21:49:21 merlinofchaos
+#  page_primary_links.inc,v 1.1.2.1 2010/02/02 21:49:21 merlinofchaos
+#  page_mission.inc,v 1.1.2.2 2010/02/02 21:49:21 merlinofchaos
+#  page_messages.inc,v 1.1.2.2 2010/02/02 21:49:21 merlinofchaos
+#  page_help.inc,v 1.1.2.2 2010/02/02 21:49:21 merlinofchaos
+#  page_footer_message.inc,v 1.1.2.2 2010/02/02 21:49:21 merlinofchaos
+#  page_feed_icons.inc,v 1.1.2.1 2010/02/02 21:49:21 merlinofchaos
+#  ctools/ctools_plugin_example/plugins/content_types/no_context_content_type.inc: n/a
+#  no_context_content_type.inc,v 1.1.2.1 2010/01/29 19:54:02 merlinofchaos
+#  ctools/ctools_plugin_example/plugins/contexts/relcontext.inc: n/a
+#  ctools/ctools_plugin_example/plugins/content_types/relcontext_content_type.inc: n/a
+#  relcontext_content_type.inc,v 1.1.2.2 2010/01/29 19:54:02 merlinofchaos
+#  relcontext.inc,v 1.1.2.1 2010/01/29 19:54:02 merlinofchaos
+#  ctools/ctools_plugin_example/plugins/relationships/relcontext_from_simplecontext.inc: n/a
+#  ctools/ctools_plugin_example/plugins/content_types/simplecontext_content_type.inc: n/a
+#  relcontext_from_simplecontext.inc,v 1.1.2.1 2010/01/29 19:54:02 merlinofchaos
+#  simplecontext_content_type.inc,v 1.1.2.2 2010/01/29 19:54:02 merlinofchaos
+#  ctools/ctools_custom_content/plugins/export_ui/ctools_custom_content.inc: n/a
+#  ctools_custom_content.inc,v 1.1.2.1 2010/07/14 01:57:42 merlinofchaos
+#  ctools/plugins/arguments/node_edit.inc: n/a
+#  ctools/plugins/arguments/nid.inc: n/a
+#  node_edit.inc,v 1.5.2.3 2010/01/29 20:18:25 merlinofchaos
+#  nid.inc,v 1.8.2.3 2010/01/29 20:18:25 merlinofchaos
+#  ctools/plugins/content_types/entity_context/entity_field_extra.inc: n/a
+#  ctools/page_manager/page_manager.info: n/a
+#  ctools/ctools_custom_content/ctools_custom_content.info: n/a
+#  ctools/views_content/views_content.info: n/a
+#  ctools/stylizer/stylizer.info: n/a
+#  ctools/ctools_plugin_example/ctools_plugin_example.info: n/a
+#  ctools/ctools_ajax_sample/ctools_ajax_sample.info: n/a
+#  ctools/ctools_access_ruleset/ctools_access_ruleset.info: n/a
+#  ctools/bulk_export/bulk_export.info: n/a
+#  ctools/ctools.info: n/a
+#  views_content.info,v 1.2 2009/07/12 18:11:59 merlinofchaos
+#  stylizer.info,v 1.1.2.2 2010/10/15 20:52:02 merlinofchaos
+#  stylizer.info,v 1.1.2.1 2010/07/13 23:55:22 merlinofchaos
+#  page_manager.info,v 1.2 2009/07/12 18:11:58 merlinofchaos
+#  ctools_custom_content.info,v 1.1.2.1 2010/07/14 01:57:42 merlinofchaos
+#  ctools_access_ruleset.info,v 1.1.2.1 2010/07/14 01:33:03 merlinofchaos
+#  ctools.info,v 1.3 2009/07/12 18:11:58 merlinofchaos
+#  bulk_export.info,v 1.2 2009/07/12 18:11:58 merlinofchaos
+#  ctools_ajax_sample.info,v 1.1.2.1 2010/08/20 02:18:46 merlinofchaos
+#  ctools/plugins/access/entity_bundle.inc: n/a
+#  ctools/plugins/arguments/terms.inc: n/a
+#  terms.inc,v 1.3.2.3 2010/01/29 20:18:25 merlinofchaos
+#  ctools/page_manager/plugins/tasks/contact_site.inc: n/a
+#  contact_site.inc,v 1.1.2.2 2010/01/29 21:21:31 merlinofchaos
+#  ctools/page_manager/plugins/tasks/comment_reply.inc: n/a
+#  ctools/plugins/access/entity_field_value.inc: n/a
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: ctools (all releases)\n"
+"POT-Creation-Date: 2013-05-29 14:25+0400\n"
+"PO-Revision-Date: 2013-03-12 11:57+0400\n"
+"Language-Team: Russian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=((((n%10)==1)&&((n%100)!=11))?(0):(((((n%10)>=2)&&((n%10)<=4))&&(((n%100)<10)||((n%100)>=20)))?(1):2));\n"
+
+#: ctools.module:737; includes/stylizer.inc:1672,1671,1671,1672,1671,1671
+msgid "The directory %directory does not exist."
+msgstr "Каталог %directory не существует."
+
+#: ctools.module:746; includes/stylizer.inc:1681,1680,1680,1681,1680,1680
+msgid ""
+"The permissions of directory %directory have been changed to make it "
+"writable."
+msgstr ""
+"Права доступа для каталога %directory "
+"изменены, чтобы разрешить запись в "
+"него."
+
+#: ctools.module:749; includes/stylizer.inc:1684,1683,1683,1684,1683,1683
+msgid "The directory %directory is not writable"
+msgstr "Каталог %directory закрыт для записи."
+
+#: ctools.module:750; includes/stylizer.inc:1685,1684,1684,1685,1684,1684
+msgid ""
+"The directory %directory is not writable, because it does not have the "
+"correct permissions set."
+msgstr ""
+"Каталог %directory закрыт для записи, "
+"поскольку не имеет корректно "
+"установленных прав доступа."
+
+#: ctools.module:763,764; includes/stylizer.inc:1698,1699,1697,1698,1697,1698,1699,1697,1698,1697,1698
+msgid ""
+"Security warning: Couldn't write .htaccess file. Please create a "
+".htaccess file in your %directory directory which contains the "
+"following lines: <code>!htaccess</code>"
+msgstr ""
+"Предупреждение безопасности: "
+"Невозможно записать файл .htaccess. "
+"Создайте этот файл вручную в каталоге "
+"%directory и внесите в него следующие "
+"строки:\r\n"
+"<code>!htaccess</code>"
+
+#: plugins/export_ui/ctools_export_ui.class.php:260,258,271,269,273,271,244,242,270,272,269,271,270,272,269,271,269,271,277,279,277,279,269,271,273,269,271,277,279,269,271,277,279; page_manager/plugins/tasks/page.inc:577,577,588,588,587,577,587,576,586,576,586,577,577,588,577,586,577,586; page_manager/plugins/task_handlers/http_response.inc:157,157,163,157,157,157,157,163,157,157,157,157,158; page_manager/page_manager.admin.inc:265,264,267,266,258,257,257,258,256,257,266,267,256,257,266,267,266,267,266,267,258,270,271,270,271,256,257,270,271,256,257
+msgid "Enabled"
+msgstr "Включено"
+
+#: plugins/export_ui/ctools_export_ui.class.php:262,250,261,263,234,261,262,261,261,269,269,261,263,261,269,261,269; plugins/content_types/search/search_form.inc:113,114,109,114,114,109,113,109,109,109,114,109,113,109,113; views_content/plugins/content_types/views.inc:457,453,456,456,455,453,455,455,455,455,459,456,459,455,459,455; page_manager/plugins/tasks/page.inc:216,216,217,217,216,216,217,217,217,217,217,216,217,216; page_manager/plugins/task_handlers/http_response.inc:144,144,150,144,144,144,144,150,144,144,144,144,145; page_manager/page_manager.module:587,572,596,581,536,521,521,536,520,535,581,596,520,535,581,596,581,596,581,596,521,536,580,595,580,595,520,535,580,595,520,535; includes/export.inc:513,423,589,493,431,520,431,520,438,528,493,589,438,528,493,589,523,619,524,620,532,628,532,628,532,628,431,520,537,633,532,628,438,528,537,633,438,528; includes/context-admin.inc:655,676,855,855,854,676,854,676,690,690,690,855,690,854,690,854
+msgid "Default"
+msgstr "По умолчанию"
+
+#: page_manager/plugins/tasks/page.admin.inc:943,950,943,932,937,936,936,943,943,943,937,943,936,943,936; stylizer/plugins/export_ui/stylizer_ui.class.php:162,164,164,163,160,164,162,164,164,164,163,164,162,164,162; plugins/export_ui/ctools_export_ui.class.php:547,564,563,534,565,564,565,564,566,566,572,572,566,563,574,574,572,574,572; page_manager/page_manager.admin.inc:100,100,95,95,94,100,94,100,100,100,95,104,104,94,104,94; ctools_custom_content/plugins/export_ui/ctools_custom_content_ui.class.php:118,120,120,120,119,120,119,120,125,125,125,125,119,125,119
+msgid "Operations"
+msgstr "Действия"
+
+#: includes/export-ui.inc:112,98,98,108,113,98,112,98,99,99,99,113,100,100,112,100,112; page_manager/plugins/tasks/page.admin.inc:1311,1307,1285,1290,1289,1307,1289,1307,1307,1306,1307,1290,1306,1289,1306,1289
+msgid "Import"
+msgstr "Импорт"
+
+#: page_manager/page_manager.admin.inc:704,702,704,691,696,695,695,704,706,706,706,696,710,710,695,710,695; bulk_export/bulk_export.module:184,184,184,169,169,168,168,184,183,164,164,243,246,247,247,252,252,169,252,164,252,164; includes/export-ui.inc:113,99,99,109,114,99,113,99,100,100,100,114,101,101,113,101,113; plugins/export_ui/ctools_export_ui.class.php:1161,1180,1174,1145,1176,1180,1176,1180,1203,1205,1205,1183,1183,1205,1174,1222,1222,1183,1222,1183; page_manager/plugins/tasks/page.inc:182,182,183,183,182,182,183,183,183,183,183,182,183,182
+msgid "Export"
+msgstr "Экспорт"
+
+#: page_manager/plugins/tasks/search.inc:24,24,24,25,25,24,24,24,25,24,24,24,24; plugins/export_ui/ctools_export_ui.class.php:268,279,281,252,280,279,280,279,279,287,287,279,281,279,287,279,287; page_manager/page_manager.admin.inc:271,273,264,264,263,273,263,273,273,273,264,277,277,263,277,263
+msgid "Search"
+msgstr "Найти"
+
+#: plugins/access/node_language.inc:36,36,36,37,37,36,36,36,37,36,36,36,36; plugins/access/site_language.inc:33,33,34,34,33,33,33,33,34,33,33,33,33
+msgid "Language"
+msgstr "Язык"
+
+#: plugins/contexts/string.inc:14,14,15,15,14,14,14,14,15,14,14,14,14; plugins/arguments/string.inc:13,13,14,14,13,13,13,13,14,13,13,13,13; plugins/access/string_length.inc:15,15,16,16,15,15,15,15,16,15,15,15,15; plugins/access/string_equal.inc:37,14,37,14,38,15,15,38,14,37,14,37,14,37,14,37,15,38,14,37,14,37,14,37,14,37
+msgid "String"
+msgstr "Строка"
+
+#: plugins/contexts/user.inc:60,53,60,55,54,54,54,60,60,60,55,60,54,60,54; includes/content.menu.inc:58,58,49,49,48,58,48,58,58,58,49,58,48,58,48,73; plugins/content_types/node_context/node_author.inc:35,35,34,34,35,34,34
+msgid "Anonymous"
+msgstr "Гость"
+
+#: ctools.module:380,380,380,195,372,371,371,380,400,375,404,375,404,404,372,404,375,404,375,450; page_manager/page_manager.admin.inc:947,952,954,940,948,954,947,954,956,956,956,948,960,960,947,960,947; includes/ajax.inc:137,140,139,140,139,139
+msgid "Error"
+msgstr "Ошибка"
+
+#: page_manager/plugins/tasks/term_view.inc:53,53,53,54,54,53,54,54,54,54,54,53,54,53; plugins/export_ui/ctools_export_ui.class.php:781,799,793,764,795,799,795,799,822,824,824,802,802,824,793,832,832,802,832,802; page_manager/plugins/tasks/page.inc:142,142,143,143,142,142,143,143,143,143,143,142,143,142; page_manager/plugins/tasks/page.admin.inc:931,924,916,921,920,924,920,924,924,924,921,924,920,924,920; includes/stylizer.inc:835,835,841,841,840,835,840,835,835,835,841,835,840,835,840
+msgid "Settings"
+msgstr "Настройки"
+
+#: views_content/plugins/relationships/user_from_view.inc:16,16,16,17,17,16,16,16,17,16,16,16,16; views_content/plugins/content_types/views_pager.inc:13,13,13,14,14,13,13,13,14,13,13,13,13; views_content/plugins/content_types/views_feed.inc:13,13,13,14,14,13,13,13,14,13,13,13,13; views_content/plugins/content_types/views_exposed.inc:13,13,13,14,14,13,13,13,14,13,13,13,13; views_content/plugins/content_types/views_empty.inc:13,13,13,14,14,13,13,13,14,13,13,13,13; plugins/access/node_access.inc:34,34,34,35,35,34,34,34,35,34,34,34,34; page_manager/plugins/tasks/term_view.inc:116,117,117,116,117,116,116; views_content/plugins/relationships/term_from_view.inc:16,16,17,17,16,16,16,16,17,16,16,16,16; views_content/plugins/relationships/node_from_view.inc:16,16,17,17,16,16,16,16,17,16,16,16,16; views_content/plugins/contexts/view.inc:97,15,136,15,96,16,96,16,15,95,136,95,15,136,15,136,15,136,16,96,15,136,15,95,15,136,15,95; views_content/plugins/content_types/views_row.inc:13,13,14,14,13,13,13,13,14,13,13,13,13; views_content/plugins/content_types/views_header.inc:13,13,14,14,13,13,13,13,14,13,13,13,13; views_content/plugins/content_types/views_footer.inc:13,13,14,14,13,13,13,13,14,13,13,13,13; views_content/plugins/content_types/views_attachments.inc:13,13,14,14,13,13,13,13,14,13,13,13,13; views_content/plugins/content_types/views_view.inc:13,13,13,13,13,13,13; page_manager/plugins/tasks/page.inc:322,322,321,321,320,320,322,320,320
+msgid "View"
+msgstr "Просмотр"
+
+#: page_manager/page_manager.admin.inc:595,597,586,589,588,597,588,597,599,599,599,589,603,603,588,603,588; includes/plugins-admin.inc:98,101,101,101,101,101,101,101; includes/content.inc:594,593,563,595,602,593,602,605,593,605,595,595,595,595,598,598,605,598,605
+msgid "Configure"
+msgstr "Настройки"
+
+#: plugins/export_ui/ctools_export_ui.class.php:559,560,542,462,559,475,558,478,529,449,479,475,479,560,475,559,477,561,477,561,486,567,486,567,477,561,478,558,439,569,439,569,486,567,439,569,486,567; ctools_custom_content/plugins/export_ui/ctools_custom_content_ui.class.php:118,74,116,74,18,118,74,18,19,76,118,19,76,118,18,75,117,75,117,18,74,118,23,79,123,23,79,123,23,79,123,19,76,23,79,123,18,75,117,23,79,123,18,75,117; plugins/content_types/search/search_result.inc:154,116,154,116,161,139,155,117,155,117,139,161,116,154,136,158,136,158,143,165,143,165,143,165,117,155,143,165,116,154,143,165,116,154; page_manager/page_manager.admin.inc:1377,1385,279,95,1387,281,95,1365,272,90,90,272,1378,89,271,95,281,1387,89,271,1377,95,281,1387,1389,95,281,1389,95,281,1389,90,272,1378,99,285,1396,99,285,1396,89,271,1377,99,285,1396,89,271,1377,1398; stylizer/plugins/export_ui/stylizer_ui.class.php:161,66,161,66,160,67,157,64,66,159,161,159,66,161,66,161,66,161,67,160,66,161,66,159,66,161,66,159; plugins/content_types/custom/custom.inc:258,258,247,258,257,258,257,269,268,269,268,275,278,278,278,278,268,278,268; page_manager/plugins/tasks/page.admin.inc:698,698,677,682,681,698,681,698,698,698,682,698,681,698,681; includes/context-admin.inc:666,687,866,866,865,687,865,687,701,701,701,866,701,865,701,865; includes/context-access-admin.inc:213,213,214,214,213,213,213,213,214,213,213,213,213
+msgid "Title"
+msgstr "Заголовок"
+
+#: ctools_plugin_example/plugins/contexts/simplecontext.inc:117,117,117,118,118,117,117,117,118,117,117,117,117; includes/context-access-admin.inc:214,214,215,215,214,214,214,214,215,214,214,214,214
+msgid "Description"
+msgstr "Описание"
+
+#: plugins/export_ui/ctools_export_ui.class.php:261,272,274,245,273,272,273,272,272,280,280,272,274,272,280,272,280; page_manager/plugins/tasks/page.inc:573,573,584,584,583,573,583,572,582,572,582,573,573,584,573,582,573,582; page_manager/plugins/task_handlers/http_response.inc:153,153,159,153,153,153,153,159,153,153,153,153,154; page_manager/page_manager.admin.inc:265,267,258,258,257,267,257,267,267,267,258,271,271,257,271,257
+msgid "Disabled"
+msgstr "Отключено"
+
+#: views_content/plugins/views/views_content_plugin_display_panel_pane.inc:207,211,211,208,208,211,207,211,211,211,208,211,207,211,207; page_manager/theme/page_manager.theme.inc:103,77,77,103,103,77,103,77,77,77,77,103,77,103; includes/context.theme.inc:79,92,92,80,80,92,79,92,92,92,80,92,79,92,79; page_manager/plugins/tasks/page.admin.inc:730,728,719,724,723,728,723,728,728,728,724,728,723,728,723; includes/stylizer.inc:1303,1303,1300,1300,1299,1303,1299,1303,1302,1302,1302,1300,1302,1299,1302,1299
+msgid "Weight"
+msgstr "Вес"
+
+#: plugins/export_ui/ctools_export_ui.class.php:1378,1371,1390,1376,1415,1390,1378,1394,1394,1409,1431,1433,1433,1385,1385,1433,1376,1450,1450,1385,1450,1385; page_manager/page_manager.admin.inc:1246,1248,1226,1239,1238,1248,1238,1248,1250,1250,1250,1239,1257,1257,1238,1257,1238,1259; includes/wizard.inc:480,480,425,425,424,480,424,480,484,481,481,480,425,477,499,477,424,499,424
+msgid "Cancel"
+msgstr "Отменить"
+
+#: plugins/content_types/search/search_form.inc:115,116,111,116,116,111,115,111,111,111,116,111,115,111,115; plugins/content_types/node/node.inc:26,26,26,27,27,26,26,26,27,26,26,26,26; plugins/content_types/custom/custom.inc:186,68,186,68,176,68,69,187,68,186,197,68,197,197,203,71,206,71,206,71,206,69,187,71,206,68,197,71,206,68,197; page_manager/plugins/tasks/page.inc:207,207,208,208,207,207,208,208,208,208,208,207,208,207
+msgid "Custom"
+msgstr "Собственная"
+
+#: plugins/access/node_access.inc:35,35,35,36,36,35,35,35,36,35,35,35,35; page_manager/page_manager.admin.inc:833,840,842,825,834,842,833,842,844,844,844,834,848,848,833,848,833; includes/wizard.inc:484,484,429,429,428,484,428,484,488,485,485,484,429,481,503,481,428,503,428
+msgid "Update"
+msgstr "Обновить"
+
+#: page_manager/plugins/tasks/page.inc:581,581,592,592,591,581,591,580,590,580,590,581,581,592,581,590,581,590; page_manager/plugins/task_handlers/http_response.inc:161,161,167,161,161,161,161,167,161,161,161,161,162
+msgid "Status"
+msgstr "Статус"
+
+#: views_content/plugins/views/views_content_plugin_display_panel_pane.inc:229,219,233,223,128,122,233,223,128,122,230,220,125,119,230,220,125,119,118,124,122,128,223,233,118,124,219,229,122,128,223,233,122,128,223,233,122,128,223,233,119,125,220,230,122,128,223,233,118,124,219,229,122,128,223,233,118,124,219,229; views_content/plugins/views/views_content_plugin_display_ctools_context.inc:160,125,160,125,125,160,125,160,125,160,125,160,125,160,125,160
+msgid "Yes"
+msgstr "Да"
+
+#: views_content/plugins/views/views_content_plugin_display_panel_pane.inc:233,229,219,233,223,128,122,233,223,128,122,230,220,125,119,230,220,125,119,118,124,122,128,223,118,124,219,229,122,128,223,233,122,128,223,233,122,128,223,233,119,125,220,230,122,128,223,233,118,124,219,229,122,128,223,233,118,124,219,229; views_content/plugins/views/views_content_plugin_display_ctools_context.inc:125,160,125,160,125,160,125,160,125,160,125,160,125,160,125,160
+msgid "No"
+msgstr "Нет"
+
+#: ctools_custom_content/plugins/export_ui/ctools_custom_content_ui.class.php:119,76,117,76,56,10,119,76,56,10,119,11,58,78,11,58,78,119,10,57,77,118,56,57,77,118,10,56,76,119,15,61,81,124,15,61,81,124,15,61,81,124,11,58,78,15,61,81,124,10,57,77,118,15,61,81,124,10,57,77,118; views_content/plugins/views/views_content_plugin_display_panel_pane.inc:115,115,112,112,111,115,111,115,115,115,112,115,111,115,111; plugins/content_types/custom/custom.inc:330,329,309,329,328,329,328,340,339,340,339,346,349,349,349,349,339,349,339
+msgid "Category"
+msgstr "Категория"
+
+#: plugins/access/string_length.inc:27,27,28,28,27,27,27,27,28,27,27,27,27; ctools_plugin_example/plugins/access/arg_length.inc:29,29,30,30,29,29,29,29,30,29,29,29,29
+msgid "Greater than"
+msgstr "Больше чем"
+
+#: plugins/export_ui/ctools_export_ui.class.php:562,563,489,545,472,562,485,561,488,532,459,485,489,563,485,562,487,564,487,564,496,570,496,570,487,564,488,561,449,572,449,572,496,570,449,572,496,570; ctools_custom_content/plugins/export_ui/ctools_custom_content_ui.class.php:75,115,75,117,75,77,117,77,117,76,116,117,76,116,75,117,80,122,80,122,80,122,77,80,122,76,116,80,122,76,116; stylizer/plugins/export_ui/stylizer_ui.class.php:160,67,160,67,159,68,156,65,67,158,160,158,67,160,67,160,67,160,68,159,67,160,67,158,67,160,67,158; page_manager/page_manager.admin.inc:280,94,282,94,273,89,89,273,88,272,94,282,88,272,94,282,94,282,94,282,89,273,98,286,98,286,88,272,98,286,88,272
+msgid "Name"
+msgstr "Имя"
+
+#: plugins/content_types/search/search_result.inc:172,134,172,134,173,135,173,135,134,172,135,173,134,172,134,172; plugins/content_types/node_form/node_form_input_format.inc:20,21,21,21,20,20
+msgid "Input format"
+msgstr "Формат ввода"
+
+#: plugins/content_types/search/search_form.inc:111,112,107,112,112,107,111,107,107,107,112,107,111,107,111; plugins/access/path_visibility.inc:14,14,14,15,15,14,14,14,15,14,14,14,14; page_manager/plugins/tasks/term_view.inc:241,252,263,242,242,263,241,263,264,268,268,268,242,268,241,268,241,314; page_manager/plugins/tasks/page.inc:621,621,632,632,631,621,631,620,630,620,630,621,621,632,621,630,621,630; page_manager/plugins/tasks/page.admin.inc:1425,1293,422,1421,1289,422,1393,1267,415,415,1272,1398,414,1271,1397,422,1289,1421,414,1271,1397,422,1289,1421,422,1289,1421,1288,1420,422,1289,1421,415,1272,1398,422,1288,1420,414,1271,1397,422,1288,1420,414,1271,1397; page_manager/page_manager.admin.inc:281,96,283,96,274,91,91,274,90,273,96,283,90,273,96,283,96,283,96,283,91,274,100,287,100,287,90,273,100,287,90,273; plugins/content_types/term_context/term_list.inc:126,126,126,126,126,128,128,128
+msgid "Path"
+msgstr "Адрес"
+
+#: page_manager/page_manager.admin.inc:311,309,58,311,58,302,52,52,302,51,301,58,51,301,58,311,58,311,58,311,52,302,62,315,62,315,51,301,62,315,51,301; plugins/export_ui/ctools_export_ui.class.php:298,141,309,152,311,161,282,134,160,310,152,309,160,310,152,309,152,309,317,317,152,309,161,311,152,309,160,317,152,309,160,317
+msgid "Reset"
+msgstr "Сбросить"
+
+#: page_manager/page_manager.admin.inc:740,747,742,555,548,214,749,744,557,550,214,733,728,547,541,207,207,542,549,736,741,206,541,548,735,214,550,557,744,749,206,541,548,735,740,214,550,557,744,749,552,559,746,751,214,552,559,746,751,214,552,559,746,751,207,542,549,736,741,218,556,563,750,755,218,556,563,750,755,206,541,548,735,740,218,556,563,750,755,206,541,548,735,740; page_manager/plugins/tasks/page.inc:576,576,587,587,586,576,586,575,585,575,585,576,576,587,576,585,576,585; page_manager/plugins/task_handlers/http_response.inc:156,156,162,156,156,156,156,162,156,156,156,156,157; includes/export-ui.inc:94,94,104,109,108,94,108,94,95,95,95,109,96,96,108,96,108
+msgid "Disable"
+msgstr "Отключить"
+
+#: stylizer/plugins/export_ui/stylizer_ui.class.php:261,159,69,37,261,159,69,37,260,158,70,38,257,155,67,35,37,69,157,259,159,261,157,259,37,69,159,261,37,69,159,261,37,69,159,261,38,70,158,260,37,69,159,261,37,69,157,259,37,69,159,261,37,69,157,259; page_manager/plugins/tasks/page.admin.inc:685,685,665,670,669,685,669,685,685,685,670,685,669,685,669; page_manager/page_manager.admin.inc:282,250,93,284,252,93,275,243,88,88,243,275,87,242,274,93,252,284,87,242,274,93,252,284,93,252,284,93,252,284,88,243,275,97,256,288,97,256,288,87,242,274,97,256,288,87,242,274
+msgid "Type"
+msgstr "Тип"
+
+#: ctools_custom_content/plugins/export_ui/ctools_custom_content_ui.class.php:23,22,23,23,23,23,22,23,28,28,28,28,22,28,22; plugins/content_types/custom/custom.inc:263,263,251,262,261,263,261,274,272,274,272,280,283,283,283,262,283,272,283,272
+msgid "Body"
+msgstr "Содержимое"
+
+#: plugins/content_types/page/page_logo.inc:33,32,32,31,33,32,33,32,33,32,32,33,32,33,32,33,32,33,32,33,32,33,32,33; includes/menu.inc:58,58,57,58,57,57; page_manager/plugins/tasks/term_view.inc:172
+msgid "Home"
+msgstr "Главная"
+
+#: page_manager/plugins/tasks/search.inc:281,283,219,282,282,219,281,219,220,223,223,223,282,223,281,223,281; page_manager/page_manager.admin.inc:173,173,166,166,165,173,165,173,173,173,166,177,177,165,177,165
+msgid "System"
+msgstr "Система"
+
+#: plugins/content_types/user_context/user_signature.inc:12,11,12,11,12,11,13,12,11,12,11,12,11,12,13,11,12,11,12,11,12,11,12; plugins/content_types/user_context/user_profile.inc:12,13,12,13,12,14,13,14,13,13,12,13,12,13,12,13,14,12,13,12,13,12,13,12,13; plugins/content_types/user_context/profile_fields.inc:14,14,13,14,13,15,14,15,14,13,13,14,13,14,13,14,15,13,14,13,14,13,14,13,14; plugins/access/role.inc:20,20,20,21,21,20,20,20,21,20,20,20,20; plugins/access/perm.inc:19,19,19,20,20,19,19,19,20,19,19,19,19; plugins/access/node_access.inc:21,21,21,22,22,21,21,21,22,21,21,21,21; plugins/contexts/user.inc:14,14,15,15,14,14,14,14,15,14,14,14,14; plugins/content_types/user_context/user_picture.inc:13,12,13,12,14,13,14,13,12,13,12,13,12,13,12,13,14,12,13,12,13,12,13,12,13; plugins/content_types/contact/user_contact.inc:14,13,14,13,15,14,14,15,13,14,13,14,13,14,13,14,15,13,14,13,14,13,14,13,14; ctools_plugin_example/plugins/access/example_role.inc:21,21,22,22,21,21,21,21,22,21,21,21,21; plugins/relationships/user_category_edit_form_from_user.inc:16
+msgid "User"
+msgstr "Пользователь"
+
+#: views_content/plugins/content_types/views_panes.inc:483,488,489,480,488,488,489,489,489,489,478,478,488,478,488; plugins/content_types/custom/custom.inc:302,302,281,301,300,302,300,313,311,313,311,319,322,322,322,301,322,311,322,311
+msgid "Value"
+msgstr "Значение"
+
+#: plugins/content_types/term_context/term_list.inc:13,13,13,14,14,13,13,13,14,13,13,13,13; plugins/content_types/term_context/term_description.inc:13,13,13,14,14,13,13,13,14,13,13,13,13; plugins/contexts/term.inc:14,14,15,15,14,14,14,14,15,14,14,14,14
+msgid "Taxonomy term"
+msgstr "Термин таксономии"
+
+#: plugins/arguments/term.inc:83,84,88,84,84,88,83,88,92,92,92,84,92,83,92,83; plugins/contexts/term.inc:26,26,25,25,24,26,24,26,26,26,25,26,24,26,24
+msgid "Term name"
+msgstr "Название термина"
+
+#: ctools_ajax_sample/ctools_ajax_sample.module:177,171,143,137,176,170,177,171,138,144,137,143,171,177,171,177,171,177,138,144,171,177,137,143,171,177,137,143; plugins/content_types/page/page_actions.inc:14,14,14,14,14
+msgid "Actions"
+msgstr "Действия"
+
+#: plugins/export_ui/ctools_export_ui.class.php:261,344,249,356,260,360,262,331,233,360,260,356,261,360,260,356,358,260,358,268,367,268,367,260,358,262,474,260,474,268,367,260,474,268,367; page_manager/plugins/tasks/page.inc:758,749,749,759,749,758,748,757,748,757,749,749,759,749,757,749,757; page_manager/page_manager.module:438,447,387,387,386,447,386,447,447,447,387,446,446,386,446,386; includes/stylizer.inc:1335,1322,1308,1335,1322,1308,1332,1319,1305,1305,1319,1332,1304,1318,1331,1308,1322,1335,1304,1318,1331,1308,1322,1335,1307,1321,1334,1307,1321,1334,1307,1321,1334,1305,1319,1332,1307,1321,1334,1304,1318,1331,1307,1321,1334,1304,1318,1331; includes/export.inc:375,439,386,386,390,439,390,439,469,469,469,386,474,469,390,474,390; page_manager/plugins/tasks/page.admin.inc:1479
+msgid "Normal"
+msgstr "Нормальный"
+
+#: includes/context-admin.inc:898,638,717,788,899,638,717,788,899,637,716,787,637,716,787,898,638,717,788,899,637,716,787,898,637,716,787,898; plugins/export_ui/ctools_export_ui.class.php:1032,1051,1043,1014,1045,1051,1045,1051,1074,1076,1076,1052,1052,1076,1043,1084,1084,1052,1084,1052; page_manager/page_manager.admin.inc:1240,1242,1220,1233,1232,1242,1232,1242,1244,1244,1244,1233,1251,1251,1232,1251,1232,1253; includes/wizard.inc:485,485,430,430,429,485,429,485,489,486,486,485,430,482,504,482,429,504,429; includes/context-access-admin.inc:413,173,413,173,174,410,174,410,173,409,413,409,173,413,173,413,173,413,174,410,173,413,173,409,173,413,173,409
+msgid "Save"
+msgstr "Сохранить"
+
+#: page_manager/plugins/tasks/page.admin.inc:1435,1439,1435,1407,1412,1411,1411,1435,1435,1434,1435,1412,1434,1411,1434,1411; includes/export-ui.inc:111,97,97,107,112,97,111,97,98,98,98,112,99,99,111,99,111; page_manager/plugins/tasks/page.inc:177,177,178,178,177,177,178,178,178,178,178,177,178,177; page_manager/page_manager.admin.inc:697,699,686,691,690,699,690,699,701,701,701,691,705,705,690,705,690
+msgid "Clone"
+msgstr "Клонировать"
+
+#: page_manager/plugins/tasks/page.admin.inc:1514,1501,1487,1518,1505,1491,1514,1501,1487,1533,1522,1508,1462,1476,1487,1461,1475,1486,1461,1475,1486,1487,1501,1514,1487,1501,1514,1500,1513,1487,1501,1514,1462,1476,1486,1500,1513,1461,1475,1486,1486,1500,1513,1461,1475,1486; page_manager/page_manager.admin.inc:1551,1563,1564,1539,1552,1564,1551,1564,1566,1566,1566,1552,1573,1573,1551,1573,1551,1575; plugins/export_ui/ctools_export_ui.class.php:347,251,359,262,363,264,334,235,263,363,262,359,263,363,262,359,361,262,361,270,370,270,370,262,361,264,477,262,477,270,370,262,477,270,370; page_manager/page_manager.module:581,590,530,530,529,590,529,590,590,590,530,589,589,529,589,529; includes/export.inc:416,486,424,424,431,486,431,486,516,524,524,524,424,529,524,431,529,431
+msgid "Overridden"
+msgstr "Переопределен"
+
+#: page_manager/plugins/tasks/term_view.inc:269,247,258,269,248,248,247,269,270,274,274,274,248,274,247,274,247,320; page_manager/plugins/tasks/page.inc:642,164,642,164,653,165,165,653,164,652,642,652,641,651,164,641,651,165,165,642,165,642,165,653,165,642,164,651,165,642,164,651
+msgid "Access"
+msgstr "Доступ"
+
+#: plugins/export_ui/ctools_export_ui.class.php:283,294,296,267,295,294,295,294,294,302,302,294,296,294,302,294,302; page_manager/page_manager.admin.inc:293,295,286,286,285,295,285,295,295,295,286,299,299,285,299,285
+msgid "Down"
+msgstr "Вниз"
+
+#: views_content/plugins/views/views_content_plugin_display_panel_pane.inc:305,309,307,306,306,307,305,307,307,307,306,307,305,307,305; plugins/content_types/entity_context/entity_field.inc:157,157,157,161,190,194,194,194,198,198,198
+msgid "Label"
+msgstr "Метка"
+
+#: page_manager/plugins/tasks/page.inc:157,157,157,158,158,157,158,158,158,158,158,157,158,157; views_content/plugins/content_types/views.inc:382,378,381,381,380,378,380,378,378,378,382,381,382,380,382,380; includes/context-admin.inc:25,25,26,26,25,25,25,25,26,25,25,25,25
+msgid "Arguments"
+msgstr "Аргументы"
+
+#: plugins/access/string_length.inc:25,25,26,26,25,25,25,25,26,25,25,25,25; plugins/access/string_equal.inc:24,24,25,25,24,24,24,24,25,24,24,24,24
+msgid "Operator"
+msgstr "Оператор"
+
+#: plugins/export_ui/ctools_export_ui.class.php:280,291,293,264,292,291,292,291,291,299,299,291,293,291,299,291,299; page_manager/page_manager.admin.inc:290,292,283,283,282,292,282,292,292,292,283,296,296,282,296,282
+msgid "Order"
+msgstr "Положение"
+
+#: plugins/content_types/node_context/node_content.inc:188,189,189,188,189,188,188; plugins/content_types/node/node.inc:175,175,174,174,175,174,174
+msgid "Teaser"
+msgstr "Краткое содержание"
+
+#: ctools.install:18,18,18,27,27,26,26,18,18,18,27,18,26,18,26; plugins/access/context_exists.inc:25,25,25,26,26,25,25,25,26,25,25,25,25
+msgid "Exists"
+msgstr "Существует"
+
+#: stylizer/plugins/export_ui/stylizer.inc:14,14,15,15,14,14,14,14,15,14,14,14,14; includes/stylizer.inc:1317,1317,1314,1314,1313,1317,1313,1317,1316,1316,1316,1314,1316,1313,1316,1313
+msgid "Style"
+msgstr "Стиль"
+
+#: plugins/access/node_access.inc:31,31,31,32,32,31,31,31,32,31,31,31,31; includes/context.theme.inc:94,94,82,82,81,94,81,94,94,94,82,94,81,94,81
+msgid "Operation"
+msgstr "Действие"
+
+#: views_content/plugins/views/views_content_plugin_display_panel_pane.inc:80,84,84,81,81,84,80,84,84,84,81,84,80,84,80; views_content/plugins/views/views_content_plugin_display_ctools_context.inc:106,118,118,107,107,118,106,118,118,118,107,118,106,118,106
+msgid "Admin title"
+msgstr "Административный заголовок"
+
+#: plugins/content_types/custom/custom.inc:322,322,301,321,320,322,320,333,331,333,331,339,342,342,342,321,342,331,342,331; page_manager/plugins/tasks/page.admin.inc:398,398,395,395,394,398,394,398,398,398,395,398,394,398,394
+msgid "Machine name"
+msgstr "Машинное имя"
+
+#: views_content/plugins/content_types/views_row.inc:128,128,113,111,112,128,112,128,143,137,106,138,106,113,106,106; views_content/plugins/content_types/views.inc:246,246,247,247,246,246,246,246,250,247,250,246,250,246
+msgid "Display"
+msgstr "Показать"
+
+#: plugins/content_types/node_context/node_title.inc:9,9,9,10,10,9,9,9,10,9,9,9,9; plugins/contexts/node.inc:168,168,168,168,168,168
+msgid "Node title"
+msgstr "Заголовок материала"
+
+#: plugins/content_types/node_context/node_updated.inc:47,47,47,49,49,48,48,47,52,52,52,49,52,48,52,48; plugins/content_types/node_context/node_created.inc:47,47,47,49,49,48,48,47,51,51,51,49,51,48,51,48
+msgid "Date format"
+msgstr "Формат даты"
+
+#: plugins/relationships/term_parent.inc:16,16,16,17,17,16,16,16,17,16,16,16,16; plugins/content_types/term_context/term_list.inc:12,12,12,13,13,12,12,12,13,12,12,12,12; plugins/content_types/term_context/term_description.inc:12,12,12,13,13,12,12,12,13,12,12,12,12; plugins/access/term_parent.inc:21,21,22,22,21,21,21,21,22,21,21,21,21; plugins/access/term.inc:21,21,22,22,21,21,21,21,22,21,21,21,21; plugins/access/term_has_parent.inc:20,20,20,19,19,19,19,19
+msgid "Term"
+msgstr "Термин"
+
+#: plugins/contexts/vocabulary.inc:59,57,59,56,56,55,55,59,60,60,60,56,60,55,60,55; plugins/content_types/node_context/node_terms.inc:136,122,136,123,123,122,132,122,132,142,142,142,123,142,122,142,122; plugins/relationships/terms_from_node.inc:58,58,58,58,57,58,57,65,65,65,65,65,57,65,57; plugins/relationships/term_from_node.inc:51,51,51,51,50,51,50,51,51,51,51,50,51,50; plugins/contexts/term.inc:64,66,70,69,69,66,69,66,66,66,70,66,69,66,69; plugins/content_types/vocabulary_context/vocabulary_terms.inc:14,13,14,13,15,14,15,14,13,14,13,14,13,14,13,14,15,13,14,13,14,13,14,13,14; plugins/access/term_vocabulary.inc:20,20,21,21,20,20,20,20,21,20,20,20,20; plugins/access/term_parent.inc:39,39,40,40,39,39,39,39,40,39,39,39,39; plugins/access/term.inc:39,39,40,40,39,39,39,39,40,39,39,39,39; plugins/access/term_has_parent.inc:38,38,38,37,37,37,37,37
+msgid "Vocabulary"
+msgstr "Словарь"
+
+#: page_manager/page_manager.admin.inc:304,302,304,295,295,294,294,304,304,304,295,308,308,294,308,294; plugins/export_ui/ctools_export_ui.class.php:291,302,304,275,303,302,303,302,302,310,310,302,304,302,310,302,310
+msgid "Apply"
+msgstr "Применить"
+
+#: ctools.module:764; includes/stylizer.inc:1699,1698,1698,1699,1698,1698
+msgid "security"
+msgstr "безопасность"
+
+#: plugins/content_types/search/search_result.inc:13,13,13,14,14,13,13,13,14,13,13,13,13; plugins/content_types/search/search_form.inc:13,13,13,14,14,13,13,13,14,13,13,13,13; page_manager/plugins/tasks/search.inc:221,222,154,222,222,154,221,154,155,158,158,158,222,158,221,158,221
+msgid "Keywords"
+msgstr "Ключевые слова"
+
+#: views_content/plugins/content_types/views_panes.inc:435,430,435,431,422,430,430,435,436,436,436,431,425,425,430,425,430; views_content/plugins/content_types/views.inc:344,343,343,343,342,343,342,343,343,343,347,347,342,347,342
+msgid "Pager ID"
+msgstr "ID Навигатора"
+
+#: views_content/plugins/views/views_content_plugin_display_panel_pane.inc:143,139,143,143,140,140,139,143,143,143,140,143,139,143,139; includes/stylizer.inc:1440,1294,1436,1440,1350,1294,1440,1350,1294,1437,1347,1291,1291,1347,1437,1290,1346,1350,1290,1346,1436,1294,1350,1440,1293,1349,1439,1293,1349,1439,1293,1349,1439,1291,1347,1437,1293,1349,1439,1290,1346,1436,1293,1349,1439,1290,1346,1436
+msgid "None"
+msgstr "Нет"
+
+#: plugins/export_ui/ctools_export_ui.class.php:282,293,295,266,294,293,294,293,293,301,301,293,295,293,301,293,301; page_manager/page_manager.admin.inc:292,294,285,285,284,294,284,294,294,294,285,298,298,284,298,284
+msgid "Up"
+msgstr "Вверх"
+
+#: page_manager/page_manager.admin.inc:721,723,719,725,721,711,707,713,717,712,716,725,712,716,721,725,723,727,723,727,723,727,713,717,731,727,731,712,716,727,731,712,716; plugins/access/node_access.inc:36,36,36,37,37,36,36,36,37,36,36,36,36; includes/export-ui.inc:110,96,96,106,111,96,110,96,97,97,97,111,98,98,110,98,110; plugins/export_ui/ctools_export_ui.class.php:1037,1056,1048,1019,1050,1056,1050,1056,1079,1081,1081,1057,1057,1081,1048,1089,1089,1057,1089,1057; page_manager/plugins/tasks/page.inc:195,195,196,196,195,195,196,196,196,196,196,195,196,195; page_manager/plugins/tasks/page.admin.inc:1505,1501,1522,1476,1475,1501,1475,1501,1501,1500,1501,1476,1500,1475,1500,1475
+msgid "Delete"
+msgstr "Удалить"
+
+#: views_content/plugins/content_types/views.inc:91,91,92,92,91,91,91,91,92,91,91,91,91; views_content/views_content.module:56,56,57,61,56,56,56,56,57,56,56,56,56
+msgid "Views"
+msgstr "Представления"
+
+#: ctools_access_ruleset/ctools_access_ruleset.module:60,60,60,58,58,57,57,60,60,60,58,60,57,60,57; views_content/plugins/views/views_content_plugin_display_panel_pane.inc:130,134,134,131,131,134,130,134,134,134,131,134,130,134,130; page_manager/plugins/tasks/page.inc:685,676,639,597,676,639,597,686,650,608,608,650,686,607,649,597,639,676,607,649,685,596,638,675,606,648,684,596,638,675,606,648,684,597,639,676,597,639,676,608,650,686,597,639,676,606,648,684,597,639,676,606,648,684; views_content/plugins/views/views_content_plugin_display_ctools_context.inc:131,131,131,131,131,131,131,131; stylizer/stylizer.module:79,79,65,65,64,79,64,79,79,79,65,79,64,79,64; plugins/content_types/custom/custom.inc:24,24,24,25,24,24,24,24,25,24,24,24,24; page_manager/plugins/task_handlers/http_response.inc:173,166,173,166,172,179,166,173,166,173,166,173,166,173,172,179,166,173,166,173,166,173,166,173,167,174; page_manager/page_manager.module:114,115,86,86,85,115,85,115,115,115,86,115,85,115,85; page_manager/page_manager.admin.inc:199,199,192,192,191,199,191,199,199,199,192,203,203,191,203,191; includes/export-ui.inc:92,92,102,107,106,92,106,92,93,93,93,107,94,94,106,94,106; ctools_custom_content/ctools_custom_content.module:73,73,71,71,70,73,70,73,73,73,71,73,70,73,70; plugins/export_ui/ctools_export_ui.class.php:1203
+msgid "Edit"
+msgstr "Редактировать"
+
+#: page_manager/plugins/tasks/term_view.inc:255,266,277,256,256,277,255,277,278,282,282,282,256,282,255,282,255,328; page_manager/plugins/tasks/page.inc:687,678,171,678,171,688,172,172,688,171,678,687,677,686,171,677,686,172,172,678,172,678,172,688,172,678,171,686,172,678,171,686; page_manager/plugins/tasks/page.admin.inc:711,710,700,705,704,710,704,710,710,710,705,710,704,710,704
+msgid "Menu"
+msgstr "Меню"
+
+#: page_manager/page_manager.admin.inc:732,735,730,541,534,207,737,732,543,536,207,722,717,534,528,200,200,528,535,724,729,199,527,534,723,728,207,536,543,737,199,527,534,723,728,207,536,543,732,737,538,545,734,739,207,538,545,734,739,207,538,545,734,739,200,528,535,724,729,211,542,549,738,743,211,542,549,738,743,199,527,534,723,728,211,542,549,738,743,199,527,534,723,728; page_manager/plugins/tasks/page.inc:572,572,583,583,582,572,582,571,581,571,581,572,572,583,572,581,572,581; page_manager/plugins/task_handlers/http_response.inc:152,152,158,152,152,152,152,158,152,152,152,152,153; includes/export-ui.inc:93,93,103,108,107,93,107,93,94,94,94,108,95,95,107,95,107
+msgid "Enable"
+msgstr "Включить"
+
+#: ctools.module:750; includes/stylizer.inc:1685,1684,1684,1685,1684,1684
+msgid "file system"
+msgstr "файловая система"
+
+#: plugins/access/role.inc:29,29,29,30,30,29,29,29,30,29,29,29,29; ctools_plugin_example/plugins/access/example_role.inc:30,30,30,31,31,30,30,30,31,30,30,30,30
+msgid "Role"
+msgstr "Роль"
+
+#: page_manager/page_manager.admin.inc:710,713,708,715,710,701,697,702,707,701,706,715,701,706,710,715,712,717,712,717,712,717,702,707,716,721,716,721,701,706,716,721,701,706; plugins/export_ui/ctools_export_ui.class.php:1037,1056,1048,1019,1050,1056,1050,1056,1079,1081,1081,1057,1057,1081,1048,1089,1089,1057,1089,1057; page_manager/plugins/tasks/page.inc:188,188,189,189,188,188,189,189,189,189,189,188,189,188; page_manager/plugins/tasks/page.admin.inc:1505,1501,1522,1476,1475,1501,1475,1501,1501,1500,1501,1476,1500,1475,1500,1475; includes/export-ui.inc:95,95,105,110,109,95,109,95,96,96,96,110,97,97,109,97,109
+msgid "Revert"
+msgstr "Удалить"
+
+#: plugins/contexts/node_add_form.inc:20,91,21,91,21,101,21,101,21,100,21,91,20,100,102,21,102,102,21,102,21,102,101,21,102,20,102,21,102,20,102; plugins/access/node_type.inc:34,34,34,35,35,34,34,34,35,34,34,34,34; plugins/contexts/node.inc:170,170,170,170,170,170
+msgid "Node type"
+msgstr "Тип материала"
+
+#: plugins/content_types/node_context/node_comment_form.inc:25,25,26,26,25,25,25,25,26,25,25,25,25; plugins/content_types/comment/comment_reply_form.inc:32
+msgid "Add comment"
+msgstr "Добавить комментарий"
+
+#: plugins/access/term.inc:61,61,62,62,61,61,61,61,62,61,61,61,61; plugins/access/term_has_parent.inc:60,60,60,59,59,59,59,59; plugins/content_types/node_context/node_terms.inc:102,102,112,112,112,112,112
+msgid "Terms"
+msgstr "Термины"
+
+#: plugins/relationships/user_from_node.inc:16,16,16,17,17,16,16,16,17,16,16,16,16; plugins/relationships/node_edit_form_from_node.inc:16,16,16,17,17,16,16,16,17,16,16,16,16; plugins/relationships/book_parent.inc:16,16,16,17,17,16,16,16,17,16,16,16,16; plugins/contexts/node.inc:15,15,15,16,16,15,15,15,16,15,15,15,15; plugins/content_types/node_context/node_type_desc.inc:13,13,12,13,12,14,13,13,14,12,12,13,12,13,12,13,14,12,13,12,13,12,13,12,13; plugins/content_types/node_context/node_created.inc:13,12,13,12,13,12,14,13,13,14,12,13,12,13,12,13,14,12,13,12,13,12,13,12,13; plugins/content_types/node_context/node_comment_form.inc:13,14,13,14,13,15,14,14,15,14,13,14,13,14,13,14,15,13,14,13,14,13,14,13,14; plugins/content_types/node/node.inc:14,14,14,15,15,14,14,14,15,14,14,14,14; plugins/access/node_type.inc:20,20,20,21,21,20,20,20,21,20,20,20,20; plugins/access/node_language.inc:21,21,21,22,22,21,21,21,22,21,21,21,21; plugins/access/node_access.inc:22,22,22,23,23,22,22,22,23,22,22,22,22; plugins/relationships/terms_from_node.inc:16,16,17,17,16,16,16,16,17,16,16,16,16; plugins/relationships/term_from_node.inc:16,16,17,17,16,16,16,16,17,16,16,16,16; plugins/content_types/node_context/node_updated.inc:13,12,13,12,14,13,13,14,12,13,12,13,12,13,12,13,14,12,13,12,13,12,13,12,13; plugins/content_types/node_context/node_title.inc:13,12,13,12,14,13,13,14,12,13,12,13,12,13,12,13,14,12,13,12,13,12,13,12,13; plugins/content_types/node_context/node_terms.inc:13,12,13,12,14,13,13,14,12,13,12,13,12,13,12,13,14,12,13,12,13,12,13,12,13; plugins/content_types/node_context/node_links.inc:13,12,13,12,14,13,13,14,12,13,12,13,12,13,12,13,14,12,13,12,13,12,13,12,13; plugins/content_types/node_context/node_content.inc:13,12,13,12,14,13,13,14,12,13,12,13,12,13,12,13,14,12,13,12,13,12,13,12,13; plugins/content_types/node_context/node_comments.inc:14,13,14,13,15,14,14,15,13,14,13,14,13,14,13,14,15,13,14,13,14,13,14,13,14; plugins/content_types/node_context/node_book_nav.inc:14,13,14,13,15,14,14,15,13,14,13,14,13,14,13,14,15,13,14,13,14,13,14,13,14; plugins/content_types/node_context/node_book_children.inc:14,13,14,13,14,13,13,14,13,14,13,14,13,14,13,14,13,14,13,14,13,14,13,14; plugins/content_types/node_context/node_body.inc:13,12,13,12,14,13,13,14,12,13,12,13,12,13,12,13,14,12,13,12,13,12,13,12,13; plugins/content_types/node_context/node_author.inc:13,12,13,12,14,13,13,14,12,13,12,13,12,13,12,13,14,12,13,12,13,12,13,12,13; plugins/content_types/node_context/node_attachments.inc:13,12,13,12,14,13,13,14,12,13,12,13,12,13,12,13,14,12,13,12,13,12,13,12,13; plugins/access/node_status.inc:17,17,17,17,17; plugins/content_types/comment/comment_reply_form.inc:17
+msgid "Node"
+msgstr "Материал"
+
+#: includes/stylizer.inc:1446,1450,1450,1447,1447,1450,1446,1450,1449,1449,1449,1447,1449,1446,1449,1446; stylizer/plugins/export_ui/stylizer.inc:13,13,14,14,13,13,13,13,14,13,13,13,13
+msgid "style"
+msgstr ""
+
+#: plugins/export_ui/ctools_export_ui.class.php:273,284,286,257,285,284,285,284,284,292,292,284,286,284,292,284,292; page_manager/page_manager.admin.inc:276,278,269,269,268,278,268,278,278,278,269,282,282,268,282,268
+msgid "Sort by"
+msgstr "Сортировать по"
+
+#: plugins/contexts/node_edit_form.inc:111,102,102,112,112,102,111,105,115,105,115,105,105,112,105,115,105,115; plugins/contexts/node.inc:82,84,90,90,90,84,90,84,86,85,85,85,85,90,85,90; plugins/contexts/entity.inc:125,122,119,125,122,119,119,122,125,118,121,124,118,121,124,128,123,126,129,123,126,129,123,126,129,123,126,129,123,126,129; plugins/contexts/user_edit_form.inc:102,102,99,99,99,99,112
+msgid "Open in new window"
+msgstr "Открыть в новом окне"
+
+#: plugins/content_types/node_form/node_form_title.inc:13,12,13,12,12,13,12,13,12,13,12,13,12,13; plugins/content_types/form/entity_form_field.inc:42,42,42,42,42,42,42,42; plugins/content_types/node_form/node_form_taxonomy.inc:14,13,15,14,15,14,15,13,14,13,14; plugins/content_types/node_form/node_form_publishing.inc:19,18,19,18,19,18,20,19,20,19,18,19,18,19,18,19,20,18,19,18,19,18,19,18,19; plugins/content_types/node_form/node_form_path.inc:14,13,14,13,14,13,15,14,15,14,13,14,13,14,13,14,15,13,14,13,14,13,14,13,14; plugins/content_types/node_form/node_form_menu.inc:14,13,14,13,14,13,15,14,15,14,13,14,13,14,13,14,15,13,14,13,14,13,14,13,14; plugins/content_types/node_form/node_form_log.inc:13,12,13,12,13,12,14,13,14,13,12,13,12,13,12,13,14,12,13,12,13,12,13,12,13; plugins/content_types/node_form/node_form_input_format.inc:13,12,14,13,14,13,14,12,13,12,13; plugins/content_types/node_form/node_form_comment.inc:14,13,14,13,14,13,15,14,15,14,13,14,13,14,13,14,15,13,14,13,14,13,14,13,14; plugins/content_types/node_form/node_form_buttons.inc:13,12,13,12,13,12,14,13,14,13,12,13,12,13,12,13,14,12,13,12,13,12,13,12,13; plugins/content_types/node_form/node_form_book.inc:14,13,14,13,14,13,15,14,15,14,13,14,13,14,13,14,15,13,14,13,14,13,14,13,14; plugins/content_types/node_form/node_form_author.inc:13,12,13,12,13,12,14,13,14,13,12,13,12,13,12,13,14,12,13,12,13,12,13,12,13; plugins/content_types/node_form/node_form_attachments.inc:14,13,14,13,14,13,15,14,15,14,13,14,13,14,13,14,15,13,14,13,14,13,14,13,14; plugins/content_types/form/form.inc:37,15,14,37,15,14,41,16,15,15,16,41,14,15,40,37,40,14,15,37,46,14,15,46,14,15,46,16,41,14,15,46,14,15,40,14,15,46,14,15,40; plugins/content_types/node_form/node_form_language.inc:12,13
+msgid "Form"
+msgstr "Форма"
+
+#: plugins/content_types/page/page_title.inc:59,59,59,60,60,59,59,59,60,59,59,59,59; plugins/content_types/node_context/node_title.inc:69
+msgid "Title tag"
+msgstr ""
+
+#: plugins/arguments/term.inc:83,84,88,84,84,88,83,88,92,92,92,84,92,83,92,83; plugins/contexts/term.inc:25,25,24,24,23,25,23,25,25,25,24,25,23,25,23
+msgid "Term ID"
+msgstr "ID термина"
+
+#: plugins/content_types/page/page_breadcrumb.inc:14,14,14,15,15,14,14,14,15,14,14,14,14; page_manager/plugins/tasks/term_view.inc:281,292,303,282,282,303,281,303,304,308,308,308,282,308,281,308,281,354
+msgid "Breadcrumb"
+msgstr "\"Хлебные крошки\""
+
+#: plugins/content_types/block/block.inc:278,274,278,274,278,274,379,304,300,300,304,379,299,303,378,299,303,378,274,278,316,320,324,260,264,260,264,260,264,300,304,379,314,318,260,264,299,303,378,314,318,322,299,303,378,323,327; plugins/content_types/custom/custom.inc:86,86,85,87,86,86,89,89,89,87,89,86,89,86
+msgid "Miscellaneous"
+msgstr "Разное"
+
+#: plugins/content_types/search/search_form.inc:101,102,97,102,102,97,101,97,97,97,102,97,101,97,101; plugins/cache/simple.inc:11,11,11,11,11,11,11,11
+msgid "Simple"
+msgstr "Простой"
+
+#: plugins/relationships/user_from_node.inc:13,13,14,14,13,13,13,13,14,13,13,13,13; plugins/content_types/node_context/node_author.inc:9,9,10,10,9,9,9,9,10,9,9,9,9; ctools.module:815
+msgid "Node author"
+msgstr "Автор материала"
+
+#: includes/context-admin.inc:879,681,702,620,708,770,880,620,708,770,880,619,707,769,702,619,707,769,879,702,716,716,716,620,708,770,880,716,619,707,769,879,716,619,707,769,879; views_content/plugins/content_types/views_panes.inc:483,488,489,480,488,488,489,489,489,489,478,478,488,478,488; plugins/content_types/custom/custom.inc:302,302,281,301,300,302,300,313,311,313,311,319,322,322,322,301,322,311,322,311
+msgid "Keyword"
+msgstr "Ключевое слово"
+
+#: plugins/relationships/entity_from_schema.inc:13,13,13,13,13,13,13,13; plugins/relationships/entity_from_field.inc:13,13,13,13,13,13,13,13; plugins/contexts/entity.inc:15,15,15,15,15,15,15,15
+msgid "Entity"
+msgstr "Материал"
+
+#: plugins/relationships/term_parent.inc:62,62,61,61,60,62,60,62,62,62,61,62,60,62,60; plugins/relationships/book_parent.inc:60,60,58,58,57,60,57,60,60,60,58,60,57,60,57
+msgid "Relationship type"
+msgstr "Тип отношений"
+
+#: page_manager/page_manager.module:714,723,657,657,656,723,656,723,723,723,657,722,760,722,656,760,656; includes/export.inc:924,265,1108,265,264,931,264,923,263,932,265,1108,263,932,1113,937,265,1113,295,1144,937,1145,1153,295,1153,295,1153,264,923,1158,295,1153,263,937,295,1158,263,937
+msgid "Local"
+msgstr ""
+
+#: plugins/content_types/node_context/node_comment_form.inc:55,55,55,50,50,49,49,55,55,55,50,55,49,55,49; plugins/content_types/comment/comment_reply_form.inc:42
+msgid "\"@s\" comment form"
+msgstr ""
+
+#: plugins/content_types/node_context/node_content.inc:41,41,41,43,43,42,42,41,41,41,43,41,42,41,42; plugins/content_types/node_context/node_links.inc:39,39,40,40,39,39,39,39,40,39,39,39,39
+msgid "Node title."
+msgstr "Заголовок материала."
+
+#: plugins/content_types/node/node.inc:70,71,71,70,71,70,70; plugins/content_types/node_context/node_content.inc:60,60,59,59,60,59,59
+msgid "Edit node"
+msgstr "Редактировать материал"
+
+#: plugins/content_types/node/node.inc:71,72,72,71,72,71,71; plugins/content_types/node_context/node_content.inc:61,61,60,60,61,60,60
+msgid "Edit this node"
+msgstr "Редактировать этот материал"
+
+#: plugins/content_types/node_context/node_links.inc:65,76,65,65,77,77,76,65,65,65,77,65,76,65,76; plugins/content_types/node_context/node_content.inc:152,151,152,145,145,144,144,152,153,152,152,145,152,144,152,144
+msgid "Link title to node"
+msgstr ""
+
+#: plugins/content_types/node_context/node_links.inc:68,68,68,80,80,79,79,68,68,68,80,68,79,68,79; plugins/content_types/node_context/node_content.inc:155,147,154,155,148,148,147,155,156,155,155,148,155,147,155,147; plugins/content_types/node_context/node_title.inc:53,53,54,54,53,53,53,53,54,53,53,53,53,100
+msgid "Check here to make the title link to the node."
+msgstr ""
+
+#: plugins/content_types/node_context/node_links.inc:88,91,88,88,92,92,91,88,88,88,92,88,91,88,91; includes/context-admin.inc:674,695,613,701,763,873,613,701,763,873,612,700,762,872,695,612,700,762,872,695,709,709,709,613,701,763,873,709,612,700,762,872,709,612,700,762,872
+msgid "Identifier"
+msgstr "Идентификатор"
+
+#: plugins/content_types/node_form/node_form_publishing.inc:17,17,17,18,18,17,17,17,18,17,17,17,17; plugins/content_types/node_form/node_form_path.inc:12,12,12,13,13,12,12,12,13,12,12,12,12
+msgid "Publishing options on the Node form."
+msgstr ""
+
+#: plugins/content_types/term_context/term_list.inc:65,66,84,66,66,84,65,84,84,84,86,66,86,65,86,65; plugins/content_types/term_context/term_description.inc:36,36,36,37,37,36,36,36,37,36,36,36,36
+msgid "Term description goes here."
+msgstr ""
+
+#: plugins/content_types/node_context/node_terms.inc:198,185,186,198,186,186,194,185,194,204,204,204,186,204,185,204,185; plugins/content_types/vocabulary_context/vocabulary_terms.inc:64,64,65,65,64,64,71,71,71,65,71,64,71,64
+msgid "\"@s\" terms"
+msgstr ""
+
+#: plugins/contexts/node_edit_form.inc:137,123,128,138,138,128,137,131,141,131,141,131,131,138,131,141,131,141; plugins/contexts/node.inc:116,108,110,116,116,110,116,110,112,111,111,111,111,116,111,116
+msgid "You must select a node."
+msgstr "Вы должны выбрать материал."
+
+#: ctools_access_ruleset/plugins/export_ui/ctools_access_ruleset.inc:24,24,24,28,28,27,27,24,24,24,28,24,27,24,27; page_manager/plugins/task_handlers/http_response.inc:77,65,43,77,65,43,44,66,78,43,65,77,43,65,77,43,65,77,43,65,77,44,66,78,43,65,77,43,65,77,43,65,77,43,65,77; includes/context-admin.inc:45,45,48,48,47,45,47,45,45,45,48,45,47,45,47
+msgid "Contexts"
+msgstr "Контексты"
+
+#: ctools_ajax_sample/ctools_ajax_sample.module:138,138,138,108,107,107,138,138,138,108,138,107,138,107; includes/modal.inc:55,52,61,52,61,52,54,53,56,61,55,52,61,52,61,50,59,50,59,53,56,50,59,52,55,50,59,52,55; js/modal.js:0
+msgid "Loading..."
+msgstr "Загрузка..."
+
+#: ctools_ajax_sample/ctools_ajax_sample.module:138,138,138,108,107,107,138,138,138,108,138,107,138,107; includes/modal.inc:62,62,54,56,55,62,55,62,62,60,60,56,60,55,60,55
+msgid "Loading"
+msgstr "Загрузка"
+
+#: includes/context.inc:195,194,399,195,194,406,202,201,195,196,400,195,196,400,399,201,202,406,194,195,399,201,202,406,212,213,417,212,213,417,212,213,417,196,400,212,213,417,194,195,399,212,213,417,194,195,399; page_manager/plugins/tasks/page.admin.inc:1188,1168,1184,1164,1163,1143,1148,1168,1147,1167,1164,1184,1147,1167,1164,1184,1164,1184,1163,1183,1164,1184,1148,1168,1163,1183,1147,1167,1163,1183,1147,1167
+msgid "No context"
+msgstr "Нет контекста"
+
+#: views_content/plugins/views/views_content.views.inc:46,41,29,44,28,46,30,29,47,42,30,45,29,30,41,29,30,46,31,48,30,31,48,30,31,48,42,47,30,31,48,29,41,46,30,31,48,29,41,46; plugins/access/context_exists.inc:14,14,14,15,15,14,14,14,15,14,14,14,14; page_manager/plugins/task_handlers/http_response.inc:48,48,49,48,48,48,48,49,48,48,48,48; includes/context.inc:417,310,424,317,311,418,311,418,310,417,317,424,310,417,317,424,328,435,328,435,328,435,311,418,328,435,310,417,328,435,310,417
+msgid "Context"
+msgstr "Контекст"
+
+#: page_manager/plugins/task_handlers/http_response.inc:184,184,184,190,184,184,184,190,184,184,185; page_manager/page_manager.install:223,223,222,223,222,222
+msgid "Panel"
+msgstr "Панель"
+
+#: plugins/content_types/node_context/node_content.inc:147,146,147,140,140,139,139,147,148,147,147,140,147,139,147,139; plugins/content_types/node/node.inc:114,117,104,114,118,118,117,114,114,114,118,114,117,114,117
+msgid "Leave node title"
+msgstr ""
+
+#: plugins/content_types/node_context/node_content.inc:148,147,148,141,141,140,140,148,149,148,148,141,148,140,148,140; plugins/content_types/node/node.inc:115,118,105,115,119,119,118,115,115,115,119,115,118,115,118
+msgid ""
+"Advanced: if checked, do not touch the node title; this can cause the "
+"node title to appear twice unless your theme is aware of this."
+msgstr ""
+
+#: views_content/plugins/views/views_content_plugin_display_panel_pane.inc:253,257,260,254,254,260,253,260,260,260,254,260,253,260,253; views_content/plugins/views/views_content_plugin_display_ctools_context.inc:183,186,186,186,186,186,186,186
+msgid "No argument"
+msgstr "Нет аргументов"
+
+#: views_content/plugins/views/views_content_plugin_display_panel_pane.inc:255,259,262,256,256,262,255,262,262,262,256,262,255,262,255; views_content/plugins/views/views_content_plugin_display_ctools_context.inc:184,187,187,187,187,187,187,187
+msgid "From context"
+msgstr ""
+
+#: views_content/plugins/views/views_content_plugin_display_panel_pane.inc:267,271,273,268,268,273,267,273,273,273,268,273,267,273,267; views_content/plugins/views/views_content_plugin_display_ctools_context.inc:193,196,196,196,196,196,196,196
+msgid "Required context"
+msgstr ""
+
+#: views_content/plugins/content_types/views_panes.inc:427,422,427,423,414,422,422,427,428,428,428,423,417,417,422,417,422; views_content/plugins/views/views_content_plugin_display_panel_pane.inc:158,162,162,159,159,162,158,162,162,162,159,162,158,162,158; views_content/plugins/content_types/views.inc:335,335,334,334,333,335,333,335,335,335,339,334,339,333,339,333
+msgid "Use pager"
+msgstr "Постранично"
+
+#: views_content/plugins/content_types/views_panes.inc:450,455,452,443,451,455,451,455,456,456,456,452,445,445,451,445,451; views_content/plugins/content_types/views.inc:365,362,364,364,363,362,363,362,362,362,366,364,366,363,366,363
+msgid "Offset"
+msgstr "Пропустить"
+
+#: views_content/plugins/content_types/views_panes.inc:397,392,397,393,384,392,392,397,398,398,398,393,387,387,392,387,392; views_content/plugins/content_types/views.inc:308,310,310,309,309,310,308,310,310,310,314,309,314,308,314,308
+msgid "Display feed icons"
+msgstr ""
+
+#: views_content/plugins/content_types/views_panes.inc:560,565,566,557,565,565,566,569,569,569,566,579,568,568,565,568,565; views_content/plugins/content_types/views.inc:430,416,426,412,429,415,429,415,414,428,412,426,414,428,412,426,412,426,412,426,416,430,415,429,416,430,414,428,416,430,414,428
+msgid "Deleted/missing view @view"
+msgstr ""
+
+#: plugins/relationships/term_parent.inc:63,63,62,62,61,63,61,63,63,63,62,63,61,63,61; plugins/relationships/book_parent.inc:61,61,59,59,58,61,58,61,61,61,59,61,58,61,58
+msgid "Immediate parent"
+msgstr ""
+
+#: plugins/export_ui/ctools_export_ui.class.php:486,564,490,259,546,473,247,563,486,258,562,489,260,533,460,231,258,563,259,490,564,258,486,563,488,565,258,488,565,266,497,571,266,497,571,258,488,565,260,489,562,450,573,258,450,573,266,497,571,258,450,573,266,497,571; stylizer/plugins/export_ui/stylizer_ui.class.php:161,163,70,163,70,162,71,159,68,70,163,161,70,163,70,163,70,163,71,162,70,163,70,161,70,163,70,161; page_manager/plugins/tasks/page.inc:566,45,566,45,577,46,46,577,45,576,566,576,565,575,45,565,575,46,46,566,46,566,46,577,46,566,45,575,46,566,45,575; page_manager/plugins/task_handlers/http_response.inc:146,146,152,146,146,146,146,152,146,146,146,146,147; page_manager/page_manager.admin.inc:283,257,97,285,259,97,276,250,92,92,250,276,91,249,275,97,259,285,91,249,275,97,259,285,97,259,285,97,259,285,92,250,276,101,263,289,101,263,289,91,249,275,101,263,289,91,249,275; ctools_custom_content/plugins/export_ui/ctools_custom_content_ui.class.php:77,77,79,79,78,77,78,77,82,82,82,79,82,78,82,78
+msgid "Storage"
+msgstr "Хранилище"
+
+#: plugins/content_types/node_context/node_content.inc:189,190,190,189,190,189,189; plugins/content_types/node/node.inc:176,176,175,175,176,175,175
+msgid "Full node"
+msgstr "Материал полностью"
+
+#: page_manager/plugins/tasks/page.admin.inc:740,688,740,688,668,673,672,688,672,688,740,688,740,688,740,673,688,740,672,688,740,672; page_manager/plugins/tasks/term_view.inc:252,263,274,253,253,274,252,274,275,279,279,279,253,279,252,279,252,325; page_manager/plugins/tasks/page.inc:682,673,673,683,683,673,682,672,681,672,681,673,673,683,673,681,673,681
+msgid "No menu entry"
+msgstr "Без пункта меню"
+
+#: plugins/access/compare_users.inc:40,40,40,41,41,40,40,40,41,40,40,40,40; plugins/access/string_equal.inc:26,26,27,27,26,26,26,26,27,26,26,26,26
+msgid "Equal"
+msgstr "Равный"
+
+#: plugins/contexts/user.inc:121,115,116,121,116,115,115,121,121,121,116,121,115,121,115; plugins/contexts/user_edit_form.inc:128,128,125,125,125,125,138
+msgid "You must select a user."
+msgstr ""
+
+#: plugins/contexts/user.inc:91,84,85,91,85,84,84,91,91,91,85,91,84,91,84; plugins/contexts/node_edit_form.inc:112,103,103,113,113,103,112,106,116,106,116,106,106,113,106,116,106,116; plugins/contexts/node.inc:83,85,91,91,91,85,91,85,87,86,86,86,86,91,86,91; plugins/contexts/entity.inc:130,130,130,129,129,133,134,134,134,134,134; plugins/contexts/user_edit_form.inc:103,103,100,100,100,100,113
+msgid "Currently set to !link"
+msgstr "Сейчас установлено на !link"
+
+#: plugins/contexts/node_edit_form.inc:149,155,164,164,163,155,163,158,167,158,167,158,158,164,158,167,158,167; plugins/contexts/node.inc:135,137,143,143,143,137,143,137,139,138,138,138,138,143,138,143
+msgid "Invalid node selected."
+msgstr ""
+
+#: plugins/contexts/vocabulary.inc:63,61,63,62,62,61,61,63,64,64,64,62,64,61,64,61; plugins/contexts/term.inc:67,69,73,72,72,69,72,69,69,69,73,69,72,69,72; plugins/access/term.inc:42,42,43,43,42,42,42,42,43,42,42,42,42; plugins/access/term_has_parent.inc:41,41,41,40,40,40,40,40
+msgid "Select the vocabulary for this form."
+msgstr ""
+
+#: plugins/content_types/block/block.inc:343,338,414,380,361,343,338,414,380,361,343,338,421,411,387,369,364,364,369,387,411,421,363,368,386,410,420,361,380,414,363,368,386,410,420,338,343,361,380,414,385,403,422,456,384,389,407,426,460,324,329,369,392,324,329,369,392,426,324,329,369,392,426,364,369,387,411,421,378,383,423,446,480,324,329,369,392,426,363,368,386,410,420,378,383,423,446,480,382,387,427,450,484,363,368,386,410,420,432,455,489; plugins/content_types/search/search_result.inc:14,14,14,15,15,14,14,14,15,14,14,14,14; plugins/content_types/search/search_form.inc:14,14,14,15,15,14,14,14,15,14,14,14,14; plugins/content_types/contact/contact.inc:13,13,14,14,13,13,13,13,14,13,13,13,13; views_content/views_content.module:56
+msgid "Widgets"
+msgstr "Виджет"
+
+#: plugins/contexts/node_edit_form.inc:124,110,115,125,125,115,124,118,128,118,128,118,118,125,118,128,118,128; plugins/contexts/node.inc:103,95,97,103,103,97,103,97,99,98,98,98,98,103,98,103
+msgid "Reset identifier to node title"
+msgstr ""
+
+#: plugins/contexts/node_edit_form.inc:125,111,116,126,126,116,125,119,129,119,129,119,119,126,119,129,119,129; plugins/contexts/node.inc:104,96,98,104,104,98,104,98,100,99,99,99,99,104,99,104
+msgid ""
+"If checked, the identifier will be reset to the node title of the "
+"selected node."
+msgstr ""
+
+#: includes/context-admin.inc:305,308,354,354,353,308,353,308,308,308,354,308,353,308,353; includes/context-access-admin.inc:205,205,206,206,205,205,205,205,206,205,205,205,205
+msgid "Remove this item."
+msgstr "Удалить элемент."
+
+#: includes/context-admin.inc:309,312,358,358,357,312,357,312,312,312,358,312,357,312,357; includes/context-access-admin.inc:204,204,205,205,204,204,204,204,205,204,204,204,204
+msgid "Configure settings for this item."
+msgstr "Настроить параметры этого элемента."
+
+#: views_content/plugins/views/views_content_plugin_display_panel_pane.inc:71,75,75,72,72,75,71,75,75,75,72,75,71,75,71; views_content/plugins/views/views_content_plugin_display_ctools_context.inc:97,109,109,98,98,109,97,109,109,109,98,109,97,109,97
+msgid "Use view name"
+msgstr ""
+
+#: views_content/plugins/views/views_content_plugin_display_panel_pane.inc:106,106,103,103,102,106,102,106,106,106,103,106,102,106,102; views_content/plugins/content_types/views_panes.inc:101,14,98,14,103,15,94,15,14,102,98,102,14,98,99,14,99,14,99,15,103,14,99,14,102,14,99,14,102
+msgid "View panes"
+msgstr "Представления-Фрагменты"
+
+#: views_content/plugins/views/views_content_plugin_display_ctools_context.inc:124,124,124,124,124,124,124,124; views_content/plugins/views/views_content_plugin_display_panel_pane.inc:127,127,124,124,123,127,123,127,127,127,124,127,123,127,123
+msgid "Use Panel path"
+msgstr ""
+
+#: views_content/plugins/views/views_content_plugin_display_panel_pane.inc:129,133,133,130,130,133,129,133,133,133,130,133,129,133,129; views_content/plugins/views/views_content_plugin_display_ctools_context.inc:130,130,130,130,130,130,130,130
+msgid "Argument input"
+msgstr ""
+
+#: views_content/plugins/views/views_content_plugin_display_ctools_context.inc:147,124,147,147,125,125,124,147,147,147,125,147,124,147,124; page_manager/plugins/tasks/page.admin.inc:1403,1407,391,1403,391,1385,388,388,1390,387,1389,391,387,1389,391,1403,391,1403,1402,391,1403,388,1390,391,1402,387,1389,391,1402,387,1389; views_content/plugins/views/views_content_plugin_display_panel_pane.inc:177,181,181,178,178,181,177,181,181,181,178,181,177,181,177; page_manager/plugins/task_handlers/http_response.inc:222,222,222,228,222,222,222,228,222,222,222,222,223; plugins/export_ui/ctools_export_ui.class.php:982,1001,998,969,1000,1001,1000,1001,1024,1026,1026,1007,1007,1026,998,1034,1034,1007,1034,1007; plugins/content_types/custom/custom.inc:251,251,240,251,250,251,250,262,261,262,261,268,271,271,271,271,261,271,261
+msgid "Administrative title"
+msgstr "Административный заголовок"
+
+#: views_content/plugins/views/views_content_plugin_display_panel_pane.inc:197,187,201,191,201,191,198,188,198,188,191,201,187,197,191,201,191,201,191,201,188,198,191,201,187,197,191,201,187,197; plugins/export_ui/ctools_export_ui.class.php:1013,1032,1024,995,1026,1032,1026,1032,1055,1057,1057,1033,1033,1057,1024,1065,1065,1033,1065,1033; plugins/content_types/custom/custom.inc:338,336,317,337,336,347,347,347,353,356,356,356,337,356,347,356,347; page_manager/plugins/tasks/page.admin.inc:414,414,407,407,406,414,406,414,414,414,407,414,406,414,406
+msgid "Administrative description"
+msgstr "Административное описание"
+
+#: views_content/plugins/views/views_content_plugin_display_panel_pane.inc:225,229,229,226,226,229,225,229,229,229,226,229,225,229,225; views_content/plugins/views/views_content_plugin_display_ctools_context.inc:156,156,156,156,156,156,156,156
+msgid "Inherit path from panel display"
+msgstr ""
+
+#: views_content/plugins/views/views_content_plugin_display_panel_pane.inc:235,231,235,235,232,232,231,235,235,235,232,235,231,235,231; views_content/plugins/views/views_content_plugin_display_ctools_context.inc:162,162,162,162,162,162,162,162
+msgid ""
+"If yes, all links generated by Views, such as more links, summary "
+"links, and exposed input links will go to the panels display path, not "
+"the view, if the display has a path."
+msgstr ""
+
+#: views_content/plugins/views/views_content_plugin_display_panel_pane.inc:240,236,240,240,237,237,236,240,240,240,237,240,236,240,236; views_content/plugins/views/views_content_plugin_display_ctools_context.inc:166,166,166,166,166,166,166,166
+msgid "Choose the data source for view arguments"
+msgstr ""
+
+#: views_content/plugins/views/views_content_plugin_display_panel_pane.inc:268,261,265,268,262,262,261,268,268,268,262,268,261,268,261; views_content/plugins/views/views_content_plugin_display_ctools_context.inc:187,190,190,190,190,190,190,190
+msgid "@arg source"
+msgstr ""
+
+#: plugins/access/string_length.inc:32,32,33,33,32,32,32,32,33,32,32,32,32; ctools_plugin_example/plugins/access/arg_length.inc:29,29,30,30,29,29,29,29,30,29,29,29,29
+msgid "Less than or equal to"
+msgstr "Меньше или равно"
+
+#: plugins/access/node_language.inc:93,31,94,31,94,31,94,32,32,94,94,93,31,94,31,94,31,94,32,31,94,31,93,31,94,31,93; plugins/access/site_language.inc:68,29,68,29,68,30,30,68,29,67,68,67,29,68,29,68,29,68,30,29,68,29,67,29,68,29,67; includes/language.inc:39,39,39,39,39
+msgid "Default site language"
+msgstr "Язык сайта по умолчанию"
+
+#: plugins/contexts/node_edit_form.inc:111,102,102,112,112,102,111,105,115,105,115,105,105,112,105,115,105,115; plugins/contexts/node.inc:90,82,84,90,90,84,90,84,86,85,85,85,85,90,85,90
+msgid "'%title' [node id %nid]"
+msgstr "'%title' [node id %nid]"
+
+#: ctools_custom_content/plugins/export_ui/ctools_custom_content_ui.class.php:50,49,49,51,51,49,50,49,54,54,54,51,54,50,54,50; stylizer/plugins/export_ui/stylizer_ui.class.php:21,21,22,24,21,21,21,21,22,21,21,21,21; plugins/export_ui/ctools_export_ui.class.php:233,244,246,217,245,244,245,244,244,252,252,244,246,244,252,244,252
+msgid "- All -"
+msgstr "- Все -"
+
+#: includes/registry.inc:71,71,71,71,71,71,71,71; includes/plugins.inc:218,218,218,218,219,219,222,222,222,222
+msgid "ctools"
+msgstr ""
+
+#: page_manager/plugins/tasks/page.admin.inc:986,993,986,975,980,979,979,986,986,986,980,986,979,986,979; includes/context-admin.inc:946,721,488,333,742,500,336,381,509,947,381,509,947,380,508,336,500,742,380,508,946,336,500,742,756,336,500,756,336,500,756,381,509,947,336,500,756,380,508,946,336,500,756,380,508,946
+msgid "Invalid object name."
+msgstr "Ошибочное имя объекта"
+
+#: page_manager/plugins/tasks/user_view.inc:117,99,117,117,100,100,99,100,117,100,118,118,118,118,100,118,100; page_manager/plugins/tasks/contact_user.inc:107,111,111,108,108,111,107,111,112,112,112,108,112,107,112,107; page_manager/plugins/tasks/blog_user.inc:108,108,109,109,108,108,109,109,109,109,109,108,109,108
+msgid "User being viewed"
+msgstr ""
+
+#: plugins/contexts/user.inc:75,68,75,68,67,67,67,75,75,75,68,75,67,75,67; includes/context.inc:1357,1366,1338,1349,1348,1366,1348,1366,1383,1394,1394,1394,1349,1394,1348,1394,1348,1405
+msgid "Logged in user"
+msgstr "Текущий пользователь"
+
+#: plugins/access/role.inc:14,14,14,15,15,14,14,14,15,14,14,14,14; ctools_plugin_example/plugins/access/example_role.inc:16,16,17,17,16,16,16,16,17,16,16,16,16
+msgid "Control access by role."
+msgstr ""
+
+#: plugins/access/role.inc:32,32,32,33,33,32,32,32,33,32,32,32,32; ctools_plugin_example/plugins/access/example_role.inc:33,33,33,34,34,33,33,33,34,33,33,33,33
+msgid "Only the checked roles will be granted access."
+msgstr "Доступ получат только указанные роли."
+
+#: ctools_plugin_example/plugins/access/example_role.inc:72,72,72,73,73,72,72,72,73,72,72,72,72; plugins/access/role.inc:74,74,74,74,73,74,73,74,74,74,74,73,74,73
+msgid "@identifier can have any role"
+msgstr ""
+
+#: plugins/content_types/page/page_title.inc:18,18,18,19,19,18,18,18,19,18,18,18,18; plugins/content_types/page/page_tabs.inc:18,18,18,19,19,18,18,18,19,18,18,18,18; plugins/content_types/page/page_slogan.inc:18,18,18,19,19,18,18,18,19,18,18,18,18; plugins/content_types/page/page_site_name.inc:18,18,18,19,19,18,18,18,19,18,18,18,18; plugins/content_types/page/page_secondary_links.inc:18,18,18,19,19,18,18,18,19,18,18,18,18; plugins/content_types/page/page_primary_links.inc:18,18,18,19,19,18,18,18,19,18,18,18,18; plugins/content_types/page/page_mission.inc:18,19,19,19,18,18; plugins/content_types/page/page_messages.inc:18,18,18,19,19,18,18,18,19,18,18,18,18; plugins/content_types/page/page_logo.inc:18,18,18,19,19,18,18,18,19,18,18,18,18; plugins/content_types/page/page_help.inc:18,18,18,19,19,18,18,18,19,18,18,18,18; plugins/content_types/page/page_footer_message.inc:18,19,19,19,18,18; plugins/content_types/page/page_feed_icons.inc:18,18,18,19,19,18,18,18,19,18,18,18,18; plugins/content_types/page/page_breadcrumb.inc:18,18,18,19,19,18,18,18,19,18,18,18,18; plugins/content_types/block/block.inc:410,410,410,410,452,456,422,422,422,476,422,476,480,485; plugins/content_types/page/page_actions.inc:18,18,18,18,18
+msgid "Page elements"
+msgstr ""
+
+#: ctools_plugin_example/plugins/contexts/simplecontext.inc:115,74,115,74,59,115,74,59,75,60,116,60,75,116,59,59,74,115,59,74,115,59,74,115,60,75,116,59,74,115,59,74,115,59,74,115,59,74,115; ctools_plugin_example/plugins/content_types/no_context_content_type.inc:93,93,94,94,93,93,93,93,94,93,93,93,93
+msgid "Item1"
+msgstr "Item1"
+
+#: ctools_plugin_example/plugins/contexts/simplecontext.inc:116,75,116,75,60,116,75,60,61,76,117,61,76,117,60,60,75,116,60,75,116,60,75,116,61,76,117,60,75,116,60,75,116,60,75,116,60,75,116; ctools_plugin_example/plugins/content_types/no_context_content_type.inc:102,102,103,103,102,102,102,102,103,102,102,102,102
+msgid "Item2"
+msgstr "Item2"
+
+#: ctools_plugin_example/plugins/contexts/relcontext.inc:14,14,15,15,14,14,14,14,15,14,14,14,14; ctools_plugin_example/plugins/content_types/relcontext_content_type.inc:26,26,27,27,26,26,26,26,27,26,26,26,26
+msgid "Relcontext"
+msgstr ""
+
+#: ctools_plugin_example/plugins/relationships/relcontext_from_simplecontext.inc:21,21,21,22,22,21,21,21,22,21,21,21,21; ctools_plugin_example/plugins/contexts/simplecontext.inc:15,15,16,16,15,15,15,15,16,15,15,15,15; ctools_plugin_example/plugins/content_types/simplecontext_content_type.inc:41,30,41,30,42,31,31,42,30,41,30,41,30,41,30,41,31,42,30,41,30,41,30,41,30,41; ctools_plugin_example/plugins/access/arg_length.inc:19,19,20,20,19,19,19,19,20,19,19,19,19
+msgid "Simplecontext"
+msgstr ""
+
+#: plugins/content_types/search/search_result.inc:98,98,121,99,99,121,98,118,118,125,125,125,99,125,98,125,98; plugins/content_types/search/search_form.inc:92,93,88,93,93,88,92,88,88,88,93,88,92,88,92
+msgid "Search type"
+msgstr ""
+
+#: page_manager/plugins/tasks/page.admin.inc:491,491,491,477,477,476,476,491,491,491,477,491,476,491,476; plugins/content_types/custom/custom.inc:366,363,344,364,363,374,374,374,380,383,383,383,364,383,374,383,374
+msgid "Name is required."
+msgstr ""
+
+#: plugins/content_types/node_context/node_links.inc:78,78,78,78,78,78,78,78; plugins/content_types/node_context/node_content.inc:184,200,183,184,201,201,200,184,185,184,184,201,184,200,184,200; plugins/content_types/node/node.inc:161,171,187,187,186,171,186,171,171,171,187,171,186,171,186
+msgid "Build mode"
+msgstr "Режим строительства"
+
+#: views_content/plugins/content_types/views_panes.inc:350,347,340,331,339,347,339,347,348,348,348,340,337,337,339,337,339; views_content/plugins/content_types/views.inc:271,271,270,270,269,271,269,271,271,271,275,270,275,269,275,269
+msgid "Broken/missing/deleted view."
+msgstr ""
+
+#: views_content/plugins/views/views_content.views.inc:26,15,15,16,15,27,16,16,16,26,15,16,15,16,15,16,27,15,16,15,26,15,16,15,26; ctools_custom_content/plugins/export_ui/ctools_custom_content.inc:14,14,15,15,14,14,14,14,15,14,14,14,14
+msgid "Content pane"
+msgstr "Фрагмент панели"
+
+#: plugins/content_types/node_form/node_form_title.inc:18,18,18,18,18,18,18; plugins/content_types/node_form/node_form_taxonomy.inc:20,21,21,21,20,20; plugins/content_types/node_form/node_form_publishing.inc:26,26,26,27,27,26,26,26,27,26,26,26,26; plugins/content_types/node_form/node_form_path.inc:20,20,20,21,21,20,20,20,21,20,20,20,20; plugins/content_types/node_form/node_form_menu.inc:20,20,20,21,21,20,20,20,21,20,20,20,20; plugins/content_types/node_form/node_form_log.inc:18,18,18,19,19,18,18,18,19,18,18,18,18; plugins/content_types/node_form/node_form_input_format.inc:18,19,19,19,18,18; plugins/content_types/node_form/node_form_comment.inc:20,20,20,21,21,20,20,20,21,20,20,20,20; plugins/content_types/node_form/node_form_buttons.inc:18,18,18,19,19,18,18,18,19,18,18,18,18; plugins/content_types/node_form/node_form_book.inc:20,20,20,21,21,20,20,20,21,20,20,20,20; plugins/content_types/node_form/node_form_author.inc:18,18,18,19,19,18,18,18,19,18,18,18,18; plugins/content_types/node_form/node_form_attachments.inc:20,20,20,21,21,20,20,20,21,20,20,20,20; plugins/content_types/node_form/node_form_language.inc:18
+msgid "node_form"
+msgstr "node_form"
+
+#: plugins/content_types/node_form/node_form_author.inc:46,39,46,46,40,40,39,46,46,46,40,46,39,39; plugins/content_types/node_form/node_form_publishing.inc:48,48
+msgid "\"@s\" node form publishing options"
+msgstr ""
+
+#: plugins/content_types/node_form/node_form_publishing.inc:48,43,48,48,44,44,43,48,48,48,44,48,43,43; plugins/content_types/node_form/node_form_author.inc:46,46
+msgid "\"@s\" node form author information"
+msgstr ""
+
+#: plugins/arguments/node_edit.inc:21,21,22,22,21,21,21,21,22,21,21,21,21; plugins/arguments/nid.inc:20,20,21,21,20,20,20,20,21,20,20,20,20
+msgid "Enter the node ID of a node for this argument"
+msgstr ""
+
+#: plugins/content_types/page/page_title.inc:63,63,63,64,64,63,63,63,64,63,63,63,63; plugins/content_types/node_context/node_title.inc:73
+msgid "h1"
+msgstr "h1"
+
+#: plugins/content_types/page/page_title.inc:64,64,64,65,65,64,64,64,65,64,64,64,64; plugins/content_types/node_context/node_title.inc:74
+msgid "h2"
+msgstr "h2"
+
+#: plugins/content_types/page/page_title.inc:65,65,65,66,66,65,65,65,66,65,65,65,65; plugins/content_types/node_context/node_title.inc:75
+msgid "h3"
+msgstr "h3"
+
+#: plugins/content_types/page/page_title.inc:66,66,66,67,67,66,66,66,67,66,66,66,66; plugins/content_types/node_context/node_title.inc:76
+msgid "h4"
+msgstr "h4"
+
+#: plugins/content_types/page/page_title.inc:67,67,67,68,68,67,67,67,68,67,67,67,67; plugins/content_types/node_context/node_title.inc:77
+msgid "h5"
+msgstr "h5"
+
+#: plugins/content_types/page/page_title.inc:68,68,68,69,69,68,68,68,69,68,68,68,68; plugins/content_types/node_context/node_title.inc:78
+msgid "h6"
+msgstr "h6"
+
+#: plugins/content_types/user_context/user_profile.inc:74,74,74,74,74; plugins/content_types/entity_context/entity_field_extra.inc:75,75,75,75,75
+msgid "View mode"
+msgstr "Режим просмотра"
+
+#: page_manager/page_manager.info:0,0,0,0,0,0,0,0,0,0,0,0; ctools_custom_content/ctools_custom_content.info:0,0,0,0,0,0,0,0,0,0,0,0; views_content/views_content.info:0,0,0,0,0,0,0,0,0,0,0,0; stylizer/stylizer.info:0,0,0,0,0,0,0,0,0,0,0,0; ctools_plugin_example/ctools_plugin_example.info:0,0,0,0,0,0,0,0,0,0,0,0; ctools_ajax_sample/ctools_ajax_sample.info:0,0,0,0,0,0,0,0,0,0,0; ctools_access_ruleset/ctools_access_ruleset.info:0,0,0,0,0,0,0,0,0,0,0,0; bulk_export/bulk_export.info:0,0,0,0,0,0,0,0,0,0,0,0; ctools.info:0,0,0,0,0,0,0,0,0,0,0,0
+msgid "Chaos tool suite"
+msgstr "Набор инструментов Chaos"
+
+#: page_manager/page_manager.admin.inc:181,181,181,174,174,173,173,181,181,181,174,185,185,173,185,173; page_manager/plugins/tasks/search.inc:283,285,221,284,284,221,283,221,222,225,225,225,284,225,283,225,283; page_manager/plugins/tasks/page.inc:216,216,217,217,216,216,217,217,217,217,217,216,217,216; page_manager/plugins/task_handlers/http_response.inc:144,144,150,144,144,144,144,150,144,144,144,144,145
+msgid "In code"
+msgstr "Встроенное"
+
+#: page_manager/plugins/tasks/term_view.inc:54,54,54,55,55,54,55,55,55,55,55,54,55,54; page_manager/plugins/tasks/page.inc:150,150,151,151,150,150,151,151,151,151,151,150,151,150
+msgid "Edit name, path and other basic settings for the page."
+msgstr ""
+"Редактирование названия, пути и "
+"прочих основных параметров страницы."
+
+#: page_manager/theme/page_manager.theme.inc:102,76,76,102,102,76,102,76,76,76,76,102,76,102; includes/stylizer.inc:1330,1330,1327,1327,1326,1330,1326,1330,1329,1329,1329,1327,1329,1326,1329,1326
+msgid "Variant"
+msgstr "Вариант"
+
+#: page_manager/plugins/tasks/term_view.inc:281,268,255,247,241,282,269,256,248,242,242,248,256,269,282,241,247,255,268,281,242,248,256,269,282,241,247,255,268,281,241,247,255,268,281; page_manager/plugins/tasks/page.inc:687,631,688,653,632,592,577,577,592,632,653,688,576,591,652,576,591,631,652,687,575,590,630,651,686,575,590,630,651,686,577,592,632,653,688,575,590,630,651,686,575,590,630,651,686; page_manager/plugins/task_handlers/http_response.inc:152,167,174,182,146,161,168,176,146,161,168,176,152,167,174,182,146,161,168,176,146,161,168,176
+msgid "page-summary-label"
+msgstr ""
+
+#: page_manager/plugins/tasks/term_view.inc:282,269,256,248,242,283,270,257,249,243,243,249,257,270,283,242,248,256,269,282,243,249,257,270,283,242,248,256,269,282,242,248,256,269,282; page_manager/plugins/tasks/page.inc:688,618,689,654,633,619,593,578,578,593,619,633,654,689,577,592,632,653,577,592,618,632,653,688,576,591,617,631,652,687,576,591,617,631,652,687,578,593,619,633,654,689,576,591,617,631,652,687,576,591,617,631,652,687; page_manager/plugins/task_handlers/http_response.inc:153,168,175,183,147,162,169,177,147,162,169,177,153,168,175,183,147,162,169,177,147,162,169,177
+msgid "page-summary-data"
+msgstr ""
+
+#: page_manager/plugins/tasks/term_view.inc:283,270,257,249,243,284,271,258,250,244,244,250,258,271,284,243,249,257,270,283,244,250,258,271,284,243,249,257,270,283,243,249,257,270,283; page_manager/plugins/tasks/page.inc:689,619,690,655,634,620,594,579,579,594,620,634,655,690,578,593,633,654,578,593,619,633,654,689,577,592,618,632,653,688,577,592,618,632,653,688,579,594,620,634,655,690,577,592,618,632,653,688,577,592,618,632,653,688; page_manager/plugins/task_handlers/http_response.inc:154,169,176,184,148,163,170,178,148,163,170,178,154,169,176,184,148,163,170,178,148,163,170,178
+msgid "page-summary-operation"
+msgstr ""
+
+#: plugins/access/compare_users.inc:40,40,40,41,41,40,40,40,41,40,40,40,40; plugins/access/string_equal.inc:27,27,28,28,27,27,27,27,28,27,27,27,27
+msgid "Not equal"
+msgstr "Не равный"
+
+#: ctools_custom_content/ctools_custom_content.module:93,93,93,91,91,90,90,93,93,93,91,93,90,93,90; ctools_access_ruleset/ctools_access_ruleset.module:80,80,80,78,78,77,77,80,80,80,78,80,77,80,77; page_manager/page_manager.module:1149,1193,1202,1150,1150,1202,1149,1202,1210,1157,1157,1210,1210,1150,1209,1247,1209,1157,1247,1157,1244; stylizer/stylizer.module:100,100,86,86,85,100,85,100,100,100,86,100,85,100,85
+msgid "Go to list"
+msgstr "Полный список"
+
+#: ctools_custom_content/plugins/export_ui/ctools_custom_content_ui.class.php:73,73,73,75,75,74,74,73,78,78,78,75,78,74,78,74; stylizer/plugins/export_ui/stylizer_ui.class.php:65,65,66,63,65,65,65,65,66,65,65,65,65; plugins/export_ui/ctools_export_ui.class.php:461,474,477,448,478,474,478,474,476,476,485,485,476,477,438,438,485,438,485; page_manager/page_manager.admin.inc:278,280,271,271,270,280,270,280,280,280,271,284,284,270,284,270
+msgid "Enabled, title"
+msgstr "Включено, заголовок"
+
+#: page_manager/plugins/tasks/term_view.inc:248,259,270,249,249,270,248,270,271,275,275,275,249,275,248,275,248,321; page_manager/plugins/tasks/page.inc:636,636,647,647,646,636,646,635,645,635,645,636,636,647,636,645,636,645
+msgid "This page is publicly accessible."
+msgstr "Страница открыта для редактирования."
+
+#: plugins/access/node_type.inc:97,98,115,109,98,98,109,115,97,109,115,109,115,109,115,98,109,115,97,109,115,97; plugins/access/entity_bundle.inc:124,124,124
+msgid "@identifier is type \"@types\""
+msgid_plural "@identifier type is one of \"@types\""
+msgstr[0] "Тип объекта \"@identifier\" - \"@types\""
+msgstr[1] "Тип объекта \"@identifier\" - один из: @types"
+msgstr[2] "Тип объекта \"@identifier\" - один из: @types"
+
+#: page_manager/plugins/tasks/term_view.inc:225,213,224,225,214,214,213,225,226,230,230,230,214,230,213,230,213,276; plugins/arguments/terms.inc:52,52,52,53,53,52,52,52,53,52,52,52,52
+msgid "Inject hierarchy of first term into breadcrumb trail"
+msgstr ""
+"Отображать иерархию первого термина в "
+"\"хлебных крошках\""
+
+#: plugins/arguments/term.inc:111,106,107,111,107,107,106,111,115,115,115,107,115,106,115,106; plugins/arguments/terms.inc:55,55,55,56,56,55,55,55,56,55,55,55,55; page_manager/plugins/tasks/term_view.inc:216,227,228,217,217,228,216,228,229,233,233,233,217,233,216,233,216,279
+msgid "If checked, taxonomy term parents will appear in the breadcrumb trail."
+msgstr ""
+"Если выбрано, в иерархическую "
+"навигационную цепочку (\"хлебные "
+"крошки\") будут добавлены родительские "
+"термены."
+
+#: ctools_custom_content/plugins/export_ui/ctools_custom_content_ui.class.php:31,30,30,32,32,30,31,30,35,35,35,32,35,31,35,31; plugins/content_types/custom/custom.inc:282,282,261,281,280,282,280,293,291,293,291,299,302,302,302,281,302,291,302,291
+msgid "Use context keywords"
+msgstr ""
+
+#: ctools_custom_content/plugins/export_ui/ctools_custom_content_ui.class.php:31,32,31,31,33,33,32,31,36,36,36,33,36,32,36,32; plugins/content_types/custom/custom.inc:277,277,262,276,275,277,275,288,286,288,286,294,297,297,297,276,297,286,297,286
+msgid "If checked, context keywords will be substituted in this content."
+msgstr ""
+
+#: views_content/plugins/content_types/views_panes.inc:468,473,476,467,475,473,475,473,474,474,474,476,463,463,475,463,475; plugins/content_types/custom/custom.inc:287,287,266,286,285,287,285,298,296,298,296,304,307,307,307,286,307,296,307,296
+msgid "Substitutions"
+msgstr "Подстановочные шаблоны"
+
+#: views_content/plugins/content_types/views_panes.inc:478,483,484,475,483,483,484,484,484,484,473,473,483,473,483; plugins/content_types/custom/custom.inc:298,298,277,297,296,298,296,309,307,309,307,315,318,318,318,297,318,307,318,307
+msgid "@identifier: @title"
+msgstr ""
+
+#: plugins/contexts/node.inc:80,72,74,80,80,74,80,74,76,75,75,75,75,80,75,80; plugins/content_types/node/node.inc:132,119,129,133,133,129,132,129,129,129,133,129,132,129,132; plugins/contexts/node_edit_form.inc:92,92,102,102,101,92,101,95,105,95,105,95,95,102,95,105,95,105
+msgid "Enter the title or NID of a node"
+msgstr ""
+
+#: ctools_plugin_example/plugins/content_types/simplecontext_content_type.inc:37,37,38,38,37,37,37,37,38,37,37,37,37; ctools_plugin_example/plugins/content_types/relcontext_content_type.inc:27,27,28,28,27,27,27,27,28,27,27,27,27; ctools_plugin_example/plugins/content_types/no_context_content_type.inc:34,34,35,35,34,34,34,34,35,34,34,34,34
+msgid "CTools Examples"
+msgstr "CToolsпримеры"
+
+#: plugins/content_types/node_context/node_content.inc:160,158,159,160,159,159,158,160,161,160,160,159,160,158,160,158; plugins/content_types/node/node.inc:138,148,152,152,151,148,151,148,148,148,152,148,151,148,151
+msgid "Include node links for \"add comment\", \"read more\" etc."
+msgstr ""
+
+#: plugins/content_types/node_context/node_content.inc:173,171,172,173,172,172,171,173,174,173,173,172,173,171,173,171; plugins/content_types/node/node.inc:144,154,158,158,157,154,157,154,154,154,158,154,157,154,157
+msgid "Template identifier"
+msgstr "Идентификатор шаблона"
+
+#: plugins/content_types/node_context/node_content.inc:172,173,173,173,172,173,172,172; plugins/content_types/node/node.inc:145,159,159,158,158,159,158,158
+msgid ""
+"This identifier will be added as a template suggestion to display this "
+"node: node-panel-IDENTIFIER.tpl.php. Please see the Drupal theming "
+"guide for information about template suggestions."
+msgstr ""
+
+#: views_content/plugins/views/views_content_plugin_display_panel_pane.inc:274,268,272,274,269,269,268,274,274,274,269,274,268,274,268; views_content/plugins/views/views_content_plugin_display_ctools_context.inc:194,197,197,197,197,197,197,197
+msgid "If \"From context\" is selected, which type of context to use."
+msgstr ""
+
+#: views_content/plugins/views/views_content_plugin_display_panel_pane.inc:277,281,282,278,278,282,277,282,282,282,278,282,277,282,277; views_content/plugins/views/views_content_plugin_display_ctools_context.inc:203,205,205,205,205,205,205,205
+msgid "Context is optional"
+msgstr ""
+
+#: views_content/plugins/views/views_content_plugin_display_panel_pane.inc:278,282,283,279,279,283,278,283,283,283,279,283,278,283,278; views_content/plugins/views/views_content_plugin_display_ctools_context.inc:204,206,206,206,206,206,206,206
+msgid ""
+"This context need not be present for the pane to function. If you plan "
+"to use this, ensure that the argument handler can handle empty values "
+"gracefully."
+msgstr ""
+
+#: plugins/access/term.inc:62,62,63,63,62,62,62,62,63,62,62,62,62; plugins/access/term_has_parent.inc:61,61,61,60,60,60,60,60
+msgid "Select a term or terms from @vocabulary."
+msgstr ""
+
+#: page_manager/plugins/tasks/contact_site.inc:18,18,19,19,18,18,18,18,19,18,18,18,18; page_manager/plugins/tasks/comment_reply.inc:17
+msgid ""
+"When enabled, this overrides the default Drupal behavior for the site "
+"contact page at <em>/contact</em>. If no variant is selected, the "
+"default Drupal contact form will be used."
+msgstr ""
+
+#: plugins/contexts/user.inc:104,97,98,104,98,97,97,104,104,104,98,104,97,104,97; plugins/contexts/user_edit_form.inc:116,116,113,113,113,113,126
+msgid ""
+"If checked, the identifier will be reset to the user name of the "
+"selected user."
+msgstr ""
+
+#: page_manager/page_manager.admin.inc:1362,1370,1372,1350,1363,1372,1362,1372,1374,1374,1374,1363,1381,1381,1362,1381,1362,1383; page_manager/plugins/tasks/page.admin.inc:202,202,199,199,198,202,198,202,202,202,199,202,198,202,198
+msgid ""
+"There are currently no variants available and a page may not be added. "
+"Perhaps you need to install the Panels module to get a variant?"
+msgstr ""
+
+#: plugins/content_types/page/page_title.inc:75,75,75,76,76,75,75,75,76,75,75,75,75; plugins/content_types/page/page_tabs.inc:54,68,68,55,55,68,54,68,73,73,73,55,73,54,73,54; plugins/content_types/node_context/node_title.inc:85
+msgid "CSS id to use"
+msgstr "CSS id для использования"
+
+#: stylizer/plugins/export_ui/stylizer.inc:33,34,33,33,35,35,34,33,33,33,35,33,34,33,34; includes/stylizer.inc:699,694,694,700,700,694,699,694,694,694,700,694,699,694,699
+msgid "Select base style"
+msgstr ""
+
+#: page_manager/plugins/tasks/page.inc:652,652,652,651,651,652,652,652,652; page_manager/plugins/tasks/page.admin.inc:692,692,692,692,692,692,692,692
+msgid "Local action"
+msgstr ""
+
+#: plugins/content_types/custom/custom.inc:331,330,310,330,329,330,329,341,340,341,340,347,350,350,350,350,340,350,340; ctools_custom_content/plugins/export_ui/ctools_custom_content_ui.class.php:11,11,12,12,11,11,16,16,16,12,16,11,16,11
+msgid ""
+"What category this content should appear in. If left blank the "
+"category will be \"Miscellaneous\"."
+msgstr ""
+
+#: plugins/content_types/page/page_title.inc:62,62,62,63,63,62,62,62,63,62,62,62,62; plugins/content_types/node_context/node_title.inc:72
+msgid "- No tag -"
+msgstr ""
+
+#: plugins/content_types/page/page_title.inc:69,69,69,70,70,69,69,69,70,69,69,69,69; plugins/content_types/node_context/node_title.inc:79
+msgid "div"
+msgstr "div"
+
+#: plugins/content_types/page/page_title.inc:81,81,81,82,82,81,81,81,82,81,81,81,81; plugins/content_types/node_context/node_title.inc:91
+msgid "CSS class to use"
+msgstr ""
+
+#: stylizer/plugins/export_ui/stylizer_ui.class.php:199,201,201,200,197,201,199,201,201,201,200,201,199,201,199; includes/stylizer.inc:757,757,763,763,762,757,762,757,757,757,763,757,762,757,762
+msgid "Configure style"
+msgstr "Настроить стиль"
+
+#: views_content/plugins/content_types/views_empty.inc:10,10,10,11,11,10,10,10,11,10,10,10,10; views_content/plugins/content_types/views_attachments.inc:10,10,10,11,11,10,10,10,11,10,10,10,10; views_content/plugins/content_types/views_row.inc:10,10,11,11,10,10,10,10,11,10,10,10,10; views_content/plugins/content_types/views_pager.inc:10,10,11,11,10,10,10,10,11,10,10,10,10; views_content/plugins/content_types/views_header.inc:10,10,11,11,10,10,10,10,11,10,10,10,10; views_content/plugins/content_types/views_footer.inc:10,10,11,11,10,10,10,10,11,10,10,10,10; views_content/plugins/content_types/views_feed.inc:10,10,11,11,10,10,10,10,11,10,10,10,10; views_content/plugins/content_types/views_exposed.inc:10,10,11,11,10,10,10,10,11,10,10,10,10; views_content/plugins/content_types/views_view.inc:10,10,10,10,10,10,10
+msgid "View context"
+msgstr ""
+
+#: views_content/plugins/relationships/term_from_view.inc:52,52,52,52,52,51,51,52,52,52,52,51,52,51; views_content/plugins/relationships/node_from_view.inc:52,52,52,52,52,51,51,52,52,52,52,51,52,51; views_content/plugins/relationships/user_from_view.inc:51,52,52,52,52,52,51,52,52,52,52,51,52,51
+msgid "Row number"
+msgstr ""
+
+#: views_content/plugins/relationships/node_from_view.inc:62,62,62,62,62,61,61,62,62,62,62,61,62,61; views_content/plugins/relationships/user_from_view.inc:61,62,62,62,62,62,61,62,62,62,62,61,62,61; views_content/plugins/relationships/term_from_view.inc:62,62,62,62,61,62,61,62,62,62,62,61,62,61
+msgid "Row number must be a positive integer value."
+msgstr ""
+
+#: plugins/content_types/custom/custom.inc:17,17,18,17,17,17,17,18,17,17,17,17; ctools_custom_content/ctools_custom_content.module:59,59,57,57,56,59,56,59,59,59,57,59,56,59,56
+msgid "Custom content"
+msgstr ""
+
+#: plugins/content_types/node_context/node_links.inc:80,80,80,80,80,80,80,80; plugins/content_types/node_context/node_content.inc:186,202,185,186,203,203,202,186,187,186,186,203,186,202,186,202; plugins/content_types/node/node.inc:163,173,189,189,188,173,188,173,173,173,189,173,188,173,188
+msgid "Select a build mode for this node."
+msgstr ""
+
+#: plugins/content_types/form/entity_form_field.inc:9,9,9,9,9,9,9,9; plugins/content_types/entity_context/entity_field.inc:9,9,9,9,9,9,9,9
+msgid "Entity field"
+msgstr ""
+
+#: plugins/content_types/form/entity_form_field.inc:47,47,47,47,47,47,47,47; plugins/content_types/entity_context/entity_field.inc:49,48,48,48,52,52,52,52,52
+msgid "Field on the referenced entity."
+msgstr ""
+
+#: plugins/content_types/entity_context/entity_field.inc:174,217,217,217,221,256,260,260,260,261,265,265,265; plugins/content_types/entity_context/entity_field_extra.inc:120,120,120,120,120
+msgid "\"@s\" @field"
+msgstr ""
+
+#: plugins/relationships/entity_from_schema.inc:14,14,14,14,14,14,14,14; plugins/relationships/entity_from_field.inc:14,14,14,14,14,14,14,14
+msgid "Creates an entity context from a foreign key on a field."
+msgstr ""
+
+#: plugins/access/entity_bundle.inc:37,37,37,37,37,37,37,37,36; plugins/access/entity_field_value.inc:69,69,69,69,69
+msgid "Control access by @entity entity bundle."
+msgstr ""
+
+#: plugins/content_types/search/search_result.inc:198,198,195,195,202,202,202,202,202; plugins/content_types/search/search_form.inc:154,154,154,154,154,154,154
+msgid "Missing/broken type"
+msgstr ""
+
+#: plugins/content_types/node_context/node_content.inc:174,174,174,175,174,174,174,174; plugins/content_types/node/node.inc:155,155,155,155,155,155,155
+msgid ""
+"This identifier will be added as a template suggestion to display this "
+"node: node--panel--IDENTIFIER.tpl.php. Please see the Drupal theming "
+"guide for information about template suggestions."
+msgstr ""
+

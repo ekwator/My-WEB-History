@@ -1,0 +1,1096 @@
+<?php
+/**
+ * @file
+ * Displays, uploads and attaches files to nodes
+ *
+ * Example: files/motto/base.png
+ *
+ * $filename = 'base.png'
+ * $filepath = 'files/motto/base.png'
+ * $filedir  = 'files/motto/'
+ * $name     = 'base'
+ *
+ * TODO: there are malformed filepaths in files-table. ''files'' does not belong into the filepath-field
+ * TODO: set t() for all titles, and other texts?
+ */
+
+// ini_set('error_reporting', 1);
+// error_log('This error is from settings.php.');
+// use file_directory_path() instead of __disknode_getbasedir()
+
+
+/**
+ * Implementation of hook_menu()
+ *
+ * @return array of menu items
+ */
+function disknode_menu() {
+  $items = array();
+  $items['admin/settings/disknode'] = array(
+    'title' => 'Disknode',
+    'description' => 'Change Disknode behavior',
+    'page callback' => 'drupal_get_form',
+    'page arguments' => array('disknode_settings'),
+    'access callback' => TRUE,
+    'type' => MENU_NORMAL_ITEM,
+  );
+  $items['disknode/browse'] = array(
+    'page callback' => '_disknode_browse',
+    'type' => MENU_CALLBACK,
+    'access callback' => TRUE,
+  );
+  $items['disknode/upload'] = array(
+    'page callback' => '_disknode_upload',
+    'type' => MENU_CALLBACK,
+    'access callback' => TRUE,)
+  ;
+  $items['disknode/mkdir'] = array(
+    'page callback' => '_disknode_mkdir',
+    'type' => MENU_CALLBACK,
+    'access callback' => TRUE,
+  );
+  $items['disknode/rmdir'] = array(
+    'page callback' => '_disknode_rmdir',
+    'type' => MENU_CALLBACK,
+    'access callback' => TRUE,
+  );
+  $items['disknode/info'] = array(
+    'page callback' => '_disknode_info',
+    'type' => MENU_CALLBACK,
+    'access callback' => TRUE,
+  );
+  $items['disknode/get'] = array(
+    'page callback' => '_disknode_get',
+    'type' => MENU_CALLBACK,
+    'access callback' => TRUE,
+  );
+  return $items;
+}
+
+
+/**
+ * Implementation of hook_perm()
+ */
+function disknode_perm() {
+  return array('administer all disknode files');
+}
+
+
+/**
+ * Callback functions for downloads and counter increment
+ */
+function _disknode_get($fid, $fname="") {
+  $fid = intval($fid);
+  $result = db_fetch_object(db_query("SELECT f.filepath, d.counter FROM {files} f LEFT JOIN {downloads} d ON f.fid = d.fid WHERE f.fid = %d", $fid));
+  if (!$result) {
+    drupal_not_found();
+    return;
+  }
+  if (is_numeric($result->counter)) {
+    db_query("UPDATE {downloads} SET counter = counter + 1 WHERE fid=%d", $fid);
+  }
+  else {
+    db_query("INSERT IGNORE INTO {downloads} (fid, counter) VALUES (%d, 1)", $fid);
+  }
+//  $url = file_create_url(str_replace("%2F", "/", rawurlencode($result->filepath)));
+  $url = file_create_url($result->filepath);
+  drupal_goto($url);
+}
+
+
+/**
+ * Insert list of files attached to the node that is displayed.
+ * hook_nodeapi() is called when the node is beeing prepared
+ *
+ * @param reference $node
+ * @param string $op
+ * @param unknown_type $a3
+ * @param bool $a4
+ */
+function disknode_nodeapi(&$node, $op, $a3 = NULL, $a4 = NULL) {
+  // Only display if node is displayed
+  // $a4 is TRUE if the full node is displayed as an own page and not only the teaser!
+  switch ($op) {
+    case "view":
+      if ($a4) {
+        $node->content['attachments'] = array(
+          '#value' => _disknode_display_links(&$node),
+          '#weight' => 10,
+        );
+      }
+      break;
+		case "insert":
+		  // A new node has been created
+    case "update":
+      /**
+       * The user is done editing the node and submits his changes
+       *
+       * We're scanning what files should be attached and delete all old attachments.
+       */
+      // delete all old references according to the given node-id
+      $query =  'DELETE FROM disknode ';
+      $query .= 'WHERE nid="' . $node->nid . '" ';
+      db_query($query);
+      // parse every line, query it, collect file-ids and connect them in 'disknode' table
+      // This regex splits the data from the textarea. Lines are separated be '\r\n'
+      $filepaths = preg_split('/[\r\n]+/', trim($_POST['filepaths']), -1, PREG_SPLIT_NO_EMPTY);
+      foreach ($filepaths as $path) {
+        // To assign the file we need it's file-id
+        $query = 'SELECT f.fid fid FROM files f WHERE f.filepath="' . $path . '" LIMIT 1;';
+        $results = db_query($query);
+        $row = db_fetch_object($results);
+        if ($row == false) {
+          // File is not found in 'files' table und has been added manually and not uploaded
+          drupal_set_message('<strong>' . $path . '</strong> has not been found in the database. It will not appear under your post. Please download the file and upload it again to solve this problem.', 'error');
+        }
+        else {
+          // link file to node by fid - what's why there has to be an entry in the files-table
+          $fid = $row->fid;
+          $query =  'INSERT INTO disknode (fid, nid) VALUES (';
+          $query .= '"' . $fid . '", ';
+          $query .= '"' . $node->nid . '");';
+          db_query($query);
+        }
+      }
+      break;
+    case "delete":
+      // Node is being deleted
+      // Remove any relations to files
+      db_query("DELETE FROM {disknode} WHERE nid=%d", $node->nid);
+      break;
+  }
+}
+
+
+/**
+ * Display the ''files'' box in Insert and Edit forms.
+ * hook_form_alter() is called when the user requests 'node/add' or 'node/$id/edit'
+ *
+ * @param unknown_type $form
+ * @param unknown_type $form_state
+ * @param unknown_type $form_id
+ * @return unknown
+ */
+function disknode_form_alter(&$form, &$form_state, $form_id) {
+  // Alter the form if it's any node-form (create, edit), but not if it's a
+  // subscriptions-ui-node-form (which is displayed when viewing a node)
+  if ( endsWith($form_id, "_node_form") && $form['#id'] == 'node-form' ) {
+    $node = $form['nid'];
+    $filepaths = "";
+    if (isset($form_state['node'])) {
+      // If temp data of filepath textarea exist, take it rather than the (maybe) outdated DB records
+      $filepaths = $form_state['node']['filepaths'];
+      }
+    elseif ( isset($node['#value']) ) {
+      // If ''nid'' is set, than we're editing an existing node / otherwise we add content
+      $nid = $node['#value'];
+      // Fetch all files that are already attached to node that is being edited
+
+      $query  = "SELECT filepath filepath FROM files ";
+      $query .= "JOIN disknode ON disknode.fid = files.fid ";
+      $query .= "WHERE disknode.nid = $nid";
+      $results = db_query($query);
+      while ( $row = db_fetch_object($results) ) {
+        // We only need the filepath here
+        $filepath = $row->filepath;
+        $filepaths .= $filepath . "\n";
+      }
+    }
+    else {
+      $filepaths = "";
+    }
+    // Buiding the fieldset
+    $form['disknode'] = array(
+      '#type' => 'fieldset',
+      '#title' => t('File attachments'),
+      '#collapsible' => TRUE,
+      '#collapsed' => FALSE,
+    );
+    // Building the "Browse" button
+    $form['disknode']['disknode-browse-button'] = array(
+      '#type' => 'button',
+      '#button_type' => 'button',
+      '#attributes' => array('style' => 'display: none;'),
+      '#value' => t('   Browse files on server / upload your own   '),
+    );
+    // Building the textarea "filepaths"
+    $form['disknode']["filepaths"] = array(
+      '#type' => 'textarea',
+      '#title' => t("Files that have been selected for this article"),
+      '#default_value' => trim($filepaths),
+      '#cols' => 80,
+      '#rows' => 5,
+      '#description' => t("Each line represents a file download. Each one is the relative file path in the files directory."),
+    );
+    // Prepare URL for the 'Browse files' button and add JavaScript handler
+    $fbURL = url("disknode/browse", array('query' => "disknodeutil", 'absolute' => TRUE));
+    $jsfile = drupal_get_path('module', 'disknode') .'/disknode.js';
+    drupal_add_js($jsfile);
+    $js = "$(function() {
+      disknodeFiles = new disknodeCallback($('#edit-filepaths').get(0), -1, '$fbURL');
+      $('#edit-disknode-browse-button').show().click(function() {
+        disknodeFiles.openWindow();
+        return false;
+      });});";
+    drupal_add_js($js, 'inline');
+
+    return $form;
+  }
+}
+
+
+/**
+ * This helper function is used by the hook_form_alter() to determine if the name of the form ends with 'node-form'
+ *
+ * @param string $FullStr
+ * @param string $EndStr
+ * @return bool
+ */
+function endsWith($FullStr, $EndStr) {
+  // Get the length of the end string
+  $StrLen = strlen($EndStr);
+  // Look at the end of FullStr for the substring the size of EndStr
+  $FullStrEnd = substr($FullStr, strlen($FullStr) - $StrLen);
+  // If it matches, it does end with EndStr
+  return $FullStrEnd == $EndStr;
+}
+
+
+/**
+ * Prepare HTML code to display the files that are attached to the node.
+ * This helper function returns the code to hook_nodeapi()
+ *
+ * @param class $node
+ * @return string
+ */
+function _disknode_display_links(&$node) {
+  $PREFIX = '<hr /><p><h2>Attachments:</h2></p><p><ul class="links">';
+  $data = "";
+  $POSTFIX .= "</ul></p><br />";
+  // Ask the database if files are attached to the nid that is about to be displayed
+  // 'downloads' table provides the download count
+  $nid = $node->nid;
+  // Query for 'name, path, size and counter' of any attached files
+  //  $query  = "SELECT filename filename, filepath filepath, filesize filesize, counter downloads FROM files ";
+  $query =  'SELECT files.filename filename, files.filepath filepath, files.filesize filesize, downloads.counter downloads, files.fid fid '
+          . 'FROM disknode '
+          . 'LEFT JOIN downloads ON downloads.fid = disknode.fid '
+          . 'LEFT JOIN files ON files.fid = disknode.fid '
+          . "WHERE disknode.nid =\"$nid\"";
+  $results = db_query($query);
+  while ( $row = db_fetch_object($results) ) {
+    $filename = $row->filename;
+    // Build relative path that calls ''get'' callback (needed to increment download counter)
+    $fid = $row->fid;                                                                                             //http://10.0.10.12/gnosis/index.php?q=disknode/get/3720
+    $path = 'disknode/get/' . $fid;
+    // Display filesize human readable.
+    $filesize = format_size($row->filesize);
+    if (isset($row->downloads) && $row->downloads >= 0) {
+      $downloads = $row->downloads;
+    }
+    else {
+      $downloads = 0;
+    }
+    $data .= "<li>" . l($filename, $path) . " (Size: " . $filesize . " - Downloads: " . $downloads . ")</li><br />";
+  }
+  // If links present: return HTML code - Otherwise return nothing.
+  if ($data) {
+    return $PREFIX . $data . $POSTFIX;
+  }
+}
+
+
+/**
+ * ------------------------------------------------------------------------------------------------------
+ * ------------------------------------------------------------------------------------------------------
+ *                                       hook_menu() callbacks
+ * ------------------------------------------------------------------------------------------------------
+ * ------------------------------------------------------------------------------------------------------
+ */
+/**
+ * This function is provides the 'Browse' view
+ * 1. The JavaScript handler (of the 'Browse files' button) points to ?q=disknode/browse
+ * And then the hook_menu() calls this function
+ *
+ * We first look for all files that are in the current subdirectory. This includes even files in sub-folders,
+ * that we don't want to display. But we need all the fields, that are provided by the 'files'-table in the
+ * database. To display only files in that directory, we use a drupal function, that returns a list of files
+ * in that directory. Having those two information we simply match them and store them either in the array for
+ * directories or for the files. We now have the right entries with all the fields from the DB and they are
+ * devided by type. After merging those arrays the directories are on top and the files are on the bottom.
+ *
+ * TODO: check out if it is really necessary to fetch DBentries. Most data like size and type is found by \
+ * 	     drupal scan-function
+ * TODO: mention that folders do not appear in the DB!
+ *
+ */
+function _disknode_browse() {
+  // TODO: display size and downloads in Browse-view (maybe switch to display it as a table to make it easier to read)
+  $title = "Browse files";
+  $filebase = file_directory_path();
+  $breadcrumb = "";
+  // Get current subdirectory from the GET-parameter
+  // It's global to have let the links (Create folder, delete folder, upload) know what folder we have browsed last.
+  global $subdir;
+  $subdir = $_GET["subdir"];
+  // Returns an relative path to the ''files'' directory - in our case it returns just 'files'
+  $subdir = preg_replace("#^" . $filebase . DIRECTORY_SEPARATOR . "?" . "(.*)$#", "\\1", file_create_path($subdir));
+  // If subdir is '.' or '' or 'files' => we are in the files directory
+  if ($subdir == "." || empty($subdir)) {
+    $subdir = file_directory_path();
+  }
+  // Fetch all files that are in the current ''subdir'' (children AND grandchildren are displayed)
+  // Form in ''dbentries'' is: $dbentries[path] = Object (fid, uid, filename, ......)
+  $dbres = db_query("SELECT * FROM {files} WHERE filepath LIKE '".$subdir."%'");
+  while ($entry = db_fetch_object($dbres)) {
+    $dbentries[$entry->filepath] = $entry;
+  }
+  // Two separate Arrays to split according to type (is_dir())
+  $entries_file = array();
+  $entries_dir  = array();
+  // Find all files and folders in the given subdir.
+  // Exclude: . .. CVS
+  $entries = file_scan_directory(file_create_path($subdir), ".*", array(".", "..", "CVS"), 0, false);
+  // uksort() in comparison to ksort() sortes case-insensitive
+  uksort($entries, 'strnatcasecmp');
+  // iterate only over the files/dirs that are acutally in the current dir
+  foreach ($entries as $key => $properties) {
+    $entries[$key]->isdir = is_dir($entries[$key]->filename);
+    // When choosing a file in the root-directory, cut off the 'files' prefix of the filepath
+    // 'files/test.png' will apear as 'test.png'
+    $entries[$key]->filename = preg_replace("#^(".preg_quote($filebase)."/)#", "", $entries[$key]->filename);
+    if (!$entries[$key]->isdir) {
+      // The entry is a file!
+      if (isset($dbentries[$entries[$key]->filename]))
+        // if same object is found in database, map the db-result to the visible files
+        $entries_file[$key]->dbentry = $dbentries[$entries[$key]->filename];
+      else {
+        $entries_file[$key]->dbentry = false;
+      }
+      // copy values from 'mixed array' to 'separated array'
+      $entries_file[$key]->isdir    = $entries[$key]->isdir;
+      $entries_file[$key]->filename = $entries[$key]->filename;
+      $entries_file[$key]->basename = $entries[$key]->basename;
+      $entries_file[$key]->name     = $entries[$key]->name;
+      $entries_file[$key]->filepath = dirname($key);
+    }
+    else {
+      // The file is a directory
+      $entries_dir[$key]->dbentry  = false;
+      $entries_dir[$key]->isdir    = $entries[$key]->isdir;
+      $entries_dir[$key]->filename = $entries[$key]->filename;
+      $entries_dir[$key]->basename = $entries[$key]->basename;
+      $entries_dir[$key]->name     = $entries[$key]->name;
+    }
+  }
+  unset($dbentries);
+  // Directories on top, files on the bottom
+  $entries = array_merge($entries_dir, $entries_file);
+  // Prepare HTML code here to inject it into the template afterwards
+  // By doing this we only need one template instead of a hole bunch
+  if (!is_writable(file_create_path($subdir))) {
+    $dirmodlink = array("class" => "disabled", "title" => "Directory is not writeable");
+  }
+  else {
+    $dirmodlink = null;
+  }
+  $html = '<ul>';
+  // When we are in a subdir display '..' for going one level up in the hierachy
+  if ( $subdir != file_directory_path() ) {
+    $html .= "<li>" . l("..", "disknode/browse", array('attributes' => array('class' => ''),
+    												   'query' => "subdir=".dirname($subdir),
+                                                       'absolute' => true)) . "</li>";
+  }
+  // Iterate through all files and directorys; they already are sorted alphabetically
+  $myid = 0;
+  foreach ($entries as $entry) {
+      // Entry is directory
+      if ($entry->isdir) {
+          $html .= "<li title=\"Browse directory\" class=\"disknode-entry\"><a href=\""
+                . url("disknode/browse", array('query' => "subdir=".$entry->filename, 'absolute' => true))
+                . "\">$entry->basename</a></li>\n";
+      }
+      // Entry is a file
+      else {
+          $__temp = addslashes($entry->filename);
+          $html .= "<li class=\"disknode-entry\"><span onclick=\"selectPath('"
+                . addslashes($entry->filename) . "', " . $myid
+                . ")\" "
+                . "title=\"Select this file\" "
+                . "id=\"" . $myid++ . "\" "
+                . ">".$entry->basename."</span><span class=\"filecontrols\">"
+                . l("info", "disknode/info", array('query' => "target=".rawurlencode($entry->filename), 'absolute' => true))
+                // target = '_blank' opens the link in a new browser window
+                . l("preview", file_create_url($entry->filename), array('attributes' => array('class' => 'disknode-preview'),
+                														'absolute' => true,
+                                                                        ))
+                . "</span></li>\n";
+      }
+  }
+  $html .= "</ul>";
+  // Call display_template function that handles the rest.
+  _disknode_display_template($title, $subdir, $html);
+}
+
+
+/**
+ * This callback function is called when ?q=disknode/info is requested
+ * (see the hook_menu())
+ *
+ * The following variables are accessible withing the template-file:
+ * - $title
+ * - $disknode_breadcrumb provides the filename in this case
+ * - $file
+ * - $file->filename; $file->size; $file->filepath; $file->mimetype; $file->filetime
+ * - $file->nodes
+ * - $file->nodes->link (string with HTML code)
+ * - $file->nodes->author (string)
+ */
+function _disknode_info() {
+  global $title;
+  $title = "File information";
+  if (!empty($_GET["selection"])) {
+    $_GET["subdir"] = dirname($_GET["selection"]);
+  }
+  $subdir = $_GET["subdir"];
+  global $disknode_file;
+  $disknode_file = new StdClass();
+  $disknode_file->filepath = $_GET["target"];
+  $disknode_file->filename = $file->filepath;
+  $fp = file_create_path($disknode_file->filepath);
+  $disknode_file->filetime = filemtime($fp);
+  $disknode_file->size = filesize($fp);
+  $disknode_file->mimetype = file_get_mimetype($fp);
+
+  $results = db_query('SELECT u.name FROM files f JOIN users u ON u.uid = f.uid WHERE filepath = "%s"', $disknode_file->filepath);
+  $disknode_file->fileowner = db_fetch_object($results)->name;
+  if (!__disknode_validate_fileaccess($disknode_file->filepath)) {
+    echo theme_status_messages();
+    return;
+  }
+  // Find nodes that are attached to a file, found by filepath
+  $disknode_file->nodes = array();
+  // This query returns id, title and author of nodes that are attached to the given file
+  // The JOIN with the disknode table is not a LEFT JOIN to have no results when there is no entry instead of empty entries.
+  $query  = 'SELECT d.nid nid, n.title title, u.name author FROM files f ';
+  $query .= 'JOIN disknode d ON f.fid = d.fid ';
+  $query .= 'LEFT JOIN node n ON n.nid = d.nid ';
+  $query .= 'LEFT JOIN users u ON u.uid = n.uid ';
+  $query .= "WHERE f.filepath = '%s'";
+  // Set 'files' as a prefix, because in the DB it's stored with the prefix as well
+  $res = db_query($query, $disknode_file->filepath);
+  while ( $node = db_fetch_object($res) ) {
+    if (count($node->author)) {
+      $node->link = l($node->title, "node/".$node->nid, $options = array('attributes' => array('class' => 'disknode-associated-nodes'), 'absolute' => true)) . ' by ' . $node->author;
+    }
+    else {
+      $node->link = l($node->title, "node/".$node->nid, $options = array('attributes' => array('class' => 'disknode-associated-nodes'), 'absolute' => true));
+    }
+    $disknode_file->nodes[] = $node;
+  }
+  if (isset($_POST['op'])) {
+    switch ($_POST['op']) {
+      case "move":
+        __disknode_info_move($disknode_file);
+        break;
+      case "copy":
+        __disknode_info_copy($disknode_file);
+        break;
+      case "delete":
+        __disknode_info_delete($disknode_file);
+        break;
+    }
+  }
+  // Generate the breadcrumb, what is normally done by _disknode_display_template()
+  $subdir = dirname($fp);
+  global $disknode_breadcrumb;
+  $relpath = "";
+  if (!empty($subdir)) {
+    $_r = "/".$subdir;
+  }
+  else {
+    $_r = "";
+  }
+  foreach (explode("/", $_r) as $elm) {
+      if ($elm == "") $dirtitle = "root";
+      else $dirtitle = $elm;
+      if (!empty($relpath)) $relpath .= "/";
+      $relpath .= $elm;
+      if (strcmp($relpath, file_directory_path()) < 0) {
+        $breadcrumb .= $dirtitle;
+      }
+      else {
+        $breadcrumb .= l($dirtitle, 'disknode/browse', array('query' => "subdir=".$relpath, 'absolute' => true));
+      }
+      $breadcrumb .= " / ";
+  }
+  // Display the filename in the breadcrumb
+  $disknode_breadcrumb = $breadcrumb . " " . file_check_path($fp);
+  // In this case we call an own template. If we would prepare the view in this file, it would get too messy.
+  module_load_include('inc', 'disknode', 'disknode.info.tpl');
+}
+
+
+function __disknode_info_move(&$file) {
+  if (!__disknode_validate_fileaccess($file->filepath, DISKNODE_OP_MOVE)) return;
+  $newname = trim($_POST["newname"]);
+  if (strcmp($newname, $file->filepath) == 0) {
+    drupal_set_message(t("No change made since the new name is identical to the current name"), 'error');
+    return;
+  }
+  if (!__disknode_validate_fileaccess($newname, DISKNODE_OP_MOVE)) return;
+
+  $source  = file_create_path($file->filepath);
+  $newname = file_create_path($newname);
+  if (!is_dir(dirname($newname))) {
+    drupal_set_message(t("Target directory doesn't exist."), 'error');
+    return;
+  }
+  if (file_move($source, $newname, FILE_EXISTS_ERROR)) {
+    $source = preg_replace("#^".file_create_path("")."/(.*)$#", "\\1", $source);
+    db_query("UPDATE {files} SET filepath = '%s', filename = '%s' WHERE filepath = '%s'", $source, basename($source), $file->filepath);
+    $file->filepath = $source;
+    drupal_set_message(t("Moved file to %loc", array("%loc" => $file->filepath)));
+    if (dirname($file->filepath) == '.') {
+      $goto_subdir = '';
+    }
+    else {
+      $goto_subdir = dirname($file->filepath);
+    }
+    drupal_goto("disknode/browse", "subdir=" . $goto_subdir);
+  }
+}
+
+
+function __disknode_info_copy(&$file) {
+  if (!__disknode_validate_fileaccess($file->filepath, DISKNODE_OP_COPY)) {
+    return;
+  }
+  $newname = trim($_POST["newname"]);
+  if (!__disknode_validate_fileaccess($newname, DISKNODE_OP_COPY)) {
+    return;
+  }
+  $source = file_create_path($file->filepath);
+  $filepath = $newname;
+  $newname = file_create_path($newname);
+  // Take the last part of the path (filename)
+  $filename = array_slice(explode('/', $filepath), -1, 1);
+  $filename = $filename[0];
+  if (!is_dir(dirname($newname))) {
+    drupal_set_message(t("Target directory doesn't exist."), 'error');
+    return;
+  }
+  if (file_copy($source, $newname, FILE_EXISTS_ERROR)) {
+    $source = preg_replace("#^".file_create_path("")."/(.*)$#", "\\1", $source);
+    drupal_set_message(t("Copied %orig to %new", array("%new" => $source, "%orig" => $file->filepath)));
+
+    // Save it to the database
+    $file = new StdClass();
+            // fid
+            $file->uid = user_uid_optional_to_arg('');
+            $file->filename = $filename;
+            $file->filepath = $newname;
+            $fp = file_create_path($disknode_file->filepath);
+            $file->filemime = file_get_mimetype(realpath($fp));
+            $file->size = filesize(realpath($fp));
+            $file->filetime = filemtime($fp);
+            echo "";
+
+            $query = 'INSERT INTO files (uid, filename, filepath, filemime, filesize, status, timestamp) VALUES ('
+            	   . '"' . $file->uid . '", '
+            	   . '"' . $file->filename . '", '
+            	   . '"' . $file->filepath . '", '
+            	   . '"' . $file->filemime . '", '
+            	   . '"' . $file->size . '", '
+            	   . '"1", ' //status
+            	   . '"' . $file->filetime . '" ' //timestamp
+            	   . ');';
+           db_query($query);
+
+    if (dirname($newname) == '.') {
+      $goto_subdir = '';
+    }
+    else {
+      $goto_subdir = dirname($newname);
+    }
+    drupal_goto("disknode/browse", "subdir=" . $goto_subdir);
+  }
+}
+
+
+function __disknode_info_delete(&$file) {
+  // Check if the user has priviledges to delete this files
+  if (!__disknode_validate_fileaccess($file->filepath, DISKNODE_OP_DELETE)) {
+    return;
+  }
+  if (intval($_POST["yesimsure"]) != 1) {
+    drupal_set_message(t("Please check 'I am sure' to delete the file."), 'error');
+    return;
+  }
+  $result = db_query("SELECT f.fid, f.uid FROM {files} f WHERE filepath = '%s'", $file->filepath);
+  while ($res = db_fetch_object($result)) {
+    if (!_disknode_validate_ownership($res->uid)) {
+      // If you don't get permission. Break up right here.
+      drupal_set_message('You are not the owner of this file, therefore you can not modify it.', 'error');
+      drupal_goto("disknode/browse", "subdir=" . dirname($file->filepath));
+    }
+    // Delete rows in all three tables that contain the file-id
+    db_query("DELETE FROM {downloads} WHERE fid=%d", $res->fid);
+    db_query("DELETE FROM {files} WHERE fid=%d", $res->fid);
+    db_query("DELETE FROM {disknode} WHERE fid=%d", $res->fid);
+  }
+  $fp = file_create_path($file->filepath);
+  file_delete($fp);
+  drupal_set_message(t("File '%name' deleted.", array("%name" => $file->filepath)));
+  if (dirname($file->filepath) == '.') {
+    $goto_subdir = '';
+  }
+  else {
+    $goto_subdir = dirname($file->filepath);
+  }
+  drupal_goto("disknode/browse", "subdir=" . $goto_subdir);
+}
+
+
+/**
+ * Fill the template with a form for creating folders and handle errors.
+ *
+ */
+function _disknode_mkdir() {
+  $title = "Create directory";
+  if (!empty($_GET["selection"])) {
+    $_GET["subdir"] = dirname($_GET["selection"]);
+  }
+  global $subdir;
+  $subdir = $_GET["subdir"];
+  $dirparam = $_POST['dirname']; // get the value from form (new way)
+  if (!empty($dirparam)) {
+    if (!empty($subdir)) {
+      $subdir .= "/";
+    }
+    $dirname = file_create_path($subdir.$dirparam);
+    if (!file_check_directory($dirname , FILE_CREATE_DIRECTORY | FILE_MODIFY_PERMISSIONS)) {
+      // Creation failed
+      drupal_set_message( t("Failed to create\\update %dirname", array("%dirname" => $dirname)), 'error' );
+    }
+    else {
+      // Folder has been created successfully
+      drupal_goto("disknode/browse", "subdir=" . $dirname);
+    }
+  }
+  $form .= drupal_get_form('_disknode_mkdir_form');
+  if (!is_writable(file_create_path($subdir))) {
+    drupal_set_message("$subdir is not writeable", 'error');
+  }
+  // Call display_template function that handles the rest.
+  _disknode_display_template($title, $subdir, $form);
+}
+
+
+function _disknode_rmdir() {
+  $title = "Remove directory";
+  if (!empty($_GET["selection"])) {
+    $_GET["subdir"] = dirname($_GET["selection"]);
+  }
+  global $subdir;
+  $subdir = $_GET["subdir"];
+  if (file_directory_path() == $subdir) {
+    drupal_set_message(t("You can not remove the base directory"), 'error');
+  }
+  else {
+    if (!empty($_POST["iamsure"])) {
+      if (count(file_scan_directory($subdir, ".*", array(".", ".."), 0, false)) > 0) {
+        drupal_set_message(t("Failed to remove folder %dirname. Folder is not empty.", array("%dirname" => $subdir)), 'error');
+        drupal_goto("disknode/browse", "subdir=" . $subdir);
+      }
+      else if (!rmdir(file_create_path($subdir))) {
+        drupal_set_message(t("Failed to remove %dirname", array("%dirname" => $subdir)), 'error');
+      }
+      else {
+        $subdir = dirname($subdir);
+        if ($subdir == '.') {
+          $subdir = '';
+        }
+        drupal_set_message(t("Folder %dirname has been deleted.", array("%dirname" => $subdir)), 'status');
+        drupal_goto("disknode/browse", "subdir=" . $subdir);
+      }
+    }
+   $form .= drupal_get_form('_disknode_rmdir_form');
+  }
+  if (!is_writable(file_create_path($subdir))) {
+    drupal_set_message("$subdir is not writeable", 'error');
+  }
+  // Call display_template function that handles the rest.
+  _disknode_display_template($title, $subdir, $form);
+}
+
+
+function _disknode_rmdir_form() {
+    $form['iamsure'] = array(
+      '#type' => 'checkbox',
+      '#title' => t('Yes, I am absolutely sure I want to do this.'),
+      '#return_value' => 1,
+      '#default_value' => false,
+    );
+    $form[] = array(
+      '#type' => 'submit',
+      '#value' => t('Remove directory'),
+    );
+    $form['#method'] = 'POST';
+	return $form;
+}
+
+
+/**
+ * Callback to make a "Create directory" form
+ *
+ */
+function _disknode_mkdir_form() {
+  $form['dirname'] = array(
+    '#type' => 'textfield',
+    '#title' => t('Directory name'),
+    '#default_value' => '',
+    '#size' => 50,
+    '#maxlength' => 65535,
+    '#description' => t('Enter the name of the directory.')
+  );
+  $form[] = array(
+    '#type' => 'submit',
+    '#value' => t('Create'),
+  );
+  $form['#method'] = 'POST';
+  return $form;
+}
+
+
+/**
+ * Verify that user is in the files-directory
+ * Access to directories on the outside of ''files'' is denied
+ *
+ * @param string $filepath
+ * @param string $operation
+ * @return bool
+ *
+ * TODO: Do I have to compare strcmp($filepath, file_directory_path() > 0? Is always true otherwise?
+ * 		 Why is $filepath only current dir-name and not the fullpath?
+ *
+ */
+function __disknode_validate_fileaccess($filepath, $operation = NULL) {
+  if (strcmp($filepath, file_directory_path()) || $filepath == '.') {
+    return true;
+  }
+  else {
+    drupal_set_message(t("You are not allowed to operate outside the base environment set by the system operator."), 'error');
+    return false;
+  }
+}
+
+
+/**
+ * Upload function loads the upload-template and adds a custom form to it
+ *
+ */
+function _disknode_upload() {
+  $title = 'Upload';
+  if (count($_POST) > 0) {
+    // when it's a POST request when the SUBMIT button has been clicked.
+    $zipfile = false;
+    if (isset($_POST['zipfile']) && $_POST['zipfile'] == '1') {
+      $zipfile = true;
+    }
+    if (isset($_GET['subdir']) && $_GET['subdir'] != '') {
+      $destdir = $_GET['subdir'];
+    }
+    else {
+      drupal_set_message(t("No destination selected"), 'error');
+    }
+    /* TODO Modify the validators array to suit your needs.
+     This array is used in the revised file_save_upload */
+    $validators = array();
+    foreach ($_FILES as $key => $properties) {
+      // Keep original filename to compare and announce in case the filename has been cleaned
+      $orig_filename = $_FILES['files']['name']['file'];
+      // TODO: Find a solution to clean filenames if there is more than one upload at a time
+      $_FILES['files']['name']['file'] = __disknode_clean_filename($properties['name']['file']);
+      $dest = $destdir . "/" . $_FILES['files']['name']['file'];
+
+      if (!$zipfile) {
+        if (file_exists($dest)) {
+          if (!($_POST["overwrite1"]=="1")) {
+            // Overwrite is not TRUE
+            drupal_set_message(t("File %path already exists. Choose 'overwrite' to replace it.", array("%path" => $file->filepath)), 'error');
+            drupal_goto("disknode/upload", "subdir=" . $destdir . "&lastselection=" . $name);
+          }
+          $filename_without_dirpath = ltrim($dest, file_directory_path() . '/');
+          $result = db_query("SELECT f.uid FROM {files} f WHERE filepath = '%s'", $filename_without_dirpath);
+          while ($res = db_fetch_object($result)) {
+            if (!_disknode_validate_ownership($res->uid)) {
+              // If you don't get permission. Break up right here.
+              drupal_set_message('You are not the owner of this file, therefore you can not modify it.', 'error');
+              drupal_goto("disknode/browse", "subdir=" . $destdir);
+            }
+          }
+        }
+        $file = file_save_upload('file', $validators, $dest, $_POST["overwrite1"]=="1"?FILE_EXISTS_REPLACE:FILE_EXISTS_ERROR);
+        if ($file) {
+          drupal_set_message(t("File saved to %path", array("%path" => $file->filepath)), 'status');
+          $basepath = file_directory_path(); // for us it is: 'files/'
+          // delete the 'files/' prefix from the filepath (the +1 is for the separator '/')
+          if (substr($file->filepath, 0, strlen($basepath . '/')) === $basepath . '/') {
+            $new_filepath = substr( $file->filepath, strlen($basepath . '/'));
+          }
+          else {
+            $new_filepath = $file->filepath;
+          }
+          $query =  'UPDATE files SET ';
+          $query .= 'filepath="'  . $new_filepath  . '", ';
+          $query .= 'status="1" ';
+          $query .= 'WHERE filepath="' . $file->filepath . '" ';
+          db_query($query);
+          $query =  'INSERT IGNORE INTO downloads (fid, counter) VALUES (';
+          $query .= '"'  . $file->fid  . '", ';
+          $query .= '"0");';
+          db_query($query);
+
+          if ($orig_filename != $_FILES['files']['name']['file']) {
+            drupal_set_message(t('Your filename has been renamed to conform to site policy.'));
+          }
+          if ($_POST['attach'] == '1') {
+            drupal_set_message(t('The file has been attached to your post.'));
+            drupal_goto("disknode/browse", "subdir=" . $destdir . "&uploaded=" . $new_filepath);
+          }
+          else {
+            drupal_goto("disknode/browse", "subdir=" . $destdir);
+          }
+        }
+        else {
+          drupal_set_message(t("Failed to upload %dest. Please check that the chosen file doesn't exeed the maximum file size of %size", array("%dest" => $dest, '%size' => format_size(file_upload_max_size()))), 'error');
+          drupal_goto("disknode/upload", "subdir=" . $destdir);
+        }
+      }
+    else {
+        // Is it really a ZIP file that has been uploaded?
+        // if ($_FILES['files']['type']['file'] != 'application/zip') {
+        //   drupal_set_message(t('Uploaded file is not a ZIP file. Please select a ZIP file or deselect the \'ZIP archive\' checkbox'), 'error');
+        //   drupal_goto("disknode/upload", "subdir=" . $destdir);
+        // }
+
+        // Path for ZIP extraction
+        $zipdest = file_create_path($dest . '/');
+        $retval = file_check_directory($zipdest, 0);
+        // file_check_directory() returns FALSE, if the path does not exists and TRUE if there is already a folder with that name.
+        if ($retval) {
+            // Folder already exists -> Generate new folder name
+            $zipdest = $zipdest . date("_Y-n-j_H-i-s");
+        }
+        // No matter if we had to change the folder's name or not - now it is the time to create that folder
+        file_check_directory($zipdest, FILE_CREATE_DIRECTORY);
+        $zipfile = $zipdest . '/' . $_FILES['files']['name']['file'];
+        $file = file_save_upload('file', $validators, $zipdest, FILE_EXISTS_ERROR);
+        if ($file) {
+          // If we have a file object, the upload was successful
+          //$full_path_to_zipfile = realpath($zipfile);
+					$full_path_to_zipfile = $zipfile;	
+          // Open the zip file
+          $zip = new ZipArchive;
+          if ($zip->open($full_path_to_zipfile) === TRUE) {
+            $names = array();
+            $i = 0;
+            // Iterate above all names and throw all files out that are in subdirs
+            while ($zip->getNameIndex($i) != NULL) {
+              $temp = $zip->getNameIndex($i);
+              // If a file path contains a '/' than it is in a subdir
+              if  ( strpos($zip->getNameIndex($i), '/') == false ) {
+                $names[] = $zip->getNameIndex($i);
+              }
+              $i++;
+            }
+            // Extract all files that has been chosen
+            $zip->extractTo($zipdest, $names);
+            // Close the ZIP file
+            $zip->close();
+          }
+
+          // Delete ZIP file and deregister from database
+          $result = db_query("SELECT f.fid FROM {files} f WHERE filepath = '%s'", $file->filepath);
+          while ($res = db_fetch_object($result)) {
+            // Delete rows in all three tables that contain the file-id
+            db_query("DELETE FROM {downloads} WHERE fid=\"%d\"", $res->fid);
+            db_query("DELETE FROM {files} WHERE fid=\"%d\"", $res->fid);
+            db_query("DELETE FROM {disknode} WHERE fid=\"%d\"", $res->fid);
+          }
+          $fp = file_create_path($zipfile);
+          file_delete($fp);
+          drupal_set_message(t("File '%name' deleted.", array("%name" => $file->filepath)));
+
+          // TODO: clean filenames
+
+          // Register all files in the database
+
+          foreach ($names as $name) {
+            $file = new StdClass();
+            // fid
+            $file->uid = user_uid_optional_to_arg('');
+            $file->filename = $name;
+
+            $basepath = file_directory_path(); // for us it is: 'files/'
+            $file->filepath = $zipdest . '/' . $name;
+            // delete the 'files/' prefix from the filepath (the +1 is for the separator '/')
+            if (substr($file->filepath, 0, strlen($basepath . '/')) === $basepath . '/') {
+              $file->filepath = substr( $file->filepath, strlen($basepath . '/'));
+            }
+
+            $fp = file_create_path($file->filepath);
+            $file->filemime = file_get_mimetype($fp);
+            $file->size = 0; //filesize($fp);
+            $file->filetime = 0; //filemtime($fp);
+            echo "";
+
+            $query = 'INSERT INTO files (uid, filename, filepath, filemime, filesize, status, timestamp) VALUES ('
+            	   . '"' . $file->uid . '", '
+            	   . '"' . $file->filename . '", '
+            	   . '"' . $file->filepath . '", '
+            	   . '"' . $file->filemime . '", '
+            	   . '"' . $file->size . '", '
+            	   . '"1", ' //status
+            	   . '"' . $file->filetime . '" ' //timestamp
+            	   . ');';
+           db_query($query);
+           }
+
+         }
+            drupal_goto("disknode/browse", "subdir=" . $destdir);
+        }
+      }
+    }
+  else {
+    // No upload is happening. Display the upload form!
+    if (!empty($_GET["selection"])) {
+      $_GET["subdir"] = dirname($_GET["selection"]);
+    }
+    $subdir = $_GET["subdir"];
+    $htmldata = drupal_get_form('_disknode_upload_form');
+    // Load the upload-template
+    _disknode_display_template($title, $subdir, $htmldata);
+  }
+}
+
+
+function _disknode_upload_form() {
+    $form1['file'] = array(
+      '#type' => 'file',
+      '#title' => t('File'),
+      '#size' => 40,
+    // TODO: IMPORTANT - display the last file selected....!
+      '#default_value' => t($_GET['subdir'] . $_GET['lastselection']),
+      '#description' => t('Click "Browse..." to select an file to upload.'),
+    );
+    $form1['upload_max_size'] = array(
+      '#value' => '<p>'. t('The maximum file size per upload is set to %size.', array('%size' => format_size(file_upload_max_size()))).'</p>'
+    );
+    $form1['attach'] = array(
+      '#type' => 'checkbox',
+      '#title' => t('Attach to current article'),
+      '#return_value' => 1,
+      '#default_value' => true,
+      '#description' => t('Hit this checkbox to attach the files you upload directly to the article you are editing.'),
+    );
+    $form1['overwrite1'] = array(
+      '#type' => 'checkbox',
+      '#title' => t('Overwrite'),
+      '#return_value' => 1,
+      '#default_value' => false,
+      '#description' => t('Overwrite the file if it exists.'),
+    );
+    $form1['zipfile'] = array(
+      '#type' => 'checkbox',
+      '#title' => t('This upload is a ZIP archive'),
+      '#return_value' => 1,
+      '#default_value' => false,
+      '#description' => t('Check this checkbox to upload an archive that contains a bunch of files. The files will be extracted after the upload succeeded and they will all appear in the selected directory. <br />'),
+    );
+    $form1[] = array(
+      '#type' => 'submit',
+      '#value' => t('Upload'),
+      '#size' => 300,
+    );
+    $form1['#method'] = 'POST';
+    $form1['#action'] = NULL;
+    $form1['#attributes'] = array('enctype' => 'multipart/form-data');
+  return $form1;
+}
+
+
+function __disknode_clean_filename($filename) {
+  $original = trim($filename);
+  $code_entities_match = array( '&quot;' ,'!' ,'@' ,'#' ,'$' ,'%' ,'^' ,'&' ,'*' ,'(' ,')',
+  								'+' ,'{' ,'}' ,'|' ,':' ,'"' ,'<' ,'>' ,'?' ,'[' ,']' ,'' ,
+  								';' ,"'" ,',' ,'_' ,'/' ,'*' ,'+' ,'~' ,'`' ,'=' ,' ' ,
+  								'---' ,'--','--');
+  $code_entities_replace = array('' ,'-' ,'-' ,'' ,'' ,'' ,'-' ,'-' ,'' ,'' ,'' ,'' ,'' ,
+  								 '' ,'' ,'-' ,'' ,'' ,'' ,'' ,'' ,'' ,'' ,'' ,'' ,'-' ,'-',
+  								 '-' ,'' ,'' ,'' ,'' ,'' ,'-' ,'-' ,'-','-');
+  $newname = str_replace($code_entities_match, $code_entities_replace, $original);
+  return $newname;
+}
+
+
+/**
+ * One function for including always the same template-file
+ * but providing it with different variables which are
+ * handed over via hook_preprocessor()
+ *
+ * @param String $title
+ * @param String $htmldata
+ *
+ */
+function _disknode_display_template($title_ = "Disknode", $subdir = "", $htmldata = "") {
+  // Prepare all variable to be read out by preprocessor function
+  global $title;
+  $title = t($title_);
+  global $disknode_breadcrumb;
+  $relpath = "";
+  if (!empty($subdir)) {
+    $_r = "/".$subdir;
+  }
+  else {
+    $_r = "";
+  }
+  foreach (explode("/", $_r) as $elm) {
+    if ($elm == "") {
+      $dirtitle = "root";
+    }
+    else {
+      $dirtitle = $elm;
+    }
+    if (!empty($relpath)) {
+      $relpath .= "/";
+    }
+    $relpath .= $elm;
+    if (strcmp($relpath, variable_get('file_directory_path', 'files') ) < 0) {
+      $breadcrumb .= $dirtitle;
+    }
+    else {
+      $breadcrumb .= l($dirtitle, 'disknode/browse', array('query' => "subdir=".$relpath, 'absolute' => true));
+    }
+    $breadcrumb .= " / ";
+  }
+  $disknode_breadcrumb = $breadcrumb;
+  global $disknode_content;
+  $disknode_content = $htmldata;
+  module_load_include('inc', 'disknode', 'disknode.tpl');
+}
+
+
+/**
+ * This function returns TRUE when the person owns the file or when the user has the 'administer all disknode files' permission
+ *
+ * @param integer $uid
+ */
+function _disknode_validate_ownership($uid) {
+  if ( intval($uid) == intval(user_uid_optional_to_arg('')) || user_access('administer all disknode files') ) {
+    return TRUE;
+  }
+  // Otherweise return FALSE
+  return;
+}

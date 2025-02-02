@@ -1,0 +1,10 @@
+#advupload-messages, #advupload-uploader-wrapper, #advupload-uploader, #advupload-uploader-additional,
+#advupload-uploader-hook-pre, #advupload-uploader-additional-own, #advupload-uploader-hook-post,
+#advupload-uploader-input-values, #advupload-uploader-input-values-own, #advupload-uploader-input-values-modules{
+display:block;overflow:hidden;clear:both;
+}
+.advupload-success{color:#4F8803;}
+.advuploaded-node-title{font-size:1.4em;font-weight:bolder;};
+#advupload-uploader-wrapper dl.advupload-values dt{overflow:visible;width:12em;}
+#advupload-uploader-wrapper dl.advupload-values dd{margin-left:12em;margin-top:-2em;padding-bottom:6px;}
+#advupload-uploader-input-values input.node-title{width:20em};

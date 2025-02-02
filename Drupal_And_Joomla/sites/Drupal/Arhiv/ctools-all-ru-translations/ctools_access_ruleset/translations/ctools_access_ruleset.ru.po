@@ -1,0 +1,59 @@
+# Russian translation of ctools (all releases)
+# Copyright (c) 2013 by the Russian translation team
+# Generated from files:
+#  ctools_access_ruleset.module,v 1.1.2.3 2010/07/26 22:09:19 merlinofchaos
+#  ctools/ctools_access_ruleset/ctools_access_ruleset.module: n/a
+#  ctools/ctools_access_ruleset/ctools_access_ruleset.info: n/a
+#  ctools_access_ruleset.info,v 1.1.2.1 2010/07/14 01:33:03 merlinofchaos
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: ctools (all releases)\n"
+"POT-Creation-Date: 2013-05-29 14:25+0400\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Language-Team: Russian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=((((n%10)==1)&&((n%100)!=11))?(0):(((((n%10)>=2)&&((n%10)<=4))&&(((n%100)<10)||((n%100)>=20)))?(1):2));\n"
+
+#: ctools_access_ruleset/ctools_access_ruleset.module:21,21,20,20,21,20,20
+msgid "administer ctools access ruleset"
+msgstr ""
+
+#: ctools_access_ruleset/ctools_access_ruleset.info:0,0,0,0,0,0,0,0,0,0,0,0
+msgid "Custom rulesets"
+msgstr ""
+
+#: ctools_access_ruleset/ctools_access_ruleset.info:0,0,0,0,0,0,0,0,0,0,0,0
+msgid ""
+"Create custom, exportable, reusable access rulesets for applications "
+"like Panels."
+msgstr ""
+
+#: ctools_access_ruleset/ctools_access_ruleset.module:46,46,46,44,44,43,43,46,46,46,44,46,43,46,43
+msgid "Custom ruleset"
+msgstr ""
+
+#: ctools_access_ruleset/ctools_access_ruleset.module:47,47,47,45,45,44,44,47,47,47,45,47,44,47,44
+msgid ""
+"Custom rulesets are combinations of access plugins you can use for "
+"access control, selection criteria and pane visibility."
+msgstr ""
+
+#: ctools_access_ruleset/ctools_access_ruleset.module:75,75,75,73,73,72,72,75,75,75,73,75,72,75,72
+msgid "There are no custom rulesets."
+msgstr ""
+
+#: ctools_access_ruleset/ctools_access_ruleset.module:79,79,79,77,77,76,76,79,79,79,77,79,76,79,76
+msgid "Manage custom rulesets"
+msgstr ""
+
+#: ctools_access_ruleset/ctools_access_ruleset.module:21,21,21,21,21,21,21,21
+msgid "Administer access rulesets"
+msgstr ""
+
+#: ctools_access_ruleset/ctools_access_ruleset.module:22,22,22,22,22,22,22,22
+msgid "Add, delete and edit custom access rulesets."
+msgstr ""
+

@@ -1,0 +1,70 @@
+# Russian translation of ctools (all releases)
+# Copyright (c) 2013 by the Russian translation team
+# Generated from files:
+#  ctools/plugins/export_ui/ctools_export_ui.class.php: n/a
+#  ctools_export_ui.class.php,v 1.1.2.20 2010/10/15 21:05:55 merlinofchaos
+#  ctools_export_ui.class.php,v 1.1.2.13 2010/07/23 21:47:20 merlinofchaos
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: ctools (all releases)\n"
+"POT-Creation-Date: 2013-05-29 14:25+0400\n"
+"PO-Revision-Date: 2011-11-23 23:27+0400\n"
+"Language-Team: Russian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=((((n%10)==1)&&((n%100)!=11))?(0):(((((n%10)>=2)&&((n%10)<=4))&&(((n%100)<10)||((n%100)>=20)))?(1):2));\n"
+
+#: plugins/export_ui/ctools_export_ui.class.php:780,798,792,1202,763,794,798,794,798,821,823,823,801,801,823,792,831,831,801,831,801
+msgid "Import code"
+msgstr "Импорт кода"
+
+#: plugins/export_ui/ctools_export_ui.class.php:484,467,480,483,454,480,484,480,482,482,491,491,482,483,444,444,491,444,491
+msgid "Enabled, name"
+msgstr "Включено, имя"
+
+#: plugins/export_ui/ctools_export_ui.class.php:983,1002,999,970,1001,1002,1001,1002,1025,1027,1027,1008,1008,1027,999,1035,1035,1008,1035,1008
+msgid ""
+"This will appear in the administrative interface to easily identify "
+"it."
+msgstr ""
+
+#: plugins/export_ui/ctools_export_ui.class.php:1333,1352,1347,1386,1349,1352,1349,1356,1356,1369,1391,1393,1393,1356,1393,1347,1410,1410,1356,1410,1356
+msgid ""
+"The export id can only consist of lowercase letters, underscores, and "
+"numbers."
+msgstr ""
+
+#: plugins/export_ui/ctools_export_ui.class.php:1355,1339,1358,1353,1392,1358,1355,1362,1362,1375,1397,1399,1399,1362,1399,1353,1416,1416,1362,1416,1362
+msgid ""
+"A @plugin with this name already exists. Please choose another name or "
+"delete the existing item before creating a new one."
+msgstr ""
+
+#: plugins/export_ui/ctools_export_ui.class.php:1439
+msgid "@plugin object"
+msgstr ""
+
+#: plugins/export_ui/ctools_export_ui.class.php:1224,1243,1237,1447,1277,1239,1243,1239,1243,1265,1267,1267,1246,1246,1267,1237,1284,1284,1246,1284,1246
+msgid "Allow import to overwrite an existing record."
+msgstr ""
+
+#: plugins/export_ui/ctools_export_ui.class.php:1238,1257,1251,1486,1291,1253,1257,1253,1257,1279,1281,1281,1260,1260,1281,1251,1298,1298,1260,1298,1260
+msgid "Unable to get an import from the code. Errors reported: @errors"
+msgstr ""
+
+#: plugins/export_ui/ctools_export_ui.class.php:848,867,860,831,862,867,862,867,890,892,892,869,869,892,860,900,900,869,900,869
+msgid ""
+"You have unsaved changes. These changes will not be made permanent "
+"until you click <em>Save</em>."
+msgstr ""
+
+#: plugins/export_ui/ctools_export_ui.class.php:1216,1235,1229,1269,1231,1235,1231,1235,1257,1259,1259,1238,1238,1259,1229,1276,1276,1238,1276,1238
+msgid "@plugin code"
+msgstr ""
+
+#: plugins/export_ui/ctools_export_ui.class.php:992,1011,1008,979,1010,1011,1010,1011,1034,1036,1036,1017,1017,1036,1008,1044,1044,1017,1044,1017
+msgid "The unique ID for this @export."
+msgstr "Уникальный ID для @export."
+

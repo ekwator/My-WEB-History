@@ -1,0 +1,6 @@
+    $tpl = new parser();
+    $tpl->tpl_file = "_template.tpl";
+    $tpl->get_tpl();
+        $tpl->set_tpl("{HEADER_1}", "Hello");
+        $tpl->set_tpl("{HEADER_2}", "World");
+    $tpl->tpl_parse();

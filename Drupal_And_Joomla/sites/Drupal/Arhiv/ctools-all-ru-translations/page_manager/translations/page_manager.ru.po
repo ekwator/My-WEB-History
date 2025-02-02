@@ -1,0 +1,474 @@
+# Russian translation of ctools (all releases)
+# Copyright (c) 2013 by the Russian translation team
+# Generated from files:
+#  ctools/page_manager/page_manager.module: n/a
+#  page_manager.module,v 1.17.2.8 2010/07/23 21:47:20 merlinofchaos
+#  ctools/page_manager/page_manager.admin.inc: n/a
+#  page_manager.admin.inc,v 1.27.2.13 2010/07/23 17:41:52 merlinofchaos
+#  page_manager.admin.inc,v 1.27.2.18 2010/10/29 22:40:52 merlinofchaos
+#  ctools/page_manager/page_manager.info: n/a
+#  page_manager.info,v 1.2 2009/07/12 18:11:58 merlinofchaos
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: ctools (all releases)\n"
+"POT-Creation-Date: 2013-05-29 14:25+0400\n"
+"PO-Revision-Date: 2011-07-03 01:21+0400\n"
+"Language-Team: Russian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=((((n%10)==1)&&((n%100)!=11))?(0):(((((n%10)>=2)&&((n%10)<=4))&&(((n%100)<10)||((n%100)>=20)))?(1):2));\n"
+
+#: page_manager/page_manager.module:107,108,79,79,78,108,78,108,108,108,79,108,78,108,78
+msgid "List"
+msgstr "Список"
+
+#: page_manager/page_manager.module:101,102,73,73,72,102,72,102,102,102,73,102,72,102,72
+msgid "Pages"
+msgstr "Страницы"
+
+#: page_manager/page_manager.admin.inc:246,248,239,239,238,248,238,248,248,248,239,252,252,238,252,238
+msgid "<All>"
+msgstr "<Все>"
+
+#: page_manager/page_manager.admin.inc:684,682,481,684,483,671,475,475,676,474,675,483,474,675,483,684,485,686,485,686,485,686,475,676,489,690,489,690,474,675,489,690,474,675
+msgid "Summary"
+msgstr "Сводка"
+
+#: page_manager/page_manager.admin.inc:626,630,624,632,626,619,614,618,624,617,623,632,617,623,626,632,628,634,628,634,628,634,618,624,638,632,638,617,623,632,638,617,623
+msgid "Break lock"
+msgstr "Прервать блокировку"
+
+#: page_manager/page_manager.admin.inc:650,652,639,644,643,652,643,652,654,654,654,644,658,658,643,658,643
+msgid "Variants"
+msgstr "Варианты"
+
+#: page_manager/page_manager.module:1121,1165,1174,1122,1122,1174,1121,1174,1182,1129,1129,1182,1182,1122,1181,1219,1181,1129,1219,1129,1216
+msgid ""
+"Panel pages can be used as landing pages. They have a URL path, accept "
+"arguments and can have menu entries."
+msgstr ""
+"Страницы-панели выглядят как обычные "
+"страницы сайта. У них есть свой "
+"URL-адрес, они обрабатывают аргументы и "
+"могут иметь собственные пункты меню."
+
+#: page_manager/page_manager.module:1164,1173,1121,1121,1120,1173,1120,1173,1181,1128,1128,1181,1181,1121,1180,1218,1180,1128,1218,1128,1215
+msgid "Panel page"
+msgstr "Страницу-панель"
+
+#: page_manager/page_manager.admin.inc:482,484,476,476,475,484,475,484,486,486,486,476,490,490,475,490,475
+msgid "Get a summary of the information about this page."
+msgstr "Краткая информация о данной странице."
+
+#: page_manager/page_manager.admin.inc:561,563,553,555,554,563,554,563,565,565,565,555,569,569,554,569,554
+msgid "Add variant"
+msgstr "Добавить вариант"
+
+#: page_manager/page_manager.admin.inc:562,564,554,556,555,564,555,564,566,566,566,556,570,570,555,570,555
+msgid "Add a new variant to this page."
+msgstr ""
+"Добавить к этой странице новый "
+"вариант."
+
+#: page_manager/page_manager.admin.inc:575,577,566,569,568,577,568,577,579,579,579,569,583,583,568,583,568
+msgid "Import variant"
+msgstr "Импорт"
+
+#: page_manager/page_manager.admin.inc:576,578,567,570,569,578,569,578,580,580,580,570,584,584,569,584,569
+msgid "Add a new variant to this page from code exported from another page."
+msgstr ""
+"Добавить к этой странице новый "
+"вариант, вставив код, "
+"экспортированный из другой страницы."
+
+#: page_manager/page_manager.admin.inc:583,585,574,577,576,585,576,585,587,587,587,577,591,591,576,591,576,583,585,574,577,576,585,576,585,587,587,587,577,591,591,576,591,576
+msgid "Reorder variants"
+msgstr "Упорядочить варианты"
+
+#: page_manager/page_manager.admin.inc:585,587,576,579,578,587,578,587,589,589,589,579,593,593,578,593,578
+msgid ""
+"Change the priority of the variants to ensure that the right one gets "
+"selected."
+msgstr ""
+"Изменить порядок обработки вариантов, "
+"чтобы система выбирала из них текущий "
+"так, как вам надо."
+
+#: page_manager/page_manager.admin.inc:598,596,598,587,590,589,589,598,600,600,600,590,604,604,589,604,589
+msgid ""
+"Configure a newly created variant prior to actually adding it to the "
+"page."
+msgstr ""
+
+#: page_manager/page_manager.admin.inc:625,627,615,619,618,627,618,627,629,629,629,619,633,633,618,633,618
+msgid "Break the lock on this page so that you can edit it."
+msgstr ""
+
+#: page_manager/page_manager.admin.inc:675,677,664,669,668,677,668,677,679,679,679,669,683,683,668,683,668
+msgid "Variant operations"
+msgstr "Параметры варианта"
+
+#: page_manager/page_manager.admin.inc:685,683,685,672,677,676,676,685,687,687,687,677,691,691,676,691,676
+msgid "Get a summary of the information about this variant."
+msgstr "Краткая информация о данном варианте."
+
+#: page_manager/page_manager.admin.inc:700,698,700,687,692,691,691,700,702,702,702,692,706,706,691,706,691
+msgid "Make an exact copy of this variant."
+msgstr "Создать точную копию этого варианта."
+
+#: page_manager/page_manager.admin.inc:703,705,692,697,696,705,696,705,707,707,707,697,711,711,696,711,696
+msgid "Export this variant into code to import into another page."
+msgstr ""
+"Экспорт этого варианта в виде кода для "
+"последующего его импорта в другую "
+"страницу."
+
+#: page_manager/page_manager.admin.inc:711,709,711,698,703,702,702,711,713,713,713,703,717,717,702,717,702
+msgid "Remove all changes to this variant and revert to the version in code."
+msgstr ""
+
+#: page_manager/page_manager.admin.inc:720,722,708,714,713,722,713,722,724,724,724,714,728,728,713,728,713
+msgid "Remove this variant from the page completely."
+msgstr ""
+"Окончательно удалить этот вариант из "
+"данной страницы."
+
+#: page_manager/page_manager.admin.inc:731,733,718,725,724,733,724,733,735,735,735,725,739,739,724,739,724
+msgid "Activate this variant so that it will be in use in your system."
+msgstr ""
+
+#: page_manager/page_manager.admin.inc:736,743,745,729,737,745,736,745,747,747,747,737,751,751,736,751,736
+msgid ""
+"De-activate this variant. The data will remain but the variant will "
+"not be in use on your system."
+msgstr ""
+"Отключить этот вариант. Его данные "
+"останутся, но в системе он не будет "
+"задействован."
+
+#: page_manager/page_manager.admin.inc:751,758,760,743,752,760,751,760,762,762,762,752,766,766,751,766,751
+msgid "No variants"
+msgstr "Нет вариантов"
+
+#: page_manager/page_manager.admin.inc:983,981,983,971,979,978,978,983,985,985,985,979,989,989,978,989,978
+msgid ""
+"The page has been updated. Changes will not be permanent until you "
+"save."
+msgstr ""
+"Страница обновлена. Изменения не "
+"вступят в силу, пока вы не сохраните "
+"их."
+
+#: page_manager/page_manager.admin.inc:1004,1002,1004,992,1000,999,999,1004,1006,1006,1006,1000,1010,1010,999,1010,999
+msgid "Unable to update changes due to lock."
+msgstr ""
+
+#: page_manager/page_manager.admin.inc:1175,1177,1155,1168,1167,1177,1167,1177,1179,1179,1179,1168,1183,1183,1167,1183,1167,1185
+msgid "This setting contains unsaved changes."
+msgstr ""
+
+#: page_manager/page_manager.admin.inc:1266,1256,1264,1266,1244,1257,1256,1266,1268,1268,1268,1257,1275,1275,1256,1275,1256,1277
+msgid "All pending changes have been discarded, and the page is now unlocked."
+msgstr ""
+"Все изменения, ожидавшие "
+"подтверждения, отменены. Страница "
+"разблокирована."
+
+#: page_manager/page_manager.admin.inc:1391,1393,1371,1384,1383,1393,1383,1393,1395,1395,1395,1384,1402,1402,1383,1402,1383,1404
+msgid "Variant type"
+msgstr "Тип варианта"
+
+#: page_manager/page_manager.admin.inc:1400,1402,1382,1395,1394,1402,1394,1402,1404,1404,1404,1395,1411,1411,1394,1411,1394,1413
+msgid ""
+"Check any optional features you need to be presented with forms for "
+"configuring them. If you do not check them here you will still be able "
+"to utilize these features once the new page is created. If you are not "
+"sure, leave these unchecked."
+msgstr ""
+"Выберите дополнительные возможности, "
+"которые хотите настроить в процессе "
+"создания страницы. Даже если вы их "
+"сейчас не выберете, их всё равно можно "
+"будет использовать после того, как "
+"страница будет создана. Если вы "
+"сомневаетесь по этому поводу, "
+"оставьте флажки снятыми."
+
+#: page_manager/page_manager.admin.inc:1594,1425,1608,1433,1609,1434,1582,1413,1426,1595,1434,1609,1425,1594,1434,1609,1436,1611,1436,1611,1436,1611,1426,1595,1443,1618,1443,1618,1425,1594,1443,1618,1425,1594,1445,1620
+msgid "Variant name"
+msgstr "Название варианта"
+
+#: page_manager/page_manager.admin.inc:1435,1595,1426,1609,1434,1610,1435,1583,1414,1427,1596,1610,1426,1595,1435,1610,1437,1612,1437,1612,1437,1612,1427,1596,1444,1619,1444,1619,1426,1595,1444,1619,1426,1595,1446,1621
+msgid "Enter the name of the new variant."
+msgstr "Введите название нового варианта."
+
+#: page_manager/page_manager.admin.inc:1441,1432,1440,1441,1420,1433,1432,1441,1443,1443,1443,1433,1450,1450,1432,1450,1432,1452
+msgid "Paste variant code here"
+msgstr "Введите код варианта в это поле"
+
+#: page_manager/page_manager.admin.inc:1470,1471,1448,1461,1460,1471,1460,1471,1473,1473,1473,1461,1480,1480,1460,1480,1460,1482
+msgid "No variant found."
+msgstr "Вариантов не найдено"
+
+#: page_manager/page_manager.admin.inc:1463,1473,1474,1451,1464,1474,1463,1474,1476,1476,1476,1464,1483,1483,1463,1483,1463,1485
+msgid "Unable to get a variant from the import. Errors reported: @errors"
+msgstr ""
+
+#: page_manager/page_manager.admin.inc:1552,1564,1565,1540,1553,1565,1552,1565,1567,1567,1567,1553,1574,1574,1552,1574,1552,1576
+msgid ""
+"Reverting the variant will delete the variant that is in the database, "
+"reverting it to the original default variant. This deletion will not "
+"be made permanent until you click Save."
+msgstr ""
+
+#: page_manager/page_manager.admin.inc:1567,1568,1543,1556,1555,1568,1555,1568,1570,1570,1570,1556,1577,1577,1555,1577,1555,1579
+msgid ""
+"Are you sure you want to delete this variant? This deletion will not "
+"be made permanent until you click Save."
+msgstr ""
+"Вы уверены, что хотите удалить этот "
+"вариант? Удаление не вступит в силу, "
+"пока вы не нажмёте кнопку \"Сохранить\"."
+
+#: page_manager/page_manager.admin.inc:1637,1638,1609,1622,1621,1638,1621,1638,1640,1640,1640,1622,1647,1647,1621,1647,1621,1649
+msgid ""
+"This variant is currently disabled. Enabling it will make it available "
+"in your system. This will not take effect until you save this page."
+msgstr ""
+"В данный момент этот вариант отключён. "
+"После включения он станет доступным в "
+"системе. Это не вступит в силу, пока вы "
+"не сохраните страницу."
+
+#: page_manager/page_manager.admin.inc:1659,1658,1659,1628,1641,1640,1640,1659,1661,1661,1661,1641,1668,1668,1640,1668,1640,1670
+msgid ""
+"This variant is currently enabled. Disabling it will make it "
+"unavailable in your system, and it will not be used. This will not "
+"take effect until you save this page."
+msgstr ""
+"В данный момент этот вариант включён. "
+"При отключении он станет недоступным, "
+"поэтому в системе использован не "
+"будет. Это не вступит в силу, пока вы не "
+"сохраните страницу."
+
+#: page_manager/page_manager.admin.inc:1694,1695,1660,1673,1672,1695,1672,1695,1697,1697,1697,1673,1704,1704,1672,1704,1672,1706
+msgid ""
+"Breaking the lock on this page will <strong>discard</strong> any "
+"pending changes made by the locking user. Are you REALLY sure you want "
+"to do this?"
+msgstr ""
+
+#: page_manager/page_manager.admin.inc:1708,1709,1672,1685,1684,1709,1684,1709,1711,1711,1711,1685,1718,1718,1684,1718,1684,1720
+msgid ""
+"The lock has been cleared and all changes discarded. You may now make "
+"changes to this page."
+msgstr ""
+
+#: page_manager/page_manager.module:41,42,42,41,42,41,41
+msgid "use page manager"
+msgstr ""
+
+#: page_manager/page_manager.module:42,42,41,41,42,41,41
+msgid "administer page manager"
+msgstr ""
+
+#: page_manager/page_manager.module:102,103,74,74,73,103,73,103,103,103,74,103,73,103,73
+msgid ""
+"Add, edit and remove overridden system pages and user defined pages "
+"from the system."
+msgstr ""
+"Добавление, редактирование и удаление "
+"пользовательских страниц, "
+"перекрывающих стандартные системные "
+"страницы Drupal."
+
+#: page_manager/page_manager.info:0,0,0,0,0,0,0,0,0,0,0,0
+msgid "Page manager"
+msgstr "Редактор страниц"
+
+#: page_manager/page_manager.info:0,0,0,0,0,0,0,0,0,0,0,0
+msgid "Provides a UI and API to manage pages within the site."
+msgstr ""
+"Обеспечивает интерфейс и API для "
+"управления страницами сайта."
+
+#: page_manager/page_manager.admin.inc:1718,1719,1680,1695,1694,1719,1694,1719,1721,1721,1721,1695,1728,1728,1694,1728,1694,1730,1718,1719,1680,1695,1694,1719,1694,1719,1721,1721,1721,1695,1728,1728,1694,1728,1694,1730
+msgid ""
+"Enabling this page will immediately make it available in your system "
+"(there is no need to wait for a save.)"
+msgstr ""
+"Включение страницы сразу же сделает "
+"её доступной в системе (ждать "
+"сохранения необязательно)."
+
+#: page_manager/page_manager.admin.inc:1721,1747,1748,1707,1722,1748,1721,1748,1750,1750,1750,1722,1757,1757,1721,1757,1721,1759
+msgid ""
+"Disabling this page will immediately make it unavailable in your "
+"system (there is no need to wait for a save.)"
+msgstr ""
+"Как только вы отключите эту страницу, "
+"она сразу же станет недоступной в "
+"системе (ждать сохранения "
+"необязательно)."
+
+#: page_manager/page_manager.admin.inc:535,537,529,529,528,537,528,537,539,539,539,529,543,543,528,543,528
+msgid "Activate this page so that it will be in use in your system."
+msgstr ""
+"Включить эту страницу, чтобы сделать "
+"её доступной в системе."
+
+#: page_manager/page_manager.admin.inc:549,551,542,543,542,551,542,551,553,553,553,543,557,557,542,557,542
+msgid ""
+"De-activate this page. The data will remain but the page will not be "
+"in use on your system."
+msgstr ""
+"Отключить эту страницу. Её данные "
+"останутся, но в системе она не будет "
+"задействована."
+
+#: page_manager/page_manager.admin.inc:1233,1235,1213,1226,1225,1235,1225,1235,1237,1237,1237,1226,1244,1244,1225,1244,1225,1246
+msgid ""
+"You have unsaved changes to this page. You must select Save to write "
+"them to the database, or Cancel to discard these changes. Please note "
+"that if you have changed any form, you must submit that form before "
+"saving."
+msgstr ""
+"Некоторые изменения этой страницы ещё "
+"не сохранены. Либо нажмите кнопку "
+"\"Сохранить\", чтобы записать их в базу "
+"данных, либо \"Отменить\", чтобы "
+"отказаться от них. Имейте в виду: если "
+"вы изменили значения в какой-либо "
+"форме, перед сохранением страницы их "
+"сперва необходимо подтвердить."
+
+#: page_manager/page_manager.admin.inc:1378,1386,1388,1366,1379,1388,1378,1388,1390,1390,1390,1379,1397,1397,1378,1397,1378,1399
+msgid ""
+"Administrative title of this variant. If you leave blank it will be "
+"automatically assigned."
+msgstr ""
+"Административное название этого "
+"варианта. Если оставить поле постым, "
+"заголовок бедет сгенерирован "
+"автоматически."
+
+#: page_manager/page_manager.admin.inc:1779,1807,1808,1765,1780,1808,1779,1808,1810,1810,1810,1780,1817,1817,1779,1817,1779,1819
+msgid "This page has no variants and thus no output of its own."
+msgstr ""
+
+#: page_manager/page_manager.admin.inc:1835,1836,1791,1806,1805,1836,1805,1836,1838,1838,1838,1806,1845,1845,1805,1845,1805,1847
+msgid "Unable to disable due to lock."
+msgstr ""
+
+#: page_manager/page_manager.admin.inc:1838,1839,1794,1809,1808,1839,1808,1839,1841,1841,1841,1809,1848,1848,1808,1848,1808,1850
+msgid "Unable to enable due to lock."
+msgstr ""
+
+#: page_manager/page_manager.admin.inc:948,953,955,941,949,955,948,955,957,957,957,949,961,961,948,961,948
+msgid "This operation trail does not exist."
+msgstr ""
+
+#: page_manager/page_manager.admin.inc:1399,1401,1380,1393,1392,1401,1392,1401,1403,1403,1403,1393,1410,1410,1392,1410,1392,1412
+msgid "Optional features"
+msgstr "Дополнительные возможности"
+
+#: page_manager/page_manager.admin.inc:1784,1812,1813,1770,1785,1813,1784,1813,1815,1815,1815,1785,1822,1822,1784,1822,1784,1824
+msgid "Add a new variant"
+msgstr "Добавить вариант"
+
+#: page_manager/page_manager.admin.inc:607,605,568,607,570,595,559,562,599,561,598,570,561,598,570,607,572,609,572,609,572,609,562,599,576,613,576,613,561,598,576,613,561,598
+msgid "Create variant"
+msgstr "Создать вариант"
+
+#: page_manager/page_manager.module:1148,1192,1201,1149,1149,1201,1148,1201,1209,1156,1156,1209,1209,1149,1208,1246,1208,1156,1246,1156,1243
+msgid "Manage pages"
+msgstr "Управление страницами"
+
+#: page_manager/page_manager.admin.inc:1317,1307,1315,1317,1295,1308,1307,1317,1319,1319,1319,1308,1326,1326,1307,1326,1307,1328
+msgid ""
+"Before this variant can be added, it must be configured. When you are "
+"finished, click \"Create variant\" at the end of this wizard to add "
+"this to your page."
+msgstr ""
+
+#: page_manager/page_manager.admin.inc:30,30,25,25,24,30,24,30,30,30,25,33,33,24,33,24
+msgid "See the getting started guide for more information."
+msgstr ""
+"Для более подробной информации "
+"ознакомьтесь с Руководством для "
+"начинающих."
+
+#: page_manager/page_manager.admin.inc:46,46,40,40,39,46,39,46,46,46,40,50,50,39,50,39
+msgid ""
+"This page is currently locked for editing by you. Nobody else may edit "
+"this page until these changes are saved or canceled."
+msgstr ""
+"В данный момент вы заблокировали "
+"страницу от изменений, т.к. "
+"редактируете её. Никто другой не "
+"сможет внести в неё изменения, пока вы "
+"не сохраните либо не отмените свои."
+
+#: page_manager/page_manager.admin.inc:50,50,44,44,43,50,43,50,50,50,44,54,54,43,54,43
+msgid ""
+"This page is currently locked for editing by another user. You may not "
+"edit this page without breaking the lock."
+msgstr ""
+"В данный момент страница "
+"заблокирована, т.к. её редактирует "
+"другой пользователь. Вы не сможете "
+"внести в неё изменения, не сняв защиту."
+
+#: page_manager/page_manager.admin.inc:964,965,967,957,965,967,964,967,969,969,969,965,973,973,964,973,964
+msgid "Update and save"
+msgstr "Обновить и сохранить"
+
+#: page_manager/page_manager.admin.inc:986,984,986,974,982,981,981,986,988,988,988,982,992,992,981,992,981
+msgid "The page has been updated and saved."
+msgstr "Страница обновлена и сохранена."
+
+#: page_manager/page_manager.admin.inc:1448,1449,1428,1441,1440,1449,1440,1449,1451,1451,1451,1441,1458,1458,1440,1458,1440,1460
+msgid "You do not have sufficient permissions to perform this action."
+msgstr ""
+
+#: page_manager/page_manager.admin.inc:1460,1461,1438,1451,1450,1461,1450,1461,1463,1463,1463,1451,1470,1470,1450,1470,1450,1472
+msgid "You account permissions do not permit you to import."
+msgstr ""
+
+#: page_manager/page_manager.module:43,43,43,43,43,43,43,43
+msgid "Use Page Manager"
+msgstr ""
+
+#: page_manager/page_manager.module:44,44,44,44,44,44,44,44
+msgid ""
+"Allows users to use most of Page Manager's features, though restricts "
+"some of the most powerful, potentially site-damaging features. Note "
+"that even the reduced featureset still allows for enormous control "
+"over your website."
+msgstr ""
+
+#: page_manager/page_manager.module:48,48,48,48,48,48,48,48
+msgid "Administer Page Manager"
+msgstr ""
+
+#: page_manager/page_manager.module:49,49,49,49,49,49,49,49
+msgid ""
+"Allows complete control over Page Manager, i.e., complete control over "
+"your site. Grant with extreme caution."
+msgstr ""
+
+#: page_manager/page_manager.admin.inc:724,726,718,717,726,717,726,728,728,728,718,732,732,717,732,717
+msgid "Delete and save"
+msgstr ""
+
+#: page_manager/page_manager.admin.inc:738,736,738,730,729,729,738,740,740,740,730,744,744,729,744,729
+msgid "Enable and save"
+msgstr ""
+
+#: page_manager/page_manager.admin.inc:741,748,750,742,750,741,750,752,752,752,742,756,756,741,756,741
+msgid "Disable and save"
+msgstr ""
+

@@ -1,0 +1,867 @@
+# Russian translation of date (all releases)
+# Copyright (c) 2012 by the Russian translation team
+# Generated from files:
+#  date/date/date.install: n/a
+#  date.install,v 1.37.2.5.2.34 2010/04/13 19:46:52 karens
+#  date/date/date.module: n/a
+#  date.module,v 1.61.2.4.2.74 2010/11/29 18:22:00 karens
+#  date/date/date_admin.inc: n/a
+#  date_admin.inc,v 1.40.2.3.2.43 2010/12/28 16:37:37 karens
+#  date_views.inc,v 1.26.2.56 2009/03/27 10:26:27 karens
+#  date/date/date_views.inc: n/a
+#  date.theme,v 1.2.2.39 2009/05/10 21:51:56 karens
+#  date/date/date.theme: n/a
+#  date/date/date_elements.inc: n/a
+#  date/date/date_token.inc: n/a
+#  date_token.inc,v 1.2.2.1.2.8 2010/09/08 02:38:09 arlinsandbulte
+#  date_elements.inc,v 1.46.2.2.2.70 2010/12/29 14:11:50 karens
+#  date/date/date_repeat.inc: n/a
+#  date_repeat.inc,v 1.22.2.1.2.24 2010/10/26 10:21:36 karens
+#  date/date/date.info: n/a
+#  date.info,v 1.3 2008/02/18 19:32:28 karens
+#  date/date/date_handler_field_multiple.inc: n/a
+#  date_handler_field_multiple.inc,v 1.1.2.14 2010/03/05 12:02:31 karens
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: date (all releases)\n"
+"POT-Creation-Date: 2012-08-17 04:37-0400\n"
+"PO-Revision-Date: 2012-02-12 04:08-0500\n"
+"Language-Team: Russian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=((((n%10)==1)&&((n%100)!=11))?(0):(((((n%10)>=2)&&((n%10)<=4))&&(((n%100)<10)||((n%100)>=20)))?(1):2));\n"
+
+#: date/date.install:221,222,221,221
+msgid "Time"
+msgstr "Время"
+
+#: date/date.module:746,742,746,742,745,745
+msgid "Name"
+msgstr "Имя"
+
+#: date/date_admin.inc:113,108,107,114,113,113
+msgid "Input format"
+msgstr "Формат ввода"
+
+#: date/date_views.inc:210,209
+msgid "help"
+msgstr "справка"
+
+#: date/date_admin.inc:395,402,401,396,395,395
+msgid "Expanded"
+msgstr "Развернуто"
+
+#: date/date.module:754,750,754,750,753,753
+msgid "Type"
+msgstr "Тип"
+
+#: date/date_admin.inc:328,327
+msgid "Unlimited"
+msgstr "Не ограничено"
+
+#: date/date_views.inc:159,158
+msgid "date"
+msgstr "дата"
+
+#: date/date_admin.inc:342,341
+msgid "Multiple"
+msgstr "Множественная"
+
+#: date/date.module:237,144,143,237,237,237
+msgid "As Time Ago"
+msgstr "В виде \"тому назад\""
+
+#: date/date_admin.inc:69,66,65,70,69,69
+msgid "Default value"
+msgstr "Значение по умолчанию"
+
+#: date/date_views.inc:35,34
+msgid "Do not group multiple values"
+msgstr ""
+"Не группировать множественные "
+"значения"
+
+#: date/date_views.inc:178,177
+msgid "day"
+msgstr "день"
+
+#: date/date_views.inc:171,170
+msgid "month"
+msgstr "месяц"
+
+#: date/date_views.inc:164,163
+msgid "year"
+msgstr "год"
+
+#: date/date_admin.inc:34,35,34,35,34,34
+msgid "Years back and forward must be in the format -9:+9."
+msgstr ""
+"Год назад и вперед должен быть в "
+"формате -9:+9."
+
+#: date/date_admin.inc:116,111,110,117,116,116
+msgid ""
+"Set the order and format for the date parts in the input form. The "
+"format will be adapted to remove values not in the granularity for "
+"this field."
+msgstr ""
+"Укажите формат ввода даты. Формат "
+"будет подогнан чтобы убрать значения, "
+"не подходящие к этому полю."
+
+#: date/date_admin.inc:116,115
+msgid "*Custom input format"
+msgstr "*пользовательский формат ввода"
+
+#: date/date_admin.inc:118,117
+msgid ""
+"The custom format, if provided, will override the input format "
+"selected above. See more about custom date formats below."
+msgstr ""
+"'Пользовательский формат', если "
+"указан, заменит 'Формат ввода\", "
+"указанный выше. Смотрите подробнее "
+"ниже."
+
+#: date/date_admin.inc:136,130,129,137,136,136
+msgid "Years back and forward"
+msgstr "Год назад и вперед"
+
+#: date/date_admin.inc:143,137,136,144,143,143
+msgid "Time increment"
+msgstr "Увеличить"
+
+#: date/date_admin.inc:146,140,139,147,146,146
+msgid "Increment the minute and second fields by this amount."
+msgstr ""
+"Увеличить минуты и секунды на "
+"указанные значения."
+
+#: date/date_admin.inc:223,208,207,224,223,223
+msgid "Input Type"
+msgstr "Тип ввода"
+
+#: date/date_admin.inc:348,347,346,349,348,348
+msgid ""
+"Display a matching second date field as a 'To date'. If marked "
+"'Optional' field will be presented but not required. If marked "
+"'Required' the 'To date' will be required if the 'From date' is "
+"required or filled in."
+msgstr ""
+"Показывает соответствующее второе "
+"поле даты как 'дата По'. Если отмечено "
+"'Необязательно', поле будет показано, "
+"но не будет запрашиваться. Если "
+"отмечено 'Необязательно', будет "
+"запрашиваться 'дата По', если при этом "
+"запрашивается или заполнена 'дата От'."
+
+#: date/date_admin.inc:361,368,367,362,361,361
+msgid "Set the date elements to be stored (at least a year is required)."
+msgstr ""
+"Установите элементы даты для "
+"сохранения (требуется, по крайней "
+"мере, год)."
+
+#: date/date_admin.inc:369,372,371,370,369,369
+msgid "Default Display"
+msgstr "Отображение по умолчанию"
+
+#: date/date_admin.inc:375,374
+msgid "Additional Display Settings"
+msgstr "Дополнительные настройки отображения"
+
+#: date/date_admin.inc:378,377
+msgid ""
+"Define alternate formatting for the date display. Options other than "
+"the default are made available to views and themes. Possible formats "
+"are default, long, medium, and short."
+msgstr ""
+"Определите дополнительное "
+"форматирование отображения даты. "
+"Опции не по умолчанию можно "
+"просматривать и менять для них "
+"оформление. Возможные форматы: по "
+"умолчанию, полный, средний и краткий."
+
+#: date/date_admin.inc:375,383,382,376,375,375
+msgid "Select the timezone handling method to be used for this date field."
+msgstr ""
+"Выберите способ обработки часового "
+"пояса, котрый будет использоваться "
+"для этого поля даты."
+
+#: date/date_admin.inc:407,406
+msgid ""
+"<div class=\"form-item\"><div class=\"description\">* The custom "
+"format, if provided, will override the selected display or input "
+"options. Define a php date format string like 'm-d-Y H:i' (see !link "
+"for more details).</div></div>"
+msgstr ""
+
+#: date/date_admin.inc:448,447
+msgid "Date display"
+msgstr "Отображение даты"
+
+#: date/date_admin.inc:454,453
+msgid "*Custom display format"
+msgstr "*Пользовательский формат отображения"
+
+#: date/date_views.inc:134,133
+msgid "now"
+msgstr "теперь"
+
+#: date/date_views.inc:142,141
+msgid "greater than or equal to"
+msgstr "больше или равно"
+
+#: date/date_views.inc:144,143
+msgid "less than or equal to"
+msgstr "меньше или равно"
+
+#: date/date_views.inc:188,187
+msgid "To Year"
+msgstr "К году"
+
+#: date/date_views.inc:191,190
+msgid "To Month"
+msgstr "К месяцу"
+
+#: date/date_views.inc:194,193
+msgid "To Day"
+msgstr "К дню"
+
+#: date/date_views.inc:208,207
+msgid ": From "
+msgstr ": От "
+
+#: date/date_views.inc:210,209
+msgid ""
+"Defines an argument to filter for dates within a range, in the format "
+"'YYYY-MM-DD--YYYY-MM-DD'. Many other options can be used in arguments. "
+"See !link for other examples."
+msgstr ""
+"Определяет аргумент для фильтра в "
+"пределах диапазона, в формате 'YYYY-MM-DD - "
+"YYYY-MM-DD'. Много других вариантов могут "
+"использоваться в аргументах. Смотри "
+"!link для других примеров."
+
+#: date/date_views.inc:215,214
+msgid ": To "
+msgstr ": Кому "
+
+#: date/date_views.inc:536,535
+msgid "summarize by year"
+msgstr "суммарно в год"
+
+#: date/date_views.inc:537,536
+msgid "summarize by month"
+msgstr "суммарно в месяц"
+
+#: date/date_views.inc:538,537
+msgid "summarize by day"
+msgstr "суммарно в день"
+
+#: date/date_views.inc:539,538
+msgid "summarize by week"
+msgstr "суммарно в неделю"
+
+#: date/date_views.inc:540,539
+msgid "summarize by hour"
+msgstr "суммарно в час"
+
+#: date/date_views.inc:10,9
+msgid "Date: Date Browser"
+msgstr "Дата: Броузер дат"
+
+#: date/date_views.inc:553,552
+msgid "The Date Browser requires at least one field."
+msgstr ""
+
+#: date/date_views.inc:563,562
+msgid "Date Browser arguments must be set to 'Display All Values'."
+msgstr ""
+
+#: date/date.theme:188,187
+msgid "%period of %date"
+msgstr "%period из %date"
+
+#: date/date.theme:196,195
+msgid "‹ prev !period  "
+msgstr "‹ prev !period  "
+
+#: date/date.theme:199,198
+msgid "  next !period  ›"
+msgstr "  следующий !period  ›"
+
+#: date/date_elements.inc:30,29
+msgid "A 'From date' date is required for %field %delta"
+msgstr ""
+
+#: date/date_elements.inc:36,35
+msgid "A 'To date' is required for %field %delta"
+msgstr ""
+
+#: date/date.install:763,762
+msgid "All nodes with date fields have been checked."
+msgstr ""
+
+#: date/date_token.inc:11,12,11,12,11,11
+msgid "The raw date value."
+msgstr "Необработанное значение даты."
+
+#: date/date_token.inc:12,13,12,13,12,12
+msgid "The formatted date."
+msgstr "Форматированная дата."
+
+#: date/date_token.inc:13,14,13,14,13,13
+msgid "The raw date timestamp."
+msgstr "Необработанная метка времени даты."
+
+#: date/date_token.inc:14,15,14,15,14,14
+msgid "Date year (four digit)"
+msgstr "Год даты (четыре цифры)"
+
+#: date/date_token.inc:15,16,15,16,15,15
+msgid "Date year (two digit)"
+msgstr "Год даты (две цифры)"
+
+#: date/date_token.inc:16,17,16,17,16,16
+msgid "Date month (full word)"
+msgstr "Месяц даты (слово полностью)"
+
+#: date/date_token.inc:17,18,17,18,17,17
+msgid "Date month (abbreviated)"
+msgstr "Месяц даты (сокращение)"
+
+#: date/date_token.inc:18,19,18,19,18,18
+msgid "Date month (two digit, zero padded)"
+msgstr "Месяц даты (две цифры с ведущим нулём)"
+
+#: date/date_token.inc:19,20,19,20,19,19
+msgid "Date month (one or two digit)"
+msgstr "Месяц даты (одна или две цифры)"
+
+#: date/date_token.inc:20,21,20,21,20,20
+msgid "Date week (two digit)"
+msgstr "Неделя даты (две цифры)"
+
+#: date/date_token.inc:23,24,23,24,23,23
+msgid "Date day (full word)"
+msgstr "День даты (слово полностью)"
+
+#: date/date_token.inc:24,25,24,25,24,24
+msgid "Date day (abbreviation)"
+msgstr "День даты (сокращение)"
+
+#: date/date_token.inc:25,26,25,26,25,25
+msgid "Date day (two digit, zero-padded)"
+msgstr "День даты (две цифры с ведущим нулём)"
+
+#: date/date_token.inc:26,27,26,27,26,26
+msgid "Date day (one or two digit)"
+msgstr "День даты (одна или две цифры)"
+
+#: date/date_token.inc:30,31,30,31,30,30
+msgid ""
+"If the field has a to-date defined, the same tokens exist in the form: "
+"[to-????], where ???? is the normal token."
+msgstr ""
+"Если для поля определена дата "
+"окончания (to-date), такой же маркер "
+"существует в форме: [to-????], где ???? — "
+"обычный маркер."
+
+#: date/date_views.inc:506,505
+msgid "N/A"
+msgstr "н/д"
+
+#: date/date_admin.inc:395,402,401,396,395,395
+msgid "Collapsed"
+msgstr "Свернуто"
+
+#: date/date_views.inc:139,138
+msgid "is equal to"
+msgstr "равно"
+
+#: date/date_views.inc:140,139
+msgid "is not equal to"
+msgstr "не равно"
+
+#: date/date_views.inc:141,140
+msgid "greater than"
+msgstr "больше чем"
+
+#: date/date_views.inc:143,142
+msgid "less than"
+msgstr "меньше чем"
+
+#: date/date.module:141,94,93,141,141,141
+msgid "Select List"
+msgstr "Список выбора"
+
+#: date/date_views.inc:134,133
+msgid "<all>"
+msgstr "<все>"
+
+#: date/date.module:333,332
+msgid ""
+"<p>Complete documentation for the Date and Date API modules is "
+"available at !link.</p>"
+msgstr ""
+"<p>Полная документация для модулей Date и "
+"Date API  доступна в !link. </p>"
+
+#: date/date_admin.inc:71,77,68,86,67,85,72,78,71,77,71,77
+msgid "Blank"
+msgstr "Пустое"
+
+#: date/date_admin.inc:30,31,30,31,30,30
+msgid "The Strtotime default value for the To Date is invalid."
+msgstr ""
+"Значение по умолчанию для strtotime задано "
+"неверно для поле \"До даты\"."
+
+#: date/date_admin.inc:72,78,69,87,68,86,73,79,72,78,72,78
+msgid ""
+"A default value to use for this field. If you select 'Relative', add "
+"details below."
+msgstr ""
+"Значение по умолчанию для этого поля. "
+"При выборе 'Относительное', укажите "
+"подробности ниже."
+
+#: date/date_admin.inc:82,73,72,83,82,82
+msgid "Customize Default Value"
+msgstr "Уточните значение по умолчанию"
+
+#: date/date_admin.inc:74,73
+msgid ""
+"<p>The custom value for a Relative default should be something that "
+"describes a time by reference to the current day using strtotime, like "
+"'+90 days' (90 days from the day the field is created) or '+1 "
+"Saturday' (the next Saturday). See !strtotime for more details.</p>"
+msgstr ""
+"<p>Пользовательское значение для "
+"Относительного по умолчанию должно "
+"описывать время относительно текущей "
+"даты, используя strtotime, например, '+90 "
+"дней' (90 дней с момента создания поля) "
+"или '+1 суббота' (следующая суббота). "
+"Подробности смотрите на !strtotime. </p>"
+
+#: date/date_admin.inc:88,79,78,89,88,88
+msgid "Custom value for From date"
+msgstr "Пользовательское значение даты \"От\""
+
+#: date/date_admin.inc:75,84,83,76,75,75
+msgid "Default value for To date"
+msgstr "Значение по умолчанию для даты 'По'"
+
+#: date/date_admin.inc:77,86,85,78,77,77
+msgid "Same as From date"
+msgstr "То же, что и для даты \"От\""
+
+#: date/date_admin.inc:93,90,89,94,93,93
+msgid "Custom value for To date"
+msgstr ""
+"Пользовательское значение для даты "
+"\"По\""
+
+#: date/date_admin.inc:140,134,133,141,140,140
+msgid ""
+"Number of years to go back and forward in the year selection list, "
+"default is -3:+3."
+msgstr ""
+"Количество лет вперед и назад в списке "
+"выбора года, по умолчанию -3:+3."
+
+#: date/date_admin.inc:180,166,165,181,180,180
+msgid ""
+"The location of date part labels, like 'Year', 'Month', or 'Day'. "
+"'Above' will display them as titles above each date part. 'Within' "
+"will insert the label as the first option in the select list and in "
+"blank textfields. 'None' will not label any of the date parts. The "
+"exact text in the label is controlled by themes like "
+"'date_part_label_year' and 'date_part_label_month'."
+msgstr ""
+"Положение меток части даты, таких как, "
+"'Год', 'Месяц', или 'День'. При значении "
+"'Выше' они будут показаны как титры над "
+"каждой частью даты. 'Внутри' вставит "
+"метку первой опцией в список выбора и "
+"в пустые текстовые поля. При 'Нет' не "
+"отмечается никакая часть даты. Точный "
+"текст в метке определяется темами, "
+"такими как: 'date_part_label_year' и "
+"'date_part_label_month'."
+
+#: date/date_admin.inc:171,157,156,172,171,171
+msgid "Customize Date Parts"
+msgstr "Настройте Части Даты"
+
+#: date/date_admin.inc:329,328
+msgid ""
+"Choose an option for handling multiple values. Unlimited will allow "
+"the user to manually create unlimited multiple dates one date at a "
+"time."
+msgstr ""
+
+#: date/date_admin.inc:332,331
+msgid "Repeating"
+msgstr "Повторение"
+
+#: date/date_elements.inc:327,348,347,328,327,327
+msgid "Empty 'To date' values will use the 'From date' values."
+msgstr ""
+"Пустое значение в 'Дата окончания'  "
+"будет использовать значение поля "
+"'Дата начала'."
+
+#: date/date_repeat.inc:77,76,78,77,77
+msgid "The UNTIL value is required for repeating dates."
+msgstr ""
+"Значение ДО необходимо для дат с "
+"повторениями"
+
+#: date/date_views.inc:568,567
+msgid "A date argument must be added to a Date Browser view."
+msgstr ""
+
+#: date/date.module:102,101
+msgid "Text Field with jquery pop-up calendar"
+msgstr ""
+
+#: date/date.info:0,0,0,0,0
+msgid "Defines CCK date/time fields and widgets."
+msgstr ""
+"Определяет CCK-поля даты/времени и "
+"способы их отображения."
+
+#: date/date_views.inc:36,35
+msgid "Show first value only"
+msgstr "Показывать только первое значение"
+
+#: date/date_views.inc:37,36
+msgid "Show last value only"
+msgstr "Показывать только последнее значение"
+
+#: date/date_views.inc:334,333
+msgid "That is not a valid date."
+msgstr "Это неверная дата."
+
+#: date/date.module:126,126,126,126
+msgid ""
+"Store a date in the database as a timestamp, deprecated format to "
+"suppport legacy data."
+msgstr ""
+
+#: date/date_elements.inc:480,476,485,475,481,485,485
+msgid "The To date must be greater than the From date."
+msgstr ""
+"Дата окончания должна быть позже чем "
+"Дата начала."
+
+#: date/date.module:157,97,96,157,157,157
+msgid "Text Field with custom input format"
+msgstr ""
+"Текстовое поле с пользовательским "
+"форматом ввода"
+
+#: date/date_admin.inc:333,332
+msgid ""
+" Repeating dates will allow the user to select when and how often the "
+"date will repeat."
+msgstr ""
+
+#: date/date_admin.inc:396,403,402,397,396,396
+msgid "Repeat display"
+msgstr "Повторить отображение"
+
+#: date/date_admin.inc:404,403
+msgid ""
+"If set to use repeating dates, should the repeat options form start "
+"out expanded or collapsed? Set to 'Collapsed' to make those options "
+"less obtrusive."
+msgstr ""
+
+#: date/date_admin.inc:47,46
+msgid ""
+"The Date Popup widget will not work unless granularity includes year, "
+"month, and day."
+msgstr ""
+
+#: date/date_admin.inc:238,223,222,239,238,238
+msgid "Granularity must include a year."
+msgstr ""
+
+#: date/date_admin.inc:646,647,646,646
+msgid "starting from @count"
+msgstr "начинается с @count"
+
+#: date/date.install:104,484,483,105,104,104
+msgid ""
+"All date fields using the jscalendar widget have been changed to use "
+"the text widget instead, since the jscalendar widget is no longer "
+"supported. Enable the Date Popup module to make a jQuery popup "
+"calendar available and edit the field settings to select it."
+msgstr ""
+
+#: date/date.theme:375,374
+msgid "(All day)"
+msgstr "(Весь день)"
+
+#: date/date_admin.inc:413,412
+msgid ""
+"<p class=\"error\">Changing the %name setting after data has been "
+"created could result in the loss of data!</p>"
+msgstr ""
+"<p class=\"error\">Изменение настроек %name "
+"после ввода данных может привести к "
+"потре данных!</p>"
+
+#: date/date.install:201,202,201,201
+msgid ""
+"Some updates are still pending. Please return to <a "
+"href=\"@update-php\">update.php</a> and run the remaining updates."
+msgstr ""
+"Некоторые обновления все еще ожидают. "
+"Пожалуйста, вернитесь к <a "
+"href=\"@update-php\">update.php</a> и запустите "
+"оставшиеся обновления."
+
+#: date/date_admin.inc:397,398,397,397
+msgid ""
+"Should the repeat options form start out expanded or collapsed? Set to "
+"'Collapsed' to make those options less obtrusive."
+msgstr ""
+
+#: date/date_elements.inc:451,444,456,443,452,456,456
+msgid "Some value must be entered in the To date."
+msgstr ""
+
+#: date/date.module:149,149,149,149
+msgid "Select List with Repeat options"
+msgstr ""
+"Список выбора с возможностью "
+"повторений"
+
+#: date/date.module:165,165,165,165
+msgid "Text Field with Repeat options"
+msgstr ""
+"Текстовое поле с возможностью "
+"повторений"
+
+#: date/date.module:175,175,175,175
+msgid "Text Field with Date Pop-up calendar"
+msgstr "Текстовое поле с popup календарем"
+
+#: date/date.module:183,183,183,183
+msgid "Text Field with Date Pop-up and Repeat options"
+msgstr ""
+"Текстовое поле с popup календарем и "
+"возможностью повторений"
+
+#: date/date.install:141,142,141,141
+msgid ""
+"All repeating date fields have been updated to use the new repeating "
+"widgets."
+msgstr ""
+
+#: date/date.install:202,203,202,202
+msgid "Some updates are still pending.<br/>Please re-run the update script."
+msgstr ""
+"Некоторые обновления все еще "
+"ожидают.<br/>Пожалуйста, перезапустите "
+"скрипт обновления."
+
+#: date/date_handler_field_multiple.inc:53,51,53,53
+msgid ""
+"If unchecked, each item in the field will create a new row, which may "
+"appear to cause duplicates. This setting is not compatible with "
+"click-sorting in table displays."
+msgstr ""
+"Если не выбрано, то каждый элемент "
+"будет создавать новую строку при "
+"выводе, что может вызвать отображение "
+"дубликатов. Эта опция не совместима с "
+"сортировкой табличного отображения."
+
+#: date/date.install:186,553,552,187,186,186
+msgid ""
+"The database has been updated to correct the stored timezone for "
+"fields using timezone 'none'."
+msgstr ""
+
+#: date/date.install:222,223,222,222
+msgid "Time with timezone"
+msgstr "Время с часовым поясом"
+
+#: date/date_token.inc:21,22,21,22,21,21
+msgid "Date date (YYYY-MM-DD)"
+msgstr "Date дата (ГГГГ-ММ-ДД)"
+
+#: date/date_admin.inc:83,84,83,83
+msgid ""
+"The custom value for a Relative default should be something that "
+"describes a time by reference to the current day using strtotime, like "
+"'+90 days' (90 days from the day the field is created) or '+1 "
+"Saturday' (the next Saturday). See !strtotime for more details."
+msgstr ""
+
+#: date/date_admin.inc:420,421,420,420
+msgid ""
+"Changing the %name setting after data has been created could result in "
+"the loss of data!"
+msgstr ""
+
+#: date/date_elements.inc:27,28,27,27
+msgid "A 'From date' date is required for field %field %delta."
+msgstr ""
+
+#: date/date_elements.inc:33,34,33,33
+msgid "A 'To date' is required for field %field %delta."
+msgstr ""
+"Значение \"До даты\" необходимо для "
+"поля %field %delta."
+
+#: date/date.module:41,41,41,41
+msgid "view date repeats"
+msgstr ""
+
+#: date/date_admin.inc:372,373,372,372
+msgid ""
+"Select a default format type to be used for the date display. Visit "
+"the <a href=\"@date-time-page\">Date and time date format page</a> to "
+"add and edit format types."
+msgstr ""
+
+#: date/date.module:742,738,742,738,741,741
+msgid "Add format type"
+msgstr "Добавить тип формата"
+
+#: date/date.module:747,743,747,743,746,746
+msgid "The human-readable name for this format type."
+msgstr ""
+"Человеко-понятное название для этого "
+"формата"
+
+#: date/date.module:755,751,755,751,754,754
+msgid ""
+"The machine-readable name of this format type. <br>This name must "
+"contain only lowercase letters, numbers, and underscores and must be "
+"unique."
+msgstr ""
+"Системное название этого "
+"формата.<br>Может содержать только "
+"строчные буквы английского "
+"алфавита,<br>цифры и знак "
+"подчёркивания, и должно быть "
+"уникальным"
+
+#: date/date.module:773,769,773,769,772,772
+msgid ""
+"The format type must contain only alphanumeric characters and "
+"underscores."
+msgstr ""
+
+#: date/date.module:777,773,777,773,776,776
+msgid "This format type already exists.  Please enter a unique type."
+msgstr ""
+"Этот тип форматирования уже "
+"существует. Пожалуйста введите "
+"уникальный тип."
+
+#: date/date.install:307,308,307,307
+msgid "Field %field formats were converted to custom formats."
+msgstr ""
+"Форматы поля %field были преобразованы в "
+"пользовательские форматы."
+
+#: date/date.install:310,311,310,310
+msgid ""
+"The old format type %from_format for field %field was converted to the "
+"new format type %to_format."
+msgstr ""
+
+#: date/date.install:336,337,336,336
+msgid ""
+"The display settings for field %field in content type %type_name were "
+"updated."
+msgstr ""
+
+#: date/date.install:365,366,365,365
+msgid ""
+"Date display formats are now included with the system date and time "
+"settings. Please visit <a href=\"@date-time-page\">the Date and time "
+"format page</a> to see the new format types."
+msgstr ""
+
+#: date/date_admin.inc:124,125,124,124
+msgid ""
+"The custom format, if provided, will override the input format "
+"selected above. The custom format, if provided, will override the "
+"selected display or input options. Define a php date format string "
+"like 'm-d-Y H:i' (see <a href=\"@link\">http://php.net/date</a> for "
+"more details)."
+msgstr ""
+
+#: date/date_elements.inc:338,343,339,343,343
+msgid "@field_name From date value #@delta"
+msgstr "@field_name значение \"От даты\" #@delta"
+
+#: date/date_elements.inc:340,345,341,345,345
+msgid "@field_name To date value #@delta"
+msgstr "@field_name значение \"До даты\" #@delta"
+
+#: date/date_elements.inc:344,349,345,349,349
+msgid "@field_name From date"
+msgstr "@field_name от даты"
+
+#: date/date_elements.inc:345,350,346,350,350
+msgid "@field_name To date"
+msgstr "@field_name до даты"
+
+#: date/date_elements.inc:516,521,512,521,521
+msgid "The From date is invalid."
+msgstr "Поле \"От даты\" заполнено не верно"
+
+#: date/date_elements.inc:519,524,515,524,524
+msgid "The To date is invalid."
+msgstr "Поле \"До даты\" неверно"
+
+#: date/date_admin.inc:603,604,603,603
+msgid "Display From and To dates"
+msgstr "Отобразить даты и \"От\" и \"До\""
+
+#: date/date_admin.inc:604,605,604,604
+msgid "Display From date only"
+msgstr "Отобразить только дату \"От\""
+
+#: date/date_admin.inc:605,606,605,605
+msgid "Display To date only"
+msgstr "Отобразить только дату \"До\""
+
+#: date/date_admin.inc:668,669,668,668
+msgid "ending on @count"
+msgstr "окончание на @count"
+
+#: date/date_admin.inc:697,698,697,697
+msgid "Display repeat rule"
+msgstr "Показать правило повторения"
+
+#: date/date_token.inc:22,23,22,23,22,22
+msgid "Date datetime (YYYY-MM-DDTHH:MM:SS)"
+msgstr "Date дата и время (ГГГГ-ММ-ДДTЧЧ:ММ:СС)"
+
+#: date/date_token.inc:28,27,29,28,28
+msgid "Time H:i"
+msgstr "Время H:i"
+
+#: date/date_token.inc:27,28,27,27
+msgid "Date day (one or two digit) with ordinal suffix (st, nd, rd or th)"
+msgstr ""
+

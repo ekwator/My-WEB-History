@@ -1,0 +1,56 @@
+.debug .span-1:hover,
+.debug .span-2:hover,
+.debug .span-3:hover,
+.debug .span-4:hover,
+.debug .span-5:hover,
+.debug .span-6:hover,
+.debug .span-7:hover,
+.debug .span-8:hover,
+.debug .span-9:hover,
+.debug .span-10:hover,
+.debug .span-11:hover,
+.debug .span-12:hover,
+.debug .span-13:hover,
+.debug .span-14:hover,
+.debug .span-15:hover,
+.debug .span-16:hover,
+.debug .span-17:hover,
+.debug .span-18:hover,
+.debug .span-19:hover,
+.debug .span-20:hover,
+.debug .span-21:hover,
+.debug .span-22:hover,
+.debug .span-23:hover,
+.debug .span-24:hover,
+.debug .span-full:hover{
+  background-color: rgba(0, 255, 255, .2);
+  background-repeat: no-repeat;
+  background-position: top right;
+  outline: 1px solid #d66;
+}
+
+.debug .span-1:hover {   background-image: url(grid_count/1.png);   }
+.debug .span-2:hover {   background-image: url(grid_count/2.png);   }
+.debug .span-3:hover {   background-image: url(grid_count/3.png);   }
+.debug .span-4:hover {   background-image: url(grid_count/4.png);   }
+.debug .span-5:hover {   background-image: url(grid_count/5.png);   }
+.debug .span-6:hover {   background-image: url(grid_count/6.png);   }
+.debug .span-7:hover {   background-image: url(grid_count/7.png);   }
+.debug .span-8:hover {   background-image: url(grid_count/8.png);   }
+.debug .span-9:hover {   background-image: url(grid_count/9.png);   }
+.debug .span-10:hover {  background-image: url(grid_count/10.png);  }
+.debug .span-11:hover {  background-image: url(grid_count/11.png);  }
+.debug .span-12:hover {  background-image: url(grid_count/12.png);  }
+.debug .span-13:hover {  background-image: url(grid_count/13.png);  }
+.debug .span-14:hover {  background-image: url(grid_count/14.png);  }
+.debug .span-15:hover {  background-image: url(grid_count/15.png);  }
+.debug .span-16:hover {  background-image: url(grid_count/16.png);  }
+.debug .span-17:hover {  background-image: url(grid_count/17.png);  }
+.debug .span-18:hover {  background-image: url(grid_count/18.png);  }
+.debug .span-19:hover {  background-image: url(grid_count/19.png);  }
+.debug .span-20:hover {  background-image: url(grid_count/20.png);  }
+.debug .span-21:hover {  background-image: url(grid_count/21.png);  }
+.debug .span-22:hover {  background-image: url(grid_count/22.png);  }
+.debug .span-23:hover {  background-image: url(grid_count/23.png);  }
+.debug .span-24:hover {  background-image: url(grid_count/24.png);  }
+.debug .span-full:hover {  background-image: url(grid_count/full.png);  }
